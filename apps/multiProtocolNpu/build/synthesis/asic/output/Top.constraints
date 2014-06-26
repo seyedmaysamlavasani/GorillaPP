@@ -1,0 +1,19 @@
+ 
+****************************************
+Report : constraint
+        -all_violators
+Design : RREncode
+Version: B-2008.09-SP4
+Date   : Wed Jun  4 20:03:39 2014
+****************************************
+
+
+   max_area
+
+                             Required        Actual
+   Design                      Area           Area           Slack
+   -----------------------------------------------------------------
+   RREncode                     0.00           1.41          -1.41  (VIOLATED)
+
+
+1

@@ -1,0 +1,21 @@
+ 
+****************************************
+Report : cell
+Design : RREncode
+Version: B-2008.09-SP4
+Date   : Wed Jun  4 20:03:39 2014
+****************************************
+
+Attributes:
+    b - black box (unknown)
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    u - contains unmapped logic
+
+Cell                      Reference       Library             Area  Attributes
+--------------------------------------------------------------------------------
+U1                        INVX1           gscl45nm        1.407900  
+--------------------------------------------------------------------------------
+Total 1 cells                                             1.407900
+1

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<opml version="1.0">
+	<head>
+		<title>VCS dump file for DVE debugging</title>
+		<vcsVersion>D-2009.12</vcsVersion>
+		<dateCreated>Thu Oct 10 21:41:46 2013</dateCreated>
+	</head>
+	<body>
+		<!-- VCS compile options -->
+		<vcsCompileOptions text="/tools/synopsys_2009/vcs-mx/linux/bin/vcs1 -Mcc=gcc -Mcplusplus=g++ -Masflags=--32 -Mcfl= -pipe -m32 -O -I/tools/synopsys_2009/vcs-mx/include  -Mldflags=-melf_i386 -m32  -Mout=simv -Mamsrun= -Mvcsaceobjs= -Mcmodrun= -Mobjects= /tools/synopsys_2009/vcs-mx/linux/lib/libvirsim.a /tools/synopsys_2009/vcs-mx/linux/lib/librterrorinf.so /tools/synopsys_2009/vcs-mx/linux/lib/libsnpsmalloc.so  -Msaverestoreobj=/tools/synopsys_2009/vcs-mx/linux/lib/vcs_save_restore_new.o -Mcrtn= -Mcsrc= -Msyslibs=/tools/synopsys_2009/vcs-mx/linux/lib/ctype-stubs_32.a -ldl -lm  +v2k -Xcbug=0x1 +cli+4 +vcsd +itf+/tools/synopsys_2009/vcs-mx/linux/lib/vcsd.tab +vpi -debug=3 +memcbk +vpi -gen_obj Offloaded-myharness.v Offloaded.v "/>
+		<!-- File list for the whole design -->
+		<fileList>
+			<file fid="0" path="/proj/maysam/magilla/Gorilla++/chisel/KmeansAndMesh/emulator/Offloaded-myharness.v" />
+			<file fid="1" path="/proj/maysam/magilla/Gorilla++/chisel/KmeansAndMesh/emulator/Offloaded.v" />
+		</fileList>
+		<!-- Include file list for the whole design -->
+		<includeFileList>
+		</includeFileList>
+		<!-- Encrypted codes list for the whole design -->
+		<encryptedCodesList>
+		</encryptedCodesList>
+		<!-- Inactive codes list for the whole design -->
+		<inactiveCodesList>
+		</inactiveCodesList>
+		<!-- Compile options UUM based -->
+		<langKeywords>
+			<v2kFiles fid="0-1" />
+		</langKeywords>
+		<!--  Case insensitive file list -->
+		<caseInsensitiveFiles fid="" />
+		<!-- Macro definition list for the whole design --> 
+		<macroDefinitionList>
+		</macroDefinitionList>
+		<!-- Macro value list for the whole design --> 
+		<macroValueList>
+		</macroValueList>
+	</body>
+</opml>

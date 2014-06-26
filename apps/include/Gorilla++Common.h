@@ -1,0 +1,1 @@
+#define WaitForInputValid 0

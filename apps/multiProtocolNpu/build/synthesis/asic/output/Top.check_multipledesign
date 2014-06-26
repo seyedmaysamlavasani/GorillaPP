@@ -1,0 +1,2 @@
+Warning: In design 'RREncode', port 'io_ready' is not connected to any nets. (LINT-28)
+1

@@ -1,0 +1,13 @@
+# Output products list for <multiplier64fp>
+multiplier64fp/doc/floating_point_ds335.pdf
+multiplier64fp/doc/floating_point_v5_0_readme.txt
+multiplier64fp/doc/floating_point_v5_0_vinfo.html
+multiplier64fp.asy
+multiplier64fp.gise
+multiplier64fp.ngc
+multiplier64fp.v
+multiplier64fp.veo
+multiplier64fp.xco
+multiplier64fp.xise
+multiplier64fp_flist.txt
+multiplier64fp_xmdf.tcl

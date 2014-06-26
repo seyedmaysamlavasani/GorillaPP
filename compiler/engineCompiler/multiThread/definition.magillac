@@ -1,0 +1,4 @@
+val inputReg = Vec(numOfThreads) {Reg(UFix(width = 32))}
+val outputReg = Vec(numOfThreads) {Reg(UFix(width = 32))}
+val GS_GET = UFix(1)
+val GS_SEND = UFix(2)

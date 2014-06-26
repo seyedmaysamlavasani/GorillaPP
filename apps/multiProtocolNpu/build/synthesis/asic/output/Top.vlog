@@ -1,0 +1,9 @@
+
+module RREncode ( io_valid_0, io_chosen, io_ready );
+  input io_valid_0, io_ready;
+  output io_chosen;
+
+
+  INVX1 U1 ( .A(io_valid_0), .Y(io_chosen) );
+endmodule
+

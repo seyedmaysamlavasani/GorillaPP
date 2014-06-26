@@ -1,0 +1,204 @@
+# Preference setting overrides
+gui_create_pref_key -category {Globals} -key {load_detail_for_funcov} -value_type {bool} -value {false}
+
+# State setting overrides
+gui_state_default_create -off -ini
+gui_set_state_value -category Globals -key open_wave_inside -value true
+gui_set_state_value -category Globals -key recent_sessions -value {{gui_load_session -file /home/maysam/magilla/magilla/board_ml605/sessions/syn_sim/engine_scheduler.tcl -ignore_errors} {gui_load_session -file /home/maysam/magilla/magilla/board_ml605/sessions/syn_sim/engine_scheduler.tcl} {gui_load_session -file /home/maysam/magilla/magilla/board_ml605/syn_sim/mem_helper.tcl} {gui_load_session -file /home/maysam/magilla/magilla/board_ml605/sessions/engines/engine_c_0_e_1.tcl -ignore_errors}}
+gui_set_state_value -category Layout -key child_console_docknewline -value false
+gui_set_state_value -category Layout -key child_console_dockstate -value undocked
+gui_set_state_value -category Layout -key child_console_pos_x -value {-2}
+gui_set_state_value -category Layout -key child_console_pos_y -value {-15}
+gui_set_state_value -category Layout -key child_console_showstate -value maximized
+gui_set_state_value -category Layout -key child_console_size_x -value 937
+gui_set_state_value -category Layout -key child_console_size_y -value 729
+gui_set_state_value -category Layout -key child_data_coltype -value 262
+gui_set_state_value -category Layout -key child_data_colvalue -value 255
+gui_set_state_value -category Layout -key child_data_colvariable -value 396
+gui_set_state_value -category Layout -key child_data_docknewline -value false
+gui_set_state_value -category Layout -key child_data_dockstate -value undocked
+gui_set_state_value -category Layout -key child_data_pos_x -value {-2}
+gui_set_state_value -category Layout -key child_data_pos_y -value {-15}
+gui_set_state_value -category Layout -key child_data_showstate -value maximized
+gui_set_state_value -category Layout -key child_data_size_x -value 937
+gui_set_state_value -category Layout -key child_data_size_y -value 729
+gui_set_state_value -category Layout -key child_hier_colhier -value 245
+gui_set_state_value -category Layout -key child_hier_size_x -value 319
+gui_set_state_value -category Layout -key child_hier_size_y -value 734
+gui_set_state_value -category Layout -key child_source_docknewline -value false
+gui_set_state_value -category Layout -key child_source_pos_x -value {-2}
+gui_set_state_value -category Layout -key child_source_pos_y -value {-15}
+gui_set_state_value -category Layout -key child_source_size_x -value 937
+gui_set_state_value -category Layout -key child_source_size_y -value 729
+gui_set_state_value -category Layout -key child_wave_colname -value 275
+gui_set_state_value -category Layout -key child_wave_colvalue -value 137
+gui_set_state_value -category Layout -key child_wave_docknewline -value false
+gui_set_state_value -category Layout -key child_wave_left -value 417
+gui_set_state_value -category Layout -key child_wave_pos_x -value {-2}
+gui_set_state_value -category Layout -key child_wave_pos_y -value {-15}
+gui_set_state_value -category Layout -key child_wave_right -value 510
+gui_set_state_value -category Layout -key child_wave_size_x -value 937
+gui_set_state_value -category Layout -key child_wave_size_y -value 729
+gui_set_state_value -category Layout -key main_pos_x -value 226
+gui_set_state_value -category Layout -key main_pos_y -value 141
+gui_set_state_value -category Layout -key main_size_x -value 1478
+gui_set_state_value -category Layout -key main_size_y -value 974
+gui_set_state_value -category Layout -key stand_source_child_docknewline -value false
+gui_set_state_value -category Layout -key stand_source_child_pos_x -value {-2}
+gui_set_state_value -category Layout -key stand_source_child_pos_y -value {-15}
+gui_set_state_value -category Layout -key stand_source_child_size_x -value 175
+gui_set_state_value -category Layout -key stand_source_child_size_y -value 378
+gui_set_state_value -category Layout -key stand_wave_child_docknewline -value false
+gui_set_state_value -category Layout -key stand_wave_child_pos_x -value {-2}
+gui_set_state_value -category Layout -key stand_wave_child_pos_y -value {-17}
+gui_set_state_value -category Layout -key stand_wave_child_size_x -value 1209
+gui_set_state_value -category Layout -key stand_wave_child_size_y -value 537
+gui_set_state_value -category Layout -key stand_wave_top_pos_x -value 87
+gui_set_state_value -category Layout -key stand_wave_top_pos_y -value 153
+gui_set_state_value -category Layout -key stand_wave_top_size_x -value 1291
+gui_set_state_value -category Layout -key stand_wave_top_size_y -value 836
+gui_create_state_key -category FindDialog -key m_pMatchCase -value_type bool -value false
+gui_create_state_key -category FindDialog -key m_pMatchWord -value_type bool -value false
+gui_create_state_key -category FindDialog -key m_pUseCombo -value_type string -value {}
+gui_create_state_key -category FindDialog -key m_pWrapAround -value_type bool -value true
+gui_create_state_key -category Widget_History -key TopLevel.1|EkTopVbox|wndWorkspace|qt_workspacechild2|DLPane.1|pages|Data.1|hbox|textfilter -value_type string -value *Mux*
+gui_state_default_create -off
+
+# Begin command logging
+gui_sim_run Ucli -exe ./simv -args {-ucligui    } -dir .
+gui_list_expand -id  Hier.1   test
+gui_list_expand -id  Hier.1   test.Offloaded
+gui_list_select -id Hier.1 {  test   test.Offloaded   }
+gui_open_window Wave
+gui_list_add -id Wave.1 -from Hier.1 { test.Offloaded } -insertionbar
+gui_list_collapse -id  Wave.1   Offloaded
+gui_list_select -id Wave.1 {  Offloaded   }
+gui_delete_selected -id  Wave.1
+gui_open_window List
+gui_lst_add -id List.1 { test.Offloaded }
+gui_close_window -window TopLevel.2
+gui_open_window List
+gui_lst_add -id List.1 { test.Offloaded }
+gui_close_window -window TopLevel.2
+gui_use_schematics 
+gui_sch_show -name test.Offloaded
+gui_set_pref_value -category {schem_pin_hc} -key {textExtFont} -value {Helvetica,10,-1,5,50,0,0,0,0,0}
+gui_zoom -window Schematic.1 -rect { {-7137 -4080} {17136 14105} }
+gui_zoom -window Schematic.1 -rect { {-14860 -63307} {76369 5040} }
+gui_zoom -window Schematic.1 -rect { {-14860 -63307} {76369 5040} }
+gui_zoom -window Schematic.1 -rect { {-14860 -63307} {76369 5040} }
+gui_list_expand -id  Hier.1   test.Offloaded.gOffloadedComponent
+gui_list_add -id Wave.1 -from Hier.1 { test.Offloaded } -insertionbar
+gui_sim_continue  
+gui_sim_stop 
+gui_list_set_filter -id Wave.1 -text {*pc*}
+gui_list_select -id Wave.1 {  {test.Offloaded.io_pcIn_bits_pcType[3:0]}   }
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_marker_move -id  Wave.1 C1 100
+gui_list_select -id Wave.1 {  {test.Offloaded.io_pcIn_bits_pcType[3:0]}   test.Offloaded.gOffloadedComponent_io_pcOut_valid   }
+gui_marker_move -id  Wave.1 C1 100
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_list_select -id Wave.1 {  test.Offloaded.gOffloadedComponent_io_pcOut_valid   {test.Offloaded.io_pcOut_bits_pcValue[15:0]}   }
+gui_marker_move -id  Wave.1 C1 1607
+gui_seek_next -id Wave.1 -number 1 
+gui_seek_next -id Wave.1 -number 1 
+gui_seek_next -id Wave.1 -number 1 
+gui_seek_next -id Wave.1 -number 1 
+gui_seek_next -id Wave.1 -number 1 
+gui_list_select -id Wave.1 {  {test.Offloaded.io_pcOut_bits_pcValue[15:0]}   test.Offloaded.io_pcOut_valid   }
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_list_select -id Hier.1 {  test.Offloaded   test.Offloaded.gOffloadedComponent   }
+gui_list_select -id Hier.1 {  test.Offloaded.gOffloadedComponent   test.Offloaded.gOffloadedComponent.mainComp   }
+gui_open_window Wave
+gui_list_add -id Wave.2 -from Hier.1 { test.Offloaded.gOffloadedComponent.mainComp } -insertionbar
+gui_sim_restart
+gui_zoom -window Schematic.1 -rect { {-7137 -4080} {17136 14105} }
+gui_zoom -window Schematic.1 -rect { {-7137 -4080} {17136 14105} }
+gui_zoom -window Schematic.1 -rect { {-7137 -4080} {17136 14105} }
+gui_zoom -window Schematic.1 -rect { {-14860 -63307} {76369 5040} }
+gui_zoom -window Schematic.1 -rect { {-14860 -63307} {76369 5040} }
+gui_zoom -window Schematic.1 -rect { {-14845 -63306} {76285 4966} }
+gui_sim_continue  
+gui_sim_stop 
+gui_list_select -id Wave.2 {  test.Offloaded.gOffloadedComponent.mainComp.io_pcOut_valid   }
+gui_marker_move -id  Wave.2 C1 14853673
+gui_seek_previous -id Wave.2 -number 1 
+gui_seek_previous -id Wave.2 -number 1 
+gui_seek_previous -id Wave.2 -number 1 
+gui_seek_previous -id Wave.2 -number 1 
+gui_seek_previous -id Wave.2 -number 1 
+gui_zoom -window Wave.2 -factor 0.5
+gui_zoom -window Wave.2 -factor 0.5
+gui_zoom -window Wave.2 -factor 0.5
+gui_zoom -window Wave.2 -factor 0.5
+gui_zoom -window Wave.2 -factor 0.5
+gui_zoom -window Wave.2 -factor 0.5
+gui_zoom -window Wave.2 -factor 0.5
+gui_zoom -window Wave.2 -factor 0.5
+gui_zoom -window Wave.2 -factor 0.5
+gui_zoom -window Wave.2 -factor 0.5
+gui_zoom -window Wave.2 -factor 0.5
+gui_zoom -window Wave.2 -factor 0.5
+gui_zoom -window Wave.2 -factor 0.5
+gui_zoom -window Wave.2 -factor 0.5
+gui_zoom -window Wave.2 -factor 0.5
+gui_zoom -window Wave.2 -factor 0.5
+gui_zoom -window Wave.2 -factor 0.5
+gui_zoom -window Wave.2 -factor 0.5
+gui_zoom -window Wave.2 -factor 0.5
+gui_close_window -window Wave.2
+gui_close_window -window Schematic.1
+gui_close_window -window Wave.1
+gui_close_window -window Source.1
+gui_close_window -window DLPane.1
+gui_close_window -window Console.1

@@ -1,0 +1,436 @@
+cd ../sbt; java -Xmx4096M -Xss8M -XX:MaxPermSize=2G -jar sbt-launch.jar "project KmeansAndMesh" "run Top --backend v --targetDir ../verilog --genHarness"
+[0m[[0minfo[0m] [0mLoading project definition from /proj/maysam/magilla/Gorilla++/chisel/Gorilla++/sbt/project[0m
+[0m[[0minfo[0m] [0mSet current project to KmeansAndMesh (in build file:/proj/maysam/magilla/Gorilla++/chisel/Gorilla++/sbt/)[0m
+[0m[[0minfo[0m] [0mSet current project to KmeansAndMesh (in build file:/proj/maysam/magilla/Gorilla++/chisel/Gorilla++/sbt/)[0m
+[0m[[0minfo[0m] [0mRunning Tutorial.Tutorial Top --backend v --targetDir ../verilog --genHarness[0m
+Offload called for port distanceFU
+main offlaod ports are
+distanceFU
+centeroidMem
+partialAccumulatorMem
+add
+left offlaod ports are
+right offlaod ports are
+distanceFU
+centeroidMem
+partialAccumulatorMem
+add
+in Offload main offPorts a is 
+distanceFU
+centeroidMem
+partialAccumulatorMem
+add
+in Offload main offPorts b is 
+merged offlaod ports are
+centeroidMem
+partialAccumulatorMem
+add
+Offload called for port centeroidMem
+main offlaod ports are
+centeroidMem
+partialAccumulatorMem
+add
+left offlaod ports are
+right offlaod ports are
+centeroidMem
+partialAccumulatorMem
+add
+in Offload main offPorts a is 
+centeroidMem
+partialAccumulatorMem
+add
+in Offload main offPorts b is 
+merged offlaod ports are
+partialAccumulatorMem
+add
+Offload called for port partialAccumulatorMem
+main offlaod ports are
+partialAccumulatorMem
+add
+left offlaod ports are
+right offlaod ports are
+partialAccumulatorMem
+add
+in Offload main offPorts a is 
+partialAccumulatorMem
+add
+in Offload main offPorts b is 
+merged offlaod ports are
+add
+Offload called for port add
+main offlaod ports are
+add
+left offlaod ports are
+right offlaod ports are
+add
+in Offload main offPorts a is 
+add
+in Offload main offPorts b is 
+merged offlaod ports are
+In module gChainedComponent ,num of offload ports 2
+Port name is partialAccumulatorMem
+Port name is add
+PCREPORT: module gChainedComponent registered for pc moduleId is 1
+PCREPORT: PC is registered name: in type 1 moduleId 1 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 1 portId 2
+PCREPORT: PC is registered name: partialAccumulatorMem type 1 moduleId 1 portId 3
+PCREPORT: PC is registered name: add type 1 moduleId 1 portId 4
+In module gChainedComponent ,num of offload ports 0
+PCREPORT: module gChainedComponent registered for pc moduleId is 2
+PCREPORT: PC is registered name: in type 1 moduleId 2 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 2 portId 2
+In module KDistribute ,num of offload ports 0
+PCREPORT: module KDistribute registered for pc moduleId is 3
+PCREPORT: PC is registered name: in type 1 moduleId 3 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 3 portId 2
+In module gReplicatedComponent ,num of offload ports 0
+PCREPORT: module gReplicatedComponent registered for pc moduleId is 4
+PCREPORT: PC is registered name: in type 1 moduleId 4 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 4 portId 2
+Before instntiating children Children length is 0
+In module gOffloadedComponent ,num of offload ports 0
+PCREPORT: module gOffloadedComponent registered for pc moduleId is 5
+PCREPORT: PC is registered name: in type 1 moduleId 5 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 5 portId 2
+In module gOffloadedComponent ,num of offload ports 1
+Port name is add
+PCREPORT: module gOffloadedComponent registered for pc moduleId is 6
+PCREPORT: PC is registered name: in type 1 moduleId 6 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 6 portId 2
+PCREPORT: PC is registered name: add type 1 moduleId 6 portId 3
+In module gOffloadedComponent ,num of offload ports 2
+Port name is partialAccumulatorMem
+Port name is add
+PCREPORT: module gOffloadedComponent registered for pc moduleId is 7
+PCREPORT: PC is registered name: in type 1 moduleId 7 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 7 portId 2
+PCREPORT: PC is registered name: partialAccumulatorMem type 1 moduleId 7 portId 3
+PCREPORT: PC is registered name: add type 1 moduleId 7 portId 4
+In module gOffloadedComponent ,num of offload ports 3
+Port name is centeroidMem
+Port name is partialAccumulatorMem
+Port name is add
+PCREPORT: module gOffloadedComponent registered for pc moduleId is 8
+PCREPORT: PC is registered name: in type 1 moduleId 8 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 8 portId 2
+PCREPORT: PC is registered name: centeroidMem type 1 moduleId 8 portId 3
+PCREPORT: PC is registered name: partialAccumulatorMem type 1 moduleId 8 portId 4
+PCREPORT: PC is registered name: add type 1 moduleId 8 portId 5
+In module KEngine ,num of offload ports 4
+Port name is distanceFU
+Port name is centeroidMem
+Port name is partialAccumulatorMem
+Port name is add
+PCREPORT: module KEngine registered for pc moduleId is 9
+PCREPORT: PC is registered name: in type 1 moduleId 9 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 9 portId 2
+PCREPORT: PC is registered name: distanceFU type 1 moduleId 9 portId 3
+PCREPORT: PC is registered name: centeroidMem type 1 moduleId 9 portId 4
+PCREPORT: PC is registered name: partialAccumulatorMem type 1 moduleId 9 portId 5
+PCREPORT: PC is registered name: add type 1 moduleId 9 portId 6
+In module distanceFU ,num of offload ports 0
+PCREPORT: module distanceFU registered for pc moduleId is 10
+PCREPORT: PC is registered name: in type 1 moduleId 10 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 10 portId 2
+In gOffloadedComponent
+Print hierarchy -- Parent name is gOffloadedComponent child name is KEngine
+Print hierarchy -- Parent name is gOffloadedComponent child name is distanceFU
+offload name is distanceFU
+offload name is centeroidMem
+offload name is partialAccumulatorMem
+offload name is add
+In module cMem ,num of offload ports 0
+PCREPORT: module cMem registered for pc moduleId is 11
+PCREPORT: PC is registered name: in type 1 moduleId 11 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 11 portId 2
+In gOffloadedComponent
+offload name is centeroidMem
+offload name is partialAccumulatorMem
+offload name is add
+In module pAccMem ,num of offload ports 0
+PCREPORT: module pAccMem registered for pc moduleId is 12
+PCREPORT: PC is registered name: in type 1 moduleId 12 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 12 portId 2
+In gOffloadedComponent
+offload name is partialAccumulatorMem
+offload name is add
+In module add ,num of offload ports 0
+PCREPORT: module add registered for pc moduleId is 13
+PCREPORT: PC is registered name: in type 1 moduleId 13 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 13 portId 2
+In gOffloadedComponent
+offload name is add
+Replication factor is 1 class name is gReplicatedComponent
+Before linking children Children length is 4
+Print hierarchy -- Parent name is gReplicatedComponent child name is gOffloadedComponent
+Print hierarchy -- Parent name is gReplicatedComponent child name is gOffloadedComponent
+Print hierarchy -- Parent name is gReplicatedComponent child name is gOffloadedComponent
+Print hierarchy -- Parent name is gReplicatedComponent child name is gOffloadedComponent
+Print hierarchy -- Parent name is gOffloadedComponent child name is KEngine
+Print hierarchy -- Parent name is gOffloadedComponent child name is distanceFU
+Print hierarchy -- Parent name is gOffloadedComponent child name is cMem
+Print hierarchy -- Parent name is gOffloadedComponent child name is pAccMem
+Print hierarchy -- Parent name is gOffloadedComponent child name is add
+After linking children Children length is 4
+In gChainedComponent
+Print hierarchy -- Parent name is gChainedComponent child name is KDistribute
+Print hierarchy -- Parent name is gChainedComponent child name is gReplicatedComponent
+Print hierarchy -- Parent name is gReplicatedComponent child name is gOffloadedComponent
+Print hierarchy -- Parent name is gReplicatedComponent child name is gOffloadedComponent
+Print hierarchy -- Parent name is gReplicatedComponent child name is gOffloadedComponent
+Print hierarchy -- Parent name is gReplicatedComponent child name is gOffloadedComponent
+Print hierarchy -- Parent name is gOffloadedComponent child name is KEngine
+Print hierarchy -- Parent name is gOffloadedComponent child name is distanceFU
+Print hierarchy -- Parent name is gOffloadedComponent child name is cMem
+Print hierarchy -- Parent name is gOffloadedComponent child name is pAccMem
+Print hierarchy -- Parent name is gOffloadedComponent child name is add
+Print hierarchy -- Parent name is gReplicatedComponent child name is 
+Print hierarchy -- Parent name is  child name is 
+Print hierarchy -- Parent name is gReplicatedComponent child name is 
+Print hierarchy -- Parent name is  child name is 
+In module KReduce ,num of offload ports 2
+Port name is partialAccumulatorMem
+Port name is add
+PCREPORT: module KReduce registered for pc moduleId is 14
+PCREPORT: PC is registered name: in type 1 moduleId 14 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 14 portId 2
+PCREPORT: PC is registered name: partialAccumulatorMem type 1 moduleId 14 portId 3
+PCREPORT: PC is registered name: add type 1 moduleId 14 portId 4
+In gChainedComponent
+// UNABLE TO FIND off IN null
+Can't connect Input INPUT(valid) Input INPUT(valid) on line 244 in class Tutorial.gOffloadedComponent in file Gorilla++.scala
+Connecting Output OUTPUT(ready) to Output OUTPUT(ready) on line 244 in class Tutorial.gOffloadedComponent in file Gorilla++.scala
+Can't connect Input INPUT(x) Input INPUT(x) on line 244 in class Tutorial.gOffloadedComponent in file Gorilla++.scala
+Can't connect Input INPUT(z) Input INPUT(z) on line 244 in class Tutorial.gOffloadedComponent in file Gorilla++.scala
+Can't connect Input INPUT(y) Input INPUT(y) on line 244 in class Tutorial.gOffloadedComponent in file Gorilla++.scala
+Can't connect Input INPUT(centeroidsFinished) Input INPUT(centeroidsFinished) on line 244 in class Tutorial.gOffloadedComponent in file Gorilla++.scala
+Can't connect Input INPUT(pointsFinished) Input INPUT(pointsFinished) on line 244 in class Tutorial.gOffloadedComponent in file Gorilla++.scala
+Can't connect Input INPUT(centeroidIndex) Input INPUT(centeroidIndex) on line 244 in class Tutorial.gOffloadedComponent in file Gorilla++.scala
+Connecting Output OUTPUT(valid) to Output OUTPUT(valid) on line 245 in class Tutorial.gOffloadedComponent in file Gorilla++.scala
+Can't connect Input INPUT(ready) Input INPUT(ready) on line 245 in class Tutorial.gOffloadedComponent in file Gorilla++.scala
+Connecting Output OUTPUT(x) to Output OUTPUT(x) on line 245 in class Tutorial.gOffloadedComponent in file Gorilla++.scala
+Connecting Output OUTPUT(z) to Output OUTPUT(z) on line 245 in class Tutorial.gOffloadedComponent in file Gorilla++.scala
+Connecting Output OUTPUT(y) to Output OUTPUT(y) on line 245 in class Tutorial.gOffloadedComponent in file Gorilla++.scala
+Connecting Output OUTPUT(centeroidsFinished) to Output OUTPUT(centeroidsFinished) on line 245 in class Tutorial.gOffloadedComponent in file Gorilla++.scala
+Connecting Output OUTPUT(pointsFinished) to Output OUTPUT(pointsFinished) on line 245 in class Tutorial.gOffloadedComponent in file Gorilla++.scala
+Connecting Output OUTPUT(centeroidIndex) to Output OUTPUT(centeroidIndex) on line 245 in class Tutorial.gOffloadedComponent in file Gorilla++.scala
+Undefined connection between OUTPUT(valid) and INPUT(valid) on line 256 in class Tutorial.gOffloadedComponent$$anonfun$35 in file Gorilla++.scala
+Undefined connections between INPUT(ready) and OUTPUT(ready) on line 256 in class Tutorial.gOffloadedComponent$$anonfun$35 in file Gorilla++.scala
+Undefined connection between OUTPUT(x) and INPUT(x) on line 256 in class Tutorial.gOffloadedComponent$$anonfun$35 in file Gorilla++.scala
+Undefined connection between OUTPUT(z) and INPUT(z) on line 256 in class Tutorial.gOffloadedComponent$$anonfun$35 in file Gorilla++.scala
+Undefined connection between OUTPUT(y) and INPUT(y) on line 256 in class Tutorial.gOffloadedComponent$$anonfun$35 in file Gorilla++.scala
+Undefined connection between OUTPUT(addr) and INPUT(addr) on line 256 in class Tutorial.gOffloadedComponent$$anonfun$35 in file Gorilla++.scala
+Undefined connection between OUTPUT(rw) and INPUT(rw) on line 256 in class Tutorial.gOffloadedComponent$$anonfun$35 in file Gorilla++.scala
+Undefined connections between INPUT(valid) and OUTPUT(valid) on line 257 in class Tutorial.gOffloadedComponent$$anonfun$35 in file Gorilla++.scala
+Undefined connection between OUTPUT(ready) and INPUT(ready) on line 257 in class Tutorial.gOffloadedComponent$$anonfun$35 in file Gorilla++.scala
+Undefined connections between INPUT(x) and OUTPUT(x) on line 257 in class Tutorial.gOffloadedComponent$$anonfun$35 in file Gorilla++.scala
+Undefined connections between INPUT(z) and OUTPUT(z) on line 257 in class Tutorial.gOffloadedComponent$$anonfun$35 in file Gorilla++.scala
+Undefined connections between INPUT(y) and OUTPUT(y) on line 257 in class Tutorial.gOffloadedComponent$$anonfun$35 in file Gorilla++.scala
+Connecting Output OUTPUT(valid) to Output OUTPUT(valid) on line 261 in class Tutorial.gOffloadedComponent$$anonfun$35$$anonfun$apply$8 in file Gorilla++.scala
+Can't connect Input INPUT(ready) Input INPUT(ready) on line 261 in class Tutorial.gOffloadedComponent$$anonfun$35$$anonfun$apply$8 in file Gorilla++.scala
+Connecting Output OUTPUT(x) to Output OUTPUT(x) on line 261 in class Tutorial.gOffloadedComponent$$anonfun$35$$anonfun$apply$8 in file Gorilla++.scala
+Connecting Output OUTPUT(z) to Output OUTPUT(z) on line 261 in class Tutorial.gOffloadedComponent$$anonfun$35$$anonfun$apply$8 in file Gorilla++.scala
+Connecting Output OUTPUT(y) to Output OUTPUT(y) on line 261 in class Tutorial.gOffloadedComponent$$anonfun$35$$anonfun$apply$8 in file Gorilla++.scala
+Connecting Output OUTPUT(addr) to Output OUTPUT(addr) on line 261 in class Tutorial.gOffloadedComponent$$anonfun$35$$anonfun$apply$8 in file Gorilla++.scala
+Connecting Output OUTPUT(rw) to Output OUTPUT(rw) on line 261 in class Tutorial.gOffloadedComponent$$anonfun$35$$anonfun$apply$8 in file Gorilla++.scala
+Can't connect Input INPUT(valid) Input INPUT(valid) on line 262 in class Tutorial.gOffloadedComponent$$anonfun$35$$anonfun$apply$8 in file Gorilla++.scala
+Connecting Output OUTPUT(ready) to Output OUTPUT(ready) on line 262 in class Tutorial.gOffloadedComponent$$anonfun$35$$anonfun$apply$8 in file Gorilla++.scala
+Can't connect Input INPUT(x) Input INPUT(x) on line 262 in class Tutorial.gOffloadedComponent$$anonfun$35$$anonfun$apply$8 in file Gorilla++.scala
+Can't connect Input INPUT(z) Input INPUT(z) on line 262 in class Tutorial.gOffloadedComponent$$anonfun$35$$anonfun$apply$8 in file Gorilla++.scala
+Can't connect Input INPUT(y) Input INPUT(y) on line 262 in class Tutorial.gOffloadedComponent$$anonfun$35$$anonfun$apply$8 in file Gorilla++.scala
+Connecting Output OUTPUT(valid) to Output OUTPUT(valid) on line 261 in class Tutorial.gOffloadedComponent$$anonfun$35$$anonfun$apply$8 in file Gorilla++.scala
+Can't connect Input INPUT(ready) Input INPUT(ready) on line 261 in class Tutorial.gOffloadedComponent$$anonfun$35$$anonfun$apply$8 in file Gorilla++.scala
+Connecting Output OUTPUT(in1) to Output OUTPUT(in1) on line 261 in class Tutorial.gOffloadedComponent$$anonfun$35$$anonfun$apply$8 in file Gorilla++.scala
+Connecting Output OUTPUT(in2) to Output OUTPUT(in2) on line 261 in class Tutorial.gOffloadedComponent$$anonfun$35$$anonfun$apply$8 in file Gorilla++.scala
+Can't connect Input INPUT(valid) Input INPUT(valid) on line 262 in class Tutorial.gOffloadedComponent$$anonfun$35$$anonfun$apply$8 in file Gorilla++.scala
+Connecting Output OUTPUT(ready) to Output OUTPUT(ready) on line 262 in class Tutorial.gOffloadedComponent$$anonfun$35$$anonfun$apply$8 in file Gorilla++.scala
+Can't connect Input INPUT(out) Input INPUT(out) on line 262 in class Tutorial.gOffloadedComponent$$anonfun$35$$anonfun$apply$8 in file Gorilla++.scala
+Can't connect Input INPUT(valid) Input INPUT(valid) on line 277 in class Tutorial.gOffloadedComponent in file Gorilla++.scala
+Can't connect Input INPUT(moduleId) Input INPUT(moduleId) on line 277 in class Tutorial.gOffloadedComponent in file Gorilla++.scala
+Can't connect Input INPUT(request) Input INPUT(request) on line 277 in class Tutorial.gOffloadedComponent in file Gorilla++.scala
+Can't connect Input INPUT(portId) Input INPUT(portId) on line 277 in class Tutorial.gOffloadedComponent in file Gorilla++.scala
+Can't connect Input INPUT(pcValue) Input INPUT(pcValue) on line 277 in class Tutorial.gOffloadedComponent in file Gorilla++.scala
+Can't connect Input INPUT(pcType) Input INPUT(pcType) on line 277 in class Tutorial.gOffloadedComponent in file Gorilla++.scala
+Connecting Output OUTPUT(valid) to Output OUTPUT(valid) on line 278 in class Tutorial.gOffloadedComponent in file Gorilla++.scala
+Connecting Output OUTPUT(moduleId) to Output OUTPUT(moduleId) on line 278 in class Tutorial.gOffloadedComponent in file Gorilla++.scala
+Connecting Output OUTPUT(request) to Output OUTPUT(request) on line 278 in class Tutorial.gOffloadedComponent in file Gorilla++.scala
+Connecting Output OUTPUT(portId) to Output OUTPUT(portId) on line 278 in class Tutorial.gOffloadedComponent in file Gorilla++.scala
+Connecting Output OUTPUT(pcValue) to Output OUTPUT(pcValue) on line 278 in class Tutorial.gOffloadedComponent in file Gorilla++.scala
+Connecting Output OUTPUT(pcType) to Output OUTPUT(pcType) on line 278 in class Tutorial.gOffloadedComponent in file Gorilla++.scala
+Undefined connection between OUTPUT(valid) and INPUT(valid) on line 279 in class Tutorial.gOffloadedComponent in file Gorilla++.scala
+Undefined connection between OUTPUT(moduleId) and INPUT(moduleId) on line 279 in class Tutorial.gOffloadedComponent in file Gorilla++.scala
+Undefined connection between OUTPUT(request) and INPUT(request) on line 279 in class Tutorial.gOffloadedComponent in file Gorilla++.scala
+Undefined connection between OUTPUT(portId) and INPUT(portId) on line 279 in class Tutorial.gOffloadedComponent in file Gorilla++.scala
+Undefined connection between OUTPUT(pcValue) and INPUT(pcValue) on line 279 in class Tutorial.gOffloadedComponent in file Gorilla++.scala
+Undefined connection between OUTPUT(pcType) and INPUT(pcType) on line 279 in class Tutorial.gOffloadedComponent in file Gorilla++.scala
+Can't connect Input INPUT(valid) Input INPUT(valid) on line 244 in class Tutorial.gOffloadedComponent in file Gorilla++.scala
+Connecting Output OUTPUT(ready) to Output OUTPUT(ready) on line 244 in class Tutorial.gOffloadedComponent in file Gorilla++.scala
+Can't connect Input INPUT(x) Input INPUT(x) on line 244 in class Tutorial.gOffloadedComponent in file Gorilla++.scala
+Can't connect Input INPUT(z) Input INPUT(z) on line 244 in class Tutorial.gOffloadedComponent in file Gorilla++.scala
+Can't connect Input INPUT(y) Input INPUT(y) on line 244 in class Tutorial.gOffloadedComponent in file Gorilla++.scala
+Can't connect Input INPUT(centeroidsFinished) Input INPUT(centeroidsFinished) on line 244 in class Tutorial.gOffloadedComponent in file Gorilla++.scala
+Can't connect Input INPUT(pointsFinished) Input INPUT(pointsFinished) on line 244 in class Tutorial.gOffloadedComponent in file Gorilla++.scala
+Can't connect Input INPUT(centeroidIndex) Input INPUT(centeroidIndex) on line 244 in class Tutorial.gOffloadedComponent in file Gorilla++.scala
+Connecting Output OUTPUT(valid) to Output OUTPUT(valid) on line 245 in class Tutorial.gOffloadedComponent in file Gorilla++.scala
+Can't connect Input INPUT(ready) Input INPUT(ready) on line 245 in class Tutorial.gOffloadedComponent in file Gorilla++.scala
+Connecting Output OUTPUT(x) to Output OUTPUT(x) on line 245 in class Tutorial.gOffloadedComponent in file Gorilla++.scala
+Connecting Output OUTPUT(z) to Output OUTPUT(z) on line 245 in class Tutorial.gOffloadedComponent in file Gorilla++.scala
+Connecting Output OUTPUT(y) to Output OUTPUT(y) on line 245 in class Tutorial.gOffloadedComponent in file Gorilla++.scala
+Connecting Output OUTPUT(centeroidsFinished) to Output OUTPUT(centeroidsFinished) on line 245 in class Tutorial.gOffloadedComponent in file Gorilla++.scala
+Connecting Output OUTPUT(pointsFinished) to Output OUTPUT(pointsFinished) on line 245 in class Tutorial.gOffloadedComponent in file Gorilla++.scala
+Connecting Output OUTPUT(centeroidIndex) to Output OUTPUT(centeroidIndex) on line 245 in class Tutorial.gOffloadedComponent in file Gorilla++.scala
+Undefined connection between OUTPUT(valid) and INPUT(valid) on line 256 in class Tutorial.gOffloadedComponent$$anonfun$35 in file Gorilla++.scala
+Undefined connections between INPUT(ready) and OUTPUT(ready) on line 256 in class Tutorial.gOffloadedComponent$$anonfun$35 in file Gorilla++.scala
+Undefined connection between OUTPUT(x) and INPUT(x) on line 256 in class Tutorial.gOffloadedComponent$$anonfun$35 in file Gorilla++.scala
+Undefined connection between OUTPUT(z) and INPUT(z) on line 256 in class Tutorial.gOffloadedComponent$$anonfun$35 in file Gorilla++.scala
+Undefined connection between OUTPUT(y) and INPUT(y) on line 256 in class Tutorial.gOffloadedComponent$$anonfun$35 in file Gorilla++.scala
+Undefined connection between OUTPUT(addr) and INPUT(addr) on line 256 in class Tutorial.gOffloadedComponent$$anonfun$35 in file Gorilla++.scala
+Undefined connection between OUTPUT(rw) and INPUT(rw) on line 256 in class Tutorial.gOffloadedComponent$$anonfun$35 in file Gorilla++.scala
+Undefined connections between INPUT(valid) and OUTPUT(valid) on line 257 in class Tutorial.gOffloadedComponent$$anonfun$35 in file Gorilla++.scala
+Undefined connection between OUTPUT(ready) and INPUT(ready) on line 257 in class Tutorial.gOffloadedComponent$$anonfun$35 in file Gorilla++.scala
+Undefined connections between INPUT(x) and OUTPUT(x) on line 257 in class Tutorial.gOffloadedComponent$$anonfun$35 in file Gorilla++.scala
+Undefined connections between INPUT(z) and OUTPUT(z) on line 257 in class Tutorial.gOffloadedComponent$$anonfun$35 in file Gorilla++.scala
+Undefined connections between INPUT(y) and OUTPUT(y) on line 257 in class Tutorial.gOffloadedComponent$$anonfun$35 in file Gorilla++.scala
+Connecting Output OUTPUT(valid) to Output OUTPUT(valid) on line 261 in class Tutorial.gOffloadedComponent$$anonfun$35$$anonfun$apply$8 in file Gorilla++.scala
+Can't connect Input INPUT(ready) Input INPUT(ready) on line 261 in class Tutorial.gOffloadedComponent$$anonfun$35$$anonfun$apply$8 in file Gorilla++.scala
+Connecting Output OUTPUT(in1) to Output OUTPUT(in1) on line 261 in class Tutorial.gOffloadedComponent$$anonfun$35$$anonfun$apply$8 in file Gorilla++.scala
+Connecting Output OUTPUT(in2) to Output OUTPUT(in2) on line 261 in class Tutorial.gOffloadedComponent$$anonfun$35$$anonfun$apply$8 in file Gorilla++.scala
+Can't connect Input INPUT(valid) Input INPUT(valid) on line 262 in class Tutorial.gOffloadedComponent$$anonfun$35$$anonfun$apply$8 in file Gorilla++.scala
+Connecting Output OUTPUT(ready) to Output OUTPUT(ready) on line 262 in class Tutorial.gOffloadedComponent$$anonfun$35$$anonfun$apply$8 in file Gorilla++.scala
+Can't connect Input INPUT(out) Input INPUT(out) on line 262 in class Tutorial.gOffloadedComponent$$anonfun$35$$anonfun$apply$8 in file Gorilla++.scala
+Can't connect Input INPUT(valid) Input INPUT(valid) on line 277 in class Tutorial.gOffloadedComponent in file Gorilla++.scala
+Can't connect Input INPUT(moduleId) Input INPUT(moduleId) on line 277 in class Tutorial.gOffloadedComponent in file Gorilla++.scala
+Can't connect Input INPUT(request) Input INPUT(request) on line 277 in class Tutorial.gOffloadedComponent in file Gorilla++.scala
+Can't connect Input INPUT(portId) Input INPUT(portId) on line 277 in class Tutorial.gOffloadedComponent in file Gorilla++.scala
+Can't connect Input INPUT(pcValue) Input INPUT(pcValue) on line 277 in class Tutorial.gOffloadedComponent in file Gorilla++.scala
+Can't connect Input INPUT(pcType) Input INPUT(pcType) on line 277 in class Tutorial.gOffloadedComponent in file Gorilla++.scala
+Connecting Output OUTPUT(valid) to Output OUTPUT(valid) on line 278 in class Tutorial.gOffloadedComponent in file Gorilla++.scala
+Connecting Output OUTPUT(moduleId) to Output OUTPUT(moduleId) on line 278 in class Tutorial.gOffloadedComponent in file Gorilla++.scala
+Connecting Output OUTPUT(request) to Output OUTPUT(request) on line 278 in class Tutorial.gOffloadedComponent in file Gorilla++.scala
+Connecting Output OUTPUT(portId) to Output OUTPUT(portId) on line 278 in class Tutorial.gOffloadedComponent in file Gorilla++.scala
+Connecting Output OUTPUT(pcValue) to Output OUTPUT(pcValue) on line 278 in class Tutorial.gOffloadedComponent in file Gorilla++.scala
+Connecting Output OUTPUT(pcType) to Output OUTPUT(pcType) on line 278 in class Tutorial.gOffloadedComponent in file Gorilla++.scala
+Undefined connection between OUTPUT(valid) and INPUT(valid) on line 279 in class Tutorial.gOffloadedComponent in file Gorilla++.scala
+Undefined connection between OUTPUT(moduleId) and INPUT(moduleId) on line 279 in class Tutorial.gOffloadedComponent in file Gorilla++.scala
+Undefined connection between OUTPUT(request) and INPUT(request) on line 279 in class Tutorial.gOffloadedComponent in file Gorilla++.scala
+Undefined connection between OUTPUT(portId) and INPUT(portId) on line 279 in class Tutorial.gOffloadedComponent in file Gorilla++.scala
+Undefined connection between OUTPUT(pcValue) and INPUT(pcValue) on line 279 in class Tutorial.gOffloadedComponent in file Gorilla++.scala
+Undefined connection between OUTPUT(pcType) and INPUT(pcType) on line 279 in class Tutorial.gOffloadedComponent in file Gorilla++.scala
+Can't connect Input INPUT(valid) Input INPUT(valid) on line 244 in class Tutorial.gOffloadedComponent in file Gorilla++.scala
+Connecting Output OUTPUT(ready) to Output OUTPUT(ready) on line 244 in class Tutorial.gOffloadedComponent in file Gorilla++.scala
+Can't connect Input INPUT(x) Input INPUT(x) on line 244 in class Tutorial.gOffloadedComponent in file Gorilla++.scala
+Can't connect Input INPUT(z) Input INPUT(z) on line 244 in class Tutorial.gOffloadedComponent in file Gorilla++.scala
+Can't connect Input INPUT(y) Input INPUT(y) on line 244 in class Tutorial.gOffloadedComponent in file Gorilla++.scala
+Can't connect Input INPUT(centeroidsFinished) Input INPUT(centeroidsFinished) on line 244 in class Tutorial.gOffloadedComponent in file Gorilla++.scala
+Can't connect Input INPUT(pointsFinished) Input INPUT(pointsFinished) on line 244 in class Tutorial.gOffloadedComponent in file Gorilla++.scala
+Can't connect Input INPUT(centeroidIndex) Input INPUT(centeroidIndex) on line 244 in class Tutorial.gOffloadedComponent in file Gorilla++.scala
+Connecting Output OUTPUT(valid) to Output OUTPUT(valid) on line 245 in class Tutorial.gOffloadedComponent in file Gorilla++.scala
+Can't connect Input INPUT(ready) Input INPUT(ready) on line 245 in class Tutorial.gOffloadedComponent in file Gorilla++.scala
+Connecting Output OUTPUT(x) to Output OUTPUT(x) on line 245 in class Tutorial.gOffloadedComponent in file Gorilla++.scala
+Connecting Output OUTPUT(z) to Output OUTPUT(z) on line 245 in class Tutorial.gOffloadedComponent in file Gorilla++.scala
+Connecting Output OUTPUT(y) to Output OUTPUT(y) on line 245 in class Tutorial.gOffloadedComponent in file Gorilla++.scala
+Connecting Output OUTPUT(centeroidsFinished) to Output OUTPUT(centeroidsFinished) on line 245 in class Tutorial.gOffloadedComponent in file Gorilla++.scala
+Connecting Output OUTPUT(pointsFinished) to Output OUTPUT(pointsFinished) on line 245 in class Tutorial.gOffloadedComponent in file Gorilla++.scala
+Connecting Output OUTPUT(centeroidIndex) to Output OUTPUT(centeroidIndex) on line 245 in class Tutorial.gOffloadedComponent in file Gorilla++.scala
+Undefined connection between OUTPUT(valid) and INPUT(valid) on line 256 in class Tutorial.gOffloadedComponent$$anonfun$35 in file Gorilla++.scala
+Undefined connections between INPUT(ready) and OUTPUT(ready) on line 256 in class Tutorial.gOffloadedComponent$$anonfun$35 in file Gorilla++.scala
+Undefined connection between OUTPUT(in1) and INPUT(in1) on line 256 in class Tutorial.gOffloadedComponent$$anonfun$35 in file Gorilla++.scala
+Undefined connection between OUTPUT(in2) and INPUT(in2) on line 256 in class Tutorial.gOffloadedComponent$$anonfun$35 in file Gorilla++.scala
+Undefined connections between INPUT(valid) and OUTPUT(valid) on line 257 in class Tutorial.gOffloadedComponent$$anonfun$35 in file Gorilla++.scala
+Undefined connection between OUTPUT(ready) and INPUT(ready) on line 257 in class Tutorial.gOffloadedComponent$$anonfun$35 in file Gorilla++.scala
+Undefined connections between INPUT(out) and OUTPUT(out) on line 257 in class Tutorial.gOffloadedComponent$$anonfun$35 in file Gorilla++.scala
+Can't connect Input INPUT(valid) Input INPUT(valid) on line 277 in class Tutorial.gOffloadedComponent in file Gorilla++.scala
+Can't connect Input INPUT(moduleId) Input INPUT(moduleId) on line 277 in class Tutorial.gOffloadedComponent in file Gorilla++.scala
+Can't connect Input INPUT(request) Input INPUT(request) on line 277 in class Tutorial.gOffloadedComponent in file Gorilla++.scala
+Can't connect Input INPUT(portId) Input INPUT(portId) on line 277 in class Tutorial.gOffloadedComponent in file Gorilla++.scala
+Can't connect Input INPUT(pcValue) Input INPUT(pcValue) on line 277 in class Tutorial.gOffloadedComponent in file Gorilla++.scala
+Can't connect Input INPUT(pcType) Input INPUT(pcType) on line 277 in class Tutorial.gOffloadedComponent in file Gorilla++.scala
+Connecting Output OUTPUT(valid) to Output OUTPUT(valid) on line 278 in class Tutorial.gOffloadedComponent in file Gorilla++.scala
+Connecting Output OUTPUT(moduleId) to Output OUTPUT(moduleId) on line 278 in class Tutorial.gOffloadedComponent in file Gorilla++.scala
+Connecting Output OUTPUT(request) to Output OUTPUT(request) on line 278 in class Tutorial.gOffloadedComponent in file Gorilla++.scala
+Connecting Output OUTPUT(portId) to Output OUTPUT(portId) on line 278 in class Tutorial.gOffloadedComponent in file Gorilla++.scala
+Connecting Output OUTPUT(pcValue) to Output OUTPUT(pcValue) on line 278 in class Tutorial.gOffloadedComponent in file Gorilla++.scala
+Connecting Output OUTPUT(pcType) to Output OUTPUT(pcType) on line 278 in class Tutorial.gOffloadedComponent in file Gorilla++.scala
+Undefined connection between OUTPUT(valid) and INPUT(valid) on line 279 in class Tutorial.gOffloadedComponent in file Gorilla++.scala
+Undefined connection between OUTPUT(moduleId) and INPUT(moduleId) on line 279 in class Tutorial.gOffloadedComponent in file Gorilla++.scala
+Undefined connection between OUTPUT(request) and INPUT(request) on line 279 in class Tutorial.gOffloadedComponent in file Gorilla++.scala
+Undefined connection between OUTPUT(portId) and INPUT(portId) on line 279 in class Tutorial.gOffloadedComponent in file Gorilla++.scala
+Undefined connection between OUTPUT(pcValue) and INPUT(pcValue) on line 279 in class Tutorial.gOffloadedComponent in file Gorilla++.scala
+Undefined connection between OUTPUT(pcType) and INPUT(pcType) on line 279 in class Tutorial.gOffloadedComponent in file Gorilla++.scala
+Can't connect Input INPUT(valid) Input INPUT(valid) on line 191 in class Tutorial.gChainedComponent in file Gorilla++.scala
+Connecting Output OUTPUT(ready) to Output OUTPUT(ready) on line 191 in class Tutorial.gChainedComponent in file Gorilla++.scala
+Can't connect Input INPUT(x) Input INPUT(x) on line 191 in class Tutorial.gChainedComponent in file Gorilla++.scala
+Can't connect Input INPUT(z) Input INPUT(z) on line 191 in class Tutorial.gChainedComponent in file Gorilla++.scala
+Can't connect Input INPUT(y) Input INPUT(y) on line 191 in class Tutorial.gChainedComponent in file Gorilla++.scala
+Can't connect Input INPUT(centeroidsFinished) Input INPUT(centeroidsFinished) on line 191 in class Tutorial.gChainedComponent in file Gorilla++.scala
+Can't connect Input INPUT(pointsFinished) Input INPUT(pointsFinished) on line 191 in class Tutorial.gChainedComponent in file Gorilla++.scala
+Can't connect Input INPUT(centeroidIndex) Input INPUT(centeroidIndex) on line 191 in class Tutorial.gChainedComponent in file Gorilla++.scala
+Connecting Output OUTPUT(valid) to Output OUTPUT(valid) on line 192 in class Tutorial.gChainedComponent in file Gorilla++.scala
+Can't connect Input INPUT(ready) Input INPUT(ready) on line 192 in class Tutorial.gChainedComponent in file Gorilla++.scala
+Connecting Output OUTPUT(x) to Output OUTPUT(x) on line 192 in class Tutorial.gChainedComponent in file Gorilla++.scala
+Connecting Output OUTPUT(z) to Output OUTPUT(z) on line 192 in class Tutorial.gChainedComponent in file Gorilla++.scala
+Connecting Output OUTPUT(y) to Output OUTPUT(y) on line 192 in class Tutorial.gChainedComponent in file Gorilla++.scala
+Connecting Output OUTPUT(centeroidsFinished) to Output OUTPUT(centeroidsFinished) on line 192 in class Tutorial.gChainedComponent in file Gorilla++.scala
+Connecting Output OUTPUT(pointsFinished) to Output OUTPUT(pointsFinished) on line 192 in class Tutorial.gChainedComponent in file Gorilla++.scala
+Connecting Output OUTPUT(centeroidIndex) to Output OUTPUT(centeroidIndex) on line 192 in class Tutorial.gChainedComponent in file Gorilla++.scala
+Undefined connection between OUTPUT(valid) and INPUT(valid) on line 193 in class Tutorial.gChainedComponent in file Gorilla++.scala
+Undefined connections between INPUT(ready) and OUTPUT(ready) on line 193 in class Tutorial.gChainedComponent in file Gorilla++.scala
+Undefined connection between OUTPUT(x) and INPUT(x) on line 193 in class Tutorial.gChainedComponent in file Gorilla++.scala
+Undefined connection between OUTPUT(z) and INPUT(z) on line 193 in class Tutorial.gChainedComponent in file Gorilla++.scala
+Undefined connection between OUTPUT(y) and INPUT(y) on line 193 in class Tutorial.gChainedComponent in file Gorilla++.scala
+Undefined connection between OUTPUT(centeroidsFinished) and INPUT(centeroidsFinished) on line 193 in class Tutorial.gChainedComponent in file Gorilla++.scala
+Undefined connection between OUTPUT(pointsFinished) and INPUT(pointsFinished) on line 193 in class Tutorial.gChainedComponent in file Gorilla++.scala
+Undefined connection between OUTPUT(centeroidIndex) and INPUT(centeroidIndex) on line 193 in class Tutorial.gChainedComponent in file Gorilla++.scala
+Connecting Output OUTPUT(valid) to Output OUTPUT(valid) on line 203 in class Tutorial.gChainedComponent$$anonfun$31$$anonfun$apply$4 in file Gorilla++.scala
+Can't connect Input INPUT(ready) Input INPUT(ready) on line 203 in class Tutorial.gChainedComponent$$anonfun$31$$anonfun$apply$4 in file Gorilla++.scala
+Connecting Output OUTPUT(x) to Output OUTPUT(x) on line 203 in class Tutorial.gChainedComponent$$anonfun$31$$anonfun$apply$4 in file Gorilla++.scala
+Connecting Output OUTPUT(z) to Output OUTPUT(z) on line 203 in class Tutorial.gChainedComponent$$anonfun$31$$anonfun$apply$4 in file Gorilla++.scala
+Connecting Output OUTPUT(y) to Output OUTPUT(y) on line 203 in class Tutorial.gChainedComponent$$anonfun$31$$anonfun$apply$4 in file Gorilla++.scala
+Connecting Output OUTPUT(addr) to Output OUTPUT(addr) on line 203 in class Tutorial.gChainedComponent$$anonfun$31$$anonfun$apply$4 in file Gorilla++.scala
+Connecting Output OUTPUT(rw) to Output OUTPUT(rw) on line 203 in class Tutorial.gChainedComponent$$anonfun$31$$anonfun$apply$4 in file Gorilla++.scala
+Can't connect Input INPUT(valid) Input INPUT(valid) on line 204 in class Tutorial.gChainedComponent$$anonfun$31$$anonfun$apply$4 in file Gorilla++.scala
+Connecting Output OUTPUT(ready) to Output OUTPUT(ready) on line 204 in class Tutorial.gChainedComponent$$anonfun$31$$anonfun$apply$4 in file Gorilla++.scala
+Can't connect Input INPUT(x) Input INPUT(x) on line 204 in class Tutorial.gChainedComponent$$anonfun$31$$anonfun$apply$4 in file Gorilla++.scala
+Can't connect Input INPUT(z) Input INPUT(z) on line 204 in class Tutorial.gChainedComponent$$anonfun$31$$anonfun$apply$4 in file Gorilla++.scala
+Can't connect Input INPUT(y) Input INPUT(y) on line 204 in class Tutorial.gChainedComponent$$anonfun$31$$anonfun$apply$4 in file Gorilla++.scala
+Connecting Output OUTPUT(valid) to Output OUTPUT(valid) on line 203 in class Tutorial.gChainedComponent$$anonfun$31$$anonfun$apply$4 in file Gorilla++.scala
+Can't connect Input INPUT(ready) Input INPUT(ready) on line 203 in class Tutorial.gChainedComponent$$anonfun$31$$anonfun$apply$4 in file Gorilla++.scala
+Connecting Output OUTPUT(in1) to Output OUTPUT(in1) on line 203 in class Tutorial.gChainedComponent$$anonfun$31$$anonfun$apply$4 in file Gorilla++.scala
+Connecting Output OUTPUT(in2) to Output OUTPUT(in2) on line 203 in class Tutorial.gChainedComponent$$anonfun$31$$anonfun$apply$4 in file Gorilla++.scala
+Can't connect Input INPUT(valid) Input INPUT(valid) on line 204 in class Tutorial.gChainedComponent$$anonfun$31$$anonfun$apply$4 in file Gorilla++.scala
+Connecting Output OUTPUT(ready) to Output OUTPUT(ready) on line 204 in class Tutorial.gChainedComponent$$anonfun$31$$anonfun$apply$4 in file Gorilla++.scala
+Can't connect Input INPUT(out) Input INPUT(out) on line 204 in class Tutorial.gChainedComponent$$anonfun$31$$anonfun$apply$4 in file Gorilla++.scala
+Can't connect Input INPUT(valid) Input INPUT(valid) on line 217 in class Tutorial.gChainedComponent in file Gorilla++.scala
+Can't connect Input INPUT(moduleId) Input INPUT(moduleId) on line 217 in class Tutorial.gChainedComponent in file Gorilla++.scala
+Can't connect Input INPUT(request) Input INPUT(request) on line 217 in class Tutorial.gChainedComponent in file Gorilla++.scala
+Can't connect Input INPUT(portId) Input INPUT(portId) on line 217 in class Tutorial.gChainedComponent in file Gorilla++.scala
+Can't connect Input INPUT(pcValue) Input INPUT(pcValue) on line 217 in class Tutorial.gChainedComponent in file Gorilla++.scala
+Can't connect Input INPUT(pcType) Input INPUT(pcType) on line 217 in class Tutorial.gChainedComponent in file Gorilla++.scala
+Connecting Output OUTPUT(valid) to Output OUTPUT(valid) on line 218 in class Tutorial.gChainedComponent in file Gorilla++.scala
+Connecting Output OUTPUT(moduleId) to Output OUTPUT(moduleId) on line 218 in class Tutorial.gChainedComponent in file Gorilla++.scala
+Connecting Output OUTPUT(request) to Output OUTPUT(request) on line 218 in class Tutorial.gChainedComponent in file Gorilla++.scala
+Connecting Output OUTPUT(portId) to Output OUTPUT(portId) on line 218 in class Tutorial.gChainedComponent in file Gorilla++.scala
+Connecting Output OUTPUT(pcValue) to Output OUTPUT(pcValue) on line 218 in class Tutorial.gChainedComponent in file Gorilla++.scala
+Connecting Output OUTPUT(pcType) to Output OUTPUT(pcType) on line 218 in class Tutorial.gChainedComponent in file Gorilla++.scala
+Undefined connection between OUTPUT(valid) and INPUT(valid) on line 219 in class Tutorial.gChainedComponent in file Gorilla++.scala
+Undefined connection between OUTPUT(moduleId) and INPUT(moduleId) on line 219 in class Tutorial.gChainedComponent in file Gorilla++.scala
+Undefined connection between OUTPUT(request) and INPUT(request) on line 219 in class Tutorial.gChainedComponent in file Gorilla++.scala
+Undefined connection between OUTPUT(portId) and INPUT(portId) on line 219 in class Tutorial.gChainedComponent in file Gorilla++.scala
+Undefined connection between OUTPUT(pcValue) and INPUT(pcValue) on line 219 in class Tutorial.gChainedComponent in file Gorilla++.scala
+Undefined connection between OUTPUT(pcType) and INPUT(pcType) on line 219 in class Tutorial.gChainedComponent in file Gorilla++.scala
+[0m[[31merror[0m] [0m(run-main) java.lang.IllegalStateException: CODE HAS 220 ERRORS[0m
+java.lang.IllegalStateException: CODE HAS 220 ERRORS
+	at Chisel.VerilogBackend.elaborate(Verilog.scala:551)
+	at Chisel.chiselMain$.apply(hcl.scala:146)
+	at Chisel.chiselMainTest$.apply(hcl.scala:166)
+	at Tutorial.Tutorial$.main(tutorial.scala:117)
+	at Tutorial.Tutorial.main(tutorial.scala)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+java.lang.RuntimeException: Nonzero exit code: 1
+	at scala.sys.package$.error(package.scala:27)
+	at scala.Predef$.error(Predef.scala:66)
+[0m[[31merror[0m] [0m{file:/proj/maysam/magilla/Gorilla++/chisel/Gorilla++/sbt/}KmeansAndMesh/compile:[31mrun[0m: Nonzero exit code: 1[0m
+[0m[[31merror[0m] [0mTotal time: 2 s, completed Nov 1, 2013 3:27:45 PM[0m

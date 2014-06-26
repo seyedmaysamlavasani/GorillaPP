@@ -1,0 +1,1145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"/home/ecelrc/students/smirkhani/maysam/virtex-5/adder/tmp/_cg/_dbg/floating_point_v5_0/shared/carry_chain.vhd" Line 274: Net &lt;<arg fmt="%s" index="1">q_int[13]</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="746" delta="new" >"/home/ecelrc/students/smirkhani/maysam/virtex-5/adder/tmp/_cg/_dbg/floating_point_v5_0/floating_point_pkg_v5_0.vhd" Line 2800: Range is empty (null range)
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"/home/ecelrc/students/smirkhani/maysam/virtex-5/adder/tmp/_cg/_dbg/floating_point_v5_0/shared/carry_chain.vhd" Line 270: Net &lt;<arg fmt="%s" index="1">carry[9]</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"/home/ecelrc/students/smirkhani/maysam/virtex-5/adder/tmp/_cg/_dbg/floating_point_v5_0/shared/carry_chain.vhd" Line 273: Net &lt;<arg fmt="%s" index="1">carrys_int_reg[8]</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"/home/ecelrc/students/smirkhani/maysam/virtex-5/adder/tmp/_cg/_dbg/floating_point_v5_0/flt_add/flt_add_exp.vhd" Line 308: Net &lt;<arg fmt="%s" index="1">dec_state_pre_op[11]</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"/home/ecelrc/students/smirkhani/maysam/virtex-5/adder/tmp/_cg/_dbg/floating_point_v5_0/flt_add/flt_add.vhd" Line 312: Net &lt;<arg fmt="%s" index="1">a_zeros_det_mux[13]</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"/home/ecelrc/students/smirkhani/maysam/virtex-5/adder/tmp/_cg/_dbg/floating_point_v5_0/flt_add/flt_add.vhd" Line 313: Net &lt;<arg fmt="%s" index="1">b_zeros_det_mux[13]</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"/home/ecelrc/students/smirkhani/maysam/virtex-5/adder/tmp/_cg/_dbg/floating_point_v5_0/flt_pt_operator.vhd" Line 396: Net &lt;<arg fmt="%s" index="1">divide_by_zero_ud</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"/home/ecelrc/students/smirkhani/maysam/virtex-5/adder/tmp/_cg/_dbg/floating_point_v5_0/flt_pt_operator.vhd" Line 400: Net &lt;<arg fmt="%s" index="1">exception_ud</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">/home/ecelrc/students/smirkhani/maysam/virtex-5/adder/tmp/_cg/_dbg/floating_point_v5_0/shared/dsp48e_wrapper.vhd</arg>&quot; line <arg fmt="%d" index="2">319</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">ALU_MODE_DELAY</arg>&gt; of block &lt;<arg fmt="%s" index="4">delay</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">dsp48e_wrapper_1</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">/home/ecelrc/students/smirkhani/maysam/virtex-5/adder/tmp/_cg/_dbg/floating_point_v5_0/shared/dsp48e_wrapper.vhd</arg>&quot; line <arg fmt="%d" index="2">319</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">ALU_MODE_DELAY</arg>&gt; of block &lt;<arg fmt="%s" index="4">delay</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">dsp48e_wrapper_2</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">/home/ecelrc/students/smirkhani/maysam/virtex-5/adder/tmp/_cg/_dbg/floating_point_v5_0/shared/renorm_and_round_logic.vhd</arg>&quot; line <arg fmt="%d" index="2">338</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">MANT_RND1_DEL</arg>&gt; of block &lt;<arg fmt="%s" index="4">delay</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">renorm_and_round_logic</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">/home/ecelrc/students/smirkhani/maysam/virtex-5/adder/tmp/_cg/_dbg/floating_point_v5_0/shared/renorm_and_round_logic.vhd</arg>&quot; line <arg fmt="%d" index="2">348</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">MANT_RND2_DEL</arg>&gt; of block &lt;<arg fmt="%s" index="4">delay</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">renorm_and_round_logic</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">/home/ecelrc/students/smirkhani/maysam/virtex-5/adder/tmp/_cg/_dbg/floating_point_v5_0/shared/renorm_and_round_logic.vhd</arg>&quot; line <arg fmt="%d" index="2">425</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">EXTRA_LSB_RND1_DEL</arg>&gt; of block &lt;<arg fmt="%s" index="4">delay</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">renorm_and_round_logic</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">/home/ecelrc/students/smirkhani/maysam/virtex-5/adder/tmp/_cg/_dbg/floating_point_v5_0/shared/dsp48e_wrapper.vhd</arg>&quot; line <arg fmt="%d" index="2">319</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">ALU_MODE_DELAY</arg>&gt; of block &lt;<arg fmt="%s" index="4">delay</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">dsp48e_wrapper_3</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">/home/ecelrc/students/smirkhani/maysam/virtex-5/adder/tmp/_cg/_dbg/floating_point_v5_0/shared/renorm_and_round_logic.vhd</arg>&quot; line <arg fmt="%d" index="2">468</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">EXP_INC_RND1_DELAY</arg>&gt; of block &lt;<arg fmt="%s" index="4">delay</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">renorm_and_round_logic</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ecelrc/students/smirkhani/maysam/virtex-5/adder/tmp/_cg/_dbg/floating_point_v5_0.vhd</arg>&quot; line <arg fmt="%s" index="2">155</arg>: Output port &lt;<arg fmt="%s" index="3">status</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">U0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ecelrc/students/smirkhani/maysam/virtex-5/adder/tmp/_cg/_dbg/floating_point_v5_0.vhd</arg>&quot; line <arg fmt="%s" index="2">155</arg>: Output port &lt;<arg fmt="%s" index="3">a_rfd</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">U0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ecelrc/students/smirkhani/maysam/virtex-5/adder/tmp/_cg/_dbg/floating_point_v5_0.vhd</arg>&quot; line <arg fmt="%s" index="2">155</arg>: Output port &lt;<arg fmt="%s" index="3">b_rfd</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">U0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ecelrc/students/smirkhani/maysam/virtex-5/adder/tmp/_cg/_dbg/floating_point_v5_0.vhd</arg>&quot; line <arg fmt="%s" index="2">155</arg>: Output port &lt;<arg fmt="%s" index="3">operation_rfd</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">U0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ecelrc/students/smirkhani/maysam/virtex-5/adder/tmp/_cg/_dbg/floating_point_v5_0.vhd</arg>&quot; line <arg fmt="%s" index="2">155</arg>: Output port &lt;<arg fmt="%s" index="3">exception</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">U0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ecelrc/students/smirkhani/maysam/virtex-5/adder/tmp/_cg/_dbg/floating_point_v5_0.vhd</arg>&quot; line <arg fmt="%s" index="2">155</arg>: Output port &lt;<arg fmt="%s" index="3">underflow</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">U0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ecelrc/students/smirkhani/maysam/virtex-5/adder/tmp/_cg/_dbg/floating_point_v5_0.vhd</arg>&quot; line <arg fmt="%s" index="2">155</arg>: Output port &lt;<arg fmt="%s" index="3">overflow</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">U0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ecelrc/students/smirkhani/maysam/virtex-5/adder/tmp/_cg/_dbg/floating_point_v5_0.vhd</arg>&quot; line <arg fmt="%s" index="2">155</arg>: Output port &lt;<arg fmt="%s" index="3">invalid_op</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">U0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ecelrc/students/smirkhani/maysam/virtex-5/adder/tmp/_cg/_dbg/floating_point_v5_0.vhd</arg>&quot; line <arg fmt="%s" index="2">155</arg>: Output port &lt;<arg fmt="%s" index="3">inexact</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">U0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ecelrc/students/smirkhani/maysam/virtex-5/adder/tmp/_cg/_dbg/floating_point_v5_0.vhd</arg>&quot; line <arg fmt="%s" index="2">155</arg>: Output port &lt;<arg fmt="%s" index="3">divide_by_zero</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">U0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ecelrc/students/smirkhani/maysam/virtex-5/adder/tmp/_cg/_dbg/floating_point_v5_0.vhd</arg>&quot; line <arg fmt="%s" index="2">155</arg>: Output port &lt;<arg fmt="%s" index="3">rdy</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">U0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">OPERATION&lt;5:3&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">A_NEGATE</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">B_NEGATE</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">A_ND</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">B_ND</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">OPERATION_ND</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">SCLR</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">ACLR</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">CE</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">CTS</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ecelrc/students/smirkhani/maysam/virtex-5/adder/tmp/_cg/_dbg/floating_point_v5_0/floating_point_v5_0_xst.vhd</arg>&quot; line <arg fmt="%s" index="2">718</arg>: Output port &lt;<arg fmt="%s" index="3">STATUS</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">FLT_PT_OP</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ecelrc/students/smirkhani/maysam/virtex-5/adder/tmp/_cg/_dbg/floating_point_v5_0/floating_point_v5_0_xst.vhd</arg>&quot; line <arg fmt="%s" index="2">718</arg>: Output port &lt;<arg fmt="%s" index="3">A_RFD</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">FLT_PT_OP</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ecelrc/students/smirkhani/maysam/virtex-5/adder/tmp/_cg/_dbg/floating_point_v5_0/floating_point_v5_0_xst.vhd</arg>&quot; line <arg fmt="%s" index="2">718</arg>: Output port &lt;<arg fmt="%s" index="3">B_RFD</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">FLT_PT_OP</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ecelrc/students/smirkhani/maysam/virtex-5/adder/tmp/_cg/_dbg/floating_point_v5_0/floating_point_v5_0_xst.vhd</arg>&quot; line <arg fmt="%s" index="2">718</arg>: Output port &lt;<arg fmt="%s" index="3">OPERATION_RFD</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">FLT_PT_OP</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ecelrc/students/smirkhani/maysam/virtex-5/adder/tmp/_cg/_dbg/floating_point_v5_0/floating_point_v5_0_xst.vhd</arg>&quot; line <arg fmt="%s" index="2">718</arg>: Output port &lt;<arg fmt="%s" index="3">EXCEPTION</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">FLT_PT_OP</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ecelrc/students/smirkhani/maysam/virtex-5/adder/tmp/_cg/_dbg/floating_point_v5_0/floating_point_v5_0_xst.vhd</arg>&quot; line <arg fmt="%s" index="2">718</arg>: Output port &lt;<arg fmt="%s" index="3">UNDERFLOW</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">FLT_PT_OP</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ecelrc/students/smirkhani/maysam/virtex-5/adder/tmp/_cg/_dbg/floating_point_v5_0/floating_point_v5_0_xst.vhd</arg>&quot; line <arg fmt="%s" index="2">718</arg>: Output port &lt;<arg fmt="%s" index="3">OVERFLOW</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">FLT_PT_OP</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ecelrc/students/smirkhani/maysam/virtex-5/adder/tmp/_cg/_dbg/floating_point_v5_0/floating_point_v5_0_xst.vhd</arg>&quot; line <arg fmt="%s" index="2">718</arg>: Output port &lt;<arg fmt="%s" index="3">INVALID_OP</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">FLT_PT_OP</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ecelrc/students/smirkhani/maysam/virtex-5/adder/tmp/_cg/_dbg/floating_point_v5_0/floating_point_v5_0_xst.vhd</arg>&quot; line <arg fmt="%s" index="2">718</arg>: Output port &lt;<arg fmt="%s" index="3">INEXACT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">FLT_PT_OP</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ecelrc/students/smirkhani/maysam/virtex-5/adder/tmp/_cg/_dbg/floating_point_v5_0/floating_point_v5_0_xst.vhd</arg>&quot; line <arg fmt="%s" index="2">718</arg>: Output port &lt;<arg fmt="%s" index="3">DIVIDE_BY_ZERO</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">FLT_PT_OP</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ecelrc/students/smirkhani/maysam/virtex-5/adder/tmp/_cg/_dbg/floating_point_v5_0/floating_point_v5_0_xst.vhd</arg>&quot; line <arg fmt="%s" index="2">718</arg>: Output port &lt;<arg fmt="%s" index="3">RDY</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">FLT_PT_OP</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">A_RFD</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">B_RFD</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">INEXACT</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">OPERATION&lt;5:1&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">A_ND</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">B_ND</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">ACLR</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">CTS</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ecelrc/students/smirkhani/maysam/virtex-5/adder/tmp/_cg/_dbg/floating_point_v5_0/flt_pt_operator.vhd</arg>&quot; line <arg fmt="%s" index="2">1149</arg>: Output port &lt;<arg fmt="%s" index="3">ND_CORE</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">HND_SHK</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">A_RFD</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">B_RFD</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">INEXACT</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">divide_by_zero_ud</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">exception_ud</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">ND</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="2935" delta="new" >Signal &apos;<arg fmt="%s" index="1">RDY</arg>&apos;, unconnected in block &apos;<arg fmt="%s" index="2">handshake</arg>&apos;, is tied to its initial value (<arg fmt="%s" index="3">0</arg>).
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ecelrc/students/smirkhani/maysam/virtex-5/adder/tmp/_cg/_dbg/floating_point_v5_0/flt_add/flt_add.vhd</arg>&quot; line <arg fmt="%s" index="2">455</arg>: Output port &lt;<arg fmt="%s" index="3">EXP_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">NORM</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ecelrc/students/smirkhani/maysam/virtex-5/adder/tmp/_cg/_dbg/floating_point_v5_0/flt_add/flt_add.vhd</arg>&quot; line <arg fmt="%s" index="2">513</arg>: Output port &lt;<arg fmt="%s" index="3">DIVIDE_BY_ZERO</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">OP</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">a_zeros_det_mux</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">b_zeros_det_mux</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">SCLR</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">SCLR</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">ZERO_B</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">SCLR</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">SCLR</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">SCLR</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">SCLR</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">SCLR</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">DIST&lt;10:6&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">ZEROS_DET_IP</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ecelrc/students/smirkhani/maysam/virtex-5/adder/tmp/_cg/_dbg/floating_point_v5_0/shared/zero_det_sel.vhd</arg>&quot; line <arg fmt="%s" index="2">290</arg>: Output port &lt;<arg fmt="%s" index="3">A_EQ_VALUE</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">EQ_ZERO</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ecelrc/students/smirkhani/maysam/virtex-5/adder/tmp/_cg/_dbg/floating_point_v5_0/shared/compare_eq_im.vhd</arg>&quot; line <arg fmt="%s" index="2">173</arg>: Output port &lt;<arg fmt="%s" index="3">Q</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">CARRY_ZERO_DET</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">q_int</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">CLK</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">CE</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">SCLR</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">CLK</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">CE</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">SCLR</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">CLK</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">CE</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">SCLR</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">SCLR</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">SCLR</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">CLK</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">CE</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">SCLR</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">SCLR</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">CLK</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">CE</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">SCLR</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">SCLR</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">SCLR</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">SCLR</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">DIST&lt;0:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ecelrc/students/smirkhani/maysam/virtex-5/adder/tmp/_cg/_dbg/floating_point_v5_0/shared/addsub_dsp.vhd</arg>&quot; line <arg fmt="%s" index="2">282</arg>: Output port &lt;<arg fmt="%s" index="3">A_CASCADE_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">DSP48E_DEL.DSP48E_DEL</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ecelrc/students/smirkhani/maysam/virtex-5/adder/tmp/_cg/_dbg/floating_point_v5_0/shared/addsub_dsp.vhd</arg>&quot; line <arg fmt="%s" index="2">282</arg>: Output port &lt;<arg fmt="%s" index="3">B_CASCADE_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">DSP48E_DEL.DSP48E_DEL</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ecelrc/students/smirkhani/maysam/virtex-5/adder/tmp/_cg/_dbg/floating_point_v5_0/shared/addsub_dsp.vhd</arg>&quot; line <arg fmt="%s" index="2">282</arg>: Output port &lt;<arg fmt="%s" index="3">P_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">DSP48E_DEL.DSP48E_DEL</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ecelrc/students/smirkhani/maysam/virtex-5/adder/tmp/_cg/_dbg/floating_point_v5_0/shared/addsub_dsp.vhd</arg>&quot; line <arg fmt="%s" index="2">282</arg>: Output port &lt;<arg fmt="%s" index="3">CARRY_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">DSP48E_DEL.DSP48E_DEL</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ecelrc/students/smirkhani/maysam/virtex-5/adder/tmp/_cg/_dbg/floating_point_v5_0/shared/addsub_dsp.vhd</arg>&quot; line <arg fmt="%s" index="2">282</arg>: Output port &lt;<arg fmt="%s" index="3">PATTERN_DETECT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">DSP48E_DEL.DSP48E_DEL</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ecelrc/students/smirkhani/maysam/virtex-5/adder/tmp/_cg/_dbg/floating_point_v5_0/shared/addsub_dsp.vhd</arg>&quot; line <arg fmt="%s" index="2">410</arg>: Output port &lt;<arg fmt="%s" index="3">A_CASCADE_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">DSP48E_ADD.DSP48E_ADD</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ecelrc/students/smirkhani/maysam/virtex-5/adder/tmp/_cg/_dbg/floating_point_v5_0/shared/addsub_dsp.vhd</arg>&quot; line <arg fmt="%s" index="2">410</arg>: Output port &lt;<arg fmt="%s" index="3">B_CASCADE_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">DSP48E_ADD.DSP48E_ADD</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ecelrc/students/smirkhani/maysam/virtex-5/adder/tmp/_cg/_dbg/floating_point_v5_0/shared/addsub_dsp.vhd</arg>&quot; line <arg fmt="%s" index="2">410</arg>: Output port &lt;<arg fmt="%s" index="3">P_CASCADE_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">DSP48E_ADD.DSP48E_ADD</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ecelrc/students/smirkhani/maysam/virtex-5/adder/tmp/_cg/_dbg/floating_point_v5_0/shared/addsub_dsp.vhd</arg>&quot; line <arg fmt="%s" index="2">410</arg>: Output port &lt;<arg fmt="%s" index="3">CARRY_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">DSP48E_ADD.DSP48E_ADD</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ecelrc/students/smirkhani/maysam/virtex-5/adder/tmp/_cg/_dbg/floating_point_v5_0/shared/addsub_dsp.vhd</arg>&quot; line <arg fmt="%s" index="2">410</arg>: Output port &lt;<arg fmt="%s" index="3">PATTERN_DETECT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">DSP48E_ADD.DSP48E_ADD</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ecelrc/students/smirkhani/maysam/virtex-5/adder/tmp/_cg/_dbg/floating_point_v5_0/shared/addsub_dsp.vhd</arg>&quot; line <arg fmt="%s" index="2">549</arg>: Output port &lt;<arg fmt="%s" index="3">CARRYS_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">LOGIC_ADD.ADD_0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ecelrc/students/smirkhani/maysam/virtex-5/adder/tmp/_cg/_dbg/floating_point_v5_0/shared/addsub_dsp.vhd</arg>&quot; line <arg fmt="%s" index="2">549</arg>: Output port &lt;<arg fmt="%s" index="3">CARRY_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">LOGIC_ADD.ADD_0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ecelrc/students/smirkhani/maysam/virtex-5/adder/tmp/_cg/_dbg/floating_point_v5_0/shared/addsub_dsp.vhd</arg>&quot; line <arg fmt="%s" index="2">565</arg>: Output port &lt;<arg fmt="%s" index="3">CARRYS_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">LOGIC_ADD.ADD_1</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ecelrc/students/smirkhani/maysam/virtex-5/adder/tmp/_cg/_dbg/floating_point_v5_0/shared/addsub_dsp.vhd</arg>&quot; line <arg fmt="%s" index="2">565</arg>: Output port &lt;<arg fmt="%s" index="3">CARRY_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">LOGIC_ADD.ADD_1</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">SCLR</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ecelrc/students/smirkhani/maysam/virtex-5/adder/tmp/_cg/_dbg/floating_point_v5_0/shared/dsp48e_wrapper.vhd</arg>&quot; line <arg fmt="%s" index="2">319</arg>: Output port &lt;<arg fmt="%s" index="3">Q</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ALU_MODE_DELAY</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">CLK</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">CE</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">SCLR</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">CLK</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">CE</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">SCLR</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">CLK</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">CE</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">SCLR</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ecelrc/students/smirkhani/maysam/virtex-5/adder/tmp/_cg/_dbg/floating_point_v5_0/shared/dsp48e_wrapper.vhd</arg>&quot; line <arg fmt="%s" index="2">319</arg>: Output port &lt;<arg fmt="%s" index="3">Q</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ALU_MODE_DELAY</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">CLK</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">CE</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">SCLR</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">SCLR</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">SCLR</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">B&lt;8:8&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">carry&lt;9&gt;</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">CLK</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">CE</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">SCLR</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">SCLR</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">SCLR</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">DIST_IN</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ecelrc/students/smirkhani/maysam/virtex-5/adder/tmp/_cg/_dbg/floating_point_v5_0/shared/lead_zero_encode.vhd</arg>&quot; line <arg fmt="%s" index="2">287</arg>: Output port &lt;<arg fmt="%s" index="3">Q</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ZERO_DET_CC_1</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ecelrc/students/smirkhani/maysam/virtex-5/adder/tmp/_cg/_dbg/floating_point_v5_0/shared/lead_zero_encode.vhd</arg>&quot; line <arg fmt="%s" index="2">287</arg>: Output port &lt;<arg fmt="%s" index="3">CARRY_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ZERO_DET_CC_1</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ecelrc/students/smirkhani/maysam/virtex-5/adder/tmp/_cg/_dbg/floating_point_v5_0/shared/lead_zero_encode.vhd</arg>&quot; line <arg fmt="%s" index="2">307</arg>: Output port &lt;<arg fmt="%s" index="3">Q</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ZERO_DET_CC_2.CC</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ecelrc/students/smirkhani/maysam/virtex-5/adder/tmp/_cg/_dbg/floating_point_v5_0/shared/lead_zero_encode.vhd</arg>&quot; line <arg fmt="%s" index="2">307</arg>: Output port &lt;<arg fmt="%s" index="3">CARRY_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ZERO_DET_CC_2.CC</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ecelrc/students/smirkhani/maysam/virtex-5/adder/tmp/_cg/_dbg/floating_point_v5_0/shared/lead_zero_encode.vhd</arg>&quot; line <arg fmt="%s" index="2">394</arg>: Output port &lt;<arg fmt="%s" index="3">OP</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ENCODE[1].MUX_Z</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">q_int</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">CLK</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">CE</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">SCLR</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">q_int</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">CLK</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">CE</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">SCLR</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">SCLR</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">SCLR</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">SCLR</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">DISTANCE&lt;10:6&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">CLK</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">CE</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">SCLR</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">EXP_INC_IN</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ecelrc/students/smirkhani/maysam/virtex-5/adder/tmp/_cg/_dbg/floating_point_v5_0/shared/renorm_and_round_logic.vhd</arg>&quot; line <arg fmt="%s" index="2">338</arg>: Output port &lt;<arg fmt="%s" index="3">Q</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">MANT_RND1_DEL</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ecelrc/students/smirkhani/maysam/virtex-5/adder/tmp/_cg/_dbg/floating_point_v5_0/shared/renorm_and_round_logic.vhd</arg>&quot; line <arg fmt="%s" index="2">348</arg>: Output port &lt;<arg fmt="%s" index="3">Q</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">MANT_RND2_DEL</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ecelrc/students/smirkhani/maysam/virtex-5/adder/tmp/_cg/_dbg/floating_point_v5_0/shared/renorm_and_round_logic.vhd</arg>&quot; line <arg fmt="%s" index="2">425</arg>: Output port &lt;<arg fmt="%s" index="3">Q</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">EXTRA_LSB_RND1_DEL</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ecelrc/students/smirkhani/maysam/virtex-5/adder/tmp/_cg/_dbg/floating_point_v5_0/shared/renorm_and_round_logic.vhd</arg>&quot; line <arg fmt="%s" index="2">766</arg>: Output port &lt;<arg fmt="%s" index="3">A_CASCADE_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">DSP48_AND_E.DSP48E_ADD.DSP48E_ADD</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ecelrc/students/smirkhani/maysam/virtex-5/adder/tmp/_cg/_dbg/floating_point_v5_0/shared/renorm_and_round_logic.vhd</arg>&quot; line <arg fmt="%s" index="2">766</arg>: Output port &lt;<arg fmt="%s" index="3">B_CASCADE_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">DSP48_AND_E.DSP48E_ADD.DSP48E_ADD</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ecelrc/students/smirkhani/maysam/virtex-5/adder/tmp/_cg/_dbg/floating_point_v5_0/shared/renorm_and_round_logic.vhd</arg>&quot; line <arg fmt="%s" index="2">766</arg>: Output port &lt;<arg fmt="%s" index="3">P_CASCADE_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">DSP48_AND_E.DSP48E_ADD.DSP48E_ADD</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ecelrc/students/smirkhani/maysam/virtex-5/adder/tmp/_cg/_dbg/floating_point_v5_0/shared/renorm_and_round_logic.vhd</arg>&quot; line <arg fmt="%s" index="2">766</arg>: Output port &lt;<arg fmt="%s" index="3">CARRY_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">DSP48_AND_E.DSP48E_ADD.DSP48E_ADD</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ecelrc/students/smirkhani/maysam/virtex-5/adder/tmp/_cg/_dbg/floating_point_v5_0/shared/renorm_and_round_logic.vhd</arg>&quot; line <arg fmt="%s" index="2">766</arg>: Output port &lt;<arg fmt="%s" index="3">PATTERN_DETECT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">DSP48_AND_E.DSP48E_ADD.DSP48E_ADD</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ecelrc/students/smirkhani/maysam/virtex-5/adder/tmp/_cg/_dbg/floating_point_v5_0/shared/renorm_and_round_logic.vhd</arg>&quot; line <arg fmt="%s" index="2">844</arg>: Output port &lt;<arg fmt="%s" index="3">CARRYS_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">DSP48_AND_E.DSP_LOGIC_ADDERS.RND_0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ecelrc/students/smirkhani/maysam/virtex-5/adder/tmp/_cg/_dbg/floating_point_v5_0/shared/renorm_and_round_logic.vhd</arg>&quot; line <arg fmt="%s" index="2">844</arg>: Output port &lt;<arg fmt="%s" index="3">CARRY_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">DSP48_AND_E.DSP_LOGIC_ADDERS.RND_0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ecelrc/students/smirkhani/maysam/virtex-5/adder/tmp/_cg/_dbg/floating_point_v5_0/shared/renorm_and_round_logic.vhd</arg>&quot; line <arg fmt="%s" index="2">860</arg>: Output port &lt;<arg fmt="%s" index="3">CARRYS_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">DSP48_AND_E.DSP_LOGIC_ADDERS.RND_1</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ecelrc/students/smirkhani/maysam/virtex-5/adder/tmp/_cg/_dbg/floating_point_v5_0/shared/renorm_and_round_logic.vhd</arg>&quot; line <arg fmt="%s" index="2">860</arg>: Output port &lt;<arg fmt="%s" index="3">CARRY_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">DSP48_AND_E.DSP_LOGIC_ADDERS.RND_1</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">CLK</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">CE</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">SCLR</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">SCLR</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">SCLR</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">NORMALIZE&lt;1:1&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">ROUND_MODE</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">RESOLVED_ZERO</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">RESOLVED_ROUND</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">FIXED_POINT</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">FIX_MANT_SIGN</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">SIGN</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">SCLR</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ecelrc/students/smirkhani/maysam/virtex-5/adder/tmp/_cg/_dbg/floating_point_v5_0/shared/dsp48e_wrapper.vhd</arg>&quot; line <arg fmt="%s" index="2">319</arg>: Output port &lt;<arg fmt="%s" index="3">Q</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ALU_MODE_DELAY</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">B&lt;18:18&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">carry&lt;19&gt;</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">SCLR</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">ROUND_EXP_INC</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ecelrc/students/smirkhani/maysam/virtex-5/adder/tmp/_cg/_dbg/floating_point_v5_0/flt_add/flt_add_exp.vhd</arg>&quot; line <arg fmt="%s" index="2">819</arg>: Output port &lt;<arg fmt="%s" index="3">CARRYS_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">EXP_OFF.EXP_INC_S2.STRUCT_ADD</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ecelrc/students/smirkhani/maysam/virtex-5/adder/tmp/_cg/_dbg/floating_point_v5_0/flt_add/flt_add_exp.vhd</arg>&quot; line <arg fmt="%s" index="2">819</arg>: Output port &lt;<arg fmt="%s" index="3">CARRY_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">EXP_OFF.EXP_INC_S2.STRUCT_ADD</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">dec_state_pre_op&lt;11:8&gt;</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">ZERO_ALIGN</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">A&lt;63:63&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ecelrc/students/smirkhani/maysam/virtex-5/adder/tmp/_cg/_dbg/floating_point_v5_0/shared/special_detect.vhd</arg>&quot; line <arg fmt="%s" index="2">178</arg>: Output port &lt;<arg fmt="%s" index="3">CARRYS_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">MANT_CARRY.MANT_ALL_ZERO_DET</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ecelrc/students/smirkhani/maysam/virtex-5/adder/tmp/_cg/_dbg/floating_point_v5_0/shared/compare_eq_im.vhd</arg>&quot; line <arg fmt="%s" index="2">173</arg>: Output port &lt;<arg fmt="%s" index="3">CARRYS_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">CARRY_ZERO_DET</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ecelrc/students/smirkhani/maysam/virtex-5/adder/tmp/_cg/_dbg/floating_point_v5_0/shared/compare_eq_im.vhd</arg>&quot; line <arg fmt="%s" index="2">173</arg>: Output port &lt;<arg fmt="%s" index="3">Q</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">CARRY_ZERO_DET</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">CARRYS_OUT</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">carrys_int_reg&lt;8:1&gt;</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">q_int</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">CLK</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">CE</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">SCLR</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ecelrc/students/smirkhani/maysam/virtex-5/adder/tmp/_cg/_dbg/floating_point_v5_0/shared/compare_gt.vhd</arg>&quot; line <arg fmt="%s" index="2">182</arg>: Output port &lt;<arg fmt="%s" index="3">CARRYS_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">BPL_GT_1.C_CHAIN</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ecelrc/students/smirkhani/maysam/virtex-5/adder/tmp/_cg/_dbg/floating_point_v5_0/shared/compare_gt.vhd</arg>&quot; line <arg fmt="%s" index="2">182</arg>: Output port &lt;<arg fmt="%s" index="3">Q</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">BPL_GT_1.C_CHAIN</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">carrys_int_reg&lt;15:1&gt;</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">q_int</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">CLK</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">CE</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">SCLR</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ecelrc/students/smirkhani/maysam/virtex-5/adder/tmp/_cg/_dbg/floating_point_v5_0/shared/compare_eq.vhd</arg>&quot; line <arg fmt="%s" index="2">142</arg>: Output port &lt;<arg fmt="%s" index="3">CARRYS_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">WIDE_AND</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ecelrc/students/smirkhani/maysam/virtex-5/adder/tmp/_cg/_dbg/floating_point_v5_0/shared/compare_eq.vhd</arg>&quot; line <arg fmt="%s" index="2">142</arg>: Output port &lt;<arg fmt="%s" index="3">Q</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">WIDE_AND</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">carrys_int_reg&lt;10:1&gt;</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">q_int</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">CLK</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">CE</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">SCLR</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">SCLR</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">SCLR</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">SCLR</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">SCLR</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">SCLR</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">B&lt;11:11&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">carry&lt;12&gt;</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">CLK</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">CE</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">SCLR</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">SCLR</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">SCLR</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">SCLR</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">SCLR</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">SCLR</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">SCLR</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">SCLR</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">SCLR</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">DEC_OP_STATE&lt;11:8&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">DIVIDE_BY_ZERO_IN</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="2935" delta="new" >Signal &apos;<arg fmt="%s" index="1">DIVIDE_BY_ZERO</arg>&apos;, unconnected in block &apos;<arg fmt="%s" index="2">flt_dec_op</arg>&apos;, is tied to its initial value (<arg fmt="%s" index="3">0</arg>).
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">CLK</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">CE</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">SCLR</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">CLK</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">CE</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">SCLR</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">CLK</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">CE</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">SCLR</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="info" file="Xst" num="3231" delta="new" >The small RAM &lt;<arg fmt="%s" index="1">Mram__n0173</arg>&gt; will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+</msg>
+
+<msg type="info" file="Xst" num="3231" delta="new" >The small RAM &lt;<arg fmt="%s" index="1">Mram_ext_data&lt;0&gt;&lt;25:24&gt;</arg>&gt; will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+</msg>
+
+<msg type="info" file="Xst" num="3231" delta="new" >The small RAM &lt;<arg fmt="%s" index="1">Mram_ext_data&lt;0&gt;&lt;27:26&gt;</arg>&gt; will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+</msg>
+
+<msg type="info" file="Xst" num="3231" delta="new" >The small RAM &lt;<arg fmt="%s" index="1">Mram_ext_data&lt;0&gt;&lt;23:22&gt;</arg>&gt; will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+</msg>
+
+<msg type="info" file="Xst" num="3231" delta="new" >The small RAM &lt;<arg fmt="%s" index="1">Mram_ext_data&lt;0&gt;&lt;21:20&gt;</arg>&gt; will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+</msg>
+
+<msg type="info" file="Xst" num="3231" delta="new" >The small RAM &lt;<arg fmt="%s" index="1">Mram_ext_data&lt;0&gt;&lt;19:18&gt;</arg>&gt; will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+</msg>
+
+<msg type="info" file="Xst" num="3231" delta="new" >The small RAM &lt;<arg fmt="%s" index="1">Mram_ext_data&lt;0&gt;&lt;17:16&gt;</arg>&gt; will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+</msg>
+
+<msg type="info" file="Xst" num="3231" delta="new" >The small RAM &lt;<arg fmt="%s" index="1">Mram_ext_data&lt;0&gt;&lt;15:14&gt;</arg>&gt; will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+</msg>
+
+<msg type="info" file="Xst" num="3231" delta="new" >The small RAM &lt;<arg fmt="%s" index="1">Mram_ext_data&lt;0&gt;&lt;11:10&gt;</arg>&gt; will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+</msg>
+
+<msg type="info" file="Xst" num="3231" delta="new" >The small RAM &lt;<arg fmt="%s" index="1">Mram_ext_data&lt;0&gt;&lt;13:12&gt;</arg>&gt; will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+</msg>
+
+<msg type="info" file="Xst" num="3231" delta="new" >The small RAM &lt;<arg fmt="%s" index="1">Mram_ext_data&lt;0&gt;&lt;9:8&gt;</arg>&gt; will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+</msg>
+
+<msg type="info" file="Xst" num="3231" delta="new" >The small RAM &lt;<arg fmt="%s" index="1">Mram_ext_data&lt;0&gt;&lt;5:4&gt;</arg>&gt; will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+</msg>
+
+<msg type="info" file="Xst" num="3231" delta="new" >The small RAM &lt;<arg fmt="%s" index="1">Mram_ext_data&lt;0&gt;&lt;7:6&gt;</arg>&gt; will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+</msg>
+
+<msg type="info" file="Xst" num="3231" delta="new" >The small RAM &lt;<arg fmt="%s" index="1">Mram_ext_data&lt;0&gt;&lt;3:2&gt;</arg>&gt; will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+</msg>
+
+<msg type="info" file="Xst" num="3231" delta="new" >The small RAM &lt;<arg fmt="%s" index="1">Mram_ext_data&lt;0&gt;&lt;1:0&gt;</arg>&gt; will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">RTL.delay_0_sliced_6</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">delay_58</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">6 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;RTL.delay_0_sliced_5&gt; &lt;RTL.delay_0_sliced_4&gt; &lt;RTL.delay_0_sliced_3&gt; &lt;RTL.delay_0_sliced_2&gt; &lt;RTL.delay_0_sliced_1&gt; &lt;RTL.delay_0_sliced_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">SUBTRACT_PREADD_DEL/RTL.delay&lt;0&gt;_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">align_add</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;SUB_DELAY/RTL.delay&lt;0&gt;_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">RTL.delay_0_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">delay_5</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">13 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;RTL.delay_0_1&gt; &lt;RTL.delay_0_2&gt; &lt;RTL.delay_0_3&gt; &lt;RTL.delay_0_4&gt; &lt;RTL.delay_0_5&gt; &lt;RTL.delay_0_6&gt; &lt;RTL.delay_0_7&gt; &lt;RTL.delay_0_8&gt; &lt;RTL.delay_0_9&gt; &lt;RTL.delay_0_10&gt; &lt;RTL.delay_0_11&gt; &lt;RTL.delay_0_12&gt; &lt;RTL.delay_0_13&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">ip_reg_op_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">delay_19</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;ip_reg_op_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">NORMALIZE_RND1_DEL/RTL.delay_0_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">renorm_and_round_logic</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;NORMALIZE_RND1_DEL/RTL.delay_0_0&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">HND_SHK/rfd_int</arg>&gt; has a constant value of <arg fmt="%d" index="2">1</arg> in block &lt;<arg fmt="%s" index="3">flt_pt_operator</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">RTL.delay_0_sliced_6</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">delay_58</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">SUBTRACT_PREADD_DEL/RTL.delay&lt;1&gt;_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">align_add</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;SUB_DELAY/RTL.delay&lt;1&gt;_0&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">RTL.delay_0_0</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">delay_5</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">ip_reg_op_0</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">delay_19</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">ip_reg_op_8</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">delay_25</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">RTL.delay_0_8</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">delay_25</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">RTL.delay_1_8</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">delay_25</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">RTL.delay_2_8</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">delay_25</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">RTL.delay_0_8</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">delay_26</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ENCODE[1].MUX_Z/OP_DEL/RTL.delay&lt;0&gt;_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">lead_zero_encode</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">EXP_INC_DELAY/RTL.delay&lt;0&gt;_0</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">renorm_and_round_logic</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">NORMALIZE_RND1_DEL/RTL.delay_0_1</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">renorm_and_round_logic</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">NORMALIZE_RND2_DEL/ip_reg_op_0</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">renorm_and_round_logic</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">EXP_INC_DELAY/RTL.delay&lt;1&gt;_0</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">renorm_and_round_logic</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">NORMALIZE_RND2_DEL/ip_reg_op_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">renorm_and_round_logic</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="new" >Instance <arg fmt="%s" index="1">DSP48E_ADD.DSP48E_ADD/DSP</arg> in unit <arg fmt="%s" index="2">DSP48E_ADD.DSP48E_ADD/DSP</arg> of type <arg fmt="%s" index="3">DSP48E</arg> has been replaced by <arg fmt="%s" index="4">DSP48E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="new" >Instance <arg fmt="%s" index="1">DSP48E_DEL.DSP48E_DEL/DSP</arg> in unit <arg fmt="%s" index="2">DSP48E_DEL.DSP48E_DEL/DSP</arg> of type <arg fmt="%s" index="3">DSP48E</arg> has been replaced by <arg fmt="%s" index="4">DSP48E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="new" >Instance <arg fmt="%s" index="1">DSP48_AND_E.DSP48E_ADD.DSP48E_ADD/DSP</arg> in unit <arg fmt="%s" index="2">DSP48_AND_E.DSP48E_ADD.DSP48E_ADD/DSP</arg> of type <arg fmt="%s" index="3">DSP48E</arg> has been replaced by <arg fmt="%s" index="4">DSP48E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">FAST_SPECIAL.A_OR_B_ZERO_SIGN_DEL/ip_reg_op_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">flt_add_exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;FAST_SPECIAL.A_AND_B_INF_SIGN_DEL/ip_reg_op_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">FAST_SPECIAL.A_OR_B_ZERO_SIGN_DEL/ip_reg_op_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">flt_add_exp</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;FAST_SPECIAL.A_AND_B_INF_SIGN_DEL/ip_reg_op_0&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="2716" delta="new" >In unit <arg fmt="%s" index="1">floating_point_v5_0</arg>, both signals <arg fmt="%s" index="2">U0/op_inst/FLT_PT_OP/ADDSUB_OP.SPEED_OP.LOGIC.OP/ALIGN_BLK/FRAC_ADDSUB/DSP_ADD.FRAC_ADDSUB/DSP48E_DEL.lrg_dsp_ip&lt;1&gt;</arg> and <arg fmt="%s" index="3">U0/op_inst/FLT_PT_OP/ADDSUB_OP.SPEED_OP.LOGIC.OP/ALIGN_BLK/FRAC_ADDSUB/DSP_ADD.FRAC_ADDSUB/DSP48E_DEL.lrg_dsp_ip&lt;0&gt;</arg> have a KEEP attribute, signal <arg fmt="%s" index="4">U0/op_inst/FLT_PT_OP/ADDSUB_OP.SPEED_OP.LOGIC.OP/ALIGN_BLK/FRAC_ADDSUB/DSP_ADD.FRAC_ADDSUB/DSP48E_DEL.lrg_dsp_ip&lt;0&gt;</arg> will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="1426" delta="new" >The value init of the FF/Latch <arg fmt="%s" index="1">U0/op_inst/FLT_PT_OP/ADDSUB_OP.SPEED_OP.LOGIC.OP/ALIGN_BLK/ALIGN_SHIFT/ALIGN_Z_D/MUX_LOOP[0].DEL_Z_D/RTL.delay_0_14</arg> hinder the constant cleaning in the block <arg fmt="%s" index="2">floating_point_v5_0</arg>.
+You should achieve better results by setting this init to <arg fmt="%i" index="3">1</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="1426" delta="new" >The value init of the FF/Latch <arg fmt="%s" index="1">U0/op_inst/FLT_PT_OP/ADDSUB_OP.SPEED_OP.LOGIC.OP/ALIGN_BLK/ALIGN_SHIFT/ALIGN_Z_D/MUX_LOOP[0].DEL_Z_D/RTL.delay_0_15</arg> hinder the constant cleaning in the block <arg fmt="%s" index="2">floating_point_v5_0</arg>.
+You should achieve better results by setting this init to <arg fmt="%i" index="3">1</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/op_inst/FLT_PT_OP/ADDSUB_OP.SPEED_OP.LOGIC.OP/EXP/NORMAL_NORM_DIST.ADD_MANT_DELAY/RTL.delay_0_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">floating_point_v5_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/op_inst/FLT_PT_OP/ADDSUB_OP.SPEED_OP.LOGIC.OP/EXP/NORMAL_NORM_DIST.ADD_MANT_DELAY/RTL.delay_1_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">floating_point_v5_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/op_inst/FLT_PT_OP/ADDSUB_OP.SPEED_OP.LOGIC.OP/EXP/NORMAL_NORM_DIST.ADD_MANT_DELAY/RTL.delay_2_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">floating_point_v5_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">U0/op_inst/FLT_PT_OP/ADDSUB_OP.SPEED_OP.LOGIC.OP/EXP/NORMAL_NORM_DIST.FLOW_ALMOST_OVER_DELAY/ip_reg_op_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">floating_point_v5_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/op_inst/FLT_PT_OP/ADDSUB_OP.SPEED_OP.LOGIC.OP/EXP/FAST_SPECIAL.INV_OP_DEL/RTL.delay&lt;9&gt;_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">floating_point_v5_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/op_inst/FLT_PT_OP/ADDSUB_OP.SPEED_OP.LOGIC.OP/EXP/FAST_SPECIAL.INV_OP_DEL/RTL.delay&lt;8&gt;_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">floating_point_v5_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/op_inst/FLT_PT_OP/ADDSUB_OP.SPEED_OP.LOGIC.OP/EXP/FAST_SPECIAL.INV_OP_DEL/RTL.delay&lt;7&gt;_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">floating_point_v5_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/op_inst/FLT_PT_OP/ADDSUB_OP.SPEED_OP.LOGIC.OP/EXP/FAST_SPECIAL.INV_OP_DEL/RTL.delay&lt;6&gt;_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">floating_point_v5_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/op_inst/FLT_PT_OP/ADDSUB_OP.SPEED_OP.LOGIC.OP/EXP/FAST_SPECIAL.INV_OP_DEL/RTL.delay&lt;5&gt;_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">floating_point_v5_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/op_inst/FLT_PT_OP/ADDSUB_OP.SPEED_OP.LOGIC.OP/EXP/FAST_SPECIAL.INV_OP_DEL/RTL.delay&lt;4&gt;_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">floating_point_v5_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/op_inst/FLT_PT_OP/ADDSUB_OP.SPEED_OP.LOGIC.OP/EXP/FAST_SPECIAL.INV_OP_DEL/RTL.delay&lt;3&gt;_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">floating_point_v5_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/op_inst/FLT_PT_OP/ADDSUB_OP.SPEED_OP.LOGIC.OP/EXP/FAST_SPECIAL.INV_OP_DEL/RTL.delay&lt;2&gt;_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">floating_point_v5_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/op_inst/FLT_PT_OP/ADDSUB_OP.SPEED_OP.LOGIC.OP/EXP/FAST_SPECIAL.INV_OP_DEL/RTL.delay&lt;1&gt;_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">floating_point_v5_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/op_inst/FLT_PT_OP/ADDSUB_OP.SPEED_OP.LOGIC.OP/EXP/FAST_SPECIAL.INV_OP_DEL/RTL.delay&lt;0&gt;_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">floating_point_v5_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">U0/op_inst/FLT_PT_OP/ADDSUB_OP.SPEED_OP.LOGIC.OP/EXP/FAST_SPECIAL.INV_OP_DEL/ip_reg_op_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">floating_point_v5_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/op_inst/FLT_PT_OP/ADDSUB_OP.SPEED_OP.LOGIC.OP/EXP/EXP_OFF.LRG_EXP_DELAY/RTL.delay_7_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">floating_point_v5_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/op_inst/FLT_PT_OP/ADDSUB_OP.SPEED_OP.LOGIC.OP/EXP/EXP_OFF.LRG_EXP_DELAY/RTL.delay_6_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">floating_point_v5_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/op_inst/FLT_PT_OP/ADDSUB_OP.SPEED_OP.LOGIC.OP/EXP/EXP_OFF.LRG_EXP_DELAY/RTL.delay_5_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">floating_point_v5_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/op_inst/FLT_PT_OP/ADDSUB_OP.SPEED_OP.LOGIC.OP/EXP/EXP_OFF.LRG_EXP_DELAY/RTL.delay_4_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">floating_point_v5_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/op_inst/FLT_PT_OP/ADDSUB_OP.SPEED_OP.LOGIC.OP/EXP/EXP_OFF.LRG_EXP_DELAY/RTL.delay_3_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">floating_point_v5_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/op_inst/FLT_PT_OP/ADDSUB_OP.SPEED_OP.LOGIC.OP/EXP/EXP_OFF.LRG_EXP_DELAY/RTL.delay_2_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">floating_point_v5_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/op_inst/FLT_PT_OP/ADDSUB_OP.SPEED_OP.LOGIC.OP/EXP/EXP_OFF.LRG_EXP_DELAY/RTL.delay_1_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">floating_point_v5_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/op_inst/FLT_PT_OP/ADDSUB_OP.SPEED_OP.LOGIC.OP/EXP/EXP_OFF.LRG_EXP_DELAY/RTL.delay_0_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">floating_point_v5_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/op_inst/FLT_PT_OP/ADDSUB_OP.SPEED_OP.LOGIC.OP/EXP/FLOW_SIG_UP_DELAY/RTL.delay_0_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">floating_point_v5_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/op_inst/FLT_PT_OP/ADDSUB_OP.SPEED_OP.LOGIC.OP/EXP/FLOW_SIG_UP_DELAY/RTL.delay_0_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">floating_point_v5_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/op_inst/FLT_PT_OP/ADDSUB_OP.SPEED_OP.LOGIC.OP/EXP/FLOW_SIG_UP_DELAY/RTL.delay_0_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">floating_point_v5_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/op_inst/FLT_PT_OP/ADDSUB_OP.SPEED_OP.LOGIC.OP/EXP/FLOW_SIG_UP_DELAY/RTL.delay_0_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">floating_point_v5_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">U0/op_inst/FLT_PT_OP/ADDSUB_OP.SPEED_OP.LOGIC.OP/EXP/FLOW_SIG_UP_DELAY/ip_reg_op_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">floating_point_v5_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">U0/op_inst/FLT_PT_OP/ADDSUB_OP.SPEED_OP.LOGIC.OP/EXP/FLOW_SIG_UP_DELAY/ip_reg_op_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">floating_point_v5_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">U0/op_inst/FLT_PT_OP/ADDSUB_OP.SPEED_OP.LOGIC.OP/EXP/FLOW_SIG_UP_DELAY/ip_reg_op_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">floating_point_v5_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">U0/op_inst/FLT_PT_OP/ADDSUB_OP.SPEED_OP.LOGIC.OP/EXP/FLOW_SIG_UP_DELAY/ip_reg_op_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">floating_point_v5_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/op_inst/FLT_PT_OP/ADDSUB_OP.SPEED_OP.LOGIC.OP/ALIGN_BLK/ALIGN_SHIFT/ALIGN_Z_D/MUX_LOOP[2].DEL_Z_D/RTL.delay_0_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">floating_point_v5_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/op_inst/FLT_PT_OP/ADDSUB_OP.SPEED_OP.LOGIC.OP/ALIGN_BLK/ALIGN_SHIFT/ALIGN_Z_D/MUX_LOOP[2].DEL_Z_D/RTL.delay_0_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">floating_point_v5_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/op_inst/FLT_PT_OP/ADDSUB_OP.SPEED_OP.LOGIC.OP/ALIGN_BLK/ALIGN_SHIFT/ALIGN_Z_D/MUX_LOOP[2].DEL_Z_D/RTL.delay_0_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">floating_point_v5_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/op_inst/FLT_PT_OP/ADDSUB_OP.SPEED_OP.LOGIC.OP/ALIGN_BLK/ALIGN_SHIFT/ALIGN_Z_D/MUX_LOOP[2].DEL_Z_D/RTL.delay_0_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">floating_point_v5_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/op_inst/FLT_PT_OP/ADDSUB_OP.SPEED_OP.LOGIC.OP/ALIGN_BLK/ALIGN_SHIFT/ALIGN_Z_D/MUX_LOOP[2].DEL_Z_D/RTL.delay_0_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">floating_point_v5_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/op_inst/FLT_PT_OP/ADDSUB_OP.SPEED_OP.LOGIC.OP/ALIGN_BLK/ALIGN_SHIFT/ALIGN_Z_D/MUX_LOOP[2].DEL_Z_D/RTL.delay_0_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">floating_point_v5_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/op_inst/FLT_PT_OP/ADDSUB_OP.SPEED_OP.LOGIC.OP/ALIGN_BLK/ALIGN_SHIFT/ALIGN_Z_D/MUX_LOOP[2].DEL_Z_D/RTL.delay_0_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">floating_point_v5_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/op_inst/FLT_PT_OP/ADDSUB_OP.SPEED_OP.LOGIC.OP/ALIGN_BLK/ALIGN_SHIFT/ALIGN_Z_D/MUX_LOOP[2].DEL_Z_D/RTL.delay_0_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">floating_point_v5_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/op_inst/FLT_PT_OP/ADDSUB_OP.SPEED_OP.LOGIC.OP/ALIGN_BLK/ALIGN_SHIFT/ALIGN_Z_D/MUX_LOOP[2].DEL_Z_D/RTL.delay_0_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">floating_point_v5_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/op_inst/FLT_PT_OP/ADDSUB_OP.SPEED_OP.LOGIC.OP/ALIGN_BLK/ALIGN_SHIFT/ALIGN_Z_D/MUX_LOOP[2].DEL_Z_D/RTL.delay_0_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">floating_point_v5_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/op_inst/FLT_PT_OP/ADDSUB_OP.SPEED_OP.LOGIC.OP/ALIGN_BLK/ALIGN_SHIFT/ALIGN_Z_D/MUX_LOOP[2].DEL_Z_D/RTL.delay_0_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">floating_point_v5_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/op_inst/FLT_PT_OP/ADDSUB_OP.SPEED_OP.LOGIC.OP/ALIGN_BLK/ALIGN_SHIFT/ALIGN_Z_D/MUX_LOOP[2].DEL_Z_D/RTL.delay_0_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">floating_point_v5_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/op_inst/FLT_PT_OP/ADDSUB_OP.SPEED_OP.LOGIC.OP/ALIGN_BLK/ALIGN_SHIFT/ALIGN_Z_D/MUX_LOOP[2].DEL_Z_D/RTL.delay_0_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">floating_point_v5_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/op_inst/FLT_PT_OP/ADDSUB_OP.SPEED_OP.LOGIC.OP/ALIGN_BLK/ALIGN_SHIFT/ALIGN_Z_D/MUX_LOOP[2].DEL_Z_D/RTL.delay_0_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">floating_point_v5_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/op_inst/FLT_PT_OP/ADDSUB_OP.SPEED_OP.LOGIC.OP/ALIGN_BLK/ALIGN_SHIFT/ALIGN_Z_D/MUX_LOOP[2].DEL_Z_D/RTL.delay_0_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">floating_point_v5_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/op_inst/FLT_PT_OP/ADDSUB_OP.SPEED_OP.LOGIC.OP/NORM/ROUND/DSP48_AND_E.DSP_LOGIC_ADDERS.MANT_MSBS_DEL/RTL.delay_0_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">floating_point_v5_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/op_inst/FLT_PT_OP/ADDSUB_OP.SPEED_OP.LOGIC.OP/NORM/ROUND/DSP48_AND_E.DSP_LOGIC_ADDERS.RND_0/Q_DEL/RTL.delay_0_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">floating_point_v5_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/op_inst/FLT_PT_OP/ADDSUB_OP.SPEED_OP.LOGIC.OP/NORM/ROUND/DSP48_AND_E.DSP_LOGIC_ADDERS.RND_0/Q_DEL/RTL.delay_0_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">floating_point_v5_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/op_inst/FLT_PT_OP/ADDSUB_OP.SPEED_OP.LOGIC.OP/NORM/ROUND/DSP48_AND_E.DSP_LOGIC_ADDERS.RND_0/Q_DEL/RTL.delay_0_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">floating_point_v5_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/op_inst/FLT_PT_OP/ADDSUB_OP.SPEED_OP.LOGIC.OP/NORM/ROUND/DSP48_AND_E.DSP_LOGIC_ADDERS.RND_0/Q_DEL/RTL.delay_0_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">floating_point_v5_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/op_inst/FLT_PT_OP/ADDSUB_OP.SPEED_OP.LOGIC.OP/NORM/ROUND/DSP48_AND_E.DSP_LOGIC_ADDERS.RND_0/Q_DEL/RTL.delay_0_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">floating_point_v5_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/op_inst/FLT_PT_OP/ADDSUB_OP.SPEED_OP.LOGIC.OP/NORM/ROUND/DSP48_AND_E.DSP_LOGIC_ADDERS.RND_0/Q_DEL/RTL.delay_0_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">floating_point_v5_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/op_inst/FLT_PT_OP/ADDSUB_OP.SPEED_OP.LOGIC.OP/NORM/ROUND/DSP48_AND_E.DSP_LOGIC_ADDERS.RND_0/Q_DEL/RTL.delay_0_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">floating_point_v5_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/op_inst/FLT_PT_OP/ADDSUB_OP.SPEED_OP.LOGIC.OP/NORM/ROUND/DSP48_AND_E.DSP_LOGIC_ADDERS.RND_0/Q_DEL/RTL.delay_0_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">floating_point_v5_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/op_inst/FLT_PT_OP/ADDSUB_OP.SPEED_OP.LOGIC.OP/NORM/ROUND/DSP48_AND_E.DSP_LOGIC_ADDERS.RND_0/Q_DEL/RTL.delay_0_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">floating_point_v5_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/op_inst/FLT_PT_OP/ADDSUB_OP.SPEED_OP.LOGIC.OP/NORM/ROUND/DSP48_AND_E.DSP_LOGIC_ADDERS.RND_0/Q_DEL/RTL.delay_0_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">floating_point_v5_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/op_inst/FLT_PT_OP/ADDSUB_OP.SPEED_OP.LOGIC.OP/NORM/ROUND/DSP48_AND_E.DSP_LOGIC_ADDERS.RND_0/Q_DEL/RTL.delay_0_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">floating_point_v5_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/op_inst/FLT_PT_OP/ADDSUB_OP.SPEED_OP.LOGIC.OP/NORM/ROUND/DSP48_AND_E.DSP_LOGIC_ADDERS.RND_0/Q_DEL/RTL.delay_0_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">floating_point_v5_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/op_inst/FLT_PT_OP/ADDSUB_OP.SPEED_OP.LOGIC.OP/NORM/ROUND/DSP48_AND_E.DSP_LOGIC_ADDERS.RND_1/Q_DEL/RTL.delay_0_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">floating_point_v5_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/op_inst/FLT_PT_OP/ADDSUB_OP.SPEED_OP.LOGIC.OP/NORM/ROUND/DSP48_AND_E.DSP_LOGIC_ADDERS.RND_1/Q_DEL/RTL.delay_0_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">floating_point_v5_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/op_inst/FLT_PT_OP/ADDSUB_OP.SPEED_OP.LOGIC.OP/NORM/ROUND/DSP48_AND_E.DSP_LOGIC_ADDERS.RND_1/Q_DEL/RTL.delay_0_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">floating_point_v5_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/op_inst/FLT_PT_OP/ADDSUB_OP.SPEED_OP.LOGIC.OP/NORM/ROUND/DSP48_AND_E.DSP_LOGIC_ADDERS.RND_1/Q_DEL/RTL.delay_0_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">floating_point_v5_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/op_inst/FLT_PT_OP/ADDSUB_OP.SPEED_OP.LOGIC.OP/NORM/ROUND/DSP48_AND_E.DSP_LOGIC_ADDERS.RND_1/Q_DEL/RTL.delay_0_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">floating_point_v5_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/op_inst/FLT_PT_OP/ADDSUB_OP.SPEED_OP.LOGIC.OP/NORM/ROUND/DSP48_AND_E.DSP_LOGIC_ADDERS.RND_1/Q_DEL/RTL.delay_0_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">floating_point_v5_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/op_inst/FLT_PT_OP/ADDSUB_OP.SPEED_OP.LOGIC.OP/NORM/ROUND/DSP48_AND_E.DSP_LOGIC_ADDERS.RND_1/Q_DEL/RTL.delay_0_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">floating_point_v5_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/op_inst/FLT_PT_OP/ADDSUB_OP.SPEED_OP.LOGIC.OP/NORM/ROUND/DSP48_AND_E.DSP_LOGIC_ADDERS.RND_1/Q_DEL/RTL.delay_0_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">floating_point_v5_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/op_inst/FLT_PT_OP/ADDSUB_OP.SPEED_OP.LOGIC.OP/NORM/ROUND/DSP48_AND_E.DSP_LOGIC_ADDERS.RND_1/Q_DEL/RTL.delay_0_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">floating_point_v5_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/op_inst/FLT_PT_OP/ADDSUB_OP.SPEED_OP.LOGIC.OP/NORM/ROUND/DSP48_AND_E.DSP_LOGIC_ADDERS.RND_1/Q_DEL/RTL.delay_0_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">floating_point_v5_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/op_inst/FLT_PT_OP/ADDSUB_OP.SPEED_OP.LOGIC.OP/NORM/ROUND/DSP48_AND_E.DSP_LOGIC_ADDERS.RND_1/Q_DEL/RTL.delay_0_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">floating_point_v5_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/op_inst/FLT_PT_OP/ADDSUB_OP.SPEED_OP.LOGIC.OP/NORM/ROUND/DSP48_AND_E.DSP_LOGIC_ADDERS.RND_1/Q_DEL/RTL.delay_0_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">floating_point_v5_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/op_inst/FLT_PT_OP/ADDSUB_OP.SPEED_OP.LOGIC.OP/OP/FLAGS_REG.IV_OP_REG/RTL.delay&lt;0&gt;_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">floating_point_v5_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">U0/op_inst/FLT_PT_OP/ADDSUB_OP.SPEED_OP.LOGIC.OP/OP/OVERFLOW</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">floating_point_v5_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">U0/op_inst/FLT_PT_OP/ADDSUB_OP.SPEED_OP.LOGIC.OP/OP/UNDERFLOW</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">floating_point_v5_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">U0/op_inst/FLT_PT_OP/ADDSUB_OP.SPEED_OP.LOGIC.OP/NORM/LZE/ENCODE[0].MUX_Z/OP_DEL/RTL.delay_0_3</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">floating_point_v5_0</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/op_inst/FLT_PT_OP/ADDSUB_OP.SPEED_OP.LOGIC.OP/EXP/FAST_SPECIAL.A_SIGN_XOR_B_SIGN_DEL/ip_reg_op_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">floating_point_v5_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;U0/op_inst/FLT_PT_OP/ADDSUB_OP.SPEED_OP.LOGIC.OP/ALIGN_BLK/SUBTRACT_PREADD_DEL/RTL.delay&lt;0&gt;_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/op_inst/FLT_PT_OP/ADDSUB_OP.SPEED_OP.LOGIC.OP/ALIGN_DIST_0_DEL/RTL.delay&lt;0&gt;_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">floating_point_v5_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;U0/op_inst/FLT_PT_OP/ADDSUB_OP.SPEED_OP.LOGIC.OP/EXP/BMA_EXP_DELAY/RTL.delay_0_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/op_inst/FLT_PT_OP/ADDSUB_OP.SPEED_OP.LOGIC.OP/EXP/NORMAL_NORM_DIST.ADD_MANT_DELAY/RTL.delay_0_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">floating_point_v5_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;U0/op_inst/FLT_PT_OP/ADDSUB_OP.SPEED_OP.LOGIC.OP/NORM/ADD_MANT_DELAY_2/RTL.delay_0_55&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/op_inst/FLT_PT_OP/ADDSUB_OP.SPEED_OP.LOGIC.OP/ALIGN_BLK/ALIGN_SHIFT/ALIGN_SHIFT/MUX_LOOP[1].SKEW_DIST_DEL.DEL_DIST/RTL.delay_0_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">floating_point_v5_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;U0/op_inst/FLT_PT_OP/ADDSUB_OP.SPEED_OP.LOGIC.OP/ALIGN_BLK/ALIGN_SHIFT/ALIGN_Z_D/MUX_LOOP[1].SKEW_DIST_DEL.DEL_DIST/RTL.delay_0_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/op_inst/FLT_PT_OP/ADDSUB_OP.SPEED_OP.LOGIC.OP/ALIGN_BLK/ALIGN_SHIFT/ALIGN_SHIFT/MUX_LOOP[1].SKEW_DIST_DEL.DEL_DIST/RTL.delay_0_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">floating_point_v5_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;U0/op_inst/FLT_PT_OP/ADDSUB_OP.SPEED_OP.LOGIC.OP/ALIGN_BLK/ALIGN_SHIFT/ALIGN_Z_D/MUX_LOOP[1].SKEW_DIST_DEL.DEL_DIST/RTL.delay_0_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/op_inst/FLT_PT_OP/ADDSUB_OP.SPEED_OP.LOGIC.OP/ALIGN_BLK/ALIGN_SHIFT/ALIGN_Z_D/MUX_LOOP[0].DEL_Z_D/RTL.delay_0_15</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">floating_point_v5_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;U0/op_inst/FLT_PT_OP/ADDSUB_OP.SPEED_OP.LOGIC.OP/ALIGN_BLK/ALIGN_SHIFT/ALIGN_Z_D/MUX_LOOP[0].DEL_Z_D/RTL.delay_0_14&gt; &lt;U0/op_inst/FLT_PT_OP/ADDSUB_OP.SPEED_OP.LOGIC.OP/NORM/ROUND/DSP48_AND_E.DSP_LOGIC_ADDERS.RND_0/Q_DEL/RTL.delay_0_7&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/op_inst/FLT_PT_OP/ADDSUB_OP.SPEED_OP.LOGIC.OP/EXP/SUB_DELAY/RTL.delay&lt;0&gt;_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">floating_point_v5_0</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="2169" delta="old" >HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+</msg>
+
+</messages>
+

@@ -1,0 +1,13 @@
+# Output products list for <adder64fp>
+adder64fp/doc/floating_point_ds335.pdf
+adder64fp/doc/floating_point_v5_0_readme.txt
+adder64fp/doc/floating_point_v5_0_vinfo.html
+adder64fp.asy
+adder64fp.gise
+adder64fp.ngc
+adder64fp.v
+adder64fp.veo
+adder64fp.xco
+adder64fp.xise
+adder64fp_flist.txt
+adder64fp_xmdf.tcl

@@ -1,0 +1,53 @@
+PCREPORT: module result__type__offloaded__incrementFactor__class__gOffloadedComponent registered for pc moduleId is 1
+PCREPORT: PC is registered name: in type 1 moduleId 1 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 1 portId 2
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 1 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 1 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 1 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 1 portId 0
+PCREPORT: module main__type__engine__MT__1____class__incThroughOffload registered for pc moduleId is 2
+PCREPORT: PC is registered name: in type 1 moduleId 2 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 2 portId 2
+PCREPORT: PC is registered name: incrementFactor type 1 moduleId 2 portId 3
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 2 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 2 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 2 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 2 portId 0
+PCREPORT: module incFactor__type__engine__MT__1____class__sendConst registered for pc moduleId is 3
+PCREPORT: PC is registered name: in type 1 moduleId 3 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 3 portId 2
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 3 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 3 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 3 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 3 portId 0
+Design hierarchy --- parent result__type__offloaded__incrementFactor__class__gOffloadedComponent child main__type__engine__MT__1____class__incThroughOffload
+Design hierarchy --- parent main__type__engine__MT__1____class__incThroughOffload child 
+Design hierarchy --- parent main__type__engine__MT__1____class__incThroughOffload child 
+Design hierarchy --- parent main__type__engine__MT__1____class__incThroughOffload child 
+Design hierarchy --- parent result__type__offloaded__incrementFactor__class__gOffloadedComponent child incFactor__type__engine__MT__1____class__sendConst
+Design hierarchy --- parent incFactor__type__engine__MT__1____class__sendConst child 
+Design hierarchy --- parent incFactor__type__engine__MT__1____class__sendConst child 
+Design hierarchy --- parent incFactor__type__engine__MT__1____class__sendConst child 
+PCREPORT: Performance counter reset received
+PCREPORT: throughput 0.0313
+PCREPORT: cycles 3200
+PCREPORT: Performance counter pause ack received
+PCREPORT: input back pressure result__type__offloaded__incrementFactor__class__gOffloadedComponent received 0.0000
+PCREPORT: output back pressure result__type__offloaded__incrementFactor__class__gOffloadedComponent received 0.0000
+PCREPORT: input back pressure incFactor__type__engine__MT__1____class__sendConst received 0.0000
+PCREPORT: output back pressure incFactor__type__engine__MT__1____class__sendConst received 0.0000
+PCREPORT: input back pressure main__type__engine__MT__1____class__incThroughOffload received 0.4641
+PCREPORT: output back pressure main__type__engine__MT__1____class__incThroughOffload received 0.0000
+PCREPORT: offload back pressure 3 main__type__engine__MT__1____class__incThroughOffload received 0.0000
+PCREPORT: offload rate result__type__offloaded__incrementFactor__class__gOffloadedComponent received 0.0000
+PCREPORT: offload rate incFactor__type__engine__MT__1____class__sendConst received 0.0063
+PCREPORT: offload rate main__type__engine__MT__1____class__incThroughOffload received 0.0313
+PCREPORT: engine utilization result__type__offloaded__incrementFactor__class__gOffloadedComponent received 0.0000
+PCREPORT: engine utilization incFactor__type__engine__MT__1____class__sendConst received 0.1563
+PCREPORT: engine utilization main__type__engine__MT__1____class__incThroughOffload received 0.9688
+PCREPORT: in tokens result__type__offloaded__incrementFactor__class__gOffloadedComponent received 0.0000
+PCREPORT: in tokens incFactor__type__engine__MT__1____class__sendConst received 1.0000
+PCREPORT: in tokens main__type__engine__MT__1____class__incThroughOffload received 1.0000
+PCREPORT: out tokens result__type__offloaded__incrementFactor__class__gOffloadedComponent received 0.0000
+PCREPORT: out tokens incFactor__type__engine__MT__1____class__sendConst received 1.0000
+PCREPORT: out tokens main__type__engine__MT__1____class__incThroughOffload received 1.0000

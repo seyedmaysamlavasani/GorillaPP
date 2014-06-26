@@ -1,0 +1,10 @@
+SBT := java -Xmx8096M -Xss8M -XX:MaxPermSize=2G -jar sbt-launch.jar
+
+prjs = \
+		Top	
+#		spMem
+#		Offloaded	
+#		Chained	
+#		KmeansAccMC
+#       NOCAndTestRig
+#KmeansAndMesh 

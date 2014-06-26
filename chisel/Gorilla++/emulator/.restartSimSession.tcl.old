@@ -1,0 +1,235 @@
+# Begin_DVE_Session_Save_Info
+# DVE restart session
+# Saved on Thu Oct 10 21:47:17 2013
+# Designs open: 1
+#   Sim: /proj/maysam/magilla/Gorilla++/chisel/KmeansAndMesh/emulator/simv
+# Toplevel windows open: 1
+# 	TopLevel.1
+#   Schematic.1: test.Offloaded
+#   Source.1: test
+#   Wave.1: 29 signals
+#   Wave.2: 104 signals
+#   Group count = 4
+#   Group Offloaded signal count = 29
+#   Group Offloaded_1 signal count = 29
+#   Group Offloaded_2 signal count = 29
+#   Group mainComp signal count = 104
+# End_DVE_Session_Save_Info
+
+# DVE version: D-2009.12
+# DVE build date: Nov 13 2009 22:21:45
+
+
+#<Session mode="Restart" path=".restartSimSession.tcl" type="Debug">
+
+gui_set_loading_session_type Restart
+gui_continuetime_set
+gui_clear_window -type Wave
+gui_clear_window -type List
+
+# Application preferences
+gui_set_pref_value -key app_default_font -value {Helvetica,10,-1,5,50,0,0,0,0,0}
+gui_src_preferences -tabstop 8 -maxbits 24 -windownumber 1
+#<WindowLayout>
+
+# DVE Topleve session: 
+
+
+# Create and position top-level windows :TopLevel.1
+
+set TopLevel.1 TopLevel.1
+
+# Docked window settings
+set HSPane.1 HSPane.1
+set Hier.1 Hier.1
+gui_sync_global -id ${TopLevel.1} -option true
+
+# MDI window settings
+set Console.1 Console.1
+gui_update_layout -id ${Console.1} {{show_state maximized} {dock_state undocked} {dock_on_new_line false}}
+set DLPane.1 DLPane.1
+set Data.1 Data.1
+gui_update_layout -id ${DLPane.1} {{show_state maximized} {dock_state undocked} {dock_on_new_line false} {child_data_colvariable 401} {child_data_colvalue 260} {child_data_coltype 267} {child_data_col1 0} {child_data_col2 1} {child_data_col3 2} {dataShowMode detail} {max_item_length 50}}
+set Source.1 Source.1
+gui_update_layout -id ${Source.1} {{show_state maximized} {dock_state undocked} {dock_on_new_line false}}
+set Wave.1 Wave.1
+gui_update_layout -id ${Wave.1} {{show_state maximized} {dock_state undocked} {dock_on_new_line false} {child_wave_left 417} {child_wave_right 510} {child_wave_colname 275} {child_wave_colvalue 137} {child_wave_col1 0} {child_wave_col2 1}}
+gui_use_schematics
+set Schematic.1 [gui_create_window -type {Schematic}  -parent ${TopLevel.1} -defer_create_taskbar_icon]
+set setting [::Misc::Setting::create -array DveSchematicSettings]
+Misc::init_window $setting ${Schematic.1}
+::Misc::exec_method -window ${Schematic.1} -method captionCmd
+gui_add_icon_to_taskbar -window ${Schematic.1}
+gui_show_window -window ${Schematic.1} -show_state maximized
+gui_update_layout -id ${Schematic.1} {{show_state maximized} {dock_state undocked} {dock_on_new_line false}}
+set Wave.2 Wave.2
+gui_update_layout -id ${Wave.2} {{show_state maximized} {dock_state undocked} {dock_on_new_line false} {child_wave_left 417} {child_wave_right 510} {child_wave_colname 275} {child_wave_colvalue 137} {child_wave_col1 0} {child_wave_col2 1}}
+
+# End MDI window settings
+
+
+#</WindowLayout>
+
+#<Database>
+
+#</Database>
+
+# DVE Global setting session: 
+
+
+# Global: Breakpoints
+
+# Global: Bus
+
+# Global: Expressions
+
+# Global: Signal Time Shift
+
+# Global: Signal Compare
+
+# Global: Signal Groups
+gui_load_child_values {test.Offloaded.gOffloadedComponent.mainComp}
+gui_load_child_values {test.Offloaded}
+
+set {Offloaded} {Offloaded}
+gui_sg_create ${Offloaded}
+gui_sg_addsignal -group ${Offloaded} { {test.Offloaded.io_pcOut_bits_moduleId} {test.Offloaded.gOffloadedComponent_io_pcOut_bits_pcType} {test.Offloaded.io_in_valid} {test.Offloaded.gOffloadedComponent_io_pcOut_bits_request} {test.Offloaded.gOffloadedComponent_io_pcOut_valid} {test.Offloaded.reset} {test.Offloaded.gOffloadedComponent_io_pcOut_bits_portId} {test.Offloaded.io_pcOut_bits_request} {test.Offloaded.io_pcOut_bits_pcType} {test.Offloaded.io_pcOut_bits_portId} {test.Offloaded.io_in_bits} {test.Offloaded.gOffloadedComponent_io_out_bits} {test.Offloaded.gOffloadedComponent_io_pcOut_bits_pcValue} {test.Offloaded.io_out_ready} {test.Offloaded.gOffloadedComponent_io_in_ready} {test.Offloaded.io_pcOut_bits_pcValue} {test.Offloaded.io_pcIn_bits_pcType} {test.Offloaded.gOffloadedComponent_io_out_valid} {test.Offloaded.gOffloadedComponent_io_pcOut_bits_moduleId} {test.Offloaded.io_pcOut_valid} {test.Offloaded.io_pcIn_bits_portId} {test.Offloaded.io_pcIn_valid} {test.Offloaded.io_pcIn_bits_moduleId} {test.Offloaded.clk} {test.Offloaded.io_pcIn_bits_request} {test.Offloaded.io_out_valid} {test.Offloaded.io_pcIn_bits_pcValue} {test.Offloaded.io_in_ready} {test.Offloaded.io_out_bits} }
+set {Offloaded_1} {Offloaded_1}
+gui_sg_create ${Offloaded_1}
+gui_sg_addsignal -group ${Offloaded_1} { {test.Offloaded.io_pcOut_bits_moduleId} {test.Offloaded.gOffloadedComponent_io_pcOut_bits_pcType} {test.Offloaded.io_in_valid} {test.Offloaded.gOffloadedComponent_io_pcOut_bits_request} {test.Offloaded.gOffloadedComponent_io_pcOut_valid} {test.Offloaded.reset} {test.Offloaded.gOffloadedComponent_io_pcOut_bits_portId} {test.Offloaded.io_pcOut_bits_request} {test.Offloaded.io_pcOut_bits_pcType} {test.Offloaded.io_pcOut_bits_portId} {test.Offloaded.io_in_bits} {test.Offloaded.gOffloadedComponent_io_out_bits} {test.Offloaded.gOffloadedComponent_io_pcOut_bits_pcValue} {test.Offloaded.io_out_ready} {test.Offloaded.gOffloadedComponent_io_in_ready} {test.Offloaded.io_pcOut_bits_pcValue} {test.Offloaded.io_pcIn_bits_pcType} {test.Offloaded.gOffloadedComponent_io_out_valid} {test.Offloaded.gOffloadedComponent_io_pcOut_bits_moduleId} {test.Offloaded.io_pcOut_valid} {test.Offloaded.io_pcIn_bits_portId} {test.Offloaded.io_pcIn_valid} {test.Offloaded.io_pcIn_bits_moduleId} {test.Offloaded.clk} {test.Offloaded.io_pcIn_bits_request} {test.Offloaded.io_out_valid} {test.Offloaded.io_pcIn_bits_pcValue} {test.Offloaded.io_in_ready} {test.Offloaded.io_out_bits} }
+set {Offloaded_2} {Offloaded_2}
+gui_sg_create ${Offloaded_2}
+gui_sg_addsignal -group ${Offloaded_2} { {test.Offloaded.io_pcOut_bits_moduleId} {test.Offloaded.gOffloadedComponent_io_pcOut_bits_pcType} {test.Offloaded.io_in_valid} {test.Offloaded.gOffloadedComponent_io_pcOut_bits_request} {test.Offloaded.gOffloadedComponent_io_pcOut_valid} {test.Offloaded.reset} {test.Offloaded.gOffloadedComponent_io_pcOut_bits_portId} {test.Offloaded.io_pcOut_bits_request} {test.Offloaded.io_pcOut_bits_pcType} {test.Offloaded.io_pcOut_bits_portId} {test.Offloaded.io_in_bits} {test.Offloaded.gOffloadedComponent_io_out_bits} {test.Offloaded.gOffloadedComponent_io_pcOut_bits_pcValue} {test.Offloaded.io_out_ready} {test.Offloaded.gOffloadedComponent_io_in_ready} {test.Offloaded.io_pcOut_bits_pcValue} {test.Offloaded.io_pcIn_bits_pcType} {test.Offloaded.gOffloadedComponent_io_out_valid} {test.Offloaded.gOffloadedComponent_io_pcOut_bits_moduleId} {test.Offloaded.io_pcOut_valid} {test.Offloaded.io_pcIn_bits_portId} {test.Offloaded.io_pcIn_valid} {test.Offloaded.io_pcIn_bits_moduleId} {test.Offloaded.clk} {test.Offloaded.io_pcIn_bits_request} {test.Offloaded.io_out_valid} {test.Offloaded.io_pcIn_bits_pcValue} {test.Offloaded.io_in_ready} {test.Offloaded.io_out_bits} }
+set {mainComp} {mainComp}
+gui_sg_create ${mainComp}
+gui_sg_addsignal -group ${mainComp} { {test.Offloaded.gOffloadedComponent.mainComp.io_pcOut_bits_moduleId} {test.Offloaded.gOffloadedComponent.mainComp.T50} {test.Offloaded.gOffloadedComponent.mainComp.T51} {test.Offloaded.gOffloadedComponent.mainComp.T52} {test.Offloaded.gOffloadedComponent.mainComp.T53} {test.Offloaded.gOffloadedComponent.mainComp.T54} {test.Offloaded.gOffloadedComponent.mainComp.T55} {test.Offloaded.gOffloadedComponent.mainComp.T56} {test.Offloaded.gOffloadedComponent.mainComp.T57} {test.Offloaded.gOffloadedComponent.mainComp.T58} {test.Offloaded.gOffloadedComponent.mainComp.T59} {test.Offloaded.gOffloadedComponent.mainComp.T60} {test.Offloaded.gOffloadedComponent.mainComp.T61} {test.Offloaded.gOffloadedComponent.mainComp.io_out_valid} {test.Offloaded.gOffloadedComponent.mainComp.T62} {test.Offloaded.gOffloadedComponent.mainComp.T64} {test.Offloaded.gOffloadedComponent.mainComp.T65} {test.Offloaded.gOffloadedComponent.mainComp.clk} {test.Offloaded.gOffloadedComponent.mainComp.T66} {test.Offloaded.gOffloadedComponent.mainComp.T67} {test.Offloaded.gOffloadedComponent.mainComp.T68} {test.Offloaded.gOffloadedComponent.mainComp.T69} {test.Offloaded.gOffloadedComponent.mainComp.mainOff_constOff_req_ready} {test.Offloaded.gOffloadedComponent.mainComp.io_pcIn_bits_moduleId} {test.Offloaded.gOffloadedComponent.mainComp.offWire_rep_ready} {test.Offloaded.gOffloadedComponent.mainComp.R63} {test.Offloaded.gOffloadedComponent.mainComp.reset} {test.Offloaded.gOffloadedComponent.mainComp.io_in_valid} {test.Offloaded.gOffloadedComponent.mainComp.io_pcOut_valid} {test.Offloaded.gOffloadedComponent.mainComp.mainOff_constOff_req_bits} {test.Offloaded.gOffloadedComponent.mainComp.io_in_bits} {test.Offloaded.gOffloadedComponent.mainComp.T70} {test.Offloaded.gOffloadedComponent.mainComp.io_pcIn_bits_pcValue} {test.Offloaded.gOffloadedComponent.mainComp.T10} {test.Offloaded.gOffloadedComponent.mainComp.T11} {test.Offloaded.gOffloadedComponent.mainComp.T13} {test.Offloaded.gOffloadedComponent.mainComp.T14} {test.Offloaded.gOffloadedComponent.mainComp.T15} {test.Offloaded.gOffloadedComponent.mainComp.state} {test.Offloaded.gOffloadedComponent.mainComp.T17} {test.Offloaded.gOffloadedComponent.mainComp.R0} {test.Offloaded.gOffloadedComponent.mainComp.T18} {test.Offloaded.gOffloadedComponent.mainComp.T19} {test.Offloaded.gOffloadedComponent.mainComp.R12} {test.Offloaded.gOffloadedComponent.mainComp.R16} {test.Offloaded.gOffloadedComponent.mainComp.R8} {test.Offloaded.gOffloadedComponent.mainComp.io_pcOut_bits_pcType} {test.Offloaded.gOffloadedComponent.mainComp.T20} {test.Offloaded.gOffloadedComponent.mainComp.T21} {test.Offloaded.gOffloadedComponent.mainComp.T22} {test.Offloaded.gOffloadedComponent.mainComp.T23} {test.Offloaded.gOffloadedComponent.mainComp.T24} {test.Offloaded.gOffloadedComponent.mainComp.mainOff_constOff_rep_ready} {test.Offloaded.gOffloadedComponent.mainComp.T25} {test.Offloaded.gOffloadedComponent.mainComp.T26} {test.Offloaded.gOffloadedComponent.mainComp.T27} {test.Offloaded.gOffloadedComponent.mainComp.T28} {test.Offloaded.gOffloadedComponent.mainComp.T29} {test.Offloaded.gOffloadedComponent.mainComp.mainOff_constOff_req_valid} {test.Offloaded.gOffloadedComponent.mainComp.offWire_rep_valid} {test.Offloaded.gOffloadedComponent.mainComp.io_pcOut_bits_pcValue} {test.Offloaded.gOffloadedComponent.mainComp.io_out_bits} {test.Offloaded.gOffloadedComponent.mainComp.io_pcIn_bits_pcType} {test.Offloaded.gOffloadedComponent.mainComp.counter} {test.Offloaded.gOffloadedComponent.mainComp.offWire_rep_bits} {test.Offloaded.gOffloadedComponent.mainComp.haveOffReq} {test.Offloaded.gOffloadedComponent.mainComp.T30} {test.Offloaded.gOffloadedComponent.mainComp.T31} {test.Offloaded.gOffloadedComponent.mainComp.T32} {test.Offloaded.gOffloadedComponent.mainComp.offWire_req_valid} {test.Offloaded.gOffloadedComponent.mainComp.T33} {test.Offloaded.gOffloadedComponent.mainComp.T34} {test.Offloaded.gOffloadedComponent.mainComp.mainOff_constOff_rep_bits} {test.Offloaded.gOffloadedComponent.mainComp.T35} }
+gui_sg_addsignal -group ${mainComp} { {test.Offloaded.gOffloadedComponent.mainComp.T36} {test.Offloaded.gOffloadedComponent.mainComp.T37} {test.Offloaded.gOffloadedComponent.mainComp.io_pcOut_bits_request} {test.Offloaded.gOffloadedComponent.mainComp.T38} {test.Offloaded.gOffloadedComponent.mainComp.T39} {test.Offloaded.gOffloadedComponent.mainComp.T1} {test.Offloaded.gOffloadedComponent.mainComp.T2} {test.Offloaded.gOffloadedComponent.mainComp.T3} {test.Offloaded.gOffloadedComponent.mainComp.T4} {test.Offloaded.gOffloadedComponent.mainComp.T5} {test.Offloaded.gOffloadedComponent.mainComp.io_pcIn_valid} {test.Offloaded.gOffloadedComponent.mainComp.T6} {test.Offloaded.gOffloadedComponent.mainComp.T7} {test.Offloaded.gOffloadedComponent.mainComp.T9} {test.Offloaded.gOffloadedComponent.mainComp.io_pcOut_bits_portId} {test.Offloaded.gOffloadedComponent.mainComp.io_out_ready} {test.Offloaded.gOffloadedComponent.mainComp.T40} {test.Offloaded.gOffloadedComponent.mainComp.T41} {test.Offloaded.gOffloadedComponent.mainComp.T42} {test.Offloaded.gOffloadedComponent.mainComp.T43} {test.Offloaded.gOffloadedComponent.mainComp.T44} {test.Offloaded.gOffloadedComponent.mainComp.T45} {test.Offloaded.gOffloadedComponent.mainComp.T46} {test.Offloaded.gOffloadedComponent.mainComp.T47} {test.Offloaded.gOffloadedComponent.mainComp.T48} {test.Offloaded.gOffloadedComponent.mainComp.io_pcIn_bits_portId} {test.Offloaded.gOffloadedComponent.mainComp.T49} {test.Offloaded.gOffloadedComponent.mainComp.io_in_ready} {test.Offloaded.gOffloadedComponent.mainComp.io_pcIn_bits_request} {test.Offloaded.gOffloadedComponent.mainComp.mainOff_constOff_rep_valid} }
+
+# Global: Highlighting
+
+# Post database loading setting...
+
+# Restore C1 time
+gui_set_time -C1_only 1607
+
+
+
+# Save global setting...
+
+# Wave/List view global setting
+gui_cov_show_value -switch false
+
+# Close all empty TopLevel windows
+foreach __top [gui_ekki_get_window_ids -type TopLevel] {
+    if { [llength [gui_ekki_get_window_ids -parent $__top]] == 0} {
+        gui_close_window -window $__top
+    }
+}
+gui_set_loading_session_type noSession
+# DVE View/pane content session: 
+
+
+# Hier 'Hier.1'
+gui_list_set_filter -id ${Hier.1} -list { {Package 1} {All 1} {Process 1} {UnnamedProcess 1} {Function 1} {Block 1} {OVA Unit 1} {LeafScCell 1} {LeafVlgCell 1} {Interface 1} {LeafVhdCell 1} {NamedBlock 1} {Task 1} {DollarUnit 1} {VlgPackage 1} {ClassDef 1} }
+gui_list_set_filter -id ${Hier.1} -text {*}
+gui_change_design -id ${Hier.1} -design Sim
+catch {gui_list_expand -id ${Hier.1} test}
+catch {gui_list_expand -id ${Hier.1} test.Offloaded}
+catch {gui_list_expand -id ${Hier.1} test.Offloaded.gOffloadedComponent}
+catch {gui_list_select -id ${Hier.1} {test.Offloaded.gOffloadedComponent.mainComp}}
+gui_view_scroll -id ${Hier.1} -vertical -set 0
+gui_view_scroll -id ${Hier.1} -horizontal -set 0
+
+# Data 'Data.1'
+gui_list_set_filter -id ${Data.1} -list { {Buffer 1} {Input 1} {Others 1} {Linkage 1} {Output 1} {Parameter 1} {All 1} {Aggregate 1} {Event 1} {Assertion 1} {Constant 1} {Interface 1} {Signal 1} {$unit 1} {Inout 1} {Variable 1} }
+gui_list_set_filter -id ${Data.1} -text {*}
+gui_list_show_data -id ${Data.1} {test.Offloaded.gOffloadedComponent.mainComp}
+gui_view_scroll -id ${Data.1} -vertical -set 0
+gui_view_scroll -id ${Data.1} -horizontal -set 0
+gui_view_scroll -id ${Hier.1} -vertical -set 0
+gui_view_scroll -id ${Hier.1} -horizontal -set 0
+
+# Source 'Source.1'
+gui_src_value_annotate -id ${Source.1} -switch false
+gui_set_env TOGGLE::VALUEANNOTATE 0
+gui_open_source -id ${Source.1}  -replace -active test /proj/maysam/magilla/Gorilla++/chisel/KmeansAndMesh/emulator/Offloaded-myharness.v
+gui_view_scroll -id ${Source.1} -vertical -set 0
+gui_src_set_reusable -id ${Source.1}
+
+# View 'Wave.1'
+gui_wv_sync -id ${Wave.1} -switch false
+set groupExD [gui_get_pref_value -category Wave -key exclusiveSG]
+gui_set_pref_value -category Wave -key exclusiveSG -value {false}
+set origWaveHeight [gui_get_pref_value -category Wave -key waveRowHeight]
+gui_list_set_height -id Wave -height 25
+set origGroupCreationState [gui_list_create_group_when_add -wave]
+gui_list_create_group_when_add -wave -disable
+gui_wv_zoom_timerange -id ${Wave.1} 0 21495809
+gui_list_set_filter -id ${Wave.1} -list { {Buffer 1} {Input 1} {Others 1} {Linkage 1} {Output 1} {Parameter 1} {All 1} {Aggregate 1} {Event 1} {Assertion 1} {Constant 1} {Interface 1} {Signal 1} {$unit 1} {Inout 1} {Variable 1} }
+gui_list_set_filter -id ${Wave.1} -text {*pc*}
+gui_list_add_group -id ${Wave.1} -after {New Group} {{Offloaded_2}}
+gui_list_select -id ${Wave.1} {test.Offloaded.io_pcOut_valid }
+gui_list_set_insertion_bar  -id ${Wave.1} -group {Offloaded_2}  -position in
+gui_seek_criteria -id ${Wave.1} {Any Edge}
+
+
+gui_set_pref_value -category Wave -key exclusiveSG -value $groupExD
+gui_list_set_height -id Wave -height $origWaveHeight
+if {$origGroupCreationState} {
+	gui_list_create_group_when_add -wave -enable
+}
+if { $groupExD } {
+ gui_msg_report -code DVWW028
+}
+gui_marker_move -id ${Wave.1} {C1} 1607
+gui_view_scroll -id ${Wave.1} -vertical -set 0
+
+# View 'Schematic.1'
+gui_use_schematics
+
+# Create schematic window 'Schematic.1'
+gui_sch_show -window ${Schematic.1} -name test.Offloaded
+gui_show_pin_value_annotate [gui_window_hier_name -window ${Schematic.1}]
+gui_zoom -window ${Schematic.1} -rect { {-14860 -63307} {76269 4940} }
+
+
+
+# View 'Wave.2'
+gui_wv_sync -id ${Wave.2} -switch false
+set groupExD [gui_get_pref_value -category Wave -key exclusiveSG]
+gui_set_pref_value -category Wave -key exclusiveSG -value {false}
+set origWaveHeight [gui_get_pref_value -category Wave -key waveRowHeight]
+gui_list_set_height -id Wave -height 25
+set origGroupCreationState [gui_list_create_group_when_add -wave]
+gui_list_create_group_when_add -wave -disable
+gui_wv_zoom_timerange -id ${Wave.2} 0 163
+gui_list_set_filter -id ${Wave.2} -list { {Buffer 1} {Input 1} {Others 1} {Linkage 1} {Output 1} {Parameter 1} {All 1} {Aggregate 1} {Event 1} {Assertion 1} {Constant 1} {Interface 1} {Signal 1} {$unit 1} {Inout 1} {Variable 1} }
+gui_list_set_filter -id ${Wave.2} -text {*pc*}
+gui_list_add_group -id ${Wave.2} -after {New Group} {{mainComp}}
+gui_list_set_insertion_bar  -id ${Wave.2} -group {mainComp}  -position in
+gui_seek_criteria -id ${Wave.2} {Any Edge}
+
+
+
+gui_set_env TOGGLE::DEFAULT_WAVE_WINDOW ${Wave.2}
+gui_set_pref_value -category Wave -key exclusiveSG -value $groupExD
+gui_list_set_height -id Wave -height $origWaveHeight
+if {$origGroupCreationState} {
+	gui_list_create_group_when_add -wave -enable
+}
+if { $groupExD } {
+ gui_msg_report -code DVWW028
+}
+gui_marker_move -id ${Wave.2} {C1} 1607
+gui_view_scroll -id ${Wave.2} -vertical -set 0
+
+# DVE Active view and window setting: 
+
+gui_set_active_window -window ${Wave.2}
+gui_set_active_window -window ${Wave.2}
+# Restore toplevel window zorder
+# The toplevel window could be closed if it has no view/pane
+if {[gui_exist_window -window ${TopLevel.1}]} {
+	gui_set_active_window -window ${TopLevel.1} }
+#</Session>
+

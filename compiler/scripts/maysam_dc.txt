@@ -1,0 +1,82 @@
+set CURRENT_DESIGN			"YourDesignName"
+set OUT_PATH 				"path/to/output/directory"
+set UNIQUIFY 				"TRUE"	
+set UNGROUP  				"TRUE"	
+set ULTRA    				"TRUE"
+
+#############################################
+# Set search paths and libraries
+#############################################
+set search_path { . ../ ../../SourceCode ../../FreePDK45/osu_soc/lib/files }
+set link_library {gscl45nm.db}
+set target_library {gscl45nm.db}
+
+#############################################
+# Read input verilog files
+#############################################
+read_verilog {yourfile.v}
+
+#############################################
+## Set timing variables
+##############################################
+set CLOCK_PERIOD        XXXXX       # Put cycle time that you want like 1.0 for 1ns. 
+set CLOCK_SKEW          0.01
+
+create_clock -name "clock" -period $CLOCK_PERIOD -waveform [list 0.0 [expr {$CLOCK_PERIOD} / 2.0 ] ] {clock}
+set_dont_touch_network clock 
+set_clock_uncertainty $CLOCK_SKEW clock
+
+# Create a reset network if you need to
+set RESET  "reset"
+remove_driving_cell $RESET  
+set_drive 0 $RESET  
+set_dont_touch_network $RESET
+
+set_input_delay -clock clock -max 0 [all_inputs] 
+set_output_delay -clock clock -max 0 [all_outputs] 
+
+set_wire_load_mode top
+
+#############################################
+# set area requirement
+#############################################
+set_max_area 0.0
+
+#############################################
+### some optimizations
+###############################################
+set_cost_priority -delay
+set compile_delete_unloaded_sequential_cells false
+set hdlin_preserve_sequential true
+
+# Apply additional optimization constraints
+# Prevent assignment statement in the Verilog netlist
+set_fix_multiple_port_nets -all -buffer_constants
+
+# Insert level-shifters on all clocks
+set auto_insert_evel_shifters_on_clocks all
+
+if {$UNIQUIFY == "TRUE"	} 	{ uniquify }
+if {$UNGROUP  == "TRUE"	} 	{ ungroup -all -flatten }
+if {$ULTRA    == "TRUE"	} 	{ compile_ultra }
+if {$ULTRA    == "FALSE"} 	{ compile -map_effort medium }
+
+#############################################
+# Write verilog output of the design
+#############################################
+write -hierarchy -format verilog -output $OUT_PATH/$CURRENT_DESIGN.vlog
+
+#############################################
+# REPORT ANAYSIS 
+#############################################
+check_design                    	> $OUT_PATH/$CURRENT_DESIGN.check_design
+check_design -multiple_designs  	> $OUT_PATH/$CURRENT_DESIGN.check_multipledesign
+check_timing                    	> $OUT_PATH/$CURRENT_DESIGN.check_timing
+report_qor 				            > $OUT_PATH/$CURRENT_DESIGN.violations
+report_timing 				        > $OUT_PATH/$CURRENT_DESIGN.timing
+report_area 				        > $OUT_PATH/$CURRENT_DESIGN.area
+report_cell                         > $OUT_PATH/$CURRENT_DESIGN.cell
+report_hierarchy                    > $OUT_PATH/$CURRENT_DESIGN.hierarchy
+report_net                          > $OUT_PATH/$CURRENT_DESIGN.net
+report_power                        > $OUT_PATH/$CURRENT_DESIGN.power
+report_constraint -all_violators 	> $OUT_PATH/$CURRENT_DESIGN.constraints

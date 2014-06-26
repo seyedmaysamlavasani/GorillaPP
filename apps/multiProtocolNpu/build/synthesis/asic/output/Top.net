@@ -1,0 +1,22 @@
+ 
+****************************************
+Report : net
+Design : RREncode
+Version: B-2008.09-SP4
+Date   : Wed Jun  4 20:03:39 2014
+****************************************
+
+
+Operating Conditions: typical   Library: gscl45nm
+Wire Load Model Mode: top
+
+
+Net                 Fanout     Fanin      Load   Resistance    Pins   Attributes
+--------------------------------------------------------------------------------
+io_chosen                1         1      0.00         0.00       2   
+io_valid_0               1         1      0.00         0.00       2   
+--------------------------------------------------------------------------------
+Total 2 nets             2         2      0.00         0.00       4
+Maximum                  1         1      0.00         0.00       2
+Average               1.00      1.00      0.00         0.00    2.00
+1

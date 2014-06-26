@@ -1,0 +1,38 @@
+a project should contain 
+src/
+  Top.scala
+  engines/
+  test/
+    TopTest.scala
+build/
+  Makefile --> ../../incThroughOffload/build/Makefile
+  TopConfig.orig
+  compilerControl.scala.orig
+  refine/
+    backTrack 
+    input
+    output
+  dse_sim.pl
+  dse_syn.pl
+  synthesis/
+    fpga/ 
+      GorillaPP.prj
+      GorillaPP.scr
+      GorillaPP.pcf
+      GorillaPP.xcf
+      GoirllaPP.ucf --> GorillaPP.xcf 
+      /*ngc files of library components like floating points 
+        sould be copied here. In future, this should be automatic*/
+    asic/
+      GorillaPP.scr
+      output/
+  verilog/ 
+  SSF/
+  version
+include 
+directory
+the src directory should contain 
+Top.scala
+engines direcotry 
+test directory
+

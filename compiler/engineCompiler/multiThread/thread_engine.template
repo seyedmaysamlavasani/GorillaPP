@@ -1,0 +1,274 @@
+//Project:magilla router
+//File:thread_engine.v
+//Author:Maysam Lavasani
+
+//This file is generated automatically using magillac compiler
+
+`include "magilla_def.v"
+
+module thread_engine (
+	Clk,
+	Reset,
+	Rbi_port,
+	Fbi_port,
+	bi_request,
+#FOREACH_FU
+	Req_##,
+	Req_stat_##,
+	Reply_port_##,
+	Reply_stat_port_##,
+#END_FOREACH_FU
+	bi_valid,
+	Ready_to_sink
+);
+//parameters are stuff which is not used in any other module 
+//macros are stuff which will use
+
+	`define	PC_WIDTH	5          //program counter width in bits
+	
+	//Magilla pipeline stages
+	`define	PSTATE_FETCH	2'b00
+	`define	PSTATE_EXEC		2'b01
+	`define	PSTATE_FU		2'b10
+	`define	PSTATE_JUMP		2'b11
+
+	//simple forwarding instrunction upcodes
+#FOREACH_INSTR
+	`define	INSTR_##			#index
+#END_FOREACH_INSTR
+	
+	//thread engine module ports
+	input	Clk;																		//system clock																
+	input	Reset;																		//active high reset 
+
+	input	[`MEM_ADDRESS_WIDTH-1:0]		Rbi_port;										//receive buffer index
+	input	[`MEM_ADDRESS_WIDTH-1:0]		Fbi_port;										//forward buffer index
+
+#FOREACH_FU	
+	//## ports
+	output	[`REQUEST_WIDTH -1:0]			Req_##;										//request registers to functional units
+	reg		[`REQUEST_WIDTH -1:0]			Req_##;					
+	output	[`REQUEST_STAT_WIDTH-1:0]		Req_stat_##;									//request status e.g. write,read,inactive
+	reg		[`REQUEST_STAT_WIDTH-1:0]		Req_stat_##;
+	input	[`REPLY_WIDTH-1:0]				Reply_port_##;								//reply from functional units
+	input	[`REPLY_STAT_WIDTH-1:0]			Reply_stat_port_##;							//reply status from functional units
+
+#END_FOREACH_FU
+
+
+	output	bi_request;																	//buffer index request
+	reg		bi_request;																
+
+	input	bi_valid;																	//buffer index valid (active high)
+
+	output	Ready_to_sink;
+	reg		[`READY_TO_SINK_WIDTH-1:0] Ready_to_sink;
+
+	// general register elements
+	reg		[1:0] pstate; 					//pipeline state : FETCH, EXECUTION, FUNCTIONAL_UNIT, JUMP
+
+	reg		[`PC_WIDTH-1:0] PC;				//program counter
+	
+	reg		[`MEM_ADDRESS_WIDTH-1:0] Rbi;	//local Rbi
+	reg		[`MEM_ADDRESS_WIDTH-1:0] Rbb;	//local Rbb - can be defined at compile time
+	reg		[`MEM_ADDRESS_WIDTH-1:0] Fbi;	//local Fbi
+	reg		[`MEM_ADDRESS_WIDTH-1:0] Fbb;	//local Fbb - can be defined at compile time
+
+	reg		[`REPLY_WIDTH-1:0]		Reply[`NUM_FUNCTIONAL_UNITS-1:0]; 
+	reg		[`REPLY_STAT_WIDTH-1:0]	Reply_stat[`NUM_FUNCTIONAL_UNITS-1:0];
+	
+	reg  	[`NUM_FUNCTIONAL_UNITS-1:0]	Outstanding_reqs;	//This register keep track of outstanding requests to functional units
+															//Every bit represents a functional unit. A set bit indicates that this
+															//thread engine has an outstanding request to the appropriate functional
+															//unit.
+	//Register to hold data part of write request 
+	reg		[`REQUEST_WIDTH-1:0]			Req_data[`NUM_FUNCTIONAL_UNITS-1:0];					
+
+	//Receive packet descriptor and Forward packet descriptor
+	reg		[`MEM_DATA_WIDTH-1:0] Rpd[0:`RPD_SIZE/`MEM_DATA_WIDTH];
+	reg		[`MEM_DATA_WIDTH-1:0] Fpd[0:`RPD_SIZE/`MEM_DATA_WIDTH];
+
+
+	// general wires
+	wire	fetch_stall;									//the thread will be stalled if there is no packet to process
+															//this wire helps us to customize the stall on fetch logic which
+															//might have an application. it is better toturn it to reg with the 
+															//expense of extra cycle on DISPATCH fetch.	
+
+	reg		[`MEM_DATA_WIDTH-1:0]	temp;
+	reg		[`RPD_STATUS_WIDTH-1:0]	rpd_status;
+
+	// Inter instruction variables are registers while intra instruction variables couuld be interpreted as wire
+	// special purpose register elements
+#DUMP_FILE	definition.magillac
+	reg 	started = 0;
+
+	reg		thread_stall_on_empty_rpb;						//this vriable keeps track of the situation in which no more
+															//packet is presented by source to Magilla an engine goes to
+															//stall
+	
+  	integer i;
+
+function reg [31:0] access_field_in_be_word;
+	input reg [31:0] word;
+	input reg [31:0] mask;
+	input reg[5:0] shift;
+
+	reg [31:0] tempword;
+
+	tempword = {word[7:0] & mask[31:24] , word[15:8] & mask[23:16] , word[23:16] & mask[15:8] , word[31:24] & mask[7:0] }; 
+	tempword = tempword >> shift;
+	access_field_in_be_word =  tempword;
+endfunction
+  
+	initial begin
+		//$monitor("MEMY content on dispatch is %x reply prot x is %x", Reply[`FU_MEMY], Reply_port_MEMY);
+		//$monitor("At pstate:%d PC:%d bi_request:%d bi_valid:%d", pstate, PC, bi_request, bi_valid);
+	end
+
+	//Ready to sink is asserted just for one clock
+	always @(posedge Clk) begin
+			if (Reset == 1)
+				Ready_to_sink = 0;
+			else begin
+				Ready_to_sink = (PC == `INSTR_#LAST_INSTR && pstate == `PSTATE_EXEC) ? 1 : 0;
+				if (Ready_to_sink != 0)
+					if (`DO_DEBUG(`WRITE_DUMP_DEBUG))
+						$display("In thread engine Ready_to_sink is %d", Ready_to_sink);
+			end
+	end
+
+	// reset logic
+	always	@(posedge Clk) begin
+		reg previous_bi_request_debug = 0;
+		
+		if(PC != `INSTR_#FIRST_INSTR || bi_request != previous_bi_request_debug || bi_valid != 0)
+			if (`DO_DEBUG(`THREAD_ENGINE_GENERAL_DEBUG))
+				$display("At %d pstate:%d PC:%d bi_request:%d bi_valid:%d Outstanding reqs:%d"
+					, $time, pstate, PC, bi_request, bi_valid, Outstanding_reqs);
+
+		previous_bi_request_debug = bi_request;
+
+		if (Reset ==1) begin
+			
+
+			pstate	= `PSTATE_FETCH;
+			
+			PC 		= `INSTR_#FIRST_INSTR;
+
+			bi_request = 1;									//request for a buffer index (next ready to process packet)
+		
+			thread_stall_on_empty_rpb = 0;
+	
+			
+#FOREACH_FU
+			Req_stat_## = 0;
+			Reply_stat[`FU_##] = 0;
+#END_FOREACH_FU
+
+			Rbb = `RBB_INIT; 								//The base address of Rpb. The address hould be at 
+															//first memory module.
+			Fbb = `FBB_INIT;								//The base address of Fpb. The address hould be at 
+															//first memory module.
+			if (!started)
+				$display("Thread engine reset");
+			started = 1;
+		end //else
+			//$display("pstate:%d PC:%d bi_request:%d bi_valid:%d", pstate, PC, bi_request, bi_valid);
+	end
+
+	// pipeline state logic
+	always	@(posedge Clk) begin
+		case (pstate)
+			`PSTATE_FETCH:
+				if (fetch_stall == 0) begin
+					pstate = `PSTATE_EXEC;
+				end else begin
+					pstate = `PSTATE_FETCH;
+				end
+
+			`PSTATE_EXEC:
+				pstate = `PSTATE_FU;
+
+			`PSTATE_FU:
+				if (Outstanding_reqs == 0) begin
+					pstate = `PSTATE_JUMP;
+				end else begin
+					pstate = `PSTATE_FU;
+				end
+
+			`PSTATE_JUMP:
+				pstate = `PSTATE_FETCH;
+		endcase
+	end //always at
+
+	// packet buffer request logic 
+	always	@(posedge Clk) begin
+		//This logic is active in FETCH state
+		if (pstate == `PSTATE_FETCH) begin
+			if (PC == `INSTR_#FIRST_INSTR && !thread_stall_on_empty_rpb)								//request for new slot if it is a dispatch instruction 
+				bi_request = 1;
+			if (bi_valid == 1) begin							
+				Rbi = Rbi_port;										//latch the buffer indexes when it has a valid value
+				Fbi = Fbi_port;
+				bi_request = 0;										//the buffer index request will be reset when valid asserted 
+			end
+		end	
+	end //always at
+
+
+	//Request/Reply helper logic 
+	//we need to latch the reply when valid status is asserted
+	//we need to send the data for write when data request is
+	//asserted. Also Outstanding reqs should be decremented upon
+	//recevinging each reply.
+
+	always @(posedge Clk) begin
+		//latch reply
+		//drive data on write
+		//decrement outstanding requests
+
+		#FOREACH_FU
+		//##
+		if (Reply_stat_port_## == `REP_V && Req_stat_## == `REQ_READ) begin
+			Reply[`FU_##] = Reply_port_##;
+			Req_stat_## = `REQ_NO_REQ;
+			Outstanding_reqs = Outstanding_reqs-1;
+		end else if (Reply_stat_port_## == `REP_DR) begin
+			Req_stat_## = `REQ_WRITE_D;
+			Req_## = Req_data[`FU_##];	
+		end else if (Reply_stat_port_## == `REP_V && Req_stat_## == `REQ_WRITE_D) begin
+			Req_stat_## = `REQ_NO_REQ;
+			Outstanding_reqs = Outstanding_reqs-1;
+		end
+		#END_FOREACH_FU
+	end //always at	
+
+
+	always	@(posedge Clk) begin
+		// request builder logic 
+		//This logic is active in EXEC state
+		if (pstate == `PSTATE_EXEC) begin
+#DUMP_FILE	request_builder.magillac
+		end //if
+
+		// context edit logic
+		//This logic in JUMP state
+		if (pstate == `PSTATE_JUMP) begin
+#DUMP_FILE	context_edit.magillac
+		end //if
+
+		// next PC calculation logic
+		//This logic is active in JUMP state
+		if (pstate == `PSTATE_JUMP) begin
+#DUMP_FILE	jump.magillac
+		end //if
+	end //always at
+
+ 	//driving fetch_stall logic
+	//fetch_stall will be asserted in FETCH if there is not any packet to process
+
+	assign fetch_stall = ((pstate == `PSTATE_FETCH) && (PC == `INSTR_DISPATCH)) ? bi_request : 0;				
+
+endmodule
+	

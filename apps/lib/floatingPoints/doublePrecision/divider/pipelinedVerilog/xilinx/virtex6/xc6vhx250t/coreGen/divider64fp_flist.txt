@@ -1,0 +1,13 @@
+# Output products list for <divider64fp>
+divider64fp/doc/floating_point_ds335.pdf
+divider64fp/doc/floating_point_v5_0_readme.txt
+divider64fp/doc/floating_point_v5_0_vinfo.html
+divider64fp.asy
+divider64fp.gise
+divider64fp.ngc
+divider64fp.v
+divider64fp.veo
+divider64fp.xco
+divider64fp.xise
+divider64fp_flist.txt
+divider64fp_xmdf.tcl

@@ -1,0 +1,24 @@
+ 
+****************************************
+Report : area
+Design : RREncode
+Version: B-2008.09-SP4
+Date   : Wed Jun  4 20:03:39 2014
+****************************************
+
+Library(s) Used:
+
+    gscl45nm (File: /home/maysam/robinSvn/Gorilla++/apps/multiProtocolNpu/build/synthesis/asic/FreePDK45/osu_soc/lib/files/gscl45nm.db)
+
+Number of ports:                3
+Number of nets:                 2
+Number of cells:                1
+Number of references:           1
+
+Combinational area:          1.407900
+Noncombinational area:       0.000000
+Net Interconnect area:      undefined  (No wire load specified)
+
+Total cell area:             1.407900
+Total area:                 undefined
+1

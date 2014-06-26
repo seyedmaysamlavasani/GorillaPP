@@ -1,0 +1,18 @@
+#/bin/bash
+start=100
+end=150
+for ((i=$start; i<=$end; i++))
+do
+if [ -d design_$i ] 
+	then
+
+throughput=`grep throughput design_$i/PCResult | awk '{print $3}'`;
+lookupBP=`grep -w lookup design_$i/PCResult | grep back | awk '{print $6}'`;
+pipeLookupBP=`grep -w gPipe design_$i/PCResult | grep back | awk '{print $6}'`;
+engineBP=`grep -w ipv4Engine design_$i/PCResult | grep back | awk '{print $6}'`;
+engines=`grep ipv4Engine_counts design_$i/TopConfig | awk '{print $2}'`;
+threads=`grep ipv4Engine_numOfThreads design_$i/TopConfig | awk '{print $2}'`;
+offload=`grep lookup_offload design_$i/TopConfig | awk '{print $2}'`;
+echo $throughput $lookupBP $pipeLookupBP $engineBP $engines $threads $offload;
+fi
+done

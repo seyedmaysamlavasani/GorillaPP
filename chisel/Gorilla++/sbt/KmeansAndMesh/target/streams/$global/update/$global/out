@@ -1,0 +1,425 @@
+[0m[[0minfo[0m] [0mUpdating {file:/scratchl/maysam/openSource/Gorilla++-v.1.0/chisel/Gorilla++/sbt/}KmeansAndMesh...[0m
+[0m[[0mdebug[0m] [0mpost 1.3 ivy file: using exact as default matcher[0m
+[0m[[0mdebug[0m] [0m:: resolving dependencies :: edu.berkeley.cs#kmeansandmesh_2.9.2;1.1[0m
+[0m[[0mdebug[0m] [0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom][0m
+[0m[[0mdebug[0m] [0m	validate = true[0m
+[0m[[0mdebug[0m] [0m	refresh = false[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for edu.berkeley.cs#kmeansandmesh_2.9.2;1.1 [compile][0m
+[0m[[0mdebug[0m] [0mloadData of edu.berkeley.cs#kmeansandmesh_2.9.2;1.1 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies edu.berkeley.cs#kmeansandmesh_2.9.2;1.1->org.scala-lang#scala-library;2.9.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m	using sbt-chain to resolve org.scala-lang#scala-library;2.9.2[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-library;2.9.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: no namespace defined: using system[0m
+[0m[[0mdebug[0m] [0mNo entry is found in the ModuleDescriptorCache : /home/maysam/.ivy2/cache/org.scala-lang/scala-library/ivy-2.9.2.xml[0m
+[0m[[0mdebug[0m] [0mpost 1.3 ivy file: using exact as default matcher[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for org.scala-lang#scala-library;2.9.2 (resolved by sbt-chain): /home/maysam/.ivy2/cache/org.scala-lang/scala-library/ivy-2.9.2.xml[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.9.2[0m
+[0m[[0mdebug[0m] [0msbt-chain: no latest strategy defined: using default[0m
+[0m[[0mdebug[0m] [0mlocal: no namespace defined: using system[0m
+[0m[[0mdebug[0m] [0mEntry is found in the ModuleDescriptorCache : /home/maysam/.ivy2/cache/org.scala-lang/scala-library/ivy-2.9.2.xml[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for org.scala-lang#scala-library;2.9.2 (resolved by sbt-chain): /home/maysam/.ivy2/cache/org.scala-lang/scala-library/ivy-2.9.2.xml[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#scala-library;2.9.2[0m
+[0m[[0mdebug[0m] [0m	checking org.scala-lang#scala-library;2.9.2 from sbt-chain against [none][0m
+[0m[[0mdebug[0m] [0m	module revision kept as first found: org.scala-lang#scala-library;2.9.2 from sbt-chain[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.9.2 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies edu.berkeley.cs#kmeansandmesh_2.9.2;1.1->org.scala-lang#scala-library;2.9.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies edu.berkeley.cs#kmeansandmesh_2.9.2;1.1->org.scala-lang#scala-library;2.9.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies edu.berkeley.cs#kmeansandmesh_2.9.2;1.1->org.scala-lang#scala-library;2.9.2 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies edu.berkeley.cs#kmeansandmesh_2.9.2;1.1->edu.berkeley.cs#chisel_2.9.2;1.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of edu.berkeley.cs#chisel_2.9.2;1.0 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m	using sbt-chain to resolve edu.berkeley.cs#chisel_2.9.2;1.0[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: edu.berkeley.cs#chisel_2.9.2;1.0 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0m	no ivy file in cache for edu.berkeley.cs#chisel_2.9.2;1.0: tried /home/maysam/.ivy2/cache/edu.berkeley.cs/chisel_2.9.2/ivy-1.0.xml[0m
+[0m[[0mdebug[0m] [0m	no ivy file in cache for edu.berkeley.cs#chisel_2.9.2;1.0: tried /home/maysam/.ivy2/cache/edu.berkeley.cs/chisel_2.9.2/ivy-1.0.xml[0m
+[0m[[0mdebug[0m] [0m	 trying /home/maysam/.ivy2/local/edu.berkeley.cs/chisel_2.9.2/1.0/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m		tried /home/maysam/.ivy2/local/edu.berkeley.cs/chisel_2.9.2/1.0/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: resource not reachable for edu.berkeley.cs#chisel_2.9.2;1.0: res=/home/maysam/.ivy2/local/edu.berkeley.cs/chisel_2.9.2/1.0/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	 trying /home/maysam/.ivy2/local/edu.berkeley.cs/chisel_2.9.2/1.0/jars/chisel_2.9.2.jar[0m
+[0m[[0mdebug[0m] [0m		tried /home/maysam/.ivy2/local/edu.berkeley.cs/chisel_2.9.2/1.0/jars/chisel_2.9.2.jar[0m
+[0m[[0mdebug[0m] [0m	local: resource not reachable for edu.berkeley.cs#chisel_2.9.2;1.0: res=/home/maysam/.ivy2/local/edu.berkeley.cs/chisel_2.9.2/1.0/jars/chisel_2.9.2.jar[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file nor artifact found for edu.berkeley.cs#chisel_2.9.2;1.0[0m
+[0m[[0mdebug[0m] [0mpublic: no namespace defined: using system[0m
+[0m[[0mdebug[0m] [0m	no ivy file in cache for edu.berkeley.cs#chisel_2.9.2;1.0: tried /home/maysam/.ivy2/cache/edu.berkeley.cs/chisel_2.9.2/ivy-1.0.xml[0m
+[0m[[0mdebug[0m] [0m	 trying http://repo1.maven.org/maven2/edu/berkeley/cs/chisel_2.9.2/1.0/chisel_2.9.2-1.0.pom[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/edu/berkeley/cs/chisel_2.9.2/1.0/chisel_2.9.2-1.0.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for edu.berkeley.cs#chisel_2.9.2;1.0[0m
+[0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/edu/berkeley/cs/chisel_2.9.2/1.0/chisel_2.9.2-1.0.pom (1.0)[0m
+[0m[[0mdebug[0m] [0m	parser = sbt.CustomPomParser@6459ed73[0m
+[0m[[0mdebug[0m] [0m	no ivy file in cache for edu.berkeley.cs#chisel_2.9.2;1.0: tried /home/maysam/.ivy2/cache/edu.berkeley.cs/chisel_2.9.2/ivy-1.0.xml[0m
+[0m[[0mdebug[0m] [0mdownloading http://repo1.maven.org/maven2/edu/berkeley/cs/chisel_2.9.2/1.0/chisel_2.9.2-1.0.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/edu/berkeley/cs/chisel_2.9.2/1.0/chisel_2.9.2-1.0.pom[0m
+[0m[[0mdebug[0m] [0m		to /home/maysam/.ivy2/cache/edu.berkeley.cs/chisel_2.9.2/ivy-1.0.xml.original.part[0m
+[0m[[0mdebug[0m] [0msha1 file found for http://repo1.maven.org/maven2/edu/berkeley/cs/chisel_2.9.2/1.0/chisel_2.9.2-1.0.pom: checking...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/edu/berkeley/cs/chisel_2.9.2/1.0/chisel_2.9.2-1.0.pom.sha1[0m
+[0m[[0mdebug[0m] [0m		to /tmp/ivytmp7174951061409793253sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/edu/berkeley/cs/chisel_2.9.2/1.0/chisel_2.9.2-1.0.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] edu.berkeley.cs#chisel_2.9.2;1.0!chisel_2.9.2.pom(pom.original) (487ms)[0m
+[0m[[0mdebug[0m] [0m	 trying /home/maysam/.ivy2/local/edu.berkeley.cs/chisel_2.9.2/1.0/jars/chisel_2.9.2.jar[0m
+[0m[[0mdebug[0m] [0m		tried /home/maysam/.ivy2/local/edu.berkeley.cs/chisel_2.9.2/1.0/jars/chisel_2.9.2.jar[0m
+[0m[[0mdebug[0m] [0m	local: resource not reachable for edu.berkeley.cs#chisel_2.9.2;1.0: res=/home/maysam/.ivy2/local/edu.berkeley.cs/chisel_2.9.2/1.0/jars/chisel_2.9.2.jar[0m
+[0m[[0mdebug[0m] [0m	 trying http://repo1.maven.org/maven2/edu/berkeley/cs/chisel_2.9.2/1.0/chisel_2.9.2-1.0.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/edu/berkeley/cs/chisel_2.9.2/1.0/chisel_2.9.2-1.0.jar[0m
+[0m[[0mdebug[0m] [0mno source artifact found for edu.berkeley.cs#chisel_2.9.2;1.0[0m
+[0m[[0mdebug[0m] [0mno javadoc artifact found for edu.berkeley.cs#chisel_2.9.2;1.0[0m
+[0m[[0mdebug[0m] [0m	default-cache: parsed downloaded md file for edu.berkeley.cs#chisel_2.9.2;1.0; parsed=edu.berkeley.cs#chisel_2.9.2;1.0[0m
+[0m[[0mdebug[0m] [0m	checking edu.berkeley.cs#chisel_2.9.2;1.0 from public against [none][0m
+[0m[[0mdebug[0m] [0m	module revision kept as first found: edu.berkeley.cs#chisel_2.9.2;1.0 from public[0m
+[0m[[0mdebug[0m] [0m	found edu.berkeley.cs#chisel_2.9.2;1.0 in public[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies edu.berkeley.cs#kmeansandmesh_2.9.2;1.1->edu.berkeley.cs#chisel_2.9.2;1.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of edu.berkeley.cs#chisel_2.9.2;1.0 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies edu.berkeley.cs#kmeansandmesh_2.9.2;1.1->edu.berkeley.cs#chisel_2.9.2;1.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of edu.berkeley.cs#chisel_2.9.2;1.0 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies edu.berkeley.cs#chisel_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies edu.berkeley.cs#chisel_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies edu.berkeley.cs#chisel_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies edu.berkeley.cs#chisel_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0mcompile is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies edu.berkeley.cs#kmeansandmesh_2.9.2;1.1->edu.berkeley.cs#chisel_2.9.2;1.0 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of edu.berkeley.cs#chisel_2.9.2;1.0 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for edu.berkeley.cs#kmeansandmesh_2.9.2;1.1 [runtime][0m
+[0m[[0mdebug[0m] [0mloadData of edu.berkeley.cs#kmeansandmesh_2.9.2;1.1 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for edu.berkeley.cs#kmeansandmesh_2.9.2;1.1 [compile][0m
+[0m[[0mdebug[0m] [0mloadData of edu.berkeley.cs#kmeansandmesh_2.9.2;1.1 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies edu.berkeley.cs#kmeansandmesh_2.9.2;1.1->org.scala-lang#scala-library;2.9.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies edu.berkeley.cs#kmeansandmesh_2.9.2;1.1->org.scala-lang#scala-library;2.9.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies edu.berkeley.cs#kmeansandmesh_2.9.2;1.1->org.scala-lang#scala-library;2.9.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies edu.berkeley.cs#kmeansandmesh_2.9.2;1.1->org.scala-lang#scala-library;2.9.2 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies edu.berkeley.cs#kmeansandmesh_2.9.2;1.1->edu.berkeley.cs#chisel_2.9.2;1.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of edu.berkeley.cs#chisel_2.9.2;1.0 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies edu.berkeley.cs#kmeansandmesh_2.9.2;1.1->edu.berkeley.cs#chisel_2.9.2;1.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of edu.berkeley.cs#chisel_2.9.2;1.0 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies edu.berkeley.cs#kmeansandmesh_2.9.2;1.1->edu.berkeley.cs#chisel_2.9.2;1.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of edu.berkeley.cs#chisel_2.9.2;1.0 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies edu.berkeley.cs#chisel_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies edu.berkeley.cs#chisel_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies edu.berkeley.cs#chisel_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies edu.berkeley.cs#chisel_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies edu.berkeley.cs#kmeansandmesh_2.9.2;1.1->edu.berkeley.cs#chisel_2.9.2;1.0 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of edu.berkeley.cs#chisel_2.9.2;1.0 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for edu.berkeley.cs#kmeansandmesh_2.9.2;1.1 [test][0m
+[0m[[0mdebug[0m] [0mloadData of edu.berkeley.cs#kmeansandmesh_2.9.2;1.1 of rootConf=test[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for edu.berkeley.cs#kmeansandmesh_2.9.2;1.1 [runtime][0m
+[0m[[0mdebug[0m] [0mloadData of edu.berkeley.cs#kmeansandmesh_2.9.2;1.1 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for edu.berkeley.cs#kmeansandmesh_2.9.2;1.1 [compile][0m
+[0m[[0mdebug[0m] [0mloadData of edu.berkeley.cs#kmeansandmesh_2.9.2;1.1 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies edu.berkeley.cs#kmeansandmesh_2.9.2;1.1->org.scala-lang#scala-library;2.9.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=test[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies edu.berkeley.cs#kmeansandmesh_2.9.2;1.1->org.scala-lang#scala-library;2.9.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies edu.berkeley.cs#kmeansandmesh_2.9.2;1.1->org.scala-lang#scala-library;2.9.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies edu.berkeley.cs#kmeansandmesh_2.9.2;1.1->org.scala-lang#scala-library;2.9.2 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies edu.berkeley.cs#kmeansandmesh_2.9.2;1.1->edu.berkeley.cs#chisel_2.9.2;1.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of edu.berkeley.cs#chisel_2.9.2;1.0 of rootConf=test[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies edu.berkeley.cs#kmeansandmesh_2.9.2;1.1->edu.berkeley.cs#chisel_2.9.2;1.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of edu.berkeley.cs#chisel_2.9.2;1.0 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies edu.berkeley.cs#kmeansandmesh_2.9.2;1.1->edu.berkeley.cs#chisel_2.9.2;1.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of edu.berkeley.cs#chisel_2.9.2;1.0 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies edu.berkeley.cs#chisel_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies edu.berkeley.cs#chisel_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies edu.berkeley.cs#chisel_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies edu.berkeley.cs#chisel_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies edu.berkeley.cs#kmeansandmesh_2.9.2;1.1->edu.berkeley.cs#chisel_2.9.2;1.0 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of edu.berkeley.cs#chisel_2.9.2;1.0 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'provided'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for edu.berkeley.cs#kmeansandmesh_2.9.2;1.1 [provided][0m
+[0m[[0mdebug[0m] [0mloadData of edu.berkeley.cs#kmeansandmesh_2.9.2;1.1 of rootConf=provided[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'optional'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for edu.berkeley.cs#kmeansandmesh_2.9.2;1.1 [optional][0m
+[0m[[0mdebug[0m] [0mloadData of edu.berkeley.cs#kmeansandmesh_2.9.2;1.1 of rootConf=optional[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile-internal'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for edu.berkeley.cs#kmeansandmesh_2.9.2;1.1 [compile-internal][0m
+[0m[[0mdebug[0m] [0mloadData of edu.berkeley.cs#kmeansandmesh_2.9.2;1.1 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for edu.berkeley.cs#kmeansandmesh_2.9.2;1.1 [compile][0m
+[0m[[0mdebug[0m] [0mloadData of edu.berkeley.cs#kmeansandmesh_2.9.2;1.1 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies edu.berkeley.cs#kmeansandmesh_2.9.2;1.1->org.scala-lang#scala-library;2.9.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies edu.berkeley.cs#kmeansandmesh_2.9.2;1.1->org.scala-lang#scala-library;2.9.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies edu.berkeley.cs#kmeansandmesh_2.9.2;1.1->org.scala-lang#scala-library;2.9.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies edu.berkeley.cs#kmeansandmesh_2.9.2;1.1->org.scala-lang#scala-library;2.9.2 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies edu.berkeley.cs#kmeansandmesh_2.9.2;1.1->edu.berkeley.cs#chisel_2.9.2;1.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of edu.berkeley.cs#chisel_2.9.2;1.0 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies edu.berkeley.cs#kmeansandmesh_2.9.2;1.1->edu.berkeley.cs#chisel_2.9.2;1.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of edu.berkeley.cs#chisel_2.9.2;1.0 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies edu.berkeley.cs#kmeansandmesh_2.9.2;1.1->edu.berkeley.cs#chisel_2.9.2;1.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of edu.berkeley.cs#chisel_2.9.2;1.0 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies edu.berkeley.cs#chisel_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies edu.berkeley.cs#chisel_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies edu.berkeley.cs#chisel_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies edu.berkeley.cs#chisel_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies edu.berkeley.cs#kmeansandmesh_2.9.2;1.1->edu.berkeley.cs#chisel_2.9.2;1.0 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of edu.berkeley.cs#chisel_2.9.2;1.0 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for edu.berkeley.cs#kmeansandmesh_2.9.2;1.1 [optional][0m
+[0m[[0mdebug[0m] [0mloadData of edu.berkeley.cs#kmeansandmesh_2.9.2;1.1 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for edu.berkeley.cs#kmeansandmesh_2.9.2;1.1 [provided][0m
+[0m[[0mdebug[0m] [0mloadData of edu.berkeley.cs#kmeansandmesh_2.9.2;1.1 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime-internal'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for edu.berkeley.cs#kmeansandmesh_2.9.2;1.1 [runtime-internal][0m
+[0m[[0mdebug[0m] [0mloadData of edu.berkeley.cs#kmeansandmesh_2.9.2;1.1 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for edu.berkeley.cs#kmeansandmesh_2.9.2;1.1 [runtime][0m
+[0m[[0mdebug[0m] [0mloadData of edu.berkeley.cs#kmeansandmesh_2.9.2;1.1 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for edu.berkeley.cs#kmeansandmesh_2.9.2;1.1 [compile][0m
+[0m[[0mdebug[0m] [0mloadData of edu.berkeley.cs#kmeansandmesh_2.9.2;1.1 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies edu.berkeley.cs#kmeansandmesh_2.9.2;1.1->org.scala-lang#scala-library;2.9.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies edu.berkeley.cs#kmeansandmesh_2.9.2;1.1->org.scala-lang#scala-library;2.9.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies edu.berkeley.cs#kmeansandmesh_2.9.2;1.1->org.scala-lang#scala-library;2.9.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies edu.berkeley.cs#kmeansandmesh_2.9.2;1.1->org.scala-lang#scala-library;2.9.2 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies edu.berkeley.cs#kmeansandmesh_2.9.2;1.1->edu.berkeley.cs#chisel_2.9.2;1.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of edu.berkeley.cs#chisel_2.9.2;1.0 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies edu.berkeley.cs#kmeansandmesh_2.9.2;1.1->edu.berkeley.cs#chisel_2.9.2;1.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of edu.berkeley.cs#chisel_2.9.2;1.0 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies edu.berkeley.cs#kmeansandmesh_2.9.2;1.1->edu.berkeley.cs#chisel_2.9.2;1.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of edu.berkeley.cs#chisel_2.9.2;1.0 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies edu.berkeley.cs#chisel_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies edu.berkeley.cs#chisel_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies edu.berkeley.cs#chisel_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies edu.berkeley.cs#chisel_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies edu.berkeley.cs#kmeansandmesh_2.9.2;1.1->edu.berkeley.cs#chisel_2.9.2;1.0 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of edu.berkeley.cs#chisel_2.9.2;1.0 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for edu.berkeley.cs#kmeansandmesh_2.9.2;1.1 [optional][0m
+[0m[[0mdebug[0m] [0mloadData of edu.berkeley.cs#kmeansandmesh_2.9.2;1.1 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test-internal'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for edu.berkeley.cs#kmeansandmesh_2.9.2;1.1 [test-internal][0m
+[0m[[0mdebug[0m] [0mloadData of edu.berkeley.cs#kmeansandmesh_2.9.2;1.1 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for edu.berkeley.cs#kmeansandmesh_2.9.2;1.1 [test][0m
+[0m[[0mdebug[0m] [0mloadData of edu.berkeley.cs#kmeansandmesh_2.9.2;1.1 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for edu.berkeley.cs#kmeansandmesh_2.9.2;1.1 [runtime][0m
+[0m[[0mdebug[0m] [0mloadData of edu.berkeley.cs#kmeansandmesh_2.9.2;1.1 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for edu.berkeley.cs#kmeansandmesh_2.9.2;1.1 [compile][0m
+[0m[[0mdebug[0m] [0mloadData of edu.berkeley.cs#kmeansandmesh_2.9.2;1.1 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies edu.berkeley.cs#kmeansandmesh_2.9.2;1.1->org.scala-lang#scala-library;2.9.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies edu.berkeley.cs#kmeansandmesh_2.9.2;1.1->org.scala-lang#scala-library;2.9.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies edu.berkeley.cs#kmeansandmesh_2.9.2;1.1->org.scala-lang#scala-library;2.9.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies edu.berkeley.cs#kmeansandmesh_2.9.2;1.1->org.scala-lang#scala-library;2.9.2 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies edu.berkeley.cs#kmeansandmesh_2.9.2;1.1->edu.berkeley.cs#chisel_2.9.2;1.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of edu.berkeley.cs#chisel_2.9.2;1.0 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies edu.berkeley.cs#kmeansandmesh_2.9.2;1.1->edu.berkeley.cs#chisel_2.9.2;1.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of edu.berkeley.cs#chisel_2.9.2;1.0 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies edu.berkeley.cs#kmeansandmesh_2.9.2;1.1->edu.berkeley.cs#chisel_2.9.2;1.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of edu.berkeley.cs#chisel_2.9.2;1.0 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies edu.berkeley.cs#chisel_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies edu.berkeley.cs#chisel_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies edu.berkeley.cs#chisel_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies edu.berkeley.cs#chisel_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies edu.berkeley.cs#kmeansandmesh_2.9.2;1.1->edu.berkeley.cs#chisel_2.9.2;1.0 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of edu.berkeley.cs#chisel_2.9.2;1.0 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for edu.berkeley.cs#kmeansandmesh_2.9.2;1.1 [optional][0m
+[0m[[0mdebug[0m] [0mloadData of edu.berkeley.cs#kmeansandmesh_2.9.2;1.1 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for edu.berkeley.cs#kmeansandmesh_2.9.2;1.1 [provided][0m
+[0m[[0mdebug[0m] [0mloadData of edu.berkeley.cs#kmeansandmesh_2.9.2;1.1 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'plugin'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for edu.berkeley.cs#kmeansandmesh_2.9.2;1.1 [plugin][0m
+[0m[[0mdebug[0m] [0mloadData of edu.berkeley.cs#kmeansandmesh_2.9.2;1.1 of rootConf=plugin[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'sources'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for edu.berkeley.cs#kmeansandmesh_2.9.2;1.1 [sources][0m
+[0m[[0mdebug[0m] [0mloadData of edu.berkeley.cs#kmeansandmesh_2.9.2;1.1 of rootConf=sources[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'docs'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for edu.berkeley.cs#kmeansandmesh_2.9.2;1.1 [docs][0m
+[0m[[0mdebug[0m] [0mloadData of edu.berkeley.cs#kmeansandmesh_2.9.2;1.1 of rootConf=docs[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'pom'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for edu.berkeley.cs#kmeansandmesh_2.9.2;1.1 [pom][0m
+[0m[[0mdebug[0m] [0mloadData of edu.berkeley.cs#kmeansandmesh_2.9.2;1.1 of rootConf=pom[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 2[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-library;2.9.2 / Number of dependencies = 0[0m
+[0m[[0mdebug[0m] [0mSort done for : org.scala-lang#scala-library;2.9.2[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : edu.berkeley.cs#chisel_2.9.2;1.0 / Number of dependencies = 1[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.2[0m
+[0m[[0mdebug[0m] [0mSort done for : edu.berkeley.cs#chisel_2.9.2;1.0[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.2 in test-internal: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.2 in test: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.2 in compile: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.2 in runtime: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.2 in runtime-internal: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.2 in compile-internal: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar[0m
+[0m[[0mdebug[0m] [0m	resolved ivy file produced in /home/maysam/.ivy2/cache/resolved-edu.berkeley.cs-kmeansandmesh_2.9.2-1.1.xml[0m
+[0m[[0mdebug[0m] [0m:: downloading artifacts ::[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.2 in test-internal: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.2 in test: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.2 in compile: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.2 in runtime: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.2 in runtime-internal: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.2 in compile-internal: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.2 in test-internal: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.2 in test: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.2 in compile: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.2 in runtime: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.2 in runtime-internal: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.2 in compile-internal: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar[0m
+[0m[[0mdebug[0m] [0m	 trying http://repo1.maven.org/maven2/edu/berkeley/cs/chisel_2.9.2/1.0/chisel_2.9.2-1.0.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/edu/berkeley/cs/chisel_2.9.2/1.0/chisel_2.9.2-1.0.jar[0m
+[0m[[0mdebug[0m] [0mdownloading http://repo1.maven.org/maven2/edu/berkeley/cs/chisel_2.9.2/1.0/chisel_2.9.2-1.0.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/edu/berkeley/cs/chisel_2.9.2/1.0/chisel_2.9.2-1.0.jar[0m
+[0m[[0mdebug[0m] [0m		to /home/maysam/.ivy2/cache/edu.berkeley.cs/chisel_2.9.2/jars/chisel_2.9.2-1.0.jar.part[0m
+[0m[[0mdebug[0m] [0msha1 file found for http://repo1.maven.org/maven2/edu/berkeley/cs/chisel_2.9.2/1.0/chisel_2.9.2-1.0.jar: checking...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/edu/berkeley/cs/chisel_2.9.2/1.0/chisel_2.9.2-1.0.jar.sha1[0m
+[0m[[0mdebug[0m] [0m		to /tmp/ivytmp2910461724438229670sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/edu/berkeley/cs/chisel_2.9.2/1.0/chisel_2.9.2-1.0.jar[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] edu.berkeley.cs#chisel_2.9.2;1.0!chisel_2.9.2.jar (745ms)[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 1284ms :: artifacts dl 752ms[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 2[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-library;2.9.2 / Number of dependencies = 0[0m
+[0m[[0mdebug[0m] [0mSort done for : org.scala-lang#scala-library;2.9.2[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : edu.berkeley.cs#chisel_2.9.2;1.0 / Number of dependencies = 1[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.2[0m
+[0m[[0mdebug[0m] [0mSort done for : edu.berkeley.cs#chisel_2.9.2;1.0[0m
+[0m[[0mdebug[0m] [0m	report for edu.berkeley.cs#kmeansandmesh_2.9.2;1.1 compile produced in /home/maysam/.ivy2/cache/edu.berkeley.cs-kmeansandmesh_2.9.2-compile.xml[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 2[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-library;2.9.2 / Number of dependencies = 0[0m
+[0m[[0mdebug[0m] [0mSort done for : org.scala-lang#scala-library;2.9.2[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : edu.berkeley.cs#chisel_2.9.2;1.0 / Number of dependencies = 1[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.2[0m
+[0m[[0mdebug[0m] [0mSort done for : edu.berkeley.cs#chisel_2.9.2;1.0[0m
+[0m[[0mdebug[0m] [0m	report for edu.berkeley.cs#kmeansandmesh_2.9.2;1.1 runtime produced in /home/maysam/.ivy2/cache/edu.berkeley.cs-kmeansandmesh_2.9.2-runtime.xml[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 2[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-library;2.9.2 / Number of dependencies = 0[0m
+[0m[[0mdebug[0m] [0mSort done for : org.scala-lang#scala-library;2.9.2[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : edu.berkeley.cs#chisel_2.9.2;1.0 / Number of dependencies = 1[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.2[0m
+[0m[[0mdebug[0m] [0mSort done for : edu.berkeley.cs#chisel_2.9.2;1.0[0m
+[0m[[0mdebug[0m] [0m	report for edu.berkeley.cs#kmeansandmesh_2.9.2;1.1 test produced in /home/maysam/.ivy2/cache/edu.berkeley.cs-kmeansandmesh_2.9.2-test.xml[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 0[0m
+[0m[[0mdebug[0m] [0m	report for edu.berkeley.cs#kmeansandmesh_2.9.2;1.1 provided produced in /home/maysam/.ivy2/cache/edu.berkeley.cs-kmeansandmesh_2.9.2-provided.xml[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 0[0m
+[0m[[0mdebug[0m] [0m	report for edu.berkeley.cs#kmeansandmesh_2.9.2;1.1 optional produced in /home/maysam/.ivy2/cache/edu.berkeley.cs-kmeansandmesh_2.9.2-optional.xml[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 2[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-library;2.9.2 / Number of dependencies = 0[0m
+[0m[[0mdebug[0m] [0mSort done for : org.scala-lang#scala-library;2.9.2[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : edu.berkeley.cs#chisel_2.9.2;1.0 / Number of dependencies = 1[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.2[0m
+[0m[[0mdebug[0m] [0mSort done for : edu.berkeley.cs#chisel_2.9.2;1.0[0m
+[0m[[0mdebug[0m] [0m	report for edu.berkeley.cs#kmeansandmesh_2.9.2;1.1 compile-internal produced in /home/maysam/.ivy2/cache/edu.berkeley.cs-kmeansandmesh_2.9.2-compile-internal.xml[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 2[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-library;2.9.2 / Number of dependencies = 0[0m
+[0m[[0mdebug[0m] [0mSort done for : org.scala-lang#scala-library;2.9.2[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : edu.berkeley.cs#chisel_2.9.2;1.0 / Number of dependencies = 1[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.2[0m
+[0m[[0mdebug[0m] [0mSort done for : edu.berkeley.cs#chisel_2.9.2;1.0[0m
+[0m[[0mdebug[0m] [0m	report for edu.berkeley.cs#kmeansandmesh_2.9.2;1.1 runtime-internal produced in /home/maysam/.ivy2/cache/edu.berkeley.cs-kmeansandmesh_2.9.2-runtime-internal.xml[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 2[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-library;2.9.2 / Number of dependencies = 0[0m
+[0m[[0mdebug[0m] [0mSort done for : org.scala-lang#scala-library;2.9.2[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : edu.berkeley.cs#chisel_2.9.2;1.0 / Number of dependencies = 1[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.2[0m
+[0m[[0mdebug[0m] [0mSort done for : edu.berkeley.cs#chisel_2.9.2;1.0[0m
+[0m[[0mdebug[0m] [0m	report for edu.berkeley.cs#kmeansandmesh_2.9.2;1.1 test-internal produced in /home/maysam/.ivy2/cache/edu.berkeley.cs-kmeansandmesh_2.9.2-test-internal.xml[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 0[0m
+[0m[[0mdebug[0m] [0m	report for edu.berkeley.cs#kmeansandmesh_2.9.2;1.1 plugin produced in /home/maysam/.ivy2/cache/edu.berkeley.cs-kmeansandmesh_2.9.2-plugin.xml[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 0[0m
+[0m[[0mdebug[0m] [0m	report for edu.berkeley.cs#kmeansandmesh_2.9.2;1.1 sources produced in /home/maysam/.ivy2/cache/edu.berkeley.cs-kmeansandmesh_2.9.2-sources.xml[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 0[0m
+[0m[[0mdebug[0m] [0m	report for edu.berkeley.cs#kmeansandmesh_2.9.2;1.1 docs produced in /home/maysam/.ivy2/cache/edu.berkeley.cs-kmeansandmesh_2.9.2-docs.xml[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 0[0m
+[0m[[0mdebug[0m] [0m	report for edu.berkeley.cs#kmeansandmesh_2.9.2;1.1 pom produced in /home/maysam/.ivy2/cache/edu.berkeley.cs-kmeansandmesh_2.9.2-pom.xml[0m
+[0m[[0mdebug[0m] [0m	resolve done (1284ms resolve - 752ms download)[0m
+[0m[[0minfo[0m] [0mDone updating.[0m

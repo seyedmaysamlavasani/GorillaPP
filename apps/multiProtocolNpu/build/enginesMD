@@ -1,0 +1,12 @@
+multiProtocolEngine CONCURRENT_SAFE
+
+multiProtocolEngine PIPELINABLE  10
+
+ipv4Lookup CONCURRENT_SAFE
+
+ipv4Lookup PIPELINABLE  6
+
+qosCount CONCURRENT_SAFE
+
+qosCount PIPELINABLE  12
+

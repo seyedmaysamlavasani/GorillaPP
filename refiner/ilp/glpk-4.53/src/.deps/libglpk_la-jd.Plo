@@ -1,0 +1,6 @@
+libglpk_la-jd.lo: misc/jd.c \
+ /usr/lib/gcc/x86_64-linux-gnu/4.6/include/stddef.h misc/jd.h
+
+/usr/lib/gcc/x86_64-linux-gnu/4.6/include/stddef.h:
+
+misc/jd.h:

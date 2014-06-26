@@ -1,0 +1,31 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : RREncode
+Version: B-2008.09-SP4
+Date   : Wed Jun  4 20:03:39 2014
+****************************************
+
+Operating Conditions: typical   Library: gscl45nm
+Wire Load Model Mode: top
+
+  Startpoint: io_valid_0 (input port)
+  Endpoint: io_chosen (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  io_valid_0 (in)                          0.00       0.00 r
+  U1/Y (INVX1)                             0.01       0.01 f
+  io_chosen (out)                          0.00       0.01 f
+  data arrival time                                   0.01
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+1

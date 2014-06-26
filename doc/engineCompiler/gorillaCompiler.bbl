@@ -1,0 +1,36 @@
+\begin{thebibliography}{1}
+
+\bibitem{ChiselDAC2012}
+J.~Bachrach, Huy Vo, B.~Richards, Yunsup Lee, A.~Waterman, R.~Avizienis,
+  J.~Wawrzynek, and K.~Asanovic.
+\newblock Chisel: Constructing hardware in a scala embedded language.
+\newblock In {\em Design Automation Conference (DAC), 2012 49th ACM/EDAC/IEEE},
+  pages 1212 --1221, june 2012.
+
+\bibitem{LegUpFPGA2012}
+A.~Canis, J.~Chois, M.~Aldham, V.~Zhang, A.~Kammoona, J.~Anderson, S.~Brown,
+  and T.~Czajkowski.
+\newblock Legup: high-level synthesis for fpga-based processor/accelerator
+  systems.
+\newblock In {\em FPGA 2012}, FPGA '11, New York, NY, USA, 2011. ACM.
+
+\bibitem{theoryOfLatencyInsenssitiveDesigns}
+L.P. Carloni, K.L. McMillan, and A.L. Sangiovanni-Vincentelli.
+\newblock Theory of latency-insensitive design.
+\newblock {\em Computer-Aided Design of Integrated Circuits and Systems, IEEE
+  Transactions on}, 20(9):1059--1076, Sep 2001.
+
+\bibitem{SMT}
+Susan~J. Eggers, Joel~S. Emer, Henry~M. Levy, Jack~L. Lo, Rebecca~L. Stamm, ,
+  and Dean~M. Tullsen.
+\newblock {Simultaneous Multithreading: A Foundation for Next-generation
+  Processors}.
+\newblock {\em IEEE Micro}, pages 12--18, September/October 1997.
+
+\bibitem{GorillaFPGA2012}
+Maysam Lavasani, Larry Dennison, and Derek Chiou.
+\newblock {Compiling High Throughput Network Processors}.
+\newblock In {\em 20th ACM/SIGDA International Symposium on Field-Programmable
+  Gate Arrays}, February 2012.
+
+\end{thebibliography}

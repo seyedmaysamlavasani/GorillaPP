@@ -1,0 +1,239 @@
+Welcome to Xilinx CORE Generator.
+Help system initialized.
+The IP Catalog has been reloaded.
+Loaded all available family support information.
+Loaded all available family support information.
+Loaded all available family support information.
+Loaded all available family support information.
+Loaded all available family support information.
+Loaded all available family support information.
+Loaded all available family support information.
+Loaded all available family support information.
+Loaded all available family support information.
+Loaded all available family support information.
+Loaded all available family support information.
+Wrote CGP file for project 'adder64fp'.
+Customize and GenerateINFO:sim:172 - Generating IP...
+Applying current project options...
+Finished applying current project options.
+WARNING:sim - Verilog simulation file type 'Behavioral' is not valid for this
+   core. Overriding with simulation file type 'Structural'.
+Resolving generics for 'adder64fp'...
+WARNING:sim - Verilog simulation file type 'Behavioral' is not valid for this
+   core. Overriding with simulation file type 'Structural'.
+Applying external generics to 'adder64fp'...
+Delivering associated files for 'adder64fp'...
+Generating implementation netlist for 'adder64fp'...
+INFO:sim - Pre-processing HDL files for 'adder64fp'...
+Running synthesis for 'adder64fp'
+Running ngcbuild...
+Writing VEO instantiation template for 'adder64fp'...
+WARNING:sim - Verilog simulation file type 'Behavioral' is not valid for this
+   core. Overriding with simulation file type 'Structural'.
+Writing Verilog structural simulation model for 'adder64fp'...
+WARNING:sim - Verilog simulation file type 'Behavioral' is not valid for this
+   core. Overriding with simulation file type 'Structural'.
+Delivered 3 files into directory
+/home/ecelrc/students/smirkhani/coregenFloatingPoints/virtex-6/adder/tmp/_cg/add
+er64fp
+Generating ASY schematic symbol...
+INFO:sim:949 - Finished generation of ASY schematic symbol.
+Generating metadata file...
+Generating ISE project...
+XCO file found: adder64fp.xco
+XMDF file found: adder64fp_xmdf.tcl
+Adding
+/home/ecelrc/students/smirkhani/coregenFloatingPoints/virtex-6/adder/tmp/_cg/add
+er64fp.asy -view all -origin_type imported
+Adding
+/home/ecelrc/students/smirkhani/coregenFloatingPoints/virtex-6/adder/tmp/_cg/add
+er64fp.ngc -view all -origin_type created
+Checking file
+"/home/ecelrc/students/smirkhani/coregenFloatingPoints/virtex-6/adder/tmp/_cg/ad
+der64fp.ngc" for project device match ...
+File
+"/home/ecelrc/students/smirkhani/coregenFloatingPoints/virtex-6/adder/tmp/_cg/ad
+der64fp.ngc" device information matches project device.
+Adding
+/home/ecelrc/students/smirkhani/coregenFloatingPoints/virtex-6/adder/tmp/_cg/add
+er64fp.v -view all -origin_type created
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "/home/ecelrc/students/smirkhani/coregenFloatingPoints/virtex-6/adder/tmp/_cg
+   /adder64fp.v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding
+/home/ecelrc/students/smirkhani/coregenFloatingPoints/virtex-6/adder/tmp/_cg/add
+er64fp.veo -view all -origin_type imported
+INFO:TclTasksC:2116 - The automatic calculation of top has been turned-off.
+   Please set the new top explicitly by running the "project set top" command.
+   To re-calculate the new top automatically, set the "Auto Implementation Top"
+   property to true.
+Top level has been set to "/adder64fp"
+Generating README file...
+Generating FLIST file...
+INFO:sim:948 - Finished FLIST file generation.
+Launching README viewer...
+Moving files to output directory...
+Finished moving files to output directory
+Saved CGP file for project 'adder64fp'.
+Closed project file.
+Loaded all available family support information.
+Loaded all available family support information.
+Loaded all available family support information.
+Loaded all available family support information.
+Loaded all available family support information.
+Loaded all available family support information.
+Loaded all available family support information.
+Loaded all available family support information.
+Loaded all available family support information.
+Loaded all available family support information.
+Wrote CGP file for project 'multiplier64fp'.
+Customize and GenerateINFO:sim:172 - Generating IP...
+Applying current project options...
+Finished applying current project options.
+WARNING:sim - Verilog simulation file type 'Behavioral' is not valid for this
+   core. Overriding with simulation file type 'Structural'.
+Resolving generics for 'multiplier64fp'...
+WARNING:sim - Verilog simulation file type 'Behavioral' is not valid for this
+   core. Overriding with simulation file type 'Structural'.
+Applying external generics to 'multiplier64fp'...
+Delivering associated files for 'multiplier64fp'...
+Generating implementation netlist for 'multiplier64fp'...
+INFO:sim - Pre-processing HDL files for 'multiplier64fp'...
+Running synthesis for 'multiplier64fp'
+Running ngcbuild...
+Writing VEO instantiation template for 'multiplier64fp'...
+WARNING:sim - Verilog simulation file type 'Behavioral' is not valid for this
+   core. Overriding with simulation file type 'Structural'.
+Writing Verilog structural simulation model for 'multiplier64fp'...
+WARNING:sim - Verilog simulation file type 'Behavioral' is not valid for this
+   core. Overriding with simulation file type 'Structural'.
+Delivered 3 files into directory
+/home/ecelrc/students/smirkhani/coregenFloatingPoints/virtex-6/multiplier/tmp/_c
+g/multiplier64fp
+Generating ASY schematic symbol...
+INFO:sim:949 - Finished generation of ASY schematic symbol.
+Generating metadata file...
+Generating ISE project...
+XCO file found: multiplier64fp.xco
+XMDF file found: multiplier64fp_xmdf.tcl
+Adding
+/home/ecelrc/students/smirkhani/coregenFloatingPoints/virtex-6/multiplier/tmp/_c
+g/multiplier64fp.asy -view all -origin_type imported
+Adding
+/home/ecelrc/students/smirkhani/coregenFloatingPoints/virtex-6/multiplier/tmp/_c
+g/multiplier64fp.ngc -view all -origin_type created
+Checking file
+"/home/ecelrc/students/smirkhani/coregenFloatingPoints/virtex-6/multiplier/tmp/_
+cg/multiplier64fp.ngc" for project device match ...
+File
+"/home/ecelrc/students/smirkhani/coregenFloatingPoints/virtex-6/multiplier/tmp/_
+cg/multiplier64fp.ngc" device information matches project device.
+Adding
+/home/ecelrc/students/smirkhani/coregenFloatingPoints/virtex-6/multiplier/tmp/_c
+g/multiplier64fp.v -view all -origin_type created
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "/home/ecelrc/students/smirkhani/coregenFloatingPoints/virtex-6/multiplier/tm
+   p/_cg/multiplier64fp.v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding
+/home/ecelrc/students/smirkhani/coregenFloatingPoints/virtex-6/multiplier/tmp/_c
+g/multiplier64fp.veo -view all -origin_type imported
+INFO:TclTasksC:2116 - The automatic calculation of top has been turned-off.
+   Please set the new top explicitly by running the "project set top" command.
+   To re-calculate the new top automatically, set the "Auto Implementation Top"
+   property to true.
+Top level has been set to "/multiplier64fp"
+Generating README file...
+Generating FLIST file...
+INFO:sim:948 - Finished FLIST file generation.
+Launching README viewer...
+Moving files to output directory...
+Finished moving files to output directory
+Saved CGP file for project 'multiplier64fp'.
+Closed project file.
+Loaded all available family support information.
+Loaded all available family support information.
+Loaded all available family support information.
+Loaded all available family support information.
+Loaded all available family support information.
+Loaded all available family support information.
+Loaded all available family support information.
+Loaded all available family support information.
+Loaded all available family support information.
+Loaded all available family support information.
+Wrote CGP file for project 'divider64fp'.
+Customize and GenerateINFO:sim:172 - Generating IP...
+Applying current project options...
+Finished applying current project options.
+WARNING:sim - Verilog simulation file type 'Behavioral' is not valid for this
+   core. Overriding with simulation file type 'Structural'.
+Resolving generics for 'divider64fp'...
+WARNING:sim - Verilog simulation file type 'Behavioral' is not valid for this
+   core. Overriding with simulation file type 'Structural'.
+Applying external generics to 'divider64fp'...
+Delivering associated files for 'divider64fp'...
+Generating implementation netlist for 'divider64fp'...
+INFO:sim - Pre-processing HDL files for 'divider64fp'...
+Running synthesis for 'divider64fp'
+Running ngcbuild...
+Writing VEO instantiation template for 'divider64fp'...
+WARNING:sim - Verilog simulation file type 'Behavioral' is not valid for this
+   core. Overriding with simulation file type 'Structural'.
+Writing Verilog structural simulation model for 'divider64fp'...
+WARNING:sim - Verilog simulation file type 'Behavioral' is not valid for this
+   core. Overriding with simulation file type 'Structural'.
+Delivered 3 files into directory
+/home/ecelrc/students/smirkhani/coregenFloatingPoints/virtex-6/divider/tmp/_cg/d
+ivider64fp
+Generating ASY schematic symbol...
+INFO:sim:949 - Finished generation of ASY schematic symbol.
+Generating metadata file...
+Generating ISE project...
+XCO file found: divider64fp.xco
+XMDF file found: divider64fp_xmdf.tcl
+Adding
+/home/ecelrc/students/smirkhani/coregenFloatingPoints/virtex-6/divider/tmp/_cg/d
+ivider64fp.asy -view all -origin_type imported
+Adding
+/home/ecelrc/students/smirkhani/coregenFloatingPoints/virtex-6/divider/tmp/_cg/d
+ivider64fp.ngc -view all -origin_type created
+Checking file
+"/home/ecelrc/students/smirkhani/coregenFloatingPoints/virtex-6/divider/tmp/_cg/
+divider64fp.ngc" for project device match ...
+File
+"/home/ecelrc/students/smirkhani/coregenFloatingPoints/virtex-6/divider/tmp/_cg/
+divider64fp.ngc" device information matches project device.
+Adding
+/home/ecelrc/students/smirkhani/coregenFloatingPoints/virtex-6/divider/tmp/_cg/d
+ivider64fp.v -view all -origin_type created
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "/home/ecelrc/students/smirkhani/coregenFloatingPoints/virtex-6/divider/tmp/_
+   cg/divider64fp.v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding
+/home/ecelrc/students/smirkhani/coregenFloatingPoints/virtex-6/divider/tmp/_cg/d
+ivider64fp.veo -view all -origin_type imported
+INFO:TclTasksC:2116 - The automatic calculation of top has been turned-off.
+   Please set the new top explicitly by running the "project set top" command.
+   To re-calculate the new top automatically, set the "Auto Implementation Top"
+   property to true.
+Top level has been set to "/divider64fp"
+Generating README file...
+Generating FLIST file...
+INFO:sim:948 - Finished FLIST file generation.
+Launching README viewer...
+Moving files to output directory...
+Finished moving files to output directory
+Saved CGP file for project 'divider64fp'.
+Closed project file.
+Opening project file
+/home/ecelrc/students/smirkhani/coregenFloatingPoints/virtex-6/adder/adder64fp.c
+gp.
+Recustomize and Generate (Under Current Project Settings)INFO:sim:172 - Generating IP...
+Applying current project options...
+Finished applying current project options.
+WARNING:sim - Verilog simulation file type 'Behavioral' is not valid for this
+   core. Overriding with simulation file type 'Structural'.
+Cancelled executing Tcl generator.
+Closed project file.

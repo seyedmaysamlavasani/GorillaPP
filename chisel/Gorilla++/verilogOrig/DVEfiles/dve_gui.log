@@ -1,0 +1,413 @@
+
+Chronologic VCS simulator copyright 1991-2009
+Contains Synopsys proprietary information.
+Compiler version D-2009.12; Runtime version D-2009.12;  Nov  6 23:07 2013
+VCD+ Writer D-2009.12 Copyright 2009 Synopsys Inc.
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 75843400
+CPU Time:      2.000 seconds;       Data structure size:   0.1Mb
+Wed Nov  6 23:09:59 2013
+Chronologic VCS simulator copyright 1991-2009
+Contains Synopsys proprietary information.
+Compiler version D-2009.12; Runtime version D-2009.12;  Nov  6 23:10 2013
+VCD+ Writer D-2009.12 Copyright 2009 Synopsys Inc.
+With selected criteria, DVE has found 'results at time 4300
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.State[7:0]'.
+With selected criteria, DVE has found 'results at time 2700
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.State[7:0]'.
+With selected criteria, DVE has found 'results at time 2300
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.State[7:0]'.
+With selected criteria, DVE has found 'results at time 100
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.State[7:0]'.
+With selected criteria, DVE has found 'results at time 100
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.io_off_mem_req_valid'.
+With selected criteria, DVE has found 'results at time 4300
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.io_off_mem_req_valid'.
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 60313100
+CPU Time:      3.080 seconds;       Data structure size:   0.1Mb
+Wed Nov  6 23:22:19 2013
+Chronologic VCS simulator copyright 1991-2009
+Contains Synopsys proprietary information.
+Compiler version D-2009.12; Runtime version D-2009.12;  Nov  6 23:22 2013
+VCD+ Writer D-2009.12 Copyright 2009 Synopsys Inc.
+Error: [DVAP037] 
+Errors while sourcing the file '/proj/maysam/magilla/Gorilla++/chisel/Gorilla++/verilog/.restartSimSession.tcl':
+ Line 87: [DVSG007] 
+Signal ' "test.Top.generatedTop.source.sink.mainComp.gOffloadedComponent.mainComp.memPort_req_bits_rw"' cannot be found.
+ Line 88: [DVSG007] 
+Signal ' "test.Top.generatedTop.source.sink.mainComp.gOffloadedComponent.mainComp.T272" "test.Top.generatedTop.source.sink.mainComp.gOffloadedComponent.mainComp.T281" "test.Top.generatedTop.source.sink.mainComp.gOffloadedComponent.mainComp.T294" "test.Top.generatedTop.source.sink.mainComp.gOffloadedComponent.mainComp.memPort_req_bits_cached" "test.Top.generatedTop.source.sink.mainComp.gOffloadedComponent.mainComp.memPort_req_bits_data"' cannot be found.
+ Line 92: [DVSG007] 
+Signal ' "test.Top.generatedTop.source.sink.mainComp.gOffloadedComponent.mainComp.R280" "test.Top.generatedTop.source.sink.mainComp.gOffloadedComponent.mainComp.R285"' cannot be found.
+ Line 93: [DVSG007] 
+Signal ' "test.Top.generatedTop.source.sink.mainComp.gOffloadedComponent.mainComp.R298" "test.Top.generatedTop.source.sink.mainComp.gOffloadedComponent.mainComp.T309" "test.Top.generatedTop.source.sink.mainComp.gOffloadedComponent.mainComp.T310" "test.Top.generatedTop.source.sink.mainComp.gOffloadedComponent.mainComp.T311" "test.Top.generatedTop.source.sink.mainComp.gOffloadedComponent.mainComp.T312"' cannot be found.
+ Line 95: [DVSG007] 
+Signal ' "test.Top.generatedTop.source.sink.mainComp.gOffloadedComponent.mainComp.memPort_req_bits_size"' cannot be found.
+ Line 98: [DVSG007] 
+Signal ' "test.Top.generatedTop.source.sink.mainComp.gOffloadedComponent.mainComp.memPort_req_bits_rw"' cannot be found.
+ Line 99: [DVSG007] 
+Signal ' "test.Top.generatedTop.source.sink.mainComp.gOffloadedComponent.mainComp.T272" "test.Top.generatedTop.source.sink.mainComp.gOffloadedComponent.mainComp.T281" "test.Top.generatedTop.source.sink.mainComp.gOffloadedComponent.mainComp.T294" "test.Top.generatedTop.source.sink.mainComp.gOffloadedComponent.mainComp.memPort_req_bits_cached" "test.Top.generatedTop.source.sink.mainComp.gOffloadedComponent.mainComp.memPort_req_bits_data"' cannot be found.
+ Line 103: [DVSG007] 
+Signal ' "test.Top.generatedTop.source.sink.mainComp.gOffloadedComponent.mainComp.R280" "test.Top.generatedTop.source.sink.mainComp.gOffloadedComponent.mainComp.R285"' cannot be found.
+ Line 104: [DVSG007] 
+Signal ' "test.Top.generatedTop.source.sink.mainComp.gOffloadedComponent.mainComp.R298" "test.Top.generatedTop.source.sink.mainComp.gOffloadedComponent.mainComp.T309" "test.Top.generatedTop.source.sink.mainComp.gOffloadedComponent.mainComp.T310" "test.Top.generatedTop.source.sink.mainComp.gOffloadedComponent.mainComp.T311" "test.Top.generatedTop.source.sink.mainComp.gOffloadedComponent.mainComp.T312"' cannot be found.
+ Line 106: [DVSG007] 
+Signal ' "test.Top.generatedTop.source.sink.mainComp.gOffloadedComponent.mainComp.memPort_req_bits_size"' cannot be found.
+ Line 109: [DVSG007] 
+Signal ' "test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.R330" "test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.memPort_req_bits_rw"' cannot be found.
+ Line 110: [DVSG007] 
+Signal ' "test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.memPort_req_bits_cached" "test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.memPort_req_bits_data"' cannot be found.
+ Line 114: [DVSG007] 
+Signal ' "test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.T304" "test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.T313" "test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.T326"' cannot be found.
+ Line 115: [DVSG007] 
+Signal ' "test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.T341" "test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.T342" "test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.T343" "test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.T344"' cannot be found.
+ Line 116: [DVSG007] 
+Signal ' "test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.memPort_req_bits_size" "test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.R312" "test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.R317"' cannot be found..With selected criteria, DVE has found 'results at time 135300
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.State[7:0]'.
+With selected criteria, DVE has found 'results at time 125700
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.State[7:0]'.
+With selected criteria, DVE has found 'results at time 116100
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.State[7:0]'.
+With selected criteria, DVE has found 'results at time 114500
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.State[7:0]'.
+With selected criteria, DVE has found 'results at time 114100
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.State[7:0]'.
+With selected criteria, DVE has found 'results at time 113900
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.State[7:0]'.
+With selected criteria, DVE has found 'results at time 111900
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.State[7:0]'.
+With selected criteria, DVE has found 'results at time 102300
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.State[7:0]'.
+With selected criteria, DVE has found 'results at time 92700
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.State[7:0]'.
+With selected criteria, DVE has found 'results at time 83100
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.State[7:0]'.
+With selected criteria, DVE has found 'results at time 81500
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.State[7:0]'.
+With selected criteria, DVE has found 'results at time 81100
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.State[7:0]'.
+With selected criteria, DVE has found 'results at time 80900
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.State[7:0]'.
+With selected criteria, DVE has found 'results at time 77300
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.State[7:0]'.
+With selected criteria, DVE has found 'results at time 67700
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.State[7:0]'.
+With selected criteria, DVE has found 'results at time 58100
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.State[7:0]'.
+With selected criteria, DVE has found 'results at time 48500
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.State[7:0]'.
+With selected criteria, DVE has found 'results at time 45300
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.State[7:0]'.
+With selected criteria, DVE has found 'results at time 44900
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.State[7:0]'.
+With selected criteria, DVE has found 'results at time 44700
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.State[7:0]'.
+With selected criteria, DVE has found 'results at time 42700
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.State[7:0]'.
+With selected criteria, DVE has found 'results at time 33100
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.State[7:0]'.
+With selected criteria, DVE has found 'results at time 23500
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.State[7:0]'.
+With selected criteria, DVE has found 'results at time 4300
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.State[7:0]'.
+With selected criteria, DVE has found 'results at time 2700
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.State[7:0]'.
+With selected criteria, DVE has found 'results at time 2300
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.State[7:0]'.
+With selected criteria, DVE has found 'results at time 100
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.State[7:0]'.
+With selected criteria, DVE has found 'results at time 0
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.State[7:0]'.
+Warning: [DVWW009] 
+Seek hit time zero with no more matches.
+Warning: [DVWW009] 
+Seek hit time zero with no more matches.
+Warning: [DVWW009] 
+Seek hit time zero with no more matches.
+Warning: [DVWW009] 
+Seek hit time zero with no more matches.
+Warning: [DVWW009] 
+Seek hit time zero with no more matches.
+Warning: [DVWW009] 
+Seek hit time zero with no more matches.
+Warning: [DVWW009] 
+Seek hit time zero with no more matches.
+Warning: [DVWW009] 
+Seek hit time zero with no more matches.
+Warning: [DVWW009] 
+Seek hit time zero with no more matches.
+Warning: [DVWW009] 
+Seek hit time zero with no more matches.
+Warning: [DVWW009] 
+Seek hit time zero with no more matches.With selected criteria, DVE has found 'results at time 100
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.State[7:0]'.
+With selected criteria, DVE has found 'results at time 2300
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.State[7:0]'.
+With selected criteria, DVE has found 'results at time 2700
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.State[7:0]'.
+With selected criteria, DVE has found 'results at time 4300
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.State[7:0]'.
+With selected criteria, DVE has found 'results at time 23500
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.State[7:0]'.
+With selected criteria, DVE has found 'results at time 33100
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.State[7:0]'.
+With selected criteria, DVE has found 'results at time 42700
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.State[7:0]'.
+With selected criteria, DVE has found 'results at time 44700
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.State[7:0]'.
+With selected criteria, DVE has found 'results at time 44900
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.State[7:0]'.
+With selected criteria, DVE has found 'results at time 45300
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.State[7:0]'.
+With selected criteria, DVE has found 'results at time 48500
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.State[7:0]'.
+With selected criteria, DVE has found 'results at time 58100
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.State[7:0]'.
+With selected criteria, DVE has found 'results at time 67700
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.State[7:0]'.
+With selected criteria, DVE has found 'results at time 77300
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.State[7:0]'.
+With selected criteria, DVE has found 'results at time 80900
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.State[7:0]'.
+With selected criteria, DVE has found 'results at time 81100
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.State[7:0]'.
+With selected criteria, DVE has found 'results at time 81500
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.State[7:0]'.
+With selected criteria, DVE has found 'results at time 83100
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.State[7:0]'.
+With selected criteria, DVE has found 'results at time 92700
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.State[7:0]'.
+With selected criteria, DVE has found 'results at time 102300
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.State[7:0]'.
+With selected criteria, DVE has found 'results at time 111900
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.State[7:0]'.
+With selected criteria, DVE has found 'results at time 113900
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.State[7:0]'.
+With selected criteria, DVE has found 'results at time 114100
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.State[7:0]'.
+With selected criteria, DVE has found 'results at time 114500
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.State[7:0]'.
+With selected criteria, DVE has found 'results at time 116100
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.State[7:0]'.
+With selected criteria, DVE has found 'results at time 125700
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.State[7:0]'.
+With selected criteria, DVE has found 'results at time 135300
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.State[7:0]'.
+Warning: [DVWW010] 
+Seek hit end of values with no more matches.
+Warning: [DVWW010] 
+Seek hit end of values with no more matches.
+Warning: [DVWW010] 
+Seek hit end of values with no more matches.
+Warning: [DVWW010] 
+Seek hit end of values with no more matches.
+Warning: [DVWW010] 
+Seek hit end of values with no more matches.
+Warning: [DVWW010] 
+Seek hit end of values with no more matches.
+Warning: [DVWW010] 
+Seek hit end of values with no more matches.
+Warning: [DVWW010] 
+Seek hit end of values with no more matches.
+Warning: [DVWW010] 
+Seek hit end of values with no more matches.
+Warning: [DVWW010] 
+Seek hit end of values with no more matches.
+Warning: [DVWW010] 
+Seek hit end of values with no more matches.
+Warning: [DVWW010] 
+Seek hit end of values with no more matches.
+Warning: [DVWW010] 
+Seek hit end of values with no more matches.With selected criteria, DVE has found 'results at time 125700
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.State[7:0]'.
+With selected criteria, DVE has found 'results at time 116100
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.State[7:0]'.
+With selected criteria, DVE has found 'results at time 114500
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.State[7:0]'.
+With selected criteria, DVE has found 'results at time 114100
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.State[7:0]'.
+With selected criteria, DVE has found 'results at time 113900
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.State[7:0]'.
+With selected criteria, DVE has found 'results at time 111900
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.State[7:0]'.
+With selected criteria, DVE has found 'results at time 102300
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.State[7:0]'.
+With selected criteria, DVE has found 'results at time 92700
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.State[7:0]'.
+With selected criteria, DVE has found 'results at time 83100
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.State[7:0]'.
+With selected criteria, DVE has found 'results at time 81500
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.State[7:0]'.
+With selected criteria, DVE has found 'results at time 81100
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.State[7:0]'.
+With selected criteria, DVE has found 'results at time 80900
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.State[7:0]'.
+With selected criteria, DVE has found 'results at time 77300
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.State[7:0]'.
+With selected criteria, DVE has found 'results at time 67700
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.State[7:0]'.
+With selected criteria, DVE has found 'results at time 58100
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.State[7:0]'.
+With selected criteria, DVE has found 'results at time 48500
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.State[7:0]'.
+With selected criteria, DVE has found 'results at time 45300
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.State[7:0]'.
+With selected criteria, DVE has found 'results at time 44900
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.State[7:0]'.
+With selected criteria, DVE has found 'results at time 45300
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.State[7:0]'.
+With selected criteria, DVE has found 'results at time 48500
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.State[7:0]'.
+With selected criteria, DVE has found 'results at time 58100
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.State[7:0]'.
+With selected criteria, DVE has found 'results at time 67700
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.State[7:0]'.
+With selected criteria, DVE has found 'results at time 77300
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.State[7:0]'.
+With selected criteria, DVE has found 'results at time 80900
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.State[7:0]'.
+With selected criteria, DVE has found 'results at time 81100
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.State[7:0]'.
+With selected criteria, DVE has found 'results at time 81500
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.State[7:0]'.
+With selected criteria, DVE has found 'results at time 83100
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.State[7:0]'.
+With selected criteria, DVE has found 'results at time 92700
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.State[7:0]'.
+With selected criteria, DVE has found 'results at time 102300
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.State[7:0]'.
+With selected criteria, DVE has found 'results at time 111900
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.State[7:0]'.
+With selected criteria, DVE has found 'results at time 113900
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.State[7:0]'.
+With selected criteria, DVE has found 'results at time 111900
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.State[7:0]'.
+With selected criteria, DVE has found 'results at time 102300
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.State[7:0]'.
+With selected criteria, DVE has found 'results at time 2100
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.io_in_bits_done'.
+With selected criteria, DVE has found 'results at time 0
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.io_in_bits_done'.
+Warning: [DVWW010] 
+Seek hit end of values with no more matches.
+Warning: [DVWW010] 
+Seek hit end of values with no more matches.
+Warning: [DVWW010] 
+Seek hit end of values with no more matches.
+Warning: [DVWW010] 
+Seek hit end of values with no more matches.With selected criteria, DVE has found 'results at time 2300
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.inputReg_done[0:0]'.
+With selected criteria, DVE has found 'results at time 0
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.inputReg_done[0:0]'.
+Warning: [DVWW009] 
+Seek hit time zero with no more matches.With selected criteria, DVE has found 'results at time 2100
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.io_in_bits_done'.
+Warning: [DVWW010] 
+Seek hit end of values with no more matches.
+Warning: [DVWW010] 
+Seek hit end of values with no more matches.With selected criteria, DVE has found 'results at time 0
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.io_in_bits_done'.
+Warning: [DVWW009] 
+Seek hit time zero with no more matches.
+Warning: [DVWW009] 
+Seek hit time zero with no more matches.
+Warning: [DVWW009] 
+Seek hit time zero with no more matches.With selected criteria, DVE has found 'results at time 23900
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.PrevClockSubState[0:0]'.
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.SubState[0:0]'.
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.State[7:0]'.
+With selected criteria, DVE has found 'results at time 14300
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.PrevClockSubState[0:0]'.
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.SubState[0:0]'.
+With selected criteria, DVE has found 'results at time 13900
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.SubState[0:0]'.
+With selected criteria, DVE has found 'results at time 4700
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.PrevClockSubState[0:0]'.
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.SubState[0:0]'.
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.State[7:0]'.
+With selected criteria, DVE has found 'results at time 3100
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.PrevClockSubState[0:0]'.
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.SubState[0:0]'.
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.State[7:0]'.
+With selected criteria, DVE has found 'results at time 2500
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.SubState[0:0]'.
+With selected criteria, DVE has found 'results at time 2300
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.State[7:0]'.
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.State[7:0]'.
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.State[7:0]'.
+Warning: [DVWW009] 
+Seek hit time zero with no more matches.
+Warning: [DVWW009] 
+Seek hit time zero with no more matches.    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.PrevClockSubState[0:0]'.
+With selected criteria, DVE has found 'results at time 2300
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.State[7:0]'.
+With selected criteria, DVE has found 'results at time 2500
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.SubState[0:0]'.
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.PrevClockSubState[0:0]'.
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.PrevClockSubState[0:0]'.
+With selected criteria, DVE has found 'results at time 4300
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.State[7:0]'.
+With selected criteria, DVE has found 'results at time 23500
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.State[7:0]'.
+With selected criteria, DVE has found 'results at time 33100
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.State[7:0]'.
+With selected criteria, DVE has found 'results at time 42700
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.State[7:0]'.
+With selected criteria, DVE has found 'results at time 33100
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.State[7:0]'.
+With selected criteria, DVE has found 'results at time 23500
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.State[7:0]'.
+With selected criteria, DVE has found 'results at time 33100
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.State[7:0]'.
+Warning: [DVWW010] 
+Seek hit end of values with no more matches.With selected criteria, DVE has found 'results at time 100
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.mode[0:0]'.
+With selected criteria, DVE has found 'results at time 0
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.mode[0:0]'.
+Warning: [DVWW009] 
+Seek hit time zero with no more matches.With selected criteria, DVE has found 'results at time 125700
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.State[7:0]'.
+With selected criteria, DVE has found 'results at time 116100
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.State[7:0]'.
+With selected criteria, DVE has found 'results at time 114500
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.State[7:0]'.
+With selected criteria, DVE has found 'results at time 114100
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.State[7:0]'.
+With selected criteria, DVE has found 'results at time 113900
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.State[7:0]'.
+With selected criteria, DVE has found 'results at time 111900
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.State[7:0]'.
+With selected criteria, DVE has found 'results at time 102300
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.State[7:0]'.
+With selected criteria, DVE has found 'results at time 92700
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.State[7:0]'.
+With selected criteria, DVE has found 'results at time 83100
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.State[7:0]'.
+With selected criteria, DVE has found 'results at time 81500
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.State[7:0]'.
+With selected criteria, DVE has found 'results at time 81100
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.State[7:0]'.
+With selected criteria, DVE has found 'results at time 80900
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.State[7:0]'.
+With selected criteria, DVE has found 'results at time 81100
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.State[7:0]'.
+With selected criteria, DVE has found 'results at time 81500
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.State[7:0]'.
+With selected criteria, DVE has found 'results at time 83100
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.State[7:0]'.
+With selected criteria, DVE has found 'results at time 92700
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.State[7:0]'.
+With selected criteria, DVE has found 'results at time 102300
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.State[7:0]'.
+With selected criteria, DVE has found 'results at time 111900
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.State[7:0]'.
+With selected criteria, DVE has found 'results at time 113900
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.State[7:0]'.
+With selected criteria, DVE has found 'results at time 114100
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.State[7:0]'.
+With selected criteria, DVE has found 'results at time 114500
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.State[7:0]'.
+With selected criteria, DVE has found 'results at time 116100
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.State[7:0]'.
+With selected criteria, DVE has found 'results at time 125700
+    test.Top.generatedTop.sink.mainComp.mainComp.updateWriter.State[7:0]'.

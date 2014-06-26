@@ -1,0 +1,4 @@
+Didnt find out why when I use meta data class the connection using <> operator 
+is not working. But my guess is <> is counting on the fact that the connection is 
+happening between a child and parent and the intermediate meta data class breaks this 
+contract.

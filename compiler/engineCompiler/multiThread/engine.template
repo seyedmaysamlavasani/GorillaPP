@@ -1,0 +1,136 @@
+package Tutorial
+
+import Chisel._
+import Node._
+import Literal._
+import scala.collection.mutable.HashMap
+import scala.collection.mutable.ArrayBuffer
+
+
+class #MODULE_NAME (extCompName:String) extends gComponentLeaf #IO (extCompName = extCompName + "__type__engine__MT__#NUM_OF_THREADS__") with include {
+  val numOfThreads = #NUM_OF_THREADS 
+  val NONE_SELECTED = UFix(numOfThreads,log2Up(numOfThreads+1))
+  val WaitForInputValid = UFix(0, 8)
+  val WaitForOutputReady = UFix(255, 8)
+  val WaitForReady = UFix(0, 1)
+  val WaitForValid = UFix(1, 1)
+  val inputTag = Vec(numOfThreads) {Reg(UFix(width=TAGWIDTH*2))}
+  val State = Vec(numOfThreads) {Reg(UFix(width=8), resetVal=WaitForInputValid)} 
+  val EmitReturnState = Vec(numOfThreads) {Reg(UFix(width=8), resetVal=WaitForInputValid)} 
+  //val outstandingOffs = Vec(numOfThreads) {Reg(resetVal=UFix(0, 5))}
+  val AllOffloadsReady = Bool()
+  val AllOffloadsValid  = Vec(numOfThreads) {Bool()}
+  /*******************Thread states*********************************/
+  val subStateTh = Vec(numOfThreads) {Reg(resetVal=WaitForReady)}
+
+  def  myOff = io.elements.find(_._1 == "off").getOrElse(elseV)._2
+#DUMP_FILE definition.magillac
+
+   /******************Winner threads*********************************/
+  val rThreadEncoder = new RREncode (numOfThreads) 
+  val rThread =  rThreadEncoder.io.chosen
+  Range(0, numOfThreads, 1).map(i => 
+    rThreadEncoder.io.valid(i) := (subStateTh(i) === WaitForReady))
+  rThreadEncoder.io.ready := (rThread != NONE_SELECTED)
+
+  val vThreadEncoder = new RREncode (numOfThreads) 
+  val vThread =  vThreadEncoder.io.chosen
+  Range(0, numOfThreads, 1).map(i => 
+    vThreadEncoder.io.valid(i) := (subStateTh(i) === WaitForValid) && AllOffloadsValid(i))
+  vThreadEncoder.io.ready := vThread != NONE_SELECTED
+
+  val sThreadEncoder = new RREncode (numOfThreads) 
+  val sThread =  sThreadEncoder.io.chosen
+  Range(0, numOfThreads, 1).map(i => sThreadEncoder.io.valid(i) := (subStateTh(i) === WaitForReady) && (State(i) === WaitForInputValid))
+  sThreadEncoder.io.ready := sThread != NONE_SELECTED
+
+
+Range(0, numOfThreads, 1).foreach(i => subStateTh(i) := MuxCase(subStateTh(i), Seq((AllOffloadsReady && UFix(i) === rThread && State(i) != WaitForInputValid && State(i) != WaitForOutputReady , WaitForValid), (UFix(i) === vThread, WaitForReady)))) 
+
+#FOREACH_FU
+  ##Port.rep.ready := Bool(true)
+#END_FOREACH_FU
+
+/******************Ready stage handler************************/
+#FOREACH_FU
+val ##PortHadReadyRequest = Reg(resetVal=Bool(false))
+val ##_ready_received = Reg(resetVal=Bool(false))
+#END_FOREACH_FU
+
+AllOffloadsReady :=  
+#FOREACH_FU
+  (##Port.req.ready || ##_ready_received || (!##PortHadReadyRequest && !##Port.req.valid)) &&  
+#END_FOREACH_FU
+  Bool(true)
+
+#FOREACH_FU
+##_ready_received := !(AllOffloadsReady) && (##_ready_received || ##Port.req.ready)
+##PortHadReadyRequest := !AllOffloadsReady && (##PortHadReadyRequest || ##Port.req.valid)
+#END_FOREACH_FU
+
+
+/******************Valid stage handler************************/
+#FOREACH_FU
+val ##PortHadValidRequest = Vec(numOfThreads) {Reg(resetVal=Bool(false))}
+val ##_valid_received = Vec(numOfThreads) {Reg(resetVal=Bool(false))}
+#END_FOREACH_FU
+
+for (i <- 0 to numOfThreads-1) {
+AllOffloadsValid(i) :=  
+#FOREACH_FU
+  ((##Port.rep.valid && (##Port.rep.tag === UFix(i, 5)))|| ##_valid_received(i) || !##PortHadValidRequest(i)) &&  
+#END_FOREACH_FU
+  Bool(true)
+
+#FOREACH_FU
+##_valid_received(i) := !(vThread === UFix(i, 5)) && ((##_valid_received(i)) || (##Port.rep.valid && ##Port.rep.tag === UFix(i, 5)))
+##PortHadValidRequest(i) := !(vThread === UFix(i,5)) && (##PortHadValidRequest(i) || (UFix(i,5)===rThread && ##Port.req.valid)/*(##PortHadReadyRequest && AllOffloadsReady && (UFix(i,5) === rThread))*/)
+#END_FOREACH_FU
+}
+
+#DUMP_FILE combinational.magillac
+
+  when (sThread != NONE_SELECTED && io.in.valid) {
+    inputReg(sThread) := io.in.bits
+    inputTag(sThread) := io.in.tag
+    State(sThread) := #FIRST_STATE 
+  } 
+
+  when (rThread != NONE_SELECTED && State(rThread) === WaitForOutputReady && io.out.ready) {
+    State(rThread) := EmitReturnState(rThread) 
+  } 
+
+#DUMP_FILE contextEdit.magillac
+
+  io.out.tag := inputTag(rThread)
+  io.out.bits := outputReg(rThread)
+  io.out.valid := rThread != NONE_SELECTED && State(rThread) === WaitForOutputReady
+  io.in.ready := sThread != NONE_SELECTED 
+
+/******************Engine specific performance counters************************/
+  val IsPcReset = 
+   io.pcIn.valid && io.pcIn.bits.request && io.pcIn.bits.pcType === Pcounters.pcReset
+  var portId = 3
+  when (IsPcReset) {
+    engineUtilization := UFix(0, Pcounters.PCWIDTH) 
+  } .otherwise {
+    when (State(0) != WaitForInputValid) {
+      engineUtilization := engineUtilization + 
+       UFix(1, Pcounters.PCWIDTH) 
+    }
+  }
+  for ((n, i) <- ioOff.elements) {
+#FOREACH_FU
+    if (n == "##") {
+      when (IsPcReset) {
+        offloadRateArray(portId-3) := UFix(0, Pcounters.PCWIDTH)
+      } .elsewhen (i.asInstanceOf[gOffBundle[Bundle, Bundle]].req.ready && 
+       (##PortHadValidRequest(0) || ##Port.req.valid) && !pcPaused) {
+        offloadRateArray(portId-3) := offloadRateArray(portId-3) + UFix(1, Pcounters.PCWIDTH)
+      }
+    }
+#END_FOREACH_FU
+    portId = portId + 1
+  }
+}
+

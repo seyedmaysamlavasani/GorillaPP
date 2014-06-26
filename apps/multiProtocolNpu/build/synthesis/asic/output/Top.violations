@@ -1,0 +1,61 @@
+ 
+****************************************
+Report : qor
+Design : RREncode
+Version: B-2008.09-SP4
+Date   : Wed Jun  4 20:03:39 2014
+****************************************
+
+
+  Timing Path Group (none)
+  -----------------------------------
+  Levels of Logic:               1.00
+  Critical Path Length:          0.01
+  Critical Path Slack:         uninit
+  Critical Path Clk Period:     Undef
+  Total Negative Slack:          0.00
+  No. of Violating Paths:        0.00
+  Worst Hold Violation:          0.00
+  Total Hold Violation:          0.00
+  No. of Hold Violations:        0.00
+  -----------------------------------
+
+
+  Cell Count
+  -----------------------------------
+  Hierarchical Cell Count:          0
+  Hierarchical Port Count:          0
+  Leaf Cell Count:                  1
+  Buf/Inv Cell Count:               1
+  CT Buf/Inv Cell Count:            0
+  -----------------------------------
+
+
+  Area
+  -----------------------------------
+  Combinational Area:        1.407900
+  Noncombinational Area:     0.000000
+  Net Area:                  0.000000
+  -----------------------------------
+  Cell Area:                 1.407900
+  Design Area:               1.407900
+
+
+  Design Rules
+  -----------------------------------
+  Total Number of Nets:             2
+  Nets With Violations:             0
+  -----------------------------------
+
+
+  Hostname: robin
+
+  Compile CPU Statistics
+  -----------------------------------
+  Resource Sharing:              0.00
+  Logic Optimization:            0.04
+  Mapping Optimization:          0.40
+  -----------------------------------
+  Overall Compile Time:          1.00
+
+1

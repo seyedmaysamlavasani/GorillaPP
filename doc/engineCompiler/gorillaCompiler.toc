@@ -1,0 +1,28 @@
+\contentsline {section}{\numberline {1}Introduction}{2}
+\contentsline {section}{\numberline {2}Improvements from Gorilla v.1}{2}
+\contentsline {section}{\numberline {3}Gorilla language}{3}
+\contentsline {subsection}{\numberline {3.1}Case study: A layer-3 header processor}{3}
+\contentsline {subsection}{\numberline {3.2}Interface specification}{6}
+\contentsline {subsection}{\numberline {3.3}Processing steps}{7}
+\contentsline {subsection}{\numberline {3.4}Data-types}{7}
+\contentsline {subsection}{\numberline {3.5}Predication}{8}
+\contentsline {subsection}{\numberline {3.6}Transitioning between processing steps}{8}
+\contentsline {subsection}{\numberline {3.7}Input/output operations}{8}
+\contentsline {subsection}{\numberline {3.8}Engine language BNF}{8}
+\contentsline {section}{\numberline {4}Engine execution model}{10}
+\contentsline {subsection}{\numberline {4.1}Latency-insensitive interfaces}{10}
+\contentsline {subsection}{\numberline {4.2}Global state memory}{10}
+\contentsline {subsection}{\numberline {4.3}Data-parallel execution}{10}
+\contentsline {section}{\numberline {5}Engine templates}{11}
+\contentsline {subsection}{\numberline {5.1}Simple state machine engines}{11}
+\contentsline {subsection}{\numberline {5.2}Multi-threaded engines}{12}
+\contentsline {subsubsection}{Execution pipeline}{12}
+\contentsline {subsubsection}{Thread contexts}{13}
+\contentsline {subsubsection}{Receive/send processing steps}{13}
+\contentsline {subsubsection}{Offload dispatch and wakeup logic}{13}
+\contentsline {subsection}{\numberline {5.3}Pipelined engines}{14}
+\contentsline {subsubsection}{Pipeline registers}{16}
+\contentsline {subsubsection}{Receive/send stages}{16}
+\contentsline {subsubsection}{Split-phase stages}{16}
+\contentsline {subsubsection}{Stall logic}{16}
+\contentsline {section}{\numberline {6}Conclusion}{16}

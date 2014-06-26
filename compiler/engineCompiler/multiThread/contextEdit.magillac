@@ -1,0 +1,10 @@
+
+ when (vThread != NONE_SELECTED &&State(vThread) === GS_GET){
+outputReg(vThread):=UFix(2, width = 32) 
+State(vThread):=GS_SEND 
+} 
+
+ when (vThread != NONE_SELECTED &&State(vThread) === GS_SEND){
+EmitReturnState(vThread) := WaitForInputValid
+State(vThread) := WaitForOutputReady
+} 

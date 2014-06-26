@@ -1,0 +1,41 @@
+-Overview
+  -Directory structure
+  -Use IncThroughOffload
+  -Overall architecture 
+  -Source structure
+  -Work in build
+  -Tester
+  
+-Engine compiler
+  -Show the original C code, Chisel code, generated C-simulaiton code, generated Verilog code
+    -Show the simple state machine generated code
+  -Generic interface types
+  -Includes
+
+-Top Compiler
+  -Functional composition
+  -Show a generated top
+    -Meta data
+  -Configuration parameters  
+  -Show an implementation of functional composition
+  
+-PC ring
+  -Transparent ring generation
+  -BackPressure definition
+  -Offload ratio definition
+
+-Refinement
+  -Switch to IPv4
+  -Refinement
+
+-Future interesting problems
+  -GPU
+    -Finish implementation
+  -Staller
+    -Read-write lock
+  -Unified MT and pipeline compiler
+  -LegUp integration
+  -Board implementation
+    -Chain/Offload through 
+      -PCI
+      -Ethernet

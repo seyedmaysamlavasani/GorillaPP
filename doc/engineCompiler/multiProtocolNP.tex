@@ -1,0 +1,89 @@
+\footnotesize
+\begin{verbatim}
+#pragma INPUT NP_EthMpl3Header_t 
+#pragma OUTPUT NP_EthMpl3Header_t 
+#pragma OFFLOAD(ipv4Lookup1, uint32_t, uint8_t)
+#pragma OFFLOAD(ipv4Lookup2, uint32_t, uint8_t)
+#pragma OFFLOAD(qosCount, uint32_t, uint8_t)
+#pragma CONCURRENT_SAFE 
+
+typedef struct {
+  uint4_t version, hLength;
+  uint8_t tos;
+  uint16_t length, identification, flagsOffset;
+  uint8_t ttl, protocol;
+  uint16_t chksum;
+  uint32_t srcAddr, dstAddr;
+} IPv4Header_t;
+typedef struct {
+  uint48_t dstAddr, srcAddr;
+  uint8_t l3Type, length;
+} EthernetHeader_t;
+typedef uint1024_t mpl3Header_t;
+typedef struct {
+ uint8_t outPort;
+ EthernetHeader_t  eth;
+ mpl3Header_t  l3;
+} NP_EthMpl3Header_t;
+IPv4Header_t ipv4Input, ipv4Output;
+uint32_t gOutPort; 
+
+GS_ETHERNET()
+{
+  ipv4Input = (IPv4Header_t) Input.l3;
+  Output = Input;
+  if (Input.l2Protocol == ETHERNET) {
+    State = GS_IPV4;
+  } else { 
+    State = GS_EXCEPTION;
+  }
+}
+GS_IPV4_CHECK()
+{
+  if (Input.eth.l3Type == IPV4) {
+    State = GS_LOOKUP;
+    ipv4Output = ipv4Input;
+  } else { 
+    State = GS_EXCEPTION;
+  }
+  if (ipv4Input.length < 20 || ipv4Input.version != 4) {
+    State = GS_EXCEPTION;
+  }
+}
+GS_IPV4_CLASSIFY()
+{
+  uint outPort, srcLookupResult;
+  outPort = ipv4Lookup1(ipv4Input.dstAddr);
+  srcLookupResult = ipv4Lookup2(ipv4Input.srcAddr);
+  Output.outPort = outPort;
+  gOutPort = outPort;
+  if (srcLookupResult == INVALID_ADDRESS || 
+   outPort == INVALID_ADDRESS) {
+    State = GS_EXCEPTION;
+  } else {  
+    State = GS_UPDATE;
+  }
+}
+GS_QOS_COUNTING() 
+{
+  uint8_t qcOutput;
+  qcOutput = qosCount(gOutPort);
+}
+GS_IPv4_UPDATE()
+{
+  if (ipv4Input.ttl == 1) {
+    State = GS_EXCEPTION;
+  } else {
+    ipv4Output.ttl = ipv4Input.ttl - 1; 
+    ipv4Output.chksum = ipv4Input.chksum + 0x80; 
+  }
+  Output.l3 = (mpl3Header_t) ipv4Output;
+  finish();
+}
+GS_EXCEPTION() 
+{
+  Output.outPort = CONTROL_PLANE;
+  finish();
+}
+\end{verbatim}
+\normalsize

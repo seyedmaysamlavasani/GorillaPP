@@ -1,0 +1,6 @@
+
+ when (rThread != NONE_SELECTED && State(rThread) === GS_GET){
+} 
+
+ when (rThread != NONE_SELECTED && State(rThread) === GS_SEND){
+} 

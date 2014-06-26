@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="error" file="Portability" num="90" delta="old" >Command line error: <arg fmt="%z" index="1">Argument &quot;synthesis/fpga/GorillaPP.ngc&quot; has an invalid extension.  The valid extension is &quot;.ncd&quot;.  If your file name has more than one &quot;.&quot; in it you must explicitly enter the full file name with its extension.
+</arg>
+</msg>
+
+</messages>
+

@@ -1,0 +1,40 @@
+Loading db file '/home/maysam/robinSvn/Gorilla++/apps/multiProtocolNpu/build/synthesis/asic/FreePDK45/osu_soc/lib/files/gscl45nm.db'
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+Warning: There is no defined clock in the design. (PWR-80)
+Warning: Design has unannotated primary inputs. (PWR-414)
+ 
+****************************************
+Report : power
+        -analysis_effort low
+Design : RREncode
+Version: B-2008.09-SP4
+Date   : Wed Jun  4 20:03:39 2014
+****************************************
+
+
+Library(s) Used:
+
+    gscl45nm (File: /home/maysam/robinSvn/Gorilla++/apps/multiProtocolNpu/build/synthesis/asic/FreePDK45/osu_soc/lib/files/gscl45nm.db)
+
+
+Operating Conditions: typical   Library: gscl45nm
+Wire Load Model Mode: top
+
+
+Global Operating Voltage = 1.1  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000pf
+    Time Units = 1ns
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1nW
+
+
+  Cell Internal Power  =  59.5458 nW  (100%)
+  Net Switching Power  =   0.0000 mW    (0%)
+                         ---------
+Total Dynamic Power    =  59.5458 nW  (100%)
+
+Cell Leakage Power     =   1.7416 nW
+
+1

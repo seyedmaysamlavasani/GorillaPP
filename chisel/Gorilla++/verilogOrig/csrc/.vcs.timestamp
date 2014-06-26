@@ -1,0 +1,64 @@
+0 
+27
+/tools/synopsys_2009/vcs-mx/linux/bin/vcs1
+-Mcc=gcc
+-Mcplusplus=g++
+-Masflags=--32
+-Mcfl= -pipe -m32 -O -I/tools/synopsys_2009/vcs-mx/include 
+-Mldflags=-melf_i386 -m32 
+-Mout=simv
+-Mamsrun=
+-Mvcsaceobjs=
+-Mcmodrun=
+-Mobjects= /tools/synopsys_2009/vcs-mx/linux/lib/libvirsim.a /tools/synopsys_2009/vcs-mx/linux/lib/librterrorinf.so /tools/synopsys_2009/vcs-mx/linux/lib/libsnpsmalloc.so 
+-Msaverestoreobj=/tools/synopsys_2009/vcs-mx/linux/lib/vcs_save_restore_new.o
+-Mcrtn=
+-Mcsrc=
+-Msyslibs=/tools/synopsys_2009/vcs-mx/linux/lib/ctype-stubs_32.a -ldl -lm 
++v2k
+-Xcbug=0x1
++cli+4
++vcsd
++itf+/tools/synopsys_2009/vcs-mx/linux/lib/vcsd.tab
++vpi
+-debug=3
++memcbk
++vpi
+-gen_obj
+Top.v
+Top-harness-augmented-pageRank.v
+25
+XKEYSYMDB=/usr/share/X11/XKeysymDB
+XILINX_PLANAHEAD=/tools/xilinx-13.2/ISE_DS/PlanAhead
+XILINX_EDK=/tools/xilinx-13.2/ISE_DS/EDK
+XILINX_DSP=/tools/xilinx-13.2/ISE_DS/ISE
+XILINX=/tools/xilinx-13.2/ISE_DS/ISE
+XDG_SESSION_COOKIE=5ad71cbe006301ac9cb538e34c9cdcf0-1383798589.629611-1601812535
+VMR_MODE_FLAG=32
+VIRSIMHOME=/tools/synopsys_2009/vcs-mx/gui/virsim
+VCS_QUICK_ANALYZE=0
+VCS_MX_HOME_INTERNAL=1
+VCS_HOME=/tools/synopsys_2009/vcs-mx
+VCS_ARG_ADDED_FOR_TMP=1
+VCS_ARCH_OVERRIDE=linux
+VCS_ARCH=linux
+VCS_AMD_PURE32=1
+VCSMX_HOME=/tools/synopsys_2009/vcs-mx
+UNAME=/bin/uname
+TOOL_HOME=/tools/synopsys_2009/vcs-mx/linux
+SSH_TTY=/dev/pts/0
+SSH_CONNECTION=24.28.85.245 50459 128.83.196.35 22
+SSH_CLIENT=24.28.85.245 50459 22
+SCRNAME=vcs
+SCRIPT_NAME=vcs
+OVA_UUM=0
+LMC_HOME=/tools/xilinx-13.2/ISE_DS/ISE/smartmodel/lin64/installed_lin64
+0
+5
+1383707077 Top-harness-augmented-pageRank.v
+1383801725 Top.v
+1383707077 Top-harness-augmented-pageRank.v
+1383801725 Top.v
+1258175616 /tools/synopsys_2009/vcs-mx/linux/lib/vcsd.tab
+1383801731 simv.daidir
+1383801732 csrc

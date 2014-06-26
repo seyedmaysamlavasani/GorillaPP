@@ -1,0 +1,6 @@
+ipv4Engine CONCURRENT_SAFE
+
+lookup CONCURRENT_SAFE
+
+lookup PIPELINABLE  6
+

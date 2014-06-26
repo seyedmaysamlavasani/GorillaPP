@@ -1,0 +1,65 @@
+0 
+29
++cli+4
++itf+/tools/synopsys_2011/vcs-mx/linux/lib/vcsd.tab
++memcbk
++v2k
++vcsd
++vpi
++vpi
+-Mamsrun=
+-Masflags=--32
+-Mcc=gcc
+-Mcfl= -pipe -m32 -O -I/tools/synopsys_2011/vcs-mx/include
+-Mcmodrun=
+-Mcplusplus=g++
+-Mcrt0=
+-Mcrtn=
+-Mcsrc=
+-Mldflags=-melf_i386 -m32
+-Mobjects= /tools/synopsys_2011/vcs-mx/linux/lib/libvirsim.so /tools/synopsys_2011/vcs-mx/linux/lib/librterrorinf.so /tools/synopsys_2011/vcs-mx/linux/lib/libsnpsmalloc.so
+-Mout=simv
+-Msaverestoreobj=/tools/synopsys_2011/vcs-mx/linux/lib/vcs_save_restore_new.o
+-Msyslibs=/tools/synopsys_2011/vcs-mx/linux/lib/ctype-stubs_32.a -ldl -lm
+-Mvcsaceobjs=
+-Xcbug=0x1
+-cm_xmldb
+-debug=3
+-gen_obj
+/tools/synopsys_2011/vcs-mx/linux/bin/vcs1
+Top-harness-augmented-incThroughOffload.v
+Top.v
+22
+XKEYSYMDB=/usr/share/X11/XKeysymDB
+XDG_SESSION_COOKIE=be7515c484108d5a4cca2d1000000002-1390594094.161696-671212359
+VMR_MODE_FLAG=32
+VCS_MX_HOME_INTERNAL=1
+VCS_HOME=/tools/synopsys_2011/vcs-mx
+VCS_DEPTH=0
+VCS_ARG_ADDED_FOR_TMP=1
+VCS_ARCH_OVERRIDE=linux
+VCS_ARCH=linux
+VCS_AMD_PURE32=1
+VCSMX_HOME=/tools/synopsys_2011/vcs-mx/
+UNAME=/bin/uname
+TOOL_HOME=/tools/synopsys_2011/vcs-mx/linux
+SSH_TTY=/dev/pts/1
+SSH_CONNECTION=24.28.85.245 53542 128.83.196.35 22
+SSH_CLIENT=24.28.85.245 53542 22
+SCRNAME=vcs
+SCRIPT_NAME=vcs
+OVA_UUM=0
+MFLAGS=
+MAKELEVEL=1
+MAKEFLAGS=
+0
+3
+1390594812 Top-harness-augmented-incThroughOffload.v
+1390594262 Top.v
+1298522810 /tools/synopsys_2011/vcs-mx/linux/lib/vcsd.tab
+4
+0 
+1298523739 /tools/synopsys_2011/vcs-mx/linux/lib/libvirsim.so
+1298523341 /tools/synopsys_2011/vcs-mx/linux/lib/librterrorinf.so
+1298523301 /tools/synopsys_2011/vcs-mx/linux/lib/libsnpsmalloc.so
+1390594818 simv.daidir

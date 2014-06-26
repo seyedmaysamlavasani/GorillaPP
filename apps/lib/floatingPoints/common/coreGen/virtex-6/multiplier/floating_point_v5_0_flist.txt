@@ -1,0 +1,13 @@
+# Output products list for <floating_point_v5_0>
+floating_point_v5_0/doc/floating_point_ds335.pdf
+floating_point_v5_0/doc/floating_point_v5_0_readme.txt
+floating_point_v5_0/doc/floating_point_v5_0_vinfo.html
+floating_point_v5_0.asy
+floating_point_v5_0.gise
+floating_point_v5_0.ngc
+floating_point_v5_0.v
+floating_point_v5_0.veo
+floating_point_v5_0.xco
+floating_point_v5_0.xise
+floating_point_v5_0_flist.txt
+floating_point_v5_0_xmdf.tcl

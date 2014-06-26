@@ -1,0 +1,121 @@
+package Tutorial
+
+import Chisel._
+import Node._
+import Literal._
+import scala.collection.mutable.HashMap
+import scala.collection.mutable.ArrayBuffer
+
+
+class #MODULE_NAME (extCompName:String) extends gComponentLeaf #IO (extCompName =  extCompName + "__type_engine__pipelined__") with include {
+  val tagWidth = 5*2
+  val numOfThreads = #NUM_OF_THREADS 
+  val NONE_SELECTED = UFix(numOfThreads,log2Up(numOfThreads)+1)
+  val outputReg_ready = io.out.ready 
+
+#FOREACH_INSTR_WITH_OFFLOAD
+  val ##AllOffloadsReady = Bool ()
+  val ##PipeReadyMove = Bool ()
+  val ##NumOfThreads = numOfThreads
+  val ##AllOffloadsValid = Vec(##NumOfThreads) {Bool ()}
+  val ##PipeValidMove = Bool ()
+#END_FOREACH_INSTR_WITH_OFFLOAD
+
+  def  myOff = io.elements.find(_._1 == "off").getOrElse(elseV)._2
+  /*****************Definitions******************************************************/
+#DUMP_FILE definition.magillac
+val #FIRST_STATE_valid = Bool(true)
+
+#FOREACH_INSTR_WITH_OFFLOAD
+  val ##RThreadEncoder = new RREncode (##NumOfThreads) 
+  val ##RThread =  ##RThreadEncoder.io.chosen
+  val ##VThreadEncoder = new RREncode (##NumOfThreads) 
+  val ##VThread =  ##VThreadEncoder.io.chosen
+#END_FOREACH_INSTR_WITH_OFFLOAD
+
+#FOREACH_FU
+  val ##PortHadReadyRequest = Reg(resetVal=Bool(false))
+  val ##ReadyReceived = Reg(resetVal=Bool(false))
+#END_FOREACH_FU
+
+#FOREACH_INSTR_WITH_OFFLOAD
+#FOREACH_FU_OF_THIS_INSTR
+  val %%PortHadValidRequest = Vec(##NumOfThreads) {Reg(resetVal=Bool(false))}
+  val %%ValidReceived = Vec(##NumOfThreads) {Reg(resetVal=Bool(false))}
+#END_FOREACH_FU_OF_THIS_INSTR
+#END_FOREACH_INSTR_WITH_OFFLOAD
+
+
+  /******************Winner threads for each instruction with offload*****************/
+#FOREACH_INSTR_WITH_OFFLOAD
+  ##PipeReadyMove := (##RThread != NONE_SELECTED && ##PRegPostOff_ready && ##AllOffloadsReady) 
+  Range(0, ##NumOfThreads, 1).map(i => 
+    ##RThreadEncoder.io.valid(i) := !##PRegPostOff_valid(i))
+  ##RThreadEncoder.io.ready := (##PipeReadyMove)
+
+  ##PipeValidMove := (##VThread != NONE_SELECTED && #nextInstrReady && ##AllOffloadsValid(##VThread)) 
+  Range(0, ##NumOfThreads, 1).map(i => 
+    ##VThreadEncoder.io.valid(i) := (##PRegPostOff_valid(i)) && ##AllOffloadsValid(i))
+  ##VThreadEncoder.io.ready := (##PipeValidMove)
+#END_FOREACH_INSTR_WITH_OFFLOAD
+
+
+  /*****************Combination logic************************************************/
+#DUMP_FILE combinational.magillac
+
+  /*****************Context edit logic************************************************/
+
+#DUMP_FILE contextEdit.magillac
+
+  /*****************Request builder logic************************************************/
+
+#DUMP_FILE requestBuilder.magillac
+
+
+
+  /***************Offload ports helper logic*******************************/
+#FOREACH_FU
+  ##Port.rep.ready := Bool(true)
+#END_FOREACH_FU
+
+  /******************Ready stage handler************************/
+#FOREACH_INSTR_WITH_OFFLOAD
+##AllOffloadsReady :=  
+#FOREACH_FU_OF_THIS_INSTR
+  (%%Port.req.ready || %%ReadyReceived || (!%%PortHadReadyRequest && !%%Port.req.valid)) &&  
+#END_FOREACH_FU_OF_THIS_INSTR
+  Bool(true)
+#END_FOREACH_INSTR_WITH_OFFLOAD
+
+#FOREACH_INSTR_WITH_OFFLOAD
+#FOREACH_FU_OF_THIS_INSTR
+  %%ReadyReceived := !(##PipeReadyMove) && (%%ReadyReceived || %%Port.req.ready)
+  %%PortHadReadyRequest := !##PipeReadyMove && (%%PortHadReadyRequest || %%Port.req.valid)
+#END_FOREACH_FU_OF_THIS_INSTR
+#END_FOREACH_INSTR_WITH_OFFLOAD
+
+
+  /******************Valid stage handler************************/
+#FOREACH_INSTR_WITH_OFFLOAD
+  when (##PipeValidMove) {
+    ##PRegPostOff_valid(##VThread) := Bool(false)
+  }
+#END_FOREACH_INSTR_WITH_OFFLOAD
+
+#FOREACH_INSTR_WITH_OFFLOAD
+  for (i <- 0 to ##NumOfThreads-1) {
+    ##AllOffloadsValid(i) :=  
+#FOREACH_FU_OF_THIS_INSTR
+     ((%%Port.rep.valid && (%%Port.rep.tag === UFix(i, tagWidth)))|| %%ValidReceived(i) || !%%PortHadValidRequest(i)) &&  
+#END_FOREACH_FU_OF_THIS_INSTR
+     Bool(true)
+#END_FOREACH_INSTR_WITH_OFFLOAD
+
+#FOREACH_INSTR_WITH_OFFLOAD
+#FOREACH_FU_OF_THIS_INSTR
+  %%ValidReceived(i) := !(##PipeValidMove && ##VThread === UFix(i, tagWidth)) && ((%%ValidReceived(i)) || (%%Port.rep.valid && %%Port.rep.tag === UFix(i, tagWidth)))
+  %%PortHadValidRequest(i) := !(##PipeValidMove && ##VThread === UFix(i,tagWidth)) && (%%PortHadValidRequest(i) || (UFix(i,tagWidth)===##RThread && %%Port.req.valid))
+#END_FOREACH_FU_OF_THIS_INSTR
+}
+#END_FOREACH_INSTR_WITH_OFFLOAD
+}

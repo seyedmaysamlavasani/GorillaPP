@@ -1,0 +1,8 @@
+1-40   sweep the synthesis Utilizations are low, some packet fields are trimmed to have enough IOB
+50-100   sweep the performance with non pipelined lookup
+100-150 sweep the performance with pipelined lookup
+150-200 change the QDR to pipelined for no-pipeliend lookup
+200-250 non-lookup pipeline between non exponential numbers 3,5,6,7,9,10,11,12,13,14,15 lookup offload is true 
+250-300 non-lookup pipeline between non exponential numbers 3,5,6,7,9,10,11,12,13,14,15 lookup offload is false 
+600-650 lookup pipeline between non exponential numbers
+400-500 synthesis non exponential 

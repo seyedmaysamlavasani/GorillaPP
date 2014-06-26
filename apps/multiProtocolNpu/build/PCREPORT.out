@@ -1,0 +1,455 @@
+PCREPORT: module result__type__offloaded__qosCount__class__gOffloadedComponent registered for pc moduleId is 1
+PCREPORT: PC is registered name: in type 1 moduleId 1 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 1 portId 2
+PCREPORT: PC is registered name: mem1Read type 1 moduleId 1 portId 3
+PCREPORT: PC is registered name: mem2Read type 1 moduleId 1 portId 4
+PCREPORT: PC is registered name: mem3Read type 1 moduleId 1 portId 5
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 1 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 1 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 1 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 1 portId 0
+PCREPORT: module xx4__type__offloaded__ipv4Lookup2__type__offloaded__ipv4Lookup2__class__gOffloadedComponent registered for pc moduleId is 2
+PCREPORT: PC is registered name: in type 1 moduleId 2 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 2 portId 2
+PCREPORT: PC is registered name: qosCount type 1 moduleId 2 portId 3
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 2 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 2 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 2 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 2 portId 0
+PCREPORT: module xx4__type__offloaded__ipv4Lookup1__type__offloaded__ipv4Lookup1__class__gOffloadedComponent registered for pc moduleId is 3
+PCREPORT: PC is registered name: in type 1 moduleId 3 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 3 portId 2
+PCREPORT: PC is registered name: ipv4Lookup2 type 1 moduleId 3 portId 3
+PCREPORT: PC is registered name: qosCount type 1 moduleId 3 portId 4
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 3 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 3 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 3 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 3 portId 0
+PCREPORT: module mpEngine__type__engine__MT__1____class__multiProtocolEngine registered for pc moduleId is 4
+PCREPORT: PC is registered name: in type 1 moduleId 4 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 4 portId 2
+PCREPORT: PC is registered name: ipv4Lookup1 type 1 moduleId 4 portId 3
+PCREPORT: PC is registered name: ipv4Lookup2 type 1 moduleId 4 portId 4
+PCREPORT: PC is registered name: qosCount type 1 moduleId 4 portId 5
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 4 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 4 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 4 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 4 portId 0
+PCREPORT: module ipv4Lookup1__type__offloaded__mem3__type__offloaded__mem3__class__gOffloadedComponent registered for pc moduleId is 5
+PCREPORT: PC is registered name: in type 1 moduleId 5 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 5 portId 2
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 5 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 5 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 5 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 5 portId 0
+PCREPORT: module ipv4Lookup1__type__offloaded__mem2__type__offloaded__mem2__class__gOffloadedComponent registered for pc moduleId is 6
+PCREPORT: PC is registered name: in type 1 moduleId 6 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 6 portId 2
+PCREPORT: PC is registered name: mem3 type 1 moduleId 6 portId 3
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 6 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 6 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 6 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 6 portId 0
+PCREPORT: module ipv4Lookup1__type__offloaded__mem1__type__offloaded__mem1__class__gOffloadedComponent registered for pc moduleId is 7
+PCREPORT: PC is registered name: in type 1 moduleId 7 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 7 portId 2
+PCREPORT: PC is registered name: mem2 type 1 moduleId 7 portId 3
+PCREPORT: PC is registered name: mem3 type 1 moduleId 7 portId 4
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 7 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 7 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 7 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 7 portId 0
+PCREPORT: module xx1__type__engine__MT__1____class__ipv4Lookup registered for pc moduleId is 8
+PCREPORT: PC is registered name: in type 1 moduleId 8 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 8 portId 2
+PCREPORT: PC is registered name: mem1 type 1 moduleId 8 portId 3
+PCREPORT: PC is registered name: mem2 type 1 moduleId 8 portId 4
+PCREPORT: PC is registered name: mem3 type 1 moduleId 8 portId 5
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 8 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 8 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 8 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 8 portId 0
+PCREPORT: module spMem__class__spMemComponent registered for pc moduleId is 9
+PCREPORT: PC is registered name: in type 1 moduleId 9 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 9 portId 2
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 9 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 9 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 9 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 9 portId 0
+Design hierarchy --- parent ipv4Lookup1__type__offloaded__mem1__type__offloaded__mem1__class__gOffloadedComponent child xx1__type__engine__MT__1____class__ipv4Lookup
+Design hierarchy --- parent xx1__type__engine__MT__1____class__ipv4Lookup child 
+Design hierarchy --- parent xx1__type__engine__MT__1____class__ipv4Lookup child 
+Design hierarchy --- parent xx1__type__engine__MT__1____class__ipv4Lookup child 
+Design hierarchy --- parent ipv4Lookup1__type__offloaded__mem1__type__offloaded__mem1__class__gOffloadedComponent child spMem__class__spMemComponent
+PCREPORT: module spMem__class__spMemComponent registered for pc moduleId is 10
+PCREPORT: PC is registered name: in type 1 moduleId 10 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 10 portId 2
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 10 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 10 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 10 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 10 portId 0
+Design hierarchy --- parent ipv4Lookup1__type__offloaded__mem2__type__offloaded__mem2__class__gOffloadedComponent child ipv4Lookup1__type__offloaded__mem1__type__offloaded__mem1__class__gOffloadedComponent
+Design hierarchy --- parent ipv4Lookup1__type__offloaded__mem1__type__offloaded__mem1__class__gOffloadedComponent child xx1__type__engine__MT__1____class__ipv4Lookup
+Design hierarchy --- parent xx1__type__engine__MT__1____class__ipv4Lookup child 
+Design hierarchy --- parent xx1__type__engine__MT__1____class__ipv4Lookup child 
+Design hierarchy --- parent xx1__type__engine__MT__1____class__ipv4Lookup child 
+Design hierarchy --- parent ipv4Lookup1__type__offloaded__mem1__type__offloaded__mem1__class__gOffloadedComponent child spMem__class__spMemComponent
+Design hierarchy --- parent ipv4Lookup1__type__offloaded__mem2__type__offloaded__mem2__class__gOffloadedComponent child spMem__class__spMemComponent
+PCREPORT: module spMem__class__spMemComponent registered for pc moduleId is 11
+PCREPORT: PC is registered name: in type 1 moduleId 11 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 11 portId 2
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 11 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 11 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 11 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 11 portId 0
+Design hierarchy --- parent ipv4Lookup1__type__offloaded__mem3__type__offloaded__mem3__class__gOffloadedComponent child ipv4Lookup1__type__offloaded__mem2__type__offloaded__mem2__class__gOffloadedComponent
+Design hierarchy --- parent ipv4Lookup1__type__offloaded__mem2__type__offloaded__mem2__class__gOffloadedComponent child ipv4Lookup1__type__offloaded__mem1__type__offloaded__mem1__class__gOffloadedComponent
+Design hierarchy --- parent ipv4Lookup1__type__offloaded__mem1__type__offloaded__mem1__class__gOffloadedComponent child xx1__type__engine__MT__1____class__ipv4Lookup
+Design hierarchy --- parent xx1__type__engine__MT__1____class__ipv4Lookup child 
+Design hierarchy --- parent xx1__type__engine__MT__1____class__ipv4Lookup child 
+Design hierarchy --- parent xx1__type__engine__MT__1____class__ipv4Lookup child 
+Design hierarchy --- parent ipv4Lookup1__type__offloaded__mem1__type__offloaded__mem1__class__gOffloadedComponent child spMem__class__spMemComponent
+Design hierarchy --- parent ipv4Lookup1__type__offloaded__mem2__type__offloaded__mem2__class__gOffloadedComponent child spMem__class__spMemComponent
+Design hierarchy --- parent ipv4Lookup1__type__offloaded__mem3__type__offloaded__mem3__class__gOffloadedComponent child spMem__class__spMemComponent
+Design hierarchy --- parent xx4__type__offloaded__ipv4Lookup1__type__offloaded__ipv4Lookup1__class__gOffloadedComponent child mpEngine__type__engine__MT__1____class__multiProtocolEngine
+Design hierarchy --- parent mpEngine__type__engine__MT__1____class__multiProtocolEngine child 
+Design hierarchy --- parent mpEngine__type__engine__MT__1____class__multiProtocolEngine child 
+Design hierarchy --- parent mpEngine__type__engine__MT__1____class__multiProtocolEngine child 
+Design hierarchy --- parent xx4__type__offloaded__ipv4Lookup1__type__offloaded__ipv4Lookup1__class__gOffloadedComponent child ipv4Lookup1__type__offloaded__mem3__type__offloaded__mem3__class__gOffloadedComponent
+Design hierarchy --- parent ipv4Lookup1__type__offloaded__mem3__type__offloaded__mem3__class__gOffloadedComponent child ipv4Lookup1__type__offloaded__mem2__type__offloaded__mem2__class__gOffloadedComponent
+Design hierarchy --- parent ipv4Lookup1__type__offloaded__mem2__type__offloaded__mem2__class__gOffloadedComponent child ipv4Lookup1__type__offloaded__mem1__type__offloaded__mem1__class__gOffloadedComponent
+Design hierarchy --- parent ipv4Lookup1__type__offloaded__mem1__type__offloaded__mem1__class__gOffloadedComponent child xx1__type__engine__MT__1____class__ipv4Lookup
+Design hierarchy --- parent xx1__type__engine__MT__1____class__ipv4Lookup child 
+Design hierarchy --- parent xx1__type__engine__MT__1____class__ipv4Lookup child 
+Design hierarchy --- parent xx1__type__engine__MT__1____class__ipv4Lookup child 
+Design hierarchy --- parent ipv4Lookup1__type__offloaded__mem1__type__offloaded__mem1__class__gOffloadedComponent child spMem__class__spMemComponent
+Design hierarchy --- parent ipv4Lookup1__type__offloaded__mem2__type__offloaded__mem2__class__gOffloadedComponent child spMem__class__spMemComponent
+Design hierarchy --- parent ipv4Lookup1__type__offloaded__mem3__type__offloaded__mem3__class__gOffloadedComponent child spMem__class__spMemComponent
+PCREPORT: module ipv4Lookup2__type__offloaded__mem3__type__offloaded__mem3__class__gOffloadedComponent registered for pc moduleId is 12
+PCREPORT: PC is registered name: in type 1 moduleId 12 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 12 portId 2
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 12 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 12 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 12 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 12 portId 0
+PCREPORT: module ipv4Lookup2__type__offloaded__mem2__type__offloaded__mem2__class__gOffloadedComponent registered for pc moduleId is 13
+PCREPORT: PC is registered name: in type 1 moduleId 13 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 13 portId 2
+PCREPORT: PC is registered name: mem3 type 1 moduleId 13 portId 3
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 13 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 13 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 13 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 13 portId 0
+PCREPORT: module ipv4Lookup2__type__offloaded__mem1__type__offloaded__mem1__class__gOffloadedComponent registered for pc moduleId is 14
+PCREPORT: PC is registered name: in type 1 moduleId 14 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 14 portId 2
+PCREPORT: PC is registered name: mem2 type 1 moduleId 14 portId 3
+PCREPORT: PC is registered name: mem3 type 1 moduleId 14 portId 4
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 14 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 14 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 14 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 14 portId 0
+PCREPORT: module xx2__type__engine__MT__1____class__ipv4Lookup registered for pc moduleId is 15
+PCREPORT: PC is registered name: in type 1 moduleId 15 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 15 portId 2
+PCREPORT: PC is registered name: mem1 type 1 moduleId 15 portId 3
+PCREPORT: PC is registered name: mem2 type 1 moduleId 15 portId 4
+PCREPORT: PC is registered name: mem3 type 1 moduleId 15 portId 5
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 15 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 15 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 15 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 15 portId 0
+PCREPORT: module spMem__class__spMemComponent registered for pc moduleId is 16
+PCREPORT: PC is registered name: in type 1 moduleId 16 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 16 portId 2
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 16 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 16 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 16 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 16 portId 0
+Design hierarchy --- parent ipv4Lookup2__type__offloaded__mem1__type__offloaded__mem1__class__gOffloadedComponent child xx2__type__engine__MT__1____class__ipv4Lookup
+Design hierarchy --- parent xx2__type__engine__MT__1____class__ipv4Lookup child 
+Design hierarchy --- parent xx2__type__engine__MT__1____class__ipv4Lookup child 
+Design hierarchy --- parent xx2__type__engine__MT__1____class__ipv4Lookup child 
+Design hierarchy --- parent ipv4Lookup2__type__offloaded__mem1__type__offloaded__mem1__class__gOffloadedComponent child spMem__class__spMemComponent
+PCREPORT: module spMem__class__spMemComponent registered for pc moduleId is 17
+PCREPORT: PC is registered name: in type 1 moduleId 17 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 17 portId 2
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 17 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 17 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 17 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 17 portId 0
+Design hierarchy --- parent ipv4Lookup2__type__offloaded__mem2__type__offloaded__mem2__class__gOffloadedComponent child ipv4Lookup2__type__offloaded__mem1__type__offloaded__mem1__class__gOffloadedComponent
+Design hierarchy --- parent ipv4Lookup2__type__offloaded__mem1__type__offloaded__mem1__class__gOffloadedComponent child xx2__type__engine__MT__1____class__ipv4Lookup
+Design hierarchy --- parent xx2__type__engine__MT__1____class__ipv4Lookup child 
+Design hierarchy --- parent xx2__type__engine__MT__1____class__ipv4Lookup child 
+Design hierarchy --- parent xx2__type__engine__MT__1____class__ipv4Lookup child 
+Design hierarchy --- parent ipv4Lookup2__type__offloaded__mem1__type__offloaded__mem1__class__gOffloadedComponent child spMem__class__spMemComponent
+Design hierarchy --- parent ipv4Lookup2__type__offloaded__mem2__type__offloaded__mem2__class__gOffloadedComponent child spMem__class__spMemComponent
+PCREPORT: module spMem__class__spMemComponent registered for pc moduleId is 18
+PCREPORT: PC is registered name: in type 1 moduleId 18 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 18 portId 2
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 18 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 18 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 18 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 18 portId 0
+Design hierarchy --- parent ipv4Lookup2__type__offloaded__mem3__type__offloaded__mem3__class__gOffloadedComponent child ipv4Lookup2__type__offloaded__mem2__type__offloaded__mem2__class__gOffloadedComponent
+Design hierarchy --- parent ipv4Lookup2__type__offloaded__mem2__type__offloaded__mem2__class__gOffloadedComponent child ipv4Lookup2__type__offloaded__mem1__type__offloaded__mem1__class__gOffloadedComponent
+Design hierarchy --- parent ipv4Lookup2__type__offloaded__mem1__type__offloaded__mem1__class__gOffloadedComponent child xx2__type__engine__MT__1____class__ipv4Lookup
+Design hierarchy --- parent xx2__type__engine__MT__1____class__ipv4Lookup child 
+Design hierarchy --- parent xx2__type__engine__MT__1____class__ipv4Lookup child 
+Design hierarchy --- parent xx2__type__engine__MT__1____class__ipv4Lookup child 
+Design hierarchy --- parent ipv4Lookup2__type__offloaded__mem1__type__offloaded__mem1__class__gOffloadedComponent child spMem__class__spMemComponent
+Design hierarchy --- parent ipv4Lookup2__type__offloaded__mem2__type__offloaded__mem2__class__gOffloadedComponent child spMem__class__spMemComponent
+Design hierarchy --- parent ipv4Lookup2__type__offloaded__mem3__type__offloaded__mem3__class__gOffloadedComponent child spMem__class__spMemComponent
+Design hierarchy --- parent xx4__type__offloaded__ipv4Lookup2__type__offloaded__ipv4Lookup2__class__gOffloadedComponent child xx4__type__offloaded__ipv4Lookup1__type__offloaded__ipv4Lookup1__class__gOffloadedComponent
+Design hierarchy --- parent xx4__type__offloaded__ipv4Lookup1__type__offloaded__ipv4Lookup1__class__gOffloadedComponent child mpEngine__type__engine__MT__1____class__multiProtocolEngine
+Design hierarchy --- parent mpEngine__type__engine__MT__1____class__multiProtocolEngine child 
+Design hierarchy --- parent mpEngine__type__engine__MT__1____class__multiProtocolEngine child 
+Design hierarchy --- parent mpEngine__type__engine__MT__1____class__multiProtocolEngine child 
+Design hierarchy --- parent xx4__type__offloaded__ipv4Lookup1__type__offloaded__ipv4Lookup1__class__gOffloadedComponent child ipv4Lookup1__type__offloaded__mem3__type__offloaded__mem3__class__gOffloadedComponent
+Design hierarchy --- parent ipv4Lookup1__type__offloaded__mem3__type__offloaded__mem3__class__gOffloadedComponent child ipv4Lookup1__type__offloaded__mem2__type__offloaded__mem2__class__gOffloadedComponent
+Design hierarchy --- parent ipv4Lookup1__type__offloaded__mem2__type__offloaded__mem2__class__gOffloadedComponent child ipv4Lookup1__type__offloaded__mem1__type__offloaded__mem1__class__gOffloadedComponent
+Design hierarchy --- parent ipv4Lookup1__type__offloaded__mem1__type__offloaded__mem1__class__gOffloadedComponent child xx1__type__engine__MT__1____class__ipv4Lookup
+Design hierarchy --- parent xx1__type__engine__MT__1____class__ipv4Lookup child 
+Design hierarchy --- parent xx1__type__engine__MT__1____class__ipv4Lookup child 
+Design hierarchy --- parent xx1__type__engine__MT__1____class__ipv4Lookup child 
+Design hierarchy --- parent ipv4Lookup1__type__offloaded__mem1__type__offloaded__mem1__class__gOffloadedComponent child spMem__class__spMemComponent
+Design hierarchy --- parent ipv4Lookup1__type__offloaded__mem2__type__offloaded__mem2__class__gOffloadedComponent child spMem__class__spMemComponent
+Design hierarchy --- parent ipv4Lookup1__type__offloaded__mem3__type__offloaded__mem3__class__gOffloadedComponent child spMem__class__spMemComponent
+Design hierarchy --- parent xx4__type__offloaded__ipv4Lookup2__type__offloaded__ipv4Lookup2__class__gOffloadedComponent child ipv4Lookup2__type__offloaded__mem3__type__offloaded__mem3__class__gOffloadedComponent
+Design hierarchy --- parent ipv4Lookup2__type__offloaded__mem3__type__offloaded__mem3__class__gOffloadedComponent child ipv4Lookup2__type__offloaded__mem2__type__offloaded__mem2__class__gOffloadedComponent
+Design hierarchy --- parent ipv4Lookup2__type__offloaded__mem2__type__offloaded__mem2__class__gOffloadedComponent child ipv4Lookup2__type__offloaded__mem1__type__offloaded__mem1__class__gOffloadedComponent
+Design hierarchy --- parent ipv4Lookup2__type__offloaded__mem1__type__offloaded__mem1__class__gOffloadedComponent child xx2__type__engine__MT__1____class__ipv4Lookup
+Design hierarchy --- parent xx2__type__engine__MT__1____class__ipv4Lookup child 
+Design hierarchy --- parent xx2__type__engine__MT__1____class__ipv4Lookup child 
+Design hierarchy --- parent xx2__type__engine__MT__1____class__ipv4Lookup child 
+Design hierarchy --- parent ipv4Lookup2__type__offloaded__mem1__type__offloaded__mem1__class__gOffloadedComponent child spMem__class__spMemComponent
+Design hierarchy --- parent ipv4Lookup2__type__offloaded__mem2__type__offloaded__mem2__class__gOffloadedComponent child spMem__class__spMemComponent
+Design hierarchy --- parent ipv4Lookup2__type__offloaded__mem3__type__offloaded__mem3__class__gOffloadedComponent child spMem__class__spMemComponent
+PCREPORT: module qosCount__type__offloaded__mem3__type__offloaded__mem3__class__gOffloadedComponentRWPorts registered for pc moduleId is 19
+PCREPORT: PC is registered name: in type 1 moduleId 19 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 19 portId 2
+PCREPORT: PC is registered name: mem1Read type 1 moduleId 19 portId 3
+PCREPORT: PC is registered name: mem2Read type 1 moduleId 19 portId 4
+PCREPORT: PC is registered name: mem3Read type 1 moduleId 19 portId 5
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 19 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 19 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 19 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 19 portId 0
+PCREPORT: module qosCount__type__offloaded__mem2__type__offloaded__mem2__class__gOffloadedComponentRWPorts registered for pc moduleId is 20
+PCREPORT: PC is registered name: in type 1 moduleId 20 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 20 portId 2
+PCREPORT: PC is registered name: mem1Read type 1 moduleId 20 portId 3
+PCREPORT: PC is registered name: mem2Read type 1 moduleId 20 portId 4
+PCREPORT: PC is registered name: mem3Read type 1 moduleId 20 portId 5
+PCREPORT: PC is registered name: mem3Write type 1 moduleId 20 portId 6
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 20 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 20 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 20 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 20 portId 0
+PCREPORT: module qosCount__type__offloaded__mem1__type__offloaded__mem1__class__gOffloadedComponentRWPorts registered for pc moduleId is 21
+PCREPORT: PC is registered name: in type 1 moduleId 21 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 21 portId 2
+PCREPORT: PC is registered name: mem1Read type 1 moduleId 21 portId 3
+PCREPORT: PC is registered name: mem2Read type 1 moduleId 21 portId 4
+PCREPORT: PC is registered name: mem2Write type 1 moduleId 21 portId 5
+PCREPORT: PC is registered name: mem3Read type 1 moduleId 21 portId 6
+PCREPORT: PC is registered name: mem3Write type 1 moduleId 21 portId 7
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 21 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 21 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 21 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 21 portId 0
+PCREPORT: module xx3__type__engine__MT__1____class__qosCount registered for pc moduleId is 22
+PCREPORT: PC is registered name: in type 1 moduleId 22 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 22 portId 2
+PCREPORT: PC is registered name: mem1Read type 1 moduleId 22 portId 3
+PCREPORT: PC is registered name: mem1Write type 1 moduleId 22 portId 4
+PCREPORT: PC is registered name: mem2Read type 1 moduleId 22 portId 5
+PCREPORT: PC is registered name: mem2Write type 1 moduleId 22 portId 6
+PCREPORT: PC is registered name: mem3Read type 1 moduleId 22 portId 7
+PCREPORT: PC is registered name: mem3Write type 1 moduleId 22 portId 8
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 22 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 22 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 22 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 22 portId 0
+Design hierarchy --- parent result__type__offloaded__qosCount__class__gOffloadedComponent child xx4__type__offloaded__ipv4Lookup2__type__offloaded__ipv4Lookup2__class__gOffloadedComponent
+Design hierarchy --- parent xx4__type__offloaded__ipv4Lookup2__type__offloaded__ipv4Lookup2__class__gOffloadedComponent child xx4__type__offloaded__ipv4Lookup1__type__offloaded__ipv4Lookup1__class__gOffloadedComponent
+Design hierarchy --- parent xx4__type__offloaded__ipv4Lookup1__type__offloaded__ipv4Lookup1__class__gOffloadedComponent child mpEngine__type__engine__MT__1____class__multiProtocolEngine
+Design hierarchy --- parent mpEngine__type__engine__MT__1____class__multiProtocolEngine child 
+Design hierarchy --- parent mpEngine__type__engine__MT__1____class__multiProtocolEngine child 
+Design hierarchy --- parent mpEngine__type__engine__MT__1____class__multiProtocolEngine child 
+Design hierarchy --- parent xx4__type__offloaded__ipv4Lookup1__type__offloaded__ipv4Lookup1__class__gOffloadedComponent child ipv4Lookup1__type__offloaded__mem3__type__offloaded__mem3__class__gOffloadedComponent
+Design hierarchy --- parent ipv4Lookup1__type__offloaded__mem3__type__offloaded__mem3__class__gOffloadedComponent child ipv4Lookup1__type__offloaded__mem2__type__offloaded__mem2__class__gOffloadedComponent
+Design hierarchy --- parent ipv4Lookup1__type__offloaded__mem2__type__offloaded__mem2__class__gOffloadedComponent child ipv4Lookup1__type__offloaded__mem1__type__offloaded__mem1__class__gOffloadedComponent
+Design hierarchy --- parent ipv4Lookup1__type__offloaded__mem1__type__offloaded__mem1__class__gOffloadedComponent child xx1__type__engine__MT__1____class__ipv4Lookup
+Design hierarchy --- parent xx1__type__engine__MT__1____class__ipv4Lookup child 
+Design hierarchy --- parent xx1__type__engine__MT__1____class__ipv4Lookup child 
+Design hierarchy --- parent xx1__type__engine__MT__1____class__ipv4Lookup child 
+Design hierarchy --- parent ipv4Lookup1__type__offloaded__mem1__type__offloaded__mem1__class__gOffloadedComponent child spMem__class__spMemComponent
+Design hierarchy --- parent ipv4Lookup1__type__offloaded__mem2__type__offloaded__mem2__class__gOffloadedComponent child spMem__class__spMemComponent
+Design hierarchy --- parent ipv4Lookup1__type__offloaded__mem3__type__offloaded__mem3__class__gOffloadedComponent child spMem__class__spMemComponent
+Design hierarchy --- parent xx4__type__offloaded__ipv4Lookup2__type__offloaded__ipv4Lookup2__class__gOffloadedComponent child ipv4Lookup2__type__offloaded__mem3__type__offloaded__mem3__class__gOffloadedComponent
+Design hierarchy --- parent ipv4Lookup2__type__offloaded__mem3__type__offloaded__mem3__class__gOffloadedComponent child ipv4Lookup2__type__offloaded__mem2__type__offloaded__mem2__class__gOffloadedComponent
+Design hierarchy --- parent ipv4Lookup2__type__offloaded__mem2__type__offloaded__mem2__class__gOffloadedComponent child ipv4Lookup2__type__offloaded__mem1__type__offloaded__mem1__class__gOffloadedComponent
+Design hierarchy --- parent ipv4Lookup2__type__offloaded__mem1__type__offloaded__mem1__class__gOffloadedComponent child xx2__type__engine__MT__1____class__ipv4Lookup
+Design hierarchy --- parent xx2__type__engine__MT__1____class__ipv4Lookup child 
+Design hierarchy --- parent xx2__type__engine__MT__1____class__ipv4Lookup child 
+Design hierarchy --- parent xx2__type__engine__MT__1____class__ipv4Lookup child 
+Design hierarchy --- parent ipv4Lookup2__type__offloaded__mem1__type__offloaded__mem1__class__gOffloadedComponent child spMem__class__spMemComponent
+Design hierarchy --- parent ipv4Lookup2__type__offloaded__mem2__type__offloaded__mem2__class__gOffloadedComponent child spMem__class__spMemComponent
+Design hierarchy --- parent ipv4Lookup2__type__offloaded__mem3__type__offloaded__mem3__class__gOffloadedComponent child spMem__class__spMemComponent
+Design hierarchy --- parent result__type__offloaded__qosCount__class__gOffloadedComponent child qosCount__type__offloaded__mem3__type__offloaded__mem3__class__gOffloadedComponentRWPorts
+Design hierarchy --- parent qosCount__type__offloaded__mem3__type__offloaded__mem3__class__gOffloadedComponentRWPorts child qosCount__type__offloaded__mem2__type__offloaded__mem2__class__gOffloadedComponentRWPorts
+Design hierarchy --- parent qosCount__type__offloaded__mem2__type__offloaded__mem2__class__gOffloadedComponentRWPorts child qosCount__type__offloaded__mem1__type__offloaded__mem1__class__gOffloadedComponentRWPorts
+Design hierarchy --- parent qosCount__type__offloaded__mem1__type__offloaded__mem1__class__gOffloadedComponentRWPorts child xx3__type__engine__MT__1____class__qosCount
+Design hierarchy --- parent xx3__type__engine__MT__1____class__qosCount child 
+Design hierarchy --- parent xx3__type__engine__MT__1____class__qosCount child 
+Design hierarchy --- parent xx3__type__engine__MT__1____class__qosCount child 
+Design hierarchy --- parent qosCount__type__offloaded__mem1__type__offloaded__mem1__class__gOffloadedComponentRWPorts child 
+Design hierarchy --- parent qosCount__type__offloaded__mem2__type__offloaded__mem2__class__gOffloadedComponentRWPorts child 
+Design hierarchy --- parent qosCount__type__offloaded__mem3__type__offloaded__mem3__class__gOffloadedComponentRWPorts child 
+PCREPORT: Performance counter reset received
+PCREPORT: throughput 0.1250
+PCREPORT: cycles 19993
+PCREPORT: Performance counter pause ack received
+PCREPORT: input back pressure xx4__type__offloaded__ipv4Lookup1__type__offloaded__ipv4Lookup1__class__gOffloadedComponent received 0.0000
+PCREPORT: output back pressure xx4__type__offloaded__ipv4Lookup1__type__offloaded__ipv4Lookup1__class__gOffloadedComponent received 0.0000
+PCREPORT: offload back pressure 3 xx4__type__offloaded__ipv4Lookup1__type__offloaded__ipv4Lookup1__class__gOffloadedComponent received 0.0000
+PCREPORT: offload back pressure 4 xx4__type__offloaded__ipv4Lookup1__type__offloaded__ipv4Lookup1__class__gOffloadedComponent received 0.0000
+PCREPORT: input back pressure ipv4Lookup2__type__offloaded__mem1__type__offloaded__mem1__class__gOffloadedComponent received 0.0000
+PCREPORT: output back pressure ipv4Lookup2__type__offloaded__mem1__type__offloaded__mem1__class__gOffloadedComponent received 0.0000
+PCREPORT: offload back pressure 3 ipv4Lookup2__type__offloaded__mem1__type__offloaded__mem1__class__gOffloadedComponent received 0.0000
+PCREPORT: offload back pressure 4 ipv4Lookup2__type__offloaded__mem1__type__offloaded__mem1__class__gOffloadedComponent received 0.0000
+PCREPORT: input back pressure xx3__type__engine__MT__1____class__qosCount received 0.0000
+PCREPORT: output back pressure xx3__type__engine__MT__1____class__qosCount received 0.0000
+PCREPORT: offload back pressure 3 xx3__type__engine__MT__1____class__qosCount received 0.0000
+PCREPORT: offload back pressure 4 xx3__type__engine__MT__1____class__qosCount received 0.0000
+PCREPORT: offload back pressure 5 xx3__type__engine__MT__1____class__qosCount received 0.0000
+PCREPORT: offload back pressure 6 xx3__type__engine__MT__1____class__qosCount received 0.0000
+PCREPORT: offload back pressure 7 xx3__type__engine__MT__1____class__qosCount received 0.0000
+PCREPORT: offload back pressure 8 xx3__type__engine__MT__1____class__qosCount received 0.0000
+PCREPORT: input back pressure xx4__type__offloaded__ipv4Lookup2__type__offloaded__ipv4Lookup2__class__gOffloadedComponent received 0.0000
+PCREPORT: output back pressure xx4__type__offloaded__ipv4Lookup2__type__offloaded__ipv4Lookup2__class__gOffloadedComponent received 0.0000
+PCREPORT: offload back pressure 3 xx4__type__offloaded__ipv4Lookup2__type__offloaded__ipv4Lookup2__class__gOffloadedComponent received 0.0000
+PCREPORT: input back pressure ipv4Lookup2__type__offloaded__mem3__type__offloaded__mem3__class__gOffloadedComponent received 0.0000
+PCREPORT: output back pressure ipv4Lookup2__type__offloaded__mem3__type__offloaded__mem3__class__gOffloadedComponent received 0.0000
+PCREPORT: input back pressure xx2__type__engine__MT__1____class__ipv4Lookup received 0.0000
+PCREPORT: output back pressure xx2__type__engine__MT__1____class__ipv4Lookup received 0.0000
+PCREPORT: offload back pressure 3 xx2__type__engine__MT__1____class__ipv4Lookup received 0.0000
+PCREPORT: offload back pressure 4 xx2__type__engine__MT__1____class__ipv4Lookup received 0.0000
+PCREPORT: offload back pressure 5 xx2__type__engine__MT__1____class__ipv4Lookup received 0.0000
+PCREPORT: input back pressure ipv4Lookup1__type__offloaded__mem2__type__offloaded__mem2__class__gOffloadedComponent received 0.0000
+PCREPORT: output back pressure ipv4Lookup1__type__offloaded__mem2__type__offloaded__mem2__class__gOffloadedComponent received 0.0000
+PCREPORT: offload back pressure 3 ipv4Lookup1__type__offloaded__mem2__type__offloaded__mem2__class__gOffloadedComponent received 0.0000
+PCREPORT: input back pressure qosCount__type__offloaded__mem2__type__offloaded__mem2__class__gOffloadedComponentRWPorts received 0.0000
+PCREPORT: output back pressure qosCount__type__offloaded__mem2__type__offloaded__mem2__class__gOffloadedComponentRWPorts received 0.0000
+PCREPORT: offload back pressure 3 qosCount__type__offloaded__mem2__type__offloaded__mem2__class__gOffloadedComponentRWPorts received 0.0000
+PCREPORT: offload back pressure 4 qosCount__type__offloaded__mem2__type__offloaded__mem2__class__gOffloadedComponentRWPorts received 0.0000
+PCREPORT: offload back pressure 5 qosCount__type__offloaded__mem2__type__offloaded__mem2__class__gOffloadedComponentRWPorts received 0.0000
+PCREPORT: offload back pressure 6 qosCount__type__offloaded__mem2__type__offloaded__mem2__class__gOffloadedComponentRWPorts received 0.0000
+PCREPORT: input back pressure ipv4Lookup1__type__offloaded__mem3__type__offloaded__mem3__class__gOffloadedComponent received 0.0000
+PCREPORT: output back pressure ipv4Lookup1__type__offloaded__mem3__type__offloaded__mem3__class__gOffloadedComponent received 0.0000
+PCREPORT: input back pressure spMem__class__spMemComponent received 0.0000
+PCREPORT: output back pressure spMem__class__spMemComponent received 0.0000
+PCREPORT: input back pressure mpEngine__type__engine__MT__1____class__multiProtocolEngine received 0.8750
+PCREPORT: output back pressure mpEngine__type__engine__MT__1____class__multiProtocolEngine received 0.0000
+PCREPORT: offload back pressure 3 mpEngine__type__engine__MT__1____class__multiProtocolEngine received 0.0000
+PCREPORT: offload back pressure 4 mpEngine__type__engine__MT__1____class__multiProtocolEngine received 0.0000
+PCREPORT: offload back pressure 5 mpEngine__type__engine__MT__1____class__multiProtocolEngine received 0.0000
+PCREPORT: input back pressure xx1__type__engine__MT__1____class__ipv4Lookup received 0.0000
+PCREPORT: output back pressure xx1__type__engine__MT__1____class__ipv4Lookup received 0.0000
+PCREPORT: offload back pressure 3 xx1__type__engine__MT__1____class__ipv4Lookup received 0.0000
+PCREPORT: offload back pressure 4 xx1__type__engine__MT__1____class__ipv4Lookup received 0.0000
+PCREPORT: offload back pressure 5 xx1__type__engine__MT__1____class__ipv4Lookup received 0.0000
+PCREPORT: input back pressure result__type__offloaded__qosCount__class__gOffloadedComponent received 0.0000
+PCREPORT: output back pressure result__type__offloaded__qosCount__class__gOffloadedComponent received 0.0000
+PCREPORT: offload back pressure 3 result__type__offloaded__qosCount__class__gOffloadedComponent received 0.0000
+PCREPORT: offload back pressure 4 result__type__offloaded__qosCount__class__gOffloadedComponent received 0.0000
+PCREPORT: offload back pressure 5 result__type__offloaded__qosCount__class__gOffloadedComponent received 0.0000
+PCREPORT: input back pressure ipv4Lookup2__type__offloaded__mem2__type__offloaded__mem2__class__gOffloadedComponent received 0.0000
+PCREPORT: output back pressure ipv4Lookup2__type__offloaded__mem2__type__offloaded__mem2__class__gOffloadedComponent received 0.0000
+PCREPORT: offload back pressure 3 ipv4Lookup2__type__offloaded__mem2__type__offloaded__mem2__class__gOffloadedComponent received 0.0000
+PCREPORT: input back pressure qosCount__type__offloaded__mem3__type__offloaded__mem3__class__gOffloadedComponentRWPorts received 0.0000
+PCREPORT: output back pressure qosCount__type__offloaded__mem3__type__offloaded__mem3__class__gOffloadedComponentRWPorts received 0.0000
+PCREPORT: offload back pressure 3 qosCount__type__offloaded__mem3__type__offloaded__mem3__class__gOffloadedComponentRWPorts received 0.0000
+PCREPORT: offload back pressure 4 qosCount__type__offloaded__mem3__type__offloaded__mem3__class__gOffloadedComponentRWPorts received 0.0000
+PCREPORT: offload back pressure 5 qosCount__type__offloaded__mem3__type__offloaded__mem3__class__gOffloadedComponentRWPorts received 0.0000
+PCREPORT: input back pressure ipv4Lookup1__type__offloaded__mem1__type__offloaded__mem1__class__gOffloadedComponent received 0.0000
+PCREPORT: output back pressure ipv4Lookup1__type__offloaded__mem1__type__offloaded__mem1__class__gOffloadedComponent received 0.0000
+PCREPORT: offload back pressure 3 ipv4Lookup1__type__offloaded__mem1__type__offloaded__mem1__class__gOffloadedComponent received 0.0000
+PCREPORT: offload back pressure 4 ipv4Lookup1__type__offloaded__mem1__type__offloaded__mem1__class__gOffloadedComponent received 0.0000
+PCREPORT: input back pressure qosCount__type__offloaded__mem1__type__offloaded__mem1__class__gOffloadedComponentRWPorts received 0.0000
+PCREPORT: output back pressure qosCount__type__offloaded__mem1__type__offloaded__mem1__class__gOffloadedComponentRWPorts received 0.0000
+PCREPORT: offload back pressure 3 qosCount__type__offloaded__mem1__type__offloaded__mem1__class__gOffloadedComponentRWPorts received 0.0000
+PCREPORT: offload back pressure 4 qosCount__type__offloaded__mem1__type__offloaded__mem1__class__gOffloadedComponentRWPorts received 0.0000
+PCREPORT: offload back pressure 5 qosCount__type__offloaded__mem1__type__offloaded__mem1__class__gOffloadedComponentRWPorts received 0.0000
+PCREPORT: offload back pressure 6 qosCount__type__offloaded__mem1__type__offloaded__mem1__class__gOffloadedComponentRWPorts received 0.0000
+PCREPORT: offload back pressure 7 qosCount__type__offloaded__mem1__type__offloaded__mem1__class__gOffloadedComponentRWPorts received 0.0000
+PCREPORT: offload rate xx4__type__offloaded__ipv4Lookup1__type__offloaded__ipv4Lookup1__class__gOffloadedComponent received 0.0000
+PCREPORT: offload rate ipv4Lookup2__type__offloaded__mem1__type__offloaded__mem1__class__gOffloadedComponent received 0.0000
+PCREPORT: offload rate xx3__type__engine__MT__1____class__qosCount received 0.0000
+PCREPORT: offload rate xx4__type__offloaded__ipv4Lookup2__type__offloaded__ipv4Lookup2__class__gOffloadedComponent received 0.0000
+PCREPORT: offload rate ipv4Lookup2__type__offloaded__mem3__type__offloaded__mem3__class__gOffloadedComponent received 0.0000
+PCREPORT: offload rate xx2__type__engine__MT__1____class__ipv4Lookup received 0.0000
+PCREPORT: offload rate ipv4Lookup1__type__offloaded__mem2__type__offloaded__mem2__class__gOffloadedComponent received 0.0000
+PCREPORT: offload rate qosCount__type__offloaded__mem2__type__offloaded__mem2__class__gOffloadedComponentRWPorts received 0.0000
+PCREPORT: offload rate ipv4Lookup1__type__offloaded__mem3__type__offloaded__mem3__class__gOffloadedComponent received 0.0000
+PCREPORT: offload rate spMem__class__spMemComponent received 0.0010
+PCREPORT: offload rate mpEngine__type__engine__MT__1____class__multiProtocolEngine received 0.0000
+PCREPORT: offload rate xx1__type__engine__MT__1____class__ipv4Lookup received 0.0000
+PCREPORT: offload rate result__type__offloaded__qosCount__class__gOffloadedComponent received 0.0000
+PCREPORT: offload rate ipv4Lookup2__type__offloaded__mem2__type__offloaded__mem2__class__gOffloadedComponent received 0.0000
+PCREPORT: offload rate qosCount__type__offloaded__mem3__type__offloaded__mem3__class__gOffloadedComponentRWPorts received 0.0000
+PCREPORT: offload rate ipv4Lookup1__type__offloaded__mem1__type__offloaded__mem1__class__gOffloadedComponent received 0.0000
+PCREPORT: offload rate qosCount__type__offloaded__mem1__type__offloaded__mem1__class__gOffloadedComponentRWPorts received 0.0000
+PCREPORT: engine utilization xx4__type__offloaded__ipv4Lookup1__type__offloaded__ipv4Lookup1__class__gOffloadedComponent received 0.0000
+PCREPORT: engine utilization ipv4Lookup2__type__offloaded__mem1__type__offloaded__mem1__class__gOffloadedComponent received 0.0000
+PCREPORT: engine utilization xx3__type__engine__MT__1____class__qosCount received 0.0000
+PCREPORT: engine utilization xx4__type__offloaded__ipv4Lookup2__type__offloaded__ipv4Lookup2__class__gOffloadedComponent received 0.0000
+PCREPORT: engine utilization ipv4Lookup2__type__offloaded__mem3__type__offloaded__mem3__class__gOffloadedComponent received 0.0000
+PCREPORT: engine utilization xx2__type__engine__MT__1____class__ipv4Lookup received 0.0000
+PCREPORT: engine utilization ipv4Lookup1__type__offloaded__mem2__type__offloaded__mem2__class__gOffloadedComponent received 0.0000
+PCREPORT: engine utilization qosCount__type__offloaded__mem2__type__offloaded__mem2__class__gOffloadedComponentRWPorts received 0.0000
+PCREPORT: engine utilization ipv4Lookup1__type__offloaded__mem3__type__offloaded__mem3__class__gOffloadedComponent received 0.0000
+PCREPORT: engine utilization spMem__class__spMemComponent received 0.0000
+PCREPORT: engine utilization mpEngine__type__engine__MT__1____class__multiProtocolEngine received 0.9299
+PCREPORT: engine utilization xx1__type__engine__MT__1____class__ipv4Lookup received 0.0000
+PCREPORT: engine utilization result__type__offloaded__qosCount__class__gOffloadedComponent received 0.0000
+PCREPORT: engine utilization ipv4Lookup2__type__offloaded__mem2__type__offloaded__mem2__class__gOffloadedComponent received 0.0000
+PCREPORT: engine utilization qosCount__type__offloaded__mem3__type__offloaded__mem3__class__gOffloadedComponentRWPorts received 0.0000
+PCREPORT: engine utilization ipv4Lookup1__type__offloaded__mem1__type__offloaded__mem1__class__gOffloadedComponent received 0.0000
+PCREPORT: engine utilization qosCount__type__offloaded__mem1__type__offloaded__mem1__class__gOffloadedComponentRWPorts received 0.0000
+PCREPORT: in tokens xx4__type__offloaded__ipv4Lookup1__type__offloaded__ipv4Lookup1__class__gOffloadedComponent received 0.0000
+PCREPORT: in tokens ipv4Lookup2__type__offloaded__mem1__type__offloaded__mem1__class__gOffloadedComponent received 0.0000
+PCREPORT: in tokens xx3__type__engine__MT__1____class__qosCount received 0.0000
+PCREPORT: in tokens xx4__type__offloaded__ipv4Lookup2__type__offloaded__ipv4Lookup2__class__gOffloadedComponent received 0.0000
+PCREPORT: in tokens ipv4Lookup2__type__offloaded__mem3__type__offloaded__mem3__class__gOffloadedComponent received 0.0000
+PCREPORT: in tokens xx2__type__engine__MT__1____class__ipv4Lookup received 0.0000
+PCREPORT: in tokens ipv4Lookup1__type__offloaded__mem2__type__offloaded__mem2__class__gOffloadedComponent received 0.0000
+PCREPORT: in tokens qosCount__type__offloaded__mem2__type__offloaded__mem2__class__gOffloadedComponentRWPorts received 0.0000
+PCREPORT: in tokens ipv4Lookup1__type__offloaded__mem3__type__offloaded__mem3__class__gOffloadedComponent received 0.0000
+PCREPORT: in tokens spMem__class__spMemComponent received 0.0000
+PCREPORT: in tokens mpEngine__type__engine__MT__1____class__multiProtocolEngine received 1.0000
+PCREPORT: in tokens xx1__type__engine__MT__1____class__ipv4Lookup received 0.0000
+PCREPORT: in tokens result__type__offloaded__qosCount__class__gOffloadedComponent received 0.0000
+PCREPORT: in tokens ipv4Lookup2__type__offloaded__mem2__type__offloaded__mem2__class__gOffloadedComponent received 0.0000
+PCREPORT: in tokens qosCount__type__offloaded__mem3__type__offloaded__mem3__class__gOffloadedComponentRWPorts received 0.0000
+PCREPORT: in tokens ipv4Lookup1__type__offloaded__mem1__type__offloaded__mem1__class__gOffloadedComponent received 0.0000
+PCREPORT: in tokens qosCount__type__offloaded__mem1__type__offloaded__mem1__class__gOffloadedComponentRWPorts received 0.0000
+PCREPORT: out tokens xx4__type__offloaded__ipv4Lookup1__type__offloaded__ipv4Lookup1__class__gOffloadedComponent received 0.0000
+PCREPORT: out tokens ipv4Lookup2__type__offloaded__mem1__type__offloaded__mem1__class__gOffloadedComponent received 0.0000
+PCREPORT: out tokens xx3__type__engine__MT__1____class__qosCount received 0.0000
+PCREPORT: out tokens xx4__type__offloaded__ipv4Lookup2__type__offloaded__ipv4Lookup2__class__gOffloadedComponent received 0.0000
+PCREPORT: out tokens ipv4Lookup2__type__offloaded__mem3__type__offloaded__mem3__class__gOffloadedComponent received 0.0000
+PCREPORT: out tokens xx2__type__engine__MT__1____class__ipv4Lookup received 0.0000
+PCREPORT: out tokens ipv4Lookup1__type__offloaded__mem2__type__offloaded__mem2__class__gOffloadedComponent received 0.0000
+PCREPORT: out tokens qosCount__type__offloaded__mem2__type__offloaded__mem2__class__gOffloadedComponentRWPorts received 0.0000
+PCREPORT: out tokens ipv4Lookup1__type__offloaded__mem3__type__offloaded__mem3__class__gOffloadedComponent received 0.0000
+PCREPORT: out tokens spMem__class__spMemComponent received 0.0000
+PCREPORT: out tokens mpEngine__type__engine__MT__1____class__multiProtocolEngine received 0.9996
+PCREPORT: out tokens xx1__type__engine__MT__1____class__ipv4Lookup received 0.0000
+PCREPORT: out tokens result__type__offloaded__qosCount__class__gOffloadedComponent received 0.0000
+PCREPORT: out tokens ipv4Lookup2__type__offloaded__mem2__type__offloaded__mem2__class__gOffloadedComponent received 0.0000
+PCREPORT: out tokens qosCount__type__offloaded__mem3__type__offloaded__mem3__class__gOffloadedComponentRWPorts received 0.0000
+PCREPORT: out tokens ipv4Lookup1__type__offloaded__mem1__type__offloaded__mem1__class__gOffloadedComponent received 0.0000
+PCREPORT: out tokens qosCount__type__offloaded__mem1__type__offloaded__mem1__class__gOffloadedComponentRWPorts received 0.0000
