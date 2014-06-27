@@ -1,1 +1,1 @@
-Gorilla++ is a tool for generating streaming hardware.
+Gorilla++ is a tool for generating streaming hardware accelerators.
