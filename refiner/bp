@@ -1,5 +1,0 @@
-grep "back pressure"  $1 | awk '{if ($NF > 0.1) print $0}'
-echo "**************"
-grep "engine utilization"  $1 | awk '{if ($NF > 0.1) print $0}'
-echo "**************"
-grep "offload rate"  $1 | awk '{if ($NF > 0.1) print $0}'
