@@ -41,26 +41,25 @@ GS_LOOKUP()
   srcLookupResult = ipv4Lookup2(ipv4Input.srcAddr);
   Output.outPort = outPort + srcLookupResult;
   gOutPort = outPort;
-//  if (srcLookupResult == INVALID_ADDRESS || 
-//   outPort == INVALID_ADDRESS) {
-//    State = GS_EXCEPTION;
-//  } else {  
+  if (srcLookupResult == INVALID_ADDRESS || 
+   outPort == INVALID_ADDRESS) {
+    State = GS_EXCEPTION;
+  } else {  
     State = GS_UPDATE;
-//  }
+  }
 }
 
 GS_UPDATE()
 {
   uint8_t qcOutput;
-  qcOutput = qosCount(ipv4Input.srcAddr);
-  Output.outPort = gOutPort + qcOutput;
-  //qcOutput = qosCount(gOutPort);
-//  if (ipv4Input.ttl == 1) {
-//    State = GS_EXCEPTION;
-//  } else {
+  Output.outPort = gOutPort;
+  qcOutput = qosCount(gOutPort);
+  if (ipv4Input.ttl == 1) {
+    State = GS_EXCEPTION;
+  } else {
     ipv4Output.ttl = ipv4Input.ttl - 1; 
     ipv4Output.chksum = ipv4Input.chksum + 0x80; 
-//  }
+  }
   Output.l3 = (mpl3Header_t) ipv4Output;
   finish();
 }
