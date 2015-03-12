@@ -1,0 +1,370 @@
+package Tutorial
+
+import Chisel._
+import Node._
+import Literal._
+import scala.collection.mutable.HashMap
+import scala.collection.mutable.ArrayBuffer
+
+
+class KEngine (extCompName:String) extends gComponentLeaf  (() => new KEngineIO_t)(() => new KEngineIO_t) (ArrayBuffer(("distanceFU", () => new distanceFU_in_t , () => new distanceFU_out_t), ("centeroidMem", () => new memReq192_t , () => new memRep192_t), ("partialAccumulatorMem", () => new memReq192_t , () => new memRep192_t), ("add", () => new FU_in_t , () => new FU_out_t)))  (extCompName = extCompName + "__type__engine__MT__1__") with include {
+  val numOfThreads = 1 
+  val NONE_SELECTED = UFix(numOfThreads,log2Up(numOfThreads+1))
+  val WaitForInputValid = UFix(0, 8)
+  val WaitForOutputReady = UFix(255, 8)
+  val WaitForReady = UFix(0, 1)
+  val WaitForValid = UFix(1, 1)
+  val inputTag = Vec(numOfThreads) {Reg(UFix(width=TAGWIDTH*2))}
+  val State = Vec(numOfThreads) {Reg(UFix(width=8), resetVal=WaitForInputValid)} 
+  val EmitReturnState = Vec(numOfThreads) {Reg(UFix(width=8), resetVal=WaitForInputValid)} 
+  //val outstandingOffs = Vec(numOfThreads) {Reg(resetVal=UFix(0, 5))}
+  val AllOffloadsReady = Bool()
+  val AllOffloadsValid  = Vec(numOfThreads) {Bool()}
+  /*******************Thread states*********************************/
+  val subStateTh = Vec(numOfThreads) {Reg(resetVal=WaitForReady)}
+
+  def  myOff = io.elements.find(_._1 == "off").getOrElse(elseV)._2
+   val	RECEIVE_CENTROID = UFix(0, width = 32)//constant macro definition 
+   val	RECEIVE_POINT = UFix(1, width = 32)//constant macro definition 
+   val closestDistance = Vec (numOfThreads) {Reg(UFix(width = 64))}	//Global variable 
+   val centeroidIndex = Vec (numOfThreads) {Reg(UFix(width = 32), resetVal=UFix(0, width = 32))}	//Global variable 
+   val closestIndex = Vec (numOfThreads) {Reg(UFix(width = 32))}	//Global variable 
+   val mode = Vec (numOfThreads) {Reg(UFix(width = 32), resetVal=UFix(0, width = 32))}	//Global variable 
+   val pMemOut = Vec (numOfThreads) {Reg(new memRep192_t)}	//Global variable 
+   val cMemOut = Vec (numOfThreads) {Reg(new memRep192_t)}	//Global variable 
+   val pMemData = Vec (numOfThreads) {Reg(new point_t)}	//Global variable 
+   val cMemData = Vec (numOfThreads) {Reg(new point_t)}	//Global variable 
+   val closestCentroid = Vec (numOfThreads) {Reg(new point_t)}	//Global variable 
+   val inputReg = Vec(numOfThreads) {Reg(new KEngineIO_t)}
+   val outputReg = Vec(numOfThreads) {Reg(new KEngineIO_t)}
+   def mymyOffcenteroidMem = myOff.asInstanceOf[Bundle].elements.find(_._1 == "centeroidMem").getOrElse(elseV)._2
+   val centeroidMemPort = new gOffBundleND(() => new memReq192_t, () => new memRep192_t)
+   centeroidMemPort <> mymyOffcenteroidMem
+   def mymyOffpartialAccumulatorMem = myOff.asInstanceOf[Bundle].elements.find(_._1 == "partialAccumulatorMem").getOrElse(elseV)._2
+   val partialAccumulatorMemPort = new gOffBundleND(() => new memReq192_t, () => new memRep192_t)
+   partialAccumulatorMemPort <> mymyOffpartialAccumulatorMem
+   def mymyOffdistanceFU = myOff.asInstanceOf[Bundle].elements.find(_._1 == "distanceFU").getOrElse(elseV)._2
+   val distanceFUPort = new gOffBundleND(() => new distanceFU_in_t, () => new distanceFU_out_t)
+   distanceFUPort <> mymyOffdistanceFU
+   def mymyOffadd = myOff.asInstanceOf[Bundle].elements.find(_._1 == "add").getOrElse(elseV)._2
+   val addPort = new gOffBundleND(() => new FU_in_t, () => new FU_out_t)
+   addPort <> mymyOffadd
+   val GS_RECEIVE = UFix(1)
+   val GS_RECEIVE_CENTROID = UFix(2)
+   val pMemIn1 = new memReq192_t
+   val cMemIn1 = new memReq192_t
+   val data = new point_t
+   val GS_RECEIVE_POINT = UFix(3)
+   val GS_READ_CENTROID = UFix(4)
+   val cMemIn2 = new memReq192_t
+   val GS_DISTANCE = UFix(5)
+   val d = new distanceFU_out_t
+   val dfuin = new distanceFU_in_t
+   val GS_UPDATE_PARTIAL_ACCUMULATE_READ = UFix(6)
+   val pMemIn2 = new memReq192_t
+   val GS_UPDATE_PARTIAL_ACCUMULATE_ADD_X = UFix(7)
+   val addIn1 = new FU_in_t
+   val addOut1 = new FU_out_t
+   val GS_UPDATE_PARTIAL_ACCUMULATE_ADD_Y = UFix(8)
+   val addIn2 = new FU_in_t
+   val addOut2 = new FU_out_t
+   val GS_UPDATE_PARTIAL_ACCUMULATE_ADD_Z = UFix(9)
+   val addIn3 = new FU_in_t
+   val addOut3 = new FU_out_t
+   val GS_UPDATE_PARTIAL_ACCUMULATE_WRITE = UFix(10)
+   val pMemIn3 = new memReq192_t
+   val GS_SEND_RESULTS_INIT = UFix(11)
+   val GS_SEND_RESULTS = UFix(12)
+   val pMemIn4 = new memReq192_t
+   val GS_EMIT = UFix(13)
+
+   /******************Winner threads*********************************/
+  val rThreadEncoder = new RREncode (numOfThreads) 
+  val rThread =  rThreadEncoder.io.chosen
+  Range(0, numOfThreads, 1).map(i => 
+    rThreadEncoder.io.valid(i) := (subStateTh(i) === WaitForReady))
+  rThreadEncoder.io.ready := (rThread != NONE_SELECTED)
+
+  val vThreadEncoder = new RREncode (numOfThreads) 
+  val vThread =  vThreadEncoder.io.chosen
+  Range(0, numOfThreads, 1).map(i => 
+    vThreadEncoder.io.valid(i) := (subStateTh(i) === WaitForValid) && AllOffloadsValid(i))
+  vThreadEncoder.io.ready := vThread != NONE_SELECTED
+
+  val sThreadEncoder = new RREncode (numOfThreads) 
+  val sThread =  sThreadEncoder.io.chosen
+  Range(0, numOfThreads, 1).map(i => sThreadEncoder.io.valid(i) := (subStateTh(i) === WaitForReady) && (State(i) === WaitForInputValid))
+  sThreadEncoder.io.ready := sThread != NONE_SELECTED
+
+
+Range(0, numOfThreads, 1).foreach(i => subStateTh(i) := MuxCase(subStateTh(i), Seq((AllOffloadsReady && UFix(i) === rThread && State(i) != WaitForInputValid && State(i) != WaitForOutputReady , WaitForValid), (UFix(i) === vThread, WaitForReady)))) 
+
+  distanceFUPort.rep.ready := Bool(true)
+  centeroidMemPort.rep.ready := Bool(true)
+  partialAccumulatorMemPort.rep.ready := Bool(true)
+  addPort.rep.ready := Bool(true)
+
+/******************Ready stage handler************************/
+val distanceFUPortHadReadyRequest = Reg(resetVal=Bool(false))
+val distanceFU_ready_received = Reg(resetVal=Bool(false))
+val centeroidMemPortHadReadyRequest = Reg(resetVal=Bool(false))
+val centeroidMem_ready_received = Reg(resetVal=Bool(false))
+val partialAccumulatorMemPortHadReadyRequest = Reg(resetVal=Bool(false))
+val partialAccumulatorMem_ready_received = Reg(resetVal=Bool(false))
+val addPortHadReadyRequest = Reg(resetVal=Bool(false))
+val add_ready_received = Reg(resetVal=Bool(false))
+
+AllOffloadsReady :=  
+  (distanceFUPort.req.ready || distanceFU_ready_received || (!distanceFUPortHadReadyRequest && !distanceFUPort.req.valid)) &&  
+  (centeroidMemPort.req.ready || centeroidMem_ready_received || (!centeroidMemPortHadReadyRequest && !centeroidMemPort.req.valid)) &&  
+  (partialAccumulatorMemPort.req.ready || partialAccumulatorMem_ready_received || (!partialAccumulatorMemPortHadReadyRequest && !partialAccumulatorMemPort.req.valid)) &&  
+  (addPort.req.ready || add_ready_received || (!addPortHadReadyRequest && !addPort.req.valid)) &&  
+  Bool(true)
+
+distanceFU_ready_received := !(AllOffloadsReady) && (distanceFU_ready_received || distanceFUPort.req.ready)
+distanceFUPortHadReadyRequest := !AllOffloadsReady && (distanceFUPortHadReadyRequest || distanceFUPort.req.valid)
+centeroidMem_ready_received := !(AllOffloadsReady) && (centeroidMem_ready_received || centeroidMemPort.req.ready)
+centeroidMemPortHadReadyRequest := !AllOffloadsReady && (centeroidMemPortHadReadyRequest || centeroidMemPort.req.valid)
+partialAccumulatorMem_ready_received := !(AllOffloadsReady) && (partialAccumulatorMem_ready_received || partialAccumulatorMemPort.req.ready)
+partialAccumulatorMemPortHadReadyRequest := !AllOffloadsReady && (partialAccumulatorMemPortHadReadyRequest || partialAccumulatorMemPort.req.valid)
+add_ready_received := !(AllOffloadsReady) && (add_ready_received || addPort.req.ready)
+addPortHadReadyRequest := !AllOffloadsReady && (addPortHadReadyRequest || addPort.req.valid)
+
+
+/******************Valid stage handler************************/
+val distanceFUPortHadValidRequest = Vec(numOfThreads) {Reg(resetVal=Bool(false))}
+val distanceFU_valid_received = Vec(numOfThreads) {Reg(resetVal=Bool(false))}
+val centeroidMemPortHadValidRequest = Vec(numOfThreads) {Reg(resetVal=Bool(false))}
+val centeroidMem_valid_received = Vec(numOfThreads) {Reg(resetVal=Bool(false))}
+val partialAccumulatorMemPortHadValidRequest = Vec(numOfThreads) {Reg(resetVal=Bool(false))}
+val partialAccumulatorMem_valid_received = Vec(numOfThreads) {Reg(resetVal=Bool(false))}
+val addPortHadValidRequest = Vec(numOfThreads) {Reg(resetVal=Bool(false))}
+val add_valid_received = Vec(numOfThreads) {Reg(resetVal=Bool(false))}
+
+for (i <- 0 to numOfThreads-1) {
+AllOffloadsValid(i) :=  
+  ((distanceFUPort.rep.valid && (distanceFUPort.rep.tag === UFix(i, 5)))|| distanceFU_valid_received(i) || !distanceFUPortHadValidRequest(i)) &&  
+  ((centeroidMemPort.rep.valid && (centeroidMemPort.rep.tag === UFix(i, 5)))|| centeroidMem_valid_received(i) || !centeroidMemPortHadValidRequest(i)) &&  
+  ((partialAccumulatorMemPort.rep.valid && (partialAccumulatorMemPort.rep.tag === UFix(i, 5)))|| partialAccumulatorMem_valid_received(i) || !partialAccumulatorMemPortHadValidRequest(i)) &&  
+  ((addPort.rep.valid && (addPort.rep.tag === UFix(i, 5)))|| add_valid_received(i) || !addPortHadValidRequest(i)) &&  
+  Bool(true)
+
+distanceFU_valid_received(i) := !(vThread === UFix(i, 5)) && ((distanceFU_valid_received(i)) || (distanceFUPort.rep.valid && distanceFUPort.rep.tag === UFix(i, 5)))
+distanceFUPortHadValidRequest(i) := !(vThread === UFix(i,5)) && (distanceFUPortHadValidRequest(i) || (UFix(i,5)===rThread && distanceFUPort.req.valid)/*(distanceFUPortHadReadyRequest && AllOffloadsReady && (UFix(i,5) === rThread))*/)
+centeroidMem_valid_received(i) := !(vThread === UFix(i, 5)) && ((centeroidMem_valid_received(i)) || (centeroidMemPort.rep.valid && centeroidMemPort.rep.tag === UFix(i, 5)))
+centeroidMemPortHadValidRequest(i) := !(vThread === UFix(i,5)) && (centeroidMemPortHadValidRequest(i) || (UFix(i,5)===rThread && centeroidMemPort.req.valid)/*(centeroidMemPortHadReadyRequest && AllOffloadsReady && (UFix(i,5) === rThread))*/)
+partialAccumulatorMem_valid_received(i) := !(vThread === UFix(i, 5)) && ((partialAccumulatorMem_valid_received(i)) || (partialAccumulatorMemPort.rep.valid && partialAccumulatorMemPort.rep.tag === UFix(i, 5)))
+partialAccumulatorMemPortHadValidRequest(i) := !(vThread === UFix(i,5)) && (partialAccumulatorMemPortHadValidRequest(i) || (UFix(i,5)===rThread && partialAccumulatorMemPort.req.valid)/*(partialAccumulatorMemPortHadReadyRequest && AllOffloadsReady && (UFix(i,5) === rThread))*/)
+add_valid_received(i) := !(vThread === UFix(i, 5)) && ((add_valid_received(i)) || (addPort.rep.valid && addPort.rep.tag === UFix(i, 5)))
+addPortHadValidRequest(i) := !(vThread === UFix(i,5)) && (addPortHadValidRequest(i) || (UFix(i,5)===rThread && addPort.req.valid)/*(addPortHadReadyRequest && AllOffloadsReady && (UFix(i,5) === rThread))*/)
+}
+
+   data.x:=UFix(0, width = 32) 
+   data.y:=UFix(0, width = 32) 
+   data.z:=UFix(0, width = 32) 
+   pMemIn1.addr:=centeroidIndex(rThread) 
+   pMemIn1.rw:=WRITE 
+   pMemIn1.wData:=(UFix(width = 192)).fromBits(Bits(0, width=(UFix(width = 192)).getWidth) | (data).toBits) 
+   cMemIn1.addr:=centeroidIndex(rThread) 
+   cMemIn1.rw:=WRITE 
+   cMemIn1.wData:=(UFix(width = 192)).fromBits(Bits(0, width=(UFix(width = 192)).getWidth) | (inputReg(rThread).point).toBits) 
+   cMemIn2.addr:=centeroidIndex(rThread) 
+   cMemIn2.rw:=READ 
+   dfuin.in1:=(new point_t).fromBits(Bits(0, width=(new point_t).getWidth) | (cMemOut(rThread).rData).toBits) 
+   dfuin.in2:=inputReg(rThread).point 
+   d := distanceFUPort.rep.bits
+   pMemIn2.addr:=closestIndex(rThread) 
+   pMemIn2.rw:=READ 
+   addIn1.in1:=pMemData(rThread).x 
+   addIn1.in2:=closestCentroid(rThread).x 
+   addOut1 := addPort.rep.bits
+   addIn2.in1:=pMemData(rThread).y 
+   addIn2.in2:=closestCentroid(rThread).y 
+   addOut2 := addPort.rep.bits
+   addIn3.in1:=pMemData(rThread).z 
+   addIn3.in2:=closestCentroid(rThread).z 
+   addOut3 := addPort.rep.bits
+   pMemIn3.addr:=closestIndex(rThread) 
+   pMemIn3.rw:=UFix(1, width = 32) 
+   pMemIn3.wData:=(UFix(width = 192)).fromBits(Bits(0, width=(UFix(width = 192)).getWidth) | (pMemData(rThread)).toBits) 
+   pMemIn4.addr:=centeroidIndex(rThread) 
+   pMemIn4.rw:=READ 
+   centeroidMemPort.req.tag :=  rThread
+   centeroidMemPort.req.valid :=  (rThread != NONE_SELECTED) && !centeroidMem_valid_received(rThread) && ( (rThread != NONE_SELECTED && State(rThread) === GS_RECEIVE_CENTROID) ||  (rThread != NONE_SELECTED && State(rThread) === GS_READ_CENTROID))
+   centeroidMemPort.req.bits := MuxCase(UFix(0, 32),Seq( ((rThread != NONE_SELECTED && State(rThread) === GS_RECEIVE_CENTROID),cMemIn1) ,  ((rThread != NONE_SELECTED && State(rThread) === GS_READ_CENTROID),cMemIn2)))
+   partialAccumulatorMemPort.req.tag :=  rThread
+   partialAccumulatorMemPort.req.valid :=  (rThread != NONE_SELECTED) && !partialAccumulatorMem_valid_received(rThread) && ( (rThread != NONE_SELECTED && State(rThread) === GS_RECEIVE_CENTROID) ||  (rThread != NONE_SELECTED && State(rThread) === GS_UPDATE_PARTIAL_ACCUMULATE_READ) ||  (rThread != NONE_SELECTED && State(rThread) === GS_UPDATE_PARTIAL_ACCUMULATE_WRITE) ||  (rThread != NONE_SELECTED && State(rThread) === GS_SEND_RESULTS))
+   partialAccumulatorMemPort.req.bits := MuxCase(UFix(0, 32),Seq( ((rThread != NONE_SELECTED && State(rThread) === GS_RECEIVE_CENTROID),pMemIn1) ,  ((rThread != NONE_SELECTED && State(rThread) === GS_UPDATE_PARTIAL_ACCUMULATE_READ),pMemIn2) ,  ((rThread != NONE_SELECTED && State(rThread) === GS_UPDATE_PARTIAL_ACCUMULATE_WRITE),pMemIn3) ,  ((rThread != NONE_SELECTED && State(rThread) === GS_SEND_RESULTS),pMemIn4)))
+   distanceFUPort.req.tag :=  rThread
+   distanceFUPort.req.valid :=  (rThread != NONE_SELECTED) && !distanceFU_valid_received(rThread) && ( (rThread != NONE_SELECTED && State(rThread) === GS_DISTANCE))
+   distanceFUPort.req.bits := MuxCase(UFix(0, 32),Seq( ((rThread != NONE_SELECTED && State(rThread) === GS_DISTANCE),dfuin)))
+   addPort.req.tag :=  rThread
+   addPort.req.valid :=  (rThread != NONE_SELECTED) && !add_valid_received(rThread) && ( (rThread != NONE_SELECTED && State(rThread) === GS_UPDATE_PARTIAL_ACCUMULATE_ADD_X) ||  (rThread != NONE_SELECTED && State(rThread) === GS_UPDATE_PARTIAL_ACCUMULATE_ADD_Y) ||  (rThread != NONE_SELECTED && State(rThread) === GS_UPDATE_PARTIAL_ACCUMULATE_ADD_Z))
+   addPort.req.bits := MuxCase(UFix(0, 32),Seq( ((rThread != NONE_SELECTED && State(rThread) === GS_UPDATE_PARTIAL_ACCUMULATE_ADD_X),addIn1) ,  ((rThread != NONE_SELECTED && State(rThread) === GS_UPDATE_PARTIAL_ACCUMULATE_ADD_Y),addIn2) ,  ((rThread != NONE_SELECTED && State(rThread) === GS_UPDATE_PARTIAL_ACCUMULATE_ADD_Z),addIn3)))
+
+  when (sThread != NONE_SELECTED && io.in.valid) {
+    inputReg(sThread) := io.in.bits
+    inputTag(sThread) := io.in.tag
+    State(sThread) := GS_RECEIVE
+ 
+  } 
+
+  when (rThread != NONE_SELECTED && State(rThread) === WaitForOutputReady && io.out.ready) {
+    State(rThread) := EmitReturnState(rThread) 
+  } 
+
+   
+    when (vThread != NONE_SELECTED &&State(vThread) === GS_RECEIVE){
+   when (mode(vThread)===RECEIVE_CENTROID) {
+   State(vThread):=GS_RECEIVE_CENTROID 
+   }
+   when (inputReg(vThread).centeroidsFinished) {
+   mode(vThread):=RECEIVE_POINT 
+   State(vThread):=WaitForInputValid 
+   }
+   when (mode(vThread)===RECEIVE_POINT) {
+   State(vThread):=GS_RECEIVE_POINT 
+   }
+   when (inputReg(vThread).pointsFinished) {
+   mode(vThread):=RECEIVE_CENTROID 
+   State(vThread):=GS_SEND_RESULTS_INIT 
+   }
+   } 
+   
+    when (vThread != NONE_SELECTED &&State(vThread) === GS_RECEIVE_CENTROID){
+   pMemOut(vThread) := partialAccumulatorMemPort.rep.bits
+   cMemOut(vThread) := centeroidMemPort.rep.bits
+   centeroidIndex(vThread):=centeroidIndex(vThread)+UFix(1, width = 32) 
+   State(vThread):=WaitForInputValid 
+   } 
+   
+    when (vThread != NONE_SELECTED &&State(vThread) === GS_RECEIVE_POINT){
+   closestDistance(vThread):=INFINITI 
+   centeroidIndex(vThread):=UFix(0, width = 32) 
+   State(vThread):=GS_READ_CENTROID 
+   } 
+   
+    when (vThread != NONE_SELECTED &&State(vThread) === GS_READ_CENTROID){
+   cMemOut(vThread) := centeroidMemPort.rep.bits
+   State(vThread):=GS_DISTANCE 
+   } 
+   
+    when (vThread != NONE_SELECTED &&State(vThread) === GS_DISTANCE){
+   when (d.out<closestDistance(vThread)) {
+   closestDistance(vThread):=d.out 
+   closestIndex(vThread):=centeroidIndex(vThread) 
+   closestCentroid(vThread):=(new point_t).fromBits(Bits(0, width=(new point_t).getWidth) | (cMemOut(vThread).rData).toBits) 
+   }
+   centeroidIndex(vThread):=centeroidIndex(vThread)+UFix(1, width = 32) 
+   when (centeroidIndex(vThread)===NUM_OF_CENTEROIDS) {
+   State(vThread):=GS_UPDATE_PARTIAL_ACCUMULATE_READ 
+   }
+   .otherwise {
+   State(vThread):=GS_READ_CENTROID 
+   }
+   } 
+   
+    when (vThread != NONE_SELECTED &&State(vThread) === GS_UPDATE_PARTIAL_ACCUMULATE_READ){
+   pMemOut(vThread) := partialAccumulatorMemPort.rep.bits
+   pMemData(vThread):=(new point_t).fromBits(Bits(0, width=(new point_t).getWidth) | (pMemOut(vThread).rData).toBits) 
+   State(vThread):=GS_UPDATE_PARTIAL_ACCUMULATE_ADD_X 
+   } 
+   
+    when (vThread != NONE_SELECTED &&State(vThread) === GS_UPDATE_PARTIAL_ACCUMULATE_ADD_X){
+   pMemData(vThread).x:=addOut1.out 
+   State(vThread):=GS_UPDATE_PARTIAL_ACCUMULATE_ADD_Y 
+   } 
+   
+    when (vThread != NONE_SELECTED &&State(vThread) === GS_UPDATE_PARTIAL_ACCUMULATE_ADD_Y){
+   pMemData(vThread).y:=addOut2.out 
+   State(vThread):=GS_UPDATE_PARTIAL_ACCUMULATE_ADD_Z 
+   } 
+   
+    when (vThread != NONE_SELECTED &&State(vThread) === GS_UPDATE_PARTIAL_ACCUMULATE_ADD_Z){
+   pMemData(vThread).z:=addOut3.out 
+   State(vThread):=GS_UPDATE_PARTIAL_ACCUMULATE_WRITE 
+   } 
+   
+    when (vThread != NONE_SELECTED &&State(vThread) === GS_UPDATE_PARTIAL_ACCUMULATE_WRITE){
+   pMemOut(vThread) := partialAccumulatorMemPort.rep.bits
+   State(vThread):=WaitForInputValid 
+   } 
+   
+    when (vThread != NONE_SELECTED &&State(vThread) === GS_SEND_RESULTS_INIT){
+   centeroidIndex(vThread):=UFix(0, width = 32) 
+   State(vThread):=GS_SEND_RESULTS 
+   } 
+   
+    when (vThread != NONE_SELECTED &&State(vThread) === GS_SEND_RESULTS){
+   pMemOut(vThread) := partialAccumulatorMemPort.rep.bits
+   outputReg(vThread).point:=(new point_t).fromBits(Bits(0, width=(new point_t).getWidth) | (pMemOut(vThread).rData).toBits) 
+   outputReg(vThread).centeroidIndex:=centeroidIndex(vThread) 
+   centeroidIndex(vThread):=centeroidIndex(vThread)+UFix(1, width = 32) 
+   when (centeroidIndex(vThread)===NUM_OF_CENTEROIDS) {
+   centeroidIndex(vThread):=UFix(0, width = 32) 
+   State(vThread):=WaitForInputValid 
+   }
+   .otherwise {
+   State(vThread):=GS_EMIT 
+   }
+   } 
+   
+    when (vThread != NONE_SELECTED &&State(vThread) === GS_EMIT){
+   EmitReturnState(vThread):=GS_SEND_RESULTS 
+   State(vThread) := WaitForOutputReady
+   } 
+
+  io.out.tag := inputTag(rThread)
+  io.out.bits := outputReg(rThread)
+  io.out.valid := rThread != NONE_SELECTED && State(rThread) === WaitForOutputReady
+  io.in.ready := sThread != NONE_SELECTED 
+
+/******************Engine specific performance counters************************/
+  val IsPcReset = 
+   io.pcIn.valid && io.pcIn.bits.request && io.pcIn.bits.pcType === Pcounters.pcReset
+  var portId = 3
+  when (IsPcReset) {
+    engineUtilization := UFix(0, Pcounters.PCWIDTH) 
+  } .otherwise {
+    when (State(0) != WaitForInputValid) {
+      engineUtilization := engineUtilization + 
+       UFix(1, Pcounters.PCWIDTH) 
+    }
+  }
+  for ((n, i) <- ioOff.elements) {
+    if (n == "distanceFU") {
+      when (IsPcReset) {
+        offloadRateArray(portId-3) := UFix(0, Pcounters.PCWIDTH)
+      } .elsewhen (i.asInstanceOf[gOffBundle[Bundle, Bundle]].req.ready && 
+       (distanceFUPortHadValidRequest(0) || distanceFUPort.req.valid) && !pcPaused) {
+        offloadRateArray(portId-3) := offloadRateArray(portId-3) + UFix(1, Pcounters.PCWIDTH)
+      }
+    }
+    if (n == "centeroidMem") {
+      when (IsPcReset) {
+        offloadRateArray(portId-3) := UFix(0, Pcounters.PCWIDTH)
+      } .elsewhen (i.asInstanceOf[gOffBundle[Bundle, Bundle]].req.ready && 
+       (centeroidMemPortHadValidRequest(0) || centeroidMemPort.req.valid) && !pcPaused) {
+        offloadRateArray(portId-3) := offloadRateArray(portId-3) + UFix(1, Pcounters.PCWIDTH)
+      }
+    }
+    if (n == "partialAccumulatorMem") {
+      when (IsPcReset) {
+        offloadRateArray(portId-3) := UFix(0, Pcounters.PCWIDTH)
+      } .elsewhen (i.asInstanceOf[gOffBundle[Bundle, Bundle]].req.ready && 
+       (partialAccumulatorMemPortHadValidRequest(0) || partialAccumulatorMemPort.req.valid) && !pcPaused) {
+        offloadRateArray(portId-3) := offloadRateArray(portId-3) + UFix(1, Pcounters.PCWIDTH)
+      }
+    }
+    if (n == "add") {
+      when (IsPcReset) {
+        offloadRateArray(portId-3) := UFix(0, Pcounters.PCWIDTH)
+      } .elsewhen (i.asInstanceOf[gOffBundle[Bundle, Bundle]].req.ready && 
+       (addPortHadValidRequest(0) || addPort.req.valid) && !pcPaused) {
+        offloadRateArray(portId-3) := offloadRateArray(portId-3) + UFix(1, Pcounters.PCWIDTH)
+      }
+    }
+    portId = portId + 1
+  }
+}
+

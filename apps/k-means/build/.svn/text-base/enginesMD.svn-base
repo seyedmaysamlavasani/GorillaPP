@@ -1,0 +1,14 @@
+KEngine PIPELINABLE  26
+
+KDistribute PIPELINABLE  4
+
+KReduce PIPELINABLE  12
+
+adder PIPELINABLE  8
+
+multiplier PIPELINABLE  24
+
+sqrt PIPELINABLE  24
+
+distanceFU PIPELINABLE  12
+

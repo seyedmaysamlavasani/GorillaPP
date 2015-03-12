@@ -1,0 +1,18 @@
+#/bin/bash
+start=1000
+end=1100
+for ((i=$start; i<=$end; i++))
+do
+if [ -d design_$i ] 
+	then
+regs=`grep "Slice Registers" design_$i/GorillaPP_post_PAR.par | awk '{print $5}'`;
+regUtil=`grep "Slice Registers" design_$i/GorillaPP_post_PAR.par | awk '{print $9}'`;
+luts=`grep "Slice LUTs" design_$i/GorillaPP_post_PAR.par | awk '{print $5}'`;
+lutUtil=`grep "Slice LUTs" design_$i/GorillaPP_post_PAR.par | awk '{print $9}'`;
+engines=`grep NUM_OF_ENGINES design_$i/TopConfig | awk '{print $2}'`;
+threads=`grep NUM_OF_THREADS design_$i/TopConfig | awk '{print $2}'`;
+power=`grep '^| Total' design_$i/GorillaPP_post_PAR.pwr | awk '{print $4}'`;
+clk=`grep TS_clk design_$i/GorillaPP_post_PAR.par | gawk '{print $13}' | sed 's/|//g'`;
+echo $regs $regUtil $luts $lutUtil $engines $threads $power $clk;
+fi
+done

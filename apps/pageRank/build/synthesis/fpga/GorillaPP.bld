@@ -1,0 +1,197 @@
+Release 13.1 ngdbuild O.40d (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+
+Command Line: /tools/xilinx-13.1/ISE_DS/ISE/bin/lin64/unwrapped/ngdbuild -dd
+synthesis -uc GorillaPP.ucf GorillaPP.ngc
+
+Reading NGO file
+"/scratchl/maysam/Gorilla++-2/GorillaPP/apps/pageRank/build/synthesis/fpga/Goril
+laPP.ngc" ...
+Loading design module
+"/scratchl/maysam/Gorilla++-2/GorillaPP/apps/pageRank/build/synthesis/fpga/multi
+plier64fp.ngc"...
+Loading design module
+"/scratchl/maysam/Gorilla++-2/GorillaPP/apps/pageRank/build/synthesis/fpga/divid
+er64fp.ngc"...
+Loading design module
+"/scratchl/maysam/Gorilla++-2/GorillaPP/apps/pageRank/build/synthesis/fpga/adder
+64fp.ngc"...
+Gathering constraint information from source properties...
+Done.
+
+Annotating constraints to design from ucf file "GorillaPP.ucf" ...
+Resolving constraint associations...
+Checking Constraint Associations...
+Done...
+
+Checking expanded design ...
+WARNING:NgdBuild:452 - logical net
+   'generatedTop/source/mainComp/offComp/mainComp/offComp/bb/m/clk' has no
+   driver
+WARNING:NgdBuild:452 - logical net
+   'generatedTop/source/mainComp/offComp/offComp/bb/m/clk' has no driver
+WARNING:NgdBuild:452 - logical net 'generatedTop/sink/mainComp/offComp/bb/m/clk'
+   has no driver
+WARNING:NgdBuild:483 - Attribute "INIT" on
+   "generatedTop/sink/mainComp/offComp/bb/m/sig0000071f" is on the wrong type of
+   object.  Please see the Constraints Guide for more information on this
+   attribute.
+WARNING:NgdBuild:483 - Attribute "INIT" on
+   "generatedTop/sink/mainComp/offComp/bb/m/sig00000721" is on the wrong type of
+   object.  Please see the Constraints Guide for more information on this
+   attribute.
+WARNING:NgdBuild:483 - Attribute "INIT" on
+   "generatedTop/sink/mainComp/offComp/bb/m/sig00000723" is on the wrong type of
+   object.  Please see the Constraints Guide for more information on this
+   attribute.
+WARNING:NgdBuild:483 - Attribute "INIT" on
+   "generatedTop/sink/mainComp/offComp/bb/m/sig00000725" is on the wrong type of
+   object.  Please see the Constraints Guide for more information on this
+   attribute.
+WARNING:NgdBuild:483 - Attribute "INIT" on
+   "generatedTop/sink/mainComp/offComp/bb/m/sig00000727" is on the wrong type of
+   object.  Please see the Constraints Guide for more information on this
+   attribute.
+WARNING:NgdBuild:483 - Attribute "INIT" on
+   "generatedTop/sink/mainComp/offComp/bb/m/sig00000729" is on the wrong type of
+   object.  Please see the Constraints Guide for more information on this
+   attribute.
+WARNING:NgdBuild:483 - Attribute "INIT" on
+   "generatedTop/sink/mainComp/offComp/bb/m/sig0000072b" is on the wrong type of
+   object.  Please see the Constraints Guide for more information on this
+   attribute.
+WARNING:NgdBuild:483 - Attribute "INIT" on
+   "generatedTop/sink/mainComp/offComp/bb/m/sig0000072c" is on the wrong type of
+   object.  Please see the Constraints Guide for more information on this
+   attribute.
+WARNING:NgdBuild:483 - Attribute "INIT" on
+   "generatedTop/sink/mainComp/offComp/bb/m/sig0000072d" is on the wrong type of
+   object.  Please see the Constraints Guide for more information on this
+   attribute.
+WARNING:NgdBuild:483 - Attribute "INIT" on
+   "generatedTop/sink/mainComp/offComp/bb/m/sig0000072e" is on the wrong type of
+   object.  Please see the Constraints Guide for more information on this
+   attribute.
+WARNING:NgdBuild:483 - Attribute "INIT" on
+   "generatedTop/sink/mainComp/offComp/bb/m/sig0000072f" is on the wrong type of
+   object.  Please see the Constraints Guide for more information on this
+   attribute.
+WARNING:NgdBuild:483 - Attribute "INIT" on
+   "generatedTop/sink/mainComp/offComp/bb/m/sig00000730" is on the wrong type of
+   object.  Please see the Constraints Guide for more information on this
+   attribute.
+WARNING:NgdBuild:483 - Attribute "INIT" on
+   "generatedTop/sink/mainComp/offComp/bb/m/sig00000731" is on the wrong type of
+   object.  Please see the Constraints Guide for more information on this
+   attribute.
+WARNING:NgdBuild:483 - Attribute "INIT" on
+   "generatedTop/sink/mainComp/offComp/bb/m/sig00000732" is on the wrong type of
+   object.  Please see the Constraints Guide for more information on this
+   attribute.
+WARNING:NgdBuild:483 - Attribute "INIT" on
+   "generatedTop/sink/mainComp/offComp/bb/m/sig00000733" is on the wrong type of
+   object.  Please see the Constraints Guide for more information on this
+   attribute.
+WARNING:NgdBuild:483 - Attribute "INIT" on
+   "generatedTop/sink/mainComp/offComp/bb/m/sig00000734" is on the wrong type of
+   object.  Please see the Constraints Guide for more information on this
+   attribute.
+WARNING:NgdBuild:483 - Attribute "INIT" on
+   "generatedTop/sink/mainComp/offComp/bb/m/sig00000735" is on the wrong type of
+   object.  Please see the Constraints Guide for more information on this
+   attribute.
+WARNING:NgdBuild:483 - Attribute "INIT" on
+   "generatedTop/sink/mainComp/offComp/bb/m/sig00000736" is on the wrong type of
+   object.  Please see the Constraints Guide for more information on this
+   attribute.
+WARNING:NgdBuild:483 - Attribute "INIT" on
+   "generatedTop/sink/mainComp/offComp/bb/m/sig00000737" is on the wrong type of
+   object.  Please see the Constraints Guide for more information on this
+   attribute.
+WARNING:NgdBuild:483 - Attribute "INIT" on
+   "generatedTop/sink/mainComp/offComp/bb/m/sig00000739" is on the wrong type of
+   object.  Please see the Constraints Guide for more information on this
+   attribute.
+WARNING:NgdBuild:483 - Attribute "INIT" on
+   "generatedTop/sink/mainComp/offComp/bb/m/sig0000073b" is on the wrong type of
+   object.  Please see the Constraints Guide for more information on this
+   attribute.
+WARNING:NgdBuild:483 - Attribute "INIT" on
+   "generatedTop/sink/mainComp/offComp/bb/m/sig0000073d" is on the wrong type of
+   object.  Please see the Constraints Guide for more information on this
+   attribute.
+WARNING:NgdBuild:483 - Attribute "INIT" on
+   "generatedTop/sink/mainComp/offComp/bb/m/sig0000073f" is on the wrong type of
+   object.  Please see the Constraints Guide for more information on this
+   attribute.
+WARNING:NgdBuild:483 - Attribute "INIT" on
+   "generatedTop/sink/mainComp/offComp/bb/m/sig00000741" is on the wrong type of
+   object.  Please see the Constraints Guide for more information on this
+   attribute.
+WARNING:NgdBuild:483 - Attribute "INIT" on
+   "generatedTop/sink/mainComp/offComp/bb/m/sig00000743" is on the wrong type of
+   object.  Please see the Constraints Guide for more information on this
+   attribute.
+WARNING:NgdBuild:483 - Attribute "INIT" on
+   "generatedTop/sink/mainComp/offComp/bb/m/sig00000744" is on the wrong type of
+   object.  Please see the Constraints Guide for more information on this
+   attribute.
+WARNING:NgdBuild:483 - Attribute "INIT" on
+   "generatedTop/sink/mainComp/offComp/bb/m/sig00000746" is on the wrong type of
+   object.  Please see the Constraints Guide for more information on this
+   attribute.
+WARNING:NgdBuild:483 - Attribute "INIT" on
+   "generatedTop/sink/mainComp/offComp/bb/m/sig00000747" is on the wrong type of
+   object.  Please see the Constraints Guide for more information on this
+   attribute.
+WARNING:NgdBuild:483 - Attribute "INIT" on
+   "generatedTop/sink/mainComp/offComp/bb/m/sig00000748" is on the wrong type of
+   object.  Please see the Constraints Guide for more information on this
+   attribute.
+WARNING:NgdBuild:483 - Attribute "INIT" on
+   "generatedTop/sink/mainComp/offComp/bb/m/sig00000749" is on the wrong type of
+   object.  Please see the Constraints Guide for more information on this
+   attribute.
+WARNING:NgdBuild:483 - Attribute "INIT" on
+   "generatedTop/sink/mainComp/offComp/bb/m/sig0000074a" is on the wrong type of
+   object.  Please see the Constraints Guide for more information on this
+   attribute.
+WARNING:NgdBuild:483 - Attribute "INIT" on
+   "generatedTop/sink/mainComp/offComp/bb/m/sig0000074b" is on the wrong type of
+   object.  Please see the Constraints Guide for more information on this
+   attribute.
+WARNING:NgdBuild:483 - Attribute "INIT" on
+   "generatedTop/sink/mainComp/offComp/bb/m/sig0000074c" is on the wrong type of
+   object.  Please see the Constraints Guide for more information on this
+   attribute.
+WARNING:NgdBuild:483 - Attribute "INIT" on
+   "generatedTop/sink/mainComp/offComp/bb/m/sig0000074d" is on the wrong type of
+   object.  Please see the Constraints Guide for more information on this
+   attribute.
+WARNING:NgdBuild:483 - Attribute "INIT" on
+   "generatedTop/sink/mainComp/offComp/bb/m/sig0000074e" is on the wrong type of
+   object.  Please see the Constraints Guide for more information on this
+   attribute.
+WARNING:NgdBuild:483 - Attribute "INIT" on
+   "generatedTop/sink/mainComp/offComp/bb/m/sig0000074f" is on the wrong type of
+   object.  Please see the Constraints Guide for more information on this
+   attribute.
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:  39
+
+Total memory usage is 380016 kilobytes
+
+Writing NGD file "GorillaPP.ngd" ...
+Total REAL time to NGDBUILD completion:  21 sec
+Total CPU time to NGDBUILD completion:   21 sec
+
+Writing NGDBUILD log file "GorillaPP.bld"...

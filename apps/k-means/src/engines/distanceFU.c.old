@@ -1,0 +1,139 @@
+#pragma INPUT distanceFU_in_t 
+#pragma OUTPUT distanceFU_out_t
+#pragma OFFLOAD (sub1, FU_in_t, FU_out_t)
+#pragma OFFLOAD (sub2, FU_in_t, FU_out_t)
+#pragma OFFLOAD (sub3, FU_in_t, FU_out_t)
+#pragma OFFLOAD (mul1, FU_in_t, FU_out_t)
+#pragma OFFLOAD (mul2, FU_in_t, FU_out_t)
+#pragma OFFLOAD (mul3, FU_in_t, FU_out_t)
+#pragma OFFLOAD (sqrt, FU_in_t, FU_out_t)
+
+FU_out_t sub1Out, sub2Out, sub3Out;
+
+GS_step1()
+{
+// Output.out = Input.in1.x + Input.in2.x + Input.in1.y + Input.in2.y + Input.in1.z + Input.in2.z;
+  FU_in_t sub1In, sub2In, sub3In;
+  sub1In.in1 = Input.in1.x;
+  sub1In.in2 = Input.in2.x;
+  sub2In.in1 = Input.in1.y;
+  sub2In.in2 = Input.in2.y;
+  sub3In.in1 = Input.in1.z;
+  sub3In.in2 = Input.in2.z;
+  sub1Out = sub1(sub1In);
+  sub2Out = sub2(sub2In);
+  sub1Out = sub3(sub3In);
+  State = GS_step2;
+}
+
+GS_step2()
+{
+  FU_in_t mul1In, mul2In, mul3In;
+  mul1In.in1 = sub1Out.out;
+  mul1In.in2 = sub1Out.out;
+  mul2In.in1 = sub2Out.out;
+  mul2In.in2 = sub2Out.out;
+  mul3In.in1 = sub3Out.out;
+  mul3In.in2 = sub3Out.out;
+  mul1Out = mul1(mul1In);
+  mul2Out = mul2(mul2In);
+  mul3Out = mul3(mul3In);
+  State = GS_step3;
+}
+
+GS_step3()
+{
+ State = GS_step4;
+}
+
+GS_step4()
+{
+ State = GS_step5;
+}
+
+GS_step5()
+{
+ State = GS_step6;
+}
+
+GS_step6()
+{
+ State = GS_step7;
+}
+
+GS_step7()
+{
+ State = GS_step8;
+}
+
+GS_step8()
+{
+ State = GS_step9;
+}
+
+GS_step9()
+{
+ State = GS_step10;
+}
+
+GS_step10()
+{
+ State = GS_step11;
+}
+
+GS_step11()
+{
+ State = GS_step12;
+}
+
+GS_step12()
+{
+ State = GS_step13;
+}
+
+GS_step13()
+{
+ State = GS_step14;
+}
+
+GS_step14()
+{
+ State = GS_step15;
+}
+
+GS_step15()
+{
+ State = GS_step16;
+}
+
+GS_step16()
+{
+ State = GS_step17;
+}
+
+GS_step17()
+{
+ State = GS_step18;
+}
+
+GS_step18()
+{
+ State = GS_step19;
+}
+
+GS_step19()
+{
+ State = GS_step20;
+}
+
+GS_step20()
+{
+ State = GS_step21;
+}
+
+GS_step21()
+{
+ finish();
+}
+
+

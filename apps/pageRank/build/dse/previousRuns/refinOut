@@ -1,0 +1,232 @@
+./refine.pl
+Building original micro-arch
+Throughput is 0.0013
+Refine micro-arch iteration: 1
+Refine: In bottleneck node uw, backpressure is 0.54. offload rate is 0.7618. engine utilizaiton is 0.8726. increase number of threads in engine
+Refined throughput is 0.0021
+PCREPORT: input back pressure uw received 0.2891
+PCREPORT: output back pressure uw received 0.0000
+PCREPORT: offload back pressure 3 uw received 0.0000
+PCREPORT: offload back pressure 4 uw received 0.0000
+PCREPORT: offload back pressure 5 uw received 0.0026
+PCREPORT: offload rate uw received 0.6091
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 0
+AVERAGE_FANOUT 10
+uwThreads 1
+ugThreads 1
+addPipelined false
+mulPipelined false
+divPipelined true
+rcPipelined false
+sharedRc true
+sharedRa false
+ugRepFactor 8
+uwRepFactor 2
+Refine micro-arch iteration: 2
+Refine: In bottleneck node ug, backpressure is 0.9616. Increase Replicating factor for node xx2__Replicated
+Refined throughput is 0.0028
+PCREPORT: input back pressure ug received 0.9396
+PCREPORT: output back pressure ug received 0.4978
+PCREPORT: offload back pressure 3 ug received 0.0000
+PCREPORT: offload back pressure 4 ug received 0.0000
+PCREPORT: offload rate ug received 0.3748
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 0
+AVERAGE_FANOUT 10
+uwThreads 1
+ugThreads 1
+addPipelined false
+mulPipelined false
+divPipelined true
+rcPipelined false
+sharedRc true
+sharedRa false
+ugRepFactor 8
+uwRepFactor 2
+Refine micro-arch iteration: 3
+Refine: In bottleneck node uw, backpressure is 0.7031. offload rate is 0.8209. engine utilizaiton is 0.9353. increase number of threads in engine
+Refined throughput is 0.0046
+PCREPORT: input back pressure uw received 0.3182
+PCREPORT: output back pressure uw received 0.0000
+PCREPORT: offload back pressure 3 uw received 0.0000
+PCREPORT: offload back pressure 4 uw received 0.0000
+PCREPORT: offload back pressure 5 uw received 0.0197
+PCREPORT: offload rate uw received 0.6984
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 0
+AVERAGE_FANOUT 10
+uwThreads 1
+ugThreads 1
+addPipelined false
+mulPipelined false
+divPipelined true
+rcPipelined false
+sharedRc true
+sharedRa false
+ugRepFactor 8
+uwRepFactor 2
+Refine micro-arch iteration: 4
+Refine: In bottleneck node ug, backpressure is 0.9326. offload rate is 0.6231. engine utilizaiton is 0.9951. increase number of threads in engine
+Refined throughput is 0.0057
+PCREPORT: input back pressure ug received 0.8581
+PCREPORT: output back pressure ug received 0.6877
+PCREPORT: offload back pressure 3 ug received 0.0000
+PCREPORT: offload back pressure 4 ug received 0.0032
+PCREPORT: offload rate ug received 0.3986
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 0
+AVERAGE_FANOUT 10
+uwThreads 1
+ugThreads 1
+addPipelined false
+mulPipelined false
+divPipelined true
+rcPipelined false
+sharedRc true
+sharedRa false
+ugRepFactor 8
+uwRepFactor 2
+Refine micro-arch iteration: 5
+Refine: In bottleneck node uw, backpressure is 0.8252. offload rate is 0.8537. engine utilizaiton is 0.9759. increase number of threads in engine
+Refined throughput is 0.0075
+PCREPORT: input back pressure uw received 0.5808
+PCREPORT: output back pressure uw received 0.0000
+PCREPORT: offload back pressure 3 uw received 0.0058
+PCREPORT: offload back pressure 4 uw received 0.0000
+PCREPORT: offload back pressure 5 uw received 0.0527
+PCREPORT: offload rate uw received 0.7744
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 0
+AVERAGE_FANOUT 10
+uwThreads 1
+ugThreads 1
+addPipelined false
+mulPipelined false
+divPipelined true
+rcPipelined false
+sharedRc true
+sharedRa false
+ugRepFactor 8
+uwRepFactor 2
+Refine micro-arch iteration: 6
+Refine: In bottleneck node uw, backpressure is 0.5808. offload rate is 0.7744. engine utilizaiton is 0.9109. increase number of threads in engine
+Refined throughput is 0.0097
+PCREPORT: input back pressure uw received 0.2602
+PCREPORT: output back pressure uw received 0.0000
+PCREPORT: offload back pressure 3 uw received 0.0405
+PCREPORT: offload back pressure 4 uw received 0.0000
+PCREPORT: offload back pressure 5 uw received 0.0742
+PCREPORT: offload rate uw received 0.5710
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 0
+AVERAGE_FANOUT 10
+uwThreads 1
+ugThreads 1
+addPipelined false
+mulPipelined false
+divPipelined true
+rcPipelined false
+sharedRc true
+sharedRa false
+ugRepFactor 8
+uwRepFactor 2
+Refine micro-arch iteration: 7
+Refine: In bottleneck node ug, backpressure is 0.8592. offload rate is 0.6612. engine utilizaiton is 0.9716. increase number of threads in engine
+Refined throughput is 0.0104
+PCREPORT: input back pressure ug received 0.7862
+PCREPORT: output back pressure ug received 0.6743
+PCREPORT: offload back pressure 3 ug received 0.0020
+PCREPORT: offload back pressure 4 ug received 0.0115
+PCREPORT: offload rate ug received 0.2873
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 0
+AVERAGE_FANOUT 10
+uwThreads 1
+ugThreads 1
+addPipelined false
+mulPipelined false
+divPipelined true
+rcPipelined false
+sharedRc true
+sharedRa false
+ugRepFactor 8
+uwRepFactor 2
+Refine micro-arch iteration: 8
+Refine: In bottleneck node uw, backpressure is 0.7534. Increase Replicating factor for node xx3__Replicated
+Refined throughput is 0.0121
+PCREPORT: input back pressure uw received 0.4751
+PCREPORT: output back pressure uw received 0.0002
+PCREPORT: offload back pressure 3 uw received 0.0536
+PCREPORT: offload back pressure 4 uw received 0.0000
+PCREPORT: offload back pressure 5 uw received 0.0237
+PCREPORT: offload rate uw received 0.6279
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 0
+AVERAGE_FANOUT 10
+uwThreads 1
+ugThreads 1
+addPipelined false
+mulPipelined false
+divPipelined true
+rcPipelined false
+sharedRc true
+sharedRa false
+ugRepFactor 8
+uwRepFactor 2
+Refine micro-arch iteration: 9
+Refine: In bottleneck node uw, backpressure is 0.4751. offload rate is 0.6279. engine utilizaiton is 0.8967. increase number of threads in engine
+efined throughput is 0.0122
+PCREPORT: input back pressure uw received 0.0000
+PCREPORT: output back pressure uw received 0.0009
+PCREPORT: offload back pressure 3 uw received 0.0375
+PCREPORT: offload back pressure 4 uw received 0.0000
+PCREPORT: offload back pressure 5 uw received 0.0123
+PCREPORT: offload rate uw received 0.1880
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 0
+AVERAGE_FANOUT 10
+uwThreads 1
+ugThreads 1
+addPipelined false
+mulPipelined false
+divPipelined true
+rcPipelined false
+sharedRc true
+sharedRa false
+ugRepFactor 8
+uwRepFactor 2
+Refine micro-arch iteration: 10
+Refine: In bottleneck node ug, backpressure is 0.82. offload rate is 0.6868. engine utilizaiton is 0.9184. increase number of threads in engine
+Refined throughput is 0.0145
+PCREPORT: input back pressure ug received 0.7099
+PCREPORT: output back pressure ug received 0.5511
+PCREPORT: offload back pressure 3 ug received 0.0470
+PCREPORT: offload back pressure 4 ug received 0.0322
+PCREPORT: offload rate ug received 0.2666
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 0
+AVERAGE_FANOUT 10
+uwThreads 1
+ugThreads 1
+addPipelined false
+mulPipelined false
+divPipelined true
+rcPipelined false
+sharedRc true
+sharedRa false
+ugRepFactor 8
+uwRepFactor 2
+Refine micro-arch iteration: 11
+No more refinement found
+

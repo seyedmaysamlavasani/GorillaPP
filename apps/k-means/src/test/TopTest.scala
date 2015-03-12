@@ -1,0 +1,111 @@
+//class TopTests(o: Top) extends Tester(o, Array(o.io)) with include {
+class TopTests(o: Top) extends gTester(o) with include { 
+  defTests {
+    val inputs_data = List(1, 2, 4, 8)
+    val svars = new HashMap[Node, Node]()
+    val ovars = new HashMap[Node, Node]()
+    //val test = new Top 
+    //val iDelay = 128 
+    val iDelay = 1 
+
+    for (time <- 0 until 5) {
+      svars(o.io.in.valid) = Bool(false)
+      step(svars, ovars, false)
+    }
+    if (compilerControl.pcEnable) {
+      resetPC()
+    }
+    var sourced = 0
+    var sourcedIndex = 0
+    var sinked = 0
+    var sinkedIndex = 0
+    var time = 0
+    //var sinkStarted = false
+    var allPassed = true
+    var cycles = 0
+    var sourcedPoints = 0
+    while(sourcedPoints < NUM_OF_POINTS.litValue().intValue || 
+     sinked < NUM_OF_CENTEROIDS.litValue().intValue) {
+      if (cycles % iDelay == 0) {
+        sourced match {
+          case x if (x < NUM_OF_CENTEROIDS.litValue().intValue) => {
+            svars(o.io.in.bits.pointsFinished) = Bool(false)
+            svars(o.io.in.bits.centeroidsFinished) = Bool(false)
+            svars(o.io.in.valid) = Bool(true)
+            svars(o.io.out.ready) = Bool(true)
+          }
+          case x if (x == NUM_OF_CENTEROIDS.litValue().intValue) => {
+            svars(o.io.in.bits.pointsFinished) = Bool(false)
+            svars(o.io.in.bits.centeroidsFinished) = Bool(true)
+            svars(o.io.in.valid) = Bool(true)
+            svars(o.io.out.ready) = Bool(true)
+          }
+          case x if (x > NUM_OF_CENTEROIDS.litValue().intValue && 
+           x <= NUM_OF_CENTEROIDS.litValue().intValue +
+            NUM_OF_POINTS.litValue().intValue) => {
+            svars(o.io.in.bits.pointsFinished) = Bool(false)
+            svars(o.io.in.bits.centeroidsFinished) = Bool(false)
+            svars(o.io.in.valid) = Bool(true)
+            svars(o.io.out.ready) = Bool(true)
+          }
+          case x if (x == NUM_OF_CENTEROIDS.litValue().intValue + 
+           1 + NUM_OF_POINTS.litValue().intValue) => {
+            svars(o.io.in.bits.pointsFinished) = Bool(true)
+            svars(o.io.in.bits.centeroidsFinished) = Bool(false)
+            svars(o.io.in.valid) = Bool(true)
+            svars(o.io.out.ready) = Bool(true)
+          }
+	      case _ => {
+            svars(o.io.in.bits.pointsFinished) = Bool(false)
+            svars(o.io.in.bits.centeroidsFinished) = Bool(false)
+            svars(o.io.in.valid) = Bool(false)
+            svars(o.io.out.ready) = Bool(false)
+	      }
+       }
+      } else {
+        svars(o.io.in.bits.pointsFinished) = Bool(false)
+        svars(o.io.in.bits.centeroidsFinished) = Bool(false)
+        svars(o.io.in.valid) = Bool(false)
+        svars(o.io.out.ready) = Bool(false)
+      }
+      step(svars, ovars)
+      // bump counters and check outputs after advancing clock
+      if (ovars(o.io.in.ready).litValue() == 1 && 
+       (cycles % iDelay == 0)) {
+        if (sourced > NUM_OF_CENTEROIDS.litValue().intValue && 
+         sourced <= NUM_OF_CENTEROIDS.litValue().intValue + 
+         NUM_OF_POINTS.litValue().intValue) {
+          sourcedPoints += 1
+        }
+        sourced += 1
+        sourcedIndex = sourced % 4 
+        println("sourced and sourcedIndex are " + sourced + 
+         " " + sourcedIndex)
+      }
+      cycles += 1
+      if (ovars(o.io.out.valid).litValue() == 1) {
+        //allPassed = allPassed && 
+        //(ovars(o.io.out.bits).litValue() == 
+        //(inputs_data(sinkedIndex) + 2))
+        if (allPassed == false) {
+	      println("Test failed ") 
+          //+ ovars(o.io.out.bits).litValue() + 
+          //" expected " + (inputs_data(sinkedIndex) +2))
+	      println("Sinked is " + sinked)
+        }
+        println("At " + time + " outpout " + " sinked. Sinked is " + 
+         sinked + " sourced is " + sourced );
+        sinked += 1
+        sinkedIndex = sinked % 4
+      }
+      time += 1
+    }
+    PCReport(cycles, NUM_OF_POINTS.litValue().intValue)
+    step(svars, ovars)
+    allPassed = allPassed && 
+     sinked == NUM_OF_CENTEROIDS.litValue().intValue 
+    allPassed 
+  }
+}
+
+

@@ -1,0 +1,6237 @@
+Benchmark is pageRank 
+
+dim uwThreads is added  with type range 
+dim ugThreads is added  with type range 
+dim addPipelined is added  with type boolean 
+dim mulPipelined is added  with type boolean 
+dim divPipelined is added  with type boolean 
+dim rcPipelined is added  with type boolean 
+dim sharedRc is added  with type boolean 
+dim sharedRa is added  with type boolean 
+dim ugRepFactor is added  with type range 
+dim uwRepFactor is added  with type range 
+dim numOfCacheThreads is added  with type range 
+Initial element is uwRepFactor:1	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:1	clock:100	LUTs:1000000	numOfCacheThreads:1	throughput:0	uwThreads:1	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0016
+********measuring area/clock**************
+Refined Area luts is 9825
+
+Refined Area regs is 9906
+
+Refined Area DSPs is 13
+
+Refined clock is 8.976
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 1
+addPipelined false
+mulPipelined false
+divPipelined false
+rcPipelined false
+sharedRc false
+sharedRa false
+ugRepFactor 1
+uwRepFactor 1
+numOfCacheThreads 1
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+Steepest first called for elementuwRepFactor:1	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:1	clock:100	LUTs:9825
+	numOfCacheThreads:1	throughput:0.0016	uwThreads:1	ugRepFactor:1	sharedRc:false	
+
+Steepest first try on dimensionuwThreads
+old element is uwRepFactor:1	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:1	clock:100	LUTs:9825
+	numOfCacheThreads:1	throughput:0.0016	uwThreads:1	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:1	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:1	clock:100	numOfCacheThreads:1	LUTs:9825
+	uwThreads:2	throughput:0.0016	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0018
+********measuring area/clock**************
+Refined Area luts is 9950
+
+Refined Area regs is 9959
+
+Refined Area DSPs is 13
+
+Refined clock is 8.976
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 2
+ugThreads 1
+addPipelined false
+mulPipelined false
+divPipelined false
+rcPipelined false
+sharedRc false
+sharedRa false
+ugRepFactor 1
+uwRepFactor 1
+numOfCacheThreads 1
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 158800
+optFunc is 140175
+Found a better steepest on dimensionuwThreads
+slope is : 0
+element is: uwRepFactor:1	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:1	clock:100	LUTs:9825
+	numOfCacheThreads:1	throughput:0.0016	uwThreads:1	ugRepFactor:1	sharedRc:false	
+
+new element is: uwRepFactor:1	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:1	clock:100	numOfCacheThreads:1	LUTs:9950
+	uwThreads:2	throughput:0.0018	ugRepFactor:1	sharedRc:false	
+
+old element is uwRepFactor:1	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:1	clock:100	LUTs:9825
+	numOfCacheThreads:1	throughput:0.0016	uwThreads:1	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:1	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:1	clock:100	numOfCacheThreads:1	LUTs:9825
+	uwThreads:2	throughput:0.0016	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0018
+********measuring area/clock**************
+Refined Area luts is 9950
+
+Refined Area regs is 9959
+
+Refined Area DSPs is 13
+
+Refined clock is 8.976
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 2
+ugThreads 1
+addPipelined false
+mulPipelined false
+divPipelined false
+rcPipelined false
+sharedRc false
+sharedRa false
+ugRepFactor 1
+uwRepFactor 1
+numOfCacheThreads 1
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 158800
+optFunc is 158800
+Steepest first try on dimensionugThreads
+old element is uwRepFactor:1	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:1	clock:100	LUTs:9825
+	numOfCacheThreads:1	throughput:0.0016	uwThreads:1	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:1	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:2	clock:100	numOfCacheThreads:1	LUTs:9825
+	uwThreads:1	throughput:0.0016	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0018
+********measuring area/clock**************
+Refined Area luts is 10085
+
+Refined Area regs is 10192
+
+Refined Area DSPs is 13
+
+Refined clock is 8.959
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 2
+addPipelined false
+mulPipelined false
+divPipelined false
+rcPipelined false
+sharedRc false
+sharedRa false
+ugRepFactor 1
+uwRepFactor 1
+numOfCacheThreads 1
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 158665
+optFunc is 158800
+old element is uwRepFactor:1	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:1	clock:100	LUTs:9825
+	numOfCacheThreads:1	throughput:0.0016	uwThreads:1	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:1	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:1	clock:100	numOfCacheThreads:1	LUTs:9825
+	uwThreads:1	throughput:0.0016	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0016
+********measuring area/clock**************
+Refined Area luts is 9825
+
+Refined Area regs is 9906
+
+Refined Area DSPs is 13
+
+Refined clock is 8.976
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 1
+addPipelined false
+mulPipelined false
+divPipelined false
+rcPipelined false
+sharedRc false
+sharedRa false
+ugRepFactor 1
+uwRepFactor 1
+numOfCacheThreads 1
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 140175
+optFunc is 158800
+Steepest first try on dimensionaddPipelined
+old element is uwRepFactor:1	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:1	clock:100	LUTs:9825
+	numOfCacheThreads:1	throughput:0.0016	uwThreads:1	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:1	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:true	divPipelined:false	ugThreads:1	clock:100	numOfCacheThreads:1	LUTs:9825
+	uwThreads:1	throughput:0.0016	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0016
+********measuring area/clock**************
+Refined Area luts is 9825
+
+Refined Area regs is 9906
+
+Refined Area DSPs is 13
+
+Refined clock is 8.976
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 1
+addPipelined true
+mulPipelined false
+divPipelined false
+rcPipelined false
+sharedRc false
+sharedRa false
+ugRepFactor 1
+uwRepFactor 1
+numOfCacheThreads 1
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 140175
+optFunc is 158800
+old element is uwRepFactor:1	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:1	clock:100	LUTs:9825
+	numOfCacheThreads:1	throughput:0.0016	uwThreads:1	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:1	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:true	divPipelined:false	ugThreads:1	clock:100	numOfCacheThreads:1	LUTs:9825
+	uwThreads:1	throughput:0.0016	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0016
+********measuring area/clock**************
+Refined Area luts is 9825
+
+Refined Area regs is 9906
+
+Refined Area DSPs is 13
+
+Refined clock is 8.976
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 1
+addPipelined true
+mulPipelined false
+divPipelined false
+rcPipelined false
+sharedRc false
+sharedRa false
+ugRepFactor 1
+uwRepFactor 1
+numOfCacheThreads 1
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 140175
+optFunc is 158800
+Steepest first try on dimensionmulPipelined
+old element is uwRepFactor:1	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:1	clock:100	LUTs:9825
+	numOfCacheThreads:1	throughput:0.0016	uwThreads:1	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:1	mulPipelined:true	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:1	clock:100	numOfCacheThreads:1	LUTs:9825
+	uwThreads:1	throughput:0.0016	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0016
+********measuring area/clock**************
+Refined Area luts is 9825
+
+Refined Area regs is 9906
+
+Refined Area DSPs is 13
+
+Refined clock is 8.976
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 1
+addPipelined false
+mulPipelined true
+divPipelined false
+rcPipelined false
+sharedRc false
+sharedRa false
+ugRepFactor 1
+uwRepFactor 1
+numOfCacheThreads 1
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 140175
+optFunc is 158800
+old element is uwRepFactor:1	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:1	clock:100	LUTs:9825
+	numOfCacheThreads:1	throughput:0.0016	uwThreads:1	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:1	mulPipelined:true	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:1	clock:100	numOfCacheThreads:1	LUTs:9825
+	uwThreads:1	throughput:0.0016	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0016
+********measuring area/clock**************
+Refined Area luts is 9825
+
+Refined Area regs is 9906
+
+Refined Area DSPs is 13
+
+Refined clock is 8.976
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 1
+addPipelined false
+mulPipelined true
+divPipelined false
+rcPipelined false
+sharedRc false
+sharedRa false
+ugRepFactor 1
+uwRepFactor 1
+numOfCacheThreads 1
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 140175
+optFunc is 158800
+Steepest first try on dimensiondivPipelined
+old element is uwRepFactor:1	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:1	clock:100	LUTs:9825
+	numOfCacheThreads:1	throughput:0.0016	uwThreads:1	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:1	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:true	ugThreads:1	clock:100	numOfCacheThreads:1	LUTs:9825
+	uwThreads:1	throughput:0.0016	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0016
+********measuring area/clock**************
+Refined Area luts is 9825
+
+Refined Area regs is 9906
+
+Refined Area DSPs is 13
+
+Refined clock is 8.976
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 1
+addPipelined false
+mulPipelined false
+divPipelined true
+rcPipelined false
+sharedRc false
+sharedRa false
+ugRepFactor 1
+uwRepFactor 1
+numOfCacheThreads 1
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 140175
+optFunc is 158800
+old element is uwRepFactor:1	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:1	clock:100	LUTs:9825
+	numOfCacheThreads:1	throughput:0.0016	uwThreads:1	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:1	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:true	ugThreads:1	clock:100	numOfCacheThreads:1	LUTs:9825
+	uwThreads:1	throughput:0.0016	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0016
+********measuring area/clock**************
+Refined Area luts is 9825
+
+Refined Area regs is 9906
+
+Refined Area DSPs is 13
+
+Refined clock is 8.976
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 1
+addPipelined false
+mulPipelined false
+divPipelined true
+rcPipelined false
+sharedRc false
+sharedRa false
+ugRepFactor 1
+uwRepFactor 1
+numOfCacheThreads 1
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 140175
+optFunc is 158800
+Steepest first try on dimensionrcPipelined
+old element is uwRepFactor:1	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:1	clock:100	LUTs:9825
+	numOfCacheThreads:1	throughput:0.0016	uwThreads:1	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:1	mulPipelined:false	sharedRa:false	rcPipelined:true	addPipelined:false	divPipelined:false	ugThreads:1	clock:100	numOfCacheThreads:1	LUTs:9825
+	uwThreads:1	throughput:0.0016	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0016
+********measuring area/clock**************
+Refined Area luts is 9825
+
+Refined Area regs is 9906
+
+Refined Area DSPs is 13
+
+Refined clock is 8.976
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 1
+addPipelined false
+mulPipelined false
+divPipelined false
+rcPipelined true
+sharedRc false
+sharedRa false
+ugRepFactor 1
+uwRepFactor 1
+numOfCacheThreads 1
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 140175
+optFunc is 158800
+old element is uwRepFactor:1	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:1	clock:100	LUTs:9825
+	numOfCacheThreads:1	throughput:0.0016	uwThreads:1	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:1	mulPipelined:false	sharedRa:false	rcPipelined:true	addPipelined:false	divPipelined:false	ugThreads:1	clock:100	numOfCacheThreads:1	LUTs:9825
+	uwThreads:1	throughput:0.0016	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0016
+********measuring area/clock**************
+Refined Area luts is 9825
+
+Refined Area regs is 9906
+
+Refined Area DSPs is 13
+
+Refined clock is 8.976
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 1
+addPipelined false
+mulPipelined false
+divPipelined false
+rcPipelined true
+sharedRc false
+sharedRa false
+ugRepFactor 1
+uwRepFactor 1
+numOfCacheThreads 1
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 140175
+optFunc is 158800
+Steepest first try on dimensionsharedRc
+old element is uwRepFactor:1	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:1	clock:100	LUTs:9825
+	numOfCacheThreads:1	throughput:0.0016	uwThreads:1	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:1	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:1	clock:100	numOfCacheThreads:1	LUTs:9825
+	uwThreads:1	throughput:0.0016	ugRepFactor:1	sharedRc:true	
+********measuring performance**************
+Refined throughput is 0.0016
+********measuring area/clock**************
+Refined Area luts is 9824
+
+Refined Area regs is 9905
+
+Refined Area DSPs is 13
+
+Refined clock is 8.978
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 1
+addPipelined false
+mulPipelined false
+divPipelined false
+rcPipelined false
+sharedRc true
+sharedRa false
+ugRepFactor 1
+uwRepFactor 1
+numOfCacheThreads 1
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 140176
+optFunc is 158800
+old element is uwRepFactor:1	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:1	clock:100	LUTs:9825
+	numOfCacheThreads:1	throughput:0.0016	uwThreads:1	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:1	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:1	clock:100	numOfCacheThreads:1	LUTs:9825
+	uwThreads:1	throughput:0.0016	ugRepFactor:1	sharedRc:true	
+********measuring performance**************
+Refined throughput is 0.0016
+********measuring area/clock**************
+Refined Area luts is 9824
+
+Refined Area regs is 9905
+
+Refined Area DSPs is 13
+
+Refined clock is 8.978
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 1
+addPipelined false
+mulPipelined false
+divPipelined false
+rcPipelined false
+sharedRc true
+sharedRa false
+ugRepFactor 1
+uwRepFactor 1
+numOfCacheThreads 1
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 140176
+optFunc is 158800
+Steepest first try on dimensionsharedRa
+old element is uwRepFactor:1	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:1	clock:100	LUTs:9825
+	numOfCacheThreads:1	throughput:0.0016	uwThreads:1	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:1	mulPipelined:false	sharedRa:true	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:1	clock:100	numOfCacheThreads:1	LUTs:9825
+	uwThreads:1	throughput:0.0016	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0016
+********measuring area/clock**************
+Refined Area luts is 9822
+
+Refined Area regs is 9900
+
+Refined Area DSPs is 13
+
+Refined clock is 8.978
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 1
+addPipelined false
+mulPipelined false
+divPipelined false
+rcPipelined false
+sharedRc false
+sharedRa true
+ugRepFactor 1
+uwRepFactor 1
+numOfCacheThreads 1
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 140178
+optFunc is 158800
+old element is uwRepFactor:1	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:1	clock:100	LUTs:9825
+	numOfCacheThreads:1	throughput:0.0016	uwThreads:1	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:1	mulPipelined:false	sharedRa:true	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:1	clock:100	numOfCacheThreads:1	LUTs:9825
+	uwThreads:1	throughput:0.0016	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0016
+********measuring area/clock**************
+Refined Area luts is 9822
+
+Refined Area regs is 9900
+
+Refined Area DSPs is 13
+
+Refined clock is 8.978
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 1
+addPipelined false
+mulPipelined false
+divPipelined false
+rcPipelined false
+sharedRc false
+sharedRa true
+ugRepFactor 1
+uwRepFactor 1
+numOfCacheThreads 1
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 140178
+optFunc is 158800
+Steepest first try on dimensionugRepFactor
+old element is uwRepFactor:1	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:1	clock:100	LUTs:9825
+	numOfCacheThreads:1	throughput:0.0016	uwThreads:1	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:1	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:1	clock:100	numOfCacheThreads:1	LUTs:9825
+	uwThreads:1	throughput:0.0016	ugRepFactor:2	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0018
+********measuring area/clock**************
+Refined Area luts is 14038
+
+Refined Area regs is 16630
+
+Refined Area DSPs is 23
+
+Refined clock is 9.049
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 1
+addPipelined false
+mulPipelined false
+divPipelined false
+rcPipelined false
+sharedRc false
+sharedRa false
+ugRepFactor 2
+uwRepFactor 1
+numOfCacheThreads 1
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 154712
+optFunc is 158800
+old element is uwRepFactor:1	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:1	clock:100	LUTs:9825
+	numOfCacheThreads:1	throughput:0.0016	uwThreads:1	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:1	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:1	clock:100	numOfCacheThreads:1	LUTs:9825
+	uwThreads:1	throughput:0.0016	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0016
+********measuring area/clock**************
+Refined Area luts is 9825
+
+Refined Area regs is 9906
+
+Refined Area DSPs is 13
+
+Refined clock is 8.976
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 1
+addPipelined false
+mulPipelined false
+divPipelined false
+rcPipelined false
+sharedRc false
+sharedRa false
+ugRepFactor 1
+uwRepFactor 1
+numOfCacheThreads 1
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 140175
+optFunc is 158800
+Steepest first try on dimensionuwRepFactor
+old element is uwRepFactor:1	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:1	clock:100	LUTs:9825
+	numOfCacheThreads:1	throughput:0.0016	uwThreads:1	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:1	clock:100	numOfCacheThreads:1	LUTs:9825
+	uwThreads:1	throughput:0.0016	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0020
+********measuring area/clock**************
+Refined Area luts is 10640
+
+Refined Area regs is 10913
+
+Refined Area DSPs is 16
+
+Refined clock is 8.955
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 1
+addPipelined false
+mulPipelined false
+divPipelined false
+rcPipelined false
+sharedRc false
+sharedRa false
+ugRepFactor 1
+uwRepFactor 2
+numOfCacheThreads 1
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 176860
+optFunc is 158800
+Found a better steepest on dimensionuwRepFactor
+slope is : 0
+element is: uwRepFactor:1	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:1	clock:100	LUTs:9825
+	numOfCacheThreads:1	throughput:0.0016	uwThreads:1	ugRepFactor:1	sharedRc:false	
+
+new element is: uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:1	clock:100	numOfCacheThreads:1	LUTs:10640
+	uwThreads:1	throughput:0.0020	ugRepFactor:1	sharedRc:false	
+
+old element is uwRepFactor:1	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:1	clock:100	LUTs:9825
+	numOfCacheThreads:1	throughput:0.0016	uwThreads:1	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:1	clock:100	numOfCacheThreads:1	LUTs:9825
+	uwThreads:1	throughput:0.0016	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0020
+********measuring area/clock**************
+Refined Area luts is 10640
+
+Refined Area regs is 10913
+
+Refined Area DSPs is 16
+
+Refined clock is 8.954
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 1
+addPipelined false
+mulPipelined false
+divPipelined false
+rcPipelined false
+sharedRc false
+sharedRa false
+ugRepFactor 1
+uwRepFactor 2
+numOfCacheThreads 1
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 176860
+optFunc is 176860
+Steepest first try on dimensionnumOfCacheThreads
+old element is uwRepFactor:1	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:1	clock:100	LUTs:9825
+	numOfCacheThreads:1	throughput:0.0016	uwThreads:1	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:1	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:1	clock:100	numOfCacheThreads:2	LUTs:9825
+	uwThreads:1	throughput:0.0016	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0016
+********measuring area/clock**************
+Refined Area luts is 9559
+
+Refined Area regs is 10095
+
+Refined Area DSPs is 13
+
+Refined clock is 8.706
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 1
+addPipelined false
+mulPipelined false
+divPipelined false
+rcPipelined false
+sharedRc false
+sharedRa false
+ugRepFactor 1
+uwRepFactor 1
+numOfCacheThreads 2
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 140441
+optFunc is 176860
+old element is uwRepFactor:1	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:1	clock:100	LUTs:9825
+	numOfCacheThreads:1	throughput:0.0016	uwThreads:1	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:1	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:1	clock:100	numOfCacheThreads:1	LUTs:9825
+	uwThreads:1	throughput:0.0016	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0016
+********measuring area/clock**************
+Refined Area luts is 9825
+
+Refined Area regs is 9906
+
+Refined Area DSPs is 13
+
+Refined clock is 8.976
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 1
+addPipelined false
+mulPipelined false
+divPipelined false
+rcPipelined false
+sharedRc false
+sharedRa false
+ugRepFactor 1
+uwRepFactor 1
+numOfCacheThreads 1
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 140175
+optFunc is 176860
+
+
+optFunc is 176860
+optFunc is 140175
+Change the design pointuwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:1	clock:100	numOfCacheThreads:1	LUTs:10640
+	uwThreads:1	throughput:0.0020	ugRepFactor:1	sharedRc:false	
+
+
+
+Steepest first called for elementuwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:1	clock:100	numOfCacheThreads:1	LUTs:10640
+	uwThreads:1	throughput:0.0020	ugRepFactor:1	sharedRc:false	
+
+Steepest first try on dimensionuwThreads
+old element is uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:1	clock:100	numOfCacheThreads:1	LUTs:10640
+	uwThreads:1	throughput:0.0020	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:1	clock:100	LUTs:10640
+	numOfCacheThreads:1	throughput:0.0020	uwThreads:1	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0020
+********measuring area/clock**************
+Refined Area luts is 10640
+
+Refined Area regs is 10913
+
+Refined Area DSPs is 16
+
+Refined clock is 8.955
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 1
+addPipelined false
+mulPipelined false
+divPipelined false
+rcPipelined false
+sharedRc false
+sharedRa false
+ugRepFactor 1
+uwRepFactor 2
+numOfCacheThreads 1
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 176860
+optFunc is 176860
+old element is uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:1	clock:100	numOfCacheThreads:1	LUTs:10640
+	uwThreads:1	throughput:0.0020	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:1	clock:100	LUTs:10640
+	numOfCacheThreads:1	throughput:0.0020	uwThreads:2	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0020
+********measuring area/clock**************
+Refined Area luts is 10958
+
+Refined Area regs is 11020
+
+Refined Area DSPs is 16
+
+Refined clock is 8.976
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 2
+ugThreads 1
+addPipelined false
+mulPipelined false
+divPipelined false
+rcPipelined false
+sharedRc false
+sharedRa false
+ugRepFactor 1
+uwRepFactor 2
+numOfCacheThreads 1
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 176542
+optFunc is 176860
+Steepest first try on dimensionugThreads
+old element is uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:1	clock:100	numOfCacheThreads:1	LUTs:10640
+	uwThreads:1	throughput:0.0020	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:2	clock:100	LUTs:10640
+	numOfCacheThreads:1	throughput:0.0020	uwThreads:1	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0021
+********measuring area/clock**************
+Refined Area luts is 10910
+
+Refined Area regs is 11200
+
+Refined Area DSPs is 16
+
+Refined clock is 9.177
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 2
+addPipelined false
+mulPipelined false
+divPipelined false
+rcPipelined false
+sharedRc false
+sharedRa false
+ugRepFactor 1
+uwRepFactor 2
+numOfCacheThreads 1
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 185965
+optFunc is 176860
+Found a better steepest on dimensionugThreads
+slope is : 0
+element is: uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:1	clock:100	numOfCacheThreads:1	LUTs:10640
+	uwThreads:1	throughput:0.0020	ugRepFactor:1	sharedRc:false	
+
+new element is: uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:2	clock:100	LUTs:10910
+	numOfCacheThreads:1	throughput:0.0021	uwThreads:1	ugRepFactor:1	sharedRc:false	
+
+old element is uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:1	clock:100	numOfCacheThreads:1	LUTs:10640
+	uwThreads:1	throughput:0.0020	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:2	clock:100	LUTs:10640
+	numOfCacheThreads:1	throughput:0.0020	uwThreads:1	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0021
+********measuring area/clock**************
+Refined Area luts is 10910
+
+Refined Area regs is 11200
+
+Refined Area DSPs is 16
+
+Refined clock is 9.177
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 2
+addPipelined false
+mulPipelined false
+divPipelined false
+rcPipelined false
+sharedRc false
+sharedRa false
+ugRepFactor 1
+uwRepFactor 2
+numOfCacheThreads 1
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 185965
+optFunc is 185965
+Steepest first try on dimensionaddPipelined
+old element is uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:1	clock:100	numOfCacheThreads:1	LUTs:10640
+	uwThreads:1	throughput:0.0020	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:true	ugThreads:1	clock:100	LUTs:10640
+	numOfCacheThreads:1	throughput:0.0020	uwThreads:1	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0020
+********measuring area/clock**************
+Refined Area luts is 10640
+
+Refined Area regs is 10913
+
+Refined Area DSPs is 16
+
+Refined clock is 8.954
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 1
+addPipelined true
+mulPipelined false
+divPipelined false
+rcPipelined false
+sharedRc false
+sharedRa false
+ugRepFactor 1
+uwRepFactor 2
+numOfCacheThreads 1
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 176860
+optFunc is 185965
+old element is uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:1	clock:100	numOfCacheThreads:1	LUTs:10640
+	uwThreads:1	throughput:0.0020	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:true	ugThreads:1	clock:100	LUTs:10640
+	numOfCacheThreads:1	throughput:0.0020	uwThreads:1	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0020
+********measuring area/clock**************
+Refined Area luts is 10640
+
+Refined Area regs is 10913
+
+Refined Area DSPs is 16
+
+Refined clock is 8.954
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 1
+addPipelined true
+mulPipelined false
+divPipelined false
+rcPipelined false
+sharedRc false
+sharedRa false
+ugRepFactor 1
+uwRepFactor 2
+numOfCacheThreads 1
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 176860
+optFunc is 185965
+Steepest first try on dimensionmulPipelined
+old element is uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:1	clock:100	numOfCacheThreads:1	LUTs:10640
+	uwThreads:1	throughput:0.0020	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:2	mulPipelined:true	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:1	clock:100	LUTs:10640
+	numOfCacheThreads:1	throughput:0.0020	uwThreads:1	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0020
+********measuring area/clock**************
+Refined Area luts is 10640
+
+Refined Area regs is 10913
+
+Refined Area DSPs is 16
+
+Refined clock is 8.954
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 1
+addPipelined false
+mulPipelined true
+divPipelined false
+rcPipelined false
+sharedRc false
+sharedRa false
+ugRepFactor 1
+uwRepFactor 2
+numOfCacheThreads 1
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 176860
+optFunc is 185965
+old element is uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:1	clock:100	numOfCacheThreads:1	LUTs:10640
+	uwThreads:1	throughput:0.0020	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:2	mulPipelined:true	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:1	clock:100	LUTs:10640
+	numOfCacheThreads:1	throughput:0.0020	uwThreads:1	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0020
+********measuring area/clock**************
+Refined Area luts is 10640
+
+Refined Area regs is 10913
+
+Refined Area DSPs is 16
+
+Refined clock is 8.954
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 1
+addPipelined false
+mulPipelined true
+divPipelined false
+rcPipelined false
+sharedRc false
+sharedRa false
+ugRepFactor 1
+uwRepFactor 2
+numOfCacheThreads 1
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 176860
+optFunc is 185965
+Steepest first try on dimensiondivPipelined
+old element is uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:1	clock:100	numOfCacheThreads:1	LUTs:10640
+	uwThreads:1	throughput:0.0020	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:true	addPipelined:false	ugThreads:1	clock:100	LUTs:10640
+	numOfCacheThreads:1	throughput:0.0020	uwThreads:1	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0020
+********measuring area/clock**************
+Refined Area luts is 10640
+
+Refined Area regs is 10913
+
+Refined Area DSPs is 16
+
+Refined clock is 8.955
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 1
+addPipelined false
+mulPipelined false
+divPipelined true
+rcPipelined false
+sharedRc false
+sharedRa false
+ugRepFactor 1
+uwRepFactor 2
+numOfCacheThreads 1
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 176860
+optFunc is 185965
+old element is uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:1	clock:100	numOfCacheThreads:1	LUTs:10640
+	uwThreads:1	throughput:0.0020	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:true	addPipelined:false	ugThreads:1	clock:100	LUTs:10640
+	numOfCacheThreads:1	throughput:0.0020	uwThreads:1	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0020
+********measuring area/clock**************
+Refined Area luts is 10640
+
+Refined Area regs is 10913
+
+Refined Area DSPs is 16
+
+Refined clock is 8.955
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 1
+addPipelined false
+mulPipelined false
+divPipelined true
+rcPipelined false
+sharedRc false
+sharedRa false
+ugRepFactor 1
+uwRepFactor 2
+numOfCacheThreads 1
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 176860
+optFunc is 185965
+Steepest first try on dimensionrcPipelined
+old element is uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:1	clock:100	numOfCacheThreads:1	LUTs:10640
+	uwThreads:1	throughput:0.0020	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:true	divPipelined:false	addPipelined:false	ugThreads:1	clock:100	LUTs:10640
+	numOfCacheThreads:1	throughput:0.0020	uwThreads:1	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0020
+********measuring area/clock**************
+Refined Area luts is 10640
+
+Refined Area regs is 10913
+
+Refined Area DSPs is 16
+
+Refined clock is 8.955
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 1
+addPipelined false
+mulPipelined false
+divPipelined false
+rcPipelined true
+sharedRc false
+sharedRa false
+ugRepFactor 1
+uwRepFactor 2
+numOfCacheThreads 1
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 176860
+optFunc is 185965
+old element is uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:1	clock:100	numOfCacheThreads:1	LUTs:10640
+	uwThreads:1	throughput:0.0020	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:true	divPipelined:false	addPipelined:false	ugThreads:1	clock:100	LUTs:10640
+	numOfCacheThreads:1	throughput:0.0020	uwThreads:1	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0020
+********measuring area/clock**************
+Refined Area luts is 10640
+
+Refined Area regs is 10913
+
+Refined Area DSPs is 16
+
+Refined clock is 8.954
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 1
+addPipelined false
+mulPipelined false
+divPipelined false
+rcPipelined true
+sharedRc false
+sharedRa false
+ugRepFactor 1
+uwRepFactor 2
+numOfCacheThreads 1
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 176860
+optFunc is 185965
+Steepest first try on dimensionsharedRc
+old element is uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:1	clock:100	numOfCacheThreads:1	LUTs:10640
+	uwThreads:1	throughput:0.0020	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:1	clock:100	LUTs:10640
+	numOfCacheThreads:1	throughput:0.0020	uwThreads:1	ugRepFactor:1	sharedRc:true	
+********measuring performance**************
+Refined throughput is 0.0020
+********measuring area/clock**************
+Refined Area luts is 10640
+
+Refined Area regs is 10913
+
+Refined Area DSPs is 16
+
+Refined clock is 8.955
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 1
+addPipelined false
+mulPipelined false
+divPipelined false
+rcPipelined false
+sharedRc true
+sharedRa false
+ugRepFactor 1
+uwRepFactor 2
+numOfCacheThreads 1
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 176860
+optFunc is 185965
+old element is uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:1	clock:100	numOfCacheThreads:1	LUTs:10640
+	uwThreads:1	throughput:0.0020	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:1	clock:100	LUTs:10640
+	numOfCacheThreads:1	throughput:0.0020	uwThreads:1	ugRepFactor:1	sharedRc:true	
+********measuring performance**************
+Refined throughput is 0.0020
+********measuring area/clock**************
+Refined Area luts is 10640
+
+Refined Area regs is 10913
+
+Refined Area DSPs is 16
+
+Refined clock is 8.954
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 1
+addPipelined false
+mulPipelined false
+divPipelined false
+rcPipelined false
+sharedRc true
+sharedRa false
+ugRepFactor 1
+uwRepFactor 2
+numOfCacheThreads 1
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 176860
+optFunc is 185965
+Steepest first try on dimensionsharedRa
+old element is uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:1	clock:100	numOfCacheThreads:1	LUTs:10640
+	uwThreads:1	throughput:0.0020	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:2	mulPipelined:false	sharedRa:true	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:1	clock:100	LUTs:10640
+	numOfCacheThreads:1	throughput:0.0020	uwThreads:1	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0020
+********measuring area/clock**************
+Refined Area luts is 9989
+
+Refined Area regs is 9960
+
+Refined Area DSPs is 13
+
+Refined clock is 8.912
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 1
+addPipelined false
+mulPipelined false
+divPipelined false
+rcPipelined false
+sharedRc false
+sharedRa true
+ugRepFactor 1
+uwRepFactor 2
+numOfCacheThreads 1
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 177511
+optFunc is 185965
+old element is uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:1	clock:100	numOfCacheThreads:1	LUTs:10640
+	uwThreads:1	throughput:0.0020	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:2	mulPipelined:false	sharedRa:true	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:1	clock:100	LUTs:10640
+	numOfCacheThreads:1	throughput:0.0020	uwThreads:1	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0020
+********measuring area/clock**************
+Refined Area luts is 9989
+
+Refined Area regs is 9960
+
+Refined Area DSPs is 13
+
+Refined clock is 8.912
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 1
+addPipelined false
+mulPipelined false
+divPipelined false
+rcPipelined false
+sharedRc false
+sharedRa true
+ugRepFactor 1
+uwRepFactor 2
+numOfCacheThreads 1
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 177511
+optFunc is 185965
+Steepest first try on dimensionugRepFactor
+old element is uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:1	clock:100	numOfCacheThreads:1	LUTs:10640
+	uwThreads:1	throughput:0.0020	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:1	clock:100	LUTs:10640
+	numOfCacheThreads:1	throughput:0.0020	uwThreads:1	ugRepFactor:2	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0021
+********measuring area/clock**************
+Refined Area luts is 14889
+
+Refined Area regs is 17637
+
+Refined Area DSPs is 26
+
+Refined clock is 8.957
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 1
+addPipelined false
+mulPipelined false
+divPipelined false
+rcPipelined false
+sharedRc false
+sharedRa false
+ugRepFactor 2
+uwRepFactor 2
+numOfCacheThreads 1
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 181986
+optFunc is 185965
+old element is uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:1	clock:100	numOfCacheThreads:1	LUTs:10640
+	uwThreads:1	throughput:0.0020	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:1	clock:100	LUTs:10640
+	numOfCacheThreads:1	throughput:0.0020	uwThreads:1	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0020
+********measuring area/clock**************
+Refined Area luts is 10640
+
+Refined Area regs is 10913
+
+Refined Area DSPs is 16
+
+Refined clock is 8.955
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 1
+addPipelined false
+mulPipelined false
+divPipelined false
+rcPipelined false
+sharedRc false
+sharedRa false
+ugRepFactor 1
+uwRepFactor 2
+numOfCacheThreads 1
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 176860
+optFunc is 185965
+Steepest first try on dimensionuwRepFactor
+old element is uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:1	clock:100	numOfCacheThreads:1	LUTs:10640
+	uwThreads:1	throughput:0.0020	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:1	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:1	clock:100	LUTs:10640
+	numOfCacheThreads:1	throughput:0.0020	uwThreads:1	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0016
+********measuring area/clock**************
+Refined Area luts is 9825
+
+Refined Area regs is 9906
+
+Refined Area DSPs is 13
+
+Refined clock is 8.976
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 1
+addPipelined false
+mulPipelined false
+divPipelined false
+rcPipelined false
+sharedRc false
+sharedRa false
+ugRepFactor 1
+uwRepFactor 1
+numOfCacheThreads 1
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 140175
+optFunc is 185965
+old element is uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:1	clock:100	numOfCacheThreads:1	LUTs:10640
+	uwThreads:1	throughput:0.0020	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:3	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:1	clock:100	LUTs:10640
+	numOfCacheThreads:1	throughput:0.0020	uwThreads:1	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0020
+********measuring area/clock**************
+Refined Area luts is 11567
+
+Refined Area regs is 11920
+
+Refined Area DSPs is 19
+
+Refined clock is 8.955
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 1
+addPipelined false
+mulPipelined false
+divPipelined false
+rcPipelined false
+sharedRc false
+sharedRa false
+ugRepFactor 1
+uwRepFactor 3
+numOfCacheThreads 1
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 175933
+optFunc is 185965
+Steepest first try on dimensionnumOfCacheThreads
+old element is uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:1	clock:100	numOfCacheThreads:1	LUTs:10640
+	uwThreads:1	throughput:0.0020	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:1	clock:100	LUTs:10640
+	numOfCacheThreads:2	throughput:0.0020	uwThreads:1	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0026
+********measuring area/clock**************
+Refined Area luts is 10531
+
+Refined Area regs is 11103
+
+Refined Area DSPs is 16
+
+Refined clock is 8.728
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 1
+addPipelined false
+mulPipelined false
+divPipelined false
+rcPipelined false
+sharedRc false
+sharedRa false
+ugRepFactor 1
+uwRepFactor 2
+numOfCacheThreads 2
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 233219
+optFunc is 185965
+Found a better steepest on dimensionnumOfCacheThreads
+slope is : 0
+element is: uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:1	clock:100	numOfCacheThreads:1	LUTs:10640
+	uwThreads:1	throughput:0.0020	ugRepFactor:1	sharedRc:false	
+
+new element is: uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:1	clock:100	LUTs:10531
+	numOfCacheThreads:2	throughput:0.0026	uwThreads:1	ugRepFactor:1	sharedRc:false	
+
+old element is uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:1	clock:100	numOfCacheThreads:1	LUTs:10640
+	uwThreads:1	throughput:0.0020	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:1	clock:100	LUTs:10640
+	numOfCacheThreads:2	throughput:0.0020	uwThreads:1	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0026
+********measuring area/clock**************
+Refined Area luts is 10531
+
+Refined Area regs is 11103
+
+Refined Area DSPs is 16
+
+Refined clock is 8.728
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 1
+addPipelined false
+mulPipelined false
+divPipelined false
+rcPipelined false
+sharedRc false
+sharedRa false
+ugRepFactor 1
+uwRepFactor 2
+numOfCacheThreads 2
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 233219
+optFunc is 233219
+
+
+optFunc is 233219
+optFunc is 176860
+Change the design pointuwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:1	clock:100	LUTs:10531
+	numOfCacheThreads:2	throughput:0.0026	uwThreads:1	ugRepFactor:1	sharedRc:false	
+
+
+
+Steepest first called for elementuwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:1	clock:100	LUTs:10531
+	numOfCacheThreads:2	throughput:0.0026	uwThreads:1	ugRepFactor:1	sharedRc:false	
+
+Steepest first try on dimensionuwThreads
+old element is uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:1	clock:100	LUTs:10531
+	numOfCacheThreads:2	throughput:0.0026	uwThreads:1	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:1	clock:100	numOfCacheThreads:2	LUTs:10531
+	uwThreads:1	throughput:0.0026	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0026
+********measuring area/clock**************
+Refined Area luts is 10531
+
+Refined Area regs is 11103
+
+Refined Area DSPs is 16
+
+Refined clock is 8.728
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 1
+addPipelined false
+mulPipelined false
+divPipelined false
+rcPipelined false
+sharedRc false
+sharedRa false
+ugRepFactor 1
+uwRepFactor 2
+numOfCacheThreads 2
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 233219
+optFunc is 233219
+old element is uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:1	clock:100	LUTs:10531
+	numOfCacheThreads:2	throughput:0.0026	uwThreads:1	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:1	clock:100	numOfCacheThreads:2	LUTs:10531
+	uwThreads:2	throughput:0.0026	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0026
+********measuring area/clock**************
+Refined Area luts is 10777
+
+Refined Area regs is 11211
+
+Refined Area DSPs is 16
+
+Refined clock is 8.717
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 2
+ugThreads 1
+addPipelined false
+mulPipelined false
+divPipelined false
+rcPipelined false
+sharedRc false
+sharedRa false
+ugRepFactor 1
+uwRepFactor 2
+numOfCacheThreads 2
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 232973
+optFunc is 233219
+Steepest first try on dimensionugThreads
+old element is uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:1	clock:100	LUTs:10531
+	numOfCacheThreads:2	throughput:0.0026	uwThreads:1	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:1	clock:100	numOfCacheThreads:2	LUTs:10531
+	uwThreads:1	throughput:0.0026	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0026
+********measuring area/clock**************
+Refined Area luts is 10531
+
+Refined Area regs is 11103
+
+Refined Area DSPs is 16
+
+Refined clock is 8.728
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 1
+addPipelined false
+mulPipelined false
+divPipelined false
+rcPipelined false
+sharedRc false
+sharedRa false
+ugRepFactor 1
+uwRepFactor 2
+numOfCacheThreads 2
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 233219
+optFunc is 233219
+old element is uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:1	clock:100	LUTs:10531
+	numOfCacheThreads:2	throughput:0.0026	uwThreads:1	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:2	clock:100	numOfCacheThreads:2	LUTs:10531
+	uwThreads:1	throughput:0.0026	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0036
+********measuring area/clock**************
+Refined Area luts is 10690
+
+Refined Area regs is 11391
+
+Refined Area DSPs is 16
+
+Refined clock is 8.644
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 2
+addPipelined false
+mulPipelined false
+divPipelined false
+rcPipelined false
+sharedRc false
+sharedRa false
+ugRepFactor 1
+uwRepFactor 2
+numOfCacheThreads 2
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 326810
+optFunc is 233219
+Found a better steepest on dimensionugThreads
+slope is : 1
+element is: uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:1	clock:100	LUTs:10531
+	numOfCacheThreads:2	throughput:0.0026	uwThreads:1	ugRepFactor:1	sharedRc:false	
+
+new element is: uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:2	clock:100	numOfCacheThreads:2	LUTs:10690
+	uwThreads:1	throughput:0.0036	ugRepFactor:1	sharedRc:false	
+
+old element is uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:1	clock:100	LUTs:10531
+	numOfCacheThreads:2	throughput:0.0026	uwThreads:1	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:2	clock:100	numOfCacheThreads:2	LUTs:10531
+	uwThreads:1	throughput:0.0026	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0036
+********measuring area/clock**************
+Refined Area luts is 10690
+
+Refined Area regs is 11391
+
+Refined Area DSPs is 16
+
+Refined clock is 8.644
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 2
+addPipelined false
+mulPipelined false
+divPipelined false
+rcPipelined false
+sharedRc false
+sharedRa false
+ugRepFactor 1
+uwRepFactor 2
+numOfCacheThreads 2
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 326810
+optFunc is 326810
+Steepest first try on dimensionaddPipelined
+old element is uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:1	clock:100	LUTs:10531
+	numOfCacheThreads:2	throughput:0.0026	uwThreads:1	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:true	divPipelined:false	ugThreads:1	clock:100	numOfCacheThreads:2	LUTs:10531
+	uwThreads:1	throughput:0.0026	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0026
+********measuring area/clock**************
+Refined Area luts is 10531
+
+Refined Area regs is 11103
+
+Refined Area DSPs is 16
+
+Refined clock is 8.728
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 1
+addPipelined true
+mulPipelined false
+divPipelined false
+rcPipelined false
+sharedRc false
+sharedRa false
+ugRepFactor 1
+uwRepFactor 2
+numOfCacheThreads 2
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 233219
+optFunc is 326810
+old element is uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:1	clock:100	LUTs:10531
+	numOfCacheThreads:2	throughput:0.0026	uwThreads:1	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:true	divPipelined:false	ugThreads:1	clock:100	numOfCacheThreads:2	LUTs:10531
+	uwThreads:1	throughput:0.0026	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0026
+********measuring area/clock**************
+Refined Area luts is 10531
+
+Refined Area regs is 11103
+
+Refined Area DSPs is 16
+
+Refined clock is 8.728
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 1
+addPipelined true
+mulPipelined false
+divPipelined false
+rcPipelined false
+sharedRc false
+sharedRa false
+ugRepFactor 1
+uwRepFactor 2
+numOfCacheThreads 2
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 233219
+optFunc is 326810
+Steepest first try on dimensionmulPipelined
+old element is uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:1	clock:100	LUTs:10531
+	numOfCacheThreads:2	throughput:0.0026	uwThreads:1	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:2	mulPipelined:true	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:1	clock:100	numOfCacheThreads:2	LUTs:10531
+	uwThreads:1	throughput:0.0026	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0026
+********measuring area/clock**************
+Refined Area luts is 10531
+
+Refined Area regs is 11103
+
+Refined Area DSPs is 16
+
+Refined clock is 8.728
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 1
+addPipelined false
+mulPipelined true
+divPipelined false
+rcPipelined false
+sharedRc false
+sharedRa false
+ugRepFactor 1
+uwRepFactor 2
+numOfCacheThreads 2
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 233219
+optFunc is 326810
+old element is uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:1	clock:100	LUTs:10531
+	numOfCacheThreads:2	throughput:0.0026	uwThreads:1	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:2	mulPipelined:true	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:1	clock:100	numOfCacheThreads:2	LUTs:10531
+	uwThreads:1	throughput:0.0026	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0026
+********measuring area/clock**************
+Refined Area luts is 10531
+
+Refined Area regs is 11103
+
+Refined Area DSPs is 16
+
+Refined clock is 8.728
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 1
+addPipelined false
+mulPipelined true
+divPipelined false
+rcPipelined false
+sharedRc false
+sharedRa false
+ugRepFactor 1
+uwRepFactor 2
+numOfCacheThreads 2
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 233219
+optFunc is 326810
+Steepest first try on dimensiondivPipelined
+old element is uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:1	clock:100	LUTs:10531
+	numOfCacheThreads:2	throughput:0.0026	uwThreads:1	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:true	ugThreads:1	clock:100	numOfCacheThreads:2	LUTs:10531
+	uwThreads:1	throughput:0.0026	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0026
+********measuring area/clock**************
+Refined Area luts is 10531
+
+Refined Area regs is 11103
+
+Refined Area DSPs is 16
+
+Refined clock is 8.728
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 1
+addPipelined false
+mulPipelined false
+divPipelined true
+rcPipelined false
+sharedRc false
+sharedRa false
+ugRepFactor 1
+uwRepFactor 2
+numOfCacheThreads 2
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 233219
+optFunc is 326810
+old element is uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:1	clock:100	LUTs:10531
+	numOfCacheThreads:2	throughput:0.0026	uwThreads:1	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:true	ugThreads:1	clock:100	numOfCacheThreads:2	LUTs:10531
+	uwThreads:1	throughput:0.0026	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0026
+********measuring area/clock**************
+Refined Area luts is 10531
+
+Refined Area regs is 11103
+
+Refined Area DSPs is 16
+
+Refined clock is 8.728
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 1
+addPipelined false
+mulPipelined false
+divPipelined true
+rcPipelined false
+sharedRc false
+sharedRa false
+ugRepFactor 1
+uwRepFactor 2
+numOfCacheThreads 2
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 233219
+optFunc is 326810
+Steepest first try on dimensionrcPipelined
+old element is uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:1	clock:100	LUTs:10531
+	numOfCacheThreads:2	throughput:0.0026	uwThreads:1	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:true	addPipelined:false	divPipelined:false	ugThreads:1	clock:100	numOfCacheThreads:2	LUTs:10531
+	uwThreads:1	throughput:0.0026	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0026
+********measuring area/clock**************
+Refined Area luts is 10531
+
+Refined Area regs is 11103
+
+Refined Area DSPs is 16
+
+Refined clock is 8.728
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 1
+addPipelined false
+mulPipelined false
+divPipelined false
+rcPipelined true
+sharedRc false
+sharedRa false
+ugRepFactor 1
+uwRepFactor 2
+numOfCacheThreads 2
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 233219
+optFunc is 326810
+old element is uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:1	clock:100	LUTs:10531
+	numOfCacheThreads:2	throughput:0.0026	uwThreads:1	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:true	addPipelined:false	divPipelined:false	ugThreads:1	clock:100	numOfCacheThreads:2	LUTs:10531
+	uwThreads:1	throughput:0.0026	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0026
+********measuring area/clock**************
+Refined Area luts is 10531
+
+Refined Area regs is 11103
+
+Refined Area DSPs is 16
+
+Refined clock is 8.728
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 1
+addPipelined false
+mulPipelined false
+divPipelined false
+rcPipelined true
+sharedRc false
+sharedRa false
+ugRepFactor 1
+uwRepFactor 2
+numOfCacheThreads 2
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 233219
+optFunc is 326810
+Steepest first try on dimensionsharedRc
+old element is uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:1	clock:100	LUTs:10531
+	numOfCacheThreads:2	throughput:0.0026	uwThreads:1	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:1	clock:100	numOfCacheThreads:2	LUTs:10531
+	uwThreads:1	throughput:0.0026	ugRepFactor:1	sharedRc:true	
+********measuring performance**************
+Refined throughput is 0.0026
+********measuring area/clock**************
+Refined Area luts is 10531
+
+Refined Area regs is 11103
+
+Refined Area DSPs is 16
+
+Refined clock is 8.728
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 1
+addPipelined false
+mulPipelined false
+divPipelined false
+rcPipelined false
+sharedRc true
+sharedRa false
+ugRepFactor 1
+uwRepFactor 2
+numOfCacheThreads 2
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 233219
+optFunc is 326810
+old element is uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:1	clock:100	LUTs:10531
+	numOfCacheThreads:2	throughput:0.0026	uwThreads:1	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:1	clock:100	numOfCacheThreads:2	LUTs:10531
+	uwThreads:1	throughput:0.0026	ugRepFactor:1	sharedRc:true	
+********measuring performance**************
+Refined throughput is 0.0026
+********measuring area/clock**************
+Refined Area luts is 10531
+
+Refined Area regs is 11103
+
+Refined Area DSPs is 16
+
+Refined clock is 8.728
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 1
+addPipelined false
+mulPipelined false
+divPipelined false
+rcPipelined false
+sharedRc true
+sharedRa false
+ugRepFactor 1
+uwRepFactor 2
+numOfCacheThreads 2
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 233219
+optFunc is 326810
+Steepest first try on dimensionsharedRa
+old element is uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:1	clock:100	LUTs:10531
+	numOfCacheThreads:2	throughput:0.0026	uwThreads:1	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:2	mulPipelined:false	sharedRa:true	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:1	clock:100	numOfCacheThreads:2	LUTs:10531
+	uwThreads:1	throughput:0.0026	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0026
+********measuring area/clock**************
+Refined Area luts is 9777
+
+Refined Area regs is 10150
+
+Refined Area DSPs is 13
+
+Refined clock is 8.857
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 1
+addPipelined false
+mulPipelined false
+divPipelined false
+rcPipelined false
+sharedRc false
+sharedRa true
+ugRepFactor 1
+uwRepFactor 2
+numOfCacheThreads 2
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 233973
+optFunc is 326810
+old element is uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:1	clock:100	LUTs:10531
+	numOfCacheThreads:2	throughput:0.0026	uwThreads:1	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:2	mulPipelined:false	sharedRa:true	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:1	clock:100	numOfCacheThreads:2	LUTs:10531
+	uwThreads:1	throughput:0.0026	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0026
+********measuring area/clock**************
+Refined Area luts is 9777
+
+Refined Area regs is 10150
+
+Refined Area DSPs is 13
+
+Refined clock is 8.858
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 1
+addPipelined false
+mulPipelined false
+divPipelined false
+rcPipelined false
+sharedRc false
+sharedRa true
+ugRepFactor 1
+uwRepFactor 2
+numOfCacheThreads 2
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 233973
+optFunc is 326810
+Steepest first try on dimensionugRepFactor
+old element is uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:1	clock:100	LUTs:10531
+	numOfCacheThreads:2	throughput:0.0026	uwThreads:1	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:1	clock:100	numOfCacheThreads:2	LUTs:10531
+	uwThreads:1	throughput:0.0026	ugRepFactor:2	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0036
+********measuring area/clock**************
+Refined Area luts is 14637
+
+Refined Area regs is 17827
+
+Refined Area DSPs is 26
+
+Refined clock is 8.611
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 1
+addPipelined false
+mulPipelined false
+divPipelined false
+rcPipelined false
+sharedRc false
+sharedRa false
+ugRepFactor 2
+uwRepFactor 2
+numOfCacheThreads 2
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 322863
+optFunc is 326810
+old element is uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:1	clock:100	LUTs:10531
+	numOfCacheThreads:2	throughput:0.0026	uwThreads:1	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:1	clock:100	numOfCacheThreads:2	LUTs:10531
+	uwThreads:1	throughput:0.0026	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0026
+********measuring area/clock**************
+Refined Area luts is 10531
+
+Refined Area regs is 11103
+
+Refined Area DSPs is 16
+
+Refined clock is 8.728
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 1
+addPipelined false
+mulPipelined false
+divPipelined false
+rcPipelined false
+sharedRc false
+sharedRa false
+ugRepFactor 1
+uwRepFactor 2
+numOfCacheThreads 2
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 233219
+optFunc is 326810
+Steepest first try on dimensionuwRepFactor
+old element is uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:1	clock:100	LUTs:10531
+	numOfCacheThreads:2	throughput:0.0026	uwThreads:1	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:1	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:1	clock:100	numOfCacheThreads:2	LUTs:10531
+	uwThreads:1	throughput:0.0026	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0016
+********measuring area/clock**************
+Refined Area luts is 9559
+
+Refined Area regs is 10095
+
+Refined Area DSPs is 13
+
+Refined clock is 8.706
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 1
+addPipelined false
+mulPipelined false
+divPipelined false
+rcPipelined false
+sharedRc false
+sharedRa false
+ugRepFactor 1
+uwRepFactor 1
+numOfCacheThreads 2
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 140441
+optFunc is 326810
+old element is uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:1	clock:100	LUTs:10531
+	numOfCacheThreads:2	throughput:0.0026	uwThreads:1	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:3	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:1	clock:100	numOfCacheThreads:2	LUTs:10531
+	uwThreads:1	throughput:0.0026	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0031
+********measuring area/clock**************
+Refined Area luts is 11414
+
+Refined Area regs is 12110
+
+Refined Area DSPs is 19
+
+Refined clock is 8.666
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 1
+addPipelined false
+mulPipelined false
+divPipelined false
+rcPipelined false
+sharedRc false
+sharedRa false
+ugRepFactor 1
+uwRepFactor 3
+numOfCacheThreads 2
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 279211
+optFunc is 326810
+Steepest first try on dimensionnumOfCacheThreads
+old element is uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:1	clock:100	LUTs:10531
+	numOfCacheThreads:2	throughput:0.0026	uwThreads:1	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:1	clock:100	numOfCacheThreads:1	LUTs:10531
+	uwThreads:1	throughput:0.0026	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0020
+********measuring area/clock**************
+Refined Area luts is 10640
+
+Refined Area regs is 10913
+
+Refined Area DSPs is 16
+
+Refined clock is 8.954
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 1
+addPipelined false
+mulPipelined false
+divPipelined false
+rcPipelined false
+sharedRc false
+sharedRa false
+ugRepFactor 1
+uwRepFactor 2
+numOfCacheThreads 1
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 176860
+optFunc is 326810
+old element is uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:1	clock:100	LUTs:10531
+	numOfCacheThreads:2	throughput:0.0026	uwThreads:1	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:1	clock:100	numOfCacheThreads:3	LUTs:10531
+	uwThreads:1	throughput:0.0026	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0024
+********measuring area/clock**************
+Refined Area luts is 10617
+
+Refined Area regs is 11287
+
+Refined Area DSPs is 16
+
+Refined clock is 8.658
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 1
+addPipelined false
+mulPipelined false
+divPipelined false
+rcPipelined false
+sharedRc false
+sharedRa false
+ugRepFactor 1
+uwRepFactor 2
+numOfCacheThreads 3
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 214383
+optFunc is 326810
+
+
+optFunc is 326810
+optFunc is 233219
+Change the design pointuwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:2	clock:100	numOfCacheThreads:2	LUTs:10690
+	uwThreads:1	throughput:0.0036	ugRepFactor:1	sharedRc:false	
+
+
+
+Steepest first called for elementuwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:2	clock:100	numOfCacheThreads:2	LUTs:10690
+	uwThreads:1	throughput:0.0036	ugRepFactor:1	sharedRc:false	
+
+Steepest first try on dimensionuwThreads
+old element is uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:2	clock:100	numOfCacheThreads:2	LUTs:10690
+	uwThreads:1	throughput:0.0036	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:2	clock:100	LUTs:10690
+	numOfCacheThreads:2	throughput:0.0036	uwThreads:1	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0036
+********measuring area/clock**************
+Refined Area luts is 10690
+
+Refined Area regs is 11391
+
+Refined Area DSPs is 16
+
+Refined clock is 8.644
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 2
+addPipelined false
+mulPipelined false
+divPipelined false
+rcPipelined false
+sharedRc false
+sharedRa false
+ugRepFactor 1
+uwRepFactor 2
+numOfCacheThreads 2
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 326810
+optFunc is 326810
+old element is uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:2	clock:100	numOfCacheThreads:2	LUTs:10690
+	uwThreads:1	throughput:0.0036	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:2	clock:100	LUTs:10690
+	numOfCacheThreads:2	throughput:0.0036	uwThreads:2	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0036
+********measuring area/clock**************
+Refined Area luts is 10940
+
+Refined Area regs is 11499
+
+Refined Area DSPs is 16
+
+Refined clock is 8.676
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 2
+ugThreads 2
+addPipelined false
+mulPipelined false
+divPipelined false
+rcPipelined false
+sharedRc false
+sharedRa false
+ugRepFactor 1
+uwRepFactor 2
+numOfCacheThreads 2
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 326560
+optFunc is 326810
+Steepest first try on dimensionugThreads
+old element is uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:2	clock:100	numOfCacheThreads:2	LUTs:10690
+	uwThreads:1	throughput:0.0036	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:1	clock:100	LUTs:10690
+	numOfCacheThreads:2	throughput:0.0036	uwThreads:1	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0026
+********measuring area/clock**************
+Refined Area luts is 10531
+
+Refined Area regs is 11103
+
+Refined Area DSPs is 16
+
+Refined clock is 8.728
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 1
+addPipelined false
+mulPipelined false
+divPipelined false
+rcPipelined false
+sharedRc false
+sharedRa false
+ugRepFactor 1
+uwRepFactor 2
+numOfCacheThreads 2
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 233219
+optFunc is 326810
+old element is uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:2	clock:100	numOfCacheThreads:2	LUTs:10690
+	uwThreads:1	throughput:0.0036	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:3	clock:100	LUTs:10690
+	numOfCacheThreads:2	throughput:0.0036	uwThreads:1	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0037
+********measuring area/clock**************
+Refined Area luts is 11017
+
+Refined Area regs is 11669
+
+Refined Area DSPs is 16
+
+Refined clock is 8.894
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 3
+addPipelined false
+mulPipelined false
+divPipelined false
+rcPipelined false
+sharedRc false
+sharedRa false
+ugRepFactor 1
+uwRepFactor 2
+numOfCacheThreads 2
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 335858
+optFunc is 326810
+Found a better steepest on dimensionugThreads
+slope is : 1
+element is: uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:2	clock:100	numOfCacheThreads:2	LUTs:10690
+	uwThreads:1	throughput:0.0036	ugRepFactor:1	sharedRc:false	
+
+new element is: uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:3	clock:100	LUTs:11017
+	numOfCacheThreads:2	throughput:0.0037	uwThreads:1	ugRepFactor:1	sharedRc:false	
+
+old element is uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:2	clock:100	numOfCacheThreads:2	LUTs:10690
+	uwThreads:1	throughput:0.0036	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:3	clock:100	LUTs:10690
+	numOfCacheThreads:2	throughput:0.0036	uwThreads:1	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0037
+********measuring area/clock**************
+Refined Area luts is 11017
+
+Refined Area regs is 11669
+
+Refined Area DSPs is 16
+
+Refined clock is 8.895
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 3
+addPipelined false
+mulPipelined false
+divPipelined false
+rcPipelined false
+sharedRc false
+sharedRa false
+ugRepFactor 1
+uwRepFactor 2
+numOfCacheThreads 2
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 335858
+optFunc is 335858
+Steepest first try on dimensionaddPipelined
+old element is uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:2	clock:100	numOfCacheThreads:2	LUTs:10690
+	uwThreads:1	throughput:0.0036	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:true	ugThreads:2	clock:100	LUTs:10690
+	numOfCacheThreads:2	throughput:0.0036	uwThreads:1	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0036
+********measuring area/clock**************
+Refined Area luts is 10690
+
+Refined Area regs is 11391
+
+Refined Area DSPs is 16
+
+Refined clock is 8.644
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 2
+addPipelined true
+mulPipelined false
+divPipelined false
+rcPipelined false
+sharedRc false
+sharedRa false
+ugRepFactor 1
+uwRepFactor 2
+numOfCacheThreads 2
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 326810
+optFunc is 335858
+old element is uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:2	clock:100	numOfCacheThreads:2	LUTs:10690
+	uwThreads:1	throughput:0.0036	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:true	ugThreads:2	clock:100	LUTs:10690
+	numOfCacheThreads:2	throughput:0.0036	uwThreads:1	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0036
+********measuring area/clock**************
+Refined Area luts is 10690
+
+Refined Area regs is 11391
+
+Refined Area DSPs is 16
+
+Refined clock is 8.644
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 2
+addPipelined true
+mulPipelined false
+divPipelined false
+rcPipelined false
+sharedRc false
+sharedRa false
+ugRepFactor 1
+uwRepFactor 2
+numOfCacheThreads 2
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 326810
+optFunc is 335858
+Steepest first try on dimensionmulPipelined
+old element is uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:2	clock:100	numOfCacheThreads:2	LUTs:10690
+	uwThreads:1	throughput:0.0036	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:2	mulPipelined:true	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:2	clock:100	LUTs:10690
+	numOfCacheThreads:2	throughput:0.0036	uwThreads:1	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0036
+********measuring area/clock**************
+Refined Area luts is 10690
+
+Refined Area regs is 11391
+
+Refined Area DSPs is 16
+
+Refined clock is 8.644
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 2
+addPipelined false
+mulPipelined true
+divPipelined false
+rcPipelined false
+sharedRc false
+sharedRa false
+ugRepFactor 1
+uwRepFactor 2
+numOfCacheThreads 2
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 326810
+optFunc is 335858
+old element is uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:2	clock:100	numOfCacheThreads:2	LUTs:10690
+	uwThreads:1	throughput:0.0036	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:2	mulPipelined:true	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:2	clock:100	LUTs:10690
+	numOfCacheThreads:2	throughput:0.0036	uwThreads:1	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0036
+********measuring area/clock**************
+Refined Area luts is 10690
+
+Refined Area regs is 11391
+
+Refined Area DSPs is 16
+
+Refined clock is 8.644
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 2
+addPipelined false
+mulPipelined true
+divPipelined false
+rcPipelined false
+sharedRc false
+sharedRa false
+ugRepFactor 1
+uwRepFactor 2
+numOfCacheThreads 2
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 326810
+optFunc is 335858
+Steepest first try on dimensiondivPipelined
+old element is uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:2	clock:100	numOfCacheThreads:2	LUTs:10690
+	uwThreads:1	throughput:0.0036	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:true	addPipelined:false	ugThreads:2	clock:100	LUTs:10690
+	numOfCacheThreads:2	throughput:0.0036	uwThreads:1	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0036
+********measuring area/clock**************
+Refined Area luts is 10690
+
+Refined Area regs is 11391
+
+Refined Area DSPs is 16
+
+Refined clock is 8.644
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 2
+addPipelined false
+mulPipelined false
+divPipelined true
+rcPipelined false
+sharedRc false
+sharedRa false
+ugRepFactor 1
+uwRepFactor 2
+numOfCacheThreads 2
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 326810
+optFunc is 335858
+old element is uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:2	clock:100	numOfCacheThreads:2	LUTs:10690
+	uwThreads:1	throughput:0.0036	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:true	addPipelined:false	ugThreads:2	clock:100	LUTs:10690
+	numOfCacheThreads:2	throughput:0.0036	uwThreads:1	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0036
+********measuring area/clock**************
+Refined Area luts is 10690
+
+Refined Area regs is 11391
+
+Refined Area DSPs is 16
+
+Refined clock is 8.644
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 2
+addPipelined false
+mulPipelined false
+divPipelined true
+rcPipelined false
+sharedRc false
+sharedRa false
+ugRepFactor 1
+uwRepFactor 2
+numOfCacheThreads 2
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 326810
+optFunc is 335858
+Steepest first try on dimensionrcPipelined
+old element is uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:2	clock:100	numOfCacheThreads:2	LUTs:10690
+	uwThreads:1	throughput:0.0036	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:true	divPipelined:false	addPipelined:false	ugThreads:2	clock:100	LUTs:10690
+	numOfCacheThreads:2	throughput:0.0036	uwThreads:1	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0036
+********measuring area/clock**************
+Refined Area luts is 10690
+
+Refined Area regs is 11391
+
+Refined Area DSPs is 16
+
+Refined clock is 8.644
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 2
+addPipelined false
+mulPipelined false
+divPipelined false
+rcPipelined true
+sharedRc false
+sharedRa false
+ugRepFactor 1
+uwRepFactor 2
+numOfCacheThreads 2
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 326810
+optFunc is 335858
+old element is uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:2	clock:100	numOfCacheThreads:2	LUTs:10690
+	uwThreads:1	throughput:0.0036	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:true	divPipelined:false	addPipelined:false	ugThreads:2	clock:100	LUTs:10690
+	numOfCacheThreads:2	throughput:0.0036	uwThreads:1	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0036
+********measuring area/clock**************
+Refined Area luts is 10690
+
+Refined Area regs is 11391
+
+Refined Area DSPs is 16
+
+Refined clock is 8.644
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 2
+addPipelined false
+mulPipelined false
+divPipelined false
+rcPipelined true
+sharedRc false
+sharedRa false
+ugRepFactor 1
+uwRepFactor 2
+numOfCacheThreads 2
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 326810
+optFunc is 335858
+Steepest first try on dimensionsharedRc
+old element is uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:2	clock:100	numOfCacheThreads:2	LUTs:10690
+	uwThreads:1	throughput:0.0036	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:2	clock:100	LUTs:10690
+	numOfCacheThreads:2	throughput:0.0036	uwThreads:1	ugRepFactor:1	sharedRc:true	
+********measuring performance**************
+Refined throughput is 0.0036
+********measuring area/clock**************
+Refined Area luts is 10695
+
+Refined Area regs is 11391
+
+Refined Area DSPs is 16
+
+Refined clock is 9.016
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 2
+addPipelined false
+mulPipelined false
+divPipelined false
+rcPipelined false
+sharedRc true
+sharedRa false
+ugRepFactor 1
+uwRepFactor 2
+numOfCacheThreads 2
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 326805
+optFunc is 335858
+old element is uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:2	clock:100	numOfCacheThreads:2	LUTs:10690
+	uwThreads:1	throughput:0.0036	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:2	clock:100	LUTs:10690
+	numOfCacheThreads:2	throughput:0.0036	uwThreads:1	ugRepFactor:1	sharedRc:true	
+********measuring performance**************
+Refined throughput is 0.0036
+********measuring area/clock**************
+Refined Area luts is 10695
+
+Refined Area regs is 11391
+
+Refined Area DSPs is 16
+
+Refined clock is 9.016
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 2
+addPipelined false
+mulPipelined false
+divPipelined false
+rcPipelined false
+sharedRc true
+sharedRa false
+ugRepFactor 1
+uwRepFactor 2
+numOfCacheThreads 2
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 326805
+optFunc is 335858
+Steepest first try on dimensionsharedRa
+old element is uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:2	clock:100	numOfCacheThreads:2	LUTs:10690
+	uwThreads:1	throughput:0.0036	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:2	mulPipelined:false	sharedRa:true	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:2	clock:100	LUTs:10690
+	numOfCacheThreads:2	throughput:0.0036	uwThreads:1	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0035
+********measuring area/clock**************
+Refined Area luts is 9910
+
+Refined Area regs is 10438
+
+Refined Area DSPs is 13
+
+Refined clock is 8.824
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 2
+addPipelined false
+mulPipelined false
+divPipelined false
+rcPipelined false
+sharedRc false
+sharedRa true
+ugRepFactor 1
+uwRepFactor 2
+numOfCacheThreads 2
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 318215
+optFunc is 335858
+old element is uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:2	clock:100	numOfCacheThreads:2	LUTs:10690
+	uwThreads:1	throughput:0.0036	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:2	mulPipelined:false	sharedRa:true	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:2	clock:100	LUTs:10690
+	numOfCacheThreads:2	throughput:0.0036	uwThreads:1	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0035
+********measuring area/clock**************
+Refined Area luts is 9910
+
+Refined Area regs is 10438
+
+Refined Area DSPs is 13
+
+Refined clock is 8.824
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 2
+addPipelined false
+mulPipelined false
+divPipelined false
+rcPipelined false
+sharedRc false
+sharedRa true
+ugRepFactor 1
+uwRepFactor 2
+numOfCacheThreads 2
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 318215
+optFunc is 335858
+Steepest first try on dimensionugRepFactor
+old element is uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:2	clock:100	numOfCacheThreads:2	LUTs:10690
+	uwThreads:1	throughput:0.0036	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:2	clock:100	LUTs:10690
+	numOfCacheThreads:2	throughput:0.0036	uwThreads:1	ugRepFactor:2	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0038
+********measuring area/clock**************
+Refined Area luts is 15195
+
+Refined Area regs is 18400
+
+Refined Area DSPs is 26
+
+Refined clock is 8.645
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 2
+addPipelined false
+mulPipelined false
+divPipelined false
+rcPipelined false
+sharedRc false
+sharedRa false
+ugRepFactor 2
+uwRepFactor 2
+numOfCacheThreads 2
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 341055
+optFunc is 335858
+Found a better steepest on dimensionugRepFactor
+slope is : 0
+element is: uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:2	clock:100	numOfCacheThreads:2	LUTs:10690
+	uwThreads:1	throughput:0.0036	ugRepFactor:1	sharedRc:false	
+
+new element is: uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:2	clock:100	LUTs:15195
+	numOfCacheThreads:2	throughput:0.0038	uwThreads:1	ugRepFactor:2	sharedRc:false	
+
+old element is uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:2	clock:100	numOfCacheThreads:2	LUTs:10690
+	uwThreads:1	throughput:0.0036	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:2	clock:100	LUTs:10690
+	numOfCacheThreads:2	throughput:0.0036	uwThreads:1	ugRepFactor:2	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0038
+********measuring area/clock**************
+Refined Area luts is 15195
+
+Refined Area regs is 18400
+
+Refined Area DSPs is 26
+
+Refined clock is 8.645
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 2
+addPipelined false
+mulPipelined false
+divPipelined false
+rcPipelined false
+sharedRc false
+sharedRa false
+ugRepFactor 2
+uwRepFactor 2
+numOfCacheThreads 2
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 341055
+optFunc is 341055
+Steepest first try on dimensionuwRepFactor
+old element is uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:2	clock:100	numOfCacheThreads:2	LUTs:10690
+	uwThreads:1	throughput:0.0036	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:1	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:2	clock:100	LUTs:10690
+	numOfCacheThreads:2	throughput:0.0036	uwThreads:1	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0018
+********measuring area/clock**************
+Refined Area luts is 9777
+
+Refined Area regs is 10383
+
+Refined Area DSPs is 13
+
+Refined clock is 8.681
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 2
+addPipelined false
+mulPipelined false
+divPipelined false
+rcPipelined false
+sharedRc false
+sharedRa false
+ugRepFactor 1
+uwRepFactor 1
+numOfCacheThreads 2
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 158973
+optFunc is 341055
+old element is uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:2	clock:100	numOfCacheThreads:2	LUTs:10690
+	uwThreads:1	throughput:0.0036	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:3	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:2	clock:100	LUTs:10690
+	numOfCacheThreads:2	throughput:0.0036	uwThreads:1	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0039
+********measuring area/clock**************
+Refined Area luts is 11589
+
+Refined Area regs is 12398
+
+Refined Area DSPs is 19
+
+Refined clock is 8.664
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 2
+addPipelined false
+mulPipelined false
+divPipelined false
+rcPipelined false
+sharedRc false
+sharedRa false
+ugRepFactor 1
+uwRepFactor 3
+numOfCacheThreads 2
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 354036
+optFunc is 341055
+Found a better steepest on dimensionuwRepFactor
+slope is : 1
+element is: uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:2	clock:100	numOfCacheThreads:2	LUTs:10690
+	uwThreads:1	throughput:0.0036	ugRepFactor:1	sharedRc:false	
+
+new element is: uwRepFactor:3	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:2	clock:100	LUTs:11589
+	numOfCacheThreads:2	throughput:0.0039	uwThreads:1	ugRepFactor:1	sharedRc:false	
+
+old element is uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:2	clock:100	numOfCacheThreads:2	LUTs:10690
+	uwThreads:1	throughput:0.0036	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:3	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:2	clock:100	LUTs:10690
+	numOfCacheThreads:2	throughput:0.0036	uwThreads:1	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0039
+********measuring area/clock**************
+Refined Area luts is 11589
+
+Refined Area regs is 12398
+
+Refined Area DSPs is 19
+
+Refined clock is 8.664
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 2
+addPipelined false
+mulPipelined false
+divPipelined false
+rcPipelined false
+sharedRc false
+sharedRa false
+ugRepFactor 1
+uwRepFactor 3
+numOfCacheThreads 2
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 354036
+optFunc is 354036
+Steepest first try on dimensionnumOfCacheThreads
+old element is uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:2	clock:100	numOfCacheThreads:2	LUTs:10690
+	uwThreads:1	throughput:0.0036	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:2	clock:100	LUTs:10690
+	numOfCacheThreads:1	throughput:0.0036	uwThreads:1	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0021
+********measuring area/clock**************
+Refined Area luts is 10910
+
+Refined Area regs is 11200
+
+Refined Area DSPs is 16
+
+Refined clock is 9.177
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 2
+addPipelined false
+mulPipelined false
+divPipelined false
+rcPipelined false
+sharedRc false
+sharedRa false
+ugRepFactor 1
+uwRepFactor 2
+numOfCacheThreads 1
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 185965
+optFunc is 354036
+old element is uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:2	clock:100	numOfCacheThreads:2	LUTs:10690
+	uwThreads:1	throughput:0.0036	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:2	clock:100	LUTs:10690
+	numOfCacheThreads:3	throughput:0.0036	uwThreads:1	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0034
+********measuring area/clock**************
+Refined Area luts is 10940
+
+Refined Area regs is 11576
+
+Refined Area DSPs is 16
+
+Refined clock is 8.725
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 2
+addPipelined false
+mulPipelined false
+divPipelined false
+rcPipelined false
+sharedRc false
+sharedRa false
+ugRepFactor 1
+uwRepFactor 2
+numOfCacheThreads 3
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 307810
+optFunc is 354036
+
+
+optFunc is 354036
+optFunc is 326810
+Change the design pointuwRepFactor:3	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:2	clock:100	LUTs:11589
+	numOfCacheThreads:2	throughput:0.0039	uwThreads:1	ugRepFactor:1	sharedRc:false	
+
+
+
+Steepest first called for elementuwRepFactor:3	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:2	clock:100	LUTs:11589
+	numOfCacheThreads:2	throughput:0.0039	uwThreads:1	ugRepFactor:1	sharedRc:false	
+
+Steepest first try on dimensionuwThreads
+old element is uwRepFactor:3	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:2	clock:100	LUTs:11589
+	numOfCacheThreads:2	throughput:0.0039	uwThreads:1	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:3	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:2	clock:100	numOfCacheThreads:2	LUTs:11589
+	uwThreads:1	throughput:0.0039	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0039
+********measuring area/clock**************
+Refined Area luts is 11589
+
+Refined Area regs is 12398
+
+Refined Area DSPs is 19
+
+Refined clock is 8.664
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 2
+addPipelined false
+mulPipelined false
+divPipelined false
+rcPipelined false
+sharedRc false
+sharedRa false
+ugRepFactor 1
+uwRepFactor 3
+numOfCacheThreads 2
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 354036
+optFunc is 354036
+old element is uwRepFactor:3	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:2	clock:100	LUTs:11589
+	numOfCacheThreads:2	throughput:0.0039	uwThreads:1	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:3	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:2	clock:100	numOfCacheThreads:2	LUTs:11589
+	uwThreads:2	throughput:0.0039	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0042
+********measuring area/clock**************
+Refined Area luts is 11952
+
+Refined Area regs is 12561
+
+Refined Area DSPs is 19
+
+Refined clock is 8.676
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 2
+ugThreads 2
+addPipelined false
+mulPipelined false
+divPipelined false
+rcPipelined false
+sharedRc false
+sharedRa false
+ugRepFactor 1
+uwRepFactor 3
+numOfCacheThreads 2
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 381798
+optFunc is 354036
+Found a better steepest on dimensionuwThreads
+slope is : 1
+element is: uwRepFactor:3	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:2	clock:100	LUTs:11589
+	numOfCacheThreads:2	throughput:0.0039	uwThreads:1	ugRepFactor:1	sharedRc:false	
+
+new element is: uwRepFactor:3	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:2	clock:100	numOfCacheThreads:2	LUTs:11952
+	uwThreads:2	throughput:0.0042	ugRepFactor:1	sharedRc:false	
+
+old element is uwRepFactor:3	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:2	clock:100	LUTs:11589
+	numOfCacheThreads:2	throughput:0.0039	uwThreads:1	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:3	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:2	clock:100	numOfCacheThreads:2	LUTs:11589
+	uwThreads:2	throughput:0.0039	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0042
+********measuring area/clock**************
+Refined Area luts is 11952
+
+Refined Area regs is 12561
+
+Refined Area DSPs is 19
+
+Refined clock is 8.676
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 2
+ugThreads 2
+addPipelined false
+mulPipelined false
+divPipelined false
+rcPipelined false
+sharedRc false
+sharedRa false
+ugRepFactor 1
+uwRepFactor 3
+numOfCacheThreads 2
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 381798
+optFunc is 381798
+Steepest first try on dimensionugThreads
+old element is uwRepFactor:3	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:2	clock:100	LUTs:11589
+	numOfCacheThreads:2	throughput:0.0039	uwThreads:1	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:3	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:1	clock:100	numOfCacheThreads:2	LUTs:11589
+	uwThreads:1	throughput:0.0039	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0031
+********measuring area/clock**************
+Refined Area luts is 11414
+
+Refined Area regs is 12110
+
+Refined Area DSPs is 19
+
+Refined clock is 8.666
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 1
+addPipelined false
+mulPipelined false
+divPipelined false
+rcPipelined false
+sharedRc false
+sharedRa false
+ugRepFactor 1
+uwRepFactor 3
+numOfCacheThreads 2
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 279211
+optFunc is 381798
+old element is uwRepFactor:3	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:2	clock:100	LUTs:11589
+	numOfCacheThreads:2	throughput:0.0039	uwThreads:1	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:3	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:3	clock:100	numOfCacheThreads:2	LUTs:11589
+	uwThreads:1	throughput:0.0039	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0042
+********measuring area/clock**************
+Refined Area luts is 11942
+
+Refined Area regs is 12676
+
+Refined Area DSPs is 19
+
+Refined clock is 8.894
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 3
+addPipelined false
+mulPipelined false
+divPipelined false
+rcPipelined false
+sharedRc false
+sharedRa false
+ugRepFactor 1
+uwRepFactor 3
+numOfCacheThreads 2
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 381808
+optFunc is 381798
+Found a better steepest on dimensionugThreads
+slope is : 1
+element is: uwRepFactor:3	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:2	clock:100	LUTs:11589
+	numOfCacheThreads:2	throughput:0.0039	uwThreads:1	ugRepFactor:1	sharedRc:false	
+
+new element is: uwRepFactor:3	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:3	clock:100	numOfCacheThreads:2	LUTs:11942
+	uwThreads:1	throughput:0.0042	ugRepFactor:1	sharedRc:false	
+
+old element is uwRepFactor:3	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:2	clock:100	LUTs:11589
+	numOfCacheThreads:2	throughput:0.0039	uwThreads:1	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:3	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:3	clock:100	numOfCacheThreads:2	LUTs:11589
+	uwThreads:1	throughput:0.0039	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0042
+********measuring area/clock**************
+Refined Area luts is 11942
+
+Refined Area regs is 12676
+
+Refined Area DSPs is 19
+
+Refined clock is 8.894
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 3
+addPipelined false
+mulPipelined false
+divPipelined false
+rcPipelined false
+sharedRc false
+sharedRa false
+ugRepFactor 1
+uwRepFactor 3
+numOfCacheThreads 2
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 381808
+optFunc is 381808
+Steepest first try on dimensionaddPipelined
+old element is uwRepFactor:3	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:2	clock:100	LUTs:11589
+	numOfCacheThreads:2	throughput:0.0039	uwThreads:1	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:3	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:true	divPipelined:false	ugThreads:2	clock:100	numOfCacheThreads:2	LUTs:11589
+	uwThreads:1	throughput:0.0039	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0039
+********measuring area/clock**************
+Refined Area luts is 11589
+
+Refined Area regs is 12398
+
+Refined Area DSPs is 19
+
+Refined clock is 8.664
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 2
+addPipelined true
+mulPipelined false
+divPipelined false
+rcPipelined false
+sharedRc false
+sharedRa false
+ugRepFactor 1
+uwRepFactor 3
+numOfCacheThreads 2
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 354036
+optFunc is 381808
+old element is uwRepFactor:3	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:2	clock:100	LUTs:11589
+	numOfCacheThreads:2	throughput:0.0039	uwThreads:1	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:3	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:true	divPipelined:false	ugThreads:2	clock:100	numOfCacheThreads:2	LUTs:11589
+	uwThreads:1	throughput:0.0039	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0039
+********measuring area/clock**************
+Refined Area luts is 11589
+
+Refined Area regs is 12398
+
+Refined Area DSPs is 19
+
+Refined clock is 8.664
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 2
+addPipelined true
+mulPipelined false
+divPipelined false
+rcPipelined false
+sharedRc false
+sharedRa false
+ugRepFactor 1
+uwRepFactor 3
+numOfCacheThreads 2
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 354036
+optFunc is 381808
+Steepest first try on dimensionmulPipelined
+old element is uwRepFactor:3	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:2	clock:100	LUTs:11589
+	numOfCacheThreads:2	throughput:0.0039	uwThreads:1	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:3	mulPipelined:true	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:2	clock:100	numOfCacheThreads:2	LUTs:11589
+	uwThreads:1	throughput:0.0039	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0039
+********measuring area/clock**************
+Refined Area luts is 11589
+
+Refined Area regs is 12398
+
+Refined Area DSPs is 19
+
+Refined clock is 8.664
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 2
+addPipelined false
+mulPipelined true
+divPipelined false
+rcPipelined false
+sharedRc false
+sharedRa false
+ugRepFactor 1
+uwRepFactor 3
+numOfCacheThreads 2
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 354036
+optFunc is 381808
+old element is uwRepFactor:3	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:2	clock:100	LUTs:11589
+	numOfCacheThreads:2	throughput:0.0039	uwThreads:1	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:3	mulPipelined:true	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:2	clock:100	numOfCacheThreads:2	LUTs:11589
+	uwThreads:1	throughput:0.0039	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0039
+********measuring area/clock**************
+Refined Area luts is 11589
+
+Refined Area regs is 12398
+
+Refined Area DSPs is 19
+
+Refined clock is 8.664
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 2
+addPipelined false
+mulPipelined true
+divPipelined false
+rcPipelined false
+sharedRc false
+sharedRa false
+ugRepFactor 1
+uwRepFactor 3
+numOfCacheThreads 2
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 354036
+optFunc is 381808
+Steepest first try on dimensiondivPipelined
+old element is uwRepFactor:3	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:2	clock:100	LUTs:11589
+	numOfCacheThreads:2	throughput:0.0039	uwThreads:1	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:3	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:true	ugThreads:2	clock:100	numOfCacheThreads:2	LUTs:11589
+	uwThreads:1	throughput:0.0039	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0039
+********measuring area/clock**************
+Refined Area luts is 11589
+
+Refined Area regs is 12398
+
+Refined Area DSPs is 19
+
+Refined clock is 8.664
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 2
+addPipelined false
+mulPipelined false
+divPipelined true
+rcPipelined false
+sharedRc false
+sharedRa false
+ugRepFactor 1
+uwRepFactor 3
+numOfCacheThreads 2
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 354036
+optFunc is 381808
+old element is uwRepFactor:3	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:2	clock:100	LUTs:11589
+	numOfCacheThreads:2	throughput:0.0039	uwThreads:1	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:3	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:true	ugThreads:2	clock:100	numOfCacheThreads:2	LUTs:11589
+	uwThreads:1	throughput:0.0039	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0039
+********measuring area/clock**************
+Refined Area luts is 11589
+
+Refined Area regs is 12398
+
+Refined Area DSPs is 19
+
+Refined clock is 8.664
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 2
+addPipelined false
+mulPipelined false
+divPipelined true
+rcPipelined false
+sharedRc false
+sharedRa false
+ugRepFactor 1
+uwRepFactor 3
+numOfCacheThreads 2
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 354036
+optFunc is 381808
+Steepest first try on dimensionrcPipelined
+old element is uwRepFactor:3	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:2	clock:100	LUTs:11589
+	numOfCacheThreads:2	throughput:0.0039	uwThreads:1	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:3	mulPipelined:false	sharedRa:false	rcPipelined:true	addPipelined:false	divPipelined:false	ugThreads:2	clock:100	numOfCacheThreads:2	LUTs:11589
+	uwThreads:1	throughput:0.0039	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0039
+********measuring area/clock**************
+Refined Area luts is 11589
+
+Refined Area regs is 12398
+
+Refined Area DSPs is 19
+
+Refined clock is 8.664
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 2
+addPipelined false
+mulPipelined false
+divPipelined false
+rcPipelined true
+sharedRc false
+sharedRa false
+ugRepFactor 1
+uwRepFactor 3
+numOfCacheThreads 2
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 354036
+optFunc is 381808
+old element is uwRepFactor:3	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:2	clock:100	LUTs:11589
+	numOfCacheThreads:2	throughput:0.0039	uwThreads:1	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:3	mulPipelined:false	sharedRa:false	rcPipelined:true	addPipelined:false	divPipelined:false	ugThreads:2	clock:100	numOfCacheThreads:2	LUTs:11589
+	uwThreads:1	throughput:0.0039	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0039
+********measuring area/clock**************
+Refined Area luts is 11589
+
+Refined Area regs is 12398
+
+Refined Area DSPs is 19
+
+Refined clock is 8.664
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 2
+addPipelined false
+mulPipelined false
+divPipelined false
+rcPipelined true
+sharedRc false
+sharedRa false
+ugRepFactor 1
+uwRepFactor 3
+numOfCacheThreads 2
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 354036
+optFunc is 381808
+Steepest first try on dimensionsharedRc
+old element is uwRepFactor:3	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:2	clock:100	LUTs:11589
+	numOfCacheThreads:2	throughput:0.0039	uwThreads:1	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:3	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:2	clock:100	numOfCacheThreads:2	LUTs:11589
+	uwThreads:1	throughput:0.0039	ugRepFactor:1	sharedRc:true	
+********measuring performance**************
+Refined throughput is 0.0039
+********measuring area/clock**************
+Refined Area luts is 11565
+
+Refined Area regs is 12398
+
+Refined Area DSPs is 19
+
+Refined clock is 8.629
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 2
+addPipelined false
+mulPipelined false
+divPipelined false
+rcPipelined false
+sharedRc true
+sharedRa false
+ugRepFactor 1
+uwRepFactor 3
+numOfCacheThreads 2
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 354060
+optFunc is 381808
+old element is uwRepFactor:3	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:2	clock:100	LUTs:11589
+	numOfCacheThreads:2	throughput:0.0039	uwThreads:1	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:3	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:2	clock:100	numOfCacheThreads:2	LUTs:11589
+	uwThreads:1	throughput:0.0039	ugRepFactor:1	sharedRc:true	
+********measuring performance**************
+Refined throughput is 0.0039
+********measuring area/clock**************
+Refined Area luts is 11565
+
+Refined Area regs is 12398
+
+Refined Area DSPs is 19
+
+Refined clock is 8.629
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 2
+addPipelined false
+mulPipelined false
+divPipelined false
+rcPipelined false
+sharedRc true
+sharedRa false
+ugRepFactor 1
+uwRepFactor 3
+numOfCacheThreads 2
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 354060
+optFunc is 381808
+Steepest first try on dimensionsharedRa
+old element is uwRepFactor:3	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:2	clock:100	LUTs:11589
+	numOfCacheThreads:2	throughput:0.0039	uwThreads:1	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:3	mulPipelined:false	sharedRa:true	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:2	clock:100	numOfCacheThreads:2	LUTs:11589
+	uwThreads:1	throughput:0.0039	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0041
+********measuring area/clock**************
+Refined Area luts is 9982
+
+Refined Area regs is 10497
+
+Refined Area DSPs is 13
+
+Refined clock is 8.658
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 2
+addPipelined false
+mulPipelined false
+divPipelined false
+rcPipelined false
+sharedRc false
+sharedRa true
+ugRepFactor 1
+uwRepFactor 3
+numOfCacheThreads 2
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 374393
+optFunc is 381808
+old element is uwRepFactor:3	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:2	clock:100	LUTs:11589
+	numOfCacheThreads:2	throughput:0.0039	uwThreads:1	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:3	mulPipelined:false	sharedRa:true	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:2	clock:100	numOfCacheThreads:2	LUTs:11589
+	uwThreads:1	throughput:0.0039	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0041
+********measuring area/clock**************
+Refined Area luts is 9982
+
+Refined Area regs is 10497
+
+Refined Area DSPs is 13
+
+Refined clock is 8.658
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 2
+addPipelined false
+mulPipelined false
+divPipelined false
+rcPipelined false
+sharedRc false
+sharedRa true
+ugRepFactor 1
+uwRepFactor 3
+numOfCacheThreads 2
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 374393
+optFunc is 381808
+Steepest first try on dimensionugRepFactor
+old element is uwRepFactor:3	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:2	clock:100	LUTs:11589
+	numOfCacheThreads:2	throughput:0.0039	uwThreads:1	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:3	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:2	clock:100	numOfCacheThreads:2	LUTs:11589
+	uwThreads:1	throughput:0.0039	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0039
+********measuring area/clock**************
+Refined Area luts is 11589
+
+Refined Area regs is 12398
+
+Refined Area DSPs is 19
+
+Refined clock is 8.664
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 2
+addPipelined false
+mulPipelined false
+divPipelined false
+rcPipelined false
+sharedRc false
+sharedRa false
+ugRepFactor 1
+uwRepFactor 3
+numOfCacheThreads 2
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 354036
+optFunc is 381808
+old element is uwRepFactor:3	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:2	clock:100	LUTs:11589
+	numOfCacheThreads:2	throughput:0.0039	uwThreads:1	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:3	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:2	clock:100	numOfCacheThreads:2	LUTs:11589
+	uwThreads:1	throughput:0.0039	ugRepFactor:2	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0042
+********measuring area/clock**************
+Refined Area luts is 16135
+
+Refined Area regs is 19408
+
+Refined Area DSPs is 29
+
+Refined clock is 8.633
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 2
+addPipelined false
+mulPipelined false
+divPipelined false
+rcPipelined false
+sharedRc false
+sharedRa false
+ugRepFactor 2
+uwRepFactor 3
+numOfCacheThreads 2
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 377615
+optFunc is 381808
+Steepest first try on dimensionuwRepFactor
+old element is uwRepFactor:3	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:2	clock:100	LUTs:11589
+	numOfCacheThreads:2	throughput:0.0039	uwThreads:1	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:2	clock:100	numOfCacheThreads:2	LUTs:11589
+	uwThreads:1	throughput:0.0039	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0036
+********measuring area/clock**************
+Refined Area luts is 10690
+
+Refined Area regs is 11391
+
+Refined Area DSPs is 16
+
+Refined clock is 8.644
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 2
+addPipelined false
+mulPipelined false
+divPipelined false
+rcPipelined false
+sharedRc false
+sharedRa false
+ugRepFactor 1
+uwRepFactor 2
+numOfCacheThreads 2
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 326810
+optFunc is 381808
+old element is uwRepFactor:3	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:2	clock:100	LUTs:11589
+	numOfCacheThreads:2	throughput:0.0039	uwThreads:1	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:4	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:2	clock:100	numOfCacheThreads:2	LUTs:11589
+	uwThreads:1	throughput:0.0039	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0042
+********measuring area/clock**************
+Refined Area luts is 12481
+
+Refined Area regs is 13399
+
+Refined Area DSPs is 22
+
+Refined clock is 8.664
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 2
+addPipelined false
+mulPipelined false
+divPipelined false
+rcPipelined false
+sharedRc false
+sharedRa false
+ugRepFactor 1
+uwRepFactor 4
+numOfCacheThreads 2
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 381269
+optFunc is 381808
+Steepest first try on dimensionnumOfCacheThreads
+old element is uwRepFactor:3	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:2	clock:100	LUTs:11589
+	numOfCacheThreads:2	throughput:0.0039	uwThreads:1	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:3	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:2	clock:100	numOfCacheThreads:1	LUTs:11589
+	uwThreads:1	throughput:0.0039	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0022
+********measuring area/clock**************
+Refined Area luts is 11836
+
+Refined Area regs is 12207
+
+Refined Area DSPs is 19
+
+Refined clock is 9.177
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 2
+addPipelined false
+mulPipelined false
+divPipelined false
+rcPipelined false
+sharedRc false
+sharedRa false
+ugRepFactor 1
+uwRepFactor 3
+numOfCacheThreads 1
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 194414
+optFunc is 381808
+old element is uwRepFactor:3	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:2	clock:100	LUTs:11589
+	numOfCacheThreads:2	throughput:0.0039	uwThreads:1	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:3	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:2	clock:100	numOfCacheThreads:3	LUTs:11589
+	uwThreads:1	throughput:0.0039	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0048
+********measuring area/clock**************
+Refined Area luts is 11919
+
+Refined Area regs is 12585
+
+Refined Area DSPs is 19
+
+Refined clock is 8.694
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 2
+addPipelined false
+mulPipelined false
+divPipelined false
+rcPipelined false
+sharedRc false
+sharedRa false
+ugRepFactor 1
+uwRepFactor 3
+numOfCacheThreads 3
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 438081
+optFunc is 381808
+Found a better steepest on dimensionnumOfCacheThreads
+slope is : 1
+element is: uwRepFactor:3	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:2	clock:100	LUTs:11589
+	numOfCacheThreads:2	throughput:0.0039	uwThreads:1	ugRepFactor:1	sharedRc:false	
+
+new element is: uwRepFactor:3	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:2	clock:100	numOfCacheThreads:3	LUTs:11919
+	uwThreads:1	throughput:0.0048	ugRepFactor:1	sharedRc:false	
+
+old element is uwRepFactor:3	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:2	clock:100	LUTs:11589
+	numOfCacheThreads:2	throughput:0.0039	uwThreads:1	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:3	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:2	clock:100	numOfCacheThreads:3	LUTs:11589
+	uwThreads:1	throughput:0.0039	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0048
+********measuring area/clock**************
+Refined Area luts is 11919
+
+Refined Area regs is 12585
+
+Refined Area DSPs is 19
+
+Refined clock is 8.694
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 2
+addPipelined false
+mulPipelined false
+divPipelined false
+rcPipelined false
+sharedRc false
+sharedRa false
+ugRepFactor 1
+uwRepFactor 3
+numOfCacheThreads 3
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 438081
+optFunc is 438081
+
+
+optFunc is 438081
+optFunc is 354036
+Change the design pointuwRepFactor:3	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:2	clock:100	numOfCacheThreads:3	LUTs:11919
+	uwThreads:1	throughput:0.0048	ugRepFactor:1	sharedRc:false	
+
+
+
+Steepest first called for elementuwRepFactor:3	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:2	clock:100	numOfCacheThreads:3	LUTs:11919
+	uwThreads:1	throughput:0.0048	ugRepFactor:1	sharedRc:false	
+
+Steepest first try on dimensionuwThreads
+old element is uwRepFactor:3	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:2	clock:100	numOfCacheThreads:3	LUTs:11919
+	uwThreads:1	throughput:0.0048	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:3	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:2	clock:100	LUTs:11919
+	numOfCacheThreads:3	throughput:0.0048	uwThreads:1	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0048
+********measuring area/clock**************
+Refined Area luts is 11919
+
+Refined Area regs is 12585
+
+Refined Area DSPs is 19
+
+Refined clock is 8.694
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 2
+addPipelined false
+mulPipelined false
+divPipelined false
+rcPipelined false
+sharedRc false
+sharedRa false
+ugRepFactor 1
+uwRepFactor 3
+numOfCacheThreads 3
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 438081
+optFunc is 438081
+old element is uwRepFactor:3	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:2	clock:100	numOfCacheThreads:3	LUTs:11919
+	uwThreads:1	throughput:0.0048	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:3	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:2	clock:100	LUTs:11919
+	numOfCacheThreads:3	throughput:0.0048	uwThreads:2	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0050
+********measuring area/clock**************
+Refined Area luts is 12178
+
+Refined Area regs is 12748
+
+Refined Area DSPs is 19
+
+Refined clock is 8.757
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 2
+ugThreads 2
+addPipelined false
+mulPipelined false
+divPipelined false
+rcPipelined false
+sharedRc false
+sharedRa false
+ugRepFactor 1
+uwRepFactor 3
+numOfCacheThreads 3
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 456572
+optFunc is 438081
+Found a better steepest on dimensionuwThreads
+slope is : 1
+element is: uwRepFactor:3	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:2	clock:100	numOfCacheThreads:3	LUTs:11919
+	uwThreads:1	throughput:0.0048	ugRepFactor:1	sharedRc:false	
+
+new element is: uwRepFactor:3	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:2	clock:100	LUTs:12178
+	numOfCacheThreads:3	throughput:0.0050	uwThreads:2	ugRepFactor:1	sharedRc:false	
+
+old element is uwRepFactor:3	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:2	clock:100	numOfCacheThreads:3	LUTs:11919
+	uwThreads:1	throughput:0.0048	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:3	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:2	clock:100	LUTs:11919
+	numOfCacheThreads:3	throughput:0.0048	uwThreads:2	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0050
+********measuring area/clock**************
+Refined Area luts is 12178
+
+Refined Area regs is 12748
+
+Refined Area DSPs is 19
+
+Refined clock is 8.756
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 2
+ugThreads 2
+addPipelined false
+mulPipelined false
+divPipelined false
+rcPipelined false
+sharedRc false
+sharedRa false
+ugRepFactor 1
+uwRepFactor 3
+numOfCacheThreads 3
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 456572
+optFunc is 456572
+Steepest first try on dimensionugThreads
+old element is uwRepFactor:3	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:2	clock:100	numOfCacheThreads:3	LUTs:11919
+	uwThreads:1	throughput:0.0048	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:3	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:1	clock:100	LUTs:11919
+	numOfCacheThreads:3	throughput:0.0048	uwThreads:1	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0030
+********measuring area/clock**************
+Refined Area luts is 11543
+
+Refined Area regs is 12296
+
+Refined Area DSPs is 19
+
+Refined clock is 8.658
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 1
+addPipelined false
+mulPipelined false
+divPipelined false
+rcPipelined false
+sharedRc false
+sharedRa false
+ugRepFactor 1
+uwRepFactor 3
+numOfCacheThreads 3
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 269707
+optFunc is 456572
+old element is uwRepFactor:3	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:2	clock:100	numOfCacheThreads:3	LUTs:11919
+	uwThreads:1	throughput:0.0048	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:3	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:3	clock:100	LUTs:11919
+	numOfCacheThreads:3	throughput:0.0048	uwThreads:1	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0052
+********measuring area/clock**************
+Refined Area luts is 11962
+
+Refined Area regs is 12864
+
+Refined Area DSPs is 19
+
+Refined clock is 8.840
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 3
+addPipelined false
+mulPipelined false
+divPipelined false
+rcPipelined false
+sharedRc false
+sharedRa false
+ugRepFactor 1
+uwRepFactor 3
+numOfCacheThreads 3
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 475538
+optFunc is 456572
+Found a better steepest on dimensionugThreads
+slope is : 1
+element is: uwRepFactor:3	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:2	clock:100	numOfCacheThreads:3	LUTs:11919
+	uwThreads:1	throughput:0.0048	ugRepFactor:1	sharedRc:false	
+
+new element is: uwRepFactor:3	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:3	clock:100	LUTs:11962
+	numOfCacheThreads:3	throughput:0.0052	uwThreads:1	ugRepFactor:1	sharedRc:false	
+
+old element is uwRepFactor:3	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:2	clock:100	numOfCacheThreads:3	LUTs:11919
+	uwThreads:1	throughput:0.0048	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:3	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:3	clock:100	LUTs:11919
+	numOfCacheThreads:3	throughput:0.0048	uwThreads:1	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0052
+********measuring area/clock**************
+Refined Area luts is 11962
+
+Refined Area regs is 12864
+
+Refined Area DSPs is 19
+
+Refined clock is 8.840
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 3
+addPipelined false
+mulPipelined false
+divPipelined false
+rcPipelined false
+sharedRc false
+sharedRa false
+ugRepFactor 1
+uwRepFactor 3
+numOfCacheThreads 3
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 475538
+optFunc is 475538
+Steepest first try on dimensionaddPipelined
+old element is uwRepFactor:3	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:2	clock:100	numOfCacheThreads:3	LUTs:11919
+	uwThreads:1	throughput:0.0048	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:3	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:true	ugThreads:2	clock:100	LUTs:11919
+	numOfCacheThreads:3	throughput:0.0048	uwThreads:1	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0048
+********measuring area/clock**************
+Refined Area luts is 11919
+
+Refined Area regs is 12585
+
+Refined Area DSPs is 19
+
+Refined clock is 8.694
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 2
+addPipelined true
+mulPipelined false
+divPipelined false
+rcPipelined false
+sharedRc false
+sharedRa false
+ugRepFactor 1
+uwRepFactor 3
+numOfCacheThreads 3
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 438081
+optFunc is 475538
+old element is uwRepFactor:3	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:2	clock:100	numOfCacheThreads:3	LUTs:11919
+	uwThreads:1	throughput:0.0048	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:3	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:true	ugThreads:2	clock:100	LUTs:11919
+	numOfCacheThreads:3	throughput:0.0048	uwThreads:1	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0048
+********measuring area/clock**************
+Refined Area luts is 11919
+
+Refined Area regs is 12585
+
+Refined Area DSPs is 19
+
+Refined clock is 8.694
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 2
+addPipelined true
+mulPipelined false
+divPipelined false
+rcPipelined false
+sharedRc false
+sharedRa false
+ugRepFactor 1
+uwRepFactor 3
+numOfCacheThreads 3
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 438081
+optFunc is 475538
+Steepest first try on dimensionmulPipelined
+old element is uwRepFactor:3	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:2	clock:100	numOfCacheThreads:3	LUTs:11919
+	uwThreads:1	throughput:0.0048	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:3	mulPipelined:true	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:2	clock:100	LUTs:11919
+	numOfCacheThreads:3	throughput:0.0048	uwThreads:1	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0048
+********measuring area/clock**************
+Refined Area luts is 11919
+
+Refined Area regs is 12585
+
+Refined Area DSPs is 19
+
+Refined clock is 8.694
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 2
+addPipelined false
+mulPipelined true
+divPipelined false
+rcPipelined false
+sharedRc false
+sharedRa false
+ugRepFactor 1
+uwRepFactor 3
+numOfCacheThreads 3
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 438081
+optFunc is 475538
+old element is uwRepFactor:3	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:2	clock:100	numOfCacheThreads:3	LUTs:11919
+	uwThreads:1	throughput:0.0048	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:3	mulPipelined:true	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:2	clock:100	LUTs:11919
+	numOfCacheThreads:3	throughput:0.0048	uwThreads:1	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0048
+********measuring area/clock**************
+Refined Area luts is 11919
+
+Refined Area regs is 12585
+
+Refined Area DSPs is 19
+
+Refined clock is 8.694
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 2
+addPipelined false
+mulPipelined true
+divPipelined false
+rcPipelined false
+sharedRc false
+sharedRa false
+ugRepFactor 1
+uwRepFactor 3
+numOfCacheThreads 3
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 438081
+optFunc is 475538
+Steepest first try on dimensiondivPipelined
+old element is uwRepFactor:3	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:2	clock:100	numOfCacheThreads:3	LUTs:11919
+	uwThreads:1	throughput:0.0048	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:3	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:true	addPipelined:false	ugThreads:2	clock:100	LUTs:11919
+	numOfCacheThreads:3	throughput:0.0048	uwThreads:1	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0048
+********measuring area/clock**************
+Refined Area luts is 11919
+
+Refined Area regs is 12585
+
+Refined Area DSPs is 19
+
+Refined clock is 8.694
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 2
+addPipelined false
+mulPipelined false
+divPipelined true
+rcPipelined false
+sharedRc false
+sharedRa false
+ugRepFactor 1
+uwRepFactor 3
+numOfCacheThreads 3
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 438081
+optFunc is 475538
+old element is uwRepFactor:3	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:2	clock:100	numOfCacheThreads:3	LUTs:11919
+	uwThreads:1	throughput:0.0048	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:3	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:true	addPipelined:false	ugThreads:2	clock:100	LUTs:11919
+	numOfCacheThreads:3	throughput:0.0048	uwThreads:1	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0048
+********measuring area/clock**************
+Refined Area luts is 11919
+
+Refined Area regs is 12585
+
+Refined Area DSPs is 19
+
+Refined clock is 8.694
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 2
+addPipelined false
+mulPipelined false
+divPipelined true
+rcPipelined false
+sharedRc false
+sharedRa false
+ugRepFactor 1
+uwRepFactor 3
+numOfCacheThreads 3
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 438081
+optFunc is 475538
+Steepest first try on dimensionrcPipelined
+old element is uwRepFactor:3	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:2	clock:100	numOfCacheThreads:3	LUTs:11919
+	uwThreads:1	throughput:0.0048	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:3	mulPipelined:false	sharedRa:false	rcPipelined:true	divPipelined:false	addPipelined:false	ugThreads:2	clock:100	LUTs:11919
+	numOfCacheThreads:3	throughput:0.0048	uwThreads:1	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0048
+********measuring area/clock**************
+Refined Area luts is 11919
+
+Refined Area regs is 12585
+
+Refined Area DSPs is 19
+
+Refined clock is 8.694
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 2
+addPipelined false
+mulPipelined false
+divPipelined false
+rcPipelined true
+sharedRc false
+sharedRa false
+ugRepFactor 1
+uwRepFactor 3
+numOfCacheThreads 3
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 438081
+optFunc is 475538
+old element is uwRepFactor:3	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:2	clock:100	numOfCacheThreads:3	LUTs:11919
+	uwThreads:1	throughput:0.0048	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:3	mulPipelined:false	sharedRa:false	rcPipelined:true	divPipelined:false	addPipelined:false	ugThreads:2	clock:100	LUTs:11919
+	numOfCacheThreads:3	throughput:0.0048	uwThreads:1	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0048
+********measuring area/clock**************
+Refined Area luts is 11919
+
+Refined Area regs is 12585
+
+Refined Area DSPs is 19
+
+Refined clock is 8.694
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 2
+addPipelined false
+mulPipelined false
+divPipelined false
+rcPipelined true
+sharedRc false
+sharedRa false
+ugRepFactor 1
+uwRepFactor 3
+numOfCacheThreads 3
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 438081
+optFunc is 475538
+Steepest first try on dimensionsharedRc
+old element is uwRepFactor:3	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:2	clock:100	numOfCacheThreads:3	LUTs:11919
+	uwThreads:1	throughput:0.0048	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:3	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:2	clock:100	LUTs:11919
+	numOfCacheThreads:3	throughput:0.0048	uwThreads:1	ugRepFactor:1	sharedRc:true	
+********measuring performance**************
+Refined throughput is 0.0048
+********measuring area/clock**************
+Refined Area luts is 11814
+
+Refined Area regs is 12585
+
+Refined Area DSPs is 19
+
+Refined clock is 8.624
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 2
+addPipelined false
+mulPipelined false
+divPipelined false
+rcPipelined false
+sharedRc true
+sharedRa false
+ugRepFactor 1
+uwRepFactor 3
+numOfCacheThreads 3
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 438186
+optFunc is 475538
+old element is uwRepFactor:3	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:2	clock:100	numOfCacheThreads:3	LUTs:11919
+	uwThreads:1	throughput:0.0048	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:3	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:2	clock:100	LUTs:11919
+	numOfCacheThreads:3	throughput:0.0048	uwThreads:1	ugRepFactor:1	sharedRc:true	
+********measuring performance**************
+Refined throughput is 0.0048
+********measuring area/clock**************
+Refined Area luts is 11814
+
+Refined Area regs is 12585
+
+Refined Area DSPs is 19
+
+Refined clock is 8.623
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 2
+addPipelined false
+mulPipelined false
+divPipelined false
+rcPipelined false
+sharedRc true
+sharedRa false
+ugRepFactor 1
+uwRepFactor 3
+numOfCacheThreads 3
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 438186
+optFunc is 475538
+Steepest first try on dimensionsharedRa
+old element is uwRepFactor:3	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:2	clock:100	numOfCacheThreads:3	LUTs:11919
+	uwThreads:1	throughput:0.0048	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:3	mulPipelined:false	sharedRa:true	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:2	clock:100	LUTs:11919
+	numOfCacheThreads:3	throughput:0.0048	uwThreads:1	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0048
+********measuring area/clock**************
+Refined Area luts is 10320
+
+Refined Area regs is 10684
+
+Refined Area DSPs is 13
+
+Refined clock is 8.696
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 2
+addPipelined false
+mulPipelined false
+divPipelined false
+rcPipelined false
+sharedRc false
+sharedRa true
+ugRepFactor 1
+uwRepFactor 3
+numOfCacheThreads 3
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 439680
+optFunc is 475538
+old element is uwRepFactor:3	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:2	clock:100	numOfCacheThreads:3	LUTs:11919
+	uwThreads:1	throughput:0.0048	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:3	mulPipelined:false	sharedRa:true	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:2	clock:100	LUTs:11919
+	numOfCacheThreads:3	throughput:0.0048	uwThreads:1	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0048
+********measuring area/clock**************
+Refined Area luts is 10320
+
+Refined Area regs is 10684
+
+Refined Area DSPs is 13
+
+Refined clock is 8.696
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 2
+addPipelined false
+mulPipelined false
+divPipelined false
+rcPipelined false
+sharedRc false
+sharedRa true
+ugRepFactor 1
+uwRepFactor 3
+numOfCacheThreads 3
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 439680
+optFunc is 475538
+Steepest first try on dimensionugRepFactor
+old element is uwRepFactor:3	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:2	clock:100	numOfCacheThreads:3	LUTs:11919
+	uwThreads:1	throughput:0.0048	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:3	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:2	clock:100	LUTs:11919
+	numOfCacheThreads:3	throughput:0.0048	uwThreads:1	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0048
+********measuring area/clock**************
+Refined Area luts is 11919
+
+Refined Area regs is 12585
+
+Refined Area DSPs is 19
+
+Refined clock is 8.694
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 2
+addPipelined false
+mulPipelined false
+divPipelined false
+rcPipelined false
+sharedRc false
+sharedRa false
+ugRepFactor 1
+uwRepFactor 3
+numOfCacheThreads 3
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 438081
+optFunc is 475538
+old element is uwRepFactor:3	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:2	clock:100	numOfCacheThreads:3	LUTs:11919
+	uwThreads:1	throughput:0.0048	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:3	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:2	clock:100	LUTs:11919
+	numOfCacheThreads:3	throughput:0.0048	uwThreads:1	ugRepFactor:2	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0054
+********measuring area/clock**************
+Refined Area luts is 16379
+
+Refined Area regs is 19597
+
+Refined Area DSPs is 29
+
+Refined clock is 8.677
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 2
+addPipelined false
+mulPipelined false
+divPipelined false
+rcPipelined false
+sharedRc false
+sharedRa false
+ugRepFactor 2
+uwRepFactor 3
+numOfCacheThreads 3
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 489871
+optFunc is 475538
+Found a better steepest on dimensionugRepFactor
+slope is : 1
+element is: uwRepFactor:3	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:2	clock:100	numOfCacheThreads:3	LUTs:11919
+	uwThreads:1	throughput:0.0048	ugRepFactor:1	sharedRc:false	
+
+new element is: uwRepFactor:3	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:2	clock:100	LUTs:16379
+	numOfCacheThreads:3	throughput:0.0054	uwThreads:1	ugRepFactor:2	sharedRc:false	
+
+old element is uwRepFactor:3	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:2	clock:100	numOfCacheThreads:3	LUTs:11919
+	uwThreads:1	throughput:0.0048	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:3	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:2	clock:100	LUTs:11919
+	numOfCacheThreads:3	throughput:0.0048	uwThreads:1	ugRepFactor:2	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0054
+********measuring area/clock**************
+Refined Area luts is 16379
+
+Refined Area regs is 19597
+
+Refined Area DSPs is 29
+
+Refined clock is 8.677
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 2
+addPipelined false
+mulPipelined false
+divPipelined false
+rcPipelined false
+sharedRc false
+sharedRa false
+ugRepFactor 2
+uwRepFactor 3
+numOfCacheThreads 3
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 489871
+optFunc is 489871
+Steepest first try on dimensionuwRepFactor
+old element is uwRepFactor:3	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:2	clock:100	numOfCacheThreads:3	LUTs:11919
+	uwThreads:1	throughput:0.0048	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:2	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:2	clock:100	LUTs:11919
+	numOfCacheThreads:3	throughput:0.0048	uwThreads:1	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0034
+********measuring area/clock**************
+Refined Area luts is 10940
+
+Refined Area regs is 11576
+
+Refined Area DSPs is 16
+
+Refined clock is 8.725
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 2
+addPipelined false
+mulPipelined false
+divPipelined false
+rcPipelined false
+sharedRc false
+sharedRa false
+ugRepFactor 1
+uwRepFactor 2
+numOfCacheThreads 3
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 307810
+optFunc is 489871
+old element is uwRepFactor:3	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:2	clock:100	numOfCacheThreads:3	LUTs:11919
+	uwThreads:1	throughput:0.0048	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:4	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:2	clock:100	LUTs:11919
+	numOfCacheThreads:3	throughput:0.0048	uwThreads:1	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0055
+********measuring area/clock**************
+Refined Area luts is 12810
+
+Refined Area regs is 13586
+
+Refined Area DSPs is 22
+
+Refined clock is 8.694
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 2
+addPipelined false
+mulPipelined false
+divPipelined false
+rcPipelined false
+sharedRc false
+sharedRa false
+ugRepFactor 1
+uwRepFactor 4
+numOfCacheThreads 3
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 502815
+optFunc is 489871
+Found a better steepest on dimensionuwRepFactor
+slope is : 1
+element is: uwRepFactor:3	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:2	clock:100	numOfCacheThreads:3	LUTs:11919
+	uwThreads:1	throughput:0.0048	ugRepFactor:1	sharedRc:false	
+
+new element is: uwRepFactor:4	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:2	clock:100	LUTs:12810
+	numOfCacheThreads:3	throughput:0.0055	uwThreads:1	ugRepFactor:1	sharedRc:false	
+
+old element is uwRepFactor:3	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:2	clock:100	numOfCacheThreads:3	LUTs:11919
+	uwThreads:1	throughput:0.0048	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:4	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:2	clock:100	LUTs:11919
+	numOfCacheThreads:3	throughput:0.0048	uwThreads:1	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0055
+********measuring area/clock**************
+Refined Area luts is 12810
+
+Refined Area regs is 13586
+
+Refined Area DSPs is 22
+
+Refined clock is 8.694
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 2
+addPipelined false
+mulPipelined false
+divPipelined false
+rcPipelined false
+sharedRc false
+sharedRa false
+ugRepFactor 1
+uwRepFactor 4
+numOfCacheThreads 3
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 502815
+optFunc is 502815
+Steepest first try on dimensionnumOfCacheThreads
+old element is uwRepFactor:3	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:2	clock:100	numOfCacheThreads:3	LUTs:11919
+	uwThreads:1	throughput:0.0048	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:3	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:2	clock:100	LUTs:11919
+	numOfCacheThreads:2	throughput:0.0048	uwThreads:1	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0039
+********measuring area/clock**************
+Refined Area luts is 11589
+
+Refined Area regs is 12398
+
+Refined Area DSPs is 19
+
+Refined clock is 8.664
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 2
+addPipelined false
+mulPipelined false
+divPipelined false
+rcPipelined false
+sharedRc false
+sharedRa false
+ugRepFactor 1
+uwRepFactor 3
+numOfCacheThreads 2
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 354036
+optFunc is 502815
+old element is uwRepFactor:3	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:2	clock:100	numOfCacheThreads:3	LUTs:11919
+	uwThreads:1	throughput:0.0048	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:3	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:2	clock:100	LUTs:11919
+	numOfCacheThreads:4	throughput:0.0048	uwThreads:1	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0045
+********measuring area/clock**************
+Refined Area luts is 12424
+
+Refined Area regs is 12753
+
+Refined Area DSPs is 19
+
+Refined clock is 8.712
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 2
+addPipelined false
+mulPipelined false
+divPipelined false
+rcPipelined false
+sharedRc false
+sharedRa false
+ugRepFactor 1
+uwRepFactor 3
+numOfCacheThreads 4
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 409451
+optFunc is 502815
+
+
+optFunc is 502815
+optFunc is 438081
+Change the design pointuwRepFactor:4	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:2	clock:100	LUTs:12810
+	numOfCacheThreads:3	throughput:0.0055	uwThreads:1	ugRepFactor:1	sharedRc:false	
+
+
+
+Steepest first called for elementuwRepFactor:4	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:2	clock:100	LUTs:12810
+	numOfCacheThreads:3	throughput:0.0055	uwThreads:1	ugRepFactor:1	sharedRc:false	
+
+Steepest first try on dimensionuwThreads
+old element is uwRepFactor:4	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:2	clock:100	LUTs:12810
+	numOfCacheThreads:3	throughput:0.0055	uwThreads:1	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:4	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:2	clock:100	numOfCacheThreads:3	LUTs:12810
+	uwThreads:1	throughput:0.0055	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0055
+********measuring area/clock**************
+Refined Area luts is 12810
+
+Refined Area regs is 13586
+
+Refined Area DSPs is 22
+
+Refined clock is 8.694
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 2
+addPipelined false
+mulPipelined false
+divPipelined false
+rcPipelined false
+sharedRc false
+sharedRa false
+ugRepFactor 1
+uwRepFactor 4
+numOfCacheThreads 3
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 502815
+optFunc is 502815
+old element is uwRepFactor:4	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:2	clock:100	LUTs:12810
+	numOfCacheThreads:3	throughput:0.0055	uwThreads:1	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:4	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:2	clock:100	numOfCacheThreads:3	LUTs:12810
+	uwThreads:2	throughput:0.0055	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0055
+********measuring area/clock**************
+Refined Area luts is 13167
+
+Refined Area regs is 13801
+
+Refined Area DSPs is 22
+
+Refined clock is 8.756
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 2
+ugThreads 2
+addPipelined false
+mulPipelined false
+divPipelined false
+rcPipelined false
+sharedRc false
+sharedRa false
+ugRepFactor 1
+uwRepFactor 4
+numOfCacheThreads 3
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 502458
+optFunc is 502815
+Steepest first try on dimensionugThreads
+old element is uwRepFactor:4	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:2	clock:100	LUTs:12810
+	numOfCacheThreads:3	throughput:0.0055	uwThreads:1	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:4	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:1	clock:100	numOfCacheThreads:3	LUTs:12810
+	uwThreads:1	throughput:0.0055	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0032
+********measuring area/clock**************
+Refined Area luts is 12435
+
+Refined Area regs is 13297
+
+Refined Area DSPs is 22
+
+Refined clock is 8.658
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 1
+addPipelined false
+mulPipelined false
+divPipelined false
+rcPipelined false
+sharedRc false
+sharedRa false
+ugRepFactor 1
+uwRepFactor 4
+numOfCacheThreads 3
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 287565
+optFunc is 502815
+old element is uwRepFactor:4	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:2	clock:100	LUTs:12810
+	numOfCacheThreads:3	throughput:0.0055	uwThreads:1	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:4	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:3	clock:100	numOfCacheThreads:3	LUTs:12810
+	uwThreads:1	throughput:0.0055	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0060
+********measuring area/clock**************
+Refined Area luts is 12853
+
+Refined Area regs is 13865
+
+Refined Area DSPs is 22
+
+Refined clock is 8.840
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 3
+addPipelined false
+mulPipelined false
+divPipelined false
+rcPipelined false
+sharedRc false
+sharedRa false
+ugRepFactor 1
+uwRepFactor 4
+numOfCacheThreads 3
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 549647
+optFunc is 502815
+Found a better steepest on dimensionugThreads
+slope is : 1
+element is: uwRepFactor:4	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:2	clock:100	LUTs:12810
+	numOfCacheThreads:3	throughput:0.0055	uwThreads:1	ugRepFactor:1	sharedRc:false	
+
+new element is: uwRepFactor:4	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:3	clock:100	numOfCacheThreads:3	LUTs:12853
+	uwThreads:1	throughput:0.0060	ugRepFactor:1	sharedRc:false	
+
+old element is uwRepFactor:4	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:2	clock:100	LUTs:12810
+	numOfCacheThreads:3	throughput:0.0055	uwThreads:1	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:4	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:3	clock:100	numOfCacheThreads:3	LUTs:12810
+	uwThreads:1	throughput:0.0055	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0060
+********measuring area/clock**************
+Refined Area luts is 12853
+
+Refined Area regs is 13865
+
+Refined Area DSPs is 22
+
+Refined clock is 8.840
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 3
+addPipelined false
+mulPipelined false
+divPipelined false
+rcPipelined false
+sharedRc false
+sharedRa false
+ugRepFactor 1
+uwRepFactor 4
+numOfCacheThreads 3
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 549647
+optFunc is 549647
+Steepest first try on dimensionaddPipelined
+old element is uwRepFactor:4	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:2	clock:100	LUTs:12810
+	numOfCacheThreads:3	throughput:0.0055	uwThreads:1	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:4	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:true	divPipelined:false	ugThreads:2	clock:100	numOfCacheThreads:3	LUTs:12810
+	uwThreads:1	throughput:0.0055	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0055
+********measuring area/clock**************
+Refined Area luts is 12810
+
+Refined Area regs is 13586
+
+Refined Area DSPs is 22
+
+Refined clock is 8.694
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 2
+addPipelined true
+mulPipelined false
+divPipelined false
+rcPipelined false
+sharedRc false
+sharedRa false
+ugRepFactor 1
+uwRepFactor 4
+numOfCacheThreads 3
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 502815
+optFunc is 549647
+old element is uwRepFactor:4	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:2	clock:100	LUTs:12810
+	numOfCacheThreads:3	throughput:0.0055	uwThreads:1	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:4	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:true	divPipelined:false	ugThreads:2	clock:100	numOfCacheThreads:3	LUTs:12810
+	uwThreads:1	throughput:0.0055	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0055
+********measuring area/clock**************
+Refined Area luts is 12810
+
+Refined Area regs is 13586
+
+Refined Area DSPs is 22
+
+Refined clock is 8.694
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 2
+addPipelined true
+mulPipelined false
+divPipelined false
+rcPipelined false
+sharedRc false
+sharedRa false
+ugRepFactor 1
+uwRepFactor 4
+numOfCacheThreads 3
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 502815
+optFunc is 549647
+Steepest first try on dimensionmulPipelined
+old element is uwRepFactor:4	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:2	clock:100	LUTs:12810
+	numOfCacheThreads:3	throughput:0.0055	uwThreads:1	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:4	mulPipelined:true	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:2	clock:100	numOfCacheThreads:3	LUTs:12810
+	uwThreads:1	throughput:0.0055	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0055
+********measuring area/clock**************
+Refined Area luts is 12810
+
+Refined Area regs is 13586
+
+Refined Area DSPs is 22
+
+Refined clock is 8.694
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 2
+addPipelined false
+mulPipelined true
+divPipelined false
+rcPipelined false
+sharedRc false
+sharedRa false
+ugRepFactor 1
+uwRepFactor 4
+numOfCacheThreads 3
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 502815
+optFunc is 549647
+old element is uwRepFactor:4	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:2	clock:100	LUTs:12810
+	numOfCacheThreads:3	throughput:0.0055	uwThreads:1	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:4	mulPipelined:true	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:2	clock:100	numOfCacheThreads:3	LUTs:12810
+	uwThreads:1	throughput:0.0055	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0055
+********measuring area/clock**************
+Refined Area luts is 12810
+
+Refined Area regs is 13586
+
+Refined Area DSPs is 22
+
+Refined clock is 8.694
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 2
+addPipelined false
+mulPipelined true
+divPipelined false
+rcPipelined false
+sharedRc false
+sharedRa false
+ugRepFactor 1
+uwRepFactor 4
+numOfCacheThreads 3
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 502815
+optFunc is 549647
+Steepest first try on dimensiondivPipelined
+old element is uwRepFactor:4	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:2	clock:100	LUTs:12810
+	numOfCacheThreads:3	throughput:0.0055	uwThreads:1	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:4	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:true	ugThreads:2	clock:100	numOfCacheThreads:3	LUTs:12810
+	uwThreads:1	throughput:0.0055	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0055
+********measuring area/clock**************
+Refined Area luts is 12810
+
+Refined Area regs is 13586
+
+Refined Area DSPs is 22
+
+Refined clock is 8.694
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 2
+addPipelined false
+mulPipelined false
+divPipelined true
+rcPipelined false
+sharedRc false
+sharedRa false
+ugRepFactor 1
+uwRepFactor 4
+numOfCacheThreads 3
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 502815
+optFunc is 549647
+old element is uwRepFactor:4	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:2	clock:100	LUTs:12810
+	numOfCacheThreads:3	throughput:0.0055	uwThreads:1	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:4	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:true	ugThreads:2	clock:100	numOfCacheThreads:3	LUTs:12810
+	uwThreads:1	throughput:0.0055	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0055
+********measuring area/clock**************
+Refined Area luts is 12810
+
+Refined Area regs is 13586
+
+Refined Area DSPs is 22
+
+Refined clock is 8.694
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 2
+addPipelined false
+mulPipelined false
+divPipelined true
+rcPipelined false
+sharedRc false
+sharedRa false
+ugRepFactor 1
+uwRepFactor 4
+numOfCacheThreads 3
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 502815
+optFunc is 549647
+Steepest first try on dimensionrcPipelined
+old element is uwRepFactor:4	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:2	clock:100	LUTs:12810
+	numOfCacheThreads:3	throughput:0.0055	uwThreads:1	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:4	mulPipelined:false	sharedRa:false	rcPipelined:true	addPipelined:false	divPipelined:false	ugThreads:2	clock:100	numOfCacheThreads:3	LUTs:12810
+	uwThreads:1	throughput:0.0055	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0055
+********measuring area/clock**************
+Refined Area luts is 12810
+
+Refined Area regs is 13586
+
+Refined Area DSPs is 22
+
+Refined clock is 8.694
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 2
+addPipelined false
+mulPipelined false
+divPipelined false
+rcPipelined true
+sharedRc false
+sharedRa false
+ugRepFactor 1
+uwRepFactor 4
+numOfCacheThreads 3
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 502815
+optFunc is 549647
+old element is uwRepFactor:4	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:2	clock:100	LUTs:12810
+	numOfCacheThreads:3	throughput:0.0055	uwThreads:1	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:4	mulPipelined:false	sharedRa:false	rcPipelined:true	addPipelined:false	divPipelined:false	ugThreads:2	clock:100	numOfCacheThreads:3	LUTs:12810
+	uwThreads:1	throughput:0.0055	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0055
+********measuring area/clock**************
+Refined Area luts is 12810
+
+Refined Area regs is 13586
+
+Refined Area DSPs is 22
+
+Refined clock is 8.694
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 2
+addPipelined false
+mulPipelined false
+divPipelined false
+rcPipelined true
+sharedRc false
+sharedRa false
+ugRepFactor 1
+uwRepFactor 4
+numOfCacheThreads 3
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 502815
+optFunc is 549647
+Steepest first try on dimensionsharedRc
+old element is uwRepFactor:4	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:2	clock:100	LUTs:12810
+	numOfCacheThreads:3	throughput:0.0055	uwThreads:1	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:4	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:2	clock:100	numOfCacheThreads:3	LUTs:12810
+	uwThreads:1	throughput:0.0055	ugRepFactor:1	sharedRc:true	
+********measuring performance**************
+Refined throughput is 0.0055
+********measuring area/clock**************
+Refined Area luts is 12705
+
+Refined Area regs is 13586
+
+Refined Area DSPs is 22
+
+Refined clock is 8.623
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 2
+addPipelined false
+mulPipelined false
+divPipelined false
+rcPipelined false
+sharedRc true
+sharedRa false
+ugRepFactor 1
+uwRepFactor 4
+numOfCacheThreads 3
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 502920
+optFunc is 549647
+old element is uwRepFactor:4	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:2	clock:100	LUTs:12810
+	numOfCacheThreads:3	throughput:0.0055	uwThreads:1	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:4	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:2	clock:100	numOfCacheThreads:3	LUTs:12810
+	uwThreads:1	throughput:0.0055	ugRepFactor:1	sharedRc:true	
+********measuring performance**************
+Refined throughput is 0.0055
+********measuring area/clock**************
+Refined Area luts is 12705
+
+Refined Area regs is 13586
+
+Refined Area DSPs is 22
+
+Refined clock is 8.623
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 2
+addPipelined false
+mulPipelined false
+divPipelined false
+rcPipelined false
+sharedRc true
+sharedRa false
+ugRepFactor 1
+uwRepFactor 4
+numOfCacheThreads 3
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 502920
+optFunc is 549647
+Steepest first try on dimensionsharedRa
+old element is uwRepFactor:4	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:2	clock:100	LUTs:12810
+	numOfCacheThreads:3	throughput:0.0055	uwThreads:1	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:4	mulPipelined:false	sharedRa:true	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:2	clock:100	numOfCacheThreads:3	LUTs:12810
+	uwThreads:1	throughput:0.0055	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0056
+********measuring area/clock**************
+Refined Area luts is 10411
+
+Refined Area regs is 10737
+
+Refined Area DSPs is 13
+
+Refined clock is 8.696
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 2
+addPipelined false
+mulPipelined false
+divPipelined false
+rcPipelined false
+sharedRc false
+sharedRa true
+ugRepFactor 1
+uwRepFactor 4
+numOfCacheThreads 3
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 514589
+optFunc is 549647
+old element is uwRepFactor:4	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:2	clock:100	LUTs:12810
+	numOfCacheThreads:3	throughput:0.0055	uwThreads:1	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:4	mulPipelined:false	sharedRa:true	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:2	clock:100	numOfCacheThreads:3	LUTs:12810
+	uwThreads:1	throughput:0.0055	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0056
+********measuring area/clock**************
+Refined Area luts is 10411
+
+Refined Area regs is 10737
+
+Refined Area DSPs is 13
+
+Refined clock is 8.696
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 2
+addPipelined false
+mulPipelined false
+divPipelined false
+rcPipelined false
+sharedRc false
+sharedRa true
+ugRepFactor 1
+uwRepFactor 4
+numOfCacheThreads 3
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 514589
+optFunc is 549647
+Steepest first try on dimensionugRepFactor
+old element is uwRepFactor:4	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:2	clock:100	LUTs:12810
+	numOfCacheThreads:3	throughput:0.0055	uwThreads:1	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:4	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:2	clock:100	numOfCacheThreads:3	LUTs:12810
+	uwThreads:1	throughput:0.0055	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0055
+********measuring area/clock**************
+Refined Area luts is 12810
+
+Refined Area regs is 13586
+
+Refined Area DSPs is 22
+
+Refined clock is 8.694
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 2
+addPipelined false
+mulPipelined false
+divPipelined false
+rcPipelined false
+sharedRc false
+sharedRa false
+ugRepFactor 1
+uwRepFactor 4
+numOfCacheThreads 3
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 502815
+optFunc is 549647
+old element is uwRepFactor:4	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:2	clock:100	LUTs:12810
+	numOfCacheThreads:3	throughput:0.0055	uwThreads:1	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:4	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:2	clock:100	numOfCacheThreads:3	LUTs:12810
+	uwThreads:1	throughput:0.0055	ugRepFactor:2	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0065
+********measuring area/clock**************
+Refined Area luts is 17270
+
+Refined Area regs is 20598
+
+Refined Area DSPs is 32
+
+Refined clock is 8.677
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 2
+addPipelined false
+mulPipelined false
+divPipelined false
+rcPipelined false
+sharedRc false
+sharedRa false
+ugRepFactor 2
+uwRepFactor 4
+numOfCacheThreads 3
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 592105
+optFunc is 549647
+Found a better steepest on dimensionugRepFactor
+slope is : 1
+element is: uwRepFactor:4	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:2	clock:100	LUTs:12810
+	numOfCacheThreads:3	throughput:0.0055	uwThreads:1	ugRepFactor:1	sharedRc:false	
+
+new element is: uwRepFactor:4	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:2	clock:100	numOfCacheThreads:3	LUTs:17270
+	uwThreads:1	throughput:0.0065	ugRepFactor:2	sharedRc:false	
+
+old element is uwRepFactor:4	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:2	clock:100	LUTs:12810
+	numOfCacheThreads:3	throughput:0.0055	uwThreads:1	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:4	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:2	clock:100	numOfCacheThreads:3	LUTs:12810
+	uwThreads:1	throughput:0.0055	ugRepFactor:2	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0065
+********measuring area/clock**************
+Refined Area luts is 17270
+
+Refined Area regs is 20598
+
+Refined Area DSPs is 32
+
+Refined clock is 8.677
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 2
+addPipelined false
+mulPipelined false
+divPipelined false
+rcPipelined false
+sharedRc false
+sharedRa false
+ugRepFactor 2
+uwRepFactor 4
+numOfCacheThreads 3
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 592105
+optFunc is 592105
+Steepest first try on dimensionuwRepFactor
+old element is uwRepFactor:4	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:2	clock:100	LUTs:12810
+	numOfCacheThreads:3	throughput:0.0055	uwThreads:1	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:3	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:2	clock:100	numOfCacheThreads:3	LUTs:12810
+	uwThreads:1	throughput:0.0055	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0048
+********measuring area/clock**************
+Refined Area luts is 11919
+
+Refined Area regs is 12585
+
+Refined Area DSPs is 19
+
+Refined clock is 8.694
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 2
+addPipelined false
+mulPipelined false
+divPipelined false
+rcPipelined false
+sharedRc false
+sharedRa false
+ugRepFactor 1
+uwRepFactor 3
+numOfCacheThreads 3
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 438081
+optFunc is 592105
+old element is uwRepFactor:4	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:2	clock:100	LUTs:12810
+	numOfCacheThreads:3	throughput:0.0055	uwThreads:1	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:5	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:2	clock:100	numOfCacheThreads:3	LUTs:12810
+	uwThreads:1	throughput:0.0055	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0057
+********measuring area/clock**************
+Refined Area luts is 13759
+
+Refined Area regs is 14595
+
+Refined Area DSPs is 25
+
+Refined clock is 8.694
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 2
+addPipelined false
+mulPipelined false
+divPipelined false
+rcPipelined false
+sharedRc false
+sharedRa false
+ugRepFactor 1
+uwRepFactor 5
+numOfCacheThreads 3
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 520616
+optFunc is 592105
+Steepest first try on dimensionnumOfCacheThreads
+old element is uwRepFactor:4	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:2	clock:100	LUTs:12810
+	numOfCacheThreads:3	throughput:0.0055	uwThreads:1	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:4	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:2	clock:100	numOfCacheThreads:2	LUTs:12810
+	uwThreads:1	throughput:0.0055	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0042
+********measuring area/clock**************
+Refined Area luts is 12481
+
+Refined Area regs is 13399
+
+Refined Area DSPs is 22
+
+Refined clock is 8.664
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 2
+addPipelined false
+mulPipelined false
+divPipelined false
+rcPipelined false
+sharedRc false
+sharedRa false
+ugRepFactor 1
+uwRepFactor 4
+numOfCacheThreads 2
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 381269
+optFunc is 592105
+old element is uwRepFactor:4	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:2	clock:100	LUTs:12810
+	numOfCacheThreads:3	throughput:0.0055	uwThreads:1	ugRepFactor:1	sharedRc:false	
+modified element is uwRepFactor:4	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:2	clock:100	numOfCacheThreads:4	LUTs:12810
+	uwThreads:1	throughput:0.0055	ugRepFactor:1	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0056
+********measuring area/clock**************
+Refined Area luts is 13315
+
+Refined Area regs is 13754
+
+Refined Area DSPs is 22
+
+Refined clock is 8.712
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 2
+addPipelined false
+mulPipelined false
+divPipelined false
+rcPipelined false
+sharedRc false
+sharedRa false
+ugRepFactor 1
+uwRepFactor 4
+numOfCacheThreads 4
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 511685
+optFunc is 592105
+
+
+optFunc is 592105
+optFunc is 502815
+Change the design pointuwRepFactor:4	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:2	clock:100	numOfCacheThreads:3	LUTs:17270
+	uwThreads:1	throughput:0.0065	ugRepFactor:2	sharedRc:false	
+
+
+
+Steepest first called for elementuwRepFactor:4	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:2	clock:100	numOfCacheThreads:3	LUTs:17270
+	uwThreads:1	throughput:0.0065	ugRepFactor:2	sharedRc:false	
+
+Steepest first try on dimensionuwThreads
+old element is uwRepFactor:4	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:2	clock:100	numOfCacheThreads:3	LUTs:17270
+	uwThreads:1	throughput:0.0065	ugRepFactor:2	sharedRc:false	
+modified element is uwRepFactor:4	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:2	clock:100	LUTs:17270
+	numOfCacheThreads:3	throughput:0.0065	uwThreads:1	ugRepFactor:2	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0065
+********measuring area/clock**************
+Refined Area luts is 17270
+
+Refined Area regs is 20598
+
+Refined Area DSPs is 32
+
+Refined clock is 8.677
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 1
+ugThreads 2
+addPipelined false
+mulPipelined false
+divPipelined false
+rcPipelined false
+sharedRc false
+sharedRa false
+ugRepFactor 2
+uwRepFactor 4
+numOfCacheThreads 3
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 592105
+optFunc is 592105
+old element is uwRepFactor:4	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:2	clock:100	numOfCacheThreads:3	LUTs:17270
+	uwThreads:1	throughput:0.0065	ugRepFactor:2	sharedRc:false	
+modified element is uwRepFactor:4	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:2	clock:100	LUTs:17270
+	numOfCacheThreads:3	throughput:0.0065	uwThreads:2	ugRepFactor:2	sharedRc:false	
+********measuring performance**************
+Refined throughput is 0.0066
+********measuring area/clock**************
+Refined Area luts is 17696
+
+Refined Area regs is 20813
+
+Refined Area DSPs is 32
+
+Refined clock is 8.677
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 1
+AVERAGE_FANOUT 5 
+uwThreads 2
+ugThreads 2
+addPipelined false
+mulPipelined false
+divPipelined false
+rcPipelined false
+sharedRc false
+sharedRa false
+ugRepFactor 2
+uwRepFactor 4
+numOfCacheThreads 3
+cacheHeightLog 7 
+llCacheHeightLog 7 
+cacheLineSizeLog 4 
+optFunc is 601054
+optFunc is 592105
+Found a better steepest on dimensionuwThreads
+slope is : 1
+element is: uwRepFactor:4	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:2	clock:100	numOfCacheThreads:3	LUTs:17270
+	uwThreads:1	throughput:0.0065	ugRepFactor:2	sharedRc:false	
+
+new element is: uwRepFactor:4	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:2	clock:100	LUTs:17696
+	numOfCacheThreads:3	throughput:0.0066	uwThreads:2	ugRepFactor:2	sharedRc:false	
+
+old element is uwRepFactor:4	mulPipelined:false	sharedRa:false	rcPipelined:false	addPipelined:false	divPipelined:false	ugThreads:2	clock:100	numOfCacheThreads:3	LUTs:17270
+	uwThreads:1	throughput:0.0065	ugRepFactor:2	sharedRc:false	
+modified element is uwRepFactor:4	mulPipelined:false	sharedRa:false	rcPipelined:false	divPipelined:false	addPipelined:false	ugThreads:2	clock:100	LUTs:17270
+	numOfCacheThreads:3	throughput:0.0065	uwThreads:2	ugRepFactor:2	sharedRc:false	
+********measuring performance**************

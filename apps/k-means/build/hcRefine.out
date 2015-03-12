@@ -1,0 +1,1285 @@
+Benchmark is k-means 
+
+dim NUM_OF_ENGINES is added  with type range 
+dim NUM_OF_THREADS is added  with type range 
+dim dfuEngineType is added  with type offEngineType 
+Initial element is dfuEngineType:	clock:100	NUM_OF_THREADS:1	LUTs:1000000	throughput:0	NUM_OF_ENGINES:1	
+********measuring performance**************
+Refined throughput is 0.0018
+********measuring area/clock**************
+Refined Area luts is 
+Refined Area regs is 
+Refined Area DSPs is 
+Refined clock is 
+NUM_OF_POINTS 200
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 1
+NUM_OF_THREADS 1
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+PIPED_DFU true
+In main loop dimension is NUM_OF_ENGINES value is 1
+old element is dfuEngineType:	clock:100	NUM_OF_THREADS:1	LUTs:	throughput:0.0018	NUM_OF_ENGINES:1	
+modified element is dfuEngineType:	NUM_OF_THREADS:1	clock:100	LUTs:	throughput:0.0018	NUM_OF_ENGINES:2	
+********measuring performance**************
+Refined throughput is 0.0035
+********measuring area/clock**************
+Refined Area luts is 
+Refined Area regs is 
+Refined Area DSPs is 
+Refined clock is 
+NUM_OF_POINTS 200
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 2
+NUM_OF_THREADS 1
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+PIPED_DFU true
+optFunc is 291666.666666667
+optFunc is 150000
+optFunc is 150000
+optFunc is 291666.666666667
+Testing if dim NUM_OF_ENGINESshould be changed from 1 to 2 old utilization is 150000 new utilization is 291666.666666667 change is 141666.666666667 random number is 0.801083536892296 acceptatnce probability is 10.6027257163162 
+Change the design point. dim is NUM_OF_ENGINES dfuEngineType:	NUM_OF_THREADS:1	clock:100	LUTs:	throughput:0.0035	NUM_OF_ENGINES:2	
+ipctCounter is 2
+
+In main loop dimension is NUM_OF_THREADS value is 1
+old element is dfuEngineType:	NUM_OF_THREADS:1	clock:100	LUTs:	throughput:0.0035	NUM_OF_ENGINES:2	
+modified element is dfuEngineType:	clock:100	NUM_OF_THREADS:2	LUTs:	throughput:0.0035	NUM_OF_ENGINES:2	
+********measuring performance**************
+Refined throughput is 0.0038
+********measuring area/clock**************
+Refined Area luts is 
+Refined Area regs is 
+Refined Area DSPs is 
+Refined clock is 
+NUM_OF_POINTS 200
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 2
+NUM_OF_THREADS 2
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+PIPED_DFU true
+optFunc is 316666.666666667
+optFunc is 291666.666666667
+optFunc is 291666.666666667
+optFunc is 316666.666666667
+Testing if dim NUM_OF_THREADSshould be changed from 1 to 2 old utilization is 291666.666666667 new utilization is 316666.666666667 change is 25000 random number is 0.229772611844481 acceptatnce probability is 1.51689679638821 
+Change the design point. dim is NUM_OF_THREADS dfuEngineType:	clock:100	NUM_OF_THREADS:2	LUTs:	throughput:0.0038	NUM_OF_ENGINES:2	
+ipctCounter is 3
+
+In main loop dimension is dfuEngineType value is 
+old element is dfuEngineType:	clock:100	NUM_OF_THREADS:2	LUTs:	throughput:0.0038	NUM_OF_ENGINES:2	
+modified element is dfuEngineType:separatePipeEngine	NUM_OF_THREADS:2	clock:100	LUTs:	throughput:0.0038	NUM_OF_ENGINES:2	
+********measuring performance**************
+Refined throughput is 0.0038
+********measuring area/clock**************
+Refined Area luts is 
+Refined Area regs is 
+Refined Area DSPs is 
+Refined clock is 
+NUM_OF_POINTS 200
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 2
+NUM_OF_THREADS 2
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+PIPED_DFU true
+optFunc is 316666.666666667
+optFunc is 316666.666666667
+optFunc is 316666.666666667
+optFunc is 316666.666666667
+Testing if dim dfuEngineTypeshould be changed from  to separatePipeEngine old utilization is 316666.666666667 new utilization is 316666.666666667 change is 0 random number is 0.416734375330758 acceptatnce probability is 1 
+Change the design point. dim is dfuEngineType dfuEngineType:separatePipeEngine	NUM_OF_THREADS:2	clock:100	LUTs:	throughput:0.0038	NUM_OF_ENGINES:2	
+ipctCounter is 4
+
+In main loop dimension is NUM_OF_ENGINES value is 2
+old element is dfuEngineType:separatePipeEngine	NUM_OF_THREADS:2	clock:100	LUTs:	throughput:0.0038	NUM_OF_ENGINES:2	
+modified element is dfuEngineType:separatePipeEngine	clock:100	NUM_OF_THREADS:2	LUTs:	throughput:0.0038	NUM_OF_ENGINES:1	
+********measuring performance**************
+Refined throughput is 0.0019
+********measuring area/clock**************
+Refined Area luts is 
+Refined Area regs is 
+Refined Area DSPs is 
+Refined clock is 
+NUM_OF_POINTS 200
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 1
+NUM_OF_THREADS 2
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+PIPED_DFU true
+optFunc is 158333.333333333
+optFunc is 316666.666666667
+optFunc is 316666.666666667
+optFunc is 158333.333333333
+Testing if dim NUM_OF_ENGINESshould be changed from 2 to 1 old utilization is 316666.666666667 new utilization is 158333.333333333 change is -158333.333333333 random number is 0.876088425141411 acceptatnce probability is 0.071440603922379 
+ipctCounter is 5
+
+In main loop dimension is NUM_OF_THREADS value is 2
+old element is dfuEngineType:separatePipeEngine	NUM_OF_THREADS:2	clock:100	LUTs:	throughput:0.0038	NUM_OF_ENGINES:2	
+modified element is dfuEngineType:separatePipeEngine	clock:100	NUM_OF_THREADS:1	LUTs:	throughput:0.0038	NUM_OF_ENGINES:2	
+********measuring performance**************
+Refined throughput is 0.0035
+********measuring area/clock**************
+Refined Area luts is 
+Refined Area regs is 
+Refined Area DSPs is 
+Refined clock is 
+NUM_OF_POINTS 200
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 2
+NUM_OF_THREADS 1
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+PIPED_DFU true
+optFunc is 291666.666666667
+optFunc is 316666.666666667
+optFunc is 316666.666666667
+optFunc is 291666.666666667
+Testing if dim NUM_OF_THREADSshould be changed from 2 to 1 old utilization is 316666.666666667 new utilization is 291666.666666667 change is -25000 random number is 0.736529651459097 acceptatnce probability is 0.659240630200444 
+ipctCounter is 6
+
+In main loop dimension is dfuEngineType value is separatePipeEngine
+old element is dfuEngineType:separatePipeEngine	NUM_OF_THREADS:2	clock:100	LUTs:	throughput:0.0038	NUM_OF_ENGINES:2	
+modified element is dfuEngineType:separateEngine	clock:100	NUM_OF_THREADS:2	LUTs:	throughput:0.0038	NUM_OF_ENGINES:2	
+********measuring performance**************
+Refined throughput is 0.0038
+********measuring area/clock**************
+Refined Area luts is 
+Refined Area regs is 
+Refined Area DSPs is 
+Refined clock is 
+NUM_OF_POINTS 200
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 2
+NUM_OF_THREADS 2
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+PIPED_DFU true
+optFunc is 316666.666666667
+optFunc is 316666.666666667
+optFunc is 316666.666666667
+optFunc is 316666.666666667
+Testing if dim dfuEngineTypeshould be changed from separatePipeEngine to separateEngine old utilization is 316666.666666667 new utilization is 316666.666666667 change is 0 random number is 0.56263785854388 acceptatnce probability is 1 
+Change the design point. dim is dfuEngineType dfuEngineType:separateEngine	clock:100	NUM_OF_THREADS:2	LUTs:	throughput:0.0038	NUM_OF_ENGINES:2	
+ipctCounter is 7
+
+In main loop dimension is NUM_OF_ENGINES value is 2
+old element is dfuEngineType:separateEngine	clock:100	NUM_OF_THREADS:2	LUTs:	throughput:0.0038	NUM_OF_ENGINES:2	
+modified element is dfuEngineType:separateEngine	NUM_OF_THREADS:2	clock:100	LUTs:	throughput:0.0038	NUM_OF_ENGINES:3	
+********measuring performance**************
+Refined throughput is 0.0058
+********measuring area/clock**************
+Refined Area luts is 
+Refined Area regs is 
+Refined Area DSPs is 
+Refined clock is 
+NUM_OF_POINTS 200
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 3
+NUM_OF_THREADS 2
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+PIPED_DFU true
+optFunc is 483333.333333333
+optFunc is 316666.666666667
+optFunc is 316666.666666667
+optFunc is 483333.333333333
+Testing if dim NUM_OF_ENGINESshould be changed from 2 to 3 old utilization is 316666.666666667 new utilization is 483333.333333333 change is 166666.666666667 random number is 0.250572807990775 acceptatnce probability is 16.0832406720629 
+Change the design point. dim is NUM_OF_ENGINES dfuEngineType:separateEngine	NUM_OF_THREADS:2	clock:100	LUTs:	throughput:0.0058	NUM_OF_ENGINES:3	
+ipctCounter is 8
+
+In main loop dimension is NUM_OF_THREADS value is 2
+old element is dfuEngineType:separateEngine	NUM_OF_THREADS:2	clock:100	LUTs:	throughput:0.0058	NUM_OF_ENGINES:3	
+modified element is dfuEngineType:separateEngine	clock:100	NUM_OF_THREADS:3	LUTs:	throughput:0.0058	NUM_OF_ENGINES:3	
+********measuring performance**************
+Refined throughput is 0.0058
+********measuring area/clock**************
+Refined Area luts is 
+Refined Area regs is 
+Refined Area DSPs is 
+Refined clock is 
+NUM_OF_POINTS 200
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 3
+NUM_OF_THREADS 3
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+PIPED_DFU true
+optFunc is 483333.333333333
+optFunc is 483333.333333333
+optFunc is 483333.333333333
+optFunc is 483333.333333333
+Testing if dim NUM_OF_THREADSshould be changed from 2 to 3 old utilization is 483333.333333333 new utilization is 483333.333333333 change is 0 random number is 0.700275106629384 acceptatnce probability is 1 
+Change the design point. dim is NUM_OF_THREADS dfuEngineType:separateEngine	clock:100	NUM_OF_THREADS:3	LUTs:	throughput:0.0058	NUM_OF_ENGINES:3	
+ipctCounter is 9
+
+In main loop dimension is dfuEngineType value is separateEngine
+old element is dfuEngineType:separateEngine	clock:100	NUM_OF_THREADS:3	LUTs:	throughput:0.0058	NUM_OF_ENGINES:3	
+modified element is dfuEngineType:separatePipeEngine	NUM_OF_THREADS:3	clock:100	LUTs:	throughput:0.0058	NUM_OF_ENGINES:3	
+********measuring performance**************
+Refined throughput is 0.0058
+********measuring area/clock**************
+Refined Area luts is 
+Refined Area regs is 
+Refined Area DSPs is 
+Refined clock is 
+NUM_OF_POINTS 200
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 3
+NUM_OF_THREADS 3
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+PIPED_DFU true
+optFunc is 483333.333333333
+optFunc is 483333.333333333
+optFunc is 483333.333333333
+optFunc is 483333.333333333
+Testing if dim dfuEngineTypeshould be changed from separateEngine to separatePipeEngine old utilization is 483333.333333333 new utilization is 483333.333333333 change is 0 random number is 0.126846530000339 acceptatnce probability is 1 
+Change the design point. dim is dfuEngineType dfuEngineType:separatePipeEngine	NUM_OF_THREADS:3	clock:100	LUTs:	throughput:0.0058	NUM_OF_ENGINES:3	
+ipctCounter is 10
+
+In main loop dimension is NUM_OF_ENGINES value is 3
+old element is dfuEngineType:separatePipeEngine	NUM_OF_THREADS:3	clock:100	LUTs:	throughput:0.0058	NUM_OF_ENGINES:3	
+modified element is dfuEngineType:separatePipeEngine	clock:100	NUM_OF_THREADS:3	LUTs:	throughput:0.0058	NUM_OF_ENGINES:2	
+********measuring performance**************
+Refined throughput is 0.0039
+********measuring area/clock**************
+Refined Area luts is 
+Refined Area regs is 
+Refined Area DSPs is 
+Refined clock is 
+NUM_OF_POINTS 200
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 2
+NUM_OF_THREADS 3
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+PIPED_DFU true
+optFunc is 325000
+optFunc is 483333.333333333
+optFunc is 483333.333333333
+optFunc is 325000
+Testing if dim NUM_OF_ENGINESshould be changed from 3 to 2 old utilization is 483333.333333333 new utilization is 325000 change is -158333.333333333 random number is 0.16341055283624 acceptatnce probability is 0.071440603922379 
+SA temprature is changed from 60000 to 40000
+SA ipt is changed from 10 to 15
+
+
+In main loop dimension is NUM_OF_THREADS value is 3
+old element is dfuEngineType:separatePipeEngine	NUM_OF_THREADS:3	clock:100	LUTs:	throughput:0.0058	NUM_OF_ENGINES:3	
+modified element is dfuEngineType:separatePipeEngine	clock:100	NUM_OF_THREADS:2	LUTs:	throughput:0.0058	NUM_OF_ENGINES:3	
+********measuring performance**************
+Refined throughput is 0.0058
+********measuring area/clock**************
+Refined Area luts is 
+Refined Area regs is 
+Refined Area DSPs is 
+Refined clock is 
+NUM_OF_POINTS 200
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 3
+NUM_OF_THREADS 2
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+PIPED_DFU true
+optFunc is 483333.333333333
+optFunc is 483333.333333333
+optFunc is 483333.333333333
+optFunc is 483333.333333333
+Testing if dim NUM_OF_THREADSshould be changed from 3 to 2 old utilization is 483333.333333333 new utilization is 483333.333333333 change is 0 random number is 0.78963664827624 acceptatnce probability is 1 
+Change the design point. dim is NUM_OF_THREADS dfuEngineType:separatePipeEngine	clock:100	NUM_OF_THREADS:2	LUTs:	throughput:0.0058	NUM_OF_ENGINES:3	
+ipctCounter is 1
+
+In main loop dimension is dfuEngineType value is separatePipeEngine
+old element is dfuEngineType:separatePipeEngine	clock:100	NUM_OF_THREADS:2	LUTs:	throughput:0.0058	NUM_OF_ENGINES:3	
+modified element is dfuEngineType:separateEngine	NUM_OF_THREADS:2	clock:100	LUTs:	throughput:0.0058	NUM_OF_ENGINES:3	
+********measuring performance**************
+Refined throughput is 0.0058
+********measuring area/clock**************
+Refined Area luts is 
+Refined Area regs is 
+Refined Area DSPs is 
+Refined clock is 
+NUM_OF_POINTS 200
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 3
+NUM_OF_THREADS 2
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+PIPED_DFU true
+optFunc is 483333.333333333
+optFunc is 483333.333333333
+optFunc is 483333.333333333
+optFunc is 483333.333333333
+Testing if dim dfuEngineTypeshould be changed from separatePipeEngine to separateEngine old utilization is 483333.333333333 new utilization is 483333.333333333 change is 0 random number is 0.627304767248894 acceptatnce probability is 1 
+Change the design point. dim is dfuEngineType dfuEngineType:separateEngine	NUM_OF_THREADS:2	clock:100	LUTs:	throughput:0.0058	NUM_OF_ENGINES:3	
+ipctCounter is 2
+
+In main loop dimension is NUM_OF_ENGINES value is 3
+old element is dfuEngineType:separateEngine	NUM_OF_THREADS:2	clock:100	LUTs:	throughput:0.0058	NUM_OF_ENGINES:3	
+modified element is dfuEngineType:separateEngine	clock:100	NUM_OF_THREADS:2	LUTs:	throughput:0.0058	NUM_OF_ENGINES:4	
+********measuring performance**************
+Refined throughput is 0.0076
+********measuring area/clock**************
+Refined Area luts is 
+Refined Area regs is 
+Refined Area DSPs is 
+Refined clock is 
+NUM_OF_POINTS 200
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 4
+NUM_OF_THREADS 2
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+PIPED_DFU true
+optFunc is 633333.333333333
+optFunc is 483333.333333333
+optFunc is 483333.333333333
+optFunc is 633333.333333333
+Testing if dim NUM_OF_ENGINESshould be changed from 3 to 4 old utilization is 483333.333333333 new utilization is 633333.333333333 change is 150000 random number is 0.85691768003834 acceptatnce probability is 42.5210820000628 
+Change the design point. dim is NUM_OF_ENGINES dfuEngineType:separateEngine	clock:100	NUM_OF_THREADS:2	LUTs:	throughput:0.0076	NUM_OF_ENGINES:4	
+ipctCounter is 3
+
+In main loop dimension is NUM_OF_THREADS value is 2
+old element is dfuEngineType:separateEngine	clock:100	NUM_OF_THREADS:2	LUTs:	throughput:0.0076	NUM_OF_ENGINES:4	
+modified element is dfuEngineType:separateEngine	NUM_OF_THREADS:1	clock:100	LUTs:	throughput:0.0076	NUM_OF_ENGINES:4	
+********measuring performance**************
+Refined throughput is 0.0070
+********measuring area/clock**************
+Refined Area luts is 
+Refined Area regs is 
+Refined Area DSPs is 
+Refined clock is 
+NUM_OF_POINTS 200
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 4
+NUM_OF_THREADS 1
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+PIPED_DFU true
+optFunc is 583333.333333333
+optFunc is 633333.333333333
+optFunc is 633333.333333333
+optFunc is 583333.333333333
+Testing if dim NUM_OF_THREADSshould be changed from 2 to 1 old utilization is 633333.333333333 new utilization is 583333.333333333 change is -50000 random number is 0.945281100541038 acceptatnce probability is 0.28650479686019 
+ipctCounter is 4
+
+In main loop dimension is dfuEngineType value is separateEngine
+old element is dfuEngineType:separateEngine	clock:100	NUM_OF_THREADS:2	LUTs:	throughput:0.0076	NUM_OF_ENGINES:4	
+modified element is dfuEngineType:separatePipeEngine	NUM_OF_THREADS:2	clock:100	LUTs:	throughput:0.0076	NUM_OF_ENGINES:4	
+********measuring performance**************
+Refined throughput is 0.0076
+********measuring area/clock**************
+Refined Area luts is 
+Refined Area regs is 
+Refined Area DSPs is 
+Refined clock is 
+NUM_OF_POINTS 200
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 4
+NUM_OF_THREADS 2
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+PIPED_DFU true
+optFunc is 633333.333333333
+optFunc is 633333.333333333
+optFunc is 633333.333333333
+optFunc is 633333.333333333
+Testing if dim dfuEngineTypeshould be changed from separateEngine to separatePipeEngine old utilization is 633333.333333333 new utilization is 633333.333333333 change is 0 random number is 0.698294915332095 acceptatnce probability is 1 
+Change the design point. dim is dfuEngineType dfuEngineType:separatePipeEngine	NUM_OF_THREADS:2	clock:100	LUTs:	throughput:0.0076	NUM_OF_ENGINES:4	
+ipctCounter is 5
+
+In main loop dimension is NUM_OF_ENGINES value is 4
+old element is dfuEngineType:separatePipeEngine	NUM_OF_THREADS:2	clock:100	LUTs:	throughput:0.0076	NUM_OF_ENGINES:4	
+modified element is dfuEngineType:separatePipeEngine	clock:100	NUM_OF_THREADS:2	LUTs:	throughput:0.0076	NUM_OF_ENGINES:3	
+********measuring performance**************
+Refined throughput is 0.0058
+********measuring area/clock**************
+Refined Area luts is 
+Refined Area regs is 
+Refined Area DSPs is 
+Refined clock is 
+NUM_OF_POINTS 200
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 3
+NUM_OF_THREADS 2
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+PIPED_DFU true
+optFunc is 483333.333333333
+optFunc is 633333.333333333
+optFunc is 633333.333333333
+optFunc is 483333.333333333
+Testing if dim NUM_OF_ENGINESshould be changed from 4 to 3 old utilization is 633333.333333333 new utilization is 483333.333333333 change is -150000 random number is 0.82843063221673 acceptatnce probability is 0.0235177458560091 
+ipctCounter is 6
+
+In main loop dimension is NUM_OF_THREADS value is 2
+old element is dfuEngineType:separatePipeEngine	NUM_OF_THREADS:2	clock:100	LUTs:	throughput:0.0076	NUM_OF_ENGINES:4	
+modified element is dfuEngineType:separatePipeEngine	clock:100	NUM_OF_THREADS:3	LUTs:	throughput:0.0076	NUM_OF_ENGINES:4	
+********measuring performance**************
+Refined throughput is 0.0077
+********measuring area/clock**************
+Refined Area luts is 
+Refined Area regs is 
+Refined Area DSPs is 
+Refined clock is 
+NUM_OF_POINTS 200
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 4
+NUM_OF_THREADS 3
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+PIPED_DFU true
+optFunc is 641666.666666667
+optFunc is 633333.333333333
+optFunc is 633333.333333333
+optFunc is 641666.666666667
+Testing if dim NUM_OF_THREADSshould be changed from 2 to 3 old utilization is 633333.333333333 new utilization is 641666.666666667 change is 8333.33333333337 random number is 0.244402450481008 acceptatnce probability is 1.23162364234705 
+Change the design point. dim is NUM_OF_THREADS dfuEngineType:separatePipeEngine	clock:100	NUM_OF_THREADS:3	LUTs:	throughput:0.0077	NUM_OF_ENGINES:4	
+ipctCounter is 7
+
+In main loop dimension is dfuEngineType value is separatePipeEngine
+old element is dfuEngineType:separatePipeEngine	clock:100	NUM_OF_THREADS:3	LUTs:	throughput:0.0077	NUM_OF_ENGINES:4	
+modified element is dfuEngineType:separateEngine	NUM_OF_THREADS:3	clock:100	LUTs:	throughput:0.0077	NUM_OF_ENGINES:4	
+********measuring performance**************
+Refined throughput is 0.0077
+********measuring area/clock**************
+Refined Area luts is 
+Refined Area regs is 
+Refined Area DSPs is 
+Refined clock is 
+NUM_OF_POINTS 200
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 4
+NUM_OF_THREADS 3
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+PIPED_DFU true
+optFunc is 641666.666666667
+optFunc is 641666.666666667
+optFunc is 641666.666666667
+optFunc is 641666.666666667
+Testing if dim dfuEngineTypeshould be changed from separatePipeEngine to separateEngine old utilization is 641666.666666667 new utilization is 641666.666666667 change is 0 random number is 0.957968666799417 acceptatnce probability is 1 
+Change the design point. dim is dfuEngineType dfuEngineType:separateEngine	NUM_OF_THREADS:3	clock:100	LUTs:	throughput:0.0077	NUM_OF_ENGINES:4	
+ipctCounter is 8
+
+In main loop dimension is NUM_OF_ENGINES value is 4
+old element is dfuEngineType:separateEngine	NUM_OF_THREADS:3	clock:100	LUTs:	throughput:0.0077	NUM_OF_ENGINES:4	
+modified element is dfuEngineType:separateEngine	clock:100	NUM_OF_THREADS:3	LUTs:	throughput:0.0077	NUM_OF_ENGINES:5	
+********measuring performance**************
+Refined throughput is 0.0097
+********measuring area/clock**************
+Refined Area luts is 
+Refined Area regs is 
+Refined Area DSPs is 
+Refined clock is 
+NUM_OF_POINTS 200
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 5
+NUM_OF_THREADS 3
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+PIPED_DFU true
+optFunc is 808333.333333333
+optFunc is 641666.666666667
+optFunc is 641666.666666667
+optFunc is 808333.333333333
+Testing if dim NUM_OF_ENGINESshould be changed from 4 to 5 old utilization is 641666.666666667 new utilization is 808333.333333333 change is 166666.666666667 random number is 0.843880600592865 acceptatnce probability is 64.5000930648557 
+Change the design point. dim is NUM_OF_ENGINES dfuEngineType:separateEngine	clock:100	NUM_OF_THREADS:3	LUTs:	throughput:0.0097	NUM_OF_ENGINES:5	
+ipctCounter is 9
+
+In main loop dimension is NUM_OF_THREADS value is 3
+old element is dfuEngineType:separateEngine	clock:100	NUM_OF_THREADS:3	LUTs:	throughput:0.0097	NUM_OF_ENGINES:5	
+modified element is dfuEngineType:separateEngine	NUM_OF_THREADS:2	clock:100	LUTs:	throughput:0.0097	NUM_OF_ENGINES:5	
+********measuring performance**************
+Refined throughput is 0.0095
+********measuring area/clock**************
+Refined Area luts is 
+Refined Area regs is 
+Refined Area DSPs is 
+Refined clock is 
+NUM_OF_POINTS 200
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 5
+NUM_OF_THREADS 2
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+PIPED_DFU true
+optFunc is 791666.666666667
+optFunc is 808333.333333333
+optFunc is 808333.333333333
+optFunc is 791666.666666667
+Testing if dim NUM_OF_THREADSshould be changed from 3 to 2 old utilization is 808333.333333333 new utilization is 791666.666666667 change is -16666.6666666666 random number is 0.369337604920482 acceptatnce probability is 0.659240630200444 
+Change the design point. dim is NUM_OF_THREADS Accepting a lower utility with random number0.369337604920482 and probabality 0.659240630200444 change is -16666.6666666666 temperature is 40000 
+dfuEngineType:separateEngine	NUM_OF_THREADS:2	clock:100	LUTs:	throughput:0.0095	NUM_OF_ENGINES:5	
+ipctCounter is 10
+
+In main loop dimension is dfuEngineType value is separateEngine
+old element is dfuEngineType:separateEngine	NUM_OF_THREADS:2	clock:100	LUTs:	throughput:0.0095	NUM_OF_ENGINES:5	
+modified element is dfuEngineType:separatePipeEngine	clock:100	NUM_OF_THREADS:2	LUTs:	throughput:0.0095	NUM_OF_ENGINES:5	
+********measuring performance**************
+Refined throughput is 0.0095
+********measuring area/clock**************
+Refined Area luts is 
+Refined Area regs is 
+Refined Area DSPs is 
+Refined clock is 
+NUM_OF_POINTS 200
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 5
+NUM_OF_THREADS 2
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+PIPED_DFU true
+optFunc is 791666.666666667
+optFunc is 791666.666666667
+optFunc is 791666.666666667
+optFunc is 791666.666666667
+Testing if dim dfuEngineTypeshould be changed from separateEngine to separatePipeEngine old utilization is 791666.666666667 new utilization is 791666.666666667 change is 0 random number is 0.00484770915672428 acceptatnce probability is 1 
+Change the design point. dim is dfuEngineType dfuEngineType:separatePipeEngine	clock:100	NUM_OF_THREADS:2	LUTs:	throughput:0.0095	NUM_OF_ENGINES:5	
+ipctCounter is 11
+
+In main loop dimension is NUM_OF_ENGINES value is 5
+old element is dfuEngineType:separatePipeEngine	clock:100	NUM_OF_THREADS:2	LUTs:	throughput:0.0095	NUM_OF_ENGINES:5	
+modified element is dfuEngineType:separatePipeEngine	NUM_OF_THREADS:2	clock:100	LUTs:	throughput:0.0095	NUM_OF_ENGINES:4	
+********measuring performance**************
+Refined throughput is 0.0076
+********measuring area/clock**************
+Refined Area luts is 
+Refined Area regs is 
+Refined Area DSPs is 
+Refined clock is 
+NUM_OF_POINTS 200
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 4
+NUM_OF_THREADS 2
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+PIPED_DFU true
+optFunc is 633333.333333333
+optFunc is 791666.666666667
+optFunc is 791666.666666667
+optFunc is 633333.333333333
+Testing if dim NUM_OF_ENGINESshould be changed from 5 to 4 old utilization is 791666.666666667 new utilization is 633333.333333333 change is -158333.333333333 random number is 0.604363765382502 acceptatnce probability is 0.0190949126400273 
+ipctCounter is 12
+
+In main loop dimension is NUM_OF_THREADS value is 2
+old element is dfuEngineType:separatePipeEngine	clock:100	NUM_OF_THREADS:2	LUTs:	throughput:0.0095	NUM_OF_ENGINES:5	
+modified element is dfuEngineType:separatePipeEngine	NUM_OF_THREADS:1	clock:100	LUTs:	throughput:0.0095	NUM_OF_ENGINES:5	
+********measuring performance**************
+Refined throughput is 0.0087
+********measuring area/clock**************
+Refined Area luts is 
+Refined Area regs is 
+Refined Area DSPs is 
+Refined clock is 
+NUM_OF_POINTS 200
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 5
+NUM_OF_THREADS 1
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+PIPED_DFU true
+optFunc is 725000
+optFunc is 791666.666666667
+optFunc is 791666.666666667
+optFunc is 725000
+Testing if dim NUM_OF_THREADSshould be changed from 2 to 1 old utilization is 791666.666666667 new utilization is 725000 change is -66666.6666666667 random number is 0.0361081732331989 acceptatnce probability is 0.188875602837561 
+Change the design point. dim is NUM_OF_THREADS Accepting a lower utility with random number0.0361081732331989 and probabality 0.188875602837561 change is -66666.6666666667 temperature is 40000 
+dfuEngineType:separatePipeEngine	NUM_OF_THREADS:1	clock:100	LUTs:	throughput:0.0087	NUM_OF_ENGINES:5	
+ipctCounter is 13
+
+In main loop dimension is dfuEngineType value is separatePipeEngine
+old element is dfuEngineType:separatePipeEngine	NUM_OF_THREADS:1	clock:100	LUTs:	throughput:0.0087	NUM_OF_ENGINES:5	
+modified element is dfuEngineType:separateEngine	clock:100	NUM_OF_THREADS:1	LUTs:	throughput:0.0087	NUM_OF_ENGINES:5	
+********measuring performance**************
+Refined throughput is 0.0087
+********measuring area/clock**************
+Refined Area luts is 
+Refined Area regs is 
+Refined Area DSPs is 
+Refined clock is 
+NUM_OF_POINTS 200
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 5
+NUM_OF_THREADS 1
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+PIPED_DFU true
+optFunc is 725000
+optFunc is 725000
+optFunc is 725000
+optFunc is 725000
+Testing if dim dfuEngineTypeshould be changed from separatePipeEngine to separateEngine old utilization is 725000 new utilization is 725000 change is 0 random number is 0.693502148595279 acceptatnce probability is 1 
+Change the design point. dim is dfuEngineType dfuEngineType:separateEngine	clock:100	NUM_OF_THREADS:1	LUTs:	throughput:0.0087	NUM_OF_ENGINES:5	
+ipctCounter is 14
+
+In main loop dimension is NUM_OF_ENGINES value is 5
+old element is dfuEngineType:separateEngine	clock:100	NUM_OF_THREADS:1	LUTs:	throughput:0.0087	NUM_OF_ENGINES:5	
+modified element is dfuEngineType:separateEngine	NUM_OF_THREADS:1	clock:100	LUTs:	throughput:0.0087	NUM_OF_ENGINES:6	
+********measuring performance**************
+Refined throughput is 0.0105
+********measuring area/clock**************
+Refined Area luts is 
+Refined Area regs is 
+Refined Area DSPs is 
+Refined clock is 
+NUM_OF_POINTS 200
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 6
+NUM_OF_THREADS 1
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+PIPED_DFU true
+optFunc is 875000
+optFunc is 725000
+optFunc is 725000
+optFunc is 875000
+Testing if dim NUM_OF_ENGINESshould be changed from 5 to 6 old utilization is 725000 new utilization is 875000 change is 150000 random number is 0.0630117435214039 acceptatnce probability is 42.5210820000629 
+Change the design point. dim is NUM_OF_ENGINES dfuEngineType:separateEngine	NUM_OF_THREADS:1	clock:100	LUTs:	throughput:0.0105	NUM_OF_ENGINES:6	
+ipctCounter is 15
+
+In main loop dimension is NUM_OF_THREADS value is 1
+old element is dfuEngineType:separateEngine	NUM_OF_THREADS:1	clock:100	LUTs:	throughput:0.0105	NUM_OF_ENGINES:6	
+modified element is dfuEngineType:separateEngine	clock:100	NUM_OF_THREADS:2	LUTs:	throughput:0.0105	NUM_OF_ENGINES:6	
+********measuring performance**************
+Refined throughput is 0.0117
+********measuring area/clock**************
+Refined Area luts is 
+Refined Area regs is 
+Refined Area DSPs is 
+Refined clock is 
+NUM_OF_POINTS 200
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 6
+NUM_OF_THREADS 2
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+PIPED_DFU true
+optFunc is 975000
+optFunc is 875000
+optFunc is 875000
+optFunc is 975000
+Testing if dim NUM_OF_THREADSshould be changed from 1 to 2 old utilization is 875000 new utilization is 975000 change is 99999.9999999999 random number is 0.534847302186165 acceptatnce probability is 12.1824939607034 
+Change the design point. dim is NUM_OF_THREADS dfuEngineType:separateEngine	clock:100	NUM_OF_THREADS:2	LUTs:	throughput:0.0117	NUM_OF_ENGINES:6	
+SA temprature is changed from 40000 to 20000
+SA ipt is changed from 15 to 22.5
+
+
+In main loop dimension is dfuEngineType value is separateEngine
+old element is dfuEngineType:separateEngine	clock:100	NUM_OF_THREADS:2	LUTs:	throughput:0.0117	NUM_OF_ENGINES:6	
+modified element is dfuEngineType:separatePipeEngine	NUM_OF_THREADS:2	clock:100	LUTs:	throughput:0.0117	NUM_OF_ENGINES:6	
+********measuring performance**************
+Refined throughput is 0.0117
+********measuring area/clock**************
+Refined Area luts is 
+Refined Area regs is 
+Refined Area DSPs is 
+Refined clock is 
+NUM_OF_POINTS 200
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 6
+NUM_OF_THREADS 2
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+PIPED_DFU true
+optFunc is 975000
+optFunc is 975000
+optFunc is 975000
+optFunc is 975000
+Testing if dim dfuEngineTypeshould be changed from separateEngine to separatePipeEngine old utilization is 975000 new utilization is 975000 change is 0 random number is 0.890815839498924 acceptatnce probability is 1 
+Change the design point. dim is dfuEngineType dfuEngineType:separatePipeEngine	NUM_OF_THREADS:2	clock:100	LUTs:	throughput:0.0117	NUM_OF_ENGINES:6	
+ipctCounter is 1
+
+In main loop dimension is NUM_OF_ENGINES value is 6
+old element is dfuEngineType:separatePipeEngine	NUM_OF_THREADS:2	clock:100	LUTs:	throughput:0.0117	NUM_OF_ENGINES:6	
+modified element is dfuEngineType:separatePipeEngine	clock:100	NUM_OF_THREADS:2	LUTs:	throughput:0.0117	NUM_OF_ENGINES:5	
+********measuring performance**************
+Refined throughput is 0.0095
+********measuring area/clock**************
+Refined Area luts is 
+Refined Area regs is 
+Refined Area DSPs is 
+Refined clock is 
+NUM_OF_POINTS 200
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 5
+NUM_OF_THREADS 2
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+PIPED_DFU true
+optFunc is 791666.666666667
+optFunc is 975000
+optFunc is 975000
+optFunc is 791666.666666667
+Testing if dim NUM_OF_ENGINESshould be changed from 6 to 5 old utilization is 975000 new utilization is 791666.666666667 change is -183333.333333333 random number is 0.707052574861827 acceptatnce probability is 0.000104464143831706 
+ipctCounter is 2
+
+In main loop dimension is NUM_OF_THREADS value is 2
+old element is dfuEngineType:separatePipeEngine	NUM_OF_THREADS:2	clock:100	LUTs:	throughput:0.0117	NUM_OF_ENGINES:6	
+modified element is dfuEngineType:separatePipeEngine	clock:100	NUM_OF_THREADS:1	LUTs:	throughput:0.0117	NUM_OF_ENGINES:6	
+********measuring performance**************
+Refined throughput is 0.0105
+********measuring area/clock**************
+Refined Area luts is 
+Refined Area regs is 
+Refined Area DSPs is 
+Refined clock is 
+NUM_OF_POINTS 200
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 6
+NUM_OF_THREADS 1
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+PIPED_DFU true
+optFunc is 875000
+optFunc is 975000
+optFunc is 975000
+optFunc is 875000
+Testing if dim NUM_OF_THREADSshould be changed from 2 to 1 old utilization is 975000 new utilization is 875000 change is -99999.9999999999 random number is 0.408407252900179 acceptatnce probability is 0.00673794699908551 
+ipctCounter is 3
+
+In main loop dimension is dfuEngineType value is separatePipeEngine
+old element is dfuEngineType:separatePipeEngine	NUM_OF_THREADS:2	clock:100	LUTs:	throughput:0.0117	NUM_OF_ENGINES:6	
+modified element is dfuEngineType:separateEngine	clock:100	NUM_OF_THREADS:2	LUTs:	throughput:0.0117	NUM_OF_ENGINES:6	
+********measuring performance**************
+Refined throughput is 0.0117
+********measuring area/clock**************
+Refined Area luts is 
+Refined Area regs is 
+Refined Area DSPs is 
+Refined clock is 
+NUM_OF_POINTS 200
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 6
+NUM_OF_THREADS 2
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+PIPED_DFU true
+optFunc is 975000
+optFunc is 975000
+optFunc is 975000
+optFunc is 975000
+Testing if dim dfuEngineTypeshould be changed from separatePipeEngine to separateEngine old utilization is 975000 new utilization is 975000 change is 0 random number is 0.883943904104243 acceptatnce probability is 1 
+Change the design point. dim is dfuEngineType dfuEngineType:separateEngine	clock:100	NUM_OF_THREADS:2	LUTs:	throughput:0.0117	NUM_OF_ENGINES:6	
+ipctCounter is 4
+
+In main loop dimension is NUM_OF_ENGINES value is 6
+old element is dfuEngineType:separateEngine	clock:100	NUM_OF_THREADS:2	LUTs:	throughput:0.0117	NUM_OF_ENGINES:6	
+modified element is dfuEngineType:separateEngine	NUM_OF_THREADS:2	clock:100	LUTs:	throughput:0.0117	NUM_OF_ENGINES:7	
+********measuring performance**************
+Refined throughput is 0.0134
+********measuring area/clock**************
+Refined Area luts is 
+Refined Area regs is 
+Refined Area DSPs is 
+Refined clock is 
+NUM_OF_POINTS 200
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 7
+NUM_OF_THREADS 2
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+PIPED_DFU true
+optFunc is 1116666.66666667
+optFunc is 975000
+optFunc is 975000
+optFunc is 1116666.66666667
+Testing if dim NUM_OF_ENGINESshould be changed from 6 to 7 old utilization is 975000 new utilization is 1116666.66666667 change is 141666.666666667 random number is 0.00633674178589771 acceptatnce probability is 1191.93502073515 
+Change the design point. dim is NUM_OF_ENGINES dfuEngineType:separateEngine	NUM_OF_THREADS:2	clock:100	LUTs:	throughput:0.0134	NUM_OF_ENGINES:7	
+ipctCounter is 5
+
+In main loop dimension is NUM_OF_THREADS value is 2
+old element is dfuEngineType:separateEngine	NUM_OF_THREADS:2	clock:100	LUTs:	throughput:0.0134	NUM_OF_ENGINES:7	
+modified element is dfuEngineType:separateEngine	clock:100	NUM_OF_THREADS:3	LUTs:	throughput:0.0134	NUM_OF_ENGINES:7	
+********measuring performance**************
+Refined throughput is 0.0138
+********measuring area/clock**************
+Refined Area luts is 
+Refined Area regs is 
+Refined Area DSPs is 
+Refined clock is 
+NUM_OF_POINTS 200
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 7
+NUM_OF_THREADS 3
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+PIPED_DFU true
+optFunc is 1150000
+optFunc is 1116666.66666667
+optFunc is 1116666.66666667
+optFunc is 1150000
+Testing if dim NUM_OF_THREADSshould be changed from 2 to 3 old utilization is 1116666.66666667 new utilization is 1150000 change is 33333.3333333333 random number is 0.278249865849993 acceptatnce probability is 5.29449005047001 
+Change the design point. dim is NUM_OF_THREADS dfuEngineType:separateEngine	clock:100	NUM_OF_THREADS:3	LUTs:	throughput:0.0138	NUM_OF_ENGINES:7	
+ipctCounter is 6
+
+In main loop dimension is dfuEngineType value is separateEngine
+old element is dfuEngineType:separateEngine	clock:100	NUM_OF_THREADS:3	LUTs:	throughput:0.0138	NUM_OF_ENGINES:7	
+modified element is dfuEngineType:separatePipeEngine	NUM_OF_THREADS:3	clock:100	LUTs:	throughput:0.0138	NUM_OF_ENGINES:7	
+********measuring performance**************
+Refined throughput is 0.0138
+********measuring area/clock**************
+Refined Area luts is 
+Refined Area regs is 
+Refined Area DSPs is 
+Refined clock is 
+NUM_OF_POINTS 200
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 7
+NUM_OF_THREADS 3
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+PIPED_DFU true
+optFunc is 1150000
+optFunc is 1150000
+optFunc is 1150000
+optFunc is 1150000
+Testing if dim dfuEngineTypeshould be changed from separateEngine to separatePipeEngine old utilization is 1150000 new utilization is 1150000 change is 0 random number is 0.3257187686437 acceptatnce probability is 1 
+Change the design point. dim is dfuEngineType dfuEngineType:separatePipeEngine	NUM_OF_THREADS:3	clock:100	LUTs:	throughput:0.0138	NUM_OF_ENGINES:7	
+ipctCounter is 7
+
+In main loop dimension is NUM_OF_ENGINES value is 7
+old element is dfuEngineType:separatePipeEngine	NUM_OF_THREADS:3	clock:100	LUTs:	throughput:0.0138	NUM_OF_ENGINES:7	
+modified element is dfuEngineType:separatePipeEngine	clock:100	NUM_OF_THREADS:3	LUTs:	throughput:0.0138	NUM_OF_ENGINES:6	
+********measuring performance**************
+Refined throughput is 0.0116
+********measuring area/clock**************
+Refined Area luts is 
+Refined Area regs is 
+Refined Area DSPs is 
+Refined clock is 
+NUM_OF_POINTS 200
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 6
+NUM_OF_THREADS 3
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+PIPED_DFU true
+optFunc is 966666.666666667
+optFunc is 1150000
+optFunc is 1150000
+optFunc is 966666.666666667
+Testing if dim NUM_OF_ENGINESshould be changed from 7 to 6 old utilization is 1150000 new utilization is 966666.666666667 change is -183333.333333333 random number is 0.314447253388238 acceptatnce probability is 0.000104464143831705 
+ipctCounter is 8
+
+In main loop dimension is NUM_OF_THREADS value is 3
+old element is dfuEngineType:separatePipeEngine	NUM_OF_THREADS:3	clock:100	LUTs:	throughput:0.0138	NUM_OF_ENGINES:7	
+modified element is dfuEngineType:separatePipeEngine	clock:100	NUM_OF_THREADS:2	LUTs:	throughput:0.0138	NUM_OF_ENGINES:7	
+********measuring performance**************
+Refined throughput is 0.0134
+********measuring area/clock**************
+Refined Area luts is 
+Refined Area regs is 
+Refined Area DSPs is 
+Refined clock is 
+NUM_OF_POINTS 200
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 7
+NUM_OF_THREADS 2
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+PIPED_DFU true
+optFunc is 1116666.66666667
+optFunc is 1150000
+optFunc is 1150000
+optFunc is 1116666.66666667
+Testing if dim NUM_OF_THREADSshould be changed from 3 to 2 old utilization is 1150000 new utilization is 1116666.66666667 change is -33333.3333333333 random number is 0.148970550179694 acceptatnce probability is 0.188875602837563 
+Change the design point. dim is NUM_OF_THREADS Accepting a lower utility with random number0.148970550179694 and probabality 0.188875602837563 change is -33333.3333333333 temperature is 20000 
+dfuEngineType:separatePipeEngine	clock:100	NUM_OF_THREADS:2	LUTs:	throughput:0.0134	NUM_OF_ENGINES:7	
+ipctCounter is 9
+
+In main loop dimension is dfuEngineType value is separatePipeEngine
+old element is dfuEngineType:separatePipeEngine	clock:100	NUM_OF_THREADS:2	LUTs:	throughput:0.0134	NUM_OF_ENGINES:7	
+modified element is dfuEngineType:separateEngine	NUM_OF_THREADS:2	clock:100	LUTs:	throughput:0.0134	NUM_OF_ENGINES:7	
+********measuring performance**************
+Refined throughput is 0.0134
+********measuring area/clock**************
+Refined Area luts is 
+Refined Area regs is 
+Refined Area DSPs is 
+Refined clock is 
+NUM_OF_POINTS 200
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 7
+NUM_OF_THREADS 2
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+PIPED_DFU true
+optFunc is 1116666.66666667
+optFunc is 1116666.66666667
+optFunc is 1116666.66666667
+optFunc is 1116666.66666667
+Testing if dim dfuEngineTypeshould be changed from separatePipeEngine to separateEngine old utilization is 1116666.66666667 new utilization is 1116666.66666667 change is 0 random number is 0.24361311781383 acceptatnce probability is 1 
+Change the design point. dim is dfuEngineType dfuEngineType:separateEngine	NUM_OF_THREADS:2	clock:100	LUTs:	throughput:0.0134	NUM_OF_ENGINES:7	
+ipctCounter is 10
+
+In main loop dimension is NUM_OF_ENGINES value is 7
+old element is dfuEngineType:separateEngine	NUM_OF_THREADS:2	clock:100	LUTs:	throughput:0.0134	NUM_OF_ENGINES:7	
+modified element is dfuEngineType:separateEngine	clock:100	NUM_OF_THREADS:2	LUTs:	throughput:0.0134	NUM_OF_ENGINES:8	
+********measuring performance**************
+Refined throughput is 0.0155
+********measuring area/clock**************
+Refined Area luts is 
+Refined Area regs is 
+Refined Area DSPs is 
+Refined clock is 
+NUM_OF_POINTS 200
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 8
+NUM_OF_THREADS 2
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+PIPED_DFU true
+optFunc is 1291666.66666667
+optFunc is 1116666.66666667
+optFunc is 1116666.66666667
+optFunc is 1291666.66666667
+Testing if dim NUM_OF_ENGINESshould be changed from 7 to 8 old utilization is 1116666.66666667 new utilization is 1291666.66666667 change is 175000 random number is 0.596515982377884 acceptatnce probability is 6310.68810808902 
+Change the design point. dim is NUM_OF_ENGINES dfuEngineType:separateEngine	clock:100	NUM_OF_THREADS:2	LUTs:	throughput:0.0155	NUM_OF_ENGINES:8	
+ipctCounter is 11
+
+In main loop dimension is NUM_OF_THREADS value is 2
+old element is dfuEngineType:separateEngine	clock:100	NUM_OF_THREADS:2	LUTs:	throughput:0.0155	NUM_OF_ENGINES:8	
+modified element is dfuEngineType:separateEngine	NUM_OF_THREADS:1	clock:100	LUTs:	throughput:0.0155	NUM_OF_ENGINES:8	
+********measuring performance**************
+Refined throughput is 0.0138
+********measuring area/clock**************
+Refined Area luts is 
+Refined Area regs is 
+Refined Area DSPs is 
+Refined clock is 
+NUM_OF_POINTS 200
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 8
+NUM_OF_THREADS 1
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+PIPED_DFU true
+optFunc is 1150000
+optFunc is 1291666.66666667
+optFunc is 1291666.66666667
+optFunc is 1150000
+Testing if dim NUM_OF_THREADSshould be changed from 2 to 1 old utilization is 1291666.66666667 new utilization is 1150000 change is -141666.666666667 random number is 0.613211696673815 acceptatnce probability is 0.000838971909209638 
+ipctCounter is 12
+
+In main loop dimension is dfuEngineType value is separateEngine
+old element is dfuEngineType:separateEngine	clock:100	NUM_OF_THREADS:2	LUTs:	throughput:0.0155	NUM_OF_ENGINES:8	
+modified element is dfuEngineType:separatePipeEngine	NUM_OF_THREADS:2	clock:100	LUTs:	throughput:0.0155	NUM_OF_ENGINES:8	
+********measuring performance**************
+Refined throughput is 0.0155
+********measuring area/clock**************
+Refined Area luts is 
+Refined Area regs is 
+Refined Area DSPs is 
+Refined clock is 
+NUM_OF_POINTS 200
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 8
+NUM_OF_THREADS 2
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+PIPED_DFU true
+optFunc is 1291666.66666667
+optFunc is 1291666.66666667
+optFunc is 1291666.66666667
+optFunc is 1291666.66666667
+Testing if dim dfuEngineTypeshould be changed from separateEngine to separatePipeEngine old utilization is 1291666.66666667 new utilization is 1291666.66666667 change is 0 random number is 0.410800123046069 acceptatnce probability is 1 
+Change the design point. dim is dfuEngineType dfuEngineType:separatePipeEngine	NUM_OF_THREADS:2	clock:100	LUTs:	throughput:0.0155	NUM_OF_ENGINES:8	
+ipctCounter is 13
+
+In main loop dimension is NUM_OF_ENGINES value is 8
+old element is dfuEngineType:separatePipeEngine	NUM_OF_THREADS:2	clock:100	LUTs:	throughput:0.0155	NUM_OF_ENGINES:8	
+modified element is dfuEngineType:separatePipeEngine	clock:100	NUM_OF_THREADS:2	LUTs:	throughput:0.0155	NUM_OF_ENGINES:7	
+********measuring performance**************
+Refined throughput is 0.0134
+********measuring area/clock**************
+Refined Area luts is 
+Refined Area regs is 
+Refined Area DSPs is 
+Refined clock is 
+NUM_OF_POINTS 200
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 7
+NUM_OF_THREADS 2
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+PIPED_DFU true
+optFunc is 1116666.66666667
+optFunc is 1291666.66666667
+optFunc is 1291666.66666667
+optFunc is 1116666.66666667
+Testing if dim NUM_OF_ENGINESshould be changed from 8 to 7 old utilization is 1291666.66666667 new utilization is 1116666.66666667 change is -175000 random number is 0.698416971731795 acceptatnce probability is 0.000158461325115751 
+ipctCounter is 14
+
+In main loop dimension is NUM_OF_THREADS value is 2
+old element is dfuEngineType:separatePipeEngine	NUM_OF_THREADS:2	clock:100	LUTs:	throughput:0.0155	NUM_OF_ENGINES:8	
+modified element is dfuEngineType:separatePipeEngine	clock:100	NUM_OF_THREADS:3	LUTs:	throughput:0.0155	NUM_OF_ENGINES:8	
+********measuring performance**************
+Refined throughput is 0.0155
+********measuring area/clock**************
+Refined Area luts is 
+Refined Area regs is 
+Refined Area DSPs is 
+Refined clock is 
+NUM_OF_POINTS 200
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 8
+NUM_OF_THREADS 3
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+PIPED_DFU true
+optFunc is 1291666.66666667
+optFunc is 1291666.66666667
+optFunc is 1291666.66666667
+optFunc is 1291666.66666667
+Testing if dim NUM_OF_THREADSshould be changed from 2 to 3 old utilization is 1291666.66666667 new utilization is 1291666.66666667 change is 0 random number is 0.219326094606036 acceptatnce probability is 1 
+Change the design point. dim is NUM_OF_THREADS dfuEngineType:separatePipeEngine	clock:100	NUM_OF_THREADS:3	LUTs:	throughput:0.0155	NUM_OF_ENGINES:8	
+ipctCounter is 15
+
+In main loop dimension is dfuEngineType value is separatePipeEngine
+old element is dfuEngineType:separatePipeEngine	clock:100	NUM_OF_THREADS:3	LUTs:	throughput:0.0155	NUM_OF_ENGINES:8	
+modified element is dfuEngineType:separateEngine	NUM_OF_THREADS:3	clock:100	LUTs:	throughput:0.0155	NUM_OF_ENGINES:8	
+********measuring performance**************
+Refined throughput is 0.0155
+********measuring area/clock**************
+Refined Area luts is 
+Refined Area regs is 
+Refined Area DSPs is 
+Refined clock is 
+NUM_OF_POINTS 200
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 8
+NUM_OF_THREADS 3
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+PIPED_DFU true
+optFunc is 1291666.66666667
+optFunc is 1291666.66666667
+optFunc is 1291666.66666667
+optFunc is 1291666.66666667
+Testing if dim dfuEngineTypeshould be changed from separatePipeEngine to separateEngine old utilization is 1291666.66666667 new utilization is 1291666.66666667 change is 0 random number is 0.98203916958289 acceptatnce probability is 1 
+Change the design point. dim is dfuEngineType dfuEngineType:separateEngine	NUM_OF_THREADS:3	clock:100	LUTs:	throughput:0.0155	NUM_OF_ENGINES:8	
+ipctCounter is 16
+
+In main loop dimension is NUM_OF_ENGINES value is 8
+old element is dfuEngineType:separateEngine	NUM_OF_THREADS:3	clock:100	LUTs:	throughput:0.0155	NUM_OF_ENGINES:8	
+modified element is dfuEngineType:separateEngine	clock:100	NUM_OF_THREADS:3	LUTs:	throughput:0.0155	NUM_OF_ENGINES:9	
+********measuring performance**************
+Refined throughput is 0.0176
+********measuring area/clock**************
+Refined Area luts is 
+Refined Area regs is 
+Refined Area DSPs is 
+Refined clock is 
+NUM_OF_POINTS 200
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 9
+NUM_OF_THREADS 3
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+PIPED_DFU true
+optFunc is 1466666.66666667
+optFunc is 1291666.66666667
+optFunc is 1291666.66666667
+optFunc is 1466666.66666667
+Testing if dim NUM_OF_ENGINESshould be changed from 8 to 9 old utilization is 1291666.66666667 new utilization is 1466666.66666667 change is 175000 random number is 0.763047406670392 acceptatnce probability is 6310.6881080891 
+Change the design point. dim is NUM_OF_ENGINES dfuEngineType:separateEngine	clock:100	NUM_OF_THREADS:3	LUTs:	throughput:0.0176	NUM_OF_ENGINES:9	
+ipctCounter is 17
+
+In main loop dimension is NUM_OF_THREADS value is 3
+old element is dfuEngineType:separateEngine	clock:100	NUM_OF_THREADS:3	LUTs:	throughput:0.0176	NUM_OF_ENGINES:9	
+modified element is dfuEngineType:separateEngine	NUM_OF_THREADS:2	clock:100	LUTs:	throughput:0.0176	NUM_OF_ENGINES:9	
+********measuring performance**************
+Refined throughput is 0.0169
+********measuring area/clock**************
+Refined Area luts is 
+Refined Area regs is 
+Refined Area DSPs is 
+Refined clock is 
+NUM_OF_POINTS 200
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 9
+NUM_OF_THREADS 2
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+PIPED_DFU true
+optFunc is 1408333.33333333
+optFunc is 1466666.66666667
+optFunc is 1466666.66666667
+optFunc is 1408333.33333333
+Testing if dim NUM_OF_THREADSshould be changed from 3 to 2 old utilization is 1466666.66666667 new utilization is 1408333.33333333 change is -58333.3333333335 random number is 0.309955052880106 acceptatnce probability is 0.0541137662228212 
+ipctCounter is 18
+
+In main loop dimension is dfuEngineType value is separateEngine
+old element is dfuEngineType:separateEngine	clock:100	NUM_OF_THREADS:3	LUTs:	throughput:0.0176	NUM_OF_ENGINES:9	
+modified element is dfuEngineType:separatePipeEngine	NUM_OF_THREADS:3	clock:100	LUTs:	throughput:0.0176	NUM_OF_ENGINES:9	
+********measuring performance**************
+Refined throughput is 0.0176
+********measuring area/clock**************
+Refined Area luts is 
+Refined Area regs is 
+Refined Area DSPs is 
+Refined clock is 
+NUM_OF_POINTS 200
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 9
+NUM_OF_THREADS 3
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+PIPED_DFU true
+optFunc is 1466666.66666667
+optFunc is 1466666.66666667
+optFunc is 1466666.66666667
+optFunc is 1466666.66666667
+Testing if dim dfuEngineTypeshould be changed from separateEngine to separatePipeEngine old utilization is 1466666.66666667 new utilization is 1466666.66666667 change is 0 random number is 0.960528228783563 acceptatnce probability is 1 
+Change the design point. dim is dfuEngineType dfuEngineType:separatePipeEngine	NUM_OF_THREADS:3	clock:100	LUTs:	throughput:0.0176	NUM_OF_ENGINES:9	
+ipctCounter is 19
+
+In main loop dimension is NUM_OF_ENGINES value is 9
+old element is dfuEngineType:separatePipeEngine	NUM_OF_THREADS:3	clock:100	LUTs:	throughput:0.0176	NUM_OF_ENGINES:9	
+modified element is dfuEngineType:separatePipeEngine	clock:100	NUM_OF_THREADS:3	LUTs:	throughput:0.0176	NUM_OF_ENGINES:8	
+********measuring performance**************
+Refined throughput is 0.0155
+********measuring area/clock**************
+Refined Area luts is 
+Refined Area regs is 
+Refined Area DSPs is 
+Refined clock is 
+NUM_OF_POINTS 200
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 8
+NUM_OF_THREADS 3
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+PIPED_DFU true
+optFunc is 1291666.66666667
+optFunc is 1466666.66666667
+optFunc is 1466666.66666667
+optFunc is 1291666.66666667
+Testing if dim NUM_OF_ENGINESshould be changed from 9 to 8 old utilization is 1466666.66666667 new utilization is 1291666.66666667 change is -175000 random number is 0.3437300346949 acceptatnce probability is 0.000158461325115749 
+ipctCounter is 20
+
+In main loop dimension is NUM_OF_THREADS value is 3
+old element is dfuEngineType:separatePipeEngine	NUM_OF_THREADS:3	clock:100	LUTs:	throughput:0.0176	NUM_OF_ENGINES:9	
+modified element is dfuEngineType:separatePipeEngine	clock:100	NUM_OF_THREADS:4	LUTs:	throughput:0.0176	NUM_OF_ENGINES:9	
+********measuring performance**************
+Refined throughput is 0.0172
+********measuring area/clock**************
+Refined Area luts is 
+Refined Area regs is 
+Refined Area DSPs is 
+Refined clock is 
+NUM_OF_POINTS 200
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 9
+NUM_OF_THREADS 4
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+PIPED_DFU true
+optFunc is 1433333.33333333
+optFunc is 1466666.66666667
+optFunc is 1466666.66666667
+optFunc is 1433333.33333333
+Testing if dim NUM_OF_THREADSshould be changed from 3 to 4 old utilization is 1466666.66666667 new utilization is 1433333.33333333 change is -33333.3333333335 random number is 0.218983819383649 acceptatnce probability is 0.18887560283756 
+ipctCounter is 21
+
+In main loop dimension is dfuEngineType value is separatePipeEngine
+old element is dfuEngineType:separatePipeEngine	NUM_OF_THREADS:3	clock:100	LUTs:	throughput:0.0176	NUM_OF_ENGINES:9	
+modified element is dfuEngineType:separateEngine	clock:100	NUM_OF_THREADS:3	LUTs:	throughput:0.0176	NUM_OF_ENGINES:9	
+********measuring performance**************
+Refined throughput is 0.0176
+********measuring area/clock**************
+Refined Area luts is 
+Refined Area regs is 
+Refined Area DSPs is 
+Refined clock is 
+NUM_OF_POINTS 200
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 9
+NUM_OF_THREADS 3
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+PIPED_DFU true
+optFunc is 1466666.66666667
+optFunc is 1466666.66666667
+optFunc is 1466666.66666667
+optFunc is 1466666.66666667
+Testing if dim dfuEngineTypeshould be changed from separatePipeEngine to separateEngine old utilization is 1466666.66666667 new utilization is 1466666.66666667 change is 0 random number is 0.136382539267508 acceptatnce probability is 1 
+Change the design point. dim is dfuEngineType dfuEngineType:separateEngine	clock:100	NUM_OF_THREADS:3	LUTs:	throughput:0.0176	NUM_OF_ENGINES:9	
+ipctCounter is 22
+
+In main loop dimension is NUM_OF_ENGINES value is 9
+old element is dfuEngineType:separateEngine	clock:100	NUM_OF_THREADS:3	LUTs:	throughput:0.0176	NUM_OF_ENGINES:9	
+modified element is dfuEngineType:separateEngine	NUM_OF_THREADS:3	clock:100	LUTs:	throughput:0.0176	NUM_OF_ENGINES:10	
+********measuring performance**************
+Refined throughput is 0.0190
+********measuring area/clock**************
+Refined Area luts is 
+Refined Area regs is 
+Refined Area DSPs is 
+Refined clock is 
+NUM_OF_POINTS 200
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 10
+NUM_OF_THREADS 3
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+PIPED_DFU true
+optFunc is 1583333.33333333
+optFunc is 1466666.66666667
+optFunc is 1466666.66666667
+optFunc is 1583333.33333333
+Testing if dim NUM_OF_ENGINESshould be changed from 9 to 10 old utilization is 1466666.66666667 new utilization is 1583333.33333333 change is 116666.666666667 random number is 0.586699002128118 acceptatnce probability is 341.495100986267 
+Change the design point. dim is NUM_OF_ENGINES dfuEngineType:separateEngine	NUM_OF_THREADS:3	clock:100	LUTs:	throughput:0.0190	NUM_OF_ENGINES:10	
+ipctCounter is 23
+
+In main loop dimension is NUM_OF_THREADS value is 3
+old element is dfuEngineType:separateEngine	NUM_OF_THREADS:3	clock:100	LUTs:	throughput:0.0190	NUM_OF_ENGINES:10	
+modified element is dfuEngineType:separateEngine	clock:100	NUM_OF_THREADS:2	LUTs:	throughput:0.0190	NUM_OF_ENGINES:10	
+********measuring performance**************
+Refined throughput is 0.0186
+********measuring area/clock**************
+Refined Area luts is 
+Refined Area regs is 
+Refined Area DSPs is 
+Refined clock is 
+NUM_OF_POINTS 200
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 10
+NUM_OF_THREADS 2
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+PIPED_DFU true
+optFunc is 1550000
+optFunc is 1583333.33333333
+optFunc is 1583333.33333333
+optFunc is 1550000
+Testing if dim NUM_OF_THREADSshould be changed from 3 to 2 old utilization is 1583333.33333333 new utilization is 1550000 change is -33333.3333333335 random number is 0.860262335221847 acceptatnce probability is 0.18887560283756 
+SA temprature is changed from 20000 to 0
+SA ipt is changed from 22.5 to 33.75
+
+
+In main loop dimension is dfuEngineType value is separateEngine
+old element is dfuEngineType:separateEngine	NUM_OF_THREADS:3	clock:100	LUTs:	throughput:0.0190	NUM_OF_ENGINES:10	
+modified element is dfuEngineType:separatePipeEngine	clock:100	NUM_OF_THREADS:3	LUTs:	throughput:0.0190	NUM_OF_ENGINES:10	
+********measuring performance**************
+Refined throughput is 0.0190
+********measuring area/clock**************
+Refined Area luts is 
+Refined Area regs is 
+Refined Area DSPs is 
+Refined clock is 
+NUM_OF_POINTS 200
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 10
+NUM_OF_THREADS 3
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+PIPED_DFU true
+optFunc is 1583333.33333333
+optFunc is 1583333.33333333
+optFunc is 1583333.33333333
+optFunc is 1583333.33333333

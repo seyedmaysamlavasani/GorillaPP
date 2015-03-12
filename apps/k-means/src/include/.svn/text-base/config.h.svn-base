@@ -1,0 +1,6 @@
+#define NUM_OF_POINTS  10
+#define NUM_OF_CENTEROIDS  3
+#define NUM_OF_ENGINES  1
+#define NUM_OF_THREADS  1
+#define NUM_OF_DFU_THREADS  1
+#define SHARED_DFU  true

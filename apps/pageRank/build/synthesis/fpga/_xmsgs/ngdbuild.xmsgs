@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="NgdBuild" num="452" delta="new" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">generatedTop/source/mainComp/offComp/mainComp/offComp/bb/m/clk</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="new" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">generatedTop/source/mainComp/offComp/offComp/bb/m/clk</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="new" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">generatedTop/sink/mainComp/offComp/bb/m/clk</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="483" delta="new" >Attribute &quot;<arg fmt="%s" index="1">INIT</arg>&quot; on &quot;<arg fmt="%s" index="2">generatedTop/sink/mainComp/offComp/bb/m/sig0000071f</arg>&quot; is on the wrong type of object.  Please see the Constraints Guide for more information on this attribute.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="483" delta="new" >Attribute &quot;<arg fmt="%s" index="1">INIT</arg>&quot; on &quot;<arg fmt="%s" index="2">generatedTop/sink/mainComp/offComp/bb/m/sig00000721</arg>&quot; is on the wrong type of object.  Please see the Constraints Guide for more information on this attribute.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="483" delta="new" >Attribute &quot;<arg fmt="%s" index="1">INIT</arg>&quot; on &quot;<arg fmt="%s" index="2">generatedTop/sink/mainComp/offComp/bb/m/sig00000723</arg>&quot; is on the wrong type of object.  Please see the Constraints Guide for more information on this attribute.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="483" delta="new" >Attribute &quot;<arg fmt="%s" index="1">INIT</arg>&quot; on &quot;<arg fmt="%s" index="2">generatedTop/sink/mainComp/offComp/bb/m/sig00000725</arg>&quot; is on the wrong type of object.  Please see the Constraints Guide for more information on this attribute.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="483" delta="new" >Attribute &quot;<arg fmt="%s" index="1">INIT</arg>&quot; on &quot;<arg fmt="%s" index="2">generatedTop/sink/mainComp/offComp/bb/m/sig00000727</arg>&quot; is on the wrong type of object.  Please see the Constraints Guide for more information on this attribute.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="483" delta="new" >Attribute &quot;<arg fmt="%s" index="1">INIT</arg>&quot; on &quot;<arg fmt="%s" index="2">generatedTop/sink/mainComp/offComp/bb/m/sig00000729</arg>&quot; is on the wrong type of object.  Please see the Constraints Guide for more information on this attribute.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="483" delta="new" >Attribute &quot;<arg fmt="%s" index="1">INIT</arg>&quot; on &quot;<arg fmt="%s" index="2">generatedTop/sink/mainComp/offComp/bb/m/sig0000072b</arg>&quot; is on the wrong type of object.  Please see the Constraints Guide for more information on this attribute.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="483" delta="new" >Attribute &quot;<arg fmt="%s" index="1">INIT</arg>&quot; on &quot;<arg fmt="%s" index="2">generatedTop/sink/mainComp/offComp/bb/m/sig0000072c</arg>&quot; is on the wrong type of object.  Please see the Constraints Guide for more information on this attribute.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="483" delta="new" >Attribute &quot;<arg fmt="%s" index="1">INIT</arg>&quot; on &quot;<arg fmt="%s" index="2">generatedTop/sink/mainComp/offComp/bb/m/sig0000072d</arg>&quot; is on the wrong type of object.  Please see the Constraints Guide for more information on this attribute.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="483" delta="new" >Attribute &quot;<arg fmt="%s" index="1">INIT</arg>&quot; on &quot;<arg fmt="%s" index="2">generatedTop/sink/mainComp/offComp/bb/m/sig0000072e</arg>&quot; is on the wrong type of object.  Please see the Constraints Guide for more information on this attribute.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="483" delta="new" >Attribute &quot;<arg fmt="%s" index="1">INIT</arg>&quot; on &quot;<arg fmt="%s" index="2">generatedTop/sink/mainComp/offComp/bb/m/sig0000072f</arg>&quot; is on the wrong type of object.  Please see the Constraints Guide for more information on this attribute.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="483" delta="new" >Attribute &quot;<arg fmt="%s" index="1">INIT</arg>&quot; on &quot;<arg fmt="%s" index="2">generatedTop/sink/mainComp/offComp/bb/m/sig00000730</arg>&quot; is on the wrong type of object.  Please see the Constraints Guide for more information on this attribute.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="483" delta="new" >Attribute &quot;<arg fmt="%s" index="1">INIT</arg>&quot; on &quot;<arg fmt="%s" index="2">generatedTop/sink/mainComp/offComp/bb/m/sig00000731</arg>&quot; is on the wrong type of object.  Please see the Constraints Guide for more information on this attribute.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="483" delta="new" >Attribute &quot;<arg fmt="%s" index="1">INIT</arg>&quot; on &quot;<arg fmt="%s" index="2">generatedTop/sink/mainComp/offComp/bb/m/sig00000732</arg>&quot; is on the wrong type of object.  Please see the Constraints Guide for more information on this attribute.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="483" delta="new" >Attribute &quot;<arg fmt="%s" index="1">INIT</arg>&quot; on &quot;<arg fmt="%s" index="2">generatedTop/sink/mainComp/offComp/bb/m/sig00000733</arg>&quot; is on the wrong type of object.  Please see the Constraints Guide for more information on this attribute.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="483" delta="new" >Attribute &quot;<arg fmt="%s" index="1">INIT</arg>&quot; on &quot;<arg fmt="%s" index="2">generatedTop/sink/mainComp/offComp/bb/m/sig00000734</arg>&quot; is on the wrong type of object.  Please see the Constraints Guide for more information on this attribute.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="483" delta="new" >Attribute &quot;<arg fmt="%s" index="1">INIT</arg>&quot; on &quot;<arg fmt="%s" index="2">generatedTop/sink/mainComp/offComp/bb/m/sig00000735</arg>&quot; is on the wrong type of object.  Please see the Constraints Guide for more information on this attribute.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="483" delta="new" >Attribute &quot;<arg fmt="%s" index="1">INIT</arg>&quot; on &quot;<arg fmt="%s" index="2">generatedTop/sink/mainComp/offComp/bb/m/sig00000736</arg>&quot; is on the wrong type of object.  Please see the Constraints Guide for more information on this attribute.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="483" delta="new" >Attribute &quot;<arg fmt="%s" index="1">INIT</arg>&quot; on &quot;<arg fmt="%s" index="2">generatedTop/sink/mainComp/offComp/bb/m/sig00000737</arg>&quot; is on the wrong type of object.  Please see the Constraints Guide for more information on this attribute.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="483" delta="new" >Attribute &quot;<arg fmt="%s" index="1">INIT</arg>&quot; on &quot;<arg fmt="%s" index="2">generatedTop/sink/mainComp/offComp/bb/m/sig00000739</arg>&quot; is on the wrong type of object.  Please see the Constraints Guide for more information on this attribute.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="483" delta="new" >Attribute &quot;<arg fmt="%s" index="1">INIT</arg>&quot; on &quot;<arg fmt="%s" index="2">generatedTop/sink/mainComp/offComp/bb/m/sig0000073b</arg>&quot; is on the wrong type of object.  Please see the Constraints Guide for more information on this attribute.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="483" delta="new" >Attribute &quot;<arg fmt="%s" index="1">INIT</arg>&quot; on &quot;<arg fmt="%s" index="2">generatedTop/sink/mainComp/offComp/bb/m/sig0000073d</arg>&quot; is on the wrong type of object.  Please see the Constraints Guide for more information on this attribute.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="483" delta="new" >Attribute &quot;<arg fmt="%s" index="1">INIT</arg>&quot; on &quot;<arg fmt="%s" index="2">generatedTop/sink/mainComp/offComp/bb/m/sig0000073f</arg>&quot; is on the wrong type of object.  Please see the Constraints Guide for more information on this attribute.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="483" delta="new" >Attribute &quot;<arg fmt="%s" index="1">INIT</arg>&quot; on &quot;<arg fmt="%s" index="2">generatedTop/sink/mainComp/offComp/bb/m/sig00000741</arg>&quot; is on the wrong type of object.  Please see the Constraints Guide for more information on this attribute.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="483" delta="new" >Attribute &quot;<arg fmt="%s" index="1">INIT</arg>&quot; on &quot;<arg fmt="%s" index="2">generatedTop/sink/mainComp/offComp/bb/m/sig00000743</arg>&quot; is on the wrong type of object.  Please see the Constraints Guide for more information on this attribute.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="483" delta="new" >Attribute &quot;<arg fmt="%s" index="1">INIT</arg>&quot; on &quot;<arg fmt="%s" index="2">generatedTop/sink/mainComp/offComp/bb/m/sig00000744</arg>&quot; is on the wrong type of object.  Please see the Constraints Guide for more information on this attribute.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="483" delta="new" >Attribute &quot;<arg fmt="%s" index="1">INIT</arg>&quot; on &quot;<arg fmt="%s" index="2">generatedTop/sink/mainComp/offComp/bb/m/sig00000746</arg>&quot; is on the wrong type of object.  Please see the Constraints Guide for more information on this attribute.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="483" delta="new" >Attribute &quot;<arg fmt="%s" index="1">INIT</arg>&quot; on &quot;<arg fmt="%s" index="2">generatedTop/sink/mainComp/offComp/bb/m/sig00000747</arg>&quot; is on the wrong type of object.  Please see the Constraints Guide for more information on this attribute.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="483" delta="new" >Attribute &quot;<arg fmt="%s" index="1">INIT</arg>&quot; on &quot;<arg fmt="%s" index="2">generatedTop/sink/mainComp/offComp/bb/m/sig00000748</arg>&quot; is on the wrong type of object.  Please see the Constraints Guide for more information on this attribute.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="483" delta="new" >Attribute &quot;<arg fmt="%s" index="1">INIT</arg>&quot; on &quot;<arg fmt="%s" index="2">generatedTop/sink/mainComp/offComp/bb/m/sig00000749</arg>&quot; is on the wrong type of object.  Please see the Constraints Guide for more information on this attribute.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="483" delta="new" >Attribute &quot;<arg fmt="%s" index="1">INIT</arg>&quot; on &quot;<arg fmt="%s" index="2">generatedTop/sink/mainComp/offComp/bb/m/sig0000074a</arg>&quot; is on the wrong type of object.  Please see the Constraints Guide for more information on this attribute.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="483" delta="new" >Attribute &quot;<arg fmt="%s" index="1">INIT</arg>&quot; on &quot;<arg fmt="%s" index="2">generatedTop/sink/mainComp/offComp/bb/m/sig0000074b</arg>&quot; is on the wrong type of object.  Please see the Constraints Guide for more information on this attribute.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="483" delta="new" >Attribute &quot;<arg fmt="%s" index="1">INIT</arg>&quot; on &quot;<arg fmt="%s" index="2">generatedTop/sink/mainComp/offComp/bb/m/sig0000074c</arg>&quot; is on the wrong type of object.  Please see the Constraints Guide for more information on this attribute.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="483" delta="new" >Attribute &quot;<arg fmt="%s" index="1">INIT</arg>&quot; on &quot;<arg fmt="%s" index="2">generatedTop/sink/mainComp/offComp/bb/m/sig0000074d</arg>&quot; is on the wrong type of object.  Please see the Constraints Guide for more information on this attribute.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="483" delta="new" >Attribute &quot;<arg fmt="%s" index="1">INIT</arg>&quot; on &quot;<arg fmt="%s" index="2">generatedTop/sink/mainComp/offComp/bb/m/sig0000074e</arg>&quot; is on the wrong type of object.  Please see the Constraints Guide for more information on this attribute.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="483" delta="new" >Attribute &quot;<arg fmt="%s" index="1">INIT</arg>&quot; on &quot;<arg fmt="%s" index="2">generatedTop/sink/mainComp/offComp/bb/m/sig0000074f</arg>&quot; is on the wrong type of object.  Please see the Constraints Guide for more information on this attribute.
+</msg>
+
+</messages>
+

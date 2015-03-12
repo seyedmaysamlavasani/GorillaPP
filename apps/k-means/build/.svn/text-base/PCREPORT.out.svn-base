@@ -1,0 +1,1287 @@
+PCREPORT: module result__Chained__2__type__chained____class__gChainedComponent registered for pc moduleId is 1
+PCREPORT: PC is registered name: in type 1 moduleId 1 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 1 portId 2
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 1 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 1 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 1 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 1 portId 0
+PCREPORT: module result__Chained_1__type__chained____class__gChainedComponent registered for pc moduleId is 2
+PCREPORT: PC is registered name: in type 1 moduleId 2 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 2 portId 2
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 2 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 2 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 2 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 2 portId 0
+PCREPORT: module kd__type__engine__MT__1____class__KDistribute registered for pc moduleId is 3
+PCREPORT: PC is registered name: in type 1 moduleId 3 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 3 portId 2
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 3 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 3 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 3 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 3 portId 0
+PCREPORT: module xx2__type__replicated____class__gReplicatedComponent registered for pc moduleId is 4
+PCREPORT: PC is registered name: in type 1 moduleId 4 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 4 portId 2
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 4 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 4 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 4 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 4 portId 0
+PCREPORT: module kePlus__type__offloaded__add__type__offloaded__add__class__gOffloadedComponent registered for pc moduleId is 5
+PCREPORT: PC is registered name: in type 1 moduleId 5 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 5 portId 2
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 5 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 5 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 5 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 5 portId 0
+PCREPORT: module kePlus__type__offloaded__partialAccumulatorMem__type__offloaded__partialAccumulatorMem__class__gOffloadedComponent registered for pc moduleId is 6
+PCREPORT: PC is registered name: in type 1 moduleId 6 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 6 portId 2
+PCREPORT: PC is registered name: add type 1 moduleId 6 portId 3
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 6 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 6 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 6 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 6 portId 0
+PCREPORT: module kePlus__type__offloaded__centeroidMem__type__offloaded__centeroidMem__class__gOffloadedComponent registered for pc moduleId is 7
+PCREPORT: PC is registered name: in type 1 moduleId 7 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 7 portId 2
+PCREPORT: PC is registered name: partialAccumulatorMem type 1 moduleId 7 portId 3
+PCREPORT: PC is registered name: add type 1 moduleId 7 portId 4
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 7 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 7 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 7 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 7 portId 0
+PCREPORT: module kePlus__type__offloaded__distanceFU__type__offloaded__distanceFU__class__gOffloadedComponent registered for pc moduleId is 8
+PCREPORT: PC is registered name: in type 1 moduleId 8 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 8 portId 2
+PCREPORT: PC is registered name: centeroidMem type 1 moduleId 8 portId 3
+PCREPORT: PC is registered name: partialAccumulatorMem type 1 moduleId 8 portId 4
+PCREPORT: PC is registered name: add type 1 moduleId 8 portId 5
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 8 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 8 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 8 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 8 portId 0
+PCREPORT: module ke__type__engine__MT__1____class__KEngine registered for pc moduleId is 9
+PCREPORT: PC is registered name: in type 1 moduleId 9 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 9 portId 2
+PCREPORT: PC is registered name: distanceFU type 1 moduleId 9 portId 3
+PCREPORT: PC is registered name: centeroidMem type 1 moduleId 9 portId 4
+PCREPORT: PC is registered name: partialAccumulatorMem type 1 moduleId 9 portId 5
+PCREPORT: PC is registered name: add type 1 moduleId 9 portId 6
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 9 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 9 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 9 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 9 portId 0
+PCREPORT: module dFU__type__offloaded__sqrt__type__offloaded__sqrt__class__gOffloadedComponent registered for pc moduleId is 10
+PCREPORT: PC is registered name: in type 1 moduleId 10 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 10 portId 2
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 10 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 10 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 10 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 10 portId 0
+PCREPORT: module dFU__type__offloaded__add2__type__offloaded__add2__class__gOffloadedComponent registered for pc moduleId is 11
+PCREPORT: PC is registered name: in type 1 moduleId 11 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 11 portId 2
+PCREPORT: PC is registered name: sqrt type 1 moduleId 11 portId 3
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 11 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 11 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 11 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 11 portId 0
+PCREPORT: module dFU__type__offloaded__add1__type__offloaded__add1__class__gOffloadedComponent registered for pc moduleId is 12
+PCREPORT: PC is registered name: in type 1 moduleId 12 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 12 portId 2
+PCREPORT: PC is registered name: add2 type 1 moduleId 12 portId 3
+PCREPORT: PC is registered name: sqrt type 1 moduleId 12 portId 4
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 12 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 12 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 12 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 12 portId 0
+PCREPORT: module dFU__type__offloaded__mul3__type__offloaded__mul3__class__gOffloadedComponent registered for pc moduleId is 13
+PCREPORT: PC is registered name: in type 1 moduleId 13 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 13 portId 2
+PCREPORT: PC is registered name: add1 type 1 moduleId 13 portId 3
+PCREPORT: PC is registered name: add2 type 1 moduleId 13 portId 4
+PCREPORT: PC is registered name: sqrt type 1 moduleId 13 portId 5
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 13 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 13 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 13 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 13 portId 0
+PCREPORT: module dFU__type__offloaded__mul2__type__offloaded__mul2__class__gOffloadedComponent registered for pc moduleId is 14
+PCREPORT: PC is registered name: in type 1 moduleId 14 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 14 portId 2
+PCREPORT: PC is registered name: add1 type 1 moduleId 14 portId 3
+PCREPORT: PC is registered name: add2 type 1 moduleId 14 portId 4
+PCREPORT: PC is registered name: mul3 type 1 moduleId 14 portId 5
+PCREPORT: PC is registered name: sqrt type 1 moduleId 14 portId 6
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 14 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 14 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 14 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 14 portId 0
+PCREPORT: module dFU__type__offloaded__mul1__type__offloaded__mul1__class__gOffloadedComponent registered for pc moduleId is 15
+PCREPORT: PC is registered name: in type 1 moduleId 15 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 15 portId 2
+PCREPORT: PC is registered name: add1 type 1 moduleId 15 portId 3
+PCREPORT: PC is registered name: add2 type 1 moduleId 15 portId 4
+PCREPORT: PC is registered name: mul2 type 1 moduleId 15 portId 5
+PCREPORT: PC is registered name: mul3 type 1 moduleId 15 portId 6
+PCREPORT: PC is registered name: sqrt type 1 moduleId 15 portId 7
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 15 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 15 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 15 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 15 portId 0
+PCREPORT: module dFU__type__offloaded__sub3__type__offloaded__sub3__class__gOffloadedComponent registered for pc moduleId is 16
+PCREPORT: PC is registered name: in type 1 moduleId 16 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 16 portId 2
+PCREPORT: PC is registered name: add1 type 1 moduleId 16 portId 3
+PCREPORT: PC is registered name: add2 type 1 moduleId 16 portId 4
+PCREPORT: PC is registered name: mul1 type 1 moduleId 16 portId 5
+PCREPORT: PC is registered name: mul2 type 1 moduleId 16 portId 6
+PCREPORT: PC is registered name: mul3 type 1 moduleId 16 portId 7
+PCREPORT: PC is registered name: sqrt type 1 moduleId 16 portId 8
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 16 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 16 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 16 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 16 portId 0
+PCREPORT: module dFU__type__offloaded__sub2__type__offloaded__sub2__class__gOffloadedComponent registered for pc moduleId is 17
+PCREPORT: PC is registered name: in type 1 moduleId 17 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 17 portId 2
+PCREPORT: PC is registered name: sub3 type 1 moduleId 17 portId 3
+PCREPORT: PC is registered name: add1 type 1 moduleId 17 portId 4
+PCREPORT: PC is registered name: add2 type 1 moduleId 17 portId 5
+PCREPORT: PC is registered name: mul1 type 1 moduleId 17 portId 6
+PCREPORT: PC is registered name: mul2 type 1 moduleId 17 portId 7
+PCREPORT: PC is registered name: mul3 type 1 moduleId 17 portId 8
+PCREPORT: PC is registered name: sqrt type 1 moduleId 17 portId 9
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 17 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 17 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 17 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 17 portId 0
+PCREPORT: module dFU__type__offloaded__sub1__type__offloaded__sub1__class__gOffloadedComponent registered for pc moduleId is 18
+PCREPORT: PC is registered name: in type 1 moduleId 18 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 18 portId 2
+PCREPORT: PC is registered name: sub2 type 1 moduleId 18 portId 3
+PCREPORT: PC is registered name: sub3 type 1 moduleId 18 portId 4
+PCREPORT: PC is registered name: add1 type 1 moduleId 18 portId 5
+PCREPORT: PC is registered name: add2 type 1 moduleId 18 portId 6
+PCREPORT: PC is registered name: mul1 type 1 moduleId 18 portId 7
+PCREPORT: PC is registered name: mul2 type 1 moduleId 18 portId 8
+PCREPORT: PC is registered name: mul3 type 1 moduleId 18 portId 9
+PCREPORT: PC is registered name: sqrt type 1 moduleId 18 portId 10
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 18 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 18 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 18 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 18 portId 0
+PCREPORT: module xx1__type__engine__MT__1____class__distanceFU registered for pc moduleId is 19
+PCREPORT: PC is registered name: in type 1 moduleId 19 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 19 portId 2
+PCREPORT: PC is registered name: sub1 type 1 moduleId 19 portId 3
+PCREPORT: PC is registered name: sub2 type 1 moduleId 19 portId 4
+PCREPORT: PC is registered name: sub3 type 1 moduleId 19 portId 5
+PCREPORT: PC is registered name: add1 type 1 moduleId 19 portId 6
+PCREPORT: PC is registered name: add2 type 1 moduleId 19 portId 7
+PCREPORT: PC is registered name: mul1 type 1 moduleId 19 portId 8
+PCREPORT: PC is registered name: mul2 type 1 moduleId 19 portId 9
+PCREPORT: PC is registered name: mul3 type 1 moduleId 19 portId 10
+PCREPORT: PC is registered name: sqrt type 1 moduleId 19 portId 11
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 19 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 19 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 19 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 19 portId 0
+PCREPORT: module sub1__type__engine__MT__1____class__adder registered for pc moduleId is 20
+PCREPORT: PC is registered name: in type 1 moduleId 20 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 20 portId 2
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 20 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 20 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 20 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 20 portId 0
+Design hierarchy --- parent dFU__type__offloaded__sub1__type__offloaded__sub1__class__gOffloadedComponent child xx1__type__engine__MT__1____class__distanceFU
+Design hierarchy --- parent xx1__type__engine__MT__1____class__distanceFU child 
+Design hierarchy --- parent xx1__type__engine__MT__1____class__distanceFU child 
+Design hierarchy --- parent xx1__type__engine__MT__1____class__distanceFU child 
+Design hierarchy --- parent dFU__type__offloaded__sub1__type__offloaded__sub1__class__gOffloadedComponent child sub1__type__engine__MT__1____class__adder
+Design hierarchy --- parent sub1__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent sub1__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent sub1__type__engine__MT__1____class__adder child 
+PCREPORT: module sub2__type__engine__MT__1____class__adder registered for pc moduleId is 21
+PCREPORT: PC is registered name: in type 1 moduleId 21 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 21 portId 2
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 21 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 21 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 21 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 21 portId 0
+Design hierarchy --- parent dFU__type__offloaded__sub2__type__offloaded__sub2__class__gOffloadedComponent child dFU__type__offloaded__sub1__type__offloaded__sub1__class__gOffloadedComponent
+Design hierarchy --- parent dFU__type__offloaded__sub1__type__offloaded__sub1__class__gOffloadedComponent child xx1__type__engine__MT__1____class__distanceFU
+Design hierarchy --- parent xx1__type__engine__MT__1____class__distanceFU child 
+Design hierarchy --- parent xx1__type__engine__MT__1____class__distanceFU child 
+Design hierarchy --- parent xx1__type__engine__MT__1____class__distanceFU child 
+Design hierarchy --- parent dFU__type__offloaded__sub1__type__offloaded__sub1__class__gOffloadedComponent child sub1__type__engine__MT__1____class__adder
+Design hierarchy --- parent sub1__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent sub1__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent sub1__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent dFU__type__offloaded__sub2__type__offloaded__sub2__class__gOffloadedComponent child sub2__type__engine__MT__1____class__adder
+Design hierarchy --- parent sub2__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent sub2__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent sub2__type__engine__MT__1____class__adder child 
+PCREPORT: module sub3__type__engine__MT__1____class__adder registered for pc moduleId is 22
+PCREPORT: PC is registered name: in type 1 moduleId 22 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 22 portId 2
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 22 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 22 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 22 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 22 portId 0
+Design hierarchy --- parent dFU__type__offloaded__sub3__type__offloaded__sub3__class__gOffloadedComponent child dFU__type__offloaded__sub2__type__offloaded__sub2__class__gOffloadedComponent
+Design hierarchy --- parent dFU__type__offloaded__sub2__type__offloaded__sub2__class__gOffloadedComponent child dFU__type__offloaded__sub1__type__offloaded__sub1__class__gOffloadedComponent
+Design hierarchy --- parent dFU__type__offloaded__sub1__type__offloaded__sub1__class__gOffloadedComponent child xx1__type__engine__MT__1____class__distanceFU
+Design hierarchy --- parent xx1__type__engine__MT__1____class__distanceFU child 
+Design hierarchy --- parent xx1__type__engine__MT__1____class__distanceFU child 
+Design hierarchy --- parent xx1__type__engine__MT__1____class__distanceFU child 
+Design hierarchy --- parent dFU__type__offloaded__sub1__type__offloaded__sub1__class__gOffloadedComponent child sub1__type__engine__MT__1____class__adder
+Design hierarchy --- parent sub1__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent sub1__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent sub1__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent dFU__type__offloaded__sub2__type__offloaded__sub2__class__gOffloadedComponent child sub2__type__engine__MT__1____class__adder
+Design hierarchy --- parent sub2__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent sub2__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent sub2__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent dFU__type__offloaded__sub3__type__offloaded__sub3__class__gOffloadedComponent child sub3__type__engine__MT__1____class__adder
+Design hierarchy --- parent sub3__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent sub3__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent sub3__type__engine__MT__1____class__adder child 
+PCREPORT: module mul1__type__engine__MT__1____class__multiplier registered for pc moduleId is 23
+PCREPORT: PC is registered name: in type 1 moduleId 23 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 23 portId 2
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 23 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 23 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 23 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 23 portId 0
+Design hierarchy --- parent dFU__type__offloaded__mul1__type__offloaded__mul1__class__gOffloadedComponent child dFU__type__offloaded__sub3__type__offloaded__sub3__class__gOffloadedComponent
+Design hierarchy --- parent dFU__type__offloaded__sub3__type__offloaded__sub3__class__gOffloadedComponent child dFU__type__offloaded__sub2__type__offloaded__sub2__class__gOffloadedComponent
+Design hierarchy --- parent dFU__type__offloaded__sub2__type__offloaded__sub2__class__gOffloadedComponent child dFU__type__offloaded__sub1__type__offloaded__sub1__class__gOffloadedComponent
+Design hierarchy --- parent dFU__type__offloaded__sub1__type__offloaded__sub1__class__gOffloadedComponent child xx1__type__engine__MT__1____class__distanceFU
+Design hierarchy --- parent xx1__type__engine__MT__1____class__distanceFU child 
+Design hierarchy --- parent xx1__type__engine__MT__1____class__distanceFU child 
+Design hierarchy --- parent xx1__type__engine__MT__1____class__distanceFU child 
+Design hierarchy --- parent dFU__type__offloaded__sub1__type__offloaded__sub1__class__gOffloadedComponent child sub1__type__engine__MT__1____class__adder
+Design hierarchy --- parent sub1__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent sub1__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent sub1__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent dFU__type__offloaded__sub2__type__offloaded__sub2__class__gOffloadedComponent child sub2__type__engine__MT__1____class__adder
+Design hierarchy --- parent sub2__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent sub2__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent sub2__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent dFU__type__offloaded__sub3__type__offloaded__sub3__class__gOffloadedComponent child sub3__type__engine__MT__1____class__adder
+Design hierarchy --- parent sub3__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent sub3__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent sub3__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent dFU__type__offloaded__mul1__type__offloaded__mul1__class__gOffloadedComponent child mul1__type__engine__MT__1____class__multiplier
+Design hierarchy --- parent mul1__type__engine__MT__1____class__multiplier child 
+Design hierarchy --- parent mul1__type__engine__MT__1____class__multiplier child 
+Design hierarchy --- parent mul1__type__engine__MT__1____class__multiplier child 
+PCREPORT: module mul2__type__engine__MT__1____class__multiplier registered for pc moduleId is 24
+PCREPORT: PC is registered name: in type 1 moduleId 24 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 24 portId 2
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 24 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 24 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 24 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 24 portId 0
+Design hierarchy --- parent dFU__type__offloaded__mul2__type__offloaded__mul2__class__gOffloadedComponent child dFU__type__offloaded__mul1__type__offloaded__mul1__class__gOffloadedComponent
+Design hierarchy --- parent dFU__type__offloaded__mul1__type__offloaded__mul1__class__gOffloadedComponent child dFU__type__offloaded__sub3__type__offloaded__sub3__class__gOffloadedComponent
+Design hierarchy --- parent dFU__type__offloaded__sub3__type__offloaded__sub3__class__gOffloadedComponent child dFU__type__offloaded__sub2__type__offloaded__sub2__class__gOffloadedComponent
+Design hierarchy --- parent dFU__type__offloaded__sub2__type__offloaded__sub2__class__gOffloadedComponent child dFU__type__offloaded__sub1__type__offloaded__sub1__class__gOffloadedComponent
+Design hierarchy --- parent dFU__type__offloaded__sub1__type__offloaded__sub1__class__gOffloadedComponent child xx1__type__engine__MT__1____class__distanceFU
+Design hierarchy --- parent xx1__type__engine__MT__1____class__distanceFU child 
+Design hierarchy --- parent xx1__type__engine__MT__1____class__distanceFU child 
+Design hierarchy --- parent xx1__type__engine__MT__1____class__distanceFU child 
+Design hierarchy --- parent dFU__type__offloaded__sub1__type__offloaded__sub1__class__gOffloadedComponent child sub1__type__engine__MT__1____class__adder
+Design hierarchy --- parent sub1__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent sub1__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent sub1__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent dFU__type__offloaded__sub2__type__offloaded__sub2__class__gOffloadedComponent child sub2__type__engine__MT__1____class__adder
+Design hierarchy --- parent sub2__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent sub2__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent sub2__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent dFU__type__offloaded__sub3__type__offloaded__sub3__class__gOffloadedComponent child sub3__type__engine__MT__1____class__adder
+Design hierarchy --- parent sub3__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent sub3__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent sub3__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent dFU__type__offloaded__mul1__type__offloaded__mul1__class__gOffloadedComponent child mul1__type__engine__MT__1____class__multiplier
+Design hierarchy --- parent mul1__type__engine__MT__1____class__multiplier child 
+Design hierarchy --- parent mul1__type__engine__MT__1____class__multiplier child 
+Design hierarchy --- parent mul1__type__engine__MT__1____class__multiplier child 
+Design hierarchy --- parent dFU__type__offloaded__mul2__type__offloaded__mul2__class__gOffloadedComponent child mul2__type__engine__MT__1____class__multiplier
+Design hierarchy --- parent mul2__type__engine__MT__1____class__multiplier child 
+Design hierarchy --- parent mul2__type__engine__MT__1____class__multiplier child 
+Design hierarchy --- parent mul2__type__engine__MT__1____class__multiplier child 
+PCREPORT: module mul3__type__engine__MT__1____class__multiplier registered for pc moduleId is 25
+PCREPORT: PC is registered name: in type 1 moduleId 25 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 25 portId 2
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 25 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 25 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 25 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 25 portId 0
+Design hierarchy --- parent dFU__type__offloaded__mul3__type__offloaded__mul3__class__gOffloadedComponent child dFU__type__offloaded__mul2__type__offloaded__mul2__class__gOffloadedComponent
+Design hierarchy --- parent dFU__type__offloaded__mul2__type__offloaded__mul2__class__gOffloadedComponent child dFU__type__offloaded__mul1__type__offloaded__mul1__class__gOffloadedComponent
+Design hierarchy --- parent dFU__type__offloaded__mul1__type__offloaded__mul1__class__gOffloadedComponent child dFU__type__offloaded__sub3__type__offloaded__sub3__class__gOffloadedComponent
+Design hierarchy --- parent dFU__type__offloaded__sub3__type__offloaded__sub3__class__gOffloadedComponent child dFU__type__offloaded__sub2__type__offloaded__sub2__class__gOffloadedComponent
+Design hierarchy --- parent dFU__type__offloaded__sub2__type__offloaded__sub2__class__gOffloadedComponent child dFU__type__offloaded__sub1__type__offloaded__sub1__class__gOffloadedComponent
+Design hierarchy --- parent dFU__type__offloaded__sub1__type__offloaded__sub1__class__gOffloadedComponent child xx1__type__engine__MT__1____class__distanceFU
+Design hierarchy --- parent xx1__type__engine__MT__1____class__distanceFU child 
+Design hierarchy --- parent xx1__type__engine__MT__1____class__distanceFU child 
+Design hierarchy --- parent xx1__type__engine__MT__1____class__distanceFU child 
+Design hierarchy --- parent dFU__type__offloaded__sub1__type__offloaded__sub1__class__gOffloadedComponent child sub1__type__engine__MT__1____class__adder
+Design hierarchy --- parent sub1__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent sub1__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent sub1__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent dFU__type__offloaded__sub2__type__offloaded__sub2__class__gOffloadedComponent child sub2__type__engine__MT__1____class__adder
+Design hierarchy --- parent sub2__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent sub2__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent sub2__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent dFU__type__offloaded__sub3__type__offloaded__sub3__class__gOffloadedComponent child sub3__type__engine__MT__1____class__adder
+Design hierarchy --- parent sub3__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent sub3__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent sub3__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent dFU__type__offloaded__mul1__type__offloaded__mul1__class__gOffloadedComponent child mul1__type__engine__MT__1____class__multiplier
+Design hierarchy --- parent mul1__type__engine__MT__1____class__multiplier child 
+Design hierarchy --- parent mul1__type__engine__MT__1____class__multiplier child 
+Design hierarchy --- parent mul1__type__engine__MT__1____class__multiplier child 
+Design hierarchy --- parent dFU__type__offloaded__mul2__type__offloaded__mul2__class__gOffloadedComponent child mul2__type__engine__MT__1____class__multiplier
+Design hierarchy --- parent mul2__type__engine__MT__1____class__multiplier child 
+Design hierarchy --- parent mul2__type__engine__MT__1____class__multiplier child 
+Design hierarchy --- parent mul2__type__engine__MT__1____class__multiplier child 
+Design hierarchy --- parent dFU__type__offloaded__mul3__type__offloaded__mul3__class__gOffloadedComponent child mul3__type__engine__MT__1____class__multiplier
+Design hierarchy --- parent mul3__type__engine__MT__1____class__multiplier child 
+Design hierarchy --- parent mul3__type__engine__MT__1____class__multiplier child 
+Design hierarchy --- parent mul3__type__engine__MT__1____class__multiplier child 
+PCREPORT: module add1__type__engine__MT__1____class__adder registered for pc moduleId is 26
+PCREPORT: PC is registered name: in type 1 moduleId 26 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 26 portId 2
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 26 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 26 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 26 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 26 portId 0
+Design hierarchy --- parent dFU__type__offloaded__add1__type__offloaded__add1__class__gOffloadedComponent child dFU__type__offloaded__mul3__type__offloaded__mul3__class__gOffloadedComponent
+Design hierarchy --- parent dFU__type__offloaded__mul3__type__offloaded__mul3__class__gOffloadedComponent child dFU__type__offloaded__mul2__type__offloaded__mul2__class__gOffloadedComponent
+Design hierarchy --- parent dFU__type__offloaded__mul2__type__offloaded__mul2__class__gOffloadedComponent child dFU__type__offloaded__mul1__type__offloaded__mul1__class__gOffloadedComponent
+Design hierarchy --- parent dFU__type__offloaded__mul1__type__offloaded__mul1__class__gOffloadedComponent child dFU__type__offloaded__sub3__type__offloaded__sub3__class__gOffloadedComponent
+Design hierarchy --- parent dFU__type__offloaded__sub3__type__offloaded__sub3__class__gOffloadedComponent child dFU__type__offloaded__sub2__type__offloaded__sub2__class__gOffloadedComponent
+Design hierarchy --- parent dFU__type__offloaded__sub2__type__offloaded__sub2__class__gOffloadedComponent child dFU__type__offloaded__sub1__type__offloaded__sub1__class__gOffloadedComponent
+Design hierarchy --- parent dFU__type__offloaded__sub1__type__offloaded__sub1__class__gOffloadedComponent child xx1__type__engine__MT__1____class__distanceFU
+Design hierarchy --- parent xx1__type__engine__MT__1____class__distanceFU child 
+Design hierarchy --- parent xx1__type__engine__MT__1____class__distanceFU child 
+Design hierarchy --- parent xx1__type__engine__MT__1____class__distanceFU child 
+Design hierarchy --- parent dFU__type__offloaded__sub1__type__offloaded__sub1__class__gOffloadedComponent child sub1__type__engine__MT__1____class__adder
+Design hierarchy --- parent sub1__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent sub1__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent sub1__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent dFU__type__offloaded__sub2__type__offloaded__sub2__class__gOffloadedComponent child sub2__type__engine__MT__1____class__adder
+Design hierarchy --- parent sub2__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent sub2__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent sub2__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent dFU__type__offloaded__sub3__type__offloaded__sub3__class__gOffloadedComponent child sub3__type__engine__MT__1____class__adder
+Design hierarchy --- parent sub3__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent sub3__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent sub3__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent dFU__type__offloaded__mul1__type__offloaded__mul1__class__gOffloadedComponent child mul1__type__engine__MT__1____class__multiplier
+Design hierarchy --- parent mul1__type__engine__MT__1____class__multiplier child 
+Design hierarchy --- parent mul1__type__engine__MT__1____class__multiplier child 
+Design hierarchy --- parent mul1__type__engine__MT__1____class__multiplier child 
+Design hierarchy --- parent dFU__type__offloaded__mul2__type__offloaded__mul2__class__gOffloadedComponent child mul2__type__engine__MT__1____class__multiplier
+Design hierarchy --- parent mul2__type__engine__MT__1____class__multiplier child 
+Design hierarchy --- parent mul2__type__engine__MT__1____class__multiplier child 
+Design hierarchy --- parent mul2__type__engine__MT__1____class__multiplier child 
+Design hierarchy --- parent dFU__type__offloaded__mul3__type__offloaded__mul3__class__gOffloadedComponent child mul3__type__engine__MT__1____class__multiplier
+Design hierarchy --- parent mul3__type__engine__MT__1____class__multiplier child 
+Design hierarchy --- parent mul3__type__engine__MT__1____class__multiplier child 
+Design hierarchy --- parent mul3__type__engine__MT__1____class__multiplier child 
+Design hierarchy --- parent dFU__type__offloaded__add1__type__offloaded__add1__class__gOffloadedComponent child add1__type__engine__MT__1____class__adder
+Design hierarchy --- parent add1__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent add1__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent add1__type__engine__MT__1____class__adder child 
+PCREPORT: module add2__type__engine__MT__1____class__adder registered for pc moduleId is 27
+PCREPORT: PC is registered name: in type 1 moduleId 27 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 27 portId 2
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 27 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 27 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 27 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 27 portId 0
+Design hierarchy --- parent dFU__type__offloaded__add2__type__offloaded__add2__class__gOffloadedComponent child dFU__type__offloaded__add1__type__offloaded__add1__class__gOffloadedComponent
+Design hierarchy --- parent dFU__type__offloaded__add1__type__offloaded__add1__class__gOffloadedComponent child dFU__type__offloaded__mul3__type__offloaded__mul3__class__gOffloadedComponent
+Design hierarchy --- parent dFU__type__offloaded__mul3__type__offloaded__mul3__class__gOffloadedComponent child dFU__type__offloaded__mul2__type__offloaded__mul2__class__gOffloadedComponent
+Design hierarchy --- parent dFU__type__offloaded__mul2__type__offloaded__mul2__class__gOffloadedComponent child dFU__type__offloaded__mul1__type__offloaded__mul1__class__gOffloadedComponent
+Design hierarchy --- parent dFU__type__offloaded__mul1__type__offloaded__mul1__class__gOffloadedComponent child dFU__type__offloaded__sub3__type__offloaded__sub3__class__gOffloadedComponent
+Design hierarchy --- parent dFU__type__offloaded__sub3__type__offloaded__sub3__class__gOffloadedComponent child dFU__type__offloaded__sub2__type__offloaded__sub2__class__gOffloadedComponent
+Design hierarchy --- parent dFU__type__offloaded__sub2__type__offloaded__sub2__class__gOffloadedComponent child dFU__type__offloaded__sub1__type__offloaded__sub1__class__gOffloadedComponent
+Design hierarchy --- parent dFU__type__offloaded__sub1__type__offloaded__sub1__class__gOffloadedComponent child xx1__type__engine__MT__1____class__distanceFU
+Design hierarchy --- parent xx1__type__engine__MT__1____class__distanceFU child 
+Design hierarchy --- parent xx1__type__engine__MT__1____class__distanceFU child 
+Design hierarchy --- parent xx1__type__engine__MT__1____class__distanceFU child 
+Design hierarchy --- parent dFU__type__offloaded__sub1__type__offloaded__sub1__class__gOffloadedComponent child sub1__type__engine__MT__1____class__adder
+Design hierarchy --- parent sub1__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent sub1__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent sub1__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent dFU__type__offloaded__sub2__type__offloaded__sub2__class__gOffloadedComponent child sub2__type__engine__MT__1____class__adder
+Design hierarchy --- parent sub2__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent sub2__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent sub2__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent dFU__type__offloaded__sub3__type__offloaded__sub3__class__gOffloadedComponent child sub3__type__engine__MT__1____class__adder
+Design hierarchy --- parent sub3__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent sub3__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent sub3__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent dFU__type__offloaded__mul1__type__offloaded__mul1__class__gOffloadedComponent child mul1__type__engine__MT__1____class__multiplier
+Design hierarchy --- parent mul1__type__engine__MT__1____class__multiplier child 
+Design hierarchy --- parent mul1__type__engine__MT__1____class__multiplier child 
+Design hierarchy --- parent mul1__type__engine__MT__1____class__multiplier child 
+Design hierarchy --- parent dFU__type__offloaded__mul2__type__offloaded__mul2__class__gOffloadedComponent child mul2__type__engine__MT__1____class__multiplier
+Design hierarchy --- parent mul2__type__engine__MT__1____class__multiplier child 
+Design hierarchy --- parent mul2__type__engine__MT__1____class__multiplier child 
+Design hierarchy --- parent mul2__type__engine__MT__1____class__multiplier child 
+Design hierarchy --- parent dFU__type__offloaded__mul3__type__offloaded__mul3__class__gOffloadedComponent child mul3__type__engine__MT__1____class__multiplier
+Design hierarchy --- parent mul3__type__engine__MT__1____class__multiplier child 
+Design hierarchy --- parent mul3__type__engine__MT__1____class__multiplier child 
+Design hierarchy --- parent mul3__type__engine__MT__1____class__multiplier child 
+Design hierarchy --- parent dFU__type__offloaded__add1__type__offloaded__add1__class__gOffloadedComponent child add1__type__engine__MT__1____class__adder
+Design hierarchy --- parent add1__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent add1__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent add1__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent dFU__type__offloaded__add2__type__offloaded__add2__class__gOffloadedComponent child add2__type__engine__MT__1____class__adder
+Design hierarchy --- parent add2__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent add2__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent add2__type__engine__MT__1____class__adder child 
+PCREPORT: module sqrt__type__engine__MT__1____class__sqrt registered for pc moduleId is 28
+PCREPORT: PC is registered name: in type 1 moduleId 28 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 28 portId 2
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 28 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 28 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 28 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 28 portId 0
+Design hierarchy --- parent dFU__type__offloaded__sqrt__type__offloaded__sqrt__class__gOffloadedComponent child dFU__type__offloaded__add2__type__offloaded__add2__class__gOffloadedComponent
+Design hierarchy --- parent dFU__type__offloaded__add2__type__offloaded__add2__class__gOffloadedComponent child dFU__type__offloaded__add1__type__offloaded__add1__class__gOffloadedComponent
+Design hierarchy --- parent dFU__type__offloaded__add1__type__offloaded__add1__class__gOffloadedComponent child dFU__type__offloaded__mul3__type__offloaded__mul3__class__gOffloadedComponent
+Design hierarchy --- parent dFU__type__offloaded__mul3__type__offloaded__mul3__class__gOffloadedComponent child dFU__type__offloaded__mul2__type__offloaded__mul2__class__gOffloadedComponent
+Design hierarchy --- parent dFU__type__offloaded__mul2__type__offloaded__mul2__class__gOffloadedComponent child dFU__type__offloaded__mul1__type__offloaded__mul1__class__gOffloadedComponent
+Design hierarchy --- parent dFU__type__offloaded__mul1__type__offloaded__mul1__class__gOffloadedComponent child dFU__type__offloaded__sub3__type__offloaded__sub3__class__gOffloadedComponent
+Design hierarchy --- parent dFU__type__offloaded__sub3__type__offloaded__sub3__class__gOffloadedComponent child dFU__type__offloaded__sub2__type__offloaded__sub2__class__gOffloadedComponent
+Design hierarchy --- parent dFU__type__offloaded__sub2__type__offloaded__sub2__class__gOffloadedComponent child dFU__type__offloaded__sub1__type__offloaded__sub1__class__gOffloadedComponent
+Design hierarchy --- parent dFU__type__offloaded__sub1__type__offloaded__sub1__class__gOffloadedComponent child xx1__type__engine__MT__1____class__distanceFU
+Design hierarchy --- parent xx1__type__engine__MT__1____class__distanceFU child 
+Design hierarchy --- parent xx1__type__engine__MT__1____class__distanceFU child 
+Design hierarchy --- parent xx1__type__engine__MT__1____class__distanceFU child 
+Design hierarchy --- parent dFU__type__offloaded__sub1__type__offloaded__sub1__class__gOffloadedComponent child sub1__type__engine__MT__1____class__adder
+Design hierarchy --- parent sub1__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent sub1__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent sub1__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent dFU__type__offloaded__sub2__type__offloaded__sub2__class__gOffloadedComponent child sub2__type__engine__MT__1____class__adder
+Design hierarchy --- parent sub2__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent sub2__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent sub2__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent dFU__type__offloaded__sub3__type__offloaded__sub3__class__gOffloadedComponent child sub3__type__engine__MT__1____class__adder
+Design hierarchy --- parent sub3__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent sub3__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent sub3__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent dFU__type__offloaded__mul1__type__offloaded__mul1__class__gOffloadedComponent child mul1__type__engine__MT__1____class__multiplier
+Design hierarchy --- parent mul1__type__engine__MT__1____class__multiplier child 
+Design hierarchy --- parent mul1__type__engine__MT__1____class__multiplier child 
+Design hierarchy --- parent mul1__type__engine__MT__1____class__multiplier child 
+Design hierarchy --- parent dFU__type__offloaded__mul2__type__offloaded__mul2__class__gOffloadedComponent child mul2__type__engine__MT__1____class__multiplier
+Design hierarchy --- parent mul2__type__engine__MT__1____class__multiplier child 
+Design hierarchy --- parent mul2__type__engine__MT__1____class__multiplier child 
+Design hierarchy --- parent mul2__type__engine__MT__1____class__multiplier child 
+Design hierarchy --- parent dFU__type__offloaded__mul3__type__offloaded__mul3__class__gOffloadedComponent child mul3__type__engine__MT__1____class__multiplier
+Design hierarchy --- parent mul3__type__engine__MT__1____class__multiplier child 
+Design hierarchy --- parent mul3__type__engine__MT__1____class__multiplier child 
+Design hierarchy --- parent mul3__type__engine__MT__1____class__multiplier child 
+Design hierarchy --- parent dFU__type__offloaded__add1__type__offloaded__add1__class__gOffloadedComponent child add1__type__engine__MT__1____class__adder
+Design hierarchy --- parent add1__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent add1__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent add1__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent dFU__type__offloaded__add2__type__offloaded__add2__class__gOffloadedComponent child add2__type__engine__MT__1____class__adder
+Design hierarchy --- parent add2__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent add2__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent add2__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent dFU__type__offloaded__sqrt__type__offloaded__sqrt__class__gOffloadedComponent child sqrt__type__engine__MT__1____class__sqrt
+Design hierarchy --- parent sqrt__type__engine__MT__1____class__sqrt child 
+Design hierarchy --- parent sqrt__type__engine__MT__1____class__sqrt child 
+Design hierarchy --- parent sqrt__type__engine__MT__1____class__sqrt child 
+Design hierarchy --- parent kePlus__type__offloaded__distanceFU__type__offloaded__distanceFU__class__gOffloadedComponent child ke__type__engine__MT__1____class__KEngine
+Design hierarchy --- parent ke__type__engine__MT__1____class__KEngine child 
+Design hierarchy --- parent ke__type__engine__MT__1____class__KEngine child 
+Design hierarchy --- parent ke__type__engine__MT__1____class__KEngine child 
+Design hierarchy --- parent kePlus__type__offloaded__distanceFU__type__offloaded__distanceFU__class__gOffloadedComponent child dFU__type__offloaded__sqrt__type__offloaded__sqrt__class__gOffloadedComponent
+Design hierarchy --- parent dFU__type__offloaded__sqrt__type__offloaded__sqrt__class__gOffloadedComponent child dFU__type__offloaded__add2__type__offloaded__add2__class__gOffloadedComponent
+Design hierarchy --- parent dFU__type__offloaded__add2__type__offloaded__add2__class__gOffloadedComponent child dFU__type__offloaded__add1__type__offloaded__add1__class__gOffloadedComponent
+Design hierarchy --- parent dFU__type__offloaded__add1__type__offloaded__add1__class__gOffloadedComponent child dFU__type__offloaded__mul3__type__offloaded__mul3__class__gOffloadedComponent
+Design hierarchy --- parent dFU__type__offloaded__mul3__type__offloaded__mul3__class__gOffloadedComponent child dFU__type__offloaded__mul2__type__offloaded__mul2__class__gOffloadedComponent
+Design hierarchy --- parent dFU__type__offloaded__mul2__type__offloaded__mul2__class__gOffloadedComponent child dFU__type__offloaded__mul1__type__offloaded__mul1__class__gOffloadedComponent
+Design hierarchy --- parent dFU__type__offloaded__mul1__type__offloaded__mul1__class__gOffloadedComponent child dFU__type__offloaded__sub3__type__offloaded__sub3__class__gOffloadedComponent
+Design hierarchy --- parent dFU__type__offloaded__sub3__type__offloaded__sub3__class__gOffloadedComponent child dFU__type__offloaded__sub2__type__offloaded__sub2__class__gOffloadedComponent
+Design hierarchy --- parent dFU__type__offloaded__sub2__type__offloaded__sub2__class__gOffloadedComponent child dFU__type__offloaded__sub1__type__offloaded__sub1__class__gOffloadedComponent
+Design hierarchy --- parent dFU__type__offloaded__sub1__type__offloaded__sub1__class__gOffloadedComponent child xx1__type__engine__MT__1____class__distanceFU
+Design hierarchy --- parent xx1__type__engine__MT__1____class__distanceFU child 
+Design hierarchy --- parent xx1__type__engine__MT__1____class__distanceFU child 
+Design hierarchy --- parent xx1__type__engine__MT__1____class__distanceFU child 
+Design hierarchy --- parent dFU__type__offloaded__sub1__type__offloaded__sub1__class__gOffloadedComponent child sub1__type__engine__MT__1____class__adder
+Design hierarchy --- parent sub1__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent sub1__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent sub1__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent dFU__type__offloaded__sub2__type__offloaded__sub2__class__gOffloadedComponent child sub2__type__engine__MT__1____class__adder
+Design hierarchy --- parent sub2__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent sub2__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent sub2__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent dFU__type__offloaded__sub3__type__offloaded__sub3__class__gOffloadedComponent child sub3__type__engine__MT__1____class__adder
+Design hierarchy --- parent sub3__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent sub3__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent sub3__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent dFU__type__offloaded__mul1__type__offloaded__mul1__class__gOffloadedComponent child mul1__type__engine__MT__1____class__multiplier
+Design hierarchy --- parent mul1__type__engine__MT__1____class__multiplier child 
+Design hierarchy --- parent mul1__type__engine__MT__1____class__multiplier child 
+Design hierarchy --- parent mul1__type__engine__MT__1____class__multiplier child 
+Design hierarchy --- parent dFU__type__offloaded__mul2__type__offloaded__mul2__class__gOffloadedComponent child mul2__type__engine__MT__1____class__multiplier
+Design hierarchy --- parent mul2__type__engine__MT__1____class__multiplier child 
+Design hierarchy --- parent mul2__type__engine__MT__1____class__multiplier child 
+Design hierarchy --- parent mul2__type__engine__MT__1____class__multiplier child 
+Design hierarchy --- parent dFU__type__offloaded__mul3__type__offloaded__mul3__class__gOffloadedComponent child mul3__type__engine__MT__1____class__multiplier
+Design hierarchy --- parent mul3__type__engine__MT__1____class__multiplier child 
+Design hierarchy --- parent mul3__type__engine__MT__1____class__multiplier child 
+Design hierarchy --- parent mul3__type__engine__MT__1____class__multiplier child 
+Design hierarchy --- parent dFU__type__offloaded__add1__type__offloaded__add1__class__gOffloadedComponent child add1__type__engine__MT__1____class__adder
+Design hierarchy --- parent add1__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent add1__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent add1__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent dFU__type__offloaded__add2__type__offloaded__add2__class__gOffloadedComponent child add2__type__engine__MT__1____class__adder
+Design hierarchy --- parent add2__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent add2__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent add2__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent dFU__type__offloaded__sqrt__type__offloaded__sqrt__class__gOffloadedComponent child sqrt__type__engine__MT__1____class__sqrt
+Design hierarchy --- parent sqrt__type__engine__MT__1____class__sqrt child 
+Design hierarchy --- parent sqrt__type__engine__MT__1____class__sqrt child 
+Design hierarchy --- parent sqrt__type__engine__MT__1____class__sqrt child 
+PCREPORT: module spMem__class__spMemComponent registered for pc moduleId is 29
+PCREPORT: PC is registered name: in type 1 moduleId 29 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 29 portId 2
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 29 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 29 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 29 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 29 portId 0
+Design hierarchy --- parent kePlus__type__offloaded__centeroidMem__type__offloaded__centeroidMem__class__gOffloadedComponent child kePlus__type__offloaded__distanceFU__type__offloaded__distanceFU__class__gOffloadedComponent
+Design hierarchy --- parent kePlus__type__offloaded__distanceFU__type__offloaded__distanceFU__class__gOffloadedComponent child ke__type__engine__MT__1____class__KEngine
+Design hierarchy --- parent ke__type__engine__MT__1____class__KEngine child 
+Design hierarchy --- parent ke__type__engine__MT__1____class__KEngine child 
+Design hierarchy --- parent ke__type__engine__MT__1____class__KEngine child 
+Design hierarchy --- parent kePlus__type__offloaded__distanceFU__type__offloaded__distanceFU__class__gOffloadedComponent child dFU__type__offloaded__sqrt__type__offloaded__sqrt__class__gOffloadedComponent
+Design hierarchy --- parent dFU__type__offloaded__sqrt__type__offloaded__sqrt__class__gOffloadedComponent child dFU__type__offloaded__add2__type__offloaded__add2__class__gOffloadedComponent
+Design hierarchy --- parent dFU__type__offloaded__add2__type__offloaded__add2__class__gOffloadedComponent child dFU__type__offloaded__add1__type__offloaded__add1__class__gOffloadedComponent
+Design hierarchy --- parent dFU__type__offloaded__add1__type__offloaded__add1__class__gOffloadedComponent child dFU__type__offloaded__mul3__type__offloaded__mul3__class__gOffloadedComponent
+Design hierarchy --- parent dFU__type__offloaded__mul3__type__offloaded__mul3__class__gOffloadedComponent child dFU__type__offloaded__mul2__type__offloaded__mul2__class__gOffloadedComponent
+Design hierarchy --- parent dFU__type__offloaded__mul2__type__offloaded__mul2__class__gOffloadedComponent child dFU__type__offloaded__mul1__type__offloaded__mul1__class__gOffloadedComponent
+Design hierarchy --- parent dFU__type__offloaded__mul1__type__offloaded__mul1__class__gOffloadedComponent child dFU__type__offloaded__sub3__type__offloaded__sub3__class__gOffloadedComponent
+Design hierarchy --- parent dFU__type__offloaded__sub3__type__offloaded__sub3__class__gOffloadedComponent child dFU__type__offloaded__sub2__type__offloaded__sub2__class__gOffloadedComponent
+Design hierarchy --- parent dFU__type__offloaded__sub2__type__offloaded__sub2__class__gOffloadedComponent child dFU__type__offloaded__sub1__type__offloaded__sub1__class__gOffloadedComponent
+Design hierarchy --- parent dFU__type__offloaded__sub1__type__offloaded__sub1__class__gOffloadedComponent child xx1__type__engine__MT__1____class__distanceFU
+Design hierarchy --- parent xx1__type__engine__MT__1____class__distanceFU child 
+Design hierarchy --- parent xx1__type__engine__MT__1____class__distanceFU child 
+Design hierarchy --- parent xx1__type__engine__MT__1____class__distanceFU child 
+Design hierarchy --- parent dFU__type__offloaded__sub1__type__offloaded__sub1__class__gOffloadedComponent child sub1__type__engine__MT__1____class__adder
+Design hierarchy --- parent sub1__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent sub1__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent sub1__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent dFU__type__offloaded__sub2__type__offloaded__sub2__class__gOffloadedComponent child sub2__type__engine__MT__1____class__adder
+Design hierarchy --- parent sub2__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent sub2__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent sub2__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent dFU__type__offloaded__sub3__type__offloaded__sub3__class__gOffloadedComponent child sub3__type__engine__MT__1____class__adder
+Design hierarchy --- parent sub3__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent sub3__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent sub3__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent dFU__type__offloaded__mul1__type__offloaded__mul1__class__gOffloadedComponent child mul1__type__engine__MT__1____class__multiplier
+Design hierarchy --- parent mul1__type__engine__MT__1____class__multiplier child 
+Design hierarchy --- parent mul1__type__engine__MT__1____class__multiplier child 
+Design hierarchy --- parent mul1__type__engine__MT__1____class__multiplier child 
+Design hierarchy --- parent dFU__type__offloaded__mul2__type__offloaded__mul2__class__gOffloadedComponent child mul2__type__engine__MT__1____class__multiplier
+Design hierarchy --- parent mul2__type__engine__MT__1____class__multiplier child 
+Design hierarchy --- parent mul2__type__engine__MT__1____class__multiplier child 
+Design hierarchy --- parent mul2__type__engine__MT__1____class__multiplier child 
+Design hierarchy --- parent dFU__type__offloaded__mul3__type__offloaded__mul3__class__gOffloadedComponent child mul3__type__engine__MT__1____class__multiplier
+Design hierarchy --- parent mul3__type__engine__MT__1____class__multiplier child 
+Design hierarchy --- parent mul3__type__engine__MT__1____class__multiplier child 
+Design hierarchy --- parent mul3__type__engine__MT__1____class__multiplier child 
+Design hierarchy --- parent dFU__type__offloaded__add1__type__offloaded__add1__class__gOffloadedComponent child add1__type__engine__MT__1____class__adder
+Design hierarchy --- parent add1__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent add1__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent add1__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent dFU__type__offloaded__add2__type__offloaded__add2__class__gOffloadedComponent child add2__type__engine__MT__1____class__adder
+Design hierarchy --- parent add2__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent add2__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent add2__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent dFU__type__offloaded__sqrt__type__offloaded__sqrt__class__gOffloadedComponent child sqrt__type__engine__MT__1____class__sqrt
+Design hierarchy --- parent sqrt__type__engine__MT__1____class__sqrt child 
+Design hierarchy --- parent sqrt__type__engine__MT__1____class__sqrt child 
+Design hierarchy --- parent sqrt__type__engine__MT__1____class__sqrt child 
+Design hierarchy --- parent kePlus__type__offloaded__centeroidMem__type__offloaded__centeroidMem__class__gOffloadedComponent child spMem__class__spMemComponent
+PCREPORT: module spMem__class__spMemComponent registered for pc moduleId is 30
+PCREPORT: PC is registered name: in type 1 moduleId 30 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 30 portId 2
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 30 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 30 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 30 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 30 portId 0
+Design hierarchy --- parent kePlus__type__offloaded__partialAccumulatorMem__type__offloaded__partialAccumulatorMem__class__gOffloadedComponent child kePlus__type__offloaded__centeroidMem__type__offloaded__centeroidMem__class__gOffloadedComponent
+Design hierarchy --- parent kePlus__type__offloaded__centeroidMem__type__offloaded__centeroidMem__class__gOffloadedComponent child kePlus__type__offloaded__distanceFU__type__offloaded__distanceFU__class__gOffloadedComponent
+Design hierarchy --- parent kePlus__type__offloaded__distanceFU__type__offloaded__distanceFU__class__gOffloadedComponent child ke__type__engine__MT__1____class__KEngine
+Design hierarchy --- parent ke__type__engine__MT__1____class__KEngine child 
+Design hierarchy --- parent ke__type__engine__MT__1____class__KEngine child 
+Design hierarchy --- parent ke__type__engine__MT__1____class__KEngine child 
+Design hierarchy --- parent kePlus__type__offloaded__distanceFU__type__offloaded__distanceFU__class__gOffloadedComponent child dFU__type__offloaded__sqrt__type__offloaded__sqrt__class__gOffloadedComponent
+Design hierarchy --- parent dFU__type__offloaded__sqrt__type__offloaded__sqrt__class__gOffloadedComponent child dFU__type__offloaded__add2__type__offloaded__add2__class__gOffloadedComponent
+Design hierarchy --- parent dFU__type__offloaded__add2__type__offloaded__add2__class__gOffloadedComponent child dFU__type__offloaded__add1__type__offloaded__add1__class__gOffloadedComponent
+Design hierarchy --- parent dFU__type__offloaded__add1__type__offloaded__add1__class__gOffloadedComponent child dFU__type__offloaded__mul3__type__offloaded__mul3__class__gOffloadedComponent
+Design hierarchy --- parent dFU__type__offloaded__mul3__type__offloaded__mul3__class__gOffloadedComponent child dFU__type__offloaded__mul2__type__offloaded__mul2__class__gOffloadedComponent
+Design hierarchy --- parent dFU__type__offloaded__mul2__type__offloaded__mul2__class__gOffloadedComponent child dFU__type__offloaded__mul1__type__offloaded__mul1__class__gOffloadedComponent
+Design hierarchy --- parent dFU__type__offloaded__mul1__type__offloaded__mul1__class__gOffloadedComponent child dFU__type__offloaded__sub3__type__offloaded__sub3__class__gOffloadedComponent
+Design hierarchy --- parent dFU__type__offloaded__sub3__type__offloaded__sub3__class__gOffloadedComponent child dFU__type__offloaded__sub2__type__offloaded__sub2__class__gOffloadedComponent
+Design hierarchy --- parent dFU__type__offloaded__sub2__type__offloaded__sub2__class__gOffloadedComponent child dFU__type__offloaded__sub1__type__offloaded__sub1__class__gOffloadedComponent
+Design hierarchy --- parent dFU__type__offloaded__sub1__type__offloaded__sub1__class__gOffloadedComponent child xx1__type__engine__MT__1____class__distanceFU
+Design hierarchy --- parent xx1__type__engine__MT__1____class__distanceFU child 
+Design hierarchy --- parent xx1__type__engine__MT__1____class__distanceFU child 
+Design hierarchy --- parent xx1__type__engine__MT__1____class__distanceFU child 
+Design hierarchy --- parent dFU__type__offloaded__sub1__type__offloaded__sub1__class__gOffloadedComponent child sub1__type__engine__MT__1____class__adder
+Design hierarchy --- parent sub1__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent sub1__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent sub1__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent dFU__type__offloaded__sub2__type__offloaded__sub2__class__gOffloadedComponent child sub2__type__engine__MT__1____class__adder
+Design hierarchy --- parent sub2__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent sub2__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent sub2__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent dFU__type__offloaded__sub3__type__offloaded__sub3__class__gOffloadedComponent child sub3__type__engine__MT__1____class__adder
+Design hierarchy --- parent sub3__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent sub3__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent sub3__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent dFU__type__offloaded__mul1__type__offloaded__mul1__class__gOffloadedComponent child mul1__type__engine__MT__1____class__multiplier
+Design hierarchy --- parent mul1__type__engine__MT__1____class__multiplier child 
+Design hierarchy --- parent mul1__type__engine__MT__1____class__multiplier child 
+Design hierarchy --- parent mul1__type__engine__MT__1____class__multiplier child 
+Design hierarchy --- parent dFU__type__offloaded__mul2__type__offloaded__mul2__class__gOffloadedComponent child mul2__type__engine__MT__1____class__multiplier
+Design hierarchy --- parent mul2__type__engine__MT__1____class__multiplier child 
+Design hierarchy --- parent mul2__type__engine__MT__1____class__multiplier child 
+Design hierarchy --- parent mul2__type__engine__MT__1____class__multiplier child 
+Design hierarchy --- parent dFU__type__offloaded__mul3__type__offloaded__mul3__class__gOffloadedComponent child mul3__type__engine__MT__1____class__multiplier
+Design hierarchy --- parent mul3__type__engine__MT__1____class__multiplier child 
+Design hierarchy --- parent mul3__type__engine__MT__1____class__multiplier child 
+Design hierarchy --- parent mul3__type__engine__MT__1____class__multiplier child 
+Design hierarchy --- parent dFU__type__offloaded__add1__type__offloaded__add1__class__gOffloadedComponent child add1__type__engine__MT__1____class__adder
+Design hierarchy --- parent add1__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent add1__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent add1__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent dFU__type__offloaded__add2__type__offloaded__add2__class__gOffloadedComponent child add2__type__engine__MT__1____class__adder
+Design hierarchy --- parent add2__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent add2__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent add2__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent dFU__type__offloaded__sqrt__type__offloaded__sqrt__class__gOffloadedComponent child sqrt__type__engine__MT__1____class__sqrt
+Design hierarchy --- parent sqrt__type__engine__MT__1____class__sqrt child 
+Design hierarchy --- parent sqrt__type__engine__MT__1____class__sqrt child 
+Design hierarchy --- parent sqrt__type__engine__MT__1____class__sqrt child 
+Design hierarchy --- parent kePlus__type__offloaded__centeroidMem__type__offloaded__centeroidMem__class__gOffloadedComponent child spMem__class__spMemComponent
+Design hierarchy --- parent kePlus__type__offloaded__partialAccumulatorMem__type__offloaded__partialAccumulatorMem__class__gOffloadedComponent child spMem__class__spMemComponent
+PCREPORT: module add__type__engine__MT__1____class__adder registered for pc moduleId is 31
+PCREPORT: PC is registered name: in type 1 moduleId 31 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 31 portId 2
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 31 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 31 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 31 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 31 portId 0
+Design hierarchy --- parent kePlus__type__offloaded__add__type__offloaded__add__class__gOffloadedComponent child kePlus__type__offloaded__partialAccumulatorMem__type__offloaded__partialAccumulatorMem__class__gOffloadedComponent
+Design hierarchy --- parent kePlus__type__offloaded__partialAccumulatorMem__type__offloaded__partialAccumulatorMem__class__gOffloadedComponent child kePlus__type__offloaded__centeroidMem__type__offloaded__centeroidMem__class__gOffloadedComponent
+Design hierarchy --- parent kePlus__type__offloaded__centeroidMem__type__offloaded__centeroidMem__class__gOffloadedComponent child kePlus__type__offloaded__distanceFU__type__offloaded__distanceFU__class__gOffloadedComponent
+Design hierarchy --- parent kePlus__type__offloaded__distanceFU__type__offloaded__distanceFU__class__gOffloadedComponent child ke__type__engine__MT__1____class__KEngine
+Design hierarchy --- parent ke__type__engine__MT__1____class__KEngine child 
+Design hierarchy --- parent ke__type__engine__MT__1____class__KEngine child 
+Design hierarchy --- parent ke__type__engine__MT__1____class__KEngine child 
+Design hierarchy --- parent kePlus__type__offloaded__distanceFU__type__offloaded__distanceFU__class__gOffloadedComponent child dFU__type__offloaded__sqrt__type__offloaded__sqrt__class__gOffloadedComponent
+Design hierarchy --- parent dFU__type__offloaded__sqrt__type__offloaded__sqrt__class__gOffloadedComponent child dFU__type__offloaded__add2__type__offloaded__add2__class__gOffloadedComponent
+Design hierarchy --- parent dFU__type__offloaded__add2__type__offloaded__add2__class__gOffloadedComponent child dFU__type__offloaded__add1__type__offloaded__add1__class__gOffloadedComponent
+Design hierarchy --- parent dFU__type__offloaded__add1__type__offloaded__add1__class__gOffloadedComponent child dFU__type__offloaded__mul3__type__offloaded__mul3__class__gOffloadedComponent
+Design hierarchy --- parent dFU__type__offloaded__mul3__type__offloaded__mul3__class__gOffloadedComponent child dFU__type__offloaded__mul2__type__offloaded__mul2__class__gOffloadedComponent
+Design hierarchy --- parent dFU__type__offloaded__mul2__type__offloaded__mul2__class__gOffloadedComponent child dFU__type__offloaded__mul1__type__offloaded__mul1__class__gOffloadedComponent
+Design hierarchy --- parent dFU__type__offloaded__mul1__type__offloaded__mul1__class__gOffloadedComponent child dFU__type__offloaded__sub3__type__offloaded__sub3__class__gOffloadedComponent
+Design hierarchy --- parent dFU__type__offloaded__sub3__type__offloaded__sub3__class__gOffloadedComponent child dFU__type__offloaded__sub2__type__offloaded__sub2__class__gOffloadedComponent
+Design hierarchy --- parent dFU__type__offloaded__sub2__type__offloaded__sub2__class__gOffloadedComponent child dFU__type__offloaded__sub1__type__offloaded__sub1__class__gOffloadedComponent
+Design hierarchy --- parent dFU__type__offloaded__sub1__type__offloaded__sub1__class__gOffloadedComponent child xx1__type__engine__MT__1____class__distanceFU
+Design hierarchy --- parent xx1__type__engine__MT__1____class__distanceFU child 
+Design hierarchy --- parent xx1__type__engine__MT__1____class__distanceFU child 
+Design hierarchy --- parent xx1__type__engine__MT__1____class__distanceFU child 
+Design hierarchy --- parent dFU__type__offloaded__sub1__type__offloaded__sub1__class__gOffloadedComponent child sub1__type__engine__MT__1____class__adder
+Design hierarchy --- parent sub1__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent sub1__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent sub1__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent dFU__type__offloaded__sub2__type__offloaded__sub2__class__gOffloadedComponent child sub2__type__engine__MT__1____class__adder
+Design hierarchy --- parent sub2__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent sub2__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent sub2__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent dFU__type__offloaded__sub3__type__offloaded__sub3__class__gOffloadedComponent child sub3__type__engine__MT__1____class__adder
+Design hierarchy --- parent sub3__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent sub3__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent sub3__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent dFU__type__offloaded__mul1__type__offloaded__mul1__class__gOffloadedComponent child mul1__type__engine__MT__1____class__multiplier
+Design hierarchy --- parent mul1__type__engine__MT__1____class__multiplier child 
+Design hierarchy --- parent mul1__type__engine__MT__1____class__multiplier child 
+Design hierarchy --- parent mul1__type__engine__MT__1____class__multiplier child 
+Design hierarchy --- parent dFU__type__offloaded__mul2__type__offloaded__mul2__class__gOffloadedComponent child mul2__type__engine__MT__1____class__multiplier
+Design hierarchy --- parent mul2__type__engine__MT__1____class__multiplier child 
+Design hierarchy --- parent mul2__type__engine__MT__1____class__multiplier child 
+Design hierarchy --- parent mul2__type__engine__MT__1____class__multiplier child 
+Design hierarchy --- parent dFU__type__offloaded__mul3__type__offloaded__mul3__class__gOffloadedComponent child mul3__type__engine__MT__1____class__multiplier
+Design hierarchy --- parent mul3__type__engine__MT__1____class__multiplier child 
+Design hierarchy --- parent mul3__type__engine__MT__1____class__multiplier child 
+Design hierarchy --- parent mul3__type__engine__MT__1____class__multiplier child 
+Design hierarchy --- parent dFU__type__offloaded__add1__type__offloaded__add1__class__gOffloadedComponent child add1__type__engine__MT__1____class__adder
+Design hierarchy --- parent add1__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent add1__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent add1__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent dFU__type__offloaded__add2__type__offloaded__add2__class__gOffloadedComponent child add2__type__engine__MT__1____class__adder
+Design hierarchy --- parent add2__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent add2__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent add2__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent dFU__type__offloaded__sqrt__type__offloaded__sqrt__class__gOffloadedComponent child sqrt__type__engine__MT__1____class__sqrt
+Design hierarchy --- parent sqrt__type__engine__MT__1____class__sqrt child 
+Design hierarchy --- parent sqrt__type__engine__MT__1____class__sqrt child 
+Design hierarchy --- parent sqrt__type__engine__MT__1____class__sqrt child 
+Design hierarchy --- parent kePlus__type__offloaded__centeroidMem__type__offloaded__centeroidMem__class__gOffloadedComponent child spMem__class__spMemComponent
+Design hierarchy --- parent kePlus__type__offloaded__partialAccumulatorMem__type__offloaded__partialAccumulatorMem__class__gOffloadedComponent child spMem__class__spMemComponent
+Design hierarchy --- parent kePlus__type__offloaded__add__type__offloaded__add__class__gOffloadedComponent child add__type__engine__MT__1____class__adder
+Design hierarchy --- parent add__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent add__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent add__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent xx2__type__replicated____class__gReplicatedComponent child kePlus__type__offloaded__add__type__offloaded__add__class__gOffloadedComponent
+Design hierarchy --- parent kePlus__type__offloaded__add__type__offloaded__add__class__gOffloadedComponent child kePlus__type__offloaded__partialAccumulatorMem__type__offloaded__partialAccumulatorMem__class__gOffloadedComponent
+Design hierarchy --- parent kePlus__type__offloaded__partialAccumulatorMem__type__offloaded__partialAccumulatorMem__class__gOffloadedComponent child kePlus__type__offloaded__centeroidMem__type__offloaded__centeroidMem__class__gOffloadedComponent
+Design hierarchy --- parent kePlus__type__offloaded__centeroidMem__type__offloaded__centeroidMem__class__gOffloadedComponent child kePlus__type__offloaded__distanceFU__type__offloaded__distanceFU__class__gOffloadedComponent
+Design hierarchy --- parent kePlus__type__offloaded__distanceFU__type__offloaded__distanceFU__class__gOffloadedComponent child ke__type__engine__MT__1____class__KEngine
+Design hierarchy --- parent ke__type__engine__MT__1____class__KEngine child 
+Design hierarchy --- parent ke__type__engine__MT__1____class__KEngine child 
+Design hierarchy --- parent ke__type__engine__MT__1____class__KEngine child 
+Design hierarchy --- parent kePlus__type__offloaded__distanceFU__type__offloaded__distanceFU__class__gOffloadedComponent child dFU__type__offloaded__sqrt__type__offloaded__sqrt__class__gOffloadedComponent
+Design hierarchy --- parent dFU__type__offloaded__sqrt__type__offloaded__sqrt__class__gOffloadedComponent child dFU__type__offloaded__add2__type__offloaded__add2__class__gOffloadedComponent
+Design hierarchy --- parent dFU__type__offloaded__add2__type__offloaded__add2__class__gOffloadedComponent child dFU__type__offloaded__add1__type__offloaded__add1__class__gOffloadedComponent
+Design hierarchy --- parent dFU__type__offloaded__add1__type__offloaded__add1__class__gOffloadedComponent child dFU__type__offloaded__mul3__type__offloaded__mul3__class__gOffloadedComponent
+Design hierarchy --- parent dFU__type__offloaded__mul3__type__offloaded__mul3__class__gOffloadedComponent child dFU__type__offloaded__mul2__type__offloaded__mul2__class__gOffloadedComponent
+Design hierarchy --- parent dFU__type__offloaded__mul2__type__offloaded__mul2__class__gOffloadedComponent child dFU__type__offloaded__mul1__type__offloaded__mul1__class__gOffloadedComponent
+Design hierarchy --- parent dFU__type__offloaded__mul1__type__offloaded__mul1__class__gOffloadedComponent child dFU__type__offloaded__sub3__type__offloaded__sub3__class__gOffloadedComponent
+Design hierarchy --- parent dFU__type__offloaded__sub3__type__offloaded__sub3__class__gOffloadedComponent child dFU__type__offloaded__sub2__type__offloaded__sub2__class__gOffloadedComponent
+Design hierarchy --- parent dFU__type__offloaded__sub2__type__offloaded__sub2__class__gOffloadedComponent child dFU__type__offloaded__sub1__type__offloaded__sub1__class__gOffloadedComponent
+Design hierarchy --- parent dFU__type__offloaded__sub1__type__offloaded__sub1__class__gOffloadedComponent child xx1__type__engine__MT__1____class__distanceFU
+Design hierarchy --- parent xx1__type__engine__MT__1____class__distanceFU child 
+Design hierarchy --- parent xx1__type__engine__MT__1____class__distanceFU child 
+Design hierarchy --- parent xx1__type__engine__MT__1____class__distanceFU child 
+Design hierarchy --- parent dFU__type__offloaded__sub1__type__offloaded__sub1__class__gOffloadedComponent child sub1__type__engine__MT__1____class__adder
+Design hierarchy --- parent sub1__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent sub1__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent sub1__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent dFU__type__offloaded__sub2__type__offloaded__sub2__class__gOffloadedComponent child sub2__type__engine__MT__1____class__adder
+Design hierarchy --- parent sub2__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent sub2__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent sub2__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent dFU__type__offloaded__sub3__type__offloaded__sub3__class__gOffloadedComponent child sub3__type__engine__MT__1____class__adder
+Design hierarchy --- parent sub3__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent sub3__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent sub3__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent dFU__type__offloaded__mul1__type__offloaded__mul1__class__gOffloadedComponent child mul1__type__engine__MT__1____class__multiplier
+Design hierarchy --- parent mul1__type__engine__MT__1____class__multiplier child 
+Design hierarchy --- parent mul1__type__engine__MT__1____class__multiplier child 
+Design hierarchy --- parent mul1__type__engine__MT__1____class__multiplier child 
+Design hierarchy --- parent dFU__type__offloaded__mul2__type__offloaded__mul2__class__gOffloadedComponent child mul2__type__engine__MT__1____class__multiplier
+Design hierarchy --- parent mul2__type__engine__MT__1____class__multiplier child 
+Design hierarchy --- parent mul2__type__engine__MT__1____class__multiplier child 
+Design hierarchy --- parent mul2__type__engine__MT__1____class__multiplier child 
+Design hierarchy --- parent dFU__type__offloaded__mul3__type__offloaded__mul3__class__gOffloadedComponent child mul3__type__engine__MT__1____class__multiplier
+Design hierarchy --- parent mul3__type__engine__MT__1____class__multiplier child 
+Design hierarchy --- parent mul3__type__engine__MT__1____class__multiplier child 
+Design hierarchy --- parent mul3__type__engine__MT__1____class__multiplier child 
+Design hierarchy --- parent dFU__type__offloaded__add1__type__offloaded__add1__class__gOffloadedComponent child add1__type__engine__MT__1____class__adder
+Design hierarchy --- parent add1__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent add1__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent add1__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent dFU__type__offloaded__add2__type__offloaded__add2__class__gOffloadedComponent child add2__type__engine__MT__1____class__adder
+Design hierarchy --- parent add2__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent add2__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent add2__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent dFU__type__offloaded__sqrt__type__offloaded__sqrt__class__gOffloadedComponent child sqrt__type__engine__MT__1____class__sqrt
+Design hierarchy --- parent sqrt__type__engine__MT__1____class__sqrt child 
+Design hierarchy --- parent sqrt__type__engine__MT__1____class__sqrt child 
+Design hierarchy --- parent sqrt__type__engine__MT__1____class__sqrt child 
+Design hierarchy --- parent kePlus__type__offloaded__centeroidMem__type__offloaded__centeroidMem__class__gOffloadedComponent child spMem__class__spMemComponent
+Design hierarchy --- parent kePlus__type__offloaded__partialAccumulatorMem__type__offloaded__partialAccumulatorMem__class__gOffloadedComponent child spMem__class__spMemComponent
+Design hierarchy --- parent kePlus__type__offloaded__add__type__offloaded__add__class__gOffloadedComponent child add__type__engine__MT__1____class__adder
+Design hierarchy --- parent add__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent add__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent add__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent xx2__type__replicated____class__gReplicatedComponent child RRDistributorComponent
+Design hierarchy --- parent RRDistributorComponent child gRRDistributor
+Design hierarchy --- parent xx2__type__replicated____class__gReplicatedComponent child RRAggregatorComponent_1
+Design hierarchy --- parent RRAggregatorComponent_1 child gRRArbiter
+Design hierarchy --- parent result__Chained_1__type__chained____class__gChainedComponent child kd__type__engine__MT__1____class__KDistribute
+Design hierarchy --- parent kd__type__engine__MT__1____class__KDistribute child 
+Design hierarchy --- parent kd__type__engine__MT__1____class__KDistribute child 
+Design hierarchy --- parent kd__type__engine__MT__1____class__KDistribute child 
+Design hierarchy --- parent result__Chained_1__type__chained____class__gChainedComponent child xx2__type__replicated____class__gReplicatedComponent
+Design hierarchy --- parent xx2__type__replicated____class__gReplicatedComponent child kePlus__type__offloaded__add__type__offloaded__add__class__gOffloadedComponent
+Design hierarchy --- parent kePlus__type__offloaded__add__type__offloaded__add__class__gOffloadedComponent child kePlus__type__offloaded__partialAccumulatorMem__type__offloaded__partialAccumulatorMem__class__gOffloadedComponent
+Design hierarchy --- parent kePlus__type__offloaded__partialAccumulatorMem__type__offloaded__partialAccumulatorMem__class__gOffloadedComponent child kePlus__type__offloaded__centeroidMem__type__offloaded__centeroidMem__class__gOffloadedComponent
+Design hierarchy --- parent kePlus__type__offloaded__centeroidMem__type__offloaded__centeroidMem__class__gOffloadedComponent child kePlus__type__offloaded__distanceFU__type__offloaded__distanceFU__class__gOffloadedComponent
+Design hierarchy --- parent kePlus__type__offloaded__distanceFU__type__offloaded__distanceFU__class__gOffloadedComponent child ke__type__engine__MT__1____class__KEngine
+Design hierarchy --- parent ke__type__engine__MT__1____class__KEngine child 
+Design hierarchy --- parent ke__type__engine__MT__1____class__KEngine child 
+Design hierarchy --- parent ke__type__engine__MT__1____class__KEngine child 
+Design hierarchy --- parent kePlus__type__offloaded__distanceFU__type__offloaded__distanceFU__class__gOffloadedComponent child dFU__type__offloaded__sqrt__type__offloaded__sqrt__class__gOffloadedComponent
+Design hierarchy --- parent dFU__type__offloaded__sqrt__type__offloaded__sqrt__class__gOffloadedComponent child dFU__type__offloaded__add2__type__offloaded__add2__class__gOffloadedComponent
+Design hierarchy --- parent dFU__type__offloaded__add2__type__offloaded__add2__class__gOffloadedComponent child dFU__type__offloaded__add1__type__offloaded__add1__class__gOffloadedComponent
+Design hierarchy --- parent dFU__type__offloaded__add1__type__offloaded__add1__class__gOffloadedComponent child dFU__type__offloaded__mul3__type__offloaded__mul3__class__gOffloadedComponent
+Design hierarchy --- parent dFU__type__offloaded__mul3__type__offloaded__mul3__class__gOffloadedComponent child dFU__type__offloaded__mul2__type__offloaded__mul2__class__gOffloadedComponent
+Design hierarchy --- parent dFU__type__offloaded__mul2__type__offloaded__mul2__class__gOffloadedComponent child dFU__type__offloaded__mul1__type__offloaded__mul1__class__gOffloadedComponent
+Design hierarchy --- parent dFU__type__offloaded__mul1__type__offloaded__mul1__class__gOffloadedComponent child dFU__type__offloaded__sub3__type__offloaded__sub3__class__gOffloadedComponent
+Design hierarchy --- parent dFU__type__offloaded__sub3__type__offloaded__sub3__class__gOffloadedComponent child dFU__type__offloaded__sub2__type__offloaded__sub2__class__gOffloadedComponent
+Design hierarchy --- parent dFU__type__offloaded__sub2__type__offloaded__sub2__class__gOffloadedComponent child dFU__type__offloaded__sub1__type__offloaded__sub1__class__gOffloadedComponent
+Design hierarchy --- parent dFU__type__offloaded__sub1__type__offloaded__sub1__class__gOffloadedComponent child xx1__type__engine__MT__1____class__distanceFU
+Design hierarchy --- parent xx1__type__engine__MT__1____class__distanceFU child 
+Design hierarchy --- parent xx1__type__engine__MT__1____class__distanceFU child 
+Design hierarchy --- parent xx1__type__engine__MT__1____class__distanceFU child 
+Design hierarchy --- parent dFU__type__offloaded__sub1__type__offloaded__sub1__class__gOffloadedComponent child sub1__type__engine__MT__1____class__adder
+Design hierarchy --- parent sub1__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent sub1__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent sub1__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent dFU__type__offloaded__sub2__type__offloaded__sub2__class__gOffloadedComponent child sub2__type__engine__MT__1____class__adder
+Design hierarchy --- parent sub2__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent sub2__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent sub2__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent dFU__type__offloaded__sub3__type__offloaded__sub3__class__gOffloadedComponent child sub3__type__engine__MT__1____class__adder
+Design hierarchy --- parent sub3__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent sub3__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent sub3__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent dFU__type__offloaded__mul1__type__offloaded__mul1__class__gOffloadedComponent child mul1__type__engine__MT__1____class__multiplier
+Design hierarchy --- parent mul1__type__engine__MT__1____class__multiplier child 
+Design hierarchy --- parent mul1__type__engine__MT__1____class__multiplier child 
+Design hierarchy --- parent mul1__type__engine__MT__1____class__multiplier child 
+Design hierarchy --- parent dFU__type__offloaded__mul2__type__offloaded__mul2__class__gOffloadedComponent child mul2__type__engine__MT__1____class__multiplier
+Design hierarchy --- parent mul2__type__engine__MT__1____class__multiplier child 
+Design hierarchy --- parent mul2__type__engine__MT__1____class__multiplier child 
+Design hierarchy --- parent mul2__type__engine__MT__1____class__multiplier child 
+Design hierarchy --- parent dFU__type__offloaded__mul3__type__offloaded__mul3__class__gOffloadedComponent child mul3__type__engine__MT__1____class__multiplier
+Design hierarchy --- parent mul3__type__engine__MT__1____class__multiplier child 
+Design hierarchy --- parent mul3__type__engine__MT__1____class__multiplier child 
+Design hierarchy --- parent mul3__type__engine__MT__1____class__multiplier child 
+Design hierarchy --- parent dFU__type__offloaded__add1__type__offloaded__add1__class__gOffloadedComponent child add1__type__engine__MT__1____class__adder
+Design hierarchy --- parent add1__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent add1__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent add1__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent dFU__type__offloaded__add2__type__offloaded__add2__class__gOffloadedComponent child add2__type__engine__MT__1____class__adder
+Design hierarchy --- parent add2__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent add2__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent add2__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent dFU__type__offloaded__sqrt__type__offloaded__sqrt__class__gOffloadedComponent child sqrt__type__engine__MT__1____class__sqrt
+Design hierarchy --- parent sqrt__type__engine__MT__1____class__sqrt child 
+Design hierarchy --- parent sqrt__type__engine__MT__1____class__sqrt child 
+Design hierarchy --- parent sqrt__type__engine__MT__1____class__sqrt child 
+Design hierarchy --- parent kePlus__type__offloaded__centeroidMem__type__offloaded__centeroidMem__class__gOffloadedComponent child spMem__class__spMemComponent
+Design hierarchy --- parent kePlus__type__offloaded__partialAccumulatorMem__type__offloaded__partialAccumulatorMem__class__gOffloadedComponent child spMem__class__spMemComponent
+Design hierarchy --- parent kePlus__type__offloaded__add__type__offloaded__add__class__gOffloadedComponent child add__type__engine__MT__1____class__adder
+Design hierarchy --- parent add__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent add__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent add__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent xx2__type__replicated____class__gReplicatedComponent child RRDistributorComponent
+Design hierarchy --- parent RRDistributorComponent child gRRDistributor
+Design hierarchy --- parent xx2__type__replicated____class__gReplicatedComponent child RRAggregatorComponent_1
+Design hierarchy --- parent RRAggregatorComponent_1 child gRRArbiter
+PCREPORT: module krPlus__type__offloaded__add__type__offloaded__add__class__gOffloadedComponent registered for pc moduleId is 32
+PCREPORT: PC is registered name: in type 1 moduleId 32 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 32 portId 2
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 32 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 32 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 32 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 32 portId 0
+PCREPORT: module krPlus__type__offloaded__partialAccumulatorMem__type__offloaded__partialAccumulatorMem__class__gOffloadedComponent registered for pc moduleId is 33
+PCREPORT: PC is registered name: in type 1 moduleId 33 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 33 portId 2
+PCREPORT: PC is registered name: add type 1 moduleId 33 portId 3
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 33 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 33 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 33 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 33 portId 0
+PCREPORT: module kr__type__engine__MT__1____class__KReduce registered for pc moduleId is 34
+PCREPORT: PC is registered name: in type 1 moduleId 34 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 34 portId 2
+PCREPORT: PC is registered name: partialAccumulatorMem type 1 moduleId 34 portId 3
+PCREPORT: PC is registered name: add type 1 moduleId 34 portId 4
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 34 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 34 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 34 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 34 portId 0
+PCREPORT: module spMem__class__spMemComponent registered for pc moduleId is 35
+PCREPORT: PC is registered name: in type 1 moduleId 35 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 35 portId 2
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 35 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 35 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 35 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 35 portId 0
+Design hierarchy --- parent krPlus__type__offloaded__partialAccumulatorMem__type__offloaded__partialAccumulatorMem__class__gOffloadedComponent child kr__type__engine__MT__1____class__KReduce
+Design hierarchy --- parent kr__type__engine__MT__1____class__KReduce child 
+Design hierarchy --- parent kr__type__engine__MT__1____class__KReduce child 
+Design hierarchy --- parent kr__type__engine__MT__1____class__KReduce child 
+Design hierarchy --- parent krPlus__type__offloaded__partialAccumulatorMem__type__offloaded__partialAccumulatorMem__class__gOffloadedComponent child spMem__class__spMemComponent
+PCREPORT: module add__type__engine__MT__1____class__adder registered for pc moduleId is 36
+PCREPORT: PC is registered name: in type 1 moduleId 36 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 36 portId 2
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 36 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 36 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 36 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 36 portId 0
+Design hierarchy --- parent krPlus__type__offloaded__add__type__offloaded__add__class__gOffloadedComponent child krPlus__type__offloaded__partialAccumulatorMem__type__offloaded__partialAccumulatorMem__class__gOffloadedComponent
+Design hierarchy --- parent krPlus__type__offloaded__partialAccumulatorMem__type__offloaded__partialAccumulatorMem__class__gOffloadedComponent child kr__type__engine__MT__1____class__KReduce
+Design hierarchy --- parent kr__type__engine__MT__1____class__KReduce child 
+Design hierarchy --- parent kr__type__engine__MT__1____class__KReduce child 
+Design hierarchy --- parent kr__type__engine__MT__1____class__KReduce child 
+Design hierarchy --- parent krPlus__type__offloaded__partialAccumulatorMem__type__offloaded__partialAccumulatorMem__class__gOffloadedComponent child spMem__class__spMemComponent
+Design hierarchy --- parent krPlus__type__offloaded__add__type__offloaded__add__class__gOffloadedComponent child add__type__engine__MT__1____class__adder
+Design hierarchy --- parent add__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent add__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent add__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent result__Chained__2__type__chained____class__gChainedComponent child result__Chained_1__type__chained____class__gChainedComponent
+Design hierarchy --- parent result__Chained_1__type__chained____class__gChainedComponent child kd__type__engine__MT__1____class__KDistribute
+Design hierarchy --- parent kd__type__engine__MT__1____class__KDistribute child 
+Design hierarchy --- parent kd__type__engine__MT__1____class__KDistribute child 
+Design hierarchy --- parent kd__type__engine__MT__1____class__KDistribute child 
+Design hierarchy --- parent result__Chained_1__type__chained____class__gChainedComponent child xx2__type__replicated____class__gReplicatedComponent
+Design hierarchy --- parent xx2__type__replicated____class__gReplicatedComponent child kePlus__type__offloaded__add__type__offloaded__add__class__gOffloadedComponent
+Design hierarchy --- parent kePlus__type__offloaded__add__type__offloaded__add__class__gOffloadedComponent child kePlus__type__offloaded__partialAccumulatorMem__type__offloaded__partialAccumulatorMem__class__gOffloadedComponent
+Design hierarchy --- parent kePlus__type__offloaded__partialAccumulatorMem__type__offloaded__partialAccumulatorMem__class__gOffloadedComponent child kePlus__type__offloaded__centeroidMem__type__offloaded__centeroidMem__class__gOffloadedComponent
+Design hierarchy --- parent kePlus__type__offloaded__centeroidMem__type__offloaded__centeroidMem__class__gOffloadedComponent child kePlus__type__offloaded__distanceFU__type__offloaded__distanceFU__class__gOffloadedComponent
+Design hierarchy --- parent kePlus__type__offloaded__distanceFU__type__offloaded__distanceFU__class__gOffloadedComponent child ke__type__engine__MT__1____class__KEngine
+Design hierarchy --- parent ke__type__engine__MT__1____class__KEngine child 
+Design hierarchy --- parent ke__type__engine__MT__1____class__KEngine child 
+Design hierarchy --- parent ke__type__engine__MT__1____class__KEngine child 
+Design hierarchy --- parent kePlus__type__offloaded__distanceFU__type__offloaded__distanceFU__class__gOffloadedComponent child dFU__type__offloaded__sqrt__type__offloaded__sqrt__class__gOffloadedComponent
+Design hierarchy --- parent dFU__type__offloaded__sqrt__type__offloaded__sqrt__class__gOffloadedComponent child dFU__type__offloaded__add2__type__offloaded__add2__class__gOffloadedComponent
+Design hierarchy --- parent dFU__type__offloaded__add2__type__offloaded__add2__class__gOffloadedComponent child dFU__type__offloaded__add1__type__offloaded__add1__class__gOffloadedComponent
+Design hierarchy --- parent dFU__type__offloaded__add1__type__offloaded__add1__class__gOffloadedComponent child dFU__type__offloaded__mul3__type__offloaded__mul3__class__gOffloadedComponent
+Design hierarchy --- parent dFU__type__offloaded__mul3__type__offloaded__mul3__class__gOffloadedComponent child dFU__type__offloaded__mul2__type__offloaded__mul2__class__gOffloadedComponent
+Design hierarchy --- parent dFU__type__offloaded__mul2__type__offloaded__mul2__class__gOffloadedComponent child dFU__type__offloaded__mul1__type__offloaded__mul1__class__gOffloadedComponent
+Design hierarchy --- parent dFU__type__offloaded__mul1__type__offloaded__mul1__class__gOffloadedComponent child dFU__type__offloaded__sub3__type__offloaded__sub3__class__gOffloadedComponent
+Design hierarchy --- parent dFU__type__offloaded__sub3__type__offloaded__sub3__class__gOffloadedComponent child dFU__type__offloaded__sub2__type__offloaded__sub2__class__gOffloadedComponent
+Design hierarchy --- parent dFU__type__offloaded__sub2__type__offloaded__sub2__class__gOffloadedComponent child dFU__type__offloaded__sub1__type__offloaded__sub1__class__gOffloadedComponent
+Design hierarchy --- parent dFU__type__offloaded__sub1__type__offloaded__sub1__class__gOffloadedComponent child xx1__type__engine__MT__1____class__distanceFU
+Design hierarchy --- parent xx1__type__engine__MT__1____class__distanceFU child 
+Design hierarchy --- parent xx1__type__engine__MT__1____class__distanceFU child 
+Design hierarchy --- parent xx1__type__engine__MT__1____class__distanceFU child 
+Design hierarchy --- parent dFU__type__offloaded__sub1__type__offloaded__sub1__class__gOffloadedComponent child sub1__type__engine__MT__1____class__adder
+Design hierarchy --- parent sub1__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent sub1__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent sub1__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent dFU__type__offloaded__sub2__type__offloaded__sub2__class__gOffloadedComponent child sub2__type__engine__MT__1____class__adder
+Design hierarchy --- parent sub2__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent sub2__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent sub2__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent dFU__type__offloaded__sub3__type__offloaded__sub3__class__gOffloadedComponent child sub3__type__engine__MT__1____class__adder
+Design hierarchy --- parent sub3__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent sub3__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent sub3__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent dFU__type__offloaded__mul1__type__offloaded__mul1__class__gOffloadedComponent child mul1__type__engine__MT__1____class__multiplier
+Design hierarchy --- parent mul1__type__engine__MT__1____class__multiplier child 
+Design hierarchy --- parent mul1__type__engine__MT__1____class__multiplier child 
+Design hierarchy --- parent mul1__type__engine__MT__1____class__multiplier child 
+Design hierarchy --- parent dFU__type__offloaded__mul2__type__offloaded__mul2__class__gOffloadedComponent child mul2__type__engine__MT__1____class__multiplier
+Design hierarchy --- parent mul2__type__engine__MT__1____class__multiplier child 
+Design hierarchy --- parent mul2__type__engine__MT__1____class__multiplier child 
+Design hierarchy --- parent mul2__type__engine__MT__1____class__multiplier child 
+Design hierarchy --- parent dFU__type__offloaded__mul3__type__offloaded__mul3__class__gOffloadedComponent child mul3__type__engine__MT__1____class__multiplier
+Design hierarchy --- parent mul3__type__engine__MT__1____class__multiplier child 
+Design hierarchy --- parent mul3__type__engine__MT__1____class__multiplier child 
+Design hierarchy --- parent mul3__type__engine__MT__1____class__multiplier child 
+Design hierarchy --- parent dFU__type__offloaded__add1__type__offloaded__add1__class__gOffloadedComponent child add1__type__engine__MT__1____class__adder
+Design hierarchy --- parent add1__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent add1__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent add1__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent dFU__type__offloaded__add2__type__offloaded__add2__class__gOffloadedComponent child add2__type__engine__MT__1____class__adder
+Design hierarchy --- parent add2__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent add2__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent add2__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent dFU__type__offloaded__sqrt__type__offloaded__sqrt__class__gOffloadedComponent child sqrt__type__engine__MT__1____class__sqrt
+Design hierarchy --- parent sqrt__type__engine__MT__1____class__sqrt child 
+Design hierarchy --- parent sqrt__type__engine__MT__1____class__sqrt child 
+Design hierarchy --- parent sqrt__type__engine__MT__1____class__sqrt child 
+Design hierarchy --- parent kePlus__type__offloaded__centeroidMem__type__offloaded__centeroidMem__class__gOffloadedComponent child spMem__class__spMemComponent
+Design hierarchy --- parent kePlus__type__offloaded__partialAccumulatorMem__type__offloaded__partialAccumulatorMem__class__gOffloadedComponent child spMem__class__spMemComponent
+Design hierarchy --- parent kePlus__type__offloaded__add__type__offloaded__add__class__gOffloadedComponent child add__type__engine__MT__1____class__adder
+Design hierarchy --- parent add__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent add__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent add__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent xx2__type__replicated____class__gReplicatedComponent child RRDistributorComponent
+Design hierarchy --- parent RRDistributorComponent child gRRDistributor
+Design hierarchy --- parent xx2__type__replicated____class__gReplicatedComponent child RRAggregatorComponent_1
+Design hierarchy --- parent RRAggregatorComponent_1 child gRRArbiter
+Design hierarchy --- parent result__Chained__2__type__chained____class__gChainedComponent child krPlus__type__offloaded__add__type__offloaded__add__class__gOffloadedComponent
+Design hierarchy --- parent krPlus__type__offloaded__add__type__offloaded__add__class__gOffloadedComponent child krPlus__type__offloaded__partialAccumulatorMem__type__offloaded__partialAccumulatorMem__class__gOffloadedComponent
+Design hierarchy --- parent krPlus__type__offloaded__partialAccumulatorMem__type__offloaded__partialAccumulatorMem__class__gOffloadedComponent child kr__type__engine__MT__1____class__KReduce
+Design hierarchy --- parent kr__type__engine__MT__1____class__KReduce child 
+Design hierarchy --- parent kr__type__engine__MT__1____class__KReduce child 
+Design hierarchy --- parent kr__type__engine__MT__1____class__KReduce child 
+Design hierarchy --- parent krPlus__type__offloaded__partialAccumulatorMem__type__offloaded__partialAccumulatorMem__class__gOffloadedComponent child spMem__class__spMemComponent
+Design hierarchy --- parent krPlus__type__offloaded__add__type__offloaded__add__class__gOffloadedComponent child add__type__engine__MT__1____class__adder
+Design hierarchy --- parent add__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent add__type__engine__MT__1____class__adder child 
+Design hierarchy --- parent add__type__engine__MT__1____class__adder child 
+PCREPORT: Performance counter reset received
+PCREPORT: throughput 0.0022
+PCREPORT: cycles 4544
+PCREPORT: Performance counter pause ack received
+PCREPORT: input back pressure add1__type__engine__MT__1____class__adder received 0.0000
+PCREPORT: output back pressure add1__type__engine__MT__1____class__adder received 0.0000
+PCREPORT: input back pressure add2__type__engine__MT__1____class__adder received 0.0000
+PCREPORT: output back pressure add2__type__engine__MT__1____class__adder received 0.0000
+PCREPORT: input back pressure add__type__engine__MT__1____class__adder received 0.0000
+PCREPORT: output back pressure add__type__engine__MT__1____class__adder received 0.0000
+PCREPORT: input back pressure sub3__type__engine__MT__1____class__adder received 0.0000
+PCREPORT: output back pressure sub3__type__engine__MT__1____class__adder received 0.0000
+PCREPORT: input back pressure dFU__type__offloaded__sub2__type__offloaded__sub2__class__gOffloadedComponent received 0.0000
+PCREPORT: output back pressure dFU__type__offloaded__sub2__type__offloaded__sub2__class__gOffloadedComponent received 0.0000
+PCREPORT: offload back pressure 3 dFU__type__offloaded__sub2__type__offloaded__sub2__class__gOffloadedComponent received 0.0000
+PCREPORT: offload back pressure 4 dFU__type__offloaded__sub2__type__offloaded__sub2__class__gOffloadedComponent received 0.0000
+PCREPORT: offload back pressure 5 dFU__type__offloaded__sub2__type__offloaded__sub2__class__gOffloadedComponent received 0.0000
+PCREPORT: offload back pressure 6 dFU__type__offloaded__sub2__type__offloaded__sub2__class__gOffloadedComponent received 0.0000
+PCREPORT: offload back pressure 7 dFU__type__offloaded__sub2__type__offloaded__sub2__class__gOffloadedComponent received 0.0000
+PCREPORT: offload back pressure 8 dFU__type__offloaded__sub2__type__offloaded__sub2__class__gOffloadedComponent received 0.0000
+PCREPORT: offload back pressure 9 dFU__type__offloaded__sub2__type__offloaded__sub2__class__gOffloadedComponent received 0.0000
+PCREPORT: input back pressure kd__type__engine__MT__1____class__KDistribute received 0.0040
+PCREPORT: output back pressure kd__type__engine__MT__1____class__KDistribute received 0.6481
+PCREPORT: input back pressure dFU__type__offloaded__add1__type__offloaded__add1__class__gOffloadedComponent received 0.0000
+PCREPORT: output back pressure dFU__type__offloaded__add1__type__offloaded__add1__class__gOffloadedComponent received 0.0000
+PCREPORT: offload back pressure 3 dFU__type__offloaded__add1__type__offloaded__add1__class__gOffloadedComponent received 0.0000
+PCREPORT: offload back pressure 4 dFU__type__offloaded__add1__type__offloaded__add1__class__gOffloadedComponent received 0.0000
+PCREPORT: input back pressure mul3__type__engine__MT__1____class__multiplier received 0.0000
+PCREPORT: output back pressure mul3__type__engine__MT__1____class__multiplier received 0.0000
+PCREPORT: input back pressure dFU__type__offloaded__add2__type__offloaded__add2__class__gOffloadedComponent received 0.0000
+PCREPORT: output back pressure dFU__type__offloaded__add2__type__offloaded__add2__class__gOffloadedComponent received 0.0000
+PCREPORT: offload back pressure 3 dFU__type__offloaded__add2__type__offloaded__add2__class__gOffloadedComponent received 0.0000
+PCREPORT: input back pressure kePlus__type__offloaded__partialAccumulatorMem__type__offloaded__partialAccumulatorMem__class__gOffloadedComponent received 0.0000
+PCREPORT: output back pressure kePlus__type__offloaded__partialAccumulatorMem__type__offloaded__partialAccumulatorMem__class__gOffloadedComponent received 0.0000
+PCREPORT: offload back pressure 3 kePlus__type__offloaded__partialAccumulatorMem__type__offloaded__partialAccumulatorMem__class__gOffloadedComponent received 0.0000
+PCREPORT: input back pressure xx2__type__replicated____class__gReplicatedComponent received 0.0000
+PCREPORT: output back pressure xx2__type__replicated____class__gReplicatedComponent received 0.0000
+PCREPORT: input back pressure sqrt__type__engine__MT__1____class__sqrt received 0.0000
+PCREPORT: output back pressure sqrt__type__engine__MT__1____class__sqrt received 0.0000
+PCREPORT: input back pressure dFU__type__offloaded__sub3__type__offloaded__sub3__class__gOffloadedComponent received 0.0000
+PCREPORT: output back pressure dFU__type__offloaded__sub3__type__offloaded__sub3__class__gOffloadedComponent received 0.0000
+PCREPORT: offload back pressure 3 dFU__type__offloaded__sub3__type__offloaded__sub3__class__gOffloadedComponent received 0.0000
+PCREPORT: offload back pressure 4 dFU__type__offloaded__sub3__type__offloaded__sub3__class__gOffloadedComponent received 0.0000
+PCREPORT: offload back pressure 5 dFU__type__offloaded__sub3__type__offloaded__sub3__class__gOffloadedComponent received 0.0000
+PCREPORT: offload back pressure 6 dFU__type__offloaded__sub3__type__offloaded__sub3__class__gOffloadedComponent received 0.0000
+PCREPORT: offload back pressure 7 dFU__type__offloaded__sub3__type__offloaded__sub3__class__gOffloadedComponent received 0.0000
+PCREPORT: offload back pressure 8 dFU__type__offloaded__sub3__type__offloaded__sub3__class__gOffloadedComponent received 0.0000
+PCREPORT: input back pressure sub1__type__engine__MT__1____class__adder received 0.0000
+PCREPORT: output back pressure sub1__type__engine__MT__1____class__adder received 0.0000
+PCREPORT: input back pressure sub2__type__engine__MT__1____class__adder received 0.0000
+PCREPORT: output back pressure sub2__type__engine__MT__1____class__adder received 0.0000
+PCREPORT: input back pressure dFU__type__offloaded__sqrt__type__offloaded__sqrt__class__gOffloadedComponent received 0.0000
+PCREPORT: output back pressure dFU__type__offloaded__sqrt__type__offloaded__sqrt__class__gOffloadedComponent received 0.0000
+PCREPORT: input back pressure result__Chained__2__type__chained____class__gChainedComponent received 0.0000
+PCREPORT: output back pressure result__Chained__2__type__chained____class__gChainedComponent received 0.0000
+PCREPORT: input back pressure kr__type__engine__MT__1____class__KReduce received 0.0132
+PCREPORT: output back pressure kr__type__engine__MT__1____class__KReduce received 0.0042
+PCREPORT: offload back pressure 3 kr__type__engine__MT__1____class__KReduce received 0.0000
+PCREPORT: offload back pressure 4 kr__type__engine__MT__1____class__KReduce received 0.0000
+PCREPORT: input back pressure spMem__class__spMemComponent received 0.0000
+PCREPORT: output back pressure spMem__class__spMemComponent received 0.0000
+PCREPORT: input back pressure krPlus__type__offloaded__partialAccumulatorMem__type__offloaded__partialAccumulatorMem__class__gOffloadedComponent received 0.0000
+PCREPORT: output back pressure krPlus__type__offloaded__partialAccumulatorMem__type__offloaded__partialAccumulatorMem__class__gOffloadedComponent received 0.0000
+PCREPORT: offload back pressure 3 krPlus__type__offloaded__partialAccumulatorMem__type__offloaded__partialAccumulatorMem__class__gOffloadedComponent received 0.0000
+PCREPORT: input back pressure dFU__type__offloaded__mul3__type__offloaded__mul3__class__gOffloadedComponent received 0.0000
+PCREPORT: output back pressure dFU__type__offloaded__mul3__type__offloaded__mul3__class__gOffloadedComponent received 0.0000
+PCREPORT: offload back pressure 3 dFU__type__offloaded__mul3__type__offloaded__mul3__class__gOffloadedComponent received 0.0000
+PCREPORT: offload back pressure 4 dFU__type__offloaded__mul3__type__offloaded__mul3__class__gOffloadedComponent received 0.0000
+PCREPORT: offload back pressure 5 dFU__type__offloaded__mul3__type__offloaded__mul3__class__gOffloadedComponent received 0.0000
+PCREPORT: input back pressure dFU__type__offloaded__sub1__type__offloaded__sub1__class__gOffloadedComponent received 0.0000
+PCREPORT: output back pressure dFU__type__offloaded__sub1__type__offloaded__sub1__class__gOffloadedComponent received 0.0000
+PCREPORT: offload back pressure 3 dFU__type__offloaded__sub1__type__offloaded__sub1__class__gOffloadedComponent received 0.0000
+PCREPORT: offload back pressure 4 dFU__type__offloaded__sub1__type__offloaded__sub1__class__gOffloadedComponent received 0.0000
+PCREPORT: offload back pressure 5 dFU__type__offloaded__sub1__type__offloaded__sub1__class__gOffloadedComponent received 0.0000
+PCREPORT: offload back pressure 6 dFU__type__offloaded__sub1__type__offloaded__sub1__class__gOffloadedComponent received 0.0000
+PCREPORT: offload back pressure 7 dFU__type__offloaded__sub1__type__offloaded__sub1__class__gOffloadedComponent received 0.0000
+PCREPORT: offload back pressure 8 dFU__type__offloaded__sub1__type__offloaded__sub1__class__gOffloadedComponent received 0.0000
+PCREPORT: offload back pressure 9 dFU__type__offloaded__sub1__type__offloaded__sub1__class__gOffloadedComponent received 0.0000
+PCREPORT: offload back pressure 10 dFU__type__offloaded__sub1__type__offloaded__sub1__class__gOffloadedComponent received 0.0000
+PCREPORT: input back pressure kePlus__type__offloaded__centeroidMem__type__offloaded__centeroidMem__class__gOffloadedComponent received 0.0000
+PCREPORT: output back pressure kePlus__type__offloaded__centeroidMem__type__offloaded__centeroidMem__class__gOffloadedComponent received 0.0000
+PCREPORT: offload back pressure 3 kePlus__type__offloaded__centeroidMem__type__offloaded__centeroidMem__class__gOffloadedComponent received 0.0000
+PCREPORT: offload back pressure 4 kePlus__type__offloaded__centeroidMem__type__offloaded__centeroidMem__class__gOffloadedComponent received 0.0000
+PCREPORT: input back pressure dFU__type__offloaded__mul1__type__offloaded__mul1__class__gOffloadedComponent received 0.0000
+PCREPORT: output back pressure dFU__type__offloaded__mul1__type__offloaded__mul1__class__gOffloadedComponent received 0.0000
+PCREPORT: offload back pressure 3 dFU__type__offloaded__mul1__type__offloaded__mul1__class__gOffloadedComponent received 0.0000
+PCREPORT: offload back pressure 4 dFU__type__offloaded__mul1__type__offloaded__mul1__class__gOffloadedComponent received 0.0000
+PCREPORT: offload back pressure 5 dFU__type__offloaded__mul1__type__offloaded__mul1__class__gOffloadedComponent received 0.0000
+PCREPORT: offload back pressure 6 dFU__type__offloaded__mul1__type__offloaded__mul1__class__gOffloadedComponent received 0.0000
+PCREPORT: offload back pressure 7 dFU__type__offloaded__mul1__type__offloaded__mul1__class__gOffloadedComponent received 0.0000
+PCREPORT: input back pressure mul2__type__engine__MT__1____class__multiplier received 0.0000
+PCREPORT: output back pressure mul2__type__engine__MT__1____class__multiplier received 0.0000
+PCREPORT: input back pressure kePlus__type__offloaded__distanceFU__type__offloaded__distanceFU__class__gOffloadedComponent received 0.0000
+PCREPORT: output back pressure kePlus__type__offloaded__distanceFU__type__offloaded__distanceFU__class__gOffloadedComponent received 0.0000
+PCREPORT: offload back pressure 3 kePlus__type__offloaded__distanceFU__type__offloaded__distanceFU__class__gOffloadedComponent received 0.0000
+PCREPORT: offload back pressure 4 kePlus__type__offloaded__distanceFU__type__offloaded__distanceFU__class__gOffloadedComponent received 0.0000
+PCREPORT: offload back pressure 5 kePlus__type__offloaded__distanceFU__type__offloaded__distanceFU__class__gOffloadedComponent received 0.0000
+PCREPORT: input back pressure ke__type__engine__MT__1____class__KEngine received 0.6481
+PCREPORT: output back pressure ke__type__engine__MT__1____class__KEngine received 0.0132
+PCREPORT: offload back pressure 3 ke__type__engine__MT__1____class__KEngine received 0.0000
+PCREPORT: offload back pressure 4 ke__type__engine__MT__1____class__KEngine received 0.0000
+PCREPORT: offload back pressure 5 ke__type__engine__MT__1____class__KEngine received 0.0000
+PCREPORT: offload back pressure 6 ke__type__engine__MT__1____class__KEngine received 0.0000
+PCREPORT: input back pressure mul1__type__engine__MT__1____class__multiplier received 0.0000
+PCREPORT: output back pressure mul1__type__engine__MT__1____class__multiplier received 0.0000
+PCREPORT: input back pressure xx1__type__engine__MT__1____class__distanceFU received 0.0000
+PCREPORT: output back pressure xx1__type__engine__MT__1____class__distanceFU received 0.0000
+PCREPORT: offload back pressure 3 xx1__type__engine__MT__1____class__distanceFU received 0.0000
+PCREPORT: offload back pressure 4 xx1__type__engine__MT__1____class__distanceFU received 0.0000
+PCREPORT: offload back pressure 5 xx1__type__engine__MT__1____class__distanceFU received 0.0000
+PCREPORT: offload back pressure 6 xx1__type__engine__MT__1____class__distanceFU received 0.0000
+PCREPORT: offload back pressure 7 xx1__type__engine__MT__1____class__distanceFU received 0.0000
+PCREPORT: offload back pressure 8 xx1__type__engine__MT__1____class__distanceFU received 0.0000
+PCREPORT: offload back pressure 9 xx1__type__engine__MT__1____class__distanceFU received 0.0000
+PCREPORT: offload back pressure 10 xx1__type__engine__MT__1____class__distanceFU received 0.0000
+PCREPORT: offload back pressure 11 xx1__type__engine__MT__1____class__distanceFU received 0.0000
+PCREPORT: input back pressure result__Chained_1__type__chained____class__gChainedComponent received 0.0000
+PCREPORT: output back pressure result__Chained_1__type__chained____class__gChainedComponent received 0.0000
+PCREPORT: input back pressure krPlus__type__offloaded__add__type__offloaded__add__class__gOffloadedComponent received 0.0000
+PCREPORT: output back pressure krPlus__type__offloaded__add__type__offloaded__add__class__gOffloadedComponent received 0.0000
+PCREPORT: input back pressure kePlus__type__offloaded__add__type__offloaded__add__class__gOffloadedComponent received 0.0000
+PCREPORT: output back pressure kePlus__type__offloaded__add__type__offloaded__add__class__gOffloadedComponent received 0.0000
+PCREPORT: input back pressure dFU__type__offloaded__mul2__type__offloaded__mul2__class__gOffloadedComponent received 0.0000
+PCREPORT: output back pressure dFU__type__offloaded__mul2__type__offloaded__mul2__class__gOffloadedComponent received 0.0000
+PCREPORT: offload back pressure 3 dFU__type__offloaded__mul2__type__offloaded__mul2__class__gOffloadedComponent received 0.0000
+PCREPORT: offload back pressure 4 dFU__type__offloaded__mul2__type__offloaded__mul2__class__gOffloadedComponent received 0.0000
+PCREPORT: offload back pressure 5 dFU__type__offloaded__mul2__type__offloaded__mul2__class__gOffloadedComponent received 0.0000
+PCREPORT: offload back pressure 6 dFU__type__offloaded__mul2__type__offloaded__mul2__class__gOffloadedComponent received 0.0000
+PCREPORT: offload rate add1__type__engine__MT__1____class__adder received 0.0044
+PCREPORT: offload rate add2__type__engine__MT__1____class__adder received 0.0044
+PCREPORT: offload rate add__type__engine__MT__1____class__adder received 0.0044
+PCREPORT: offload rate sub3__type__engine__MT__1____class__adder received 0.0044
+PCREPORT: offload rate dFU__type__offloaded__sub2__type__offloaded__sub2__class__gOffloadedComponent received 0.0000
+PCREPORT: offload rate kd__type__engine__MT__1____class__KDistribute received 0.0044
+PCREPORT: offload rate dFU__type__offloaded__add1__type__offloaded__add1__class__gOffloadedComponent received 0.0000
+PCREPORT: offload rate mul3__type__engine__MT__1____class__multiplier received 0.0044
+PCREPORT: offload rate dFU__type__offloaded__add2__type__offloaded__add2__class__gOffloadedComponent received 0.0000
+PCREPORT: offload rate kePlus__type__offloaded__partialAccumulatorMem__type__offloaded__partialAccumulatorMem__class__gOffloadedComponent received 0.0000
+PCREPORT: offload rate xx2__type__replicated____class__gReplicatedComponent received 0.0000
+PCREPORT: offload rate sqrt__type__engine__MT__1____class__sqrt received 0.0044
+PCREPORT: offload rate dFU__type__offloaded__sub3__type__offloaded__sub3__class__gOffloadedComponent received 0.0000
+PCREPORT: offload rate sub1__type__engine__MT__1____class__adder received 0.0044
+PCREPORT: offload rate sub2__type__engine__MT__1____class__adder received 0.0044
+PCREPORT: offload rate dFU__type__offloaded__sqrt__type__offloaded__sqrt__class__gOffloadedComponent received 0.0000
+PCREPORT: offload rate result__Chained__2__type__chained____class__gChainedComponent received 0.0000
+PCREPORT: offload rate kr__type__engine__MT__1____class__KReduce received 0.0031
+PCREPORT: offload rate spMem__class__spMemComponent received 0.0044
+PCREPORT: offload rate krPlus__type__offloaded__partialAccumulatorMem__type__offloaded__partialAccumulatorMem__class__gOffloadedComponent received 0.0000
+PCREPORT: offload rate dFU__type__offloaded__mul3__type__offloaded__mul3__class__gOffloadedComponent received 0.0000
+PCREPORT: offload rate dFU__type__offloaded__sub1__type__offloaded__sub1__class__gOffloadedComponent received 0.0000
+PCREPORT: offload rate kePlus__type__offloaded__centeroidMem__type__offloaded__centeroidMem__class__gOffloadedComponent received 0.0000
+PCREPORT: offload rate dFU__type__offloaded__mul1__type__offloaded__mul1__class__gOffloadedComponent received 0.0000
+PCREPORT: offload rate mul2__type__engine__MT__1____class__multiplier received 0.0044
+PCREPORT: offload rate kePlus__type__offloaded__distanceFU__type__offloaded__distanceFU__class__gOffloadedComponent received 0.0000
+PCREPORT: offload rate ke__type__engine__MT__1____class__KEngine received 0.0189
+PCREPORT: offload rate mul1__type__engine__MT__1____class__multiplier received 0.0044
+PCREPORT: offload rate xx1__type__engine__MT__1____class__distanceFU received 0.0088
+PCREPORT: offload rate result__Chained_1__type__chained____class__gChainedComponent received 0.0000
+PCREPORT: offload rate krPlus__type__offloaded__add__type__offloaded__add__class__gOffloadedComponent received 0.0000
+PCREPORT: offload rate kePlus__type__offloaded__add__type__offloaded__add__class__gOffloadedComponent received 0.0000
+PCREPORT: offload rate dFU__type__offloaded__mul2__type__offloaded__mul2__class__gOffloadedComponent received 0.0000
+PCREPORT: engine utilization add1__type__engine__MT__1____class__adder received 0.0792
+PCREPORT: engine utilization add2__type__engine__MT__1____class__adder received 0.0792
+PCREPORT: engine utilization add__type__engine__MT__1____class__adder received 0.0178
+PCREPORT: engine utilization sub3__type__engine__MT__1____class__adder received 0.0792
+PCREPORT: engine utilization dFU__type__offloaded__sub2__type__offloaded__sub2__class__gOffloadedComponent received 0.0000
+PCREPORT: engine utilization kd__type__engine__MT__1____class__KDistribute received 0.6580
+PCREPORT: engine utilization dFU__type__offloaded__add1__type__offloaded__add1__class__gOffloadedComponent received 0.0000
+PCREPORT: engine utilization mul3__type__engine__MT__1____class__multiplier received 0.2201
+PCREPORT: engine utilization dFU__type__offloaded__add2__type__offloaded__add2__class__gOffloadedComponent received 0.0000
+PCREPORT: engine utilization kePlus__type__offloaded__partialAccumulatorMem__type__offloaded__partialAccumulatorMem__class__gOffloadedComponent received 0.0000
+PCREPORT: engine utilization xx2__type__replicated____class__gReplicatedComponent received 0.0000
+PCREPORT: engine utilization sqrt__type__engine__MT__1____class__sqrt received 0.2201
+PCREPORT: engine utilization dFU__type__offloaded__sub3__type__offloaded__sub3__class__gOffloadedComponent received 0.0000
+PCREPORT: engine utilization sub1__type__engine__MT__1____class__adder received 0.0792
+PCREPORT: engine utilization sub2__type__engine__MT__1____class__adder received 0.0792
+PCREPORT: engine utilization dFU__type__offloaded__sqrt__type__offloaded__sqrt__class__gOffloadedComponent received 0.0000
+PCREPORT: engine utilization result__Chained__2__type__chained____class__gChainedComponent received 0.0000
+PCREPORT: engine utilization kr__type__engine__MT__1____class__KReduce received 0.8154
+PCREPORT: engine utilization spMem__class__spMemComponent received 0.0000
+PCREPORT: engine utilization krPlus__type__offloaded__partialAccumulatorMem__type__offloaded__partialAccumulatorMem__class__gOffloadedComponent received 0.0000
+PCREPORT: engine utilization dFU__type__offloaded__mul3__type__offloaded__mul3__class__gOffloadedComponent received 0.0000
+PCREPORT: engine utilization dFU__type__offloaded__sub1__type__offloaded__sub1__class__gOffloadedComponent received 0.0000
+PCREPORT: engine utilization kePlus__type__offloaded__centeroidMem__type__offloaded__centeroidMem__class__gOffloadedComponent received 0.0000
+PCREPORT: engine utilization dFU__type__offloaded__mul1__type__offloaded__mul1__class__gOffloadedComponent received 0.0000
+PCREPORT: engine utilization mul2__type__engine__MT__1____class__multiplier received 0.2201
+PCREPORT: engine utilization kePlus__type__offloaded__distanceFU__type__offloaded__distanceFU__class__gOffloadedComponent received 0.0000
+PCREPORT: engine utilization ke__type__engine__MT__1____class__KEngine received 0.8792
+PCREPORT: engine utilization mul1__type__engine__MT__1____class__multiplier received 0.2201
+PCREPORT: engine utilization xx1__type__engine__MT__1____class__distanceFU received 0.7482
+PCREPORT: engine utilization result__Chained_1__type__chained____class__gChainedComponent received 0.0000
+PCREPORT: engine utilization krPlus__type__offloaded__add__type__offloaded__add__class__gOffloadedComponent received 0.0000
+PCREPORT: engine utilization kePlus__type__offloaded__add__type__offloaded__add__class__gOffloadedComponent received 0.0000
+PCREPORT: engine utilization dFU__type__offloaded__mul2__type__offloaded__mul2__class__gOffloadedComponent received 0.0000
+PCREPORT: in tokens add1__type__engine__MT__1____class__adder received 4.0000
+PCREPORT: in tokens add2__type__engine__MT__1____class__adder received 4.0000
+PCREPORT: in tokens add__type__engine__MT__1____class__adder received 0.9000
+PCREPORT: in tokens sub3__type__engine__MT__1____class__adder received 4.0000
+PCREPORT: in tokens dFU__type__offloaded__sub2__type__offloaded__sub2__class__gOffloadedComponent received 0.0000
+PCREPORT: in tokens kd__type__engine__MT__1____class__KDistribute received 1.5000
+PCREPORT: in tokens dFU__type__offloaded__add1__type__offloaded__add1__class__gOffloadedComponent received 0.0000
+PCREPORT: in tokens mul3__type__engine__MT__1____class__multiplier received 4.0000
+PCREPORT: in tokens dFU__type__offloaded__add2__type__offloaded__add2__class__gOffloadedComponent received 0.0000
+PCREPORT: in tokens kePlus__type__offloaded__partialAccumulatorMem__type__offloaded__partialAccumulatorMem__class__gOffloadedComponent received 0.0000
+PCREPORT: in tokens xx2__type__replicated____class__gReplicatedComponent received 0.0000
+PCREPORT: in tokens sqrt__type__engine__MT__1____class__sqrt received 4.0000
+PCREPORT: in tokens dFU__type__offloaded__sub3__type__offloaded__sub3__class__gOffloadedComponent received 0.0000
+PCREPORT: in tokens sub1__type__engine__MT__1____class__adder received 4.0000
+PCREPORT: in tokens sub2__type__engine__MT__1____class__adder received 4.0000
+PCREPORT: in tokens dFU__type__offloaded__sqrt__type__offloaded__sqrt__class__gOffloadedComponent received 0.0000
+PCREPORT: in tokens result__Chained__2__type__chained____class__gChainedComponent received 0.0000
+PCREPORT: in tokens kr__type__engine__MT__1____class__KReduce received 0.3000
+PCREPORT: in tokens spMem__class__spMemComponent received 0.7000
+PCREPORT: in tokens krPlus__type__offloaded__partialAccumulatorMem__type__offloaded__partialAccumulatorMem__class__gOffloadedComponent received 0.0000
+PCREPORT: in tokens dFU__type__offloaded__mul3__type__offloaded__mul3__class__gOffloadedComponent received 0.0000
+PCREPORT: in tokens dFU__type__offloaded__sub1__type__offloaded__sub1__class__gOffloadedComponent received 0.0000
+PCREPORT: in tokens kePlus__type__offloaded__centeroidMem__type__offloaded__centeroidMem__class__gOffloadedComponent received 0.0000
+PCREPORT: in tokens dFU__type__offloaded__mul1__type__offloaded__mul1__class__gOffloadedComponent received 0.0000
+PCREPORT: in tokens mul2__type__engine__MT__1____class__multiplier received 4.0000
+PCREPORT: in tokens kePlus__type__offloaded__distanceFU__type__offloaded__distanceFU__class__gOffloadedComponent received 0.0000
+PCREPORT: in tokens ke__type__engine__MT__1____class__KEngine received 1.5000
+PCREPORT: in tokens mul1__type__engine__MT__1____class__multiplier received 4.0000
+PCREPORT: in tokens xx1__type__engine__MT__1____class__distanceFU received 4.0000
+PCREPORT: in tokens result__Chained_1__type__chained____class__gChainedComponent received 0.0000
+PCREPORT: in tokens krPlus__type__offloaded__add__type__offloaded__add__class__gOffloadedComponent received 0.0000
+PCREPORT: in tokens kePlus__type__offloaded__add__type__offloaded__add__class__gOffloadedComponent received 0.0000
+PCREPORT: in tokens dFU__type__offloaded__mul2__type__offloaded__mul2__class__gOffloadedComponent received 0.0000
+PCREPORT: out tokens add1__type__engine__MT__1____class__adder received 4.0000
+PCREPORT: out tokens add2__type__engine__MT__1____class__adder received 4.0000
+PCREPORT: out tokens add__type__engine__MT__1____class__adder received 0.9000
+PCREPORT: out tokens sub3__type__engine__MT__1____class__adder received 4.0000
+PCREPORT: out tokens dFU__type__offloaded__sub2__type__offloaded__sub2__class__gOffloadedComponent received 0.0000
+PCREPORT: out tokens kd__type__engine__MT__1____class__KDistribute received 1.5000
+PCREPORT: out tokens dFU__type__offloaded__add1__type__offloaded__add1__class__gOffloadedComponent received 0.0000
+PCREPORT: out tokens mul3__type__engine__MT__1____class__multiplier received 4.0000
+PCREPORT: out tokens dFU__type__offloaded__add2__type__offloaded__add2__class__gOffloadedComponent received 0.0000
+PCREPORT: out tokens kePlus__type__offloaded__partialAccumulatorMem__type__offloaded__partialAccumulatorMem__class__gOffloadedComponent received 0.0000
+PCREPORT: out tokens xx2__type__replicated____class__gReplicatedComponent received 0.0000
+PCREPORT: out tokens sqrt__type__engine__MT__1____class__sqrt received 4.0000
+PCREPORT: out tokens dFU__type__offloaded__sub3__type__offloaded__sub3__class__gOffloadedComponent received 0.0000
+PCREPORT: out tokens sub1__type__engine__MT__1____class__adder received 4.0000
+PCREPORT: out tokens sub2__type__engine__MT__1____class__adder received 4.0000
+PCREPORT: out tokens dFU__type__offloaded__sqrt__type__offloaded__sqrt__class__gOffloadedComponent received 0.0000
+PCREPORT: out tokens result__Chained__2__type__chained____class__gChainedComponent received 0.0000
+PCREPORT: out tokens kr__type__engine__MT__1____class__KReduce received 0.0000
+PCREPORT: out tokens spMem__class__spMemComponent received 0.7000
+PCREPORT: out tokens krPlus__type__offloaded__partialAccumulatorMem__type__offloaded__partialAccumulatorMem__class__gOffloadedComponent received 0.0000
+PCREPORT: out tokens dFU__type__offloaded__mul3__type__offloaded__mul3__class__gOffloadedComponent received 0.0000
+PCREPORT: out tokens dFU__type__offloaded__sub1__type__offloaded__sub1__class__gOffloadedComponent received 0.0000
+PCREPORT: out tokens kePlus__type__offloaded__centeroidMem__type__offloaded__centeroidMem__class__gOffloadedComponent received 0.0000
+PCREPORT: out tokens dFU__type__offloaded__mul1__type__offloaded__mul1__class__gOffloadedComponent received 0.0000
+PCREPORT: out tokens mul2__type__engine__MT__1____class__multiplier received 4.0000
+PCREPORT: out tokens kePlus__type__offloaded__distanceFU__type__offloaded__distanceFU__class__gOffloadedComponent received 0.0000
+PCREPORT: out tokens ke__type__engine__MT__1____class__KEngine received 0.3000
+PCREPORT: out tokens mul1__type__engine__MT__1____class__multiplier received 4.0000
+PCREPORT: out tokens xx1__type__engine__MT__1____class__distanceFU received 4.0000
+PCREPORT: out tokens result__Chained_1__type__chained____class__gChainedComponent received 0.0000
+PCREPORT: out tokens krPlus__type__offloaded__add__type__offloaded__add__class__gOffloadedComponent received 0.0000
+PCREPORT: out tokens kePlus__type__offloaded__add__type__offloaded__add__class__gOffloadedComponent received 0.0000
+PCREPORT: out tokens dFU__type__offloaded__mul2__type__offloaded__mul2__class__gOffloadedComponent received 0.0000

@@ -1,0 +1,14 @@
+updateWriter CONCURRENT_SAFE
+
+updateGenerator CONCURRENT_SAFE
+
+lockModel PIPELINABLE  2
+
+adder PIPELINABLE  8
+
+multiplier PIPELINABLE  24
+
+divider PIPELINABLE  24
+
+rankCalculator PIPELINABLE  4
+

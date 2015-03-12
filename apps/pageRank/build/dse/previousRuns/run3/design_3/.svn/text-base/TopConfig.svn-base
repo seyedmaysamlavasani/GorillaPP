@@ -1,0 +1,10 @@
+uwThreads 1
+ugThreads 1
+addPipelined false
+mulPipelined false
+divPipelined false
+rcPipelined false
+sharedRc false
+ugRepFactor 1
+uwRepFactor 3
+NUM_OF_CACHE_MISS_PIPE_STAGES 4

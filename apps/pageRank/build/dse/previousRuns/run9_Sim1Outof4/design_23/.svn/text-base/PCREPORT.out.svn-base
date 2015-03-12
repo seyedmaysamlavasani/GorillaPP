@@ -1,0 +1,1896 @@
+PCREPORT: module result__Chained registered for pc moduleId is 1
+PCREPORT: PC is registered name: in type 1 moduleId 1 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 1 portId 2
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 1 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 1 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 1 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 1 portId 0
+PCREPORT: module ugPlus1__Offloaded__mem registered for pc moduleId is 2
+PCREPORT: PC is registered name: in type 1 moduleId 2 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 2 portId 2
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 2 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 2 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 2 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 2 portId 0
+PCREPORT: module xx3__Offloaded__rankCalc registered for pc moduleId is 3
+PCREPORT: PC is registered name: in type 1 moduleId 3 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 3 portId 2
+PCREPORT: PC is registered name: mem type 1 moduleId 3 portId 3
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 3 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 3 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 3 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 3 portId 0
+PCREPORT: module xx7__Replicated registered for pc moduleId is 4
+PCREPORT: PC is registered name: in type 1 moduleId 4 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 4 portId 2
+PCREPORT: PC is registered name: mem type 1 moduleId 4 portId 3
+PCREPORT: PC is registered name: rankCalc type 1 moduleId 4 portId 4
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 4 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 4 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 4 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 4 portId 0
+PCREPORT: module ug registered for pc moduleId is 5
+PCREPORT: PC is registered name: in type 1 moduleId 5 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 5 portId 2
+PCREPORT: PC is registered name: mem type 1 moduleId 5 portId 3
+PCREPORT: PC is registered name: rankCalc type 1 moduleId 5 portId 4
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 5 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 5 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 5 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 5 portId 0
+PCREPORT: module ug registered for pc moduleId is 6
+PCREPORT: PC is registered name: in type 1 moduleId 6 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 6 portId 2
+PCREPORT: PC is registered name: mem type 1 moduleId 6 portId 3
+PCREPORT: PC is registered name: rankCalc type 1 moduleId 6 portId 4
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 6 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 6 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 6 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 6 portId 0
+Design hierarchy --- parent xx7__Replicated child ug
+Design hierarchy --- parent ug child 
+Design hierarchy --- parent ug child 
+Design hierarchy --- parent ug child 
+Design hierarchy --- parent xx7__Replicated child ug
+Design hierarchy --- parent ug child 
+Design hierarchy --- parent ug child 
+Design hierarchy --- parent ug child 
+Design hierarchy --- parent xx7__Replicated child RRDistributorComponent
+Design hierarchy --- parent RRDistributorComponent child gRRDistributor
+Design hierarchy --- parent xx7__Replicated child RRAggregatorComponent_1
+Design hierarchy --- parent RRAggregatorComponent_1 child gRRArbiter
+Design hierarchy --- parent xx7__Replicated child gTaggedRRArbiter
+Design hierarchy --- parent xx7__Replicated child gTaggedRRArbiter_1
+Design hierarchy --- parent xx7__Replicated child 
+Design hierarchy --- parent xx7__Replicated child 
+PCREPORT: module rc2__Offloaded__div__Offloaded__div registered for pc moduleId is 7
+PCREPORT: PC is registered name: in type 1 moduleId 7 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 7 portId 2
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 7 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 7 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 7 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 7 portId 0
+PCREPORT: module rc2__Offloaded__mul__Offloaded__mul registered for pc moduleId is 8
+PCREPORT: PC is registered name: in type 1 moduleId 8 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 8 portId 2
+PCREPORT: PC is registered name: div type 1 moduleId 8 portId 3
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 8 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 8 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 8 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 8 portId 0
+PCREPORT: module xx2 registered for pc moduleId is 9
+PCREPORT: PC is registered name: in type 1 moduleId 9 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 9 portId 2
+PCREPORT: PC is registered name: mul type 1 moduleId 9 portId 3
+PCREPORT: PC is registered name: div type 1 moduleId 9 portId 4
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 9 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 9 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 9 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 9 portId 0
+PCREPORT: module mul2 registered for pc moduleId is 10
+PCREPORT: PC is registered name: in type 1 moduleId 10 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 10 portId 2
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 10 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 10 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 10 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 10 portId 0
+Design hierarchy --- parent rc2__Offloaded__mul__Offloaded__mul child xx2
+Design hierarchy --- parent xx2 child 
+Design hierarchy --- parent xx2 child 
+Design hierarchy --- parent xx2 child 
+Design hierarchy --- parent xx2 child 
+Design hierarchy --- parent rc2__Offloaded__mul__Offloaded__mul child mul2
+PCREPORT: module div2 registered for pc moduleId is 11
+PCREPORT: PC is registered name: in type 1 moduleId 11 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 11 portId 2
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 11 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 11 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 11 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 11 portId 0
+Design hierarchy --- parent rc2__Offloaded__div__Offloaded__div child rc2__Offloaded__mul__Offloaded__mul
+Design hierarchy --- parent rc2__Offloaded__mul__Offloaded__mul child xx2
+Design hierarchy --- parent xx2 child 
+Design hierarchy --- parent xx2 child 
+Design hierarchy --- parent xx2 child 
+Design hierarchy --- parent xx2 child 
+Design hierarchy --- parent rc2__Offloaded__mul__Offloaded__mul child mul2
+Design hierarchy --- parent rc2__Offloaded__div__Offloaded__div child div2
+Design hierarchy --- parent xx3__Offloaded__rankCalc child xx7__Replicated
+Design hierarchy --- parent xx7__Replicated child ug
+Design hierarchy --- parent ug child 
+Design hierarchy --- parent ug child 
+Design hierarchy --- parent ug child 
+Design hierarchy --- parent xx7__Replicated child ug
+Design hierarchy --- parent ug child 
+Design hierarchy --- parent ug child 
+Design hierarchy --- parent ug child 
+Design hierarchy --- parent xx7__Replicated child RRDistributorComponent
+Design hierarchy --- parent RRDistributorComponent child gRRDistributor
+Design hierarchy --- parent xx7__Replicated child RRAggregatorComponent_1
+Design hierarchy --- parent RRAggregatorComponent_1 child gRRArbiter
+Design hierarchy --- parent xx7__Replicated child gTaggedRRArbiter
+Design hierarchy --- parent xx7__Replicated child gTaggedRRArbiter_1
+Design hierarchy --- parent xx7__Replicated child 
+Design hierarchy --- parent xx7__Replicated child 
+Design hierarchy --- parent xx3__Offloaded__rankCalc child rc2__Offloaded__div__Offloaded__div
+Design hierarchy --- parent rc2__Offloaded__div__Offloaded__div child rc2__Offloaded__mul__Offloaded__mul
+Design hierarchy --- parent rc2__Offloaded__mul__Offloaded__mul child xx2
+Design hierarchy --- parent xx2 child 
+Design hierarchy --- parent xx2 child 
+Design hierarchy --- parent xx2 child 
+Design hierarchy --- parent xx2 child 
+Design hierarchy --- parent rc2__Offloaded__mul__Offloaded__mul child mul2
+Design hierarchy --- parent rc2__Offloaded__div__Offloaded__div child div2
+PCREPORT: module prMem registered for pc moduleId is 12
+PCREPORT: PC is registered name: in type 1 moduleId 12 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 12 portId 2
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 12 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 12 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 12 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 12 portId 0
+PCREPORT: module result__Offloaded__dram registered for pc moduleId is 13
+PCREPORT: PC is registered name: in type 1 moduleId 13 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 13 portId 2
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 13 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 13 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 13 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 13 portId 0
+PCREPORT: module cachePlus__Offloaded__cacheMissPipe registered for pc moduleId is 14
+PCREPORT: PC is registered name: in type 1 moduleId 14 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 14 portId 2
+PCREPORT: PC is registered name: dram type 1 moduleId 14 portId 3
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 14 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 14 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 14 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 14 portId 0
+PCREPORT: module cache registered for pc moduleId is 15
+PCREPORT: PC is registered name: in type 1 moduleId 15 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 15 portId 2
+PCREPORT: PC is registered name: cacheMissPipe type 1 moduleId 15 portId 3
+PCREPORT: PC is registered name: dram type 1 moduleId 15 portId 4
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 15 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 15 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 15 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 15 portId 0
+PCREPORT: module gPipe registered for pc moduleId is 16
+PCREPORT: PC is registered name: in type 1 moduleId 16 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 16 portId 2
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 16 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 16 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 16 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 16 portId 0
+Design hierarchy --- parent cachePlus__Offloaded__cacheMissPipe child cache
+Design hierarchy --- parent cache child 
+Design hierarchy --- parent cache child 
+Design hierarchy --- parent cache child 
+Design hierarchy --- parent cachePlus__Offloaded__cacheMissPipe child gPipe
+PCREPORT: module dramPlus__Offloaded__dramBank7__Offloaded__dramBank7 registered for pc moduleId is 17
+PCREPORT: PC is registered name: in type 1 moduleId 17 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 17 portId 2
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 17 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 17 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 17 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 17 portId 0
+PCREPORT: module dramPlus__Offloaded__dramBank6__Offloaded__dramBank6 registered for pc moduleId is 18
+PCREPORT: PC is registered name: in type 1 moduleId 18 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 18 portId 2
+PCREPORT: PC is registered name: dramBank7 type 1 moduleId 18 portId 3
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 18 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 18 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 18 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 18 portId 0
+PCREPORT: module dramPlus__Offloaded__dramBank5__Offloaded__dramBank5 registered for pc moduleId is 19
+PCREPORT: PC is registered name: in type 1 moduleId 19 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 19 portId 2
+PCREPORT: PC is registered name: dramBank6 type 1 moduleId 19 portId 3
+PCREPORT: PC is registered name: dramBank7 type 1 moduleId 19 portId 4
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 19 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 19 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 19 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 19 portId 0
+PCREPORT: module dramPlus__Offloaded__dramBank4__Offloaded__dramBank4 registered for pc moduleId is 20
+PCREPORT: PC is registered name: in type 1 moduleId 20 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 20 portId 2
+PCREPORT: PC is registered name: dramBank5 type 1 moduleId 20 portId 3
+PCREPORT: PC is registered name: dramBank6 type 1 moduleId 20 portId 4
+PCREPORT: PC is registered name: dramBank7 type 1 moduleId 20 portId 5
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 20 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 20 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 20 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 20 portId 0
+PCREPORT: module dramPlus__Offloaded__dramBank3__Offloaded__dramBank3 registered for pc moduleId is 21
+PCREPORT: PC is registered name: in type 1 moduleId 21 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 21 portId 2
+PCREPORT: PC is registered name: dramBank4 type 1 moduleId 21 portId 3
+PCREPORT: PC is registered name: dramBank5 type 1 moduleId 21 portId 4
+PCREPORT: PC is registered name: dramBank6 type 1 moduleId 21 portId 5
+PCREPORT: PC is registered name: dramBank7 type 1 moduleId 21 portId 6
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 21 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 21 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 21 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 21 portId 0
+PCREPORT: module dramPlus__Offloaded__dramBank2__Offloaded__dramBank2 registered for pc moduleId is 22
+PCREPORT: PC is registered name: in type 1 moduleId 22 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 22 portId 2
+PCREPORT: PC is registered name: dramBank3 type 1 moduleId 22 portId 3
+PCREPORT: PC is registered name: dramBank4 type 1 moduleId 22 portId 4
+PCREPORT: PC is registered name: dramBank5 type 1 moduleId 22 portId 5
+PCREPORT: PC is registered name: dramBank6 type 1 moduleId 22 portId 6
+PCREPORT: PC is registered name: dramBank7 type 1 moduleId 22 portId 7
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 22 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 22 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 22 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 22 portId 0
+PCREPORT: module dramPlus__Offloaded__dramBank1__Offloaded__dramBank1 registered for pc moduleId is 23
+PCREPORT: PC is registered name: in type 1 moduleId 23 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 23 portId 2
+PCREPORT: PC is registered name: dramBank2 type 1 moduleId 23 portId 3
+PCREPORT: PC is registered name: dramBank3 type 1 moduleId 23 portId 4
+PCREPORT: PC is registered name: dramBank4 type 1 moduleId 23 portId 5
+PCREPORT: PC is registered name: dramBank5 type 1 moduleId 23 portId 6
+PCREPORT: PC is registered name: dramBank6 type 1 moduleId 23 portId 7
+PCREPORT: PC is registered name: dramBank7 type 1 moduleId 23 portId 8
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 23 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 23 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 23 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 23 portId 0
+PCREPORT: module dramPlus__Offloaded__dramBank0__Offloaded__dramBank0 registered for pc moduleId is 24
+PCREPORT: PC is registered name: in type 1 moduleId 24 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 24 portId 2
+PCREPORT: PC is registered name: dramBank1 type 1 moduleId 24 portId 3
+PCREPORT: PC is registered name: dramBank2 type 1 moduleId 24 portId 4
+PCREPORT: PC is registered name: dramBank3 type 1 moduleId 24 portId 5
+PCREPORT: PC is registered name: dramBank4 type 1 moduleId 24 portId 6
+PCREPORT: PC is registered name: dramBank5 type 1 moduleId 24 portId 7
+PCREPORT: PC is registered name: dramBank6 type 1 moduleId 24 portId 8
+PCREPORT: PC is registered name: dramBank7 type 1 moduleId 24 portId 9
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 24 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 24 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 24 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 24 portId 0
+PCREPORT: module dram registered for pc moduleId is 25
+PCREPORT: PC is registered name: in type 1 moduleId 25 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 25 portId 2
+PCREPORT: PC is registered name: dramBank0 type 1 moduleId 25 portId 3
+PCREPORT: PC is registered name: dramBank1 type 1 moduleId 25 portId 4
+PCREPORT: PC is registered name: dramBank2 type 1 moduleId 25 portId 5
+PCREPORT: PC is registered name: dramBank3 type 1 moduleId 25 portId 6
+PCREPORT: PC is registered name: dramBank4 type 1 moduleId 25 portId 7
+PCREPORT: PC is registered name: dramBank5 type 1 moduleId 25 portId 8
+PCREPORT: PC is registered name: dramBank6 type 1 moduleId 25 portId 9
+PCREPORT: PC is registered name: dramBank7 type 1 moduleId 25 portId 10
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 25 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 25 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 25 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 25 portId 0
+PCREPORT: module dramBank0 registered for pc moduleId is 26
+PCREPORT: PC is registered name: in type 1 moduleId 26 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 26 portId 2
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 26 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 26 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 26 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 26 portId 0
+Design hierarchy --- parent dramPlus__Offloaded__dramBank0__Offloaded__dramBank0 child dram
+Design hierarchy --- parent dram child 
+Design hierarchy --- parent dram child 
+Design hierarchy --- parent dram child 
+Design hierarchy --- parent dramPlus__Offloaded__dramBank0__Offloaded__dramBank0 child dramBank0
+Design hierarchy --- parent dramBank0 child 
+Design hierarchy --- parent dramBank0 child 
+Design hierarchy --- parent dramBank0 child 
+PCREPORT: module dramBank1 registered for pc moduleId is 27
+PCREPORT: PC is registered name: in type 1 moduleId 27 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 27 portId 2
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 27 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 27 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 27 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 27 portId 0
+Design hierarchy --- parent dramPlus__Offloaded__dramBank1__Offloaded__dramBank1 child dramPlus__Offloaded__dramBank0__Offloaded__dramBank0
+Design hierarchy --- parent dramPlus__Offloaded__dramBank0__Offloaded__dramBank0 child dram
+Design hierarchy --- parent dram child 
+Design hierarchy --- parent dram child 
+Design hierarchy --- parent dram child 
+Design hierarchy --- parent dramPlus__Offloaded__dramBank0__Offloaded__dramBank0 child dramBank0
+Design hierarchy --- parent dramBank0 child 
+Design hierarchy --- parent dramBank0 child 
+Design hierarchy --- parent dramBank0 child 
+Design hierarchy --- parent dramPlus__Offloaded__dramBank1__Offloaded__dramBank1 child dramBank1
+Design hierarchy --- parent dramBank1 child 
+Design hierarchy --- parent dramBank1 child 
+Design hierarchy --- parent dramBank1 child 
+PCREPORT: module dramBank2 registered for pc moduleId is 28
+PCREPORT: PC is registered name: in type 1 moduleId 28 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 28 portId 2
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 28 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 28 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 28 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 28 portId 0
+Design hierarchy --- parent dramPlus__Offloaded__dramBank2__Offloaded__dramBank2 child dramPlus__Offloaded__dramBank1__Offloaded__dramBank1
+Design hierarchy --- parent dramPlus__Offloaded__dramBank1__Offloaded__dramBank1 child dramPlus__Offloaded__dramBank0__Offloaded__dramBank0
+Design hierarchy --- parent dramPlus__Offloaded__dramBank0__Offloaded__dramBank0 child dram
+Design hierarchy --- parent dram child 
+Design hierarchy --- parent dram child 
+Design hierarchy --- parent dram child 
+Design hierarchy --- parent dramPlus__Offloaded__dramBank0__Offloaded__dramBank0 child dramBank0
+Design hierarchy --- parent dramBank0 child 
+Design hierarchy --- parent dramBank0 child 
+Design hierarchy --- parent dramBank0 child 
+Design hierarchy --- parent dramPlus__Offloaded__dramBank1__Offloaded__dramBank1 child dramBank1
+Design hierarchy --- parent dramBank1 child 
+Design hierarchy --- parent dramBank1 child 
+Design hierarchy --- parent dramBank1 child 
+Design hierarchy --- parent dramPlus__Offloaded__dramBank2__Offloaded__dramBank2 child dramBank2
+Design hierarchy --- parent dramBank2 child 
+Design hierarchy --- parent dramBank2 child 
+Design hierarchy --- parent dramBank2 child 
+PCREPORT: module dramBank3 registered for pc moduleId is 29
+PCREPORT: PC is registered name: in type 1 moduleId 29 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 29 portId 2
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 29 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 29 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 29 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 29 portId 0
+Design hierarchy --- parent dramPlus__Offloaded__dramBank3__Offloaded__dramBank3 child dramPlus__Offloaded__dramBank2__Offloaded__dramBank2
+Design hierarchy --- parent dramPlus__Offloaded__dramBank2__Offloaded__dramBank2 child dramPlus__Offloaded__dramBank1__Offloaded__dramBank1
+Design hierarchy --- parent dramPlus__Offloaded__dramBank1__Offloaded__dramBank1 child dramPlus__Offloaded__dramBank0__Offloaded__dramBank0
+Design hierarchy --- parent dramPlus__Offloaded__dramBank0__Offloaded__dramBank0 child dram
+Design hierarchy --- parent dram child 
+Design hierarchy --- parent dram child 
+Design hierarchy --- parent dram child 
+Design hierarchy --- parent dramPlus__Offloaded__dramBank0__Offloaded__dramBank0 child dramBank0
+Design hierarchy --- parent dramBank0 child 
+Design hierarchy --- parent dramBank0 child 
+Design hierarchy --- parent dramBank0 child 
+Design hierarchy --- parent dramPlus__Offloaded__dramBank1__Offloaded__dramBank1 child dramBank1
+Design hierarchy --- parent dramBank1 child 
+Design hierarchy --- parent dramBank1 child 
+Design hierarchy --- parent dramBank1 child 
+Design hierarchy --- parent dramPlus__Offloaded__dramBank2__Offloaded__dramBank2 child dramBank2
+Design hierarchy --- parent dramBank2 child 
+Design hierarchy --- parent dramBank2 child 
+Design hierarchy --- parent dramBank2 child 
+Design hierarchy --- parent dramPlus__Offloaded__dramBank3__Offloaded__dramBank3 child dramBank3
+Design hierarchy --- parent dramBank3 child 
+Design hierarchy --- parent dramBank3 child 
+Design hierarchy --- parent dramBank3 child 
+PCREPORT: module dramBank4 registered for pc moduleId is 30
+PCREPORT: PC is registered name: in type 1 moduleId 30 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 30 portId 2
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 30 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 30 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 30 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 30 portId 0
+Design hierarchy --- parent dramPlus__Offloaded__dramBank4__Offloaded__dramBank4 child dramPlus__Offloaded__dramBank3__Offloaded__dramBank3
+Design hierarchy --- parent dramPlus__Offloaded__dramBank3__Offloaded__dramBank3 child dramPlus__Offloaded__dramBank2__Offloaded__dramBank2
+Design hierarchy --- parent dramPlus__Offloaded__dramBank2__Offloaded__dramBank2 child dramPlus__Offloaded__dramBank1__Offloaded__dramBank1
+Design hierarchy --- parent dramPlus__Offloaded__dramBank1__Offloaded__dramBank1 child dramPlus__Offloaded__dramBank0__Offloaded__dramBank0
+Design hierarchy --- parent dramPlus__Offloaded__dramBank0__Offloaded__dramBank0 child dram
+Design hierarchy --- parent dram child 
+Design hierarchy --- parent dram child 
+Design hierarchy --- parent dram child 
+Design hierarchy --- parent dramPlus__Offloaded__dramBank0__Offloaded__dramBank0 child dramBank0
+Design hierarchy --- parent dramBank0 child 
+Design hierarchy --- parent dramBank0 child 
+Design hierarchy --- parent dramBank0 child 
+Design hierarchy --- parent dramPlus__Offloaded__dramBank1__Offloaded__dramBank1 child dramBank1
+Design hierarchy --- parent dramBank1 child 
+Design hierarchy --- parent dramBank1 child 
+Design hierarchy --- parent dramBank1 child 
+Design hierarchy --- parent dramPlus__Offloaded__dramBank2__Offloaded__dramBank2 child dramBank2
+Design hierarchy --- parent dramBank2 child 
+Design hierarchy --- parent dramBank2 child 
+Design hierarchy --- parent dramBank2 child 
+Design hierarchy --- parent dramPlus__Offloaded__dramBank3__Offloaded__dramBank3 child dramBank3
+Design hierarchy --- parent dramBank3 child 
+Design hierarchy --- parent dramBank3 child 
+Design hierarchy --- parent dramBank3 child 
+Design hierarchy --- parent dramPlus__Offloaded__dramBank4__Offloaded__dramBank4 child dramBank4
+Design hierarchy --- parent dramBank4 child 
+Design hierarchy --- parent dramBank4 child 
+Design hierarchy --- parent dramBank4 child 
+PCREPORT: module dramBank5 registered for pc moduleId is 31
+PCREPORT: PC is registered name: in type 1 moduleId 31 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 31 portId 2
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 31 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 31 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 31 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 31 portId 0
+Design hierarchy --- parent dramPlus__Offloaded__dramBank5__Offloaded__dramBank5 child dramPlus__Offloaded__dramBank4__Offloaded__dramBank4
+Design hierarchy --- parent dramPlus__Offloaded__dramBank4__Offloaded__dramBank4 child dramPlus__Offloaded__dramBank3__Offloaded__dramBank3
+Design hierarchy --- parent dramPlus__Offloaded__dramBank3__Offloaded__dramBank3 child dramPlus__Offloaded__dramBank2__Offloaded__dramBank2
+Design hierarchy --- parent dramPlus__Offloaded__dramBank2__Offloaded__dramBank2 child dramPlus__Offloaded__dramBank1__Offloaded__dramBank1
+Design hierarchy --- parent dramPlus__Offloaded__dramBank1__Offloaded__dramBank1 child dramPlus__Offloaded__dramBank0__Offloaded__dramBank0
+Design hierarchy --- parent dramPlus__Offloaded__dramBank0__Offloaded__dramBank0 child dram
+Design hierarchy --- parent dram child 
+Design hierarchy --- parent dram child 
+Design hierarchy --- parent dram child 
+Design hierarchy --- parent dramPlus__Offloaded__dramBank0__Offloaded__dramBank0 child dramBank0
+Design hierarchy --- parent dramBank0 child 
+Design hierarchy --- parent dramBank0 child 
+Design hierarchy --- parent dramBank0 child 
+Design hierarchy --- parent dramPlus__Offloaded__dramBank1__Offloaded__dramBank1 child dramBank1
+Design hierarchy --- parent dramBank1 child 
+Design hierarchy --- parent dramBank1 child 
+Design hierarchy --- parent dramBank1 child 
+Design hierarchy --- parent dramPlus__Offloaded__dramBank2__Offloaded__dramBank2 child dramBank2
+Design hierarchy --- parent dramBank2 child 
+Design hierarchy --- parent dramBank2 child 
+Design hierarchy --- parent dramBank2 child 
+Design hierarchy --- parent dramPlus__Offloaded__dramBank3__Offloaded__dramBank3 child dramBank3
+Design hierarchy --- parent dramBank3 child 
+Design hierarchy --- parent dramBank3 child 
+Design hierarchy --- parent dramBank3 child 
+Design hierarchy --- parent dramPlus__Offloaded__dramBank4__Offloaded__dramBank4 child dramBank4
+Design hierarchy --- parent dramBank4 child 
+Design hierarchy --- parent dramBank4 child 
+Design hierarchy --- parent dramBank4 child 
+Design hierarchy --- parent dramPlus__Offloaded__dramBank5__Offloaded__dramBank5 child dramBank5
+Design hierarchy --- parent dramBank5 child 
+Design hierarchy --- parent dramBank5 child 
+Design hierarchy --- parent dramBank5 child 
+PCREPORT: module dramBank6 registered for pc moduleId is 32
+PCREPORT: PC is registered name: in type 1 moduleId 32 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 32 portId 2
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 32 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 32 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 32 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 32 portId 0
+Design hierarchy --- parent dramPlus__Offloaded__dramBank6__Offloaded__dramBank6 child dramPlus__Offloaded__dramBank5__Offloaded__dramBank5
+Design hierarchy --- parent dramPlus__Offloaded__dramBank5__Offloaded__dramBank5 child dramPlus__Offloaded__dramBank4__Offloaded__dramBank4
+Design hierarchy --- parent dramPlus__Offloaded__dramBank4__Offloaded__dramBank4 child dramPlus__Offloaded__dramBank3__Offloaded__dramBank3
+Design hierarchy --- parent dramPlus__Offloaded__dramBank3__Offloaded__dramBank3 child dramPlus__Offloaded__dramBank2__Offloaded__dramBank2
+Design hierarchy --- parent dramPlus__Offloaded__dramBank2__Offloaded__dramBank2 child dramPlus__Offloaded__dramBank1__Offloaded__dramBank1
+Design hierarchy --- parent dramPlus__Offloaded__dramBank1__Offloaded__dramBank1 child dramPlus__Offloaded__dramBank0__Offloaded__dramBank0
+Design hierarchy --- parent dramPlus__Offloaded__dramBank0__Offloaded__dramBank0 child dram
+Design hierarchy --- parent dram child 
+Design hierarchy --- parent dram child 
+Design hierarchy --- parent dram child 
+Design hierarchy --- parent dramPlus__Offloaded__dramBank0__Offloaded__dramBank0 child dramBank0
+Design hierarchy --- parent dramBank0 child 
+Design hierarchy --- parent dramBank0 child 
+Design hierarchy --- parent dramBank0 child 
+Design hierarchy --- parent dramPlus__Offloaded__dramBank1__Offloaded__dramBank1 child dramBank1
+Design hierarchy --- parent dramBank1 child 
+Design hierarchy --- parent dramBank1 child 
+Design hierarchy --- parent dramBank1 child 
+Design hierarchy --- parent dramPlus__Offloaded__dramBank2__Offloaded__dramBank2 child dramBank2
+Design hierarchy --- parent dramBank2 child 
+Design hierarchy --- parent dramBank2 child 
+Design hierarchy --- parent dramBank2 child 
+Design hierarchy --- parent dramPlus__Offloaded__dramBank3__Offloaded__dramBank3 child dramBank3
+Design hierarchy --- parent dramBank3 child 
+Design hierarchy --- parent dramBank3 child 
+Design hierarchy --- parent dramBank3 child 
+Design hierarchy --- parent dramPlus__Offloaded__dramBank4__Offloaded__dramBank4 child dramBank4
+Design hierarchy --- parent dramBank4 child 
+Design hierarchy --- parent dramBank4 child 
+Design hierarchy --- parent dramBank4 child 
+Design hierarchy --- parent dramPlus__Offloaded__dramBank5__Offloaded__dramBank5 child dramBank5
+Design hierarchy --- parent dramBank5 child 
+Design hierarchy --- parent dramBank5 child 
+Design hierarchy --- parent dramBank5 child 
+Design hierarchy --- parent dramPlus__Offloaded__dramBank6__Offloaded__dramBank6 child dramBank6
+Design hierarchy --- parent dramBank6 child 
+Design hierarchy --- parent dramBank6 child 
+Design hierarchy --- parent dramBank6 child 
+PCREPORT: module dramBank7 registered for pc moduleId is 33
+PCREPORT: PC is registered name: in type 1 moduleId 33 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 33 portId 2
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 33 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 33 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 33 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 33 portId 0
+Design hierarchy --- parent dramPlus__Offloaded__dramBank7__Offloaded__dramBank7 child dramPlus__Offloaded__dramBank6__Offloaded__dramBank6
+Design hierarchy --- parent dramPlus__Offloaded__dramBank6__Offloaded__dramBank6 child dramPlus__Offloaded__dramBank5__Offloaded__dramBank5
+Design hierarchy --- parent dramPlus__Offloaded__dramBank5__Offloaded__dramBank5 child dramPlus__Offloaded__dramBank4__Offloaded__dramBank4
+Design hierarchy --- parent dramPlus__Offloaded__dramBank4__Offloaded__dramBank4 child dramPlus__Offloaded__dramBank3__Offloaded__dramBank3
+Design hierarchy --- parent dramPlus__Offloaded__dramBank3__Offloaded__dramBank3 child dramPlus__Offloaded__dramBank2__Offloaded__dramBank2
+Design hierarchy --- parent dramPlus__Offloaded__dramBank2__Offloaded__dramBank2 child dramPlus__Offloaded__dramBank1__Offloaded__dramBank1
+Design hierarchy --- parent dramPlus__Offloaded__dramBank1__Offloaded__dramBank1 child dramPlus__Offloaded__dramBank0__Offloaded__dramBank0
+Design hierarchy --- parent dramPlus__Offloaded__dramBank0__Offloaded__dramBank0 child dram
+Design hierarchy --- parent dram child 
+Design hierarchy --- parent dram child 
+Design hierarchy --- parent dram child 
+Design hierarchy --- parent dramPlus__Offloaded__dramBank0__Offloaded__dramBank0 child dramBank0
+Design hierarchy --- parent dramBank0 child 
+Design hierarchy --- parent dramBank0 child 
+Design hierarchy --- parent dramBank0 child 
+Design hierarchy --- parent dramPlus__Offloaded__dramBank1__Offloaded__dramBank1 child dramBank1
+Design hierarchy --- parent dramBank1 child 
+Design hierarchy --- parent dramBank1 child 
+Design hierarchy --- parent dramBank1 child 
+Design hierarchy --- parent dramPlus__Offloaded__dramBank2__Offloaded__dramBank2 child dramBank2
+Design hierarchy --- parent dramBank2 child 
+Design hierarchy --- parent dramBank2 child 
+Design hierarchy --- parent dramBank2 child 
+Design hierarchy --- parent dramPlus__Offloaded__dramBank3__Offloaded__dramBank3 child dramBank3
+Design hierarchy --- parent dramBank3 child 
+Design hierarchy --- parent dramBank3 child 
+Design hierarchy --- parent dramBank3 child 
+Design hierarchy --- parent dramPlus__Offloaded__dramBank4__Offloaded__dramBank4 child dramBank4
+Design hierarchy --- parent dramBank4 child 
+Design hierarchy --- parent dramBank4 child 
+Design hierarchy --- parent dramBank4 child 
+Design hierarchy --- parent dramPlus__Offloaded__dramBank5__Offloaded__dramBank5 child dramBank5
+Design hierarchy --- parent dramBank5 child 
+Design hierarchy --- parent dramBank5 child 
+Design hierarchy --- parent dramBank5 child 
+Design hierarchy --- parent dramPlus__Offloaded__dramBank6__Offloaded__dramBank6 child dramBank6
+Design hierarchy --- parent dramBank6 child 
+Design hierarchy --- parent dramBank6 child 
+Design hierarchy --- parent dramBank6 child 
+Design hierarchy --- parent dramPlus__Offloaded__dramBank7__Offloaded__dramBank7 child dramBank7
+Design hierarchy --- parent dramBank7 child 
+Design hierarchy --- parent dramBank7 child 
+Design hierarchy --- parent dramBank7 child 
+Design hierarchy --- parent result__Offloaded__dram child cachePlus__Offloaded__cacheMissPipe
+Design hierarchy --- parent cachePlus__Offloaded__cacheMissPipe child cache
+Design hierarchy --- parent cache child 
+Design hierarchy --- parent cache child 
+Design hierarchy --- parent cache child 
+Design hierarchy --- parent cachePlus__Offloaded__cacheMissPipe child gPipe
+Design hierarchy --- parent result__Offloaded__dram child dramPlus__Offloaded__dramBank7__Offloaded__dramBank7
+Design hierarchy --- parent dramPlus__Offloaded__dramBank7__Offloaded__dramBank7 child dramPlus__Offloaded__dramBank6__Offloaded__dramBank6
+Design hierarchy --- parent dramPlus__Offloaded__dramBank6__Offloaded__dramBank6 child dramPlus__Offloaded__dramBank5__Offloaded__dramBank5
+Design hierarchy --- parent dramPlus__Offloaded__dramBank5__Offloaded__dramBank5 child dramPlus__Offloaded__dramBank4__Offloaded__dramBank4
+Design hierarchy --- parent dramPlus__Offloaded__dramBank4__Offloaded__dramBank4 child dramPlus__Offloaded__dramBank3__Offloaded__dramBank3
+Design hierarchy --- parent dramPlus__Offloaded__dramBank3__Offloaded__dramBank3 child dramPlus__Offloaded__dramBank2__Offloaded__dramBank2
+Design hierarchy --- parent dramPlus__Offloaded__dramBank2__Offloaded__dramBank2 child dramPlus__Offloaded__dramBank1__Offloaded__dramBank1
+Design hierarchy --- parent dramPlus__Offloaded__dramBank1__Offloaded__dramBank1 child dramPlus__Offloaded__dramBank0__Offloaded__dramBank0
+Design hierarchy --- parent dramPlus__Offloaded__dramBank0__Offloaded__dramBank0 child dram
+Design hierarchy --- parent dram child 
+Design hierarchy --- parent dram child 
+Design hierarchy --- parent dram child 
+Design hierarchy --- parent dramPlus__Offloaded__dramBank0__Offloaded__dramBank0 child dramBank0
+Design hierarchy --- parent dramBank0 child 
+Design hierarchy --- parent dramBank0 child 
+Design hierarchy --- parent dramBank0 child 
+Design hierarchy --- parent dramPlus__Offloaded__dramBank1__Offloaded__dramBank1 child dramBank1
+Design hierarchy --- parent dramBank1 child 
+Design hierarchy --- parent dramBank1 child 
+Design hierarchy --- parent dramBank1 child 
+Design hierarchy --- parent dramPlus__Offloaded__dramBank2__Offloaded__dramBank2 child dramBank2
+Design hierarchy --- parent dramBank2 child 
+Design hierarchy --- parent dramBank2 child 
+Design hierarchy --- parent dramBank2 child 
+Design hierarchy --- parent dramPlus__Offloaded__dramBank3__Offloaded__dramBank3 child dramBank3
+Design hierarchy --- parent dramBank3 child 
+Design hierarchy --- parent dramBank3 child 
+Design hierarchy --- parent dramBank3 child 
+Design hierarchy --- parent dramPlus__Offloaded__dramBank4__Offloaded__dramBank4 child dramBank4
+Design hierarchy --- parent dramBank4 child 
+Design hierarchy --- parent dramBank4 child 
+Design hierarchy --- parent dramBank4 child 
+Design hierarchy --- parent dramPlus__Offloaded__dramBank5__Offloaded__dramBank5 child dramBank5
+Design hierarchy --- parent dramBank5 child 
+Design hierarchy --- parent dramBank5 child 
+Design hierarchy --- parent dramBank5 child 
+Design hierarchy --- parent dramPlus__Offloaded__dramBank6__Offloaded__dramBank6 child dramBank6
+Design hierarchy --- parent dramBank6 child 
+Design hierarchy --- parent dramBank6 child 
+Design hierarchy --- parent dramBank6 child 
+Design hierarchy --- parent dramPlus__Offloaded__dramBank7__Offloaded__dramBank7 child dramBank7
+Design hierarchy --- parent dramBank7 child 
+Design hierarchy --- parent dramBank7 child 
+Design hierarchy --- parent dramBank7 child 
+Design hierarchy --- parent ugPlus1__Offloaded__mem child xx3__Offloaded__rankCalc
+Design hierarchy --- parent xx3__Offloaded__rankCalc child xx7__Replicated
+Design hierarchy --- parent xx7__Replicated child ug
+Design hierarchy --- parent ug child 
+Design hierarchy --- parent ug child 
+Design hierarchy --- parent ug child 
+Design hierarchy --- parent xx7__Replicated child ug
+Design hierarchy --- parent ug child 
+Design hierarchy --- parent ug child 
+Design hierarchy --- parent ug child 
+Design hierarchy --- parent xx7__Replicated child RRDistributorComponent
+Design hierarchy --- parent RRDistributorComponent child gRRDistributor
+Design hierarchy --- parent xx7__Replicated child RRAggregatorComponent_1
+Design hierarchy --- parent RRAggregatorComponent_1 child gRRArbiter
+Design hierarchy --- parent xx7__Replicated child gTaggedRRArbiter
+Design hierarchy --- parent xx7__Replicated child gTaggedRRArbiter_1
+Design hierarchy --- parent xx7__Replicated child 
+Design hierarchy --- parent xx7__Replicated child 
+Design hierarchy --- parent xx3__Offloaded__rankCalc child rc2__Offloaded__div__Offloaded__div
+Design hierarchy --- parent rc2__Offloaded__div__Offloaded__div child rc2__Offloaded__mul__Offloaded__mul
+Design hierarchy --- parent rc2__Offloaded__mul__Offloaded__mul child xx2
+Design hierarchy --- parent xx2 child 
+Design hierarchy --- parent xx2 child 
+Design hierarchy --- parent xx2 child 
+Design hierarchy --- parent xx2 child 
+Design hierarchy --- parent rc2__Offloaded__mul__Offloaded__mul child mul2
+Design hierarchy --- parent rc2__Offloaded__div__Offloaded__div child div2
+Design hierarchy --- parent ugPlus1__Offloaded__mem child prMem
+Design hierarchy --- parent prMem child result__Offloaded__dram
+Design hierarchy --- parent result__Offloaded__dram child cachePlus__Offloaded__cacheMissPipe
+Design hierarchy --- parent cachePlus__Offloaded__cacheMissPipe child cache
+Design hierarchy --- parent cache child 
+Design hierarchy --- parent cache child 
+Design hierarchy --- parent cache child 
+Design hierarchy --- parent cachePlus__Offloaded__cacheMissPipe child gPipe
+Design hierarchy --- parent result__Offloaded__dram child dramPlus__Offloaded__dramBank7__Offloaded__dramBank7
+Design hierarchy --- parent dramPlus__Offloaded__dramBank7__Offloaded__dramBank7 child dramPlus__Offloaded__dramBank6__Offloaded__dramBank6
+Design hierarchy --- parent dramPlus__Offloaded__dramBank6__Offloaded__dramBank6 child dramPlus__Offloaded__dramBank5__Offloaded__dramBank5
+Design hierarchy --- parent dramPlus__Offloaded__dramBank5__Offloaded__dramBank5 child dramPlus__Offloaded__dramBank4__Offloaded__dramBank4
+Design hierarchy --- parent dramPlus__Offloaded__dramBank4__Offloaded__dramBank4 child dramPlus__Offloaded__dramBank3__Offloaded__dramBank3
+Design hierarchy --- parent dramPlus__Offloaded__dramBank3__Offloaded__dramBank3 child dramPlus__Offloaded__dramBank2__Offloaded__dramBank2
+Design hierarchy --- parent dramPlus__Offloaded__dramBank2__Offloaded__dramBank2 child dramPlus__Offloaded__dramBank1__Offloaded__dramBank1
+Design hierarchy --- parent dramPlus__Offloaded__dramBank1__Offloaded__dramBank1 child dramPlus__Offloaded__dramBank0__Offloaded__dramBank0
+Design hierarchy --- parent dramPlus__Offloaded__dramBank0__Offloaded__dramBank0 child dram
+Design hierarchy --- parent dram child 
+Design hierarchy --- parent dram child 
+Design hierarchy --- parent dram child 
+Design hierarchy --- parent dramPlus__Offloaded__dramBank0__Offloaded__dramBank0 child dramBank0
+Design hierarchy --- parent dramBank0 child 
+Design hierarchy --- parent dramBank0 child 
+Design hierarchy --- parent dramBank0 child 
+Design hierarchy --- parent dramPlus__Offloaded__dramBank1__Offloaded__dramBank1 child dramBank1
+Design hierarchy --- parent dramBank1 child 
+Design hierarchy --- parent dramBank1 child 
+Design hierarchy --- parent dramBank1 child 
+Design hierarchy --- parent dramPlus__Offloaded__dramBank2__Offloaded__dramBank2 child dramBank2
+Design hierarchy --- parent dramBank2 child 
+Design hierarchy --- parent dramBank2 child 
+Design hierarchy --- parent dramBank2 child 
+Design hierarchy --- parent dramPlus__Offloaded__dramBank3__Offloaded__dramBank3 child dramBank3
+Design hierarchy --- parent dramBank3 child 
+Design hierarchy --- parent dramBank3 child 
+Design hierarchy --- parent dramBank3 child 
+Design hierarchy --- parent dramPlus__Offloaded__dramBank4__Offloaded__dramBank4 child dramBank4
+Design hierarchy --- parent dramBank4 child 
+Design hierarchy --- parent dramBank4 child 
+Design hierarchy --- parent dramBank4 child 
+Design hierarchy --- parent dramPlus__Offloaded__dramBank5__Offloaded__dramBank5 child dramBank5
+Design hierarchy --- parent dramBank5 child 
+Design hierarchy --- parent dramBank5 child 
+Design hierarchy --- parent dramBank5 child 
+Design hierarchy --- parent dramPlus__Offloaded__dramBank6__Offloaded__dramBank6 child dramBank6
+Design hierarchy --- parent dramBank6 child 
+Design hierarchy --- parent dramBank6 child 
+Design hierarchy --- parent dramBank6 child 
+Design hierarchy --- parent dramPlus__Offloaded__dramBank7__Offloaded__dramBank7 child dramBank7
+Design hierarchy --- parent dramBank7 child 
+Design hierarchy --- parent dramBank7 child 
+Design hierarchy --- parent dramBank7 child 
+PCREPORT: module uwPlus1__Offloaded__add__Offloaded__add registered for pc moduleId is 34
+PCREPORT: PC is registered name: in type 1 moduleId 34 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 34 portId 2
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 34 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 34 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 34 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 34 portId 0
+PCREPORT: module uwPlus1__Offloaded__mem__Offloaded__mem registered for pc moduleId is 35
+PCREPORT: PC is registered name: in type 1 moduleId 35 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 35 portId 2
+PCREPORT: PC is registered name: add type 1 moduleId 35 portId 3
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 35 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 35 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 35 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 35 portId 0
+PCREPORT: module uwPlus1__Offloaded__lock__Offloaded__lock registered for pc moduleId is 36
+PCREPORT: PC is registered name: in type 1 moduleId 36 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 36 portId 2
+PCREPORT: PC is registered name: mem type 1 moduleId 36 portId 3
+PCREPORT: PC is registered name: add type 1 moduleId 36 portId 4
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 36 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 36 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 36 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 36 portId 0
+PCREPORT: module xx5__Replicated registered for pc moduleId is 37
+PCREPORT: PC is registered name: in type 1 moduleId 37 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 37 portId 2
+PCREPORT: PC is registered name: mem type 1 moduleId 37 portId 3
+PCREPORT: PC is registered name: lock type 1 moduleId 37 portId 4
+PCREPORT: PC is registered name: add type 1 moduleId 37 portId 5
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 37 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 37 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 37 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 37 portId 0
+PCREPORT: module uw registered for pc moduleId is 38
+PCREPORT: PC is registered name: in type 1 moduleId 38 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 38 portId 2
+PCREPORT: PC is registered name: mem type 1 moduleId 38 portId 3
+PCREPORT: PC is registered name: lock type 1 moduleId 38 portId 4
+PCREPORT: PC is registered name: add type 1 moduleId 38 portId 5
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 38 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 38 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 38 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 38 portId 0
+PCREPORT: module uw registered for pc moduleId is 39
+PCREPORT: PC is registered name: in type 1 moduleId 39 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 39 portId 2
+PCREPORT: PC is registered name: mem type 1 moduleId 39 portId 3
+PCREPORT: PC is registered name: lock type 1 moduleId 39 portId 4
+PCREPORT: PC is registered name: add type 1 moduleId 39 portId 5
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 39 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 39 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 39 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 39 portId 0
+PCREPORT: module uw registered for pc moduleId is 40
+PCREPORT: PC is registered name: in type 1 moduleId 40 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 40 portId 2
+PCREPORT: PC is registered name: mem type 1 moduleId 40 portId 3
+PCREPORT: PC is registered name: lock type 1 moduleId 40 portId 4
+PCREPORT: PC is registered name: add type 1 moduleId 40 portId 5
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 40 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 40 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 40 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 40 portId 0
+PCREPORT: module uw registered for pc moduleId is 41
+PCREPORT: PC is registered name: in type 1 moduleId 41 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 41 portId 2
+PCREPORT: PC is registered name: mem type 1 moduleId 41 portId 3
+PCREPORT: PC is registered name: lock type 1 moduleId 41 portId 4
+PCREPORT: PC is registered name: add type 1 moduleId 41 portId 5
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 41 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 41 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 41 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 41 portId 0
+Design hierarchy --- parent xx5__Replicated child uw
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent xx5__Replicated child uw
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent xx5__Replicated child uw
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent xx5__Replicated child uw
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent xx5__Replicated child RRDistributorComponent_1
+Design hierarchy --- parent RRDistributorComponent_1 child gRRDistributor_1
+Design hierarchy --- parent xx5__Replicated child RRAggregatorComponent_3
+Design hierarchy --- parent RRAggregatorComponent_3 child gRRArbiter_1
+Design hierarchy --- parent xx5__Replicated child gTaggedRRArbiter_2
+Design hierarchy --- parent xx5__Replicated child gTaggedRRArbiter_3
+Design hierarchy --- parent xx5__Replicated child gTaggedRRArbiter_4
+Design hierarchy --- parent xx5__Replicated child 
+Design hierarchy --- parent xx5__Replicated child 
+Design hierarchy --- parent xx5__Replicated child 
+PCREPORT: module lock registered for pc moduleId is 42
+PCREPORT: PC is registered name: in type 1 moduleId 42 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 42 portId 2
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 42 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 42 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 42 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 42 portId 0
+Design hierarchy --- parent uwPlus1__Offloaded__lock__Offloaded__lock child xx5__Replicated
+Design hierarchy --- parent xx5__Replicated child uw
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent xx5__Replicated child uw
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent xx5__Replicated child uw
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent xx5__Replicated child uw
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent xx5__Replicated child RRDistributorComponent_1
+Design hierarchy --- parent RRDistributorComponent_1 child gRRDistributor_1
+Design hierarchy --- parent xx5__Replicated child RRAggregatorComponent_3
+Design hierarchy --- parent RRAggregatorComponent_3 child gRRArbiter_1
+Design hierarchy --- parent xx5__Replicated child gTaggedRRArbiter_2
+Design hierarchy --- parent xx5__Replicated child gTaggedRRArbiter_3
+Design hierarchy --- parent xx5__Replicated child gTaggedRRArbiter_4
+Design hierarchy --- parent xx5__Replicated child 
+Design hierarchy --- parent xx5__Replicated child 
+Design hierarchy --- parent xx5__Replicated child 
+Design hierarchy --- parent uwPlus1__Offloaded__lock__Offloaded__lock child lock
+PCREPORT: module prMem registered for pc moduleId is 43
+PCREPORT: PC is registered name: in type 1 moduleId 43 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 43 portId 2
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 43 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 43 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 43 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 43 portId 0
+PCREPORT: module result__Offloaded__dram registered for pc moduleId is 44
+PCREPORT: PC is registered name: in type 1 moduleId 44 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 44 portId 2
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 44 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 44 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 44 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 44 portId 0
+PCREPORT: module cachePlus__Offloaded__cacheMissPipe registered for pc moduleId is 45
+PCREPORT: PC is registered name: in type 1 moduleId 45 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 45 portId 2
+PCREPORT: PC is registered name: dram type 1 moduleId 45 portId 3
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 45 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 45 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 45 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 45 portId 0
+PCREPORT: module cache registered for pc moduleId is 46
+PCREPORT: PC is registered name: in type 1 moduleId 46 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 46 portId 2
+PCREPORT: PC is registered name: cacheMissPipe type 1 moduleId 46 portId 3
+PCREPORT: PC is registered name: dram type 1 moduleId 46 portId 4
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 46 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 46 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 46 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 46 portId 0
+PCREPORT: module gPipe_1 registered for pc moduleId is 47
+PCREPORT: PC is registered name: in type 1 moduleId 47 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 47 portId 2
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 47 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 47 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 47 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 47 portId 0
+Design hierarchy --- parent cachePlus__Offloaded__cacheMissPipe child cache
+Design hierarchy --- parent cache child 
+Design hierarchy --- parent cache child 
+Design hierarchy --- parent cache child 
+Design hierarchy --- parent cachePlus__Offloaded__cacheMissPipe child gPipe_1
+PCREPORT: module dramPlus__Offloaded__dramBank7__Offloaded__dramBank7 registered for pc moduleId is 48
+PCREPORT: PC is registered name: in type 1 moduleId 48 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 48 portId 2
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 48 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 48 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 48 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 48 portId 0
+PCREPORT: module dramPlus__Offloaded__dramBank6__Offloaded__dramBank6 registered for pc moduleId is 49
+PCREPORT: PC is registered name: in type 1 moduleId 49 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 49 portId 2
+PCREPORT: PC is registered name: dramBank7 type 1 moduleId 49 portId 3
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 49 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 49 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 49 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 49 portId 0
+PCREPORT: module dramPlus__Offloaded__dramBank5__Offloaded__dramBank5 registered for pc moduleId is 50
+PCREPORT: PC is registered name: in type 1 moduleId 50 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 50 portId 2
+PCREPORT: PC is registered name: dramBank6 type 1 moduleId 50 portId 3
+PCREPORT: PC is registered name: dramBank7 type 1 moduleId 50 portId 4
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 50 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 50 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 50 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 50 portId 0
+PCREPORT: module dramPlus__Offloaded__dramBank4__Offloaded__dramBank4 registered for pc moduleId is 51
+PCREPORT: PC is registered name: in type 1 moduleId 51 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 51 portId 2
+PCREPORT: PC is registered name: dramBank5 type 1 moduleId 51 portId 3
+PCREPORT: PC is registered name: dramBank6 type 1 moduleId 51 portId 4
+PCREPORT: PC is registered name: dramBank7 type 1 moduleId 51 portId 5
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 51 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 51 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 51 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 51 portId 0
+PCREPORT: module dramPlus__Offloaded__dramBank3__Offloaded__dramBank3 registered for pc moduleId is 52
+PCREPORT: PC is registered name: in type 1 moduleId 52 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 52 portId 2
+PCREPORT: PC is registered name: dramBank4 type 1 moduleId 52 portId 3
+PCREPORT: PC is registered name: dramBank5 type 1 moduleId 52 portId 4
+PCREPORT: PC is registered name: dramBank6 type 1 moduleId 52 portId 5
+PCREPORT: PC is registered name: dramBank7 type 1 moduleId 52 portId 6
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 52 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 52 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 52 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 52 portId 0
+PCREPORT: module dramPlus__Offloaded__dramBank2__Offloaded__dramBank2 registered for pc moduleId is 53
+PCREPORT: PC is registered name: in type 1 moduleId 53 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 53 portId 2
+PCREPORT: PC is registered name: dramBank3 type 1 moduleId 53 portId 3
+PCREPORT: PC is registered name: dramBank4 type 1 moduleId 53 portId 4
+PCREPORT: PC is registered name: dramBank5 type 1 moduleId 53 portId 5
+PCREPORT: PC is registered name: dramBank6 type 1 moduleId 53 portId 6
+PCREPORT: PC is registered name: dramBank7 type 1 moduleId 53 portId 7
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 53 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 53 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 53 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 53 portId 0
+PCREPORT: module dramPlus__Offloaded__dramBank1__Offloaded__dramBank1 registered for pc moduleId is 54
+PCREPORT: PC is registered name: in type 1 moduleId 54 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 54 portId 2
+PCREPORT: PC is registered name: dramBank2 type 1 moduleId 54 portId 3
+PCREPORT: PC is registered name: dramBank3 type 1 moduleId 54 portId 4
+PCREPORT: PC is registered name: dramBank4 type 1 moduleId 54 portId 5
+PCREPORT: PC is registered name: dramBank5 type 1 moduleId 54 portId 6
+PCREPORT: PC is registered name: dramBank6 type 1 moduleId 54 portId 7
+PCREPORT: PC is registered name: dramBank7 type 1 moduleId 54 portId 8
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 54 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 54 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 54 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 54 portId 0
+PCREPORT: module dramPlus__Offloaded__dramBank0__Offloaded__dramBank0 registered for pc moduleId is 55
+PCREPORT: PC is registered name: in type 1 moduleId 55 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 55 portId 2
+PCREPORT: PC is registered name: dramBank1 type 1 moduleId 55 portId 3
+PCREPORT: PC is registered name: dramBank2 type 1 moduleId 55 portId 4
+PCREPORT: PC is registered name: dramBank3 type 1 moduleId 55 portId 5
+PCREPORT: PC is registered name: dramBank4 type 1 moduleId 55 portId 6
+PCREPORT: PC is registered name: dramBank5 type 1 moduleId 55 portId 7
+PCREPORT: PC is registered name: dramBank6 type 1 moduleId 55 portId 8
+PCREPORT: PC is registered name: dramBank7 type 1 moduleId 55 portId 9
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 55 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 55 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 55 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 55 portId 0
+PCREPORT: module dram registered for pc moduleId is 56
+PCREPORT: PC is registered name: in type 1 moduleId 56 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 56 portId 2
+PCREPORT: PC is registered name: dramBank0 type 1 moduleId 56 portId 3
+PCREPORT: PC is registered name: dramBank1 type 1 moduleId 56 portId 4
+PCREPORT: PC is registered name: dramBank2 type 1 moduleId 56 portId 5
+PCREPORT: PC is registered name: dramBank3 type 1 moduleId 56 portId 6
+PCREPORT: PC is registered name: dramBank4 type 1 moduleId 56 portId 7
+PCREPORT: PC is registered name: dramBank5 type 1 moduleId 56 portId 8
+PCREPORT: PC is registered name: dramBank6 type 1 moduleId 56 portId 9
+PCREPORT: PC is registered name: dramBank7 type 1 moduleId 56 portId 10
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 56 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 56 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 56 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 56 portId 0
+PCREPORT: module dramBank0 registered for pc moduleId is 57
+PCREPORT: PC is registered name: in type 1 moduleId 57 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 57 portId 2
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 57 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 57 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 57 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 57 portId 0
+Design hierarchy --- parent dramPlus__Offloaded__dramBank0__Offloaded__dramBank0 child dram
+Design hierarchy --- parent dram child 
+Design hierarchy --- parent dram child 
+Design hierarchy --- parent dram child 
+Design hierarchy --- parent dramPlus__Offloaded__dramBank0__Offloaded__dramBank0 child dramBank0
+Design hierarchy --- parent dramBank0 child 
+Design hierarchy --- parent dramBank0 child 
+Design hierarchy --- parent dramBank0 child 
+PCREPORT: module dramBank1 registered for pc moduleId is 58
+PCREPORT: PC is registered name: in type 1 moduleId 58 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 58 portId 2
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 58 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 58 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 58 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 58 portId 0
+Design hierarchy --- parent dramPlus__Offloaded__dramBank1__Offloaded__dramBank1 child dramPlus__Offloaded__dramBank0__Offloaded__dramBank0
+Design hierarchy --- parent dramPlus__Offloaded__dramBank0__Offloaded__dramBank0 child dram
+Design hierarchy --- parent dram child 
+Design hierarchy --- parent dram child 
+Design hierarchy --- parent dram child 
+Design hierarchy --- parent dramPlus__Offloaded__dramBank0__Offloaded__dramBank0 child dramBank0
+Design hierarchy --- parent dramBank0 child 
+Design hierarchy --- parent dramBank0 child 
+Design hierarchy --- parent dramBank0 child 
+Design hierarchy --- parent dramPlus__Offloaded__dramBank1__Offloaded__dramBank1 child dramBank1
+Design hierarchy --- parent dramBank1 child 
+Design hierarchy --- parent dramBank1 child 
+Design hierarchy --- parent dramBank1 child 
+PCREPORT: module dramBank2 registered for pc moduleId is 59
+PCREPORT: PC is registered name: in type 1 moduleId 59 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 59 portId 2
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 59 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 59 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 59 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 59 portId 0
+Design hierarchy --- parent dramPlus__Offloaded__dramBank2__Offloaded__dramBank2 child dramPlus__Offloaded__dramBank1__Offloaded__dramBank1
+Design hierarchy --- parent dramPlus__Offloaded__dramBank1__Offloaded__dramBank1 child dramPlus__Offloaded__dramBank0__Offloaded__dramBank0
+Design hierarchy --- parent dramPlus__Offloaded__dramBank0__Offloaded__dramBank0 child dram
+Design hierarchy --- parent dram child 
+Design hierarchy --- parent dram child 
+Design hierarchy --- parent dram child 
+Design hierarchy --- parent dramPlus__Offloaded__dramBank0__Offloaded__dramBank0 child dramBank0
+Design hierarchy --- parent dramBank0 child 
+Design hierarchy --- parent dramBank0 child 
+Design hierarchy --- parent dramBank0 child 
+Design hierarchy --- parent dramPlus__Offloaded__dramBank1__Offloaded__dramBank1 child dramBank1
+Design hierarchy --- parent dramBank1 child 
+Design hierarchy --- parent dramBank1 child 
+Design hierarchy --- parent dramBank1 child 
+Design hierarchy --- parent dramPlus__Offloaded__dramBank2__Offloaded__dramBank2 child dramBank2
+Design hierarchy --- parent dramBank2 child 
+Design hierarchy --- parent dramBank2 child 
+Design hierarchy --- parent dramBank2 child 
+PCREPORT: module dramBank3 registered for pc moduleId is 60
+PCREPORT: PC is registered name: in type 1 moduleId 60 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 60 portId 2
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 60 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 60 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 60 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 60 portId 0
+Design hierarchy --- parent dramPlus__Offloaded__dramBank3__Offloaded__dramBank3 child dramPlus__Offloaded__dramBank2__Offloaded__dramBank2
+Design hierarchy --- parent dramPlus__Offloaded__dramBank2__Offloaded__dramBank2 child dramPlus__Offloaded__dramBank1__Offloaded__dramBank1
+Design hierarchy --- parent dramPlus__Offloaded__dramBank1__Offloaded__dramBank1 child dramPlus__Offloaded__dramBank0__Offloaded__dramBank0
+Design hierarchy --- parent dramPlus__Offloaded__dramBank0__Offloaded__dramBank0 child dram
+Design hierarchy --- parent dram child 
+Design hierarchy --- parent dram child 
+Design hierarchy --- parent dram child 
+Design hierarchy --- parent dramPlus__Offloaded__dramBank0__Offloaded__dramBank0 child dramBank0
+Design hierarchy --- parent dramBank0 child 
+Design hierarchy --- parent dramBank0 child 
+Design hierarchy --- parent dramBank0 child 
+Design hierarchy --- parent dramPlus__Offloaded__dramBank1__Offloaded__dramBank1 child dramBank1
+Design hierarchy --- parent dramBank1 child 
+Design hierarchy --- parent dramBank1 child 
+Design hierarchy --- parent dramBank1 child 
+Design hierarchy --- parent dramPlus__Offloaded__dramBank2__Offloaded__dramBank2 child dramBank2
+Design hierarchy --- parent dramBank2 child 
+Design hierarchy --- parent dramBank2 child 
+Design hierarchy --- parent dramBank2 child 
+Design hierarchy --- parent dramPlus__Offloaded__dramBank3__Offloaded__dramBank3 child dramBank3
+Design hierarchy --- parent dramBank3 child 
+Design hierarchy --- parent dramBank3 child 
+Design hierarchy --- parent dramBank3 child 
+PCREPORT: module dramBank4 registered for pc moduleId is 61
+PCREPORT: PC is registered name: in type 1 moduleId 61 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 61 portId 2
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 61 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 61 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 61 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 61 portId 0
+Design hierarchy --- parent dramPlus__Offloaded__dramBank4__Offloaded__dramBank4 child dramPlus__Offloaded__dramBank3__Offloaded__dramBank3
+Design hierarchy --- parent dramPlus__Offloaded__dramBank3__Offloaded__dramBank3 child dramPlus__Offloaded__dramBank2__Offloaded__dramBank2
+Design hierarchy --- parent dramPlus__Offloaded__dramBank2__Offloaded__dramBank2 child dramPlus__Offloaded__dramBank1__Offloaded__dramBank1
+Design hierarchy --- parent dramPlus__Offloaded__dramBank1__Offloaded__dramBank1 child dramPlus__Offloaded__dramBank0__Offloaded__dramBank0
+Design hierarchy --- parent dramPlus__Offloaded__dramBank0__Offloaded__dramBank0 child dram
+Design hierarchy --- parent dram child 
+Design hierarchy --- parent dram child 
+Design hierarchy --- parent dram child 
+Design hierarchy --- parent dramPlus__Offloaded__dramBank0__Offloaded__dramBank0 child dramBank0
+Design hierarchy --- parent dramBank0 child 
+Design hierarchy --- parent dramBank0 child 
+Design hierarchy --- parent dramBank0 child 
+Design hierarchy --- parent dramPlus__Offloaded__dramBank1__Offloaded__dramBank1 child dramBank1
+Design hierarchy --- parent dramBank1 child 
+Design hierarchy --- parent dramBank1 child 
+Design hierarchy --- parent dramBank1 child 
+Design hierarchy --- parent dramPlus__Offloaded__dramBank2__Offloaded__dramBank2 child dramBank2
+Design hierarchy --- parent dramBank2 child 
+Design hierarchy --- parent dramBank2 child 
+Design hierarchy --- parent dramBank2 child 
+Design hierarchy --- parent dramPlus__Offloaded__dramBank3__Offloaded__dramBank3 child dramBank3
+Design hierarchy --- parent dramBank3 child 
+Design hierarchy --- parent dramBank3 child 
+Design hierarchy --- parent dramBank3 child 
+Design hierarchy --- parent dramPlus__Offloaded__dramBank4__Offloaded__dramBank4 child dramBank4
+Design hierarchy --- parent dramBank4 child 
+Design hierarchy --- parent dramBank4 child 
+Design hierarchy --- parent dramBank4 child 
+PCREPORT: module dramBank5 registered for pc moduleId is 62
+PCREPORT: PC is registered name: in type 1 moduleId 62 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 62 portId 2
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 62 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 62 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 62 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 62 portId 0
+Design hierarchy --- parent dramPlus__Offloaded__dramBank5__Offloaded__dramBank5 child dramPlus__Offloaded__dramBank4__Offloaded__dramBank4
+Design hierarchy --- parent dramPlus__Offloaded__dramBank4__Offloaded__dramBank4 child dramPlus__Offloaded__dramBank3__Offloaded__dramBank3
+Design hierarchy --- parent dramPlus__Offloaded__dramBank3__Offloaded__dramBank3 child dramPlus__Offloaded__dramBank2__Offloaded__dramBank2
+Design hierarchy --- parent dramPlus__Offloaded__dramBank2__Offloaded__dramBank2 child dramPlus__Offloaded__dramBank1__Offloaded__dramBank1
+Design hierarchy --- parent dramPlus__Offloaded__dramBank1__Offloaded__dramBank1 child dramPlus__Offloaded__dramBank0__Offloaded__dramBank0
+Design hierarchy --- parent dramPlus__Offloaded__dramBank0__Offloaded__dramBank0 child dram
+Design hierarchy --- parent dram child 
+Design hierarchy --- parent dram child 
+Design hierarchy --- parent dram child 
+Design hierarchy --- parent dramPlus__Offloaded__dramBank0__Offloaded__dramBank0 child dramBank0
+Design hierarchy --- parent dramBank0 child 
+Design hierarchy --- parent dramBank0 child 
+Design hierarchy --- parent dramBank0 child 
+Design hierarchy --- parent dramPlus__Offloaded__dramBank1__Offloaded__dramBank1 child dramBank1
+Design hierarchy --- parent dramBank1 child 
+Design hierarchy --- parent dramBank1 child 
+Design hierarchy --- parent dramBank1 child 
+Design hierarchy --- parent dramPlus__Offloaded__dramBank2__Offloaded__dramBank2 child dramBank2
+Design hierarchy --- parent dramBank2 child 
+Design hierarchy --- parent dramBank2 child 
+Design hierarchy --- parent dramBank2 child 
+Design hierarchy --- parent dramPlus__Offloaded__dramBank3__Offloaded__dramBank3 child dramBank3
+Design hierarchy --- parent dramBank3 child 
+Design hierarchy --- parent dramBank3 child 
+Design hierarchy --- parent dramBank3 child 
+Design hierarchy --- parent dramPlus__Offloaded__dramBank4__Offloaded__dramBank4 child dramBank4
+Design hierarchy --- parent dramBank4 child 
+Design hierarchy --- parent dramBank4 child 
+Design hierarchy --- parent dramBank4 child 
+Design hierarchy --- parent dramPlus__Offloaded__dramBank5__Offloaded__dramBank5 child dramBank5
+Design hierarchy --- parent dramBank5 child 
+Design hierarchy --- parent dramBank5 child 
+Design hierarchy --- parent dramBank5 child 
+PCREPORT: module dramBank6 registered for pc moduleId is 63
+PCREPORT: PC is registered name: in type 1 moduleId 63 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 63 portId 2
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 63 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 63 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 63 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 63 portId 0
+Design hierarchy --- parent dramPlus__Offloaded__dramBank6__Offloaded__dramBank6 child dramPlus__Offloaded__dramBank5__Offloaded__dramBank5
+Design hierarchy --- parent dramPlus__Offloaded__dramBank5__Offloaded__dramBank5 child dramPlus__Offloaded__dramBank4__Offloaded__dramBank4
+Design hierarchy --- parent dramPlus__Offloaded__dramBank4__Offloaded__dramBank4 child dramPlus__Offloaded__dramBank3__Offloaded__dramBank3
+Design hierarchy --- parent dramPlus__Offloaded__dramBank3__Offloaded__dramBank3 child dramPlus__Offloaded__dramBank2__Offloaded__dramBank2
+Design hierarchy --- parent dramPlus__Offloaded__dramBank2__Offloaded__dramBank2 child dramPlus__Offloaded__dramBank1__Offloaded__dramBank1
+Design hierarchy --- parent dramPlus__Offloaded__dramBank1__Offloaded__dramBank1 child dramPlus__Offloaded__dramBank0__Offloaded__dramBank0
+Design hierarchy --- parent dramPlus__Offloaded__dramBank0__Offloaded__dramBank0 child dram
+Design hierarchy --- parent dram child 
+Design hierarchy --- parent dram child 
+Design hierarchy --- parent dram child 
+Design hierarchy --- parent dramPlus__Offloaded__dramBank0__Offloaded__dramBank0 child dramBank0
+Design hierarchy --- parent dramBank0 child 
+Design hierarchy --- parent dramBank0 child 
+Design hierarchy --- parent dramBank0 child 
+Design hierarchy --- parent dramPlus__Offloaded__dramBank1__Offloaded__dramBank1 child dramBank1
+Design hierarchy --- parent dramBank1 child 
+Design hierarchy --- parent dramBank1 child 
+Design hierarchy --- parent dramBank1 child 
+Design hierarchy --- parent dramPlus__Offloaded__dramBank2__Offloaded__dramBank2 child dramBank2
+Design hierarchy --- parent dramBank2 child 
+Design hierarchy --- parent dramBank2 child 
+Design hierarchy --- parent dramBank2 child 
+Design hierarchy --- parent dramPlus__Offloaded__dramBank3__Offloaded__dramBank3 child dramBank3
+Design hierarchy --- parent dramBank3 child 
+Design hierarchy --- parent dramBank3 child 
+Design hierarchy --- parent dramBank3 child 
+Design hierarchy --- parent dramPlus__Offloaded__dramBank4__Offloaded__dramBank4 child dramBank4
+Design hierarchy --- parent dramBank4 child 
+Design hierarchy --- parent dramBank4 child 
+Design hierarchy --- parent dramBank4 child 
+Design hierarchy --- parent dramPlus__Offloaded__dramBank5__Offloaded__dramBank5 child dramBank5
+Design hierarchy --- parent dramBank5 child 
+Design hierarchy --- parent dramBank5 child 
+Design hierarchy --- parent dramBank5 child 
+Design hierarchy --- parent dramPlus__Offloaded__dramBank6__Offloaded__dramBank6 child dramBank6
+Design hierarchy --- parent dramBank6 child 
+Design hierarchy --- parent dramBank6 child 
+Design hierarchy --- parent dramBank6 child 
+PCREPORT: module dramBank7 registered for pc moduleId is 64
+PCREPORT: PC is registered name: in type 1 moduleId 64 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 64 portId 2
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 64 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 64 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 64 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 64 portId 0
+Design hierarchy --- parent dramPlus__Offloaded__dramBank7__Offloaded__dramBank7 child dramPlus__Offloaded__dramBank6__Offloaded__dramBank6
+Design hierarchy --- parent dramPlus__Offloaded__dramBank6__Offloaded__dramBank6 child dramPlus__Offloaded__dramBank5__Offloaded__dramBank5
+Design hierarchy --- parent dramPlus__Offloaded__dramBank5__Offloaded__dramBank5 child dramPlus__Offloaded__dramBank4__Offloaded__dramBank4
+Design hierarchy --- parent dramPlus__Offloaded__dramBank4__Offloaded__dramBank4 child dramPlus__Offloaded__dramBank3__Offloaded__dramBank3
+Design hierarchy --- parent dramPlus__Offloaded__dramBank3__Offloaded__dramBank3 child dramPlus__Offloaded__dramBank2__Offloaded__dramBank2
+Design hierarchy --- parent dramPlus__Offloaded__dramBank2__Offloaded__dramBank2 child dramPlus__Offloaded__dramBank1__Offloaded__dramBank1
+Design hierarchy --- parent dramPlus__Offloaded__dramBank1__Offloaded__dramBank1 child dramPlus__Offloaded__dramBank0__Offloaded__dramBank0
+Design hierarchy --- parent dramPlus__Offloaded__dramBank0__Offloaded__dramBank0 child dram
+Design hierarchy --- parent dram child 
+Design hierarchy --- parent dram child 
+Design hierarchy --- parent dram child 
+Design hierarchy --- parent dramPlus__Offloaded__dramBank0__Offloaded__dramBank0 child dramBank0
+Design hierarchy --- parent dramBank0 child 
+Design hierarchy --- parent dramBank0 child 
+Design hierarchy --- parent dramBank0 child 
+Design hierarchy --- parent dramPlus__Offloaded__dramBank1__Offloaded__dramBank1 child dramBank1
+Design hierarchy --- parent dramBank1 child 
+Design hierarchy --- parent dramBank1 child 
+Design hierarchy --- parent dramBank1 child 
+Design hierarchy --- parent dramPlus__Offloaded__dramBank2__Offloaded__dramBank2 child dramBank2
+Design hierarchy --- parent dramBank2 child 
+Design hierarchy --- parent dramBank2 child 
+Design hierarchy --- parent dramBank2 child 
+Design hierarchy --- parent dramPlus__Offloaded__dramBank3__Offloaded__dramBank3 child dramBank3
+Design hierarchy --- parent dramBank3 child 
+Design hierarchy --- parent dramBank3 child 
+Design hierarchy --- parent dramBank3 child 
+Design hierarchy --- parent dramPlus__Offloaded__dramBank4__Offloaded__dramBank4 child dramBank4
+Design hierarchy --- parent dramBank4 child 
+Design hierarchy --- parent dramBank4 child 
+Design hierarchy --- parent dramBank4 child 
+Design hierarchy --- parent dramPlus__Offloaded__dramBank5__Offloaded__dramBank5 child dramBank5
+Design hierarchy --- parent dramBank5 child 
+Design hierarchy --- parent dramBank5 child 
+Design hierarchy --- parent dramBank5 child 
+Design hierarchy --- parent dramPlus__Offloaded__dramBank6__Offloaded__dramBank6 child dramBank6
+Design hierarchy --- parent dramBank6 child 
+Design hierarchy --- parent dramBank6 child 
+Design hierarchy --- parent dramBank6 child 
+Design hierarchy --- parent dramPlus__Offloaded__dramBank7__Offloaded__dramBank7 child dramBank7
+Design hierarchy --- parent dramBank7 child 
+Design hierarchy --- parent dramBank7 child 
+Design hierarchy --- parent dramBank7 child 
+Design hierarchy --- parent result__Offloaded__dram child cachePlus__Offloaded__cacheMissPipe
+Design hierarchy --- parent cachePlus__Offloaded__cacheMissPipe child cache
+Design hierarchy --- parent cache child 
+Design hierarchy --- parent cache child 
+Design hierarchy --- parent cache child 
+Design hierarchy --- parent cachePlus__Offloaded__cacheMissPipe child gPipe_1
+Design hierarchy --- parent result__Offloaded__dram child dramPlus__Offloaded__dramBank7__Offloaded__dramBank7
+Design hierarchy --- parent dramPlus__Offloaded__dramBank7__Offloaded__dramBank7 child dramPlus__Offloaded__dramBank6__Offloaded__dramBank6
+Design hierarchy --- parent dramPlus__Offloaded__dramBank6__Offloaded__dramBank6 child dramPlus__Offloaded__dramBank5__Offloaded__dramBank5
+Design hierarchy --- parent dramPlus__Offloaded__dramBank5__Offloaded__dramBank5 child dramPlus__Offloaded__dramBank4__Offloaded__dramBank4
+Design hierarchy --- parent dramPlus__Offloaded__dramBank4__Offloaded__dramBank4 child dramPlus__Offloaded__dramBank3__Offloaded__dramBank3
+Design hierarchy --- parent dramPlus__Offloaded__dramBank3__Offloaded__dramBank3 child dramPlus__Offloaded__dramBank2__Offloaded__dramBank2
+Design hierarchy --- parent dramPlus__Offloaded__dramBank2__Offloaded__dramBank2 child dramPlus__Offloaded__dramBank1__Offloaded__dramBank1
+Design hierarchy --- parent dramPlus__Offloaded__dramBank1__Offloaded__dramBank1 child dramPlus__Offloaded__dramBank0__Offloaded__dramBank0
+Design hierarchy --- parent dramPlus__Offloaded__dramBank0__Offloaded__dramBank0 child dram
+Design hierarchy --- parent dram child 
+Design hierarchy --- parent dram child 
+Design hierarchy --- parent dram child 
+Design hierarchy --- parent dramPlus__Offloaded__dramBank0__Offloaded__dramBank0 child dramBank0
+Design hierarchy --- parent dramBank0 child 
+Design hierarchy --- parent dramBank0 child 
+Design hierarchy --- parent dramBank0 child 
+Design hierarchy --- parent dramPlus__Offloaded__dramBank1__Offloaded__dramBank1 child dramBank1
+Design hierarchy --- parent dramBank1 child 
+Design hierarchy --- parent dramBank1 child 
+Design hierarchy --- parent dramBank1 child 
+Design hierarchy --- parent dramPlus__Offloaded__dramBank2__Offloaded__dramBank2 child dramBank2
+Design hierarchy --- parent dramBank2 child 
+Design hierarchy --- parent dramBank2 child 
+Design hierarchy --- parent dramBank2 child 
+Design hierarchy --- parent dramPlus__Offloaded__dramBank3__Offloaded__dramBank3 child dramBank3
+Design hierarchy --- parent dramBank3 child 
+Design hierarchy --- parent dramBank3 child 
+Design hierarchy --- parent dramBank3 child 
+Design hierarchy --- parent dramPlus__Offloaded__dramBank4__Offloaded__dramBank4 child dramBank4
+Design hierarchy --- parent dramBank4 child 
+Design hierarchy --- parent dramBank4 child 
+Design hierarchy --- parent dramBank4 child 
+Design hierarchy --- parent dramPlus__Offloaded__dramBank5__Offloaded__dramBank5 child dramBank5
+Design hierarchy --- parent dramBank5 child 
+Design hierarchy --- parent dramBank5 child 
+Design hierarchy --- parent dramBank5 child 
+Design hierarchy --- parent dramPlus__Offloaded__dramBank6__Offloaded__dramBank6 child dramBank6
+Design hierarchy --- parent dramBank6 child 
+Design hierarchy --- parent dramBank6 child 
+Design hierarchy --- parent dramBank6 child 
+Design hierarchy --- parent dramPlus__Offloaded__dramBank7__Offloaded__dramBank7 child dramBank7
+Design hierarchy --- parent dramBank7 child 
+Design hierarchy --- parent dramBank7 child 
+Design hierarchy --- parent dramBank7 child 
+Design hierarchy --- parent uwPlus1__Offloaded__mem__Offloaded__mem child uwPlus1__Offloaded__lock__Offloaded__lock
+Design hierarchy --- parent uwPlus1__Offloaded__lock__Offloaded__lock child xx5__Replicated
+Design hierarchy --- parent xx5__Replicated child uw
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent xx5__Replicated child uw
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent xx5__Replicated child uw
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent xx5__Replicated child uw
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent xx5__Replicated child RRDistributorComponent_1
+Design hierarchy --- parent RRDistributorComponent_1 child gRRDistributor_1
+Design hierarchy --- parent xx5__Replicated child RRAggregatorComponent_3
+Design hierarchy --- parent RRAggregatorComponent_3 child gRRArbiter_1
+Design hierarchy --- parent xx5__Replicated child gTaggedRRArbiter_2
+Design hierarchy --- parent xx5__Replicated child gTaggedRRArbiter_3
+Design hierarchy --- parent xx5__Replicated child gTaggedRRArbiter_4
+Design hierarchy --- parent xx5__Replicated child 
+Design hierarchy --- parent xx5__Replicated child 
+Design hierarchy --- parent xx5__Replicated child 
+Design hierarchy --- parent uwPlus1__Offloaded__lock__Offloaded__lock child lock
+Design hierarchy --- parent uwPlus1__Offloaded__mem__Offloaded__mem child prMem
+Design hierarchy --- parent prMem child result__Offloaded__dram
+Design hierarchy --- parent result__Offloaded__dram child cachePlus__Offloaded__cacheMissPipe
+Design hierarchy --- parent cachePlus__Offloaded__cacheMissPipe child cache
+Design hierarchy --- parent cache child 
+Design hierarchy --- parent cache child 
+Design hierarchy --- parent cache child 
+Design hierarchy --- parent cachePlus__Offloaded__cacheMissPipe child gPipe_1
+Design hierarchy --- parent result__Offloaded__dram child dramPlus__Offloaded__dramBank7__Offloaded__dramBank7
+Design hierarchy --- parent dramPlus__Offloaded__dramBank7__Offloaded__dramBank7 child dramPlus__Offloaded__dramBank6__Offloaded__dramBank6
+Design hierarchy --- parent dramPlus__Offloaded__dramBank6__Offloaded__dramBank6 child dramPlus__Offloaded__dramBank5__Offloaded__dramBank5
+Design hierarchy --- parent dramPlus__Offloaded__dramBank5__Offloaded__dramBank5 child dramPlus__Offloaded__dramBank4__Offloaded__dramBank4
+Design hierarchy --- parent dramPlus__Offloaded__dramBank4__Offloaded__dramBank4 child dramPlus__Offloaded__dramBank3__Offloaded__dramBank3
+Design hierarchy --- parent dramPlus__Offloaded__dramBank3__Offloaded__dramBank3 child dramPlus__Offloaded__dramBank2__Offloaded__dramBank2
+Design hierarchy --- parent dramPlus__Offloaded__dramBank2__Offloaded__dramBank2 child dramPlus__Offloaded__dramBank1__Offloaded__dramBank1
+Design hierarchy --- parent dramPlus__Offloaded__dramBank1__Offloaded__dramBank1 child dramPlus__Offloaded__dramBank0__Offloaded__dramBank0
+Design hierarchy --- parent dramPlus__Offloaded__dramBank0__Offloaded__dramBank0 child dram
+Design hierarchy --- parent dram child 
+Design hierarchy --- parent dram child 
+Design hierarchy --- parent dram child 
+Design hierarchy --- parent dramPlus__Offloaded__dramBank0__Offloaded__dramBank0 child dramBank0
+Design hierarchy --- parent dramBank0 child 
+Design hierarchy --- parent dramBank0 child 
+Design hierarchy --- parent dramBank0 child 
+Design hierarchy --- parent dramPlus__Offloaded__dramBank1__Offloaded__dramBank1 child dramBank1
+Design hierarchy --- parent dramBank1 child 
+Design hierarchy --- parent dramBank1 child 
+Design hierarchy --- parent dramBank1 child 
+Design hierarchy --- parent dramPlus__Offloaded__dramBank2__Offloaded__dramBank2 child dramBank2
+Design hierarchy --- parent dramBank2 child 
+Design hierarchy --- parent dramBank2 child 
+Design hierarchy --- parent dramBank2 child 
+Design hierarchy --- parent dramPlus__Offloaded__dramBank3__Offloaded__dramBank3 child dramBank3
+Design hierarchy --- parent dramBank3 child 
+Design hierarchy --- parent dramBank3 child 
+Design hierarchy --- parent dramBank3 child 
+Design hierarchy --- parent dramPlus__Offloaded__dramBank4__Offloaded__dramBank4 child dramBank4
+Design hierarchy --- parent dramBank4 child 
+Design hierarchy --- parent dramBank4 child 
+Design hierarchy --- parent dramBank4 child 
+Design hierarchy --- parent dramPlus__Offloaded__dramBank5__Offloaded__dramBank5 child dramBank5
+Design hierarchy --- parent dramBank5 child 
+Design hierarchy --- parent dramBank5 child 
+Design hierarchy --- parent dramBank5 child 
+Design hierarchy --- parent dramPlus__Offloaded__dramBank6__Offloaded__dramBank6 child dramBank6
+Design hierarchy --- parent dramBank6 child 
+Design hierarchy --- parent dramBank6 child 
+Design hierarchy --- parent dramBank6 child 
+Design hierarchy --- parent dramPlus__Offloaded__dramBank7__Offloaded__dramBank7 child dramBank7
+Design hierarchy --- parent dramBank7 child 
+Design hierarchy --- parent dramBank7 child 
+Design hierarchy --- parent dramBank7 child 
+PCREPORT: module add2 registered for pc moduleId is 65
+PCREPORT: PC is registered name: in type 1 moduleId 65 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 65 portId 2
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 65 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 65 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 65 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 65 portId 0
+Design hierarchy --- parent uwPlus1__Offloaded__add__Offloaded__add child uwPlus1__Offloaded__mem__Offloaded__mem
+Design hierarchy --- parent uwPlus1__Offloaded__mem__Offloaded__mem child uwPlus1__Offloaded__lock__Offloaded__lock
+Design hierarchy --- parent uwPlus1__Offloaded__lock__Offloaded__lock child xx5__Replicated
+Design hierarchy --- parent xx5__Replicated child uw
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent xx5__Replicated child uw
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent xx5__Replicated child uw
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent xx5__Replicated child uw
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent xx5__Replicated child RRDistributorComponent_1
+Design hierarchy --- parent RRDistributorComponent_1 child gRRDistributor_1
+Design hierarchy --- parent xx5__Replicated child RRAggregatorComponent_3
+Design hierarchy --- parent RRAggregatorComponent_3 child gRRArbiter_1
+Design hierarchy --- parent xx5__Replicated child gTaggedRRArbiter_2
+Design hierarchy --- parent xx5__Replicated child gTaggedRRArbiter_3
+Design hierarchy --- parent xx5__Replicated child gTaggedRRArbiter_4
+Design hierarchy --- parent xx5__Replicated child 
+Design hierarchy --- parent xx5__Replicated child 
+Design hierarchy --- parent xx5__Replicated child 
+Design hierarchy --- parent uwPlus1__Offloaded__lock__Offloaded__lock child lock
+Design hierarchy --- parent uwPlus1__Offloaded__mem__Offloaded__mem child prMem
+Design hierarchy --- parent prMem child result__Offloaded__dram
+Design hierarchy --- parent result__Offloaded__dram child cachePlus__Offloaded__cacheMissPipe
+Design hierarchy --- parent cachePlus__Offloaded__cacheMissPipe child cache
+Design hierarchy --- parent cache child 
+Design hierarchy --- parent cache child 
+Design hierarchy --- parent cache child 
+Design hierarchy --- parent cachePlus__Offloaded__cacheMissPipe child gPipe_1
+Design hierarchy --- parent result__Offloaded__dram child dramPlus__Offloaded__dramBank7__Offloaded__dramBank7
+Design hierarchy --- parent dramPlus__Offloaded__dramBank7__Offloaded__dramBank7 child dramPlus__Offloaded__dramBank6__Offloaded__dramBank6
+Design hierarchy --- parent dramPlus__Offloaded__dramBank6__Offloaded__dramBank6 child dramPlus__Offloaded__dramBank5__Offloaded__dramBank5
+Design hierarchy --- parent dramPlus__Offloaded__dramBank5__Offloaded__dramBank5 child dramPlus__Offloaded__dramBank4__Offloaded__dramBank4
+Design hierarchy --- parent dramPlus__Offloaded__dramBank4__Offloaded__dramBank4 child dramPlus__Offloaded__dramBank3__Offloaded__dramBank3
+Design hierarchy --- parent dramPlus__Offloaded__dramBank3__Offloaded__dramBank3 child dramPlus__Offloaded__dramBank2__Offloaded__dramBank2
+Design hierarchy --- parent dramPlus__Offloaded__dramBank2__Offloaded__dramBank2 child dramPlus__Offloaded__dramBank1__Offloaded__dramBank1
+Design hierarchy --- parent dramPlus__Offloaded__dramBank1__Offloaded__dramBank1 child dramPlus__Offloaded__dramBank0__Offloaded__dramBank0
+Design hierarchy --- parent dramPlus__Offloaded__dramBank0__Offloaded__dramBank0 child dram
+Design hierarchy --- parent dram child 
+Design hierarchy --- parent dram child 
+Design hierarchy --- parent dram child 
+Design hierarchy --- parent dramPlus__Offloaded__dramBank0__Offloaded__dramBank0 child dramBank0
+Design hierarchy --- parent dramBank0 child 
+Design hierarchy --- parent dramBank0 child 
+Design hierarchy --- parent dramBank0 child 
+Design hierarchy --- parent dramPlus__Offloaded__dramBank1__Offloaded__dramBank1 child dramBank1
+Design hierarchy --- parent dramBank1 child 
+Design hierarchy --- parent dramBank1 child 
+Design hierarchy --- parent dramBank1 child 
+Design hierarchy --- parent dramPlus__Offloaded__dramBank2__Offloaded__dramBank2 child dramBank2
+Design hierarchy --- parent dramBank2 child 
+Design hierarchy --- parent dramBank2 child 
+Design hierarchy --- parent dramBank2 child 
+Design hierarchy --- parent dramPlus__Offloaded__dramBank3__Offloaded__dramBank3 child dramBank3
+Design hierarchy --- parent dramBank3 child 
+Design hierarchy --- parent dramBank3 child 
+Design hierarchy --- parent dramBank3 child 
+Design hierarchy --- parent dramPlus__Offloaded__dramBank4__Offloaded__dramBank4 child dramBank4
+Design hierarchy --- parent dramBank4 child 
+Design hierarchy --- parent dramBank4 child 
+Design hierarchy --- parent dramBank4 child 
+Design hierarchy --- parent dramPlus__Offloaded__dramBank5__Offloaded__dramBank5 child dramBank5
+Design hierarchy --- parent dramBank5 child 
+Design hierarchy --- parent dramBank5 child 
+Design hierarchy --- parent dramBank5 child 
+Design hierarchy --- parent dramPlus__Offloaded__dramBank6__Offloaded__dramBank6 child dramBank6
+Design hierarchy --- parent dramBank6 child 
+Design hierarchy --- parent dramBank6 child 
+Design hierarchy --- parent dramBank6 child 
+Design hierarchy --- parent dramPlus__Offloaded__dramBank7__Offloaded__dramBank7 child dramBank7
+Design hierarchy --- parent dramBank7 child 
+Design hierarchy --- parent dramBank7 child 
+Design hierarchy --- parent dramBank7 child 
+Design hierarchy --- parent uwPlus1__Offloaded__add__Offloaded__add child add2
+Design hierarchy --- parent result__Chained child ugPlus1__Offloaded__mem
+Design hierarchy --- parent ugPlus1__Offloaded__mem child xx3__Offloaded__rankCalc
+Design hierarchy --- parent xx3__Offloaded__rankCalc child xx7__Replicated
+Design hierarchy --- parent xx7__Replicated child ug
+Design hierarchy --- parent ug child 
+Design hierarchy --- parent ug child 
+Design hierarchy --- parent ug child 
+Design hierarchy --- parent xx7__Replicated child ug
+Design hierarchy --- parent ug child 
+Design hierarchy --- parent ug child 
+Design hierarchy --- parent ug child 
+Design hierarchy --- parent xx7__Replicated child RRDistributorComponent
+Design hierarchy --- parent RRDistributorComponent child gRRDistributor
+Design hierarchy --- parent xx7__Replicated child RRAggregatorComponent_1
+Design hierarchy --- parent RRAggregatorComponent_1 child gRRArbiter
+Design hierarchy --- parent xx7__Replicated child gTaggedRRArbiter
+Design hierarchy --- parent xx7__Replicated child gTaggedRRArbiter_1
+Design hierarchy --- parent xx7__Replicated child 
+Design hierarchy --- parent xx7__Replicated child 
+Design hierarchy --- parent xx3__Offloaded__rankCalc child rc2__Offloaded__div__Offloaded__div
+Design hierarchy --- parent rc2__Offloaded__div__Offloaded__div child rc2__Offloaded__mul__Offloaded__mul
+Design hierarchy --- parent rc2__Offloaded__mul__Offloaded__mul child xx2
+Design hierarchy --- parent xx2 child 
+Design hierarchy --- parent xx2 child 
+Design hierarchy --- parent xx2 child 
+Design hierarchy --- parent xx2 child 
+Design hierarchy --- parent rc2__Offloaded__mul__Offloaded__mul child mul2
+Design hierarchy --- parent rc2__Offloaded__div__Offloaded__div child div2
+Design hierarchy --- parent ugPlus1__Offloaded__mem child prMem
+Design hierarchy --- parent prMem child result__Offloaded__dram
+Design hierarchy --- parent result__Offloaded__dram child cachePlus__Offloaded__cacheMissPipe
+Design hierarchy --- parent cachePlus__Offloaded__cacheMissPipe child cache
+Design hierarchy --- parent cache child 
+Design hierarchy --- parent cache child 
+Design hierarchy --- parent cache child 
+Design hierarchy --- parent cachePlus__Offloaded__cacheMissPipe child gPipe
+Design hierarchy --- parent result__Offloaded__dram child dramPlus__Offloaded__dramBank7__Offloaded__dramBank7
+Design hierarchy --- parent dramPlus__Offloaded__dramBank7__Offloaded__dramBank7 child dramPlus__Offloaded__dramBank6__Offloaded__dramBank6
+Design hierarchy --- parent dramPlus__Offloaded__dramBank6__Offloaded__dramBank6 child dramPlus__Offloaded__dramBank5__Offloaded__dramBank5
+Design hierarchy --- parent dramPlus__Offloaded__dramBank5__Offloaded__dramBank5 child dramPlus__Offloaded__dramBank4__Offloaded__dramBank4
+Design hierarchy --- parent dramPlus__Offloaded__dramBank4__Offloaded__dramBank4 child dramPlus__Offloaded__dramBank3__Offloaded__dramBank3
+Design hierarchy --- parent dramPlus__Offloaded__dramBank3__Offloaded__dramBank3 child dramPlus__Offloaded__dramBank2__Offloaded__dramBank2
+Design hierarchy --- parent dramPlus__Offloaded__dramBank2__Offloaded__dramBank2 child dramPlus__Offloaded__dramBank1__Offloaded__dramBank1
+Design hierarchy --- parent dramPlus__Offloaded__dramBank1__Offloaded__dramBank1 child dramPlus__Offloaded__dramBank0__Offloaded__dramBank0
+Design hierarchy --- parent dramPlus__Offloaded__dramBank0__Offloaded__dramBank0 child dram
+Design hierarchy --- parent dram child 
+Design hierarchy --- parent dram child 
+Design hierarchy --- parent dram child 
+Design hierarchy --- parent dramPlus__Offloaded__dramBank0__Offloaded__dramBank0 child dramBank0
+Design hierarchy --- parent dramBank0 child 
+Design hierarchy --- parent dramBank0 child 
+Design hierarchy --- parent dramBank0 child 
+Design hierarchy --- parent dramPlus__Offloaded__dramBank1__Offloaded__dramBank1 child dramBank1
+Design hierarchy --- parent dramBank1 child 
+Design hierarchy --- parent dramBank1 child 
+Design hierarchy --- parent dramBank1 child 
+Design hierarchy --- parent dramPlus__Offloaded__dramBank2__Offloaded__dramBank2 child dramBank2
+Design hierarchy --- parent dramBank2 child 
+Design hierarchy --- parent dramBank2 child 
+Design hierarchy --- parent dramBank2 child 
+Design hierarchy --- parent dramPlus__Offloaded__dramBank3__Offloaded__dramBank3 child dramBank3
+Design hierarchy --- parent dramBank3 child 
+Design hierarchy --- parent dramBank3 child 
+Design hierarchy --- parent dramBank3 child 
+Design hierarchy --- parent dramPlus__Offloaded__dramBank4__Offloaded__dramBank4 child dramBank4
+Design hierarchy --- parent dramBank4 child 
+Design hierarchy --- parent dramBank4 child 
+Design hierarchy --- parent dramBank4 child 
+Design hierarchy --- parent dramPlus__Offloaded__dramBank5__Offloaded__dramBank5 child dramBank5
+Design hierarchy --- parent dramBank5 child 
+Design hierarchy --- parent dramBank5 child 
+Design hierarchy --- parent dramBank5 child 
+Design hierarchy --- parent dramPlus__Offloaded__dramBank6__Offloaded__dramBank6 child dramBank6
+Design hierarchy --- parent dramBank6 child 
+Design hierarchy --- parent dramBank6 child 
+Design hierarchy --- parent dramBank6 child 
+Design hierarchy --- parent dramPlus__Offloaded__dramBank7__Offloaded__dramBank7 child dramBank7
+Design hierarchy --- parent dramBank7 child 
+Design hierarchy --- parent dramBank7 child 
+Design hierarchy --- parent dramBank7 child 
+Design hierarchy --- parent result__Chained child uwPlus1__Offloaded__add__Offloaded__add
+Design hierarchy --- parent uwPlus1__Offloaded__add__Offloaded__add child uwPlus1__Offloaded__mem__Offloaded__mem
+Design hierarchy --- parent uwPlus1__Offloaded__mem__Offloaded__mem child uwPlus1__Offloaded__lock__Offloaded__lock
+Design hierarchy --- parent uwPlus1__Offloaded__lock__Offloaded__lock child xx5__Replicated
+Design hierarchy --- parent xx5__Replicated child uw
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent xx5__Replicated child uw
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent xx5__Replicated child uw
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent xx5__Replicated child uw
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent xx5__Replicated child RRDistributorComponent_1
+Design hierarchy --- parent RRDistributorComponent_1 child gRRDistributor_1
+Design hierarchy --- parent xx5__Replicated child RRAggregatorComponent_3
+Design hierarchy --- parent RRAggregatorComponent_3 child gRRArbiter_1
+Design hierarchy --- parent xx5__Replicated child gTaggedRRArbiter_2
+Design hierarchy --- parent xx5__Replicated child gTaggedRRArbiter_3
+Design hierarchy --- parent xx5__Replicated child gTaggedRRArbiter_4
+Design hierarchy --- parent xx5__Replicated child 
+Design hierarchy --- parent xx5__Replicated child 
+Design hierarchy --- parent xx5__Replicated child 
+Design hierarchy --- parent uwPlus1__Offloaded__lock__Offloaded__lock child lock
+Design hierarchy --- parent uwPlus1__Offloaded__mem__Offloaded__mem child prMem
+Design hierarchy --- parent prMem child result__Offloaded__dram
+Design hierarchy --- parent result__Offloaded__dram child cachePlus__Offloaded__cacheMissPipe
+Design hierarchy --- parent cachePlus__Offloaded__cacheMissPipe child cache
+Design hierarchy --- parent cache child 
+Design hierarchy --- parent cache child 
+Design hierarchy --- parent cache child 
+Design hierarchy --- parent cachePlus__Offloaded__cacheMissPipe child gPipe_1
+Design hierarchy --- parent result__Offloaded__dram child dramPlus__Offloaded__dramBank7__Offloaded__dramBank7
+Design hierarchy --- parent dramPlus__Offloaded__dramBank7__Offloaded__dramBank7 child dramPlus__Offloaded__dramBank6__Offloaded__dramBank6
+Design hierarchy --- parent dramPlus__Offloaded__dramBank6__Offloaded__dramBank6 child dramPlus__Offloaded__dramBank5__Offloaded__dramBank5
+Design hierarchy --- parent dramPlus__Offloaded__dramBank5__Offloaded__dramBank5 child dramPlus__Offloaded__dramBank4__Offloaded__dramBank4
+Design hierarchy --- parent dramPlus__Offloaded__dramBank4__Offloaded__dramBank4 child dramPlus__Offloaded__dramBank3__Offloaded__dramBank3
+Design hierarchy --- parent dramPlus__Offloaded__dramBank3__Offloaded__dramBank3 child dramPlus__Offloaded__dramBank2__Offloaded__dramBank2
+Design hierarchy --- parent dramPlus__Offloaded__dramBank2__Offloaded__dramBank2 child dramPlus__Offloaded__dramBank1__Offloaded__dramBank1
+Design hierarchy --- parent dramPlus__Offloaded__dramBank1__Offloaded__dramBank1 child dramPlus__Offloaded__dramBank0__Offloaded__dramBank0
+Design hierarchy --- parent dramPlus__Offloaded__dramBank0__Offloaded__dramBank0 child dram
+Design hierarchy --- parent dram child 
+Design hierarchy --- parent dram child 
+Design hierarchy --- parent dram child 
+Design hierarchy --- parent dramPlus__Offloaded__dramBank0__Offloaded__dramBank0 child dramBank0
+Design hierarchy --- parent dramBank0 child 
+Design hierarchy --- parent dramBank0 child 
+Design hierarchy --- parent dramBank0 child 
+Design hierarchy --- parent dramPlus__Offloaded__dramBank1__Offloaded__dramBank1 child dramBank1
+Design hierarchy --- parent dramBank1 child 
+Design hierarchy --- parent dramBank1 child 
+Design hierarchy --- parent dramBank1 child 
+Design hierarchy --- parent dramPlus__Offloaded__dramBank2__Offloaded__dramBank2 child dramBank2
+Design hierarchy --- parent dramBank2 child 
+Design hierarchy --- parent dramBank2 child 
+Design hierarchy --- parent dramBank2 child 
+Design hierarchy --- parent dramPlus__Offloaded__dramBank3__Offloaded__dramBank3 child dramBank3
+Design hierarchy --- parent dramBank3 child 
+Design hierarchy --- parent dramBank3 child 
+Design hierarchy --- parent dramBank3 child 
+Design hierarchy --- parent dramPlus__Offloaded__dramBank4__Offloaded__dramBank4 child dramBank4
+Design hierarchy --- parent dramBank4 child 
+Design hierarchy --- parent dramBank4 child 
+Design hierarchy --- parent dramBank4 child 
+Design hierarchy --- parent dramPlus__Offloaded__dramBank5__Offloaded__dramBank5 child dramBank5
+Design hierarchy --- parent dramBank5 child 
+Design hierarchy --- parent dramBank5 child 
+Design hierarchy --- parent dramBank5 child 
+Design hierarchy --- parent dramPlus__Offloaded__dramBank6__Offloaded__dramBank6 child dramBank6
+Design hierarchy --- parent dramBank6 child 
+Design hierarchy --- parent dramBank6 child 
+Design hierarchy --- parent dramBank6 child 
+Design hierarchy --- parent dramPlus__Offloaded__dramBank7__Offloaded__dramBank7 child dramBank7
+Design hierarchy --- parent dramBank7 child 
+Design hierarchy --- parent dramBank7 child 
+Design hierarchy --- parent dramBank7 child 
+Design hierarchy --- parent uwPlus1__Offloaded__add__Offloaded__add child add2
+PCREPORT: Performance counter reset received
+PCREPORT: throughput 0.0050
+PCREPORT: cycles 29887
+PCREPORT: Performance counter pause ack received
+PCREPORT: input back pressure dramBank0 received 0.0001
+PCREPORT: output back pressure dramBank0 received 0.0000
+PCREPORT: input back pressure dramBank5 received 0.0000
+PCREPORT: output back pressure dramBank5 received 0.0000
+PCREPORT: input back pressure add2 received 0.0848
+PCREPORT: output back pressure add2 received 0.0000
+PCREPORT: input back pressure uwPlus1__Offloaded__add__Offloaded__add received 0.0000
+PCREPORT: output back pressure uwPlus1__Offloaded__add__Offloaded__add received 0.0000
+PCREPORT: input back pressure gPipe received 0.0000
+PCREPORT: output back pressure gPipe received 0.0000
+PCREPORT: input back pressure xx7__Replicated received 0.0000
+PCREPORT: output back pressure xx7__Replicated received 0.0000
+PCREPORT: offload back pressure 3 xx7__Replicated received 0.0000
+PCREPORT: offload back pressure 4 xx7__Replicated received 0.0000
+PCREPORT: input back pressure ugPlus1__Offloaded__mem received 0.0000
+PCREPORT: output back pressure ugPlus1__Offloaded__mem received 0.0000
+PCREPORT: input back pressure div2 received 0.0000
+PCREPORT: output back pressure div2 received 0.0000
+PCREPORT: input back pressure prMem received 0.0000
+PCREPORT: output back pressure prMem received 0.0000
+PCREPORT: input back pressure mul2 received 0.0000
+PCREPORT: output back pressure mul2 received 0.0000
+PCREPORT: input back pressure dramPlus__Offloaded__dramBank3__Offloaded__dramBank3 received 0.0000
+PCREPORT: output back pressure dramPlus__Offloaded__dramBank3__Offloaded__dramBank3 received 0.0000
+PCREPORT: offload back pressure 3 dramPlus__Offloaded__dramBank3__Offloaded__dramBank3 received 0.0000
+PCREPORT: offload back pressure 4 dramPlus__Offloaded__dramBank3__Offloaded__dramBank3 received 0.0000
+PCREPORT: offload back pressure 5 dramPlus__Offloaded__dramBank3__Offloaded__dramBank3 received 0.0000
+PCREPORT: offload back pressure 6 dramPlus__Offloaded__dramBank3__Offloaded__dramBank3 received 0.0000
+PCREPORT: input back pressure dramBank2 received 0.0000
+PCREPORT: output back pressure dramBank2 received 0.0000
+PCREPORT: input back pressure dramBank7 received 0.0000
+PCREPORT: output back pressure dramBank7 received 0.0000
+PCREPORT: input back pressure dramBank6 received 0.0000
+PCREPORT: output back pressure dramBank6 received 0.0000
+PCREPORT: input back pressure xx3__Offloaded__rankCalc received 0.0000
+PCREPORT: output back pressure xx3__Offloaded__rankCalc received 0.0000
+PCREPORT: offload back pressure 3 xx3__Offloaded__rankCalc received 0.0000
+PCREPORT: input back pressure dramPlus__Offloaded__dramBank7__Offloaded__dramBank7 received 0.0000
+PCREPORT: output back pressure dramPlus__Offloaded__dramBank7__Offloaded__dramBank7 received 0.0000
+PCREPORT: input back pressure gPipe_1 received 0.0000
+PCREPORT: output back pressure gPipe_1 received 0.0000
+PCREPORT: input back pressure dramBank3 received 0.0000
+PCREPORT: output back pressure dramBank3 received 0.0000
+PCREPORT: input back pressure result__Chained received 0.0000
+PCREPORT: output back pressure result__Chained received 0.0000
+PCREPORT: input back pressure uw received 0.3073
+PCREPORT: output back pressure uw received 0.0000
+PCREPORT: offload back pressure 3 uw received 0.0004
+PCREPORT: offload back pressure 4 uw received 0.0123
+PCREPORT: offload back pressure 5 uw received 0.0229
+PCREPORT: input back pressure dramPlus__Offloaded__dramBank6__Offloaded__dramBank6 received 0.0000
+PCREPORT: output back pressure dramPlus__Offloaded__dramBank6__Offloaded__dramBank6 received 0.0000
+PCREPORT: offload back pressure 3 dramPlus__Offloaded__dramBank6__Offloaded__dramBank6 received 0.0000
+PCREPORT: input back pressure dramPlus__Offloaded__dramBank1__Offloaded__dramBank1 received 0.0000
+PCREPORT: output back pressure dramPlus__Offloaded__dramBank1__Offloaded__dramBank1 received 0.0000
+PCREPORT: offload back pressure 3 dramPlus__Offloaded__dramBank1__Offloaded__dramBank1 received 0.0000
+PCREPORT: offload back pressure 4 dramPlus__Offloaded__dramBank1__Offloaded__dramBank1 received 0.0000
+PCREPORT: offload back pressure 5 dramPlus__Offloaded__dramBank1__Offloaded__dramBank1 received 0.0000
+PCREPORT: offload back pressure 6 dramPlus__Offloaded__dramBank1__Offloaded__dramBank1 received 0.0000
+PCREPORT: offload back pressure 7 dramPlus__Offloaded__dramBank1__Offloaded__dramBank1 received 0.0000
+PCREPORT: offload back pressure 8 dramPlus__Offloaded__dramBank1__Offloaded__dramBank1 received 0.0000
+PCREPORT: input back pressure dramPlus__Offloaded__dramBank4__Offloaded__dramBank4 received 0.0000
+PCREPORT: output back pressure dramPlus__Offloaded__dramBank4__Offloaded__dramBank4 received 0.0000
+PCREPORT: offload back pressure 3 dramPlus__Offloaded__dramBank4__Offloaded__dramBank4 received 0.0000
+PCREPORT: offload back pressure 4 dramPlus__Offloaded__dramBank4__Offloaded__dramBank4 received 0.0000
+PCREPORT: offload back pressure 5 dramPlus__Offloaded__dramBank4__Offloaded__dramBank4 received 0.0000
+PCREPORT: input back pressure dramBank1 received 0.0000
+PCREPORT: output back pressure dramBank1 received 0.0000
+PCREPORT: input back pressure result__Offloaded__dram received 0.0000
+PCREPORT: output back pressure result__Offloaded__dram received 0.0000
+PCREPORT: input back pressure ug received 0.9332
+PCREPORT: output back pressure ug received 0.1884
+PCREPORT: offload back pressure 3 ug received 0.0001
+PCREPORT: offload back pressure 4 ug received 0.0000
+PCREPORT: input back pressure xx5__Replicated received 0.0000
+PCREPORT: output back pressure xx5__Replicated received 0.0000
+PCREPORT: offload back pressure 3 xx5__Replicated received 0.0000
+PCREPORT: offload back pressure 4 xx5__Replicated received 0.0000
+PCREPORT: offload back pressure 5 xx5__Replicated received 0.0000
+PCREPORT: input back pressure dramPlus__Offloaded__dramBank5__Offloaded__dramBank5 received 0.0000
+PCREPORT: output back pressure dramPlus__Offloaded__dramBank5__Offloaded__dramBank5 received 0.0000
+PCREPORT: offload back pressure 3 dramPlus__Offloaded__dramBank5__Offloaded__dramBank5 received 0.0000
+PCREPORT: offload back pressure 4 dramPlus__Offloaded__dramBank5__Offloaded__dramBank5 received 0.0000
+PCREPORT: input back pressure dram received 0.0000
+PCREPORT: output back pressure dram received 0.0000
+PCREPORT: offload back pressure 3 dram received 0.0001
+PCREPORT: offload back pressure 4 dram received 0.0000
+PCREPORT: offload back pressure 5 dram received 0.0000
+PCREPORT: offload back pressure 6 dram received 0.0000
+PCREPORT: offload back pressure 7 dram received 0.0000
+PCREPORT: offload back pressure 8 dram received 0.0000
+PCREPORT: offload back pressure 9 dram received 0.0000
+PCREPORT: offload back pressure 10 dram received 0.0000
+PCREPORT: input back pressure cache received 0.0000
+PCREPORT: output back pressure cache received 0.0000
+PCREPORT: offload back pressure 3 cache received 0.0000
+PCREPORT: offload back pressure 4 cache received 0.0000
+PCREPORT: input back pressure rc2__Offloaded__div__Offloaded__div received 0.0000
+PCREPORT: output back pressure rc2__Offloaded__div__Offloaded__div received 0.0000
+PCREPORT: input back pressure rc2__Offloaded__mul__Offloaded__mul received 0.0000
+PCREPORT: output back pressure rc2__Offloaded__mul__Offloaded__mul received 0.0000
+PCREPORT: offload back pressure 3 rc2__Offloaded__mul__Offloaded__mul received 0.0000
+PCREPORT: input back pressure cachePlus__Offloaded__cacheMissPipe received 0.0000
+PCREPORT: output back pressure cachePlus__Offloaded__cacheMissPipe received 0.0000
+PCREPORT: offload back pressure 3 cachePlus__Offloaded__cacheMissPipe received 0.0000
+PCREPORT: input back pressure dramBank4 received 0.0000
+PCREPORT: output back pressure dramBank4 received 0.0000
+PCREPORT: input back pressure uwPlus1__Offloaded__mem__Offloaded__mem received 0.0000
+PCREPORT: output back pressure uwPlus1__Offloaded__mem__Offloaded__mem received 0.0000
+PCREPORT: offload back pressure 3 uwPlus1__Offloaded__mem__Offloaded__mem received 0.0000
+PCREPORT: input back pressure dramPlus__Offloaded__dramBank2__Offloaded__dramBank2 received 0.0000
+PCREPORT: output back pressure dramPlus__Offloaded__dramBank2__Offloaded__dramBank2 received 0.0000
+PCREPORT: offload back pressure 3 dramPlus__Offloaded__dramBank2__Offloaded__dramBank2 received 0.0000
+PCREPORT: offload back pressure 4 dramPlus__Offloaded__dramBank2__Offloaded__dramBank2 received 0.0000
+PCREPORT: offload back pressure 5 dramPlus__Offloaded__dramBank2__Offloaded__dramBank2 received 0.0000
+PCREPORT: offload back pressure 6 dramPlus__Offloaded__dramBank2__Offloaded__dramBank2 received 0.0000
+PCREPORT: offload back pressure 7 dramPlus__Offloaded__dramBank2__Offloaded__dramBank2 received 0.0000
+PCREPORT: input back pressure dramPlus__Offloaded__dramBank0__Offloaded__dramBank0 received 0.0000
+PCREPORT: output back pressure dramPlus__Offloaded__dramBank0__Offloaded__dramBank0 received 0.0000
+PCREPORT: offload back pressure 3 dramPlus__Offloaded__dramBank0__Offloaded__dramBank0 received 0.0000
+PCREPORT: offload back pressure 4 dramPlus__Offloaded__dramBank0__Offloaded__dramBank0 received 0.0000
+PCREPORT: offload back pressure 5 dramPlus__Offloaded__dramBank0__Offloaded__dramBank0 received 0.0000
+PCREPORT: offload back pressure 6 dramPlus__Offloaded__dramBank0__Offloaded__dramBank0 received 0.0000
+PCREPORT: offload back pressure 7 dramPlus__Offloaded__dramBank0__Offloaded__dramBank0 received 0.0000
+PCREPORT: offload back pressure 8 dramPlus__Offloaded__dramBank0__Offloaded__dramBank0 received 0.0000
+PCREPORT: offload back pressure 9 dramPlus__Offloaded__dramBank0__Offloaded__dramBank0 received 0.0000
+PCREPORT: input back pressure uwPlus1__Offloaded__lock__Offloaded__lock received 0.0000
+PCREPORT: output back pressure uwPlus1__Offloaded__lock__Offloaded__lock received 0.0000
+PCREPORT: offload back pressure 3 uwPlus1__Offloaded__lock__Offloaded__lock received 0.0000
+PCREPORT: offload back pressure 4 uwPlus1__Offloaded__lock__Offloaded__lock received 0.0000
+PCREPORT: input back pressure xx2 received 0.0000
+PCREPORT: output back pressure xx2 received 0.0000
+PCREPORT: offload back pressure 3 xx2 received 0.0000
+PCREPORT: offload back pressure 4 xx2 received 0.0000
+PCREPORT: input back pressure lock received 0.0450
+PCREPORT: output back pressure lock received 0.0000
+PCREPORT: offload rate dramBank0 received 0.0007
+PCREPORT: offload rate dramBank5 received 0.0007
+PCREPORT: offload rate add2 received 0.0007
+PCREPORT: offload rate uwPlus1__Offloaded__add__Offloaded__add received 0.0000
+PCREPORT: offload rate gPipe received 0.0007
+PCREPORT: offload rate xx7__Replicated received 0.0000
+PCREPORT: offload rate ugPlus1__Offloaded__mem received 0.0000
+PCREPORT: offload rate div2 received 0.0007
+PCREPORT: offload rate prMem received 0.0000
+PCREPORT: offload rate mul2 received 0.0007
+PCREPORT: offload rate dramPlus__Offloaded__dramBank3__Offloaded__dramBank3 received 0.0000
+PCREPORT: offload rate dramBank2 received 0.0007
+PCREPORT: offload rate dramBank7 received 0.0007
+PCREPORT: offload rate dramBank6 received 0.0007
+PCREPORT: offload rate xx3__Offloaded__rankCalc received 0.0000
+PCREPORT: offload rate dramPlus__Offloaded__dramBank7__Offloaded__dramBank7 received 0.0000
+PCREPORT: offload rate gPipe_1 received 0.0007
+PCREPORT: offload rate dramBank3 received 0.0007
+PCREPORT: offload rate result__Chained received 0.0000
+PCREPORT: offload rate uw received 0.6782
+PCREPORT: offload rate dramPlus__Offloaded__dramBank6__Offloaded__dramBank6 received 0.0000
+PCREPORT: offload rate dramPlus__Offloaded__dramBank1__Offloaded__dramBank1 received 0.0000
+PCREPORT: offload rate dramPlus__Offloaded__dramBank4__Offloaded__dramBank4 received 0.0000
+PCREPORT: offload rate dramBank1 received 0.0007
+PCREPORT: offload rate result__Offloaded__dram received 0.0000
+PCREPORT: offload rate ug received 0.6752
+PCREPORT: offload rate xx5__Replicated received 0.0000
+PCREPORT: offload rate dramPlus__Offloaded__dramBank5__Offloaded__dramBank5 received 0.0000
+PCREPORT: offload rate dram received 0.0003
+PCREPORT: offload rate cache received 0.0740
+PCREPORT: offload rate rc2__Offloaded__div__Offloaded__div received 0.0000
+PCREPORT: offload rate rc2__Offloaded__mul__Offloaded__mul received 0.0000
+PCREPORT: offload rate cachePlus__Offloaded__cacheMissPipe received 0.0000
+PCREPORT: offload rate dramBank4 received 0.0007
+PCREPORT: offload rate uwPlus1__Offloaded__mem__Offloaded__mem received 0.0000
+PCREPORT: offload rate dramPlus__Offloaded__dramBank2__Offloaded__dramBank2 received 0.0000
+PCREPORT: offload rate dramPlus__Offloaded__dramBank0__Offloaded__dramBank0 received 0.0000
+PCREPORT: offload rate uwPlus1__Offloaded__lock__Offloaded__lock received 0.0000
+PCREPORT: offload rate xx2 received 0.0000
+PCREPORT: offload rate lock received 0.0007
+PCREPORT: engine utilization dramBank0 received 0.0072
+PCREPORT: engine utilization dramBank5 received 0.0000
+PCREPORT: engine utilization add2 received 0.0000
+PCREPORT: engine utilization uwPlus1__Offloaded__add__Offloaded__add received 0.0000
+PCREPORT: engine utilization gPipe received 0.0000
+PCREPORT: engine utilization xx7__Replicated received 0.0000
+PCREPORT: engine utilization ugPlus1__Offloaded__mem received 0.0000
+PCREPORT: engine utilization div2 received 0.0000
+PCREPORT: engine utilization prMem received 0.0000
+PCREPORT: engine utilization mul2 received 0.0000
+PCREPORT: engine utilization dramPlus__Offloaded__dramBank3__Offloaded__dramBank3 received 0.0000
+PCREPORT: engine utilization dramBank2 received 0.0000
+PCREPORT: engine utilization dramBank7 received 0.0000
+PCREPORT: engine utilization dramBank6 received 0.0000
+PCREPORT: engine utilization xx3__Offloaded__rankCalc received 0.0000
+PCREPORT: engine utilization dramPlus__Offloaded__dramBank7__Offloaded__dramBank7 received 0.0000
+PCREPORT: engine utilization gPipe_1 received 0.0000
+PCREPORT: engine utilization dramBank3 received 0.0000
+PCREPORT: engine utilization result__Chained received 0.0000
+PCREPORT: engine utilization uw received 0.8007
+PCREPORT: engine utilization dramPlus__Offloaded__dramBank6__Offloaded__dramBank6 received 0.0000
+PCREPORT: engine utilization dramPlus__Offloaded__dramBank1__Offloaded__dramBank1 received 0.0000
+PCREPORT: engine utilization dramPlus__Offloaded__dramBank4__Offloaded__dramBank4 received 0.0000
+PCREPORT: engine utilization dramBank1 received 0.0000
+PCREPORT: engine utilization result__Offloaded__dram received 0.0000
+PCREPORT: engine utilization ug received 0.9773
+PCREPORT: engine utilization xx5__Replicated received 0.0000
+PCREPORT: engine utilization dramPlus__Offloaded__dramBank5__Offloaded__dramBank5 received 0.0000
+PCREPORT: engine utilization dram received 0.0708
+PCREPORT: engine utilization cache received 0.2717
+PCREPORT: engine utilization rc2__Offloaded__div__Offloaded__div received 0.0000
+PCREPORT: engine utilization rc2__Offloaded__mul__Offloaded__mul received 0.0000
+PCREPORT: engine utilization cachePlus__Offloaded__cacheMissPipe received 0.0000
+PCREPORT: engine utilization dramBank4 received 0.0000
+PCREPORT: engine utilization uwPlus1__Offloaded__mem__Offloaded__mem received 0.0000
+PCREPORT: engine utilization dramPlus__Offloaded__dramBank2__Offloaded__dramBank2 received 0.0000
+PCREPORT: engine utilization dramPlus__Offloaded__dramBank0__Offloaded__dramBank0 received 0.0000
+PCREPORT: engine utilization uwPlus1__Offloaded__lock__Offloaded__lock received 0.0000
+PCREPORT: engine utilization xx2 received 0.0000
+PCREPORT: engine utilization lock received 0.0000
+PCREPORT: in tokens dramBank0 received 0.0533
+PCREPORT: in tokens dramBank5 received 0.0000
+PCREPORT: in tokens add2 received 4.7267
+PCREPORT: in tokens uwPlus1__Offloaded__add__Offloaded__add received 0.0000
+PCREPORT: in tokens gPipe received 3.3200
+PCREPORT: in tokens xx7__Replicated received 0.0000
+PCREPORT: in tokens ugPlus1__Offloaded__mem received 0.0000
+PCREPORT: in tokens div2 received 1.0000
+PCREPORT: in tokens prMem received 0.0000
+PCREPORT: in tokens mul2 received 1.0000
+PCREPORT: in tokens dramPlus__Offloaded__dramBank3__Offloaded__dramBank3 received 0.0000
+PCREPORT: in tokens dramBank2 received 0.0000
+PCREPORT: in tokens dramBank7 received 0.0000
+PCREPORT: in tokens dramBank6 received 0.0000
+PCREPORT: in tokens xx3__Offloaded__rankCalc received 0.0000
+PCREPORT: in tokens dramPlus__Offloaded__dramBank7__Offloaded__dramBank7 received 0.0000
+PCREPORT: in tokens gPipe_1 received 5.2867
+PCREPORT: in tokens dramBank3 received 0.0000
+PCREPORT: in tokens result__Chained received 0.0000
+PCREPORT: in tokens uw received 1.2400
+PCREPORT: in tokens dramPlus__Offloaded__dramBank6__Offloaded__dramBank6 received 0.0000
+PCREPORT: in tokens dramPlus__Offloaded__dramBank1__Offloaded__dramBank1 received 0.0000
+PCREPORT: in tokens dramPlus__Offloaded__dramBank4__Offloaded__dramBank4 received 0.0000
+PCREPORT: in tokens dramBank1 received 0.0000
+PCREPORT: in tokens result__Offloaded__dram received 0.0000
+PCREPORT: in tokens ug received 0.1000
+PCREPORT: in tokens xx5__Replicated received 0.0000
+PCREPORT: in tokens dramPlus__Offloaded__dramBank5__Offloaded__dramBank5 received 0.0000
+PCREPORT: in tokens dram received 5.2867
+PCREPORT: in tokens cache received 14.7000
+PCREPORT: in tokens rc2__Offloaded__div__Offloaded__div received 0.0000
+PCREPORT: in tokens rc2__Offloaded__mul__Offloaded__mul received 0.0000
+PCREPORT: in tokens cachePlus__Offloaded__cacheMissPipe received 0.0000
+PCREPORT: in tokens dramBank4 received 0.0000
+PCREPORT: in tokens uwPlus1__Offloaded__mem__Offloaded__mem received 0.0000
+PCREPORT: in tokens dramPlus__Offloaded__dramBank2__Offloaded__dramBank2 received 0.0000
+PCREPORT: in tokens dramPlus__Offloaded__dramBank0__Offloaded__dramBank0 received 0.0000
+PCREPORT: in tokens uwPlus1__Offloaded__lock__Offloaded__lock received 0.0000
+PCREPORT: in tokens xx2 received 1.0000
+PCREPORT: in tokens lock received 9.6600
+PCREPORT: out tokens dramBank0 received 0.0533
+PCREPORT: out tokens dramBank5 received 0.0000
+PCREPORT: out tokens add2 received 22.1000
+PCREPORT: out tokens uwPlus1__Offloaded__add__Offloaded__add received 0.0000
+PCREPORT: out tokens gPipe received 3.3200
+PCREPORT: out tokens xx7__Replicated received 0.0000
+PCREPORT: out tokens ugPlus1__Offloaded__mem received 0.0000
+PCREPORT: out tokens div2 received 1.0000
+PCREPORT: out tokens prMem received 0.0000
+PCREPORT: out tokens mul2 received 1.0000
+PCREPORT: out tokens dramPlus__Offloaded__dramBank3__Offloaded__dramBank3 received 0.0000
+PCREPORT: out tokens dramBank2 received 0.0000
+PCREPORT: out tokens dramBank7 received 0.0000
+PCREPORT: out tokens dramBank6 received 0.0000
+PCREPORT: out tokens xx3__Offloaded__rankCalc received 0.0000
+PCREPORT: out tokens dramPlus__Offloaded__dramBank7__Offloaded__dramBank7 received 0.0000
+PCREPORT: out tokens gPipe_1 received 5.2867
+PCREPORT: out tokens dramBank3 received 0.0000
+PCREPORT: out tokens result__Chained received 0.0000
+PCREPORT: out tokens uw received 1.2400
+PCREPORT: out tokens dramPlus__Offloaded__dramBank6__Offloaded__dramBank6 received 0.0000
+PCREPORT: out tokens dramPlus__Offloaded__dramBank1__Offloaded__dramBank1 received 0.0000
+PCREPORT: out tokens dramPlus__Offloaded__dramBank4__Offloaded__dramBank4 received 0.0000
+PCREPORT: out tokens dramBank1 received 0.0000
+PCREPORT: out tokens result__Offloaded__dram received 0.0000
+PCREPORT: out tokens ug received 2.4133
+PCREPORT: out tokens xx5__Replicated received 0.0000
+PCREPORT: out tokens dramPlus__Offloaded__dramBank5__Offloaded__dramBank5 received 0.0000
+PCREPORT: out tokens dram received 5.2867
+PCREPORT: out tokens cache received 14.7000
+PCREPORT: out tokens rc2__Offloaded__div__Offloaded__div received 0.0000
+PCREPORT: out tokens rc2__Offloaded__mul__Offloaded__mul received 0.0000
+PCREPORT: out tokens cachePlus__Offloaded__cacheMissPipe received 0.0000
+PCREPORT: out tokens dramBank4 received 0.0000
+PCREPORT: out tokens uwPlus1__Offloaded__mem__Offloaded__mem received 0.0000
+PCREPORT: out tokens dramPlus__Offloaded__dramBank2__Offloaded__dramBank2 received 0.0000
+PCREPORT: out tokens dramPlus__Offloaded__dramBank0__Offloaded__dramBank0 received 0.0000
+PCREPORT: out tokens uwPlus1__Offloaded__lock__Offloaded__lock received 0.0000
+PCREPORT: out tokens xx2 received 1.9933
+PCREPORT: out tokens lock received 18.6200

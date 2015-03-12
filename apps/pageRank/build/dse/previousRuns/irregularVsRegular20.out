@@ -1,0 +1,11 @@
+throughput,uwThreads,ugThreads,addPipelined,mulPipelined,divPipelined,rcPipelined,sharedRc,sharedRa,ugRepFactor,uwRepFactor,burstFactor,fixedFanout,averageFanout
+0.0150,8,8,false,false,false,false,true,true,8,8,1,0,20
+0.0160,8,8,false,false,false,false,true,true,8,8,2,0,20
+0.0202,8,8,false,false,false,false,true,true,8,8,3,0,20
+0.0237,8,8,false,false,false,false,true,true,8,8,4,0,20
+0.0251,8,8,false,false,false,false,true,true,8,8,5,0,20
+0.0271,8,8,false,false,false,false,true,true,8,8,6,0,20
+0.0277,8,8,false,false,false,false,true,true,8,8,7,0,20
+0.0292,8,8,false,false,false,false,true,true,8,8,8,0,20
+0.0297,8,8,false,false,false,false,true,true,8,8,9,0,20
+0.0290,8,8,false,false,false,false,true,true,8,8,10,0,20

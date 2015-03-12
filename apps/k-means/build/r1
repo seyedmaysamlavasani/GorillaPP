@@ -1,0 +1,205 @@
+../../../refiner/refiner.pl
+Building original micro-arch
+Throughput is 0.0018
+Area LUT is 10190
+
+Area reg is 12107
+
+Area DSP is 51
+
+Clock is 5.795
+
+[32mRefine micro-arch iteration: 1[0m
+Refine: In bottleneck node ke__type__engine__MT__1____class__KEngine, backpressure is 0.9523. multiThreading the engine
+Refined throughput is 0.0035
+Refined Area luts is 10322
+
+Refined Area regs is 12206
+
+Refined Area DSPs is 51
+
+Refined clock is 5.781
+
+NUM_OF_POINTS 50
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 1
+NUM_OF_THREADS 1
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+[32mRefine micro-arch iteration: 2[0m
+Refine: In bottleneck node ke__type__engine__MT__2____class__KEngine, backpressure is 0.9052. offload rate is 0.9039. engine utilizaiton is 0.975. increase number of threads in engine
+Refined throughput is 0.0053
+Refined Area luts is 10486
+
+Refined Area regs is 12279
+
+Refined Area DSPs is 51
+
+Refined clock is 7.301
+
+NUM_OF_POINTS 50
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 1
+NUM_OF_THREADS 1
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+[32mRefine micro-arch iteration: 3[0m
+Refine: In bottleneck node ke__type__engine__MT__3____class__KEngine, backpressure is 0.8535. offload rate is 0.8809. engine utilizaiton is 0.9536. increase number of threads in engine
+Refined throughput is 0.0061
+Refined Area luts is 10770
+
+Refined Area regs is 12571
+
+Refined Area DSPs is 51
+
+Refined clock is 7.050
+
+NUM_OF_POINTS 50
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 1
+NUM_OF_THREADS 1
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+[32mRefine micro-arch iteration: 4[0m
+Refine: In bottleneck node ke__type__engine__MT__4____class__KEngine, backpressure is 0.8253. offload rate is 0.9132. engine utilizaiton is 0.9745. increase number of threads in engine
+Refined throughput is 0.0061
+Refined Area luts is 10812
+
+Refined Area regs is 12646
+
+Refined Area DSPs is 51
+
+Refined clock is 7.192
+
+NUM_OF_POINTS 50
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 1
+NUM_OF_THREADS 1
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+[32mRefine micro-arch iteration: 5[0m
+Refine: In bottleneck node ke__type__engine__MT__5____class__KEngine, backpressure is 0.8229. offload rate is 0.9087. engine utilizaiton is 0.9573. increase number of threads in engine
+Refined throughput is 0.0063
+Refined Area luts is 11087
+
+Refined Area regs is 12716
+
+Refined Area DSPs is 51
+
+Refined clock is 7.612
+
+NUM_OF_POINTS 50
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 1
+NUM_OF_THREADS 1
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+[32mRefine micro-arch iteration: 6[0m
+Refine: In bottleneck node ke__type__engine__MT__6____class__KEngine, backpressure is 0.8252. offload rate is 0.9041. engine utilizaiton is 0.9556. increase number of threads in engine
+Refined throughput is 0.0063
+Refined Area luts is 11197
+
+Refined Area regs is 12784
+
+Refined Area DSPs is 51
+
+Refined clock is 7.403
+
+NUM_OF_POINTS 50
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 1
+NUM_OF_THREADS 1
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+[32mRefine micro-arch iteration: 7[0m
+Refine: In bottleneck node ke__type__engine__MT__7____class__KEngine, backpressure is 0.8124. offload rate is 0.9147. engine utilizaiton is 0.9549. increase number of threads in engine
+Refined throughput is 0.0064
+Refined Area luts is 11497
+
+Refined Area regs is 12882
+
+Refined Area DSPs is 51
+
+Refined clock is 7.893
+
+NUM_OF_POINTS 50
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 1
+NUM_OF_THREADS 1
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+[32mRefine micro-arch iteration: 8[0m
+Refine: In bottleneck node ke__type__engine__MT__8____class__KEngine, backpressure is 0.8059. offload rate is 0.8965. engine utilizaiton is 0.9475. increase number of threads in engine
+Refined throughput is 0.0066
+Refined Area luts is 11888
+
+Refined Area regs is 12955
+
+Refined Area DSPs is 51
+
+Refined clock is 8.442
+
+NUM_OF_POINTS 50
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 1
+NUM_OF_THREADS 1
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+[32mRefine micro-arch iteration: 9[0m
+Refine: In bottleneck node mul1__type__engine__MT__1____class__multiplier, backpressure is 0.9196. Increase Replicating factor for node xx2__type__replicated____class__gReplicatedComponent
+Refined throughput is 0.0138
+PCREPORT: input back pressure mul1__type__engine__MT__1____class__multiplier received 0.8481
+PCREPORT: output back pressure mul1__type__engine__MT__1____class__multiplier received 0.0000
+PCREPORT: offload rate mul1__type__engine__MT__1____class__multiplier received 0.0000
+Refined Area luts is 22116
+
+Refined Area regs is 24211
+
+Refined Area DSPs is 99
+
+Refined clock is 8.421
+
+NUM_OF_POINTS 50
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 2
+NUM_OF_THREADS 1
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+[32mRefine micro-arch iteration: 10[0m
+Refine: In bottleneck node mul1__type__engine__MT__1____class__multiplier, backpressure is 0.8481. Increase Replicating factor for node xx2__type__replicated____class__gReplicatedComponent
+Refined throughput is 0.0251
+PCREPORT: input back pressure mul1__type__engine__MT__1____class__multiplier received 0.6301
+PCREPORT: output back pressure mul1__type__engine__MT__1____class__multiplier received 0.0000
+PCREPORT: offload rate mul1__type__engine__MT__1____class__multiplier received 0.0000
+Refined Area luts is 41972
+
+Refined Area regs is 46648
+
+Refined Area DSPs is 195
+
+Refined clock is 8.414
+
+NUM_OF_POINTS 50
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 4
+NUM_OF_THREADS 1
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+[32mRefine micro-arch iteration: 11[0m
+Refine: In bottleneck node mul1__type__engine__MT__1____class__multiplier, backpressure is 0.6301. Increase Replicating factor for node xx2__type__replicated____class__gReplicatedComponent
+Refined Area luts is 41972
+
+Refined Area regs is 46648
+
+Refined Area DSPs is 195
+
+Refined clock is 8.414
+
+NUM_OF_POINTS 50
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 8
+NUM_OF_THREADS 1
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+[32mRefine micro-arch iteration: 12[0m
+No more refinement found

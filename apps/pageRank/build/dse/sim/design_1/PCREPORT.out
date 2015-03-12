@@ -1,0 +1,768 @@
+PCREPORT: module result__Chained registered for pc moduleId is 1
+PCREPORT: PC is registered name: in type 1 moduleId 1 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 1 portId 2
+PCREPORT: PC is registered name: dram type 1 moduleId 1 portId 3
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 1 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 1 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 1 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 1 portId 0
+PCREPORT: module ugPlus1__Offloaded__mem registered for pc moduleId is 2
+PCREPORT: PC is registered name: in type 1 moduleId 2 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 2 portId 2
+PCREPORT: PC is registered name: dram type 1 moduleId 2 portId 3
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 2 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 2 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 2 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 2 portId 0
+PCREPORT: module xx2__Offloaded__rankCalc registered for pc moduleId is 3
+PCREPORT: PC is registered name: in type 1 moduleId 3 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 3 portId 2
+PCREPORT: PC is registered name: mem type 1 moduleId 3 portId 3
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 3 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 3 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 3 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 3 portId 0
+PCREPORT: module xx6__Replicated registered for pc moduleId is 4
+PCREPORT: PC is registered name: in type 1 moduleId 4 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 4 portId 2
+PCREPORT: PC is registered name: mem type 1 moduleId 4 portId 3
+PCREPORT: PC is registered name: rankCalc type 1 moduleId 4 portId 4
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 4 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 4 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 4 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 4 portId 0
+PCREPORT: module ug registered for pc moduleId is 5
+PCREPORT: PC is registered name: in type 1 moduleId 5 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 5 portId 2
+PCREPORT: PC is registered name: mem type 1 moduleId 5 portId 3
+PCREPORT: PC is registered name: rankCalc type 1 moduleId 5 portId 4
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 5 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 5 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 5 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 5 portId 0
+Design hierarchy --- parent xx6__Replicated child ug
+Design hierarchy --- parent ug child 
+Design hierarchy --- parent ug child 
+Design hierarchy --- parent ug child 
+Design hierarchy --- parent xx6__Replicated child RRDistributorComponent
+Design hierarchy --- parent RRDistributorComponent child gRRDistributor
+Design hierarchy --- parent xx6__Replicated child RRAggregatorComponent_1
+Design hierarchy --- parent RRAggregatorComponent_1 child gRRArbiter
+Design hierarchy --- parent xx6__Replicated child gTaggedRRArbiter
+Design hierarchy --- parent xx6__Replicated child gTaggedRRArbiter_1
+Design hierarchy --- parent xx6__Replicated child 
+Design hierarchy --- parent xx6__Replicated child 
+PCREPORT: module rc2__Offloaded__div__Offloaded__div registered for pc moduleId is 6
+PCREPORT: PC is registered name: in type 1 moduleId 6 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 6 portId 2
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 6 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 6 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 6 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 6 portId 0
+PCREPORT: module rc2__Offloaded__mul__Offloaded__mul registered for pc moduleId is 7
+PCREPORT: PC is registered name: in type 1 moduleId 7 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 7 portId 2
+PCREPORT: PC is registered name: div type 1 moduleId 7 portId 3
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 7 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 7 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 7 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 7 portId 0
+PCREPORT: module xx1 registered for pc moduleId is 8
+PCREPORT: PC is registered name: in type 1 moduleId 8 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 8 portId 2
+PCREPORT: PC is registered name: mul type 1 moduleId 8 portId 3
+PCREPORT: PC is registered name: div type 1 moduleId 8 portId 4
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 8 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 8 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 8 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 8 portId 0
+PCREPORT: module mul2 registered for pc moduleId is 9
+PCREPORT: PC is registered name: in type 1 moduleId 9 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 9 portId 2
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 9 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 9 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 9 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 9 portId 0
+Design hierarchy --- parent rc2__Offloaded__mul__Offloaded__mul child xx1
+Design hierarchy --- parent xx1 child 
+Design hierarchy --- parent xx1 child 
+Design hierarchy --- parent xx1 child 
+Design hierarchy --- parent rc2__Offloaded__mul__Offloaded__mul child mul2
+PCREPORT: module div2 registered for pc moduleId is 10
+PCREPORT: PC is registered name: in type 1 moduleId 10 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 10 portId 2
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 10 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 10 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 10 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 10 portId 0
+Design hierarchy --- parent rc2__Offloaded__div__Offloaded__div child rc2__Offloaded__mul__Offloaded__mul
+Design hierarchy --- parent rc2__Offloaded__mul__Offloaded__mul child xx1
+Design hierarchy --- parent xx1 child 
+Design hierarchy --- parent xx1 child 
+Design hierarchy --- parent xx1 child 
+Design hierarchy --- parent rc2__Offloaded__mul__Offloaded__mul child mul2
+Design hierarchy --- parent rc2__Offloaded__div__Offloaded__div child div2
+Design hierarchy --- parent xx2__Offloaded__rankCalc child xx6__Replicated
+Design hierarchy --- parent xx6__Replicated child ug
+Design hierarchy --- parent ug child 
+Design hierarchy --- parent ug child 
+Design hierarchy --- parent ug child 
+Design hierarchy --- parent xx6__Replicated child RRDistributorComponent
+Design hierarchy --- parent RRDistributorComponent child gRRDistributor
+Design hierarchy --- parent xx6__Replicated child RRAggregatorComponent_1
+Design hierarchy --- parent RRAggregatorComponent_1 child gRRArbiter
+Design hierarchy --- parent xx6__Replicated child gTaggedRRArbiter
+Design hierarchy --- parent xx6__Replicated child gTaggedRRArbiter_1
+Design hierarchy --- parent xx6__Replicated child 
+Design hierarchy --- parent xx6__Replicated child 
+Design hierarchy --- parent xx2__Offloaded__rankCalc child rc2__Offloaded__div__Offloaded__div
+Design hierarchy --- parent rc2__Offloaded__div__Offloaded__div child rc2__Offloaded__mul__Offloaded__mul
+Design hierarchy --- parent rc2__Offloaded__mul__Offloaded__mul child xx1
+Design hierarchy --- parent xx1 child 
+Design hierarchy --- parent xx1 child 
+Design hierarchy --- parent xx1 child 
+Design hierarchy --- parent rc2__Offloaded__mul__Offloaded__mul child mul2
+Design hierarchy --- parent rc2__Offloaded__div__Offloaded__div child div2
+PCREPORT: module cachePlus__Offloaded__cacheMissPipe registered for pc moduleId is 11
+PCREPORT: PC is registered name: in type 1 moduleId 11 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 11 portId 2
+PCREPORT: PC is registered name: dram type 1 moduleId 11 portId 3
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 11 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 11 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 11 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 11 portId 0
+PCREPORT: module cache registered for pc moduleId is 12
+PCREPORT: PC is registered name: in type 1 moduleId 12 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 12 portId 2
+PCREPORT: PC is registered name: cacheMissPipe type 1 moduleId 12 portId 3
+PCREPORT: PC is registered name: dram type 1 moduleId 12 portId 4
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 12 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 12 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 12 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 12 portId 0
+PCREPORT: module gPipe registered for pc moduleId is 13
+PCREPORT: PC is registered name: in type 1 moduleId 13 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 13 portId 2
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 13 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 13 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 13 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 13 portId 0
+Design hierarchy --- parent cachePlus__Offloaded__cacheMissPipe child cache
+Design hierarchy --- parent cache child 
+Design hierarchy --- parent cache child 
+Design hierarchy --- parent cache child 
+Design hierarchy --- parent cachePlus__Offloaded__cacheMissPipe child gPipe
+Design hierarchy --- parent ugPlus1__Offloaded__mem child xx2__Offloaded__rankCalc
+Design hierarchy --- parent xx2__Offloaded__rankCalc child xx6__Replicated
+Design hierarchy --- parent xx6__Replicated child ug
+Design hierarchy --- parent ug child 
+Design hierarchy --- parent ug child 
+Design hierarchy --- parent ug child 
+Design hierarchy --- parent xx6__Replicated child RRDistributorComponent
+Design hierarchy --- parent RRDistributorComponent child gRRDistributor
+Design hierarchy --- parent xx6__Replicated child RRAggregatorComponent_1
+Design hierarchy --- parent RRAggregatorComponent_1 child gRRArbiter
+Design hierarchy --- parent xx6__Replicated child gTaggedRRArbiter
+Design hierarchy --- parent xx6__Replicated child gTaggedRRArbiter_1
+Design hierarchy --- parent xx6__Replicated child 
+Design hierarchy --- parent xx6__Replicated child 
+Design hierarchy --- parent xx2__Offloaded__rankCalc child rc2__Offloaded__div__Offloaded__div
+Design hierarchy --- parent rc2__Offloaded__div__Offloaded__div child rc2__Offloaded__mul__Offloaded__mul
+Design hierarchy --- parent rc2__Offloaded__mul__Offloaded__mul child xx1
+Design hierarchy --- parent xx1 child 
+Design hierarchy --- parent xx1 child 
+Design hierarchy --- parent xx1 child 
+Design hierarchy --- parent rc2__Offloaded__mul__Offloaded__mul child mul2
+Design hierarchy --- parent rc2__Offloaded__div__Offloaded__div child div2
+Design hierarchy --- parent ugPlus1__Offloaded__mem child cachePlus__Offloaded__cacheMissPipe
+Design hierarchy --- parent cachePlus__Offloaded__cacheMissPipe child cache
+Design hierarchy --- parent cache child 
+Design hierarchy --- parent cache child 
+Design hierarchy --- parent cache child 
+Design hierarchy --- parent cachePlus__Offloaded__cacheMissPipe child gPipe
+PCREPORT: module uwPlus1__Offloaded__add__Offloaded__add registered for pc moduleId is 14
+PCREPORT: PC is registered name: in type 1 moduleId 14 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 14 portId 2
+PCREPORT: PC is registered name: dram type 1 moduleId 14 portId 3
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 14 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 14 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 14 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 14 portId 0
+PCREPORT: module uwPlus1__Offloaded__mem__Offloaded__mem registered for pc moduleId is 15
+PCREPORT: PC is registered name: in type 1 moduleId 15 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 15 portId 2
+PCREPORT: PC is registered name: add type 1 moduleId 15 portId 3
+PCREPORT: PC is registered name: dram type 1 moduleId 15 portId 4
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 15 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 15 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 15 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 15 portId 0
+PCREPORT: module uwPlus1__Offloaded__lock__Offloaded__lock registered for pc moduleId is 16
+PCREPORT: PC is registered name: in type 1 moduleId 16 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 16 portId 2
+PCREPORT: PC is registered name: mem type 1 moduleId 16 portId 3
+PCREPORT: PC is registered name: add type 1 moduleId 16 portId 4
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 16 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 16 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 16 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 16 portId 0
+PCREPORT: module xx4__Replicated registered for pc moduleId is 17
+PCREPORT: PC is registered name: in type 1 moduleId 17 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 17 portId 2
+PCREPORT: PC is registered name: mem type 1 moduleId 17 portId 3
+PCREPORT: PC is registered name: lock type 1 moduleId 17 portId 4
+PCREPORT: PC is registered name: add type 1 moduleId 17 portId 5
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 17 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 17 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 17 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 17 portId 0
+PCREPORT: module uw registered for pc moduleId is 18
+PCREPORT: PC is registered name: in type 1 moduleId 18 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 18 portId 2
+PCREPORT: PC is registered name: mem type 1 moduleId 18 portId 3
+PCREPORT: PC is registered name: lock type 1 moduleId 18 portId 4
+PCREPORT: PC is registered name: add type 1 moduleId 18 portId 5
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 18 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 18 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 18 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 18 portId 0
+PCREPORT: module uw registered for pc moduleId is 19
+PCREPORT: PC is registered name: in type 1 moduleId 19 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 19 portId 2
+PCREPORT: PC is registered name: mem type 1 moduleId 19 portId 3
+PCREPORT: PC is registered name: lock type 1 moduleId 19 portId 4
+PCREPORT: PC is registered name: add type 1 moduleId 19 portId 5
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 19 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 19 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 19 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 19 portId 0
+PCREPORT: module uw registered for pc moduleId is 20
+PCREPORT: PC is registered name: in type 1 moduleId 20 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 20 portId 2
+PCREPORT: PC is registered name: mem type 1 moduleId 20 portId 3
+PCREPORT: PC is registered name: lock type 1 moduleId 20 portId 4
+PCREPORT: PC is registered name: add type 1 moduleId 20 portId 5
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 20 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 20 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 20 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 20 portId 0
+PCREPORT: module uw registered for pc moduleId is 21
+PCREPORT: PC is registered name: in type 1 moduleId 21 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 21 portId 2
+PCREPORT: PC is registered name: mem type 1 moduleId 21 portId 3
+PCREPORT: PC is registered name: lock type 1 moduleId 21 portId 4
+PCREPORT: PC is registered name: add type 1 moduleId 21 portId 5
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 21 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 21 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 21 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 21 portId 0
+PCREPORT: module uw registered for pc moduleId is 22
+PCREPORT: PC is registered name: in type 1 moduleId 22 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 22 portId 2
+PCREPORT: PC is registered name: mem type 1 moduleId 22 portId 3
+PCREPORT: PC is registered name: lock type 1 moduleId 22 portId 4
+PCREPORT: PC is registered name: add type 1 moduleId 22 portId 5
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 22 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 22 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 22 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 22 portId 0
+PCREPORT: module uw registered for pc moduleId is 23
+PCREPORT: PC is registered name: in type 1 moduleId 23 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 23 portId 2
+PCREPORT: PC is registered name: mem type 1 moduleId 23 portId 3
+PCREPORT: PC is registered name: lock type 1 moduleId 23 portId 4
+PCREPORT: PC is registered name: add type 1 moduleId 23 portId 5
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 23 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 23 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 23 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 23 portId 0
+PCREPORT: module uw registered for pc moduleId is 24
+PCREPORT: PC is registered name: in type 1 moduleId 24 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 24 portId 2
+PCREPORT: PC is registered name: mem type 1 moduleId 24 portId 3
+PCREPORT: PC is registered name: lock type 1 moduleId 24 portId 4
+PCREPORT: PC is registered name: add type 1 moduleId 24 portId 5
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 24 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 24 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 24 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 24 portId 0
+PCREPORT: module uw registered for pc moduleId is 25
+PCREPORT: PC is registered name: in type 1 moduleId 25 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 25 portId 2
+PCREPORT: PC is registered name: mem type 1 moduleId 25 portId 3
+PCREPORT: PC is registered name: lock type 1 moduleId 25 portId 4
+PCREPORT: PC is registered name: add type 1 moduleId 25 portId 5
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 25 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 25 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 25 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 25 portId 0
+Design hierarchy --- parent xx4__Replicated child uw
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent xx4__Replicated child uw
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent xx4__Replicated child uw
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent xx4__Replicated child uw
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent xx4__Replicated child uw
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent xx4__Replicated child uw
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent xx4__Replicated child uw
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent xx4__Replicated child uw
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent xx4__Replicated child RRDistributorComponent_1
+Design hierarchy --- parent RRDistributorComponent_1 child gRRDistributor_1
+Design hierarchy --- parent xx4__Replicated child RRAggregatorComponent_3
+Design hierarchy --- parent RRAggregatorComponent_3 child gRRArbiter_1
+Design hierarchy --- parent xx4__Replicated child gTaggedRRArbiter_2
+Design hierarchy --- parent xx4__Replicated child gTaggedRRArbiter_3
+Design hierarchy --- parent xx4__Replicated child gTaggedRRArbiter_4
+Design hierarchy --- parent xx4__Replicated child 
+Design hierarchy --- parent xx4__Replicated child 
+Design hierarchy --- parent xx4__Replicated child 
+PCREPORT: module lock registered for pc moduleId is 26
+PCREPORT: PC is registered name: in type 1 moduleId 26 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 26 portId 2
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 26 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 26 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 26 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 26 portId 0
+Design hierarchy --- parent uwPlus1__Offloaded__lock__Offloaded__lock child xx4__Replicated
+Design hierarchy --- parent xx4__Replicated child uw
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent xx4__Replicated child uw
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent xx4__Replicated child uw
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent xx4__Replicated child uw
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent xx4__Replicated child uw
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent xx4__Replicated child uw
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent xx4__Replicated child uw
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent xx4__Replicated child uw
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent xx4__Replicated child RRDistributorComponent_1
+Design hierarchy --- parent RRDistributorComponent_1 child gRRDistributor_1
+Design hierarchy --- parent xx4__Replicated child RRAggregatorComponent_3
+Design hierarchy --- parent RRAggregatorComponent_3 child gRRArbiter_1
+Design hierarchy --- parent xx4__Replicated child gTaggedRRArbiter_2
+Design hierarchy --- parent xx4__Replicated child gTaggedRRArbiter_3
+Design hierarchy --- parent xx4__Replicated child gTaggedRRArbiter_4
+Design hierarchy --- parent xx4__Replicated child 
+Design hierarchy --- parent xx4__Replicated child 
+Design hierarchy --- parent xx4__Replicated child 
+Design hierarchy --- parent uwPlus1__Offloaded__lock__Offloaded__lock child lock
+PCREPORT: module cachePlus__Offloaded__cacheMissPipe registered for pc moduleId is 27
+PCREPORT: PC is registered name: in type 1 moduleId 27 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 27 portId 2
+PCREPORT: PC is registered name: dram type 1 moduleId 27 portId 3
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 27 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 27 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 27 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 27 portId 0
+PCREPORT: module cache registered for pc moduleId is 28
+PCREPORT: PC is registered name: in type 1 moduleId 28 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 28 portId 2
+PCREPORT: PC is registered name: cacheMissPipe type 1 moduleId 28 portId 3
+PCREPORT: PC is registered name: dram type 1 moduleId 28 portId 4
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 28 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 28 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 28 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 28 portId 0
+PCREPORT: module gPipe_1 registered for pc moduleId is 29
+PCREPORT: PC is registered name: in type 1 moduleId 29 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 29 portId 2
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 29 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 29 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 29 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 29 portId 0
+Design hierarchy --- parent cachePlus__Offloaded__cacheMissPipe child cache
+Design hierarchy --- parent cache child 
+Design hierarchy --- parent cache child 
+Design hierarchy --- parent cache child 
+Design hierarchy --- parent cachePlus__Offloaded__cacheMissPipe child gPipe_1
+Design hierarchy --- parent uwPlus1__Offloaded__mem__Offloaded__mem child uwPlus1__Offloaded__lock__Offloaded__lock
+Design hierarchy --- parent uwPlus1__Offloaded__lock__Offloaded__lock child xx4__Replicated
+Design hierarchy --- parent xx4__Replicated child uw
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent xx4__Replicated child uw
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent xx4__Replicated child uw
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent xx4__Replicated child uw
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent xx4__Replicated child uw
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent xx4__Replicated child uw
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent xx4__Replicated child uw
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent xx4__Replicated child uw
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent xx4__Replicated child RRDistributorComponent_1
+Design hierarchy --- parent RRDistributorComponent_1 child gRRDistributor_1
+Design hierarchy --- parent xx4__Replicated child RRAggregatorComponent_3
+Design hierarchy --- parent RRAggregatorComponent_3 child gRRArbiter_1
+Design hierarchy --- parent xx4__Replicated child gTaggedRRArbiter_2
+Design hierarchy --- parent xx4__Replicated child gTaggedRRArbiter_3
+Design hierarchy --- parent xx4__Replicated child gTaggedRRArbiter_4
+Design hierarchy --- parent xx4__Replicated child 
+Design hierarchy --- parent xx4__Replicated child 
+Design hierarchy --- parent xx4__Replicated child 
+Design hierarchy --- parent uwPlus1__Offloaded__lock__Offloaded__lock child lock
+Design hierarchy --- parent uwPlus1__Offloaded__mem__Offloaded__mem child cachePlus__Offloaded__cacheMissPipe
+Design hierarchy --- parent cachePlus__Offloaded__cacheMissPipe child cache
+Design hierarchy --- parent cache child 
+Design hierarchy --- parent cache child 
+Design hierarchy --- parent cache child 
+Design hierarchy --- parent cachePlus__Offloaded__cacheMissPipe child gPipe_1
+PCREPORT: module add2 registered for pc moduleId is 30
+PCREPORT: PC is registered name: in type 1 moduleId 30 portId 1
+PCREPORT: PC is registered name: out type 1 moduleId 30 portId 2
+PCREPORT: PC is registered name: offloadRate type 2 moduleId 30 portId 0
+PCREPORT: PC is registered name: engineUtilization type 3 moduleId 30 portId 0
+PCREPORT: PC is registered name: inTokens type 6 moduleId 30 portId 0
+PCREPORT: PC is registered name: outTokens type 7 moduleId 30 portId 0
+Design hierarchy --- parent uwPlus1__Offloaded__add__Offloaded__add child uwPlus1__Offloaded__mem__Offloaded__mem
+Design hierarchy --- parent uwPlus1__Offloaded__mem__Offloaded__mem child uwPlus1__Offloaded__lock__Offloaded__lock
+Design hierarchy --- parent uwPlus1__Offloaded__lock__Offloaded__lock child xx4__Replicated
+Design hierarchy --- parent xx4__Replicated child uw
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent xx4__Replicated child uw
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent xx4__Replicated child uw
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent xx4__Replicated child uw
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent xx4__Replicated child uw
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent xx4__Replicated child uw
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent xx4__Replicated child uw
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent xx4__Replicated child uw
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent xx4__Replicated child RRDistributorComponent_1
+Design hierarchy --- parent RRDistributorComponent_1 child gRRDistributor_1
+Design hierarchy --- parent xx4__Replicated child RRAggregatorComponent_3
+Design hierarchy --- parent RRAggregatorComponent_3 child gRRArbiter_1
+Design hierarchy --- parent xx4__Replicated child gTaggedRRArbiter_2
+Design hierarchy --- parent xx4__Replicated child gTaggedRRArbiter_3
+Design hierarchy --- parent xx4__Replicated child gTaggedRRArbiter_4
+Design hierarchy --- parent xx4__Replicated child 
+Design hierarchy --- parent xx4__Replicated child 
+Design hierarchy --- parent xx4__Replicated child 
+Design hierarchy --- parent uwPlus1__Offloaded__lock__Offloaded__lock child lock
+Design hierarchy --- parent uwPlus1__Offloaded__mem__Offloaded__mem child cachePlus__Offloaded__cacheMissPipe
+Design hierarchy --- parent cachePlus__Offloaded__cacheMissPipe child cache
+Design hierarchy --- parent cache child 
+Design hierarchy --- parent cache child 
+Design hierarchy --- parent cache child 
+Design hierarchy --- parent cachePlus__Offloaded__cacheMissPipe child gPipe_1
+Design hierarchy --- parent uwPlus1__Offloaded__add__Offloaded__add child add2
+Design hierarchy --- parent result__Chained child ugPlus1__Offloaded__mem
+Design hierarchy --- parent ugPlus1__Offloaded__mem child xx2__Offloaded__rankCalc
+Design hierarchy --- parent xx2__Offloaded__rankCalc child xx6__Replicated
+Design hierarchy --- parent xx6__Replicated child ug
+Design hierarchy --- parent ug child 
+Design hierarchy --- parent ug child 
+Design hierarchy --- parent ug child 
+Design hierarchy --- parent xx6__Replicated child RRDistributorComponent
+Design hierarchy --- parent RRDistributorComponent child gRRDistributor
+Design hierarchy --- parent xx6__Replicated child RRAggregatorComponent_1
+Design hierarchy --- parent RRAggregatorComponent_1 child gRRArbiter
+Design hierarchy --- parent xx6__Replicated child gTaggedRRArbiter
+Design hierarchy --- parent xx6__Replicated child gTaggedRRArbiter_1
+Design hierarchy --- parent xx6__Replicated child 
+Design hierarchy --- parent xx6__Replicated child 
+Design hierarchy --- parent xx2__Offloaded__rankCalc child rc2__Offloaded__div__Offloaded__div
+Design hierarchy --- parent rc2__Offloaded__div__Offloaded__div child rc2__Offloaded__mul__Offloaded__mul
+Design hierarchy --- parent rc2__Offloaded__mul__Offloaded__mul child xx1
+Design hierarchy --- parent xx1 child 
+Design hierarchy --- parent xx1 child 
+Design hierarchy --- parent xx1 child 
+Design hierarchy --- parent rc2__Offloaded__mul__Offloaded__mul child mul2
+Design hierarchy --- parent rc2__Offloaded__div__Offloaded__div child div2
+Design hierarchy --- parent ugPlus1__Offloaded__mem child cachePlus__Offloaded__cacheMissPipe
+Design hierarchy --- parent cachePlus__Offloaded__cacheMissPipe child cache
+Design hierarchy --- parent cache child 
+Design hierarchy --- parent cache child 
+Design hierarchy --- parent cache child 
+Design hierarchy --- parent cachePlus__Offloaded__cacheMissPipe child gPipe
+Design hierarchy --- parent result__Chained child uwPlus1__Offloaded__add__Offloaded__add
+Design hierarchy --- parent uwPlus1__Offloaded__add__Offloaded__add child uwPlus1__Offloaded__mem__Offloaded__mem
+Design hierarchy --- parent uwPlus1__Offloaded__mem__Offloaded__mem child uwPlus1__Offloaded__lock__Offloaded__lock
+Design hierarchy --- parent uwPlus1__Offloaded__lock__Offloaded__lock child xx4__Replicated
+Design hierarchy --- parent xx4__Replicated child uw
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent xx4__Replicated child uw
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent xx4__Replicated child uw
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent xx4__Replicated child uw
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent xx4__Replicated child uw
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent xx4__Replicated child uw
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent xx4__Replicated child uw
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent xx4__Replicated child uw
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent uw child 
+Design hierarchy --- parent xx4__Replicated child RRDistributorComponent_1
+Design hierarchy --- parent RRDistributorComponent_1 child gRRDistributor_1
+Design hierarchy --- parent xx4__Replicated child RRAggregatorComponent_3
+Design hierarchy --- parent RRAggregatorComponent_3 child gRRArbiter_1
+Design hierarchy --- parent xx4__Replicated child gTaggedRRArbiter_2
+Design hierarchy --- parent xx4__Replicated child gTaggedRRArbiter_3
+Design hierarchy --- parent xx4__Replicated child gTaggedRRArbiter_4
+Design hierarchy --- parent xx4__Replicated child 
+Design hierarchy --- parent xx4__Replicated child 
+Design hierarchy --- parent xx4__Replicated child 
+Design hierarchy --- parent uwPlus1__Offloaded__lock__Offloaded__lock child lock
+Design hierarchy --- parent uwPlus1__Offloaded__mem__Offloaded__mem child cachePlus__Offloaded__cacheMissPipe
+Design hierarchy --- parent cachePlus__Offloaded__cacheMissPipe child cache
+Design hierarchy --- parent cache child 
+Design hierarchy --- parent cache child 
+Design hierarchy --- parent cache child 
+Design hierarchy --- parent cachePlus__Offloaded__cacheMissPipe child gPipe_1
+Design hierarchy --- parent uwPlus1__Offloaded__add__Offloaded__add child add2
+PCREPORT: Performance counter reset received
+PCREPORT: throughput Infinity
+PCREPORT: cycles 0
+PCREPORT: Performance counter pause ack received
+PCREPORT: input back pressure add2 received NaN
+PCREPORT: output back pressure add2 received NaN
+PCREPORT: input back pressure uwPlus1__Offloaded__add__Offloaded__add received NaN
+PCREPORT: output back pressure uwPlus1__Offloaded__add__Offloaded__add received NaN
+PCREPORT: offload back pressure 3 uwPlus1__Offloaded__add__Offloaded__add received NaN
+PCREPORT: input back pressure gPipe received NaN
+PCREPORT: output back pressure gPipe received NaN
+PCREPORT: input back pressure ugPlus1__Offloaded__mem received NaN
+PCREPORT: output back pressure ugPlus1__Offloaded__mem received NaN
+PCREPORT: offload back pressure 3 ugPlus1__Offloaded__mem received NaN
+PCREPORT: input back pressure div2 received NaN
+PCREPORT: output back pressure div2 received NaN
+PCREPORT: input back pressure mul2 received NaN
+PCREPORT: output back pressure mul2 received NaN
+PCREPORT: input back pressure xx2__Offloaded__rankCalc received NaN
+PCREPORT: output back pressure xx2__Offloaded__rankCalc received NaN
+PCREPORT: offload back pressure 3 xx2__Offloaded__rankCalc received NaN
+PCREPORT: input back pressure xx4__Replicated received NaN
+PCREPORT: output back pressure xx4__Replicated received NaN
+PCREPORT: offload back pressure 3 xx4__Replicated received NaN
+PCREPORT: offload back pressure 4 xx4__Replicated received NaN
+PCREPORT: offload back pressure 5 xx4__Replicated received NaN
+PCREPORT: input back pressure xx1 received NaN
+PCREPORT: output back pressure xx1 received NaN
+PCREPORT: offload back pressure 3 xx1 received NaN
+PCREPORT: offload back pressure 4 xx1 received NaN
+PCREPORT: input back pressure gPipe_1 received NaN
+PCREPORT: output back pressure gPipe_1 received NaN
+PCREPORT: input back pressure uw received NaN
+PCREPORT: output back pressure uw received NaN
+PCREPORT: offload back pressure 3 uw received NaN
+PCREPORT: offload back pressure 4 uw received NaN
+PCREPORT: offload back pressure 5 uw received NaN
+PCREPORT: input back pressure result__Chained received NaN
+PCREPORT: output back pressure result__Chained received NaN
+PCREPORT: offload back pressure 3 result__Chained received NaN
+PCREPORT: input back pressure xx6__Replicated received NaN
+PCREPORT: output back pressure xx6__Replicated received NaN
+PCREPORT: offload back pressure 3 xx6__Replicated received NaN
+PCREPORT: offload back pressure 4 xx6__Replicated received NaN
+PCREPORT: input back pressure ug received NaN
+PCREPORT: output back pressure ug received NaN
+PCREPORT: offload back pressure 3 ug received NaN
+PCREPORT: offload back pressure 4 ug received NaN
+PCREPORT: input back pressure cache received NaN
+PCREPORT: output back pressure cache received NaN
+PCREPORT: offload back pressure 3 cache received NaN
+PCREPORT: offload back pressure 4 cache received Infinity
+PCREPORT: input back pressure rc2__Offloaded__mul__Offloaded__mul received NaN
+PCREPORT: output back pressure rc2__Offloaded__mul__Offloaded__mul received NaN
+PCREPORT: offload back pressure 3 rc2__Offloaded__mul__Offloaded__mul received NaN
+PCREPORT: input back pressure rc2__Offloaded__div__Offloaded__div received NaN
+PCREPORT: output back pressure rc2__Offloaded__div__Offloaded__div received NaN
+PCREPORT: input back pressure cachePlus__Offloaded__cacheMissPipe received NaN
+PCREPORT: output back pressure cachePlus__Offloaded__cacheMissPipe received NaN
+PCREPORT: offload back pressure 3 cachePlus__Offloaded__cacheMissPipe received NaN
+PCREPORT: input back pressure uwPlus1__Offloaded__mem__Offloaded__mem received NaN
+PCREPORT: output back pressure uwPlus1__Offloaded__mem__Offloaded__mem received NaN
+PCREPORT: offload back pressure 3 uwPlus1__Offloaded__mem__Offloaded__mem received NaN
+PCREPORT: offload back pressure 4 uwPlus1__Offloaded__mem__Offloaded__mem received NaN
+PCREPORT: input back pressure uwPlus1__Offloaded__lock__Offloaded__lock received NaN
+PCREPORT: output back pressure uwPlus1__Offloaded__lock__Offloaded__lock received NaN
+PCREPORT: offload back pressure 3 uwPlus1__Offloaded__lock__Offloaded__lock received NaN
+PCREPORT: offload back pressure 4 uwPlus1__Offloaded__lock__Offloaded__lock received NaN
+PCREPORT: input back pressure lock received Infinity
+PCREPORT: output back pressure lock received NaN
+PCREPORT: offload rate add2 received Infinity
+PCREPORT: offload rate uwPlus1__Offloaded__add__Offloaded__add received NaN
+PCREPORT: offload rate gPipe received Infinity
+PCREPORT: offload rate ugPlus1__Offloaded__mem received NaN
+PCREPORT: offload rate div2 received Infinity
+PCREPORT: offload rate mul2 received Infinity
+PCREPORT: offload rate xx2__Offloaded__rankCalc received NaN
+PCREPORT: offload rate xx4__Replicated received NaN
+PCREPORT: offload rate xx1 received NaN
+PCREPORT: offload rate gPipe_1 received Infinity
+PCREPORT: offload rate uw received NaN
+PCREPORT: offload rate result__Chained received NaN
+PCREPORT: offload rate xx6__Replicated received NaN
+PCREPORT: offload rate ug received Infinity
+PCREPORT: offload rate cache received Infinity
+PCREPORT: offload rate rc2__Offloaded__mul__Offloaded__mul received NaN
+PCREPORT: offload rate rc2__Offloaded__div__Offloaded__div received NaN
+PCREPORT: offload rate cachePlus__Offloaded__cacheMissPipe received NaN
+PCREPORT: offload rate uwPlus1__Offloaded__mem__Offloaded__mem received NaN
+PCREPORT: offload rate uwPlus1__Offloaded__lock__Offloaded__lock received NaN
+PCREPORT: offload rate lock received Infinity
+PCREPORT: engine utilization add2 received NaN
+PCREPORT: engine utilization uwPlus1__Offloaded__add__Offloaded__add received NaN
+PCREPORT: engine utilization gPipe received NaN
+PCREPORT: engine utilization ugPlus1__Offloaded__mem received NaN
+PCREPORT: engine utilization div2 received NaN
+PCREPORT: engine utilization mul2 received NaN
+PCREPORT: engine utilization xx2__Offloaded__rankCalc received NaN
+PCREPORT: engine utilization xx4__Replicated received NaN
+PCREPORT: engine utilization xx1 received NaN
+PCREPORT: engine utilization gPipe_1 received NaN
+PCREPORT: engine utilization uw received NaN
+PCREPORT: engine utilization result__Chained received NaN
+PCREPORT: engine utilization xx6__Replicated received NaN
+PCREPORT: engine utilization ug received NaN
+PCREPORT: engine utilization cache received NaN
+PCREPORT: engine utilization rc2__Offloaded__mul__Offloaded__mul received NaN
+PCREPORT: engine utilization rc2__Offloaded__div__Offloaded__div received NaN
+PCREPORT: engine utilization cachePlus__Offloaded__cacheMissPipe received NaN
+PCREPORT: engine utilization uwPlus1__Offloaded__mem__Offloaded__mem received NaN
+PCREPORT: engine utilization uwPlus1__Offloaded__lock__Offloaded__lock received NaN
+PCREPORT: engine utilization lock received NaN
+PCREPORT: in tokens add2 received 0.0000
+PCREPORT: in tokens uwPlus1__Offloaded__add__Offloaded__add received 0.0000
+PCREPORT: in tokens gPipe received 0.0067
+PCREPORT: in tokens ugPlus1__Offloaded__mem received 0.0000
+PCREPORT: in tokens div2 received 0.0000
+PCREPORT: in tokens mul2 received 0.0000
+PCREPORT: in tokens xx2__Offloaded__rankCalc received 0.0000
+PCREPORT: in tokens xx4__Replicated received 0.0000
+PCREPORT: in tokens xx1 received 0.0000
+PCREPORT: in tokens gPipe_1 received 0.0067
+PCREPORT: in tokens uw received 0.0000
+PCREPORT: in tokens result__Chained received 0.0000
+PCREPORT: in tokens xx6__Replicated received 0.0000
+PCREPORT: in tokens ug received 0.0333
+PCREPORT: in tokens cache received 0.0333
+PCREPORT: in tokens rc2__Offloaded__mul__Offloaded__mul received 0.0000
+PCREPORT: in tokens rc2__Offloaded__div__Offloaded__div received 0.0000
+PCREPORT: in tokens cachePlus__Offloaded__cacheMissPipe received 0.0000
+PCREPORT: in tokens uwPlus1__Offloaded__mem__Offloaded__mem received 0.0000
+PCREPORT: in tokens uwPlus1__Offloaded__lock__Offloaded__lock received 0.0000
+PCREPORT: in tokens lock received 0.0000
+PCREPORT: out tokens add2 received 0.0000
+PCREPORT: out tokens uwPlus1__Offloaded__add__Offloaded__add received 0.0000
+PCREPORT: out tokens gPipe received 0.0067
+PCREPORT: out tokens ugPlus1__Offloaded__mem received 0.0000
+PCREPORT: out tokens div2 received 0.0000
+PCREPORT: out tokens mul2 received 0.0000
+PCREPORT: out tokens xx2__Offloaded__rankCalc received 0.0000
+PCREPORT: out tokens xx4__Replicated received 0.0000
+PCREPORT: out tokens xx1 received 0.0000
+PCREPORT: out tokens gPipe_1 received 0.0067
+PCREPORT: out tokens uw received 0.0000
+PCREPORT: out tokens result__Chained received 0.0000
+PCREPORT: out tokens xx6__Replicated received 0.0000
+PCREPORT: out tokens ug received 0.0333
+PCREPORT: out tokens cache received 0.0000
+PCREPORT: out tokens rc2__Offloaded__mul__Offloaded__mul received 0.0000
+PCREPORT: out tokens rc2__Offloaded__div__Offloaded__div received 0.0000
+PCREPORT: out tokens cachePlus__Offloaded__cacheMissPipe received 0.0000
+PCREPORT: out tokens uwPlus1__Offloaded__mem__Offloaded__mem received 0.0000
+PCREPORT: out tokens uwPlus1__Offloaded__lock__Offloaded__lock received 0.0000
+PCREPORT: out tokens lock received 0.0333

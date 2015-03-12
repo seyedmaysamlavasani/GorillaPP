@@ -1,0 +1,581 @@
+Release 14.3 - xst P.40xd (lin64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> 
+
+Reading constraint file GorillaPP.xcf.
+XCF parsing done.
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "GorillaPP.prj"
+Input Format                       : MIXED
+Synthesis Constraint File          : GorillaPP.xcf
+
+---- Target Parameters
+Output File Name                   : "GorillaPP.ngc"
+Target Device                      : xc4vfx12
+
+---- Source Options
+Top Module Name                    : Top
+
+---- General Options
+Optimization Goal                  : SPEED
+Optimization Effort                : 2
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "../../verilog/Top.v" in library work
+Module <RREncode> compiled
+Module <RREncode_1> compiled
+Module <RREncode_2> compiled
+Module <KDistribute> compiled
+Module <RREncode_3> compiled
+Module <RREncode_4> compiled
+Module <RREncode_5> compiled
+Module <KEngine> compiled
+Module <RREncode_6> compiled
+Module <RREncode_7> compiled
+Module <RREncode_8> compiled
+Module <distanceFU> compiled
+Module <gPipe> compiled
+Module <FUSynWrapper> compiled
+Module <gOffloadedComponent> compiled
+Module <gPipe_1> compiled
+Module <FUSynWrapper_1> compiled
+Module <gOffloadedComponent_1> compiled
+Module <gPipe_2> compiled
+Module <FUSynWrapper_2> compiled
+Module <gOffloadedComponent_2> compiled
+Module <gPipe_3> compiled
+Module <FUSynWrapper_3> compiled
+Module <gOffloadedComponent_3> compiled
+Module <gPipe_4> compiled
+Module <FUSynWrapper_4> compiled
+Module <gOffloadedComponent_4> compiled
+Module <gPipe_5> compiled
+Module <FUSynWrapper_5> compiled
+Module <gOffloadedComponent_5> compiled
+Module <gPipe_6> compiled
+Module <FUSynWrapper_6> compiled
+Module <gOffloadedComponent_6> compiled
+Module <gPipe_7> compiled
+Module <FUSynWrapper_7> compiled
+Module <gOffloadedComponent_7> compiled
+Module <gPipe_8> compiled
+Module <FUSynWrapper_8> compiled
+Module <gOffloadedComponent_8> compiled
+Module <gOffloadedComponent_9> compiled
+ERROR:HDLCompilers:28 - "../../verilog/Top.v" line 7367 'T0' has not been declared
+ERROR:HDLCompilers:28 - "../../verilog/Top.v" line 7369 'T9' has not been declared
+ERROR:HDLCompilers:28 - "../../verilog/Top.v" line 7371 'T5' has not been declared
+ERROR:HDLCompilers:28 - "../../verilog/Top.v" line 7373 'T7' has not been declared
+Module <rawSpMem> compiled
+Module <spMemComponent> compiled
+Module <gOffloadedComponent_10> compiled
+Module <rawSpMem_1> compiled
+Module <spMemComponent_1> compiled
+Module <gOffloadedComponent_11> compiled
+Module <gPipe_9> compiled
+Module <FUSynWrapper_9> compiled
+Module <gOffloadedComponent_12> compiled
+Module <RREncode_9> compiled
+Module <RREncode_10> compiled
+Module <RREncode_11> compiled
+Module <KEngine_1> compiled
+Module <RREncode_12> compiled
+Module <RREncode_13> compiled
+Module <RREncode_14> compiled
+Module <distanceFU_1> compiled
+Module <gPipe_10> compiled
+Module <FUSynWrapper_10> compiled
+Module <gOffloadedComponent_13> compiled
+Module <gPipe_11> compiled
+Module <FUSynWrapper_11> compiled
+Module <gOffloadedComponent_14> compiled
+Module <gPipe_12> compiled
+Module <FUSynWrapper_12> compiled
+Module <gOffloadedComponent_15> compiled
+Module <gPipe_13> compiled
+Module <FUSynWrapper_13> compiled
+Module <gOffloadedComponent_16> compiled
+Module <gPipe_14> compiled
+Module <FUSynWrapper_14> compiled
+Module <gOffloadedComponent_17> compiled
+Module <gPipe_15> compiled
+Module <FUSynWrapper_15> compiled
+Module <gOffloadedComponent_18> compiled
+Module <gPipe_16> compiled
+Module <FUSynWrapper_16> compiled
+Module <gOffloadedComponent_19> compiled
+Module <gPipe_17> compiled
+Module <FUSynWrapper_17> compiled
+Module <gOffloadedComponent_20> compiled
+Module <gPipe_18> compiled
+Module <FUSynWrapper_18> compiled
+Module <gOffloadedComponent_21> compiled
+Module <gOffloadedComponent_22> compiled
+ERROR:HDLCompilers:28 - "../../verilog/Top.v" line 15052 'T0' has not been declared
+ERROR:HDLCompilers:28 - "../../verilog/Top.v" line 15054 'T9' has not been declared
+ERROR:HDLCompilers:28 - "../../verilog/Top.v" line 15056 'T5' has not been declared
+ERROR:HDLCompilers:28 - "../../verilog/Top.v" line 15058 'T7' has not been declared
+Module <rawSpMem_2> compiled
+Module <spMemComponent_2> compiled
+Module <gOffloadedComponent_23> compiled
+Module <rawSpMem_3> compiled
+Module <spMemComponent_3> compiled
+Module <gOffloadedComponent_24> compiled
+Module <gPipe_19> compiled
+Module <FUSynWrapper_19> compiled
+Module <gOffloadedComponent_25> compiled
+Module <RREncode_15> compiled
+Module <RREncode_16> compiled
+Module <RREncode_17> compiled
+Module <KEngine_2> compiled
+Module <RREncode_18> compiled
+Module <RREncode_19> compiled
+Module <RREncode_20> compiled
+Module <distanceFU_2> compiled
+Module <gPipe_20> compiled
+Module <FUSynWrapper_20> compiled
+Module <gOffloadedComponent_26> compiled
+Module <gPipe_21> compiled
+Module <FUSynWrapper_21> compiled
+Module <gOffloadedComponent_27> compiled
+Module <gPipe_22> compiled
+Module <FUSynWrapper_22> compiled
+Module <gOffloadedComponent_28> compiled
+Module <gPipe_23> compiled
+Module <FUSynWrapper_23> compiled
+Module <gOffloadedComponent_29> compiled
+Module <gPipe_24> compiled
+Module <FUSynWrapper_24> compiled
+Module <gOffloadedComponent_30> compiled
+Module <gPipe_25> compiled
+Module <FUSynWrapper_25> compiled
+Module <gOffloadedComponent_31> compiled
+Module <gPipe_26> compiled
+Module <FUSynWrapper_26> compiled
+Module <gOffloadedComponent_32> compiled
+Module <gPipe_27> compiled
+Module <FUSynWrapper_27> compiled
+Module <gOffloadedComponent_33> compiled
+Module <gPipe_28> compiled
+Module <FUSynWrapper_28> compiled
+Module <gOffloadedComponent_34> compiled
+Module <gOffloadedComponent_35> compiled
+ERROR:HDLCompilers:28 - "../../verilog/Top.v" line 22736 'T0' has not been declared
+ERROR:HDLCompilers:28 - "../../verilog/Top.v" line 22738 'T9' has not been declared
+ERROR:HDLCompilers:28 - "../../verilog/Top.v" line 22740 'T5' has not been declared
+ERROR:HDLCompilers:28 - "../../verilog/Top.v" line 22742 'T7' has not been declared
+Module <rawSpMem_4> compiled
+Module <spMemComponent_4> compiled
+Module <gOffloadedComponent_36> compiled
+Module <rawSpMem_5> compiled
+Module <spMemComponent_5> compiled
+Module <gOffloadedComponent_37> compiled
+Module <gPipe_29> compiled
+Module <FUSynWrapper_29> compiled
+Module <gOffloadedComponent_38> compiled
+Module <RREncode_21> compiled
+Module <RREncode_22> compiled
+Module <RREncode_23> compiled
+Module <KEngine_3> compiled
+Module <RREncode_24> compiled
+Module <RREncode_25> compiled
+Module <RREncode_26> compiled
+Module <distanceFU_3> compiled
+Module <gPipe_30> compiled
+Module <FUSynWrapper_30> compiled
+Module <gOffloadedComponent_39> compiled
+Module <gPipe_31> compiled
+Module <FUSynWrapper_31> compiled
+Module <gOffloadedComponent_40> compiled
+Module <gPipe_32> compiled
+Module <FUSynWrapper_32> compiled
+Module <gOffloadedComponent_41> compiled
+Module <gPipe_33> compiled
+Module <FUSynWrapper_33> compiled
+Module <gOffloadedComponent_42> compiled
+Module <gPipe_34> compiled
+Module <FUSynWrapper_34> compiled
+Module <gOffloadedComponent_43> compiled
+Module <gPipe_35> compiled
+Module <FUSynWrapper_35> compiled
+Module <gOffloadedComponent_44> compiled
+Module <gPipe_36> compiled
+Module <FUSynWrapper_36> compiled
+Module <gOffloadedComponent_45> compiled
+Module <gPipe_37> compiled
+Module <FUSynWrapper_37> compiled
+Module <gOffloadedComponent_46> compiled
+Module <gPipe_38> compiled
+Module <FUSynWrapper_38> compiled
+Module <gOffloadedComponent_47> compiled
+Module <gOffloadedComponent_48> compiled
+ERROR:HDLCompilers:28 - "../../verilog/Top.v" line 30420 'T0' has not been declared
+ERROR:HDLCompilers:28 - "../../verilog/Top.v" line 30422 'T9' has not been declared
+ERROR:HDLCompilers:28 - "../../verilog/Top.v" line 30424 'T5' has not been declared
+ERROR:HDLCompilers:28 - "../../verilog/Top.v" line 30426 'T7' has not been declared
+Module <rawSpMem_6> compiled
+Module <spMemComponent_6> compiled
+Module <gOffloadedComponent_49> compiled
+Module <rawSpMem_7> compiled
+Module <spMemComponent_7> compiled
+Module <gOffloadedComponent_50> compiled
+Module <gPipe_39> compiled
+Module <FUSynWrapper_39> compiled
+Module <gOffloadedComponent_51> compiled
+Module <RREncode_27> compiled
+Module <RREncode_28> compiled
+Module <RREncode_29> compiled
+Module <KEngine_4> compiled
+Module <RREncode_30> compiled
+Module <RREncode_31> compiled
+Module <RREncode_32> compiled
+Module <distanceFU_4> compiled
+Module <gPipe_40> compiled
+Module <FUSynWrapper_40> compiled
+Module <gOffloadedComponent_52> compiled
+Module <gPipe_41> compiled
+Module <FUSynWrapper_41> compiled
+Module <gOffloadedComponent_53> compiled
+Module <gPipe_42> compiled
+Module <FUSynWrapper_42> compiled
+Module <gOffloadedComponent_54> compiled
+Module <gPipe_43> compiled
+Module <FUSynWrapper_43> compiled
+Module <gOffloadedComponent_55> compiled
+Module <gPipe_44> compiled
+Module <FUSynWrapper_44> compiled
+Module <gOffloadedComponent_56> compiled
+Module <gPipe_45> compiled
+Module <FUSynWrapper_45> compiled
+Module <gOffloadedComponent_57> compiled
+Module <gPipe_46> compiled
+Module <FUSynWrapper_46> compiled
+Module <gOffloadedComponent_58> compiled
+Module <gPipe_47> compiled
+Module <FUSynWrapper_47> compiled
+Module <gOffloadedComponent_59> compiled
+Module <gPipe_48> compiled
+Module <FUSynWrapper_48> compiled
+Module <gOffloadedComponent_60> compiled
+Module <gOffloadedComponent_61> compiled
+ERROR:HDLCompilers:28 - "../../verilog/Top.v" line 38104 'T0' has not been declared
+ERROR:HDLCompilers:28 - "../../verilog/Top.v" line 38106 'T9' has not been declared
+ERROR:HDLCompilers:28 - "../../verilog/Top.v" line 38108 'T5' has not been declared
+ERROR:HDLCompilers:28 - "../../verilog/Top.v" line 38110 'T7' has not been declared
+Module <rawSpMem_8> compiled
+Module <spMemComponent_8> compiled
+Module <gOffloadedComponent_62> compiled
+Module <rawSpMem_9> compiled
+Module <spMemComponent_9> compiled
+Module <gOffloadedComponent_63> compiled
+Module <gPipe_49> compiled
+Module <FUSynWrapper_49> compiled
+Module <gOffloadedComponent_64> compiled
+Module <RREncode_33> compiled
+Module <RREncode_34> compiled
+Module <RREncode_35> compiled
+Module <KEngine_5> compiled
+Module <RREncode_36> compiled
+Module <RREncode_37> compiled
+Module <RREncode_38> compiled
+Module <distanceFU_5> compiled
+Module <gPipe_50> compiled
+Module <FUSynWrapper_50> compiled
+Module <gOffloadedComponent_65> compiled
+Module <gPipe_51> compiled
+Module <FUSynWrapper_51> compiled
+Module <gOffloadedComponent_66> compiled
+Module <gPipe_52> compiled
+Module <FUSynWrapper_52> compiled
+Module <gOffloadedComponent_67> compiled
+Module <gPipe_53> compiled
+Module <FUSynWrapper_53> compiled
+Module <gOffloadedComponent_68> compiled
+Module <gPipe_54> compiled
+Module <FUSynWrapper_54> compiled
+Module <gOffloadedComponent_69> compiled
+Module <gPipe_55> compiled
+Module <FUSynWrapper_55> compiled
+Module <gOffloadedComponent_70> compiled
+Module <gPipe_56> compiled
+Module <FUSynWrapper_56> compiled
+Module <gOffloadedComponent_71> compiled
+Module <gPipe_57> compiled
+Module <FUSynWrapper_57> compiled
+Module <gOffloadedComponent_72> compiled
+Module <gPipe_58> compiled
+Module <FUSynWrapper_58> compiled
+Module <gOffloadedComponent_73> compiled
+Module <gOffloadedComponent_74> compiled
+ERROR:HDLCompilers:28 - "../../verilog/Top.v" line 45788 'T0' has not been declared
+ERROR:HDLCompilers:28 - "../../verilog/Top.v" line 45790 'T9' has not been declared
+ERROR:HDLCompilers:28 - "../../verilog/Top.v" line 45792 'T5' has not been declared
+ERROR:HDLCompilers:28 - "../../verilog/Top.v" line 45794 'T7' has not been declared
+Module <rawSpMem_10> compiled
+Module <spMemComponent_10> compiled
+Module <gOffloadedComponent_75> compiled
+Module <rawSpMem_11> compiled
+Module <spMemComponent_11> compiled
+Module <gOffloadedComponent_76> compiled
+Module <gPipe_59> compiled
+Module <FUSynWrapper_59> compiled
+Module <gOffloadedComponent_77> compiled
+Module <RREncode_39> compiled
+Module <RREncode_40> compiled
+Module <RREncode_41> compiled
+Module <KEngine_6> compiled
+Module <RREncode_42> compiled
+Module <RREncode_43> compiled
+Module <RREncode_44> compiled
+Module <distanceFU_6> compiled
+Module <gPipe_60> compiled
+Module <FUSynWrapper_60> compiled
+Module <gOffloadedComponent_78> compiled
+Module <gPipe_61> compiled
+Module <FUSynWrapper_61> compiled
+Module <gOffloadedComponent_79> compiled
+Module <gPipe_62> compiled
+Module <FUSynWrapper_62> compiled
+Module <gOffloadedComponent_80> compiled
+Module <gPipe_63> compiled
+Module <FUSynWrapper_63> compiled
+Module <gOffloadedComponent_81> compiled
+Module <gPipe_64> compiled
+Module <FUSynWrapper_64> compiled
+Module <gOffloadedComponent_82> compiled
+Module <gPipe_65> compiled
+Module <FUSynWrapper_65> compiled
+Module <gOffloadedComponent_83> compiled
+Module <gPipe_66> compiled
+Module <FUSynWrapper_66> compiled
+Module <gOffloadedComponent_84> compiled
+Module <gPipe_67> compiled
+Module <FUSynWrapper_67> compiled
+Module <gOffloadedComponent_85> compiled
+Module <gPipe_68> compiled
+Module <FUSynWrapper_68> compiled
+Module <gOffloadedComponent_86> compiled
+Module <gOffloadedComponent_87> compiled
+ERROR:HDLCompilers:28 - "../../verilog/Top.v" line 53472 'T0' has not been declared
+ERROR:HDLCompilers:28 - "../../verilog/Top.v" line 53474 'T9' has not been declared
+ERROR:HDLCompilers:28 - "../../verilog/Top.v" line 53476 'T5' has not been declared
+ERROR:HDLCompilers:28 - "../../verilog/Top.v" line 53478 'T7' has not been declared
+Module <rawSpMem_12> compiled
+Module <spMemComponent_12> compiled
+Module <gOffloadedComponent_88> compiled
+Module <rawSpMem_13> compiled
+Module <spMemComponent_13> compiled
+Module <gOffloadedComponent_89> compiled
+Module <gPipe_69> compiled
+Module <FUSynWrapper_69> compiled
+Module <gOffloadedComponent_90> compiled
+Module <RREncode_45> compiled
+Module <RREncode_46> compiled
+Module <RREncode_47> compiled
+Module <KEngine_7> compiled
+Module <RREncode_48> compiled
+Module <RREncode_49> compiled
+Module <RREncode_50> compiled
+Module <distanceFU_7> compiled
+Module <gPipe_70> compiled
+Module <FUSynWrapper_70> compiled
+Module <gOffloadedComponent_91> compiled
+Module <gPipe_71> compiled
+Module <FUSynWrapper_71> compiled
+Module <gOffloadedComponent_92> compiled
+Module <gPipe_72> compiled
+Module <FUSynWrapper_72> compiled
+Module <gOffloadedComponent_93> compiled
+Module <gPipe_73> compiled
+Module <FUSynWrapper_73> compiled
+Module <gOffloadedComponent_94> compiled
+Module <gPipe_74> compiled
+Module <FUSynWrapper_74> compiled
+Module <gOffloadedComponent_95> compiled
+Module <gPipe_75> compiled
+Module <FUSynWrapper_75> compiled
+Module <gOffloadedComponent_96> compiled
+Module <gPipe_76> compiled
+Module <FUSynWrapper_76> compiled
+Module <gOffloadedComponent_97> compiled
+Module <gPipe_77> compiled
+Module <FUSynWrapper_77> compiled
+Module <gOffloadedComponent_98> compiled
+Module <gPipe_78> compiled
+Module <FUSynWrapper_78> compiled
+Module <gOffloadedComponent_99> compiled
+Module <gOffloadedComponent_100> compiled
+ERROR:HDLCompilers:28 - "../../verilog/Top.v" line 61156 'T0' has not been declared
+ERROR:HDLCompilers:28 - "../../verilog/Top.v" line 61158 'T9' has not been declared
+ERROR:HDLCompilers:28 - "../../verilog/Top.v" line 61160 'T5' has not been declared
+ERROR:HDLCompilers:28 - "../../verilog/Top.v" line 61162 'T7' has not been declared
+Module <rawSpMem_14> compiled
+Module <spMemComponent_14> compiled
+Module <gOffloadedComponent_101> compiled
+Module <rawSpMem_15> compiled
+Module <spMemComponent_15> compiled
+Module <gOffloadedComponent_102> compiled
+Module <gPipe_79> compiled
+Module <FUSynWrapper_79> compiled
+Module <gOffloadedComponent_103> compiled
+Module <RREncode_51> compiled
+Module <RREncode_52> compiled
+Module <RREncode_53> compiled
+Module <KEngine_8> compiled
+Module <RREncode_54> compiled
+Module <RREncode_55> compiled
+Module <RREncode_56> compiled
+Module <distanceFU_8> compiled
+Module <gPipe_80> compiled
+Module <FUSynWrapper_80> compiled
+Module <gOffloadedComponent_104> compiled
+Module <gPipe_81> compiled
+Module <FUSynWrapper_81> compiled
+Module <gOffloadedComponent_105> compiled
+Module <gPipe_82> compiled
+Module <FUSynWrapper_82> compiled
+Module <gOffloadedComponent_106> compiled
+Module <gPipe_83> compiled
+Module <FUSynWrapper_83> compiled
+Module <gOffloadedComponent_107> compiled
+Module <gPipe_84> compiled
+Module <FUSynWrapper_84> compiled
+Module <gOffloadedComponent_108> compiled
+Module <gPipe_85> compiled
+Module <FUSynWrapper_85> compiled
+Module <gOffloadedComponent_109> compiled
+Module <gPipe_86> compiled
+Module <FUSynWrapper_86> compiled
+Module <gOffloadedComponent_110> compiled
+Module <gPipe_87> compiled
+Module <FUSynWrapper_87> compiled
+Module <gOffloadedComponent_111> compiled
+Module <gPipe_88> compiled
+Module <FUSynWrapper_88> compiled
+Module <gOffloadedComponent_112> compiled
+Module <gOffloadedComponent_113> compiled
+ERROR:HDLCompilers:28 - "../../verilog/Top.v" line 68840 'T0' has not been declared
+ERROR:HDLCompilers:28 - "../../verilog/Top.v" line 68842 'T9' has not been declared
+ERROR:HDLCompilers:28 - "../../verilog/Top.v" line 68844 'T5' has not been declared
+ERROR:HDLCompilers:28 - "../../verilog/Top.v" line 68846 'T7' has not been declared
+Module <rawSpMem_16> compiled
+Module <spMemComponent_16> compiled
+Module <gOffloadedComponent_114> compiled
+Module <rawSpMem_17> compiled
+Module <spMemComponent_17> compiled
+Module <gOffloadedComponent_115> compiled
+Module <gPipe_89> compiled
+Module <FUSynWrapper_89> compiled
+Module <gOffloadedComponent_116> compiled
+Module <RREncode_57> compiled
+Module <RREncode_58> compiled
+Module <RREncode_59> compiled
+Module <KEngine_9> compiled
+Module <RREncode_60> compiled
+Module <RREncode_61> compiled
+Module <RREncode_62> compiled
+Module <distanceFU_9> compiled
+Module <gPipe_90> compiled
+Module <FUSynWrapper_90> compiled
+Module <gOffloadedComponent_117> compiled
+Module <gPipe_91> compiled
+Module <FUSynWrapper_91> compiled
+Module <gOffloadedComponent_118> compiled
+Module <gPipe_92> compiled
+Module <FUSynWrapper_92> compiled
+Module <gOffloadedComponent_119> compiled
+Module <gPipe_93> compiled
+Module <FUSynWrapper_93> compiled
+Module <gOffloadedComponent_120> compiled
+Module <gPipe_94> compiled
+Module <FUSynWrapper_94> compiled
+Module <gOffloadedComponent_121> compiled
+Module <gPipe_95> compiled
+Module <FUSynWrapper_95> compiled
+Module <gOffloadedComponent_122> compiled
+Module <gPipe_96> compiled
+Module <FUSynWrapper_96> compiled
+Module <gOffloadedComponent_123> compiled
+Module <gPipe_97> compiled
+Module <FUSynWrapper_97> compiled
+Module <gOffloadedComponent_124> compiled
+Module <gPipe_98> compiled
+Module <FUSynWrapper_98> compiled
+Module <gOffloadedComponent_125> compiled
+Module <gOffloadedComponent_126> compiled
+ERROR:HDLCompilers:28 - "../../verilog/Top.v" line 76524 'T0' has not been declared
+ERROR:HDLCompilers:28 - "../../verilog/Top.v" line 76526 'T9' has not been declared
+ERROR:HDLCompilers:28 - "../../verilog/Top.v" line 76528 'T5' has not been declared
+ERROR:HDLCompilers:28 - "../../verilog/Top.v" line 76530 'T7' has not been declared
+Module <rawSpMem_18> compiled
+Module <spMemComponent_18> compiled
+Module <gOffloadedComponent_127> compiled
+Module <rawSpMem_19> compiled
+Module <spMemComponent_19> compiled
+Module <gOffloadedComponent_128> compiled
+Module <gPipe_99> compiled
+Module <FUSynWrapper_99> compiled
+Module <gOffloadedComponent_129> compiled
+Module <gRRDistributor> compiled
+Module <RRDistributorComponent> compiled
+Module <gRRArbiter> compiled
+Module <RRAggregatorComponent> compiled
+Module <gReplicatedComponent> compiled
+Module <gChainedComponent> compiled
+Module <RREncode_63> compiled
+Module <RREncode_64> compiled
+Module <RREncode_65> compiled
+Module <KReduce> compiled
+Module <rawSpMem_20> compiled
+Module <spMemComponent_20> compiled
+Module <gOffloadedComponent_130> compiled
+Module <gPipe_100> compiled
+Module <FUSynWrapper_100> compiled
+Module <gOffloadedComponent_131> compiled
+Module <gChainedComponent_1> compiled
+Compiling verilog file "../../verilog/types_float_double_grp_fu_93_ACMP_dmul_3.v" in library work
+Module <Top> compiled
+Module <types_float_double_grp_fu_93_ACMP_dmul_3_io> compiled
+Compiling verilog file "../../verilog/types_float_double_grp_fu_86_ACMP_dadd_2.v" in library work
+Module <multiplier64fp> compiled
+Module <types_float_double_grp_fu_86_ACMP_dadd_2_io> compiled
+Compiling verilog file "../../verilog/types_float_double_grp_fu_100_ACMP_dsqrt_4.v" in library work
+Module <adder64fp> compiled
+Module <types_float_double_grp_fu_100_ACMP_dsqrt_4_io> compiled
+Module <sqrt64fp> compiled
+Analysis of file <"GorillaPP.prj"> failed.
+--> 
+
+
+Total memory usage is 507492 kilobytes
+
+Number of errors   :   40 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

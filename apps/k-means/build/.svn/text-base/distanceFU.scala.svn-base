@@ -1,0 +1,402 @@
+package Tutorial
+
+import Chisel._
+import Node._
+import Literal._
+import scala.collection.mutable.HashMap
+import scala.collection.mutable.ArrayBuffer
+
+
+class distanceFU (extCompName:String) extends gComponentLeaf  (() => new distanceFU_in_t)(() => new distanceFU_out_t) (ArrayBuffer(("sub1", () => new FU_in_t , () => new FU_out_t), ("sub2", () => new FU_in_t , () => new FU_out_t), ("sub3", () => new FU_in_t , () => new FU_out_t), ("add1", () => new FU_in_t , () => new FU_out_t), ("add2", () => new FU_in_t , () => new FU_out_t), ("mul1", () => new FU_in_t , () => new FU_out_t), ("mul2", () => new FU_in_t , () => new FU_out_t), ("mul3", () => new FU_in_t , () => new FU_out_t), ("sqrt", () => new FU_in_t , () => new FU_out_t)))  (extCompName = extCompName + "__type__engine__MT__1__") with include {
+  val numOfThreads = 1 
+  val NONE_SELECTED = UFix(numOfThreads,log2Up(numOfThreads+1))
+  val WaitForInputValid = UFix(0, 8)
+  val WaitForOutputReady = UFix(255, 8)
+  val WaitForReady = UFix(0, 1)
+  val WaitForValid = UFix(1, 1)
+  val inputTag = Vec(numOfThreads) {Reg(UFix(width=TAGWIDTH*2))}
+  val State = Vec(numOfThreads) {Reg(UFix(width=8), resetVal=WaitForInputValid)} 
+  val EmitReturnState = Vec(numOfThreads) {Reg(UFix(width=8), resetVal=WaitForInputValid)} 
+  //val outstandingOffs = Vec(numOfThreads) {Reg(resetVal=UFix(0, 5))}
+  val AllOffloadsReady = Bool()
+  val AllOffloadsValid  = Vec(numOfThreads) {Bool()}
+  /*******************Thread states*********************************/
+  val subStateTh = Vec(numOfThreads) {Reg(resetVal=WaitForReady)}
+
+  def  myOff = io.elements.find(_._1 == "off").getOrElse(elseV)._2
+   val sub1Out = Vec (numOfThreads) {Reg(new FU_out_t)}	//Global variable 
+   val sub2Out = Vec (numOfThreads) {Reg(new FU_out_t)}	//Global variable 
+   val sub3Out = Vec (numOfThreads) {Reg(new FU_out_t)}	//Global variable 
+   val mul3Out = Vec (numOfThreads) {Reg(new FU_out_t)}	//Global variable 
+   val mul2Out = Vec (numOfThreads) {Reg(new FU_out_t)}	//Global variable 
+   val mul1Out = Vec (numOfThreads) {Reg(new FU_out_t)}	//Global variable 
+   val add1Out = Vec (numOfThreads) {Reg(new FU_out_t)}	//Global variable 
+   val add2Out = Vec (numOfThreads) {Reg(new FU_out_t)}	//Global variable 
+   val sqrtOut = Vec (numOfThreads) {Reg(new FU_out_t)}	//Global variable 
+   val inputReg = Vec(numOfThreads) {Reg(new distanceFU_in_t)}
+   val outputReg = Vec(numOfThreads) {Reg(new distanceFU_out_t)}
+   def mymyOffmul1 = myOff.asInstanceOf[Bundle].elements.find(_._1 == "mul1").getOrElse(elseV)._2
+   val mul1Port = new gOffBundleND(() => new FU_in_t, () => new FU_out_t)
+   mul1Port <> mymyOffmul1
+   def mymyOffmul2 = myOff.asInstanceOf[Bundle].elements.find(_._1 == "mul2").getOrElse(elseV)._2
+   val mul2Port = new gOffBundleND(() => new FU_in_t, () => new FU_out_t)
+   mul2Port <> mymyOffmul2
+   def mymyOffmul3 = myOff.asInstanceOf[Bundle].elements.find(_._1 == "mul3").getOrElse(elseV)._2
+   val mul3Port = new gOffBundleND(() => new FU_in_t, () => new FU_out_t)
+   mul3Port <> mymyOffmul3
+   def mymyOffsqrt = myOff.asInstanceOf[Bundle].elements.find(_._1 == "sqrt").getOrElse(elseV)._2
+   val sqrtPort = new gOffBundleND(() => new FU_in_t, () => new FU_out_t)
+   sqrtPort <> mymyOffsqrt
+   def mymyOffsub3 = myOff.asInstanceOf[Bundle].elements.find(_._1 == "sub3").getOrElse(elseV)._2
+   val sub3Port = new gOffBundleND(() => new FU_in_t, () => new FU_out_t)
+   sub3Port <> mymyOffsub3
+   def mymyOffsub2 = myOff.asInstanceOf[Bundle].elements.find(_._1 == "sub2").getOrElse(elseV)._2
+   val sub2Port = new gOffBundleND(() => new FU_in_t, () => new FU_out_t)
+   sub2Port <> mymyOffsub2
+   def mymyOffadd2 = myOff.asInstanceOf[Bundle].elements.find(_._1 == "add2").getOrElse(elseV)._2
+   val add2Port = new gOffBundleND(() => new FU_in_t, () => new FU_out_t)
+   add2Port <> mymyOffadd2
+   def mymyOffsub1 = myOff.asInstanceOf[Bundle].elements.find(_._1 == "sub1").getOrElse(elseV)._2
+   val sub1Port = new gOffBundleND(() => new FU_in_t, () => new FU_out_t)
+   sub1Port <> mymyOffsub1
+   def mymyOffadd1 = myOff.asInstanceOf[Bundle].elements.find(_._1 == "add1").getOrElse(elseV)._2
+   val add1Port = new gOffBundleND(() => new FU_in_t, () => new FU_out_t)
+   add1Port <> mymyOffadd1
+   val GS_step1 = UFix(1)
+   val sub1In = new FU_in_t
+   val sub2In = new FU_in_t
+   val sub3In = new FU_in_t
+   val GS_step2 = UFix(2)
+   val mul1In = new FU_in_t
+   val mul2In = new FU_in_t
+   val mul3In = new FU_in_t
+   val GS_step3 = UFix(3)
+   val add1In = new FU_in_t
+   val GS_step4 = UFix(4)
+   val add2In = new FU_in_t
+   val GS_step5 = UFix(5)
+   val sqrtIn = new FU_in_t
+   val GS_step6 = UFix(6)
+
+   /******************Winner threads*********************************/
+  val rThreadEncoder = new RREncode (numOfThreads) 
+  val rThread =  rThreadEncoder.io.chosen
+  Range(0, numOfThreads, 1).map(i => 
+    rThreadEncoder.io.valid(i) := (subStateTh(i) === WaitForReady))
+  rThreadEncoder.io.ready := (rThread != NONE_SELECTED)
+
+  val vThreadEncoder = new RREncode (numOfThreads) 
+  val vThread =  vThreadEncoder.io.chosen
+  Range(0, numOfThreads, 1).map(i => 
+    vThreadEncoder.io.valid(i) := (subStateTh(i) === WaitForValid) && AllOffloadsValid(i))
+  vThreadEncoder.io.ready := vThread != NONE_SELECTED
+
+  val sThreadEncoder = new RREncode (numOfThreads) 
+  val sThread =  sThreadEncoder.io.chosen
+  Range(0, numOfThreads, 1).map(i => sThreadEncoder.io.valid(i) := (subStateTh(i) === WaitForReady) && (State(i) === WaitForInputValid))
+  sThreadEncoder.io.ready := sThread != NONE_SELECTED
+
+
+Range(0, numOfThreads, 1).foreach(i => subStateTh(i) := MuxCase(subStateTh(i), Seq((AllOffloadsReady && UFix(i) === rThread && State(i) != WaitForInputValid && State(i) != WaitForOutputReady , WaitForValid), (UFix(i) === vThread, WaitForReady)))) 
+
+  sub1Port.rep.ready := Bool(true)
+  sub2Port.rep.ready := Bool(true)
+  sub3Port.rep.ready := Bool(true)
+  add1Port.rep.ready := Bool(true)
+  add2Port.rep.ready := Bool(true)
+  mul1Port.rep.ready := Bool(true)
+  mul2Port.rep.ready := Bool(true)
+  mul3Port.rep.ready := Bool(true)
+  sqrtPort.rep.ready := Bool(true)
+
+/******************Ready stage handler************************/
+val sub1PortHadReadyRequest = Reg(resetVal=Bool(false))
+val sub1_ready_received = Reg(resetVal=Bool(false))
+val sub2PortHadReadyRequest = Reg(resetVal=Bool(false))
+val sub2_ready_received = Reg(resetVal=Bool(false))
+val sub3PortHadReadyRequest = Reg(resetVal=Bool(false))
+val sub3_ready_received = Reg(resetVal=Bool(false))
+val add1PortHadReadyRequest = Reg(resetVal=Bool(false))
+val add1_ready_received = Reg(resetVal=Bool(false))
+val add2PortHadReadyRequest = Reg(resetVal=Bool(false))
+val add2_ready_received = Reg(resetVal=Bool(false))
+val mul1PortHadReadyRequest = Reg(resetVal=Bool(false))
+val mul1_ready_received = Reg(resetVal=Bool(false))
+val mul2PortHadReadyRequest = Reg(resetVal=Bool(false))
+val mul2_ready_received = Reg(resetVal=Bool(false))
+val mul3PortHadReadyRequest = Reg(resetVal=Bool(false))
+val mul3_ready_received = Reg(resetVal=Bool(false))
+val sqrtPortHadReadyRequest = Reg(resetVal=Bool(false))
+val sqrt_ready_received = Reg(resetVal=Bool(false))
+
+AllOffloadsReady :=  
+  (sub1Port.req.ready || sub1_ready_received || (!sub1PortHadReadyRequest && !sub1Port.req.valid)) &&  
+  (sub2Port.req.ready || sub2_ready_received || (!sub2PortHadReadyRequest && !sub2Port.req.valid)) &&  
+  (sub3Port.req.ready || sub3_ready_received || (!sub3PortHadReadyRequest && !sub3Port.req.valid)) &&  
+  (add1Port.req.ready || add1_ready_received || (!add1PortHadReadyRequest && !add1Port.req.valid)) &&  
+  (add2Port.req.ready || add2_ready_received || (!add2PortHadReadyRequest && !add2Port.req.valid)) &&  
+  (mul1Port.req.ready || mul1_ready_received || (!mul1PortHadReadyRequest && !mul1Port.req.valid)) &&  
+  (mul2Port.req.ready || mul2_ready_received || (!mul2PortHadReadyRequest && !mul2Port.req.valid)) &&  
+  (mul3Port.req.ready || mul3_ready_received || (!mul3PortHadReadyRequest && !mul3Port.req.valid)) &&  
+  (sqrtPort.req.ready || sqrt_ready_received || (!sqrtPortHadReadyRequest && !sqrtPort.req.valid)) &&  
+  Bool(true)
+
+sub1_ready_received := !(AllOffloadsReady) && (sub1_ready_received || sub1Port.req.ready)
+sub1PortHadReadyRequest := !AllOffloadsReady && (sub1PortHadReadyRequest || sub1Port.req.valid)
+sub2_ready_received := !(AllOffloadsReady) && (sub2_ready_received || sub2Port.req.ready)
+sub2PortHadReadyRequest := !AllOffloadsReady && (sub2PortHadReadyRequest || sub2Port.req.valid)
+sub3_ready_received := !(AllOffloadsReady) && (sub3_ready_received || sub3Port.req.ready)
+sub3PortHadReadyRequest := !AllOffloadsReady && (sub3PortHadReadyRequest || sub3Port.req.valid)
+add1_ready_received := !(AllOffloadsReady) && (add1_ready_received || add1Port.req.ready)
+add1PortHadReadyRequest := !AllOffloadsReady && (add1PortHadReadyRequest || add1Port.req.valid)
+add2_ready_received := !(AllOffloadsReady) && (add2_ready_received || add2Port.req.ready)
+add2PortHadReadyRequest := !AllOffloadsReady && (add2PortHadReadyRequest || add2Port.req.valid)
+mul1_ready_received := !(AllOffloadsReady) && (mul1_ready_received || mul1Port.req.ready)
+mul1PortHadReadyRequest := !AllOffloadsReady && (mul1PortHadReadyRequest || mul1Port.req.valid)
+mul2_ready_received := !(AllOffloadsReady) && (mul2_ready_received || mul2Port.req.ready)
+mul2PortHadReadyRequest := !AllOffloadsReady && (mul2PortHadReadyRequest || mul2Port.req.valid)
+mul3_ready_received := !(AllOffloadsReady) && (mul3_ready_received || mul3Port.req.ready)
+mul3PortHadReadyRequest := !AllOffloadsReady && (mul3PortHadReadyRequest || mul3Port.req.valid)
+sqrt_ready_received := !(AllOffloadsReady) && (sqrt_ready_received || sqrtPort.req.ready)
+sqrtPortHadReadyRequest := !AllOffloadsReady && (sqrtPortHadReadyRequest || sqrtPort.req.valid)
+
+
+/******************Valid stage handler************************/
+val sub1PortHadValidRequest = Vec(numOfThreads) {Reg(resetVal=Bool(false))}
+val sub1_valid_received = Vec(numOfThreads) {Reg(resetVal=Bool(false))}
+val sub2PortHadValidRequest = Vec(numOfThreads) {Reg(resetVal=Bool(false))}
+val sub2_valid_received = Vec(numOfThreads) {Reg(resetVal=Bool(false))}
+val sub3PortHadValidRequest = Vec(numOfThreads) {Reg(resetVal=Bool(false))}
+val sub3_valid_received = Vec(numOfThreads) {Reg(resetVal=Bool(false))}
+val add1PortHadValidRequest = Vec(numOfThreads) {Reg(resetVal=Bool(false))}
+val add1_valid_received = Vec(numOfThreads) {Reg(resetVal=Bool(false))}
+val add2PortHadValidRequest = Vec(numOfThreads) {Reg(resetVal=Bool(false))}
+val add2_valid_received = Vec(numOfThreads) {Reg(resetVal=Bool(false))}
+val mul1PortHadValidRequest = Vec(numOfThreads) {Reg(resetVal=Bool(false))}
+val mul1_valid_received = Vec(numOfThreads) {Reg(resetVal=Bool(false))}
+val mul2PortHadValidRequest = Vec(numOfThreads) {Reg(resetVal=Bool(false))}
+val mul2_valid_received = Vec(numOfThreads) {Reg(resetVal=Bool(false))}
+val mul3PortHadValidRequest = Vec(numOfThreads) {Reg(resetVal=Bool(false))}
+val mul3_valid_received = Vec(numOfThreads) {Reg(resetVal=Bool(false))}
+val sqrtPortHadValidRequest = Vec(numOfThreads) {Reg(resetVal=Bool(false))}
+val sqrt_valid_received = Vec(numOfThreads) {Reg(resetVal=Bool(false))}
+
+for (i <- 0 to numOfThreads-1) {
+AllOffloadsValid(i) :=  
+  ((sub1Port.rep.valid && (sub1Port.rep.tag === UFix(i, 5)))|| sub1_valid_received(i) || !sub1PortHadValidRequest(i)) &&  
+  ((sub2Port.rep.valid && (sub2Port.rep.tag === UFix(i, 5)))|| sub2_valid_received(i) || !sub2PortHadValidRequest(i)) &&  
+  ((sub3Port.rep.valid && (sub3Port.rep.tag === UFix(i, 5)))|| sub3_valid_received(i) || !sub3PortHadValidRequest(i)) &&  
+  ((add1Port.rep.valid && (add1Port.rep.tag === UFix(i, 5)))|| add1_valid_received(i) || !add1PortHadValidRequest(i)) &&  
+  ((add2Port.rep.valid && (add2Port.rep.tag === UFix(i, 5)))|| add2_valid_received(i) || !add2PortHadValidRequest(i)) &&  
+  ((mul1Port.rep.valid && (mul1Port.rep.tag === UFix(i, 5)))|| mul1_valid_received(i) || !mul1PortHadValidRequest(i)) &&  
+  ((mul2Port.rep.valid && (mul2Port.rep.tag === UFix(i, 5)))|| mul2_valid_received(i) || !mul2PortHadValidRequest(i)) &&  
+  ((mul3Port.rep.valid && (mul3Port.rep.tag === UFix(i, 5)))|| mul3_valid_received(i) || !mul3PortHadValidRequest(i)) &&  
+  ((sqrtPort.rep.valid && (sqrtPort.rep.tag === UFix(i, 5)))|| sqrt_valid_received(i) || !sqrtPortHadValidRequest(i)) &&  
+  Bool(true)
+
+sub1_valid_received(i) := !(vThread === UFix(i, 5)) && ((sub1_valid_received(i)) || (sub1Port.rep.valid && sub1Port.rep.tag === UFix(i, 5)))
+sub1PortHadValidRequest(i) := !(vThread === UFix(i,5)) && (sub1PortHadValidRequest(i) || (UFix(i,5)===rThread && sub1Port.req.valid)/*(sub1PortHadReadyRequest && AllOffloadsReady && (UFix(i,5) === rThread))*/)
+sub2_valid_received(i) := !(vThread === UFix(i, 5)) && ((sub2_valid_received(i)) || (sub2Port.rep.valid && sub2Port.rep.tag === UFix(i, 5)))
+sub2PortHadValidRequest(i) := !(vThread === UFix(i,5)) && (sub2PortHadValidRequest(i) || (UFix(i,5)===rThread && sub2Port.req.valid)/*(sub2PortHadReadyRequest && AllOffloadsReady && (UFix(i,5) === rThread))*/)
+sub3_valid_received(i) := !(vThread === UFix(i, 5)) && ((sub3_valid_received(i)) || (sub3Port.rep.valid && sub3Port.rep.tag === UFix(i, 5)))
+sub3PortHadValidRequest(i) := !(vThread === UFix(i,5)) && (sub3PortHadValidRequest(i) || (UFix(i,5)===rThread && sub3Port.req.valid)/*(sub3PortHadReadyRequest && AllOffloadsReady && (UFix(i,5) === rThread))*/)
+add1_valid_received(i) := !(vThread === UFix(i, 5)) && ((add1_valid_received(i)) || (add1Port.rep.valid && add1Port.rep.tag === UFix(i, 5)))
+add1PortHadValidRequest(i) := !(vThread === UFix(i,5)) && (add1PortHadValidRequest(i) || (UFix(i,5)===rThread && add1Port.req.valid)/*(add1PortHadReadyRequest && AllOffloadsReady && (UFix(i,5) === rThread))*/)
+add2_valid_received(i) := !(vThread === UFix(i, 5)) && ((add2_valid_received(i)) || (add2Port.rep.valid && add2Port.rep.tag === UFix(i, 5)))
+add2PortHadValidRequest(i) := !(vThread === UFix(i,5)) && (add2PortHadValidRequest(i) || (UFix(i,5)===rThread && add2Port.req.valid)/*(add2PortHadReadyRequest && AllOffloadsReady && (UFix(i,5) === rThread))*/)
+mul1_valid_received(i) := !(vThread === UFix(i, 5)) && ((mul1_valid_received(i)) || (mul1Port.rep.valid && mul1Port.rep.tag === UFix(i, 5)))
+mul1PortHadValidRequest(i) := !(vThread === UFix(i,5)) && (mul1PortHadValidRequest(i) || (UFix(i,5)===rThread && mul1Port.req.valid)/*(mul1PortHadReadyRequest && AllOffloadsReady && (UFix(i,5) === rThread))*/)
+mul2_valid_received(i) := !(vThread === UFix(i, 5)) && ((mul2_valid_received(i)) || (mul2Port.rep.valid && mul2Port.rep.tag === UFix(i, 5)))
+mul2PortHadValidRequest(i) := !(vThread === UFix(i,5)) && (mul2PortHadValidRequest(i) || (UFix(i,5)===rThread && mul2Port.req.valid)/*(mul2PortHadReadyRequest && AllOffloadsReady && (UFix(i,5) === rThread))*/)
+mul3_valid_received(i) := !(vThread === UFix(i, 5)) && ((mul3_valid_received(i)) || (mul3Port.rep.valid && mul3Port.rep.tag === UFix(i, 5)))
+mul3PortHadValidRequest(i) := !(vThread === UFix(i,5)) && (mul3PortHadValidRequest(i) || (UFix(i,5)===rThread && mul3Port.req.valid)/*(mul3PortHadReadyRequest && AllOffloadsReady && (UFix(i,5) === rThread))*/)
+sqrt_valid_received(i) := !(vThread === UFix(i, 5)) && ((sqrt_valid_received(i)) || (sqrtPort.rep.valid && sqrtPort.rep.tag === UFix(i, 5)))
+sqrtPortHadValidRequest(i) := !(vThread === UFix(i,5)) && (sqrtPortHadValidRequest(i) || (UFix(i,5)===rThread && sqrtPort.req.valid)/*(sqrtPortHadReadyRequest && AllOffloadsReady && (UFix(i,5) === rThread))*/)
+}
+
+   sub1In.in1:=inputReg(rThread).in1.x 
+   sub1In.in2:=inputReg(rThread).in2.x 
+   sub2In.in1:=inputReg(rThread).in1.y 
+   sub2In.in2:=inputReg(rThread).in2.y 
+   sub3In.in1:=inputReg(rThread).in1.z 
+   sub3In.in2:=inputReg(rThread).in2.z 
+   mul1In.in1:=sub1Out(rThread).out 
+   mul1In.in2:=sub1Out(rThread).out 
+   mul2In.in1:=sub2Out(rThread).out 
+   mul2In.in2:=sub2Out(rThread).out 
+   mul3In.in1:=sub3Out(rThread).out 
+   mul3In.in2:=sub3Out(rThread).out 
+   add1In.in1:=mul1Out(rThread).out 
+   add1In.in2:=mul2Out(rThread).out 
+   add2In.in1:=add1Out(rThread).out 
+   add2In.in2:=mul3Out(rThread).out 
+   sqrtIn.in1:=add2Out(rThread).out 
+   mul1Port.req.tag :=  rThread
+   mul1Port.req.valid :=  (rThread != NONE_SELECTED) && !mul1_valid_received(rThread) && ( (rThread != NONE_SELECTED && State(rThread) === GS_step2))
+   mul1Port.req.bits := MuxCase(UFix(0, 32),Seq( ((rThread != NONE_SELECTED && State(rThread) === GS_step2),mul1In)))
+   mul2Port.req.tag :=  rThread
+   mul2Port.req.valid :=  (rThread != NONE_SELECTED) && !mul2_valid_received(rThread) && ( (rThread != NONE_SELECTED && State(rThread) === GS_step2))
+   mul2Port.req.bits := MuxCase(UFix(0, 32),Seq( ((rThread != NONE_SELECTED && State(rThread) === GS_step2),mul2In)))
+   mul3Port.req.tag :=  rThread
+   mul3Port.req.valid :=  (rThread != NONE_SELECTED) && !mul3_valid_received(rThread) && ( (rThread != NONE_SELECTED && State(rThread) === GS_step2))
+   mul3Port.req.bits := MuxCase(UFix(0, 32),Seq( ((rThread != NONE_SELECTED && State(rThread) === GS_step2),mul3In)))
+   sqrtPort.req.tag :=  rThread
+   sqrtPort.req.valid :=  (rThread != NONE_SELECTED) && !sqrt_valid_received(rThread) && ( (rThread != NONE_SELECTED && State(rThread) === GS_step5))
+   sqrtPort.req.bits := MuxCase(UFix(0, 32),Seq( ((rThread != NONE_SELECTED && State(rThread) === GS_step5),sqrtIn)))
+   sub3Port.req.tag :=  rThread
+   sub3Port.req.valid :=  (rThread != NONE_SELECTED) && !sub3_valid_received(rThread) && ( (rThread != NONE_SELECTED && State(rThread) === GS_step1))
+   sub3Port.req.bits := MuxCase(UFix(0, 32),Seq( ((rThread != NONE_SELECTED && State(rThread) === GS_step1),sub3In)))
+   sub2Port.req.tag :=  rThread
+   sub2Port.req.valid :=  (rThread != NONE_SELECTED) && !sub2_valid_received(rThread) && ( (rThread != NONE_SELECTED && State(rThread) === GS_step1))
+   sub2Port.req.bits := MuxCase(UFix(0, 32),Seq( ((rThread != NONE_SELECTED && State(rThread) === GS_step1),sub2In)))
+   add2Port.req.tag :=  rThread
+   add2Port.req.valid :=  (rThread != NONE_SELECTED) && !add2_valid_received(rThread) && ( (rThread != NONE_SELECTED && State(rThread) === GS_step4))
+   add2Port.req.bits := MuxCase(UFix(0, 32),Seq( ((rThread != NONE_SELECTED && State(rThread) === GS_step4),add2In)))
+   sub1Port.req.tag :=  rThread
+   sub1Port.req.valid :=  (rThread != NONE_SELECTED) && !sub1_valid_received(rThread) && ( (rThread != NONE_SELECTED && State(rThread) === GS_step1))
+   sub1Port.req.bits := MuxCase(UFix(0, 32),Seq( ((rThread != NONE_SELECTED && State(rThread) === GS_step1),sub1In)))
+   add1Port.req.tag :=  rThread
+   add1Port.req.valid :=  (rThread != NONE_SELECTED) && !add1_valid_received(rThread) && ( (rThread != NONE_SELECTED && State(rThread) === GS_step3))
+   add1Port.req.bits := MuxCase(UFix(0, 32),Seq( ((rThread != NONE_SELECTED && State(rThread) === GS_step3),add1In)))
+
+  when (sThread != NONE_SELECTED && io.in.valid) {
+    inputReg(sThread) := io.in.bits
+    inputTag(sThread) := io.in.tag
+    State(sThread) := GS_step1
+ 
+  } 
+
+  when (rThread != NONE_SELECTED && State(rThread) === WaitForOutputReady && io.out.ready) {
+    State(rThread) := EmitReturnState(rThread) 
+  } 
+
+   
+    when (vThread != NONE_SELECTED &&State(vThread) === GS_step1){
+   sub1Out(vThread) := sub1Port.rep.bits
+   sub2Out(vThread) := sub2Port.rep.bits
+   sub3Out(vThread) := sub3Port.rep.bits
+   State(vThread):=GS_step2 
+   } 
+   
+    when (vThread != NONE_SELECTED &&State(vThread) === GS_step2){
+   mul1Out(vThread) := mul1Port.rep.bits
+   mul2Out(vThread) := mul2Port.rep.bits
+   mul3Out(vThread) := mul3Port.rep.bits
+   State(vThread):=GS_step3 
+   } 
+   
+    when (vThread != NONE_SELECTED &&State(vThread) === GS_step3){
+   add1Out(vThread) := add1Port.rep.bits
+   State(vThread):=GS_step4 
+   } 
+   
+    when (vThread != NONE_SELECTED &&State(vThread) === GS_step4){
+   add2Out(vThread) := add2Port.rep.bits
+   State(vThread):=GS_step5 
+   } 
+   
+    when (vThread != NONE_SELECTED &&State(vThread) === GS_step5){
+   sqrtOut(vThread) := sqrtPort.rep.bits
+   State(vThread):=GS_step6 
+   } 
+   
+    when (vThread != NONE_SELECTED &&State(vThread) === GS_step6){
+   outputReg(vThread).out:=sqrtOut(vThread).out 
+   EmitReturnState(vThread) := WaitForInputValid
+   State(vThread) := WaitForOutputReady
+   } 
+
+  io.out.tag := inputTag(rThread)
+  io.out.bits := outputReg(rThread)
+  io.out.valid := rThread != NONE_SELECTED && State(rThread) === WaitForOutputReady
+  io.in.ready := sThread != NONE_SELECTED 
+
+/******************Engine specific performance counters************************/
+  val IsPcReset = 
+   io.pcIn.valid && io.pcIn.bits.request && io.pcIn.bits.pcType === Pcounters.pcReset
+  var portId = 3
+  when (IsPcReset) {
+    engineUtilization := UFix(0, Pcounters.PCWIDTH) 
+  } .otherwise {
+    when (State(0) != WaitForInputValid) {
+      engineUtilization := engineUtilization + 
+       UFix(1, Pcounters.PCWIDTH) 
+    }
+  }
+  for ((n, i) <- ioOff.elements) {
+    if (n == "sub1") {
+      when (IsPcReset) {
+        offloadRateArray(portId-3) := UFix(0, Pcounters.PCWIDTH)
+      } .elsewhen (i.asInstanceOf[gOffBundle[Bundle, Bundle]].req.ready && 
+       (sub1PortHadValidRequest(0) || sub1Port.req.valid) && !pcPaused) {
+        offloadRateArray(portId-3) := offloadRateArray(portId-3) + UFix(1, Pcounters.PCWIDTH)
+      }
+    }
+    if (n == "sub2") {
+      when (IsPcReset) {
+        offloadRateArray(portId-3) := UFix(0, Pcounters.PCWIDTH)
+      } .elsewhen (i.asInstanceOf[gOffBundle[Bundle, Bundle]].req.ready && 
+       (sub2PortHadValidRequest(0) || sub2Port.req.valid) && !pcPaused) {
+        offloadRateArray(portId-3) := offloadRateArray(portId-3) + UFix(1, Pcounters.PCWIDTH)
+      }
+    }
+    if (n == "sub3") {
+      when (IsPcReset) {
+        offloadRateArray(portId-3) := UFix(0, Pcounters.PCWIDTH)
+      } .elsewhen (i.asInstanceOf[gOffBundle[Bundle, Bundle]].req.ready && 
+       (sub3PortHadValidRequest(0) || sub3Port.req.valid) && !pcPaused) {
+        offloadRateArray(portId-3) := offloadRateArray(portId-3) + UFix(1, Pcounters.PCWIDTH)
+      }
+    }
+    if (n == "add1") {
+      when (IsPcReset) {
+        offloadRateArray(portId-3) := UFix(0, Pcounters.PCWIDTH)
+      } .elsewhen (i.asInstanceOf[gOffBundle[Bundle, Bundle]].req.ready && 
+       (add1PortHadValidRequest(0) || add1Port.req.valid) && !pcPaused) {
+        offloadRateArray(portId-3) := offloadRateArray(portId-3) + UFix(1, Pcounters.PCWIDTH)
+      }
+    }
+    if (n == "add2") {
+      when (IsPcReset) {
+        offloadRateArray(portId-3) := UFix(0, Pcounters.PCWIDTH)
+      } .elsewhen (i.asInstanceOf[gOffBundle[Bundle, Bundle]].req.ready && 
+       (add2PortHadValidRequest(0) || add2Port.req.valid) && !pcPaused) {
+        offloadRateArray(portId-3) := offloadRateArray(portId-3) + UFix(1, Pcounters.PCWIDTH)
+      }
+    }
+    if (n == "mul1") {
+      when (IsPcReset) {
+        offloadRateArray(portId-3) := UFix(0, Pcounters.PCWIDTH)
+      } .elsewhen (i.asInstanceOf[gOffBundle[Bundle, Bundle]].req.ready && 
+       (mul1PortHadValidRequest(0) || mul1Port.req.valid) && !pcPaused) {
+        offloadRateArray(portId-3) := offloadRateArray(portId-3) + UFix(1, Pcounters.PCWIDTH)
+      }
+    }
+    if (n == "mul2") {
+      when (IsPcReset) {
+        offloadRateArray(portId-3) := UFix(0, Pcounters.PCWIDTH)
+      } .elsewhen (i.asInstanceOf[gOffBundle[Bundle, Bundle]].req.ready && 
+       (mul2PortHadValidRequest(0) || mul2Port.req.valid) && !pcPaused) {
+        offloadRateArray(portId-3) := offloadRateArray(portId-3) + UFix(1, Pcounters.PCWIDTH)
+      }
+    }
+    if (n == "mul3") {
+      when (IsPcReset) {
+        offloadRateArray(portId-3) := UFix(0, Pcounters.PCWIDTH)
+      } .elsewhen (i.asInstanceOf[gOffBundle[Bundle, Bundle]].req.ready && 
+       (mul3PortHadValidRequest(0) || mul3Port.req.valid) && !pcPaused) {
+        offloadRateArray(portId-3) := offloadRateArray(portId-3) + UFix(1, Pcounters.PCWIDTH)
+      }
+    }
+    if (n == "sqrt") {
+      when (IsPcReset) {
+        offloadRateArray(portId-3) := UFix(0, Pcounters.PCWIDTH)
+      } .elsewhen (i.asInstanceOf[gOffBundle[Bundle, Bundle]].req.ready && 
+       (sqrtPortHadValidRequest(0) || sqrtPort.req.valid) && !pcPaused) {
+        offloadRateArray(portId-3) := offloadRateArray(portId-3) + UFix(1, Pcounters.PCWIDTH)
+      }
+    }
+    portId = portId + 1
+  }
+}
+

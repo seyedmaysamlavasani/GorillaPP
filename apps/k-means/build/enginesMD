@@ -1,0 +1,10 @@
+KEngine CONCURRENT_SAFE
+
+KDistribute CONCURRENT_SAFE
+
+KDistribute PIPELINABLE  4
+
+distanceFU CONCURRENT_SAFE
+
+distanceFU PIPELINABLE  12
+

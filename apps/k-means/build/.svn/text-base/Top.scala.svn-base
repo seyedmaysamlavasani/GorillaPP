@@ -1,0 +1,157 @@
+//XX variable version 2
+package Tutorial
+
+import Chisel._
+import Node._
+import Literal._
+import scala.collection.mutable.HashMap
+import scala.collection.mutable.ArrayBuffer
+
+class Top extends Component with include {
+  val io = new gInOutBundle (() => new KEngineIO_t , () => new KEngineIO_t)
+
+  val KEngine_MD = new gComponentMD(() => new KEngineIO_t, () => new KEngineIO_t, ArrayBuffer(("distanceFU", () => new distanceFU_in_t , () => new distanceFU_out_t), ("centeroidMem", () => new memReq192_t , () => new memRep192_t), ("partialAccumulatorMem", () => new memReq192_t , () => new memRep192_t), ("add", () => new FU_in_t , () => new FU_out_t)))
+  val  ke =  (KEngine_MD , () => new KEngine (extCompName="ke")).asInstanceOf[(gComponentMD[Chisel.Data,Chisel.Data], () => gComponent[Chisel.Data,Chisel.Data])]
+  val KDistribute_MD = new gComponentMD(() => new KEngineIO_t, () => new KEngineIO_t, ArrayBuffer())
+  val  kd =  (KDistribute_MD , () => new KDistribute (extCompName="kd") ).asInstanceOf[(gComponentMD[Chisel.Data,Chisel.Data], () => gComponent[Chisel.Data,Chisel.Data])]
+  val KReduce_MD = new gComponentMD(() => new KEngineIO_t, () => new KEngineIO_t, ArrayBuffer(("partialAccumulatorMem", () => new memReq192_t , () => new memRep192_t), ("add", () => new FU_in_t , () => new FU_out_t)))
+  val  kr =  (KReduce_MD , () => new KReduce (extCompName="kr") ).asInstanceOf[(gComponentMD[Chisel.Data,Chisel.Data], () => gComponent[Chisel.Data,Chisel.Data])]
+  val adder_MD = new gComponentMD(() => new FU_in_t, () => new FU_out_t, ArrayBuffer())
+  val  sub1 =  (adder_MD , () => new adder (extCompName="sub1") ).asInstanceOf[(gComponentMD[Chisel.Data,Chisel.Data], () => gComponent[Chisel.Data,Chisel.Data])]
+  val  sub2 =  (adder_MD , () => new adder (extCompName="sub2") ).asInstanceOf[(gComponentMD[Chisel.Data,Chisel.Data], () => gComponent[Chisel.Data,Chisel.Data])]
+  val  sub3 =  (adder_MD , () => new adder (extCompName="sub3") ).asInstanceOf[(gComponentMD[Chisel.Data,Chisel.Data], () => gComponent[Chisel.Data,Chisel.Data])]
+  val multiplier_MD = new gComponentMD(() => new FU_in_t, () => new FU_out_t, ArrayBuffer())
+  val  mul1 =  (multiplier_MD , () => new multiplier (extCompName="mul1") ).asInstanceOf[(gComponentMD[Chisel.Data,Chisel.Data], () => gComponent[Chisel.Data,Chisel.Data])]
+  val  mul2 =  (multiplier_MD , () => new multiplier (extCompName="mul2") ).asInstanceOf[(gComponentMD[Chisel.Data,Chisel.Data], () => gComponent[Chisel.Data,Chisel.Data])]
+  val  mul3 =  (multiplier_MD , () => new multiplier (extCompName="mul3") ).asInstanceOf[(gComponentMD[Chisel.Data,Chisel.Data], () => gComponent[Chisel.Data,Chisel.Data])]
+  val  add1 =  (adder_MD , () => new adder (extCompName="add1") ).asInstanceOf[(gComponentMD[Chisel.Data,Chisel.Data], () => gComponent[Chisel.Data,Chisel.Data])]
+  val  add2 =  (adder_MD , () => new adder (extCompName="add2") ).asInstanceOf[(gComponentMD[Chisel.Data,Chisel.Data], () => gComponent[Chisel.Data,Chisel.Data])]
+  val sqrt_MD = new gComponentMD(() => new FU_in_t, () => new FU_out_t, ArrayBuffer())
+  val  sqrt =  (sqrt_MD , () => new sqrt (extCompName="sqrt") ).asInstanceOf[(gComponentMD[Chisel.Data,Chisel.Data], () => gComponent[Chisel.Data,Chisel.Data])]
+  val dFUab = ArrayBuffer((sub1, "sub1"), (sub2, "sub2"), (sub3, "sub3"), (mul1, "mul1"), (mul2, "mul2"), (mul3, "mul3"), (add1, "add1"), (add2, "add2"), (sqrt, "sqrt"))  
+  val distanceFU_MD = new gComponentMD(() => new distanceFU_in_t, () => new distanceFU_out_t, ArrayBuffer(("sub1", () => new FU_in_t , () => new FU_out_t), ("sub2", () => new FU_in_t , () => new FU_out_t), ("sub3", () => new FU_in_t , () => new FU_out_t), ("add1", () => new FU_in_t , () => new FU_out_t), ("add2", () => new FU_in_t , () => new FU_out_t), ("mul1", () => new FU_in_t , () => new FU_out_t), ("mul2", () => new FU_in_t , () => new FU_out_t), ("mul3", () => new FU_in_t , () => new FU_out_t), ("sqrt", () => new FU_in_t , () => new FU_out_t)))
+  val  xx1 =  (distanceFU_MD , () => new distanceFU (extCompName="xx1")).asInstanceOf[(gComponentMD[Chisel.Data,Chisel.Data], () => gComponent[Chisel.Data,Chisel.Data])]
+  val  dFU = Offload ( xx1 , dFUab, extCompName="dFU")
+  val  add =  (adder_MD , () => new adder (extCompName="add") ).asInstanceOf[(gComponentMD[Chisel.Data,Chisel.Data], () => gComponent[Chisel.Data,Chisel.Data])]
+  val pa = spMem(height = 1000, width = 192)
+  val cm = spMem(height = 1000, width = 192)
+  val ab11 = ArrayBuffer((dFU, "distanceFU"), (cm, "centeroidMem"), (pa, "partialAccumulatorMem"), (add, "add"))
+  val ab12 = ArrayBuffer((cm, "centeroidMem"), (pa, "partialAccumulatorMem"), (add, "add"))
+  val  kePlus = Offload (ke, ab11, extCompName="kePlus")
+  val ab2 = ArrayBuffer((pa, "partialAccumulatorMem"), (add, "add"))
+  val  krPlus = Offload (kr, ab2, extCompName="krPlus")
+  val  xx2 = Replicate (kePlus, 1, extCompName="xx2")
+  val  result = Chain (kd,  xx2 , krPlus, extCompName="result")
+  val generatedTop = result._2()
+  generatedTop.io <> io
+}
+//class TopTests(o: Top) extends Tester(o, Array(o.io)) with include {
+class TopTests(o: Top) extends gTester(o) with include { 
+  defTests {
+    val inputs_data = List(1, 2, 4, 8)
+    val svars = new HashMap[Node, Node]()
+    val ovars = new HashMap[Node, Node]()
+    //val test = new Top 
+    val iDelay = 128 
+
+    for (time <- 0 until 5) {
+      svars(o.io.in.valid) = Bool(false)
+      step(svars, ovars, false)
+    }
+    if (compilerControl.pcEnable) {
+      resetPC()
+    }
+    var sourced = 0
+    var sourcedIndex = 0
+    var sinked = 0
+    var sinkedIndex = 0
+    var time = 0
+    //var sinkStarted = false
+    var allPassed = true
+    var cycles = 0
+    var sourcedPoints = 0
+    while(sourcedPoints < NUM_OF_POINTS.litValue().intValue || 
+     sinked < NUM_OF_CENTEROIDS.litValue().intValue) {
+      if (cycles % iDelay == 0) {
+        sourced match {
+          case x if (x < NUM_OF_CENTEROIDS.litValue().intValue) => {
+            svars(o.io.in.bits.pointsFinished) = Bool(false)
+            svars(o.io.in.bits.centeroidsFinished) = Bool(false)
+            svars(o.io.in.valid) = Bool(true)
+            svars(o.io.out.ready) = Bool(true)
+          }
+          case x if (x == NUM_OF_CENTEROIDS.litValue().intValue) => {
+            svars(o.io.in.bits.pointsFinished) = Bool(false)
+            svars(o.io.in.bits.centeroidsFinished) = Bool(true)
+            svars(o.io.in.valid) = Bool(true)
+            svars(o.io.out.ready) = Bool(true)
+          }
+          case x if (x > NUM_OF_CENTEROIDS.litValue().intValue && 
+           x <= NUM_OF_CENTEROIDS.litValue().intValue +
+            NUM_OF_POINTS.litValue().intValue) => {
+            svars(o.io.in.bits.pointsFinished) = Bool(false)
+            svars(o.io.in.bits.centeroidsFinished) = Bool(false)
+            svars(o.io.in.valid) = Bool(true)
+            svars(o.io.out.ready) = Bool(true)
+          }
+          case x if (x == NUM_OF_CENTEROIDS.litValue().intValue + 
+           1 + NUM_OF_POINTS.litValue().intValue) => {
+            svars(o.io.in.bits.pointsFinished) = Bool(true)
+            svars(o.io.in.bits.centeroidsFinished) = Bool(false)
+            svars(o.io.in.valid) = Bool(true)
+            svars(o.io.out.ready) = Bool(true)
+          }
+	      case _ => {
+            svars(o.io.in.bits.pointsFinished) = Bool(false)
+            svars(o.io.in.bits.centeroidsFinished) = Bool(false)
+            svars(o.io.in.valid) = Bool(false)
+            svars(o.io.out.ready) = Bool(false)
+	      }
+       }
+      } else {
+        svars(o.io.in.bits.pointsFinished) = Bool(false)
+        svars(o.io.in.bits.centeroidsFinished) = Bool(false)
+        svars(o.io.in.valid) = Bool(false)
+        svars(o.io.out.ready) = Bool(false)
+      }
+      step(svars, ovars)
+      // bump counters and check outputs after advancing clock
+      if (ovars(o.io.in.ready).litValue() == 1 && 
+       (cycles % iDelay == 0)) {
+        if (sourced > NUM_OF_CENTEROIDS.litValue().intValue && 
+         sourced <= NUM_OF_CENTEROIDS.litValue().intValue + 
+         NUM_OF_POINTS.litValue().intValue) {
+          sourcedPoints += 1
+        }
+        sourced += 1
+        sourcedIndex = sourced % 4 
+        println("sourced and sourcedIndex are " + sourced + 
+         " " + sourcedIndex)
+      }
+      cycles += 1
+      if (ovars(o.io.out.valid).litValue() == 1) {
+        //allPassed = allPassed && 
+        //(ovars(o.io.out.bits).litValue() == 
+        //(inputs_data(sinkedIndex) + 2))
+        if (allPassed == false) {
+	  println("Test failed ") 
+          //+ ovars(o.io.out.bits).litValue() + 
+          //" expected " + (inputs_data(sinkedIndex) +2))
+	  println("Sinked is " + sinked)
+        }
+        println("At " + time + " outpout " + " sinked. Sinked is " + 
+         sinked + " sourced is " + sourced );
+        sinked += 1
+        sinkedIndex = sinked % 4
+      }
+      time += 1
+    }
+    PCReport(cycles, NUM_OF_POINTS.litValue().intValue)
+    step(svars, ovars)
+    allPassed = allPassed && 
+     sinked == NUM_OF_CENTEROIDS.litValue().intValue 
+    allPassed 
+  }
+}
+
+

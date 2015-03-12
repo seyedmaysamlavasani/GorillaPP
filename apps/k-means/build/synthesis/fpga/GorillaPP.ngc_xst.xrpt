@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<document OS="lin64" product="ISE" version="14.3">
+
+  <!--The data in this file is primarily intended for consumption by Xilinx tools.
+    The structure and the elements are likely to change over the next few releases.
+    This means code written to parse this file will need to be revisited each subsequent release.-->
+
+  <application stringID="Xst" timeStamp="Fri Mar  6 18:42:42 2015">
+    <section stringID="User_Env">
+      <table stringID="User_EnvVar">
+        <column stringID="variable"/>
+        <column stringID="value"/>
+        <row stringID="row" value="0">
+          <item stringID="variable" value="XILINX_DSP"/>
+          <item stringID="value" value="/tools/xilinx-14.3/ISE_DS/ISE"/>
+        </row>
+        <row stringID="row" value="1">
+          <item stringID="variable" value="XILINX_EDK"/>
+          <item stringID="value" value="/tools/xilinx-14.3/ISE_DS/EDK"/>
+        </row>
+        <row stringID="row" value="2">
+          <item stringID="variable" value="PATH"/>
+          <item stringID="value" value="/tools/xilinx-14.3/ISE_DS/ISE//bin/lin64:/tools/synopsys_2011/vcs-mx//bin:/tools/xilinx-14.3/ISE_DS/../../Vivado_HLS/2012.3/bin:/tools/xilinx-14.3/ISE_DS/ISE/bin/lin64:/tools/xilinx-14.3/ISE_DS/ISE/sysgen/util:/tools/xilinx-14.3/ISE_DS/ISE/sysgen/bin:/tools/xilinx-14.3/ISE_DS/ISE/../../../DocNav:/tools/xilinx-14.3/ISE_DS/../../Vivado/2012.3/bin:/tools/xilinx-14.3/ISE_DS/PlanAhead/bin:/tools/xilinx-14.3/ISE_DS/EDK/bin/lin64:/tools/xilinx-14.3/ISE_DS/EDK/gnu/microblaze/lin64/bin:/tools/xilinx-14.3/ISE_DS/EDK/gnu/powerpc-eabi/lin64/bin:/tools/xilinx-14.3/ISE_DS/EDK/gnu/arm/lin64/bin:/tools/xilinx-14.3/ISE_DS/common/bin/lin64:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/scratch/tools/llvm/clang+llvm-2.9-i686-linux/bin/:/tools/latest/synopsys/syn/bin:/tools/synopsys_2009/syn/bin:/scratchl/maysam/eclipse/eclipse/"/>
+        </row>
+        <row stringID="row" value="3">
+          <item stringID="variable" value="XILINX_VIVADO"/>
+          <item stringID="value" value="/tools/xilinx-14.3/ISE_DS/../../Vivado/2012.3"/>
+        </row>
+        <row stringID="row" value="4">
+          <item stringID="variable" value="LMC_HOME"/>
+          <item stringID="value" value="/tools/xilinx-14.3/ISE_DS/ISE/smartmodel/lin64/installed_lin64"/>
+        </row>
+        <row stringID="row" value="5">
+          <item stringID="variable" value="XILINX_PLANAHEAD"/>
+          <item stringID="value" value="/tools/xilinx-14.3/ISE_DS/PlanAhead"/>
+        </row>
+        <row stringID="row" value="6">
+          <item stringID="variable" value="XILINX"/>
+          <item stringID="value" value="/tools/xilinx-14.3/ISE_DS/ISE/"/>
+        </row>
+        <row stringID="row" value="7">
+          <item stringID="variable" value="LD_LIBRARY_PATH"/>
+          <item stringID="value" value="/tools/xilinx-14.3/ISE_DS/ISE//lib/lin64"/>
+        </row>
+      </table>
+      <item stringID="User_EnvOs" value="OS Information">
+        <item stringID="User_EnvOsname" value="Ubuntu"/>
+        <item stringID="User_EnvOsrelease" value="Ubuntu 12.04.4 LTS"/>
+      </item>
+      <item stringID="User_EnvHost" value="lonewolf"/>
+      <table stringID="User_EnvCpu">
+        <column stringID="arch"/>
+        <column stringID="speed"/>
+        <row stringID="row" value="0">
+          <item stringID="arch" value="Intel(R) Core(TM) i7 CPU       X 980  @ 3.33GHz"/>
+          <item stringID="speed" value="1600.000 MHz"/>
+        </row>
+      </table>
+    </section>
+    <section stringID="XST_OPTION_SUMMARY">
+      <item DEFAULT="" label="-ifn" stringID="XST_IFN" value="GorillaPP.prj"/>
+      <item DEFAULT="" label="-top" stringID="XST_TOP" value="Top"/>
+      <item DEFAULT="MIXED" label="-ifmt" stringID="XST_IFMT" value="MIXED"/>
+      <item DEFAULT="SPEED" label="-opt_mode" stringID="XST_OPTMODE" value="SPEED"/>
+      <item DEFAULT="1" label="-opt_level" stringID="XST_OPTLEVEL" value="2"/>
+      <item DEFAULT="" label="-ofn" stringID="XST_OFN" value="GorillaPP.ngc"/>
+      <item DEFAULT="" label="-p" stringID="XST_P" value="xc4vfx12"/>
+      <item DEFAULT="" label="-uc" stringID="XST_UC" value="GorillaPP.xcf"/>
+    </section>
+    <section stringID="XST_ERRORS_STATISTICS">
+      <item dataType="int" filtered="0" stringID="XST_NUMBER_OF_ERRORS" value="40"/>
+      <item dataType="int" filtered="0" stringID="XST_NUMBER_OF_WARNINGS" value="0"/>
+      <item dataType="int" filtered="0" stringID="XST_NUMBER_OF_INFOS" value="0"/>
+    </section>
+  </application>
+
+</document>

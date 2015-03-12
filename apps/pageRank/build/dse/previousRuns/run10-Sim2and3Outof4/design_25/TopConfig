@@ -1,0 +1,14 @@
+uwThreads 2
+ugThreads 1
+addPipelined false
+mulPipelined false
+divPipelined false
+rcPipelined false
+sharedRc true
+sharedRa true
+ugRepFactor 4
+uwRepFactor 1
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 0
+AVERAGE_FANOUT 10

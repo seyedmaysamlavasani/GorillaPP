@@ -1,0 +1,30 @@
+../../../refiner/refiner.pl
+Building original micro-arch
+Throughput is 0.0016
+Area is 13006
+
+Clock is 10.138
+
+[32mRefine micro-arch iteration: 1[0m
+Refine: In bottleneck node uw__type__engine__MT__1____class__updateWriter, backpressure is 0.4618. offload rate is 0.8315. engine utilizaiton is 0.8705. increase number of threads in engine
+Refined throughput is 0.0030
+Refined Area is 14966
+
+Refined clock is 10.201
+
+NUM_OF_CACHE_MISS_PIPE_STAGES 2
+BURST_FACTOR 1
+FIXED_FANOUT 0
+AVERAGE_FANOUT 20
+uwThreads 1
+ugThreads 1
+addPipelined false
+mulPipelined false
+divPipelined false 
+rcPipelined false
+sharedRc true
+sharedRa true 
+ugRepFactor 1
+uwRepFactor 1
+[32mRefine micro-arch iteration: 2[0m
+No more refinement found

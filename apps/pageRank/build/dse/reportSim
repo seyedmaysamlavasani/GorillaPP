@@ -1,0 +1,31 @@
+#/bin/bash
+start=1
+end=200
+echo throughput,uwThreads,ugThreads,addPipelined,mulPipelined,divPipelined,rcPipelined,sharedRc,sharedRa,ugRepFactor,uwRepFactor,burstFactor,fixedFanout,averageFanout;
+
+for ((i=$start; i<=$end; i++))
+do
+if [ -d sim/design_$i ] 
+	then
+
+throughput=`grep throughput sim/design_$i/PCREPORT.out | awk '{print $3}'`;
+#lookupBP=`grep -w lookup design_$i/PCResult | grep back | awk '{print $6}'`;
+#pipeLookupBP=`grep -w gPipe design_$i/PCResult | grep back | awk '{print $6}'`;
+#engineBP=`grep -w ipv4Engine design_$i/PCResult | grep back | awk '{print $6}'`;
+uwThreads=`grep uwThreads sim/design_$i/TopConfig | awk '{print $2}'`;
+ugThreads=`grep ugThreads sim/design_$i/TopConfig | awk '{print $2}'`;
+addPipelined=`grep addPipelined sim/design_$i/TopConfig | awk '{print $2}'`;
+mulPipelined=`grep mulPipelined sim/design_$i/TopConfig | awk '{print $2}'`;
+divPipelined=`grep divPipelined sim/design_$i/TopConfig | awk '{print $2}'`;
+rcPipelined=`grep rcPipelined sim/design_$i/TopConfig | awk '{print $2}'`;
+sharedRc=`grep sharedRc sim/design_$i/TopConfig | awk '{print $2}'`;
+sharedRa=`grep sharedRa sim/design_$i/TopConfig | awk '{print $2}'`;
+ugRepFactor=`grep ugRepFactor sim/design_$i/TopConfig | awk '{print $2}'`;
+uwRepFactor=`grep uwRepFactor sim/design_$i/TopConfig | awk '{print $2}'`;
+burstFactor=`grep BURST_FACTOR sim/design_$i/TopConfig | awk '{print $2}'`;
+fixedFanout=`grep FIXED_FANOUT sim/design_$i/TopConfig | awk '{print $2}'`;
+averageFanout=`grep AVERAGE_FANOUT sim/design_$i/TopConfig | awk '{print $2}'`;
+echo $throughput,$uwThreads,$ugThreads,$addPipelined,$mulPipelined,$divPipelined,$rcPipelined,$sharedRc,$sharedRa,$ugRepFactor,$uwRepFactor,$burstFactor,$fixedFanout,$averageFanout;
+fi
+done
+

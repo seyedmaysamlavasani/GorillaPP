@@ -1,0 +1,15 @@
+run
+-ifn GorillaPP.prj
+-top Top 
+#-top magilla_fpga
+#-top magilla_cluster_fpga 
+#-top magilla_engine_system_fpga 
+-ifmt MIXED
+-opt_mode SPEED
+-opt_level 2
+-ofn GorillaPP.ngc
+#-p 5VTX240T-2FF1759 
+#-p 6VHX380T-2FF1924
+-p 6VHX255T-2FF1923
+-uc GorillaPP.xcf
+#-vlgincdir src/include

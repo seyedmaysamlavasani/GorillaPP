@@ -1,0 +1,14 @@
+#/bin/bash
+start=30
+end=100
+for ((i=$start; i<=$end; i++))
+do
+if [ -d design_$i ] 
+	then
+
+throughput=`grep throughput design_$i/PCResult | awk '{print $3}'`;
+engines=`grep NUM_OF_ENGINES design_$i/TopConfig | awk '{print $2}'`;
+threads=`grep NUM_OF_THREADS design_$i/TopConfig | awk '{print $2}'`;
+echo $throughput $engines $threads;
+fi
+done

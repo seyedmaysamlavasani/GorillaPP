@@ -1,0 +1,33 @@
+#/bin/bash
+start=1
+end=600
+echo LUTs,DSPs,ugRepFactor,ugThreads,uwRepFactor,uwThreads,addPipelined,mulPipelined,divPipelined,rcPipelined,sharedRc,sharedRa,burstFactor,fixedFanout,averageFanout;
+
+for ((i=$start; i<=$end; i++))
+do
+if [ -d syn/design_$i ] 
+	then
+
+dsps=`grep DSP syn/design_$i/GorillaPP.srp | grep Number | awk '{print $4}'`;
+area=`grep LUTs syn/design_$i/GorillaPP.srp | awk '{print $5}'`;
+#lookupBP=`grep -w lookup design_$i/PCResult | grep back | awk '{print $6}'`;
+#pipeLookupBP=`grep -w gPipe design_$i/PCResult | grep back | awk '{print $6}'`;
+#engineBP=`grep -w ipv4Engine design_$i/PCResult | grep back | awk '{print $6}'`;
+uwThreads=`grep uwThreads syn/design_$i/TopConfig | awk '{print $2}'`;
+ugThreads=`grep ugThreads syn/design_$i/TopConfig | awk '{print $2}'`;
+addPipelined=`grep addPipelined syn/design_$i/TopConfig | awk '{print $2}'`;
+mulPipelined=`grep mulPipelined syn/design_$i/TopConfig | awk '{print $2}'`;
+divPipelined=`grep divPipelined syn/design_$i/TopConfig | awk '{print $2}'`;
+rcPipelined=`grep rcPipelined syn/design_$i/TopConfig | awk '{print $2}'`;
+sharedRc=`grep sharedRc syn/design_$i/TopConfig | awk '{print $2}'`;
+sharedRa=`grep sharedRa syn/design_$i/TopConfig | awk '{print $2}'`;
+ugRepFactor=`grep ugRepFactor syn/design_$i/TopConfig | awk '{print $2}'`;
+uwRepFactor=`grep uwRepFactor syn/design_$i/TopConfig | awk '{print $2}'`;
+burstFactor=`grep BURST_FACTOR syn/design_$i/TopConfig | awk '{print $2}'`;
+fixedFanout=`grep FIXED_FANOUT syn/design_$i/TopConfig | awk '{print $2}'`;
+averageFanout=`grep AVERAGE_FANOUT syn/design_$i/TopConfig | awk '{print $2}'`;
+echo $area,$dsps,$ugRepFactor,$ugThreads,$uwRepFactor,$uwThreads,$addPipelined,$mulPipelined,$divPipelined,$rcPipelined,$sharedRc,$sharedRa,$burstFactor,$fixedFanout,$averageFanout;
+fi
+done
+
+

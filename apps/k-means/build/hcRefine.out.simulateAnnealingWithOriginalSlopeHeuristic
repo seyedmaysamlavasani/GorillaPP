@@ -1,0 +1,553 @@
+Benchmark is k-means 
+
+dim NUM_OF_ENGINES is added  with type range 
+dim NUM_OF_THREADS is added  with type range 
+dim dfuEngineType is added  with type offEngineType 
+Initial element is dfuEngineType:	clock:100	NUM_OF_THREADS:1	LUTs:1000000	throughput:0	NUM_OF_ENGINES:1	
+********measuring performance**************
+Refined throughput is 0.0018
+********measuring area/clock**************
+Refined Area luts is 
+Refined Area regs is 
+Refined Area DSPs is 
+Refined clock is 
+NUM_OF_POINTS 200
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 1
+NUM_OF_THREADS 1
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+PIPED_DFU true
+In main loop dimension is NUM_OF_ENGINES value is 1
+old element is dfuEngineType:	clock:100	NUM_OF_THREADS:1	LUTs:	throughput:0.0018	NUM_OF_ENGINES:1	
+modified element is dfuEngineType:	NUM_OF_THREADS:1	clock:100	LUTs:	throughput:0.0018	NUM_OF_ENGINES:2	
+********measuring performance**************
+Refined throughput is 0.0035
+********measuring area/clock**************
+Refined Area luts is 
+Refined Area regs is 
+Refined Area DSPs is 
+Refined clock is 
+NUM_OF_POINTS 200
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 2
+NUM_OF_THREADS 1
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+PIPED_DFU true
+optFunc is 291666.666666667
+optFunc is 150000
+Change the design point. dim is NUM_OF_ENGINES dfuEngineType:	NUM_OF_THREADS:1	clock:100	LUTs:	throughput:0.0035	NUM_OF_ENGINES:2	
+ipctCounter is 2
+
+In main loop dimension is NUM_OF_THREADS value is 1
+old element is dfuEngineType:	NUM_OF_THREADS:1	clock:100	LUTs:	throughput:0.0035	NUM_OF_ENGINES:2	
+modified element is dfuEngineType:	clock:100	NUM_OF_THREADS:2	LUTs:	throughput:0.0035	NUM_OF_ENGINES:2	
+********measuring performance**************
+Refined throughput is 0.0038
+********measuring area/clock**************
+Refined Area luts is 
+Refined Area regs is 
+Refined Area DSPs is 
+Refined clock is 
+NUM_OF_POINTS 200
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 2
+NUM_OF_THREADS 2
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+PIPED_DFU true
+optFunc is 316666.666666667
+optFunc is 291666.666666667
+Change the design point. dim is NUM_OF_THREADS dfuEngineType:	clock:100	NUM_OF_THREADS:2	LUTs:	throughput:0.0038	NUM_OF_ENGINES:2	
+ipctCounter is 3
+
+In main loop dimension is dfuEngineType value is 
+old element is dfuEngineType:	clock:100	NUM_OF_THREADS:2	LUTs:	throughput:0.0038	NUM_OF_ENGINES:2	
+modified element is dfuEngineType:separatePipeEngine	NUM_OF_THREADS:2	clock:100	LUTs:	throughput:0.0038	NUM_OF_ENGINES:2	
+********measuring performance**************
+Refined throughput is 0.0038
+********measuring area/clock**************
+Refined Area luts is 
+Refined Area regs is 
+Refined Area DSPs is 
+Refined clock is 
+NUM_OF_POINTS 200
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 2
+NUM_OF_THREADS 2
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+PIPED_DFU true
+optFunc is 316666.666666667
+optFunc is 316666.666666667
+Change the design point. dim is dfuEngineType dfuEngineType:separatePipeEngine	NUM_OF_THREADS:2	clock:100	LUTs:	throughput:0.0038	NUM_OF_ENGINES:2	
+ipctCounter is 4
+
+In main loop dimension is NUM_OF_ENGINES value is 2
+old element is dfuEngineType:separatePipeEngine	NUM_OF_THREADS:2	clock:100	LUTs:	throughput:0.0038	NUM_OF_ENGINES:2	
+modified element is dfuEngineType:separatePipeEngine	clock:100	NUM_OF_THREADS:2	LUTs:	throughput:0.0038	NUM_OF_ENGINES:3	
+********measuring performance**************
+Refined throughput is 0.0058
+********measuring area/clock**************
+Refined Area luts is 
+Refined Area regs is 
+Refined Area DSPs is 
+Refined clock is 
+NUM_OF_POINTS 200
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 3
+NUM_OF_THREADS 2
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+PIPED_DFU true
+optFunc is 483333.333333333
+optFunc is 316666.666666667
+Change the design point. dim is NUM_OF_ENGINES dfuEngineType:separatePipeEngine	clock:100	NUM_OF_THREADS:2	LUTs:	throughput:0.0058	NUM_OF_ENGINES:3	
+ipctCounter is 5
+
+In main loop dimension is NUM_OF_THREADS value is 2
+old element is dfuEngineType:separatePipeEngine	clock:100	NUM_OF_THREADS:2	LUTs:	throughput:0.0058	NUM_OF_ENGINES:3	
+modified element is dfuEngineType:separatePipeEngine	NUM_OF_THREADS:3	clock:100	LUTs:	throughput:0.0058	NUM_OF_ENGINES:3	
+********measuring performance**************
+Refined throughput is 0.0058
+********measuring area/clock**************
+Refined Area luts is 
+Refined Area regs is 
+Refined Area DSPs is 
+Refined clock is 
+NUM_OF_POINTS 200
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 3
+NUM_OF_THREADS 3
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+PIPED_DFU true
+optFunc is 483333.333333333
+optFunc is 483333.333333333
+Change the design point. dim is NUM_OF_THREADS dfuEngineType:separatePipeEngine	NUM_OF_THREADS:3	clock:100	LUTs:	throughput:0.0058	NUM_OF_ENGINES:3	
+ipctCounter is 6
+
+In main loop dimension is dfuEngineType value is separatePipeEngine
+old element is dfuEngineType:separatePipeEngine	NUM_OF_THREADS:3	clock:100	LUTs:	throughput:0.0058	NUM_OF_ENGINES:3	
+modified element is dfuEngineType:separateEngine	clock:100	NUM_OF_THREADS:3	LUTs:	throughput:0.0058	NUM_OF_ENGINES:3	
+********measuring performance**************
+Refined throughput is 0.0058
+********measuring area/clock**************
+Refined Area luts is 
+Refined Area regs is 
+Refined Area DSPs is 
+Refined clock is 
+NUM_OF_POINTS 200
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 3
+NUM_OF_THREADS 3
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+PIPED_DFU true
+optFunc is 483333.333333333
+optFunc is 483333.333333333
+Change the design point. dim is dfuEngineType dfuEngineType:separateEngine	clock:100	NUM_OF_THREADS:3	LUTs:	throughput:0.0058	NUM_OF_ENGINES:3	
+ipctCounter is 7
+
+In main loop dimension is NUM_OF_ENGINES value is 3
+old element is dfuEngineType:separateEngine	clock:100	NUM_OF_THREADS:3	LUTs:	throughput:0.0058	NUM_OF_ENGINES:3	
+modified element is dfuEngineType:separateEngine	NUM_OF_THREADS:3	clock:100	LUTs:	throughput:0.0058	NUM_OF_ENGINES:4	
+********measuring performance**************
+Refined throughput is 0.0077
+********measuring area/clock**************
+Refined Area luts is 
+Refined Area regs is 
+Refined Area DSPs is 
+Refined clock is 
+NUM_OF_POINTS 200
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 4
+NUM_OF_THREADS 3
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+PIPED_DFU true
+optFunc is 641666.666666667
+optFunc is 483333.333333333
+Change the design point. dim is NUM_OF_ENGINES dfuEngineType:separateEngine	NUM_OF_THREADS:3	clock:100	LUTs:	throughput:0.0077	NUM_OF_ENGINES:4	
+ipctCounter is 8
+
+In main loop dimension is NUM_OF_THREADS value is 3
+old element is dfuEngineType:separateEngine	NUM_OF_THREADS:3	clock:100	LUTs:	throughput:0.0077	NUM_OF_ENGINES:4	
+modified element is dfuEngineType:separateEngine	clock:100	NUM_OF_THREADS:4	LUTs:	throughput:0.0077	NUM_OF_ENGINES:4	
+********measuring performance**************
+Refined throughput is 0.0076
+********measuring area/clock**************
+Refined Area luts is 
+Refined Area regs is 
+Refined Area DSPs is 
+Refined clock is 
+NUM_OF_POINTS 200
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 4
+NUM_OF_THREADS 4
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+PIPED_DFU true
+optFunc is 633333.333333333
+optFunc is 641666.666666667
+Change the design point. dim is NUM_OF_THREADS dfuEngineType:separateEngine	clock:100	NUM_OF_THREADS:4	LUTs:	throughput:0.0076	NUM_OF_ENGINES:4	
+ipctCounter is 9
+
+In main loop dimension is dfuEngineType value is separateEngine
+old element is dfuEngineType:separateEngine	clock:100	NUM_OF_THREADS:4	LUTs:	throughput:0.0076	NUM_OF_ENGINES:4	
+modified element is dfuEngineType:separatePipeEngine	NUM_OF_THREADS:4	clock:100	LUTs:	throughput:0.0076	NUM_OF_ENGINES:4	
+********measuring performance**************
+Refined throughput is 0.0076
+********measuring area/clock**************
+Refined Area luts is 
+Refined Area regs is 
+Refined Area DSPs is 
+Refined clock is 
+NUM_OF_POINTS 200
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 4
+NUM_OF_THREADS 4
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+PIPED_DFU true
+optFunc is 633333.333333333
+optFunc is 633333.333333333
+Change the design point. dim is dfuEngineType dfuEngineType:separatePipeEngine	NUM_OF_THREADS:4	clock:100	LUTs:	throughput:0.0076	NUM_OF_ENGINES:4	
+ipctCounter is 10
+
+In main loop dimension is NUM_OF_ENGINES value is 4
+old element is dfuEngineType:separatePipeEngine	NUM_OF_THREADS:4	clock:100	LUTs:	throughput:0.0076	NUM_OF_ENGINES:4	
+modified element is dfuEngineType:separatePipeEngine	clock:100	NUM_OF_THREADS:4	LUTs:	throughput:0.0076	NUM_OF_ENGINES:5	
+********measuring performance**************
+Refined throughput is 0.0095
+********measuring area/clock**************
+Refined Area luts is 
+Refined Area regs is 
+Refined Area DSPs is 
+Refined clock is 
+NUM_OF_POINTS 200
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 5
+NUM_OF_THREADS 4
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+PIPED_DFU true
+optFunc is 791666.666666667
+optFunc is 633333.333333333
+Change the design point. dim is NUM_OF_ENGINES dfuEngineType:separatePipeEngine	clock:100	NUM_OF_THREADS:4	LUTs:	throughput:0.0095	NUM_OF_ENGINES:5	
+SA temprature is changed from 50000 to 40000
+SA temprature is changed from 10 to 20
+
+
+In main loop dimension is NUM_OF_THREADS value is 4
+old element is dfuEngineType:separatePipeEngine	clock:100	NUM_OF_THREADS:4	LUTs:	throughput:0.0095	NUM_OF_ENGINES:5	
+modified element is dfuEngineType:separatePipeEngine	NUM_OF_THREADS:5	clock:100	LUTs:	throughput:0.0095	NUM_OF_ENGINES:5	
+********measuring performance**************
+Refined throughput is 0.0097
+********measuring area/clock**************
+Refined Area luts is 
+Refined Area regs is 
+Refined Area DSPs is 
+Refined clock is 
+NUM_OF_POINTS 200
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 5
+NUM_OF_THREADS 5
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+PIPED_DFU true
+optFunc is 808333.333333333
+optFunc is 791666.666666667
+Change the design point. dim is NUM_OF_THREADS dfuEngineType:separatePipeEngine	NUM_OF_THREADS:5	clock:100	LUTs:	throughput:0.0097	NUM_OF_ENGINES:5	
+ipctCounter is 1
+
+In main loop dimension is dfuEngineType value is separatePipeEngine
+old element is dfuEngineType:separatePipeEngine	NUM_OF_THREADS:5	clock:100	LUTs:	throughput:0.0097	NUM_OF_ENGINES:5	
+modified element is dfuEngineType:separateEngine	clock:100	NUM_OF_THREADS:5	LUTs:	throughput:0.0097	NUM_OF_ENGINES:5	
+********measuring performance**************
+Refined throughput is 0.0097
+********measuring area/clock**************
+Refined Area luts is 
+Refined Area regs is 
+Refined Area DSPs is 
+Refined clock is 
+NUM_OF_POINTS 200
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 5
+NUM_OF_THREADS 5
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+PIPED_DFU true
+optFunc is 808333.333333333
+optFunc is 808333.333333333
+Change the design point. dim is dfuEngineType dfuEngineType:separateEngine	clock:100	NUM_OF_THREADS:5	LUTs:	throughput:0.0097	NUM_OF_ENGINES:5	
+ipctCounter is 2
+
+In main loop dimension is NUM_OF_ENGINES value is 5
+old element is dfuEngineType:separateEngine	clock:100	NUM_OF_THREADS:5	LUTs:	throughput:0.0097	NUM_OF_ENGINES:5	
+modified element is dfuEngineType:separateEngine	NUM_OF_THREADS:5	clock:100	LUTs:	throughput:0.0097	NUM_OF_ENGINES:6	
+********measuring performance**************
+********measuring area/clock**************
+Refined Area luts is 
+Refined Area regs is 
+Refined Area DSPs is 
+Refined clock is 
+NUM_OF_POINTS 200
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 6
+NUM_OF_THREADS 5
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+PIPED_DFU true
+optFunc is 808333.333333333
+optFunc is 808333.333333333
+Change the design point. dim is NUM_OF_ENGINES dfuEngineType:separateEngine	NUM_OF_THREADS:5	clock:100	LUTs:	throughput:0.0097	NUM_OF_ENGINES:6	
+ipctCounter is 3
+
+In main loop dimension is NUM_OF_THREADS value is 5
+old element is dfuEngineType:separateEngine	NUM_OF_THREADS:5	clock:100	LUTs:	throughput:0.0097	NUM_OF_ENGINES:6	
+modified element is dfuEngineType:separateEngine	clock:100	NUM_OF_THREADS:6	LUTs:	throughput:0.0097	NUM_OF_ENGINES:6	
+********measuring performance**************
+Refined throughput is 0.0115
+********measuring area/clock**************
+Refined Area luts is 
+Refined Area regs is 
+Refined Area DSPs is 
+Refined clock is 
+NUM_OF_POINTS 200
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 6
+NUM_OF_THREADS 6
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+PIPED_DFU true
+optFunc is 958333.333333333
+optFunc is 808333.333333333
+Change the design point. dim is NUM_OF_THREADS dfuEngineType:separateEngine	clock:100	NUM_OF_THREADS:6	LUTs:	throughput:0.0115	NUM_OF_ENGINES:6	
+ipctCounter is 4
+
+In main loop dimension is dfuEngineType value is separateEngine
+old element is dfuEngineType:separateEngine	clock:100	NUM_OF_THREADS:6	LUTs:	throughput:0.0115	NUM_OF_ENGINES:6	
+modified element is dfuEngineType:separatePipeEngine	NUM_OF_THREADS:6	clock:100	LUTs:	throughput:0.0115	NUM_OF_ENGINES:6	
+********measuring performance**************
+Refined throughput is 0.0115
+********measuring area/clock**************
+Refined Area luts is 
+Refined Area regs is 
+Refined Area DSPs is 
+Refined clock is 
+NUM_OF_POINTS 200
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 6
+NUM_OF_THREADS 6
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+PIPED_DFU true
+optFunc is 958333.333333333
+optFunc is 958333.333333333
+Change the design point. dim is dfuEngineType dfuEngineType:separatePipeEngine	NUM_OF_THREADS:6	clock:100	LUTs:	throughput:0.0115	NUM_OF_ENGINES:6	
+ipctCounter is 5
+
+In main loop dimension is NUM_OF_ENGINES value is 6
+old element is dfuEngineType:separatePipeEngine	NUM_OF_THREADS:6	clock:100	LUTs:	throughput:0.0115	NUM_OF_ENGINES:6	
+modified element is dfuEngineType:separatePipeEngine	clock:100	NUM_OF_THREADS:6	LUTs:	throughput:0.0115	NUM_OF_ENGINES:7	
+********measuring performance**************
+Refined throughput is 0.0140
+********measuring area/clock**************
+Refined Area luts is 
+Refined Area regs is 
+Refined Area DSPs is 
+Refined clock is 
+NUM_OF_POINTS 200
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 7
+NUM_OF_THREADS 6
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+PIPED_DFU true
+optFunc is 1166666.66666667
+optFunc is 958333.333333333
+Change the design point. dim is NUM_OF_ENGINES dfuEngineType:separatePipeEngine	clock:100	NUM_OF_THREADS:6	LUTs:	throughput:0.0140	NUM_OF_ENGINES:7	
+ipctCounter is 6
+
+In main loop dimension is NUM_OF_THREADS value is 6
+old element is dfuEngineType:separatePipeEngine	clock:100	NUM_OF_THREADS:6	LUTs:	throughput:0.0140	NUM_OF_ENGINES:7	
+modified element is dfuEngineType:separatePipeEngine	NUM_OF_THREADS:7	clock:100	LUTs:	throughput:0.0140	NUM_OF_ENGINES:7	
+********measuring performance**************
+Refined throughput is 0.0137
+********measuring area/clock**************
+Refined Area luts is 
+Refined Area regs is 
+Refined Area DSPs is 
+Refined clock is 
+NUM_OF_POINTS 200
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 7
+NUM_OF_THREADS 7
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+PIPED_DFU true
+optFunc is 1141666.66666667
+optFunc is 1166666.66666667
+Change the design point. dim is NUM_OF_THREADS dfuEngineType:separatePipeEngine	NUM_OF_THREADS:7	clock:100	LUTs:	throughput:0.0137	NUM_OF_ENGINES:7	
+ipctCounter is 7
+
+In main loop dimension is dfuEngineType value is separatePipeEngine
+old element is dfuEngineType:separatePipeEngine	NUM_OF_THREADS:7	clock:100	LUTs:	throughput:0.0137	NUM_OF_ENGINES:7	
+modified element is dfuEngineType:separateEngine	clock:100	NUM_OF_THREADS:7	LUTs:	throughput:0.0137	NUM_OF_ENGINES:7	
+********measuring performance**************
+Refined throughput is 0.0137
+********measuring area/clock**************
+Refined Area luts is 
+Refined Area regs is 
+Refined Area DSPs is 
+Refined clock is 
+NUM_OF_POINTS 200
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 7
+NUM_OF_THREADS 7
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+PIPED_DFU true
+optFunc is 1141666.66666667
+optFunc is 1141666.66666667
+Change the design point. dim is dfuEngineType dfuEngineType:separateEngine	clock:100	NUM_OF_THREADS:7	LUTs:	throughput:0.0137	NUM_OF_ENGINES:7	
+ipctCounter is 8
+
+In main loop dimension is NUM_OF_ENGINES value is 7
+old element is dfuEngineType:separateEngine	clock:100	NUM_OF_THREADS:7	LUTs:	throughput:0.0137	NUM_OF_ENGINES:7	
+modified element is dfuEngineType:separateEngine	NUM_OF_THREADS:7	clock:100	LUTs:	throughput:0.0137	NUM_OF_ENGINES:8	
+********measuring performance**************
+Refined throughput is 0.0155
+********measuring area/clock**************
+Refined Area luts is 
+Refined Area regs is 
+Refined Area DSPs is 
+Refined clock is 
+NUM_OF_POINTS 200
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 8
+NUM_OF_THREADS 7
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+PIPED_DFU true
+optFunc is 1291666.66666667
+optFunc is 1141666.66666667
+Change the design point. dim is NUM_OF_ENGINES dfuEngineType:separateEngine	NUM_OF_THREADS:7	clock:100	LUTs:	throughput:0.0155	NUM_OF_ENGINES:8	
+ipctCounter is 9
+
+In main loop dimension is NUM_OF_THREADS value is 7
+old element is dfuEngineType:separateEngine	NUM_OF_THREADS:7	clock:100	LUTs:	throughput:0.0155	NUM_OF_ENGINES:8	
+modified element is dfuEngineType:separateEngine	clock:100	NUM_OF_THREADS:8	LUTs:	throughput:0.0155	NUM_OF_ENGINES:8	
+********measuring performance**************
+Refined throughput is 0.0154
+********measuring area/clock**************
+Refined Area luts is 
+Refined Area regs is 
+Refined Area DSPs is 
+Refined clock is 
+NUM_OF_POINTS 200
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 8
+NUM_OF_THREADS 8
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+PIPED_DFU true
+optFunc is 1283333.33333333
+optFunc is 1291666.66666667
+Change the design point. dim is NUM_OF_THREADS dfuEngineType:separateEngine	clock:100	NUM_OF_THREADS:8	LUTs:	throughput:0.0154	NUM_OF_ENGINES:8	
+ipctCounter is 10
+
+In main loop dimension is dfuEngineType value is separateEngine
+old element is dfuEngineType:separateEngine	clock:100	NUM_OF_THREADS:8	LUTs:	throughput:0.0154	NUM_OF_ENGINES:8	
+modified element is dfuEngineType:separatePipeEngine	NUM_OF_THREADS:8	clock:100	LUTs:	throughput:0.0154	NUM_OF_ENGINES:8	
+********measuring performance**************
+Refined throughput is 0.0154
+********measuring area/clock**************
+Refined Area luts is 
+Refined Area regs is 
+Refined Area DSPs is 
+Refined clock is 
+NUM_OF_POINTS 200
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 8
+NUM_OF_THREADS 8
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+PIPED_DFU true
+optFunc is 1283333.33333333
+optFunc is 1283333.33333333
+Change the design point. dim is dfuEngineType dfuEngineType:separatePipeEngine	NUM_OF_THREADS:8	clock:100	LUTs:	throughput:0.0154	NUM_OF_ENGINES:8	
+ipctCounter is 11
+
+In main loop dimension is NUM_OF_ENGINES value is 8
+old element is dfuEngineType:separatePipeEngine	NUM_OF_THREADS:8	clock:100	LUTs:	throughput:0.0154	NUM_OF_ENGINES:8	
+modified element is dfuEngineType:separatePipeEngine	clock:100	NUM_OF_THREADS:8	LUTs:	throughput:0.0154	NUM_OF_ENGINES:9	
+********measuring performance**************
+Refined throughput is 0.0187
+********measuring area/clock**************
+Refined Area luts is 
+Refined Area regs is 
+Refined Area DSPs is 
+Refined clock is 
+NUM_OF_POINTS 200
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 9
+NUM_OF_THREADS 8
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+PIPED_DFU true
+optFunc is 1558333.33333333
+optFunc is 1283333.33333333
+Change the design point. dim is NUM_OF_ENGINES dfuEngineType:separatePipeEngine	clock:100	NUM_OF_THREADS:8	LUTs:	throughput:0.0187	NUM_OF_ENGINES:9	
+ipctCounter is 12
+
+In main loop dimension is NUM_OF_THREADS value is 8
+old element is dfuEngineType:separatePipeEngine	clock:100	NUM_OF_THREADS:8	LUTs:	throughput:0.0187	NUM_OF_ENGINES:9	
+modified element is dfuEngineType:separatePipeEngine	NUM_OF_THREADS:9	clock:100	LUTs:	throughput:0.0187	NUM_OF_ENGINES:9	
+********measuring performance**************
+Refined throughput is 0.0175
+********measuring area/clock**************
+Refined Area luts is 
+Refined Area regs is 
+Refined Area DSPs is 
+Refined clock is 
+NUM_OF_POINTS 200
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 9
+NUM_OF_THREADS 9
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+PIPED_DFU true
+optFunc is 1458333.33333333
+optFunc is 1558333.33333333
+Change the design point. dim is NUM_OF_THREADS dfuEngineType:separatePipeEngine	NUM_OF_THREADS:9	clock:100	LUTs:	throughput:0.0175	NUM_OF_ENGINES:9	
+ipctCounter is 13
+
+In main loop dimension is dfuEngineType value is separatePipeEngine
+old element is dfuEngineType:separatePipeEngine	NUM_OF_THREADS:9	clock:100	LUTs:	throughput:0.0175	NUM_OF_ENGINES:9	
+modified element is dfuEngineType:separateEngine	clock:100	NUM_OF_THREADS:9	LUTs:	throughput:0.0175	NUM_OF_ENGINES:9	
+********measuring performance**************
+Refined throughput is 0.0175
+********measuring area/clock**************
+Refined Area luts is 
+Refined Area regs is 
+Refined Area DSPs is 
+Refined clock is 
+NUM_OF_POINTS 200
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 9
+NUM_OF_THREADS 9
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+PIPED_DFU true
+optFunc is 1458333.33333333
+optFunc is 1458333.33333333
+Change the design point. dim is dfuEngineType dfuEngineType:separateEngine	clock:100	NUM_OF_THREADS:9	LUTs:	throughput:0.0175	NUM_OF_ENGINES:9	
+ipctCounter is 14
+
+In main loop dimension is NUM_OF_ENGINES value is 9
+old element is dfuEngineType:separateEngine	clock:100	NUM_OF_THREADS:9	LUTs:	throughput:0.0175	NUM_OF_ENGINES:9	
+modified element is dfuEngineType:separateEngine	NUM_OF_THREADS:9	clock:100	LUTs:	throughput:0.0175	NUM_OF_ENGINES:10	
+********measuring performance**************

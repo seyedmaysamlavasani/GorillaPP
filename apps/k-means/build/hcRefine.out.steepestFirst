@@ -1,0 +1,1359 @@
+Benchmark is k-means 
+
+dim NUM_OF_ENGINES is added  with type range 
+dim NUM_OF_THREADS is added  with type range 
+dim dfuEngineType is added  with type offEngineType 
+Initial element is dfuEngineType:	clock:100	NUM_OF_THREADS:1	LUTs:1000000	throughput:0	NUM_OF_ENGINES:1	
+********measuring performance**************
+Refined throughput is 0.0017
+********measuring area/clock**************
+Refined Area luts is 9878
+
+Refined Area regs is 11953
+
+Refined Area DSPs is 51
+
+Refined clock is 4.721
+
+NUM_OF_POINTS 50
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 1
+NUM_OF_THREADS 1
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+Steepest first called for elementdfuEngineType:	clock:100	NUM_OF_THREADS:1	LUTs:9878
+	throughput:0.0017	NUM_OF_ENGINES:1	
+
+Steepest first try on dimensionNUM_OF_ENGINES
+old element is dfuEngineType:	clock:100	NUM_OF_THREADS:1	LUTs:9878
+	throughput:0.0017	NUM_OF_ENGINES:1	
+modified element is dfuEngineType:	NUM_OF_THREADS:1	clock:100	LUTs:9878
+	throughput:0.0017	NUM_OF_ENGINES:2	
+********measuring performance**************
+Refined throughput is 0.0034
+********measuring area/clock**************
+Refined Area luts is 18083
+
+Refined Area regs is 22399
+
+Refined Area DSPs is 99
+
+Refined clock is 4.716
+
+NUM_OF_POINTS 50
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 2
+NUM_OF_THREADS 1
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+optFunc is 281917
+optFunc is 140122
+Found a better steepest on dimensionNUM_OF_ENGINES
+slope is : 0
+element is: dfuEngineType:	clock:100	NUM_OF_THREADS:1	LUTs:9878
+	throughput:0.0017	NUM_OF_ENGINES:1	
+
+new element is: dfuEngineType:	NUM_OF_THREADS:1	clock:100	LUTs:18083
+	throughput:0.0034	NUM_OF_ENGINES:2	
+
+old element is dfuEngineType:	clock:100	NUM_OF_THREADS:1	LUTs:9878
+	throughput:0.0017	NUM_OF_ENGINES:1	
+modified element is dfuEngineType:	NUM_OF_THREADS:1	clock:100	LUTs:9878
+	throughput:0.0017	NUM_OF_ENGINES:2	
+********measuring performance**************
+Refined throughput is 0.0034
+********measuring area/clock**************
+Refined Area luts is 18083
+
+Refined Area regs is 22399
+
+Refined Area DSPs is 99
+
+Refined clock is 4.716
+
+NUM_OF_POINTS 50
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 2
+NUM_OF_THREADS 1
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+optFunc is 281917
+optFunc is 281917
+Steepest first try on dimensionNUM_OF_THREADS
+old element is dfuEngineType:	clock:100	NUM_OF_THREADS:1	LUTs:9878
+	throughput:0.0017	NUM_OF_ENGINES:1	
+modified element is dfuEngineType:	NUM_OF_THREADS:2	clock:100	LUTs:9878
+	throughput:0.0017	NUM_OF_ENGINES:1	
+********measuring performance**************
+Refined throughput is 0.0019
+********measuring area/clock**************
+Refined Area luts is 10030
+
+Refined Area regs is 12031
+
+Refined Area DSPs is 51
+
+Refined clock is 5.446
+
+NUM_OF_POINTS 50
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 1
+NUM_OF_THREADS 2
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+optFunc is 157617.058823529
+optFunc is 281917
+old element is dfuEngineType:	clock:100	NUM_OF_THREADS:1	LUTs:9878
+	throughput:0.0017	NUM_OF_ENGINES:1	
+modified element is dfuEngineType:	NUM_OF_THREADS:1	clock:100	LUTs:9878
+	throughput:0.0017	NUM_OF_ENGINES:1	
+********measuring performance**************
+Refined throughput is 0.0017
+********measuring area/clock**************
+Refined Area luts is 9878
+
+Refined Area regs is 11953
+
+Refined Area DSPs is 51
+
+Refined clock is 4.721
+
+NUM_OF_POINTS 50
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 1
+NUM_OF_THREADS 1
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+optFunc is 140122
+optFunc is 281917
+Steepest first try on dimensiondfuEngineType
+old element is dfuEngineType:	clock:100	NUM_OF_THREADS:1	LUTs:9878
+	throughput:0.0017	NUM_OF_ENGINES:1	
+modified element is dfuEngineType:separatePipeEngine	NUM_OF_THREADS:1	clock:100	LUTs:9878
+	throughput:0.0017	NUM_OF_ENGINES:1	
+********measuring performance**************
+Refined throughput is 0.0017
+********measuring area/clock**************
+Refined Area luts is 9878
+
+Refined Area regs is 11953
+
+Refined Area DSPs is 51
+
+Refined clock is 4.721
+
+NUM_OF_POINTS 50
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 1
+NUM_OF_THREADS 1
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+optFunc is 140122
+optFunc is 281917
+old element is dfuEngineType:	clock:100	NUM_OF_THREADS:1	LUTs:9878
+	throughput:0.0017	NUM_OF_ENGINES:1	
+modified element is dfuEngineType:separatePipeEngine	NUM_OF_THREADS:1	clock:100	LUTs:9878
+	throughput:0.0017	NUM_OF_ENGINES:1	
+********measuring performance**************
+Refined throughput is 0.0017
+********measuring area/clock**************
+Refined Area luts is 9878
+
+Refined Area regs is 11953
+
+Refined Area DSPs is 51
+
+Refined clock is 4.721
+
+NUM_OF_POINTS 50
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 1
+NUM_OF_THREADS 1
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+optFunc is 140122
+optFunc is 281917
+
+
+optFunc is 281917
+optFunc is 140122
+Change the design pointdfuEngineType:	NUM_OF_THREADS:1	clock:100	LUTs:18083
+	throughput:0.0034	NUM_OF_ENGINES:2	
+
+
+
+Steepest first called for elementdfuEngineType:	NUM_OF_THREADS:1	clock:100	LUTs:18083
+	throughput:0.0034	NUM_OF_ENGINES:2	
+
+Steepest first try on dimensionNUM_OF_ENGINES
+old element is dfuEngineType:	NUM_OF_THREADS:1	clock:100	LUTs:18083
+	throughput:0.0034	NUM_OF_ENGINES:2	
+modified element is dfuEngineType:	clock:100	NUM_OF_THREADS:1	LUTs:18083
+	throughput:0.0034	NUM_OF_ENGINES:1	
+********measuring performance**************
+Refined throughput is 0.0017
+********measuring area/clock**************
+Refined Area luts is 9878
+
+Refined Area regs is 11953
+
+Refined Area DSPs is 51
+
+Refined clock is 4.721
+
+NUM_OF_POINTS 50
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 1
+NUM_OF_THREADS 1
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+optFunc is 140122
+optFunc is 281917
+old element is dfuEngineType:	NUM_OF_THREADS:1	clock:100	LUTs:18083
+	throughput:0.0034	NUM_OF_ENGINES:2	
+modified element is dfuEngineType:	clock:100	NUM_OF_THREADS:1	LUTs:18083
+	throughput:0.0034	NUM_OF_ENGINES:3	
+********measuring performance**************
+Refined throughput is 0.0052
+********measuring area/clock**************
+Refined Area luts is 26173
+
+Refined Area regs is 32810
+
+Refined Area DSPs is 147
+
+Refined clock is 4.716
+
+NUM_OF_POINTS 50
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 3
+NUM_OF_THREADS 1
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+optFunc is 432650.529411765
+optFunc is 281917
+Found a better steepest on dimensionNUM_OF_ENGINES
+slope is : 1
+element is: dfuEngineType:	NUM_OF_THREADS:1	clock:100	LUTs:18083
+	throughput:0.0034	NUM_OF_ENGINES:2	
+
+new element is: dfuEngineType:	clock:100	NUM_OF_THREADS:1	LUTs:26173
+	throughput:0.0052	NUM_OF_ENGINES:3	
+
+old element is dfuEngineType:	NUM_OF_THREADS:1	clock:100	LUTs:18083
+	throughput:0.0034	NUM_OF_ENGINES:2	
+modified element is dfuEngineType:	clock:100	NUM_OF_THREADS:1	LUTs:18083
+	throughput:0.0034	NUM_OF_ENGINES:3	
+********measuring performance**************
+Refined throughput is 0.0052
+********measuring area/clock**************
+Refined Area luts is 26173
+
+Refined Area regs is 32810
+
+Refined Area DSPs is 147
+
+Refined clock is 4.716
+
+NUM_OF_POINTS 50
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 3
+NUM_OF_THREADS 1
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+optFunc is 432650.529411765
+optFunc is 432650.529411765
+Steepest first try on dimensionNUM_OF_THREADS
+old element is dfuEngineType:	NUM_OF_THREADS:1	clock:100	LUTs:18083
+	throughput:0.0034	NUM_OF_ENGINES:2	
+modified element is dfuEngineType:	clock:100	NUM_OF_THREADS:2	LUTs:18083
+	throughput:0.0034	NUM_OF_ENGINES:2	
+********measuring performance**************
+Refined throughput is 0.0039
+********measuring area/clock**************
+Refined Area luts is 18423
+
+Refined Area regs is 22555
+
+Refined Area DSPs is 99
+
+Refined clock is 5.446
+
+NUM_OF_POINTS 50
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 2
+NUM_OF_THREADS 2
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+optFunc is 325694.647058824
+optFunc is 432650.529411765
+old element is dfuEngineType:	NUM_OF_THREADS:1	clock:100	LUTs:18083
+	throughput:0.0034	NUM_OF_ENGINES:2	
+modified element is dfuEngineType:	clock:100	NUM_OF_THREADS:1	LUTs:18083
+	throughput:0.0034	NUM_OF_ENGINES:2	
+********measuring performance**************
+Refined throughput is 0.0034
+********measuring area/clock**************
+Refined Area luts is 18083
+
+Refined Area regs is 22399
+
+Refined Area DSPs is 99
+
+Refined clock is 4.716
+
+NUM_OF_POINTS 50
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 2
+NUM_OF_THREADS 1
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+optFunc is 281917
+optFunc is 432650.529411765
+Steepest first try on dimensiondfuEngineType
+old element is dfuEngineType:	NUM_OF_THREADS:1	clock:100	LUTs:18083
+	throughput:0.0034	NUM_OF_ENGINES:2	
+modified element is dfuEngineType:separatePipeEngine	clock:100	NUM_OF_THREADS:1	LUTs:18083
+	throughput:0.0034	NUM_OF_ENGINES:2	
+********measuring performance**************
+Refined throughput is 0.0034
+********measuring area/clock**************
+Refined Area luts is 18083
+
+Refined Area regs is 22399
+
+Refined Area DSPs is 99
+
+Refined clock is 4.716
+
+NUM_OF_POINTS 50
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 2
+NUM_OF_THREADS 1
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+optFunc is 281917
+optFunc is 432650.529411765
+old element is dfuEngineType:	NUM_OF_THREADS:1	clock:100	LUTs:18083
+	throughput:0.0034	NUM_OF_ENGINES:2	
+modified element is dfuEngineType:separatePipeEngine	clock:100	NUM_OF_THREADS:1	LUTs:18083
+	throughput:0.0034	NUM_OF_ENGINES:2	
+********measuring performance**************
+Refined throughput is 0.0034
+********measuring area/clock**************
+Refined Area luts is 18083
+
+Refined Area regs is 22399
+
+Refined Area DSPs is 99
+
+Refined clock is 4.716
+
+NUM_OF_POINTS 50
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 2
+NUM_OF_THREADS 1
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+optFunc is 281917
+optFunc is 432650.529411765
+
+
+optFunc is 432650.529411765
+optFunc is 281917
+Change the design pointdfuEngineType:	clock:100	NUM_OF_THREADS:1	LUTs:26173
+	throughput:0.0052	NUM_OF_ENGINES:3	
+
+
+
+Steepest first called for elementdfuEngineType:	clock:100	NUM_OF_THREADS:1	LUTs:26173
+	throughput:0.0052	NUM_OF_ENGINES:3	
+
+Steepest first try on dimensionNUM_OF_ENGINES
+old element is dfuEngineType:	clock:100	NUM_OF_THREADS:1	LUTs:26173
+	throughput:0.0052	NUM_OF_ENGINES:3	
+modified element is dfuEngineType:	NUM_OF_THREADS:1	clock:100	LUTs:26173
+	throughput:0.0052	NUM_OF_ENGINES:2	
+********measuring performance**************
+Refined throughput is 0.0034
+********measuring area/clock**************
+Refined Area luts is 18083
+
+Refined Area regs is 22399
+
+Refined Area DSPs is 99
+
+Refined clock is 4.716
+
+NUM_OF_POINTS 50
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 2
+NUM_OF_THREADS 1
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+optFunc is 281917
+optFunc is 432650.529411765
+old element is dfuEngineType:	clock:100	NUM_OF_THREADS:1	LUTs:26173
+	throughput:0.0052	NUM_OF_ENGINES:3	
+modified element is dfuEngineType:	NUM_OF_THREADS:1	clock:100	LUTs:26173
+	throughput:0.0052	NUM_OF_ENGINES:4	
+********measuring performance**************
+Refined throughput is 0.0069
+********measuring area/clock**************
+Refined Area luts is 34300
+
+Refined Area regs is 43429
+
+Refined Area DSPs is 195
+
+Refined clock is 4.961
+
+NUM_OF_POINTS 50
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 4
+NUM_OF_THREADS 1
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+optFunc is 574523.529411765
+optFunc is 432650.529411765
+Found a better steepest on dimensionNUM_OF_ENGINES
+slope is : 1
+element is: dfuEngineType:	clock:100	NUM_OF_THREADS:1	LUTs:26173
+	throughput:0.0052	NUM_OF_ENGINES:3	
+
+new element is: dfuEngineType:	NUM_OF_THREADS:1	clock:100	LUTs:34300
+	throughput:0.0069	NUM_OF_ENGINES:4	
+
+old element is dfuEngineType:	clock:100	NUM_OF_THREADS:1	LUTs:26173
+	throughput:0.0052	NUM_OF_ENGINES:3	
+modified element is dfuEngineType:	NUM_OF_THREADS:1	clock:100	LUTs:26173
+	throughput:0.0052	NUM_OF_ENGINES:4	
+********measuring performance**************
+Refined throughput is 0.0069
+********measuring area/clock**************
+Refined Area luts is 34300
+
+Refined Area regs is 43429
+
+Refined Area DSPs is 195
+
+Refined clock is 4.961
+
+NUM_OF_POINTS 50
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 4
+NUM_OF_THREADS 1
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+optFunc is 574523.529411765
+optFunc is 574523.529411765
+Steepest first try on dimensionNUM_OF_THREADS
+old element is dfuEngineType:	clock:100	NUM_OF_THREADS:1	LUTs:26173
+	throughput:0.0052	NUM_OF_ENGINES:3	
+modified element is dfuEngineType:	NUM_OF_THREADS:2	clock:100	LUTs:26173
+	throughput:0.0052	NUM_OF_ENGINES:3	
+********measuring performance**************
+Refined throughput is 0.0058
+********measuring area/clock**************
+Refined Area luts is 26684
+
+Refined Area regs is 33244
+
+Refined Area DSPs is 147
+
+Refined clock is 5.497
+
+NUM_OF_POINTS 50
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 3
+NUM_OF_THREADS 2
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+optFunc is 485080.705882353
+optFunc is 574523.529411765
+old element is dfuEngineType:	clock:100	NUM_OF_THREADS:1	LUTs:26173
+	throughput:0.0052	NUM_OF_ENGINES:3	
+modified element is dfuEngineType:	NUM_OF_THREADS:1	clock:100	LUTs:26173
+	throughput:0.0052	NUM_OF_ENGINES:3	
+********measuring performance**************
+Refined throughput is 0.0052
+********measuring area/clock**************
+Refined Area luts is 26173
+
+Refined Area regs is 32810
+
+Refined Area DSPs is 147
+
+Refined clock is 4.716
+
+NUM_OF_POINTS 50
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 3
+NUM_OF_THREADS 1
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+optFunc is 432650.529411765
+optFunc is 574523.529411765
+Steepest first try on dimensiondfuEngineType
+old element is dfuEngineType:	clock:100	NUM_OF_THREADS:1	LUTs:26173
+	throughput:0.0052	NUM_OF_ENGINES:3	
+modified element is dfuEngineType:separatePipeEngine	NUM_OF_THREADS:1	clock:100	LUTs:26173
+	throughput:0.0052	NUM_OF_ENGINES:3	
+********measuring performance**************
+Refined throughput is 0.0052
+********measuring area/clock**************
+Refined Area luts is 26173
+
+Refined Area regs is 32810
+
+Refined Area DSPs is 147
+
+Refined clock is 4.716
+
+NUM_OF_POINTS 50
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 3
+NUM_OF_THREADS 1
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+optFunc is 432650.529411765
+optFunc is 574523.529411765
+old element is dfuEngineType:	clock:100	NUM_OF_THREADS:1	LUTs:26173
+	throughput:0.0052	NUM_OF_ENGINES:3	
+modified element is dfuEngineType:separatePipeEngine	NUM_OF_THREADS:1	clock:100	LUTs:26173
+	throughput:0.0052	NUM_OF_ENGINES:3	
+********measuring performance**************
+Refined throughput is 0.0052
+********measuring area/clock**************
+Refined Area luts is 26173
+
+Refined Area regs is 32810
+
+Refined Area DSPs is 147
+
+Refined clock is 4.716
+
+NUM_OF_POINTS 50
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 3
+NUM_OF_THREADS 1
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+optFunc is 432650.529411765
+optFunc is 574523.529411765
+
+
+optFunc is 574523.529411765
+optFunc is 432650.529411765
+Change the design pointdfuEngineType:	NUM_OF_THREADS:1	clock:100	LUTs:34300
+	throughput:0.0069	NUM_OF_ENGINES:4	
+
+
+
+Steepest first called for elementdfuEngineType:	NUM_OF_THREADS:1	clock:100	LUTs:34300
+	throughput:0.0069	NUM_OF_ENGINES:4	
+
+Steepest first try on dimensionNUM_OF_ENGINES
+old element is dfuEngineType:	NUM_OF_THREADS:1	clock:100	LUTs:34300
+	throughput:0.0069	NUM_OF_ENGINES:4	
+modified element is dfuEngineType:	clock:100	NUM_OF_THREADS:1	LUTs:34300
+	throughput:0.0069	NUM_OF_ENGINES:3	
+********measuring performance**************
+Refined throughput is 0.0052
+********measuring area/clock**************
+Refined Area luts is 26173
+
+Refined Area regs is 32810
+
+Refined Area DSPs is 147
+
+Refined clock is 4.716
+
+NUM_OF_POINTS 50
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 3
+NUM_OF_THREADS 1
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+optFunc is 432650.529411765
+optFunc is 574523.529411765
+old element is dfuEngineType:	NUM_OF_THREADS:1	clock:100	LUTs:34300
+	throughput:0.0069	NUM_OF_ENGINES:4	
+modified element is dfuEngineType:	clock:100	NUM_OF_THREADS:1	LUTs:34300
+	throughput:0.0069	NUM_OF_ENGINES:5	
+********measuring performance**************
+Refined throughput is 0.0083
+********measuring area/clock**************
+Refined Area luts is 42421
+
+Refined Area regs is 53844
+
+Refined Area DSPs is 243
+
+Refined clock is 4.961
+
+NUM_OF_POINTS 50
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 5
+NUM_OF_THREADS 1
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+optFunc is 689931.941176471
+optFunc is 574523.529411765
+Found a better steepest on dimensionNUM_OF_ENGINES
+slope is : 1
+element is: dfuEngineType:	NUM_OF_THREADS:1	clock:100	LUTs:34300
+	throughput:0.0069	NUM_OF_ENGINES:4	
+
+new element is: dfuEngineType:	clock:100	NUM_OF_THREADS:1	LUTs:42421
+	throughput:0.0083	NUM_OF_ENGINES:5	
+
+old element is dfuEngineType:	NUM_OF_THREADS:1	clock:100	LUTs:34300
+	throughput:0.0069	NUM_OF_ENGINES:4	
+modified element is dfuEngineType:	clock:100	NUM_OF_THREADS:1	LUTs:34300
+	throughput:0.0069	NUM_OF_ENGINES:5	
+********measuring performance**************
+Refined throughput is 0.0083
+********measuring area/clock**************
+Refined Area luts is 42421
+
+Refined Area regs is 53844
+
+Refined Area DSPs is 243
+
+Refined clock is 4.961
+
+NUM_OF_POINTS 50
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 5
+NUM_OF_THREADS 1
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+optFunc is 689931.941176471
+optFunc is 689931.941176471
+Steepest first try on dimensionNUM_OF_THREADS
+old element is dfuEngineType:	NUM_OF_THREADS:1	clock:100	LUTs:34300
+	throughput:0.0069	NUM_OF_ENGINES:4	
+modified element is dfuEngineType:	clock:100	NUM_OF_THREADS:2	LUTs:34300
+	throughput:0.0069	NUM_OF_ENGINES:4	
+********measuring performance**************
+Refined throughput is 0.0076
+********measuring area/clock**************
+Refined Area luts is 34928
+
+Refined Area regs is 43725
+
+Refined Area DSPs is 195
+
+Refined clock is 5.488
+
+NUM_OF_POINTS 50
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 4
+NUM_OF_THREADS 2
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+optFunc is 635660.235294118
+optFunc is 689931.941176471
+old element is dfuEngineType:	NUM_OF_THREADS:1	clock:100	LUTs:34300
+	throughput:0.0069	NUM_OF_ENGINES:4	
+modified element is dfuEngineType:	clock:100	NUM_OF_THREADS:1	LUTs:34300
+	throughput:0.0069	NUM_OF_ENGINES:4	
+********measuring performance**************
+Refined throughput is 0.0069
+********measuring area/clock**************
+Refined Area luts is 34300
+
+Refined Area regs is 43429
+
+Refined Area DSPs is 195
+
+Refined clock is 4.961
+
+NUM_OF_POINTS 50
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 4
+NUM_OF_THREADS 1
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+optFunc is 574523.529411765
+optFunc is 689931.941176471
+Steepest first try on dimensiondfuEngineType
+old element is dfuEngineType:	NUM_OF_THREADS:1	clock:100	LUTs:34300
+	throughput:0.0069	NUM_OF_ENGINES:4	
+modified element is dfuEngineType:separatePipeEngine	clock:100	NUM_OF_THREADS:1	LUTs:34300
+	throughput:0.0069	NUM_OF_ENGINES:4	
+********measuring performance**************
+Refined throughput is 0.0069
+********measuring area/clock**************
+Refined Area luts is 34300
+
+Refined Area regs is 43429
+
+Refined Area DSPs is 195
+
+Refined clock is 4.961
+
+NUM_OF_POINTS 50
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 4
+NUM_OF_THREADS 1
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+optFunc is 574523.529411765
+optFunc is 689931.941176471
+old element is dfuEngineType:	NUM_OF_THREADS:1	clock:100	LUTs:34300
+	throughput:0.0069	NUM_OF_ENGINES:4	
+modified element is dfuEngineType:separatePipeEngine	clock:100	NUM_OF_THREADS:1	LUTs:34300
+	throughput:0.0069	NUM_OF_ENGINES:4	
+********measuring performance**************
+Refined throughput is 0.0069
+********measuring area/clock**************
+Refined Area luts is 34300
+
+Refined Area regs is 43429
+
+Refined Area DSPs is 195
+
+Refined clock is 4.961
+
+NUM_OF_POINTS 50
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 4
+NUM_OF_THREADS 1
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+optFunc is 574523.529411765
+optFunc is 689931.941176471
+
+
+optFunc is 689931.941176471
+optFunc is 574523.529411765
+Change the design pointdfuEngineType:	clock:100	NUM_OF_THREADS:1	LUTs:42421
+	throughput:0.0083	NUM_OF_ENGINES:5	
+
+
+
+Steepest first called for elementdfuEngineType:	clock:100	NUM_OF_THREADS:1	LUTs:42421
+	throughput:0.0083	NUM_OF_ENGINES:5	
+
+Steepest first try on dimensionNUM_OF_ENGINES
+old element is dfuEngineType:	clock:100	NUM_OF_THREADS:1	LUTs:42421
+	throughput:0.0083	NUM_OF_ENGINES:5	
+modified element is dfuEngineType:	NUM_OF_THREADS:1	clock:100	LUTs:42421
+	throughput:0.0083	NUM_OF_ENGINES:4	
+********measuring performance**************
+Refined throughput is 0.0069
+********measuring area/clock**************
+Refined Area luts is 34300
+
+Refined Area regs is 43429
+
+Refined Area DSPs is 195
+
+Refined clock is 4.961
+
+NUM_OF_POINTS 50
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 4
+NUM_OF_THREADS 1
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+optFunc is 574523.529411765
+optFunc is 689931.941176471
+old element is dfuEngineType:	clock:100	NUM_OF_THREADS:1	LUTs:42421
+	throughput:0.0083	NUM_OF_ENGINES:5	
+modified element is dfuEngineType:	NUM_OF_THREADS:1	clock:100	LUTs:42421
+	throughput:0.0083	NUM_OF_ENGINES:6	
+********measuring performance**************
+Refined throughput is 0.0100
+********measuring area/clock**************
+Refined Area luts is 50530
+
+Refined Area regs is 64029
+
+Refined Area DSPs is 291
+
+Refined clock is 4.749
+
+NUM_OF_POINTS 50
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 6
+NUM_OF_THREADS 1
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+optFunc is 831822.941176471
+optFunc is 689931.941176471
+Found a better steepest on dimensionNUM_OF_ENGINES
+slope is : 1
+element is: dfuEngineType:	clock:100	NUM_OF_THREADS:1	LUTs:42421
+	throughput:0.0083	NUM_OF_ENGINES:5	
+
+new element is: dfuEngineType:	NUM_OF_THREADS:1	clock:100	LUTs:50530
+	throughput:0.0100	NUM_OF_ENGINES:6	
+
+old element is dfuEngineType:	clock:100	NUM_OF_THREADS:1	LUTs:42421
+	throughput:0.0083	NUM_OF_ENGINES:5	
+modified element is dfuEngineType:	NUM_OF_THREADS:1	clock:100	LUTs:42421
+	throughput:0.0083	NUM_OF_ENGINES:6	
+********measuring performance**************
+Refined throughput is 0.0100
+********measuring area/clock**************
+Refined Area luts is 50530
+
+Refined Area regs is 64029
+
+Refined Area DSPs is 291
+
+Refined clock is 4.749
+
+NUM_OF_POINTS 50
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 6
+NUM_OF_THREADS 1
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+optFunc is 831822.941176471
+optFunc is 831822.941176471
+Steepest first try on dimensionNUM_OF_THREADS
+old element is dfuEngineType:	clock:100	NUM_OF_THREADS:1	LUTs:42421
+	throughput:0.0083	NUM_OF_ENGINES:5	
+modified element is dfuEngineType:	NUM_OF_THREADS:2	clock:100	LUTs:42421
+	throughput:0.0083	NUM_OF_ENGINES:5	
+********measuring performance**************
+Refined throughput is 0.0091
+********measuring area/clock**************
+Refined Area luts is 43220
+
+Refined Area regs is 54220
+
+Refined Area DSPs is 243
+
+Refined clock is 5.568
+
+NUM_OF_POINTS 50
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 5
+NUM_OF_THREADS 2
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+optFunc is 759721.176470588
+optFunc is 831822.941176471
+old element is dfuEngineType:	clock:100	NUM_OF_THREADS:1	LUTs:42421
+	throughput:0.0083	NUM_OF_ENGINES:5	
+modified element is dfuEngineType:	NUM_OF_THREADS:1	clock:100	LUTs:42421
+	throughput:0.0083	NUM_OF_ENGINES:5	
+********measuring performance**************
+Refined throughput is 0.0083
+********measuring area/clock**************
+Refined Area luts is 42421
+
+Refined Area regs is 53844
+
+Refined Area DSPs is 243
+
+Refined clock is 4.961
+
+NUM_OF_POINTS 50
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 5
+NUM_OF_THREADS 1
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+optFunc is 689931.941176471
+optFunc is 831822.941176471
+Steepest first try on dimensiondfuEngineType
+old element is dfuEngineType:	clock:100	NUM_OF_THREADS:1	LUTs:42421
+	throughput:0.0083	NUM_OF_ENGINES:5	
+modified element is dfuEngineType:separatePipeEngine	NUM_OF_THREADS:1	clock:100	LUTs:42421
+	throughput:0.0083	NUM_OF_ENGINES:5	
+********measuring performance**************
+Refined throughput is 0.0083
+********measuring area/clock**************
+Refined Area luts is 42421
+
+Refined Area regs is 53844
+
+Refined Area DSPs is 243
+
+Refined clock is 4.961
+
+NUM_OF_POINTS 50
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 5
+NUM_OF_THREADS 1
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+optFunc is 689931.941176471
+optFunc is 831822.941176471
+old element is dfuEngineType:	clock:100	NUM_OF_THREADS:1	LUTs:42421
+	throughput:0.0083	NUM_OF_ENGINES:5	
+modified element is dfuEngineType:separatePipeEngine	NUM_OF_THREADS:1	clock:100	LUTs:42421
+	throughput:0.0083	NUM_OF_ENGINES:5	
+********measuring performance**************
+Refined throughput is 0.0083
+********measuring area/clock**************
+Refined Area luts is 42421
+
+Refined Area regs is 53844
+
+Refined Area DSPs is 243
+
+Refined clock is 4.961
+
+NUM_OF_POINTS 50
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 5
+NUM_OF_THREADS 1
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+optFunc is 689931.941176471
+optFunc is 831822.941176471
+
+
+optFunc is 831822.941176471
+optFunc is 689931.941176471
+Change the design pointdfuEngineType:	NUM_OF_THREADS:1	clock:100	LUTs:50530
+	throughput:0.0100	NUM_OF_ENGINES:6	
+
+
+
+Steepest first called for elementdfuEngineType:	NUM_OF_THREADS:1	clock:100	LUTs:50530
+	throughput:0.0100	NUM_OF_ENGINES:6	
+
+Steepest first try on dimensionNUM_OF_ENGINES
+old element is dfuEngineType:	NUM_OF_THREADS:1	clock:100	LUTs:50530
+	throughput:0.0100	NUM_OF_ENGINES:6	
+modified element is dfuEngineType:	clock:100	NUM_OF_THREADS:1	LUTs:50530
+	throughput:0.0100	NUM_OF_ENGINES:5	
+********measuring performance**************
+Refined throughput is 0.0083
+********measuring area/clock**************
+Refined Area luts is 42421
+
+Refined Area regs is 53844
+
+Refined Area DSPs is 243
+
+Refined clock is 4.961
+
+NUM_OF_POINTS 50
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 5
+NUM_OF_THREADS 1
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+optFunc is 689931.941176471
+optFunc is 831822.941176471
+old element is dfuEngineType:	NUM_OF_THREADS:1	clock:100	LUTs:50530
+	throughput:0.0100	NUM_OF_ENGINES:6	
+modified element is dfuEngineType:	clock:100	NUM_OF_THREADS:1	LUTs:50530
+	throughput:0.0100	NUM_OF_ENGINES:7	
+********measuring performance**************
+Refined throughput is 0.0114
+********measuring area/clock**************
+Refined Area luts is 58684
+
+Refined Area regs is 74436
+
+Refined Area DSPs is 339
+
+Refined clock is 4.716
+
+NUM_OF_POINTS 50
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 7
+NUM_OF_THREADS 1
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+optFunc is 947198.352941177
+optFunc is 831822.941176471
+Found a better steepest on dimensionNUM_OF_ENGINES
+slope is : 1
+element is: dfuEngineType:	NUM_OF_THREADS:1	clock:100	LUTs:50530
+	throughput:0.0100	NUM_OF_ENGINES:6	
+
+new element is: dfuEngineType:	clock:100	NUM_OF_THREADS:1	LUTs:58684
+	throughput:0.0114	NUM_OF_ENGINES:7	
+
+old element is dfuEngineType:	NUM_OF_THREADS:1	clock:100	LUTs:50530
+	throughput:0.0100	NUM_OF_ENGINES:6	
+modified element is dfuEngineType:	clock:100	NUM_OF_THREADS:1	LUTs:50530
+	throughput:0.0100	NUM_OF_ENGINES:7	
+********measuring performance**************
+Refined throughput is 0.0114
+********measuring area/clock**************
+Refined Area luts is 58684
+
+Refined Area regs is 74436
+
+Refined Area DSPs is 339
+
+Refined clock is 4.716
+
+NUM_OF_POINTS 50
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 7
+NUM_OF_THREADS 1
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+optFunc is 947198.352941177
+optFunc is 947198.352941177
+Steepest first try on dimensionNUM_OF_THREADS
+old element is dfuEngineType:	NUM_OF_THREADS:1	clock:100	LUTs:50530
+	throughput:0.0100	NUM_OF_ENGINES:6	
+modified element is dfuEngineType:	clock:100	NUM_OF_THREADS:2	LUTs:50530
+	throughput:0.0100	NUM_OF_ENGINES:6	
+********measuring performance**************
+Refined throughput is 0.0113
+********measuring area/clock**************
+Refined Area luts is 51495
+
+Refined Area regs is 64517
+
+Refined Area DSPs is 291
+
+Refined clock is 5.546
+
+NUM_OF_POINTS 50
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 6
+NUM_OF_THREADS 2
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+optFunc is 945563.823529412
+optFunc is 947198.352941177
+old element is dfuEngineType:	NUM_OF_THREADS:1	clock:100	LUTs:50530
+	throughput:0.0100	NUM_OF_ENGINES:6	
+modified element is dfuEngineType:	clock:100	NUM_OF_THREADS:1	LUTs:50530
+	throughput:0.0100	NUM_OF_ENGINES:6	
+********measuring performance**************
+Refined throughput is 0.0100
+********measuring area/clock**************
+Refined Area luts is 50530
+
+Refined Area regs is 64029
+
+Refined Area DSPs is 291
+
+Refined clock is 4.749
+
+NUM_OF_POINTS 50
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 6
+NUM_OF_THREADS 1
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+optFunc is 831822.941176471
+optFunc is 947198.352941177
+Steepest first try on dimensiondfuEngineType
+old element is dfuEngineType:	NUM_OF_THREADS:1	clock:100	LUTs:50530
+	throughput:0.0100	NUM_OF_ENGINES:6	
+modified element is dfuEngineType:separatePipeEngine	clock:100	NUM_OF_THREADS:1	LUTs:50530
+	throughput:0.0100	NUM_OF_ENGINES:6	
+********measuring performance**************
+Refined throughput is 0.0100
+********measuring area/clock**************
+Refined Area luts is 50530
+
+Refined Area regs is 64029
+
+Refined Area DSPs is 291
+
+Refined clock is 4.749
+
+NUM_OF_POINTS 50
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 6
+NUM_OF_THREADS 1
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+optFunc is 831822.941176471
+optFunc is 947198.352941177
+old element is dfuEngineType:	NUM_OF_THREADS:1	clock:100	LUTs:50530
+	throughput:0.0100	NUM_OF_ENGINES:6	
+modified element is dfuEngineType:separatePipeEngine	clock:100	NUM_OF_THREADS:1	LUTs:50530
+	throughput:0.0100	NUM_OF_ENGINES:6	
+********measuring performance**************
+Refined throughput is 0.0100
+********measuring area/clock**************
+Refined Area luts is 50530
+
+Refined Area regs is 64029
+
+Refined Area DSPs is 291
+
+Refined clock is 4.749
+
+NUM_OF_POINTS 50
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 6
+NUM_OF_THREADS 1
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+optFunc is 831822.941176471
+optFunc is 947198.352941177
+
+
+optFunc is 947198.352941177
+optFunc is 831822.941176471
+Change the design pointdfuEngineType:	clock:100	NUM_OF_THREADS:1	LUTs:58684
+	throughput:0.0114	NUM_OF_ENGINES:7	
+
+
+
+Steepest first called for elementdfuEngineType:	clock:100	NUM_OF_THREADS:1	LUTs:58684
+	throughput:0.0114	NUM_OF_ENGINES:7	
+
+Steepest first try on dimensionNUM_OF_ENGINES
+old element is dfuEngineType:	clock:100	NUM_OF_THREADS:1	LUTs:58684
+	throughput:0.0114	NUM_OF_ENGINES:7	
+modified element is dfuEngineType:	NUM_OF_THREADS:1	clock:100	LUTs:58684
+	throughput:0.0114	NUM_OF_ENGINES:6	
+********measuring performance**************
+Refined throughput is 0.0100
+********measuring area/clock**************
+Refined Area luts is 50530
+
+Refined Area regs is 64029
+
+Refined Area DSPs is 291
+
+Refined clock is 4.749
+
+NUM_OF_POINTS 50
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 6
+NUM_OF_THREADS 1
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+optFunc is 831822.941176471
+optFunc is 947198.352941177
+old element is dfuEngineType:	clock:100	NUM_OF_THREADS:1	LUTs:58684
+	throughput:0.0114	NUM_OF_ENGINES:7	
+modified element is dfuEngineType:	NUM_OF_THREADS:1	clock:100	LUTs:58684
+	throughput:0.0114	NUM_OF_ENGINES:8	
+********measuring performance**************
+Refined throughput is 0.0130
+********measuring area/clock**************
+Refined Area luts is 66703
+
+Refined Area regs is 84843
+
+Refined Area DSPs is 387
+
+Refined clock is 4.895
+
+NUM_OF_POINTS 50
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 8
+NUM_OF_THREADS 1
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+optFunc is 1080355.82352941
+optFunc is 947198.352941177
+Found a better steepest on dimensionNUM_OF_ENGINES
+slope is : 1
+element is: dfuEngineType:	clock:100	NUM_OF_THREADS:1	LUTs:58684
+	throughput:0.0114	NUM_OF_ENGINES:7	
+
+new element is: dfuEngineType:	NUM_OF_THREADS:1	clock:100	LUTs:66703
+	throughput:0.0130	NUM_OF_ENGINES:8	
+
+old element is dfuEngineType:	clock:100	NUM_OF_THREADS:1	LUTs:58684
+	throughput:0.0114	NUM_OF_ENGINES:7	
+modified element is dfuEngineType:	NUM_OF_THREADS:1	clock:100	LUTs:58684
+	throughput:0.0114	NUM_OF_ENGINES:8	
+********measuring performance**************
+Refined throughput is 0.0130
+********measuring area/clock**************
+Refined Area luts is 66703
+
+Refined Area regs is 84843
+
+Refined Area DSPs is 387
+
+Refined clock is 4.895
+
+NUM_OF_POINTS 50
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 8
+NUM_OF_THREADS 1
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+optFunc is 1080355.82352941
+optFunc is 1080355.82352941
+Steepest first try on dimensionNUM_OF_THREADS
+old element is dfuEngineType:	clock:100	NUM_OF_THREADS:1	LUTs:58684
+	throughput:0.0114	NUM_OF_ENGINES:7	
+modified element is dfuEngineType:	NUM_OF_THREADS:2	clock:100	LUTs:58684
+	throughput:0.0114	NUM_OF_ENGINES:7	
+********measuring performance**************
+Refined throughput is 0.0133
+********measuring area/clock**************
+Refined Area luts is 59838
+
+Refined Area regs is 75009
+
+Refined Area DSPs is 339
+
+Refined clock is 5.445
+
+NUM_OF_POINTS 50
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 7
+NUM_OF_THREADS 2
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+optFunc is 1113691.41176471
+optFunc is 1080355.82352941
+Found a better steepest on dimensionNUM_OF_THREADS
+slope is : 0
+element is: dfuEngineType:	clock:100	NUM_OF_THREADS:1	LUTs:58684
+	throughput:0.0114	NUM_OF_ENGINES:7	
+
+new element is: dfuEngineType:	NUM_OF_THREADS:2	clock:100	LUTs:59838
+	throughput:0.0133	NUM_OF_ENGINES:7	
+
+old element is dfuEngineType:	clock:100	NUM_OF_THREADS:1	LUTs:58684
+	throughput:0.0114	NUM_OF_ENGINES:7	
+modified element is dfuEngineType:	NUM_OF_THREADS:2	clock:100	LUTs:58684
+	throughput:0.0114	NUM_OF_ENGINES:7	
+********measuring performance**************
+Refined throughput is 0.0133
+********measuring area/clock**************
+Refined Area luts is 59838
+
+Refined Area regs is 75009
+
+Refined Area DSPs is 339
+
+Refined clock is 5.445
+
+NUM_OF_POINTS 50
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 7
+NUM_OF_THREADS 2
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+optFunc is 1113691.41176471
+optFunc is 1113691.41176471
+Steepest first try on dimensiondfuEngineType
+old element is dfuEngineType:	clock:100	NUM_OF_THREADS:1	LUTs:58684
+	throughput:0.0114	NUM_OF_ENGINES:7	
+modified element is dfuEngineType:separatePipeEngine	NUM_OF_THREADS:1	clock:100	LUTs:58684
+	throughput:0.0114	NUM_OF_ENGINES:7	
+********measuring performance**************
+Refined throughput is 0.0114
+********measuring area/clock**************
+Refined Area luts is 58684
+
+Refined Area regs is 74436
+
+Refined Area DSPs is 339
+
+Refined clock is 4.716
+
+NUM_OF_POINTS 50
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 7
+NUM_OF_THREADS 1
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+optFunc is 947198.352941177
+optFunc is 1113691.41176471
+old element is dfuEngineType:	clock:100	NUM_OF_THREADS:1	LUTs:58684
+	throughput:0.0114	NUM_OF_ENGINES:7	
+modified element is dfuEngineType:separatePipeEngine	NUM_OF_THREADS:1	clock:100	LUTs:58684
+	throughput:0.0114	NUM_OF_ENGINES:7	
+********measuring performance**************
+Refined throughput is 0.0114
+********measuring area/clock**************
+Refined Area luts is 58684
+
+Refined Area regs is 74436
+
+Refined Area DSPs is 339
+
+Refined clock is 4.716
+
+NUM_OF_POINTS 50
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 7
+NUM_OF_THREADS 1
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+optFunc is 947198.352941177
+optFunc is 1113691.41176471
+
+
+optFunc is 1113691.41176471
+optFunc is 947198.352941177
+Change the design pointdfuEngineType:	NUM_OF_THREADS:2	clock:100	LUTs:59838
+	throughput:0.0133	NUM_OF_ENGINES:7	
+
+
+
+Steepest first called for elementdfuEngineType:	NUM_OF_THREADS:2	clock:100	LUTs:59838
+	throughput:0.0133	NUM_OF_ENGINES:7	
+
+Steepest first try on dimensionNUM_OF_ENGINES
+old element is dfuEngineType:	NUM_OF_THREADS:2	clock:100	LUTs:59838
+	throughput:0.0133	NUM_OF_ENGINES:7	
+modified element is dfuEngineType:	clock:100	NUM_OF_THREADS:2	LUTs:59838
+	throughput:0.0133	NUM_OF_ENGINES:6	
+********measuring performance**************
+Refined throughput is 0.0113
+********measuring area/clock**************
+Refined Area luts is 51495
+
+Refined Area regs is 64517
+
+Refined Area DSPs is 291
+
+Refined clock is 5.546
+
+NUM_OF_POINTS 50
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 6
+NUM_OF_THREADS 2
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+optFunc is 945563.823529412
+optFunc is 1113691.41176471
+old element is dfuEngineType:	NUM_OF_THREADS:2	clock:100	LUTs:59838
+	throughput:0.0133	NUM_OF_ENGINES:7	
+modified element is dfuEngineType:	clock:100	NUM_OF_THREADS:2	LUTs:59838
+	throughput:0.0133	NUM_OF_ENGINES:8	
+********measuring performance**************
+Refined throughput is 0.0149
+********measuring area/clock**************
+Refined Area luts is 68077
+
+Refined Area regs is 85493
+
+Refined Area DSPs is 387
+
+Refined clock is 6.024
+
+NUM_OF_POINTS 50
+NUM_OF_CENTEROIDS 5 
+NUM_OF_ENGINES 8
+NUM_OF_THREADS 2
+NUM_OF_DFU_THREADS 1
+SHARED_DFU true 
+optFunc is 1246628.88235294
+optFunc is 1113691.41176471
+Found a better steepest on dimensionNUM_OF_ENGINES
+slope is : 1
+element is: dfuEngineType:	NUM_OF_THREADS:2	clock:100	LUTs:59838
+	throughput:0.0133	NUM_OF_ENGINES:7	
+
+new element is: dfuEngineType:	clock:100	NUM_OF_THREADS:2	LUTs:68077
+	throughput:0.0149	NUM_OF_ENGINES:8	
+
+old element is dfuEngineType:	NUM_OF_THREADS:2	clock:100	LUTs:59838
+	throughput:0.0133	NUM_OF_ENGINES:7	
+modified element is dfuEngineType:	clock:100	NUM_OF_THREADS:2	LUTs:59838
+	throughput:0.0133	NUM_OF_ENGINES:8	
+********measuring performance**************
