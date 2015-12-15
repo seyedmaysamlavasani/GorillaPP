@@ -13,7 +13,7 @@
 double closestDistance;
 int centeroidIndex = 0;
 int closestIndex;
-shared int mode = 0;
+int mode = 0;
 
 memRep192_t pMemOut;
 memRep192_t cMemOut;

@@ -3,7 +3,7 @@
 #pragma CONCURRENT_SAFE
 
 int broadcastIndex = 0;
-shared int mode = 0;
+int mode = 0;
 #define BROADCAST 0
 #define UNICAST 1
 //Input stream starts with cnetroids

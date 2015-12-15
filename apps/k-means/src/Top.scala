@@ -23,7 +23,7 @@ class Top extends Component with include {
   val sqrt = FPDPSqrt() 
   val dFUab = ArrayBuffer((sub1, "sub1"), (sub2, "sub2"), (sub3, "sub3"), (mul1, "mul1"), (mul2, "mul2"), (mul3, "mul3"), (add1, "add1"), (add2, "add2"), (sqrt, "sqrt"))  
 
-  var dFU = Offload(PipeEngine("distanceFU.c"), dFUab)
+  var dFU = Offload(Engine("distanceFU.c"), dFUab)
   
   if (#PIPED_DFU) {
     dFU = Offload(PipeEngine("distanceFU.c"), dFUab)
